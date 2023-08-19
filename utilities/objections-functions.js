@@ -90,7 +90,7 @@ export function getObjectionsByTitleSearch(searchTerm = "") {
   });
 }
 
-export function getAllObjectionTags() {
+export function getAllObjectionsTags() {
   const allObjectionArticles = getAllObjections();
   const allTags = [];
   allObjectionArticles.forEach((objectionArticle) => {
@@ -110,7 +110,7 @@ export function getAllObjectionTags() {
   return allTags.sort((tagA, tagB) => (tagA.count < tagB.count ? 1 : -1));
 }
 
-export function getAllObjectionCategories() {
+export function getAllObjectionsCategories() {
   const allObjectionArticles = getAllObjections();
   const allCategories = [];
   allObjectionArticles.forEach((objectionArticle) => {

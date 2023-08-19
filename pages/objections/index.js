@@ -1,7 +1,7 @@
 import {
   getObjectionsBySearchTerm,
-  getAllObjectionTags,
-  getAllObjectionCategories,
+  getAllObjectionsTags,
+  getAllObjectionsCategories,
 } from "../../utilities/objections-functions";
 
 export default function AllObjectionPage(props) {
@@ -17,9 +17,9 @@ export default function AllObjectionPage(props) {
   );
 }
 export async function getStaticProps(props) {
-  const allObjectionTags = getAllObjectionTags();
+  const allObjectionTags = getAllObjectionsTags();
   console.log("ALL OBJECTION TAGS FROM INDEX:   ", allObjectionTags);
-  const allObjectionCategories = getAllObjectionCategories();
+  const allObjectionCategories = getAllObjectionsCategories();
   console.log(
     "ALL OBJECTION CATEGORIES FROM INDEX:   ",
     allObjectionCategories

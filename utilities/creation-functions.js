@@ -95,7 +95,7 @@ export function getCreationArticlesByTitleSearch(searchTerm = "") {
   });
 }
 
-export function getAllCreationTags() {
+export function getAllCreationsTags() {
   const allCreationArticles = getAllCreationArticles();
   const allTags = [];
   allCreationArticles.forEach((creationArticle) => {
@@ -115,7 +115,7 @@ export function getAllCreationTags() {
   return allTags.sort((tagA, tagB) => (tagA.tag > tagB.tag ? 1 : -1));
 }
 
-export function getAllCreationCategories() {
+export function getAllCreationsCategories() {
   const allCreationArticles = getAllCreationArticles();
   const allCategories = [];
   allCreationArticles.forEach((creationArticle) => {

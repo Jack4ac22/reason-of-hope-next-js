@@ -73,8 +73,7 @@ export function getLogicsBySearchTerm(searchTerm = "") {
   return getAllLogics().filter((logic) => {
     if (logic && logic.title) {
       return (
-        logic.title.includes(searchTerm) ||
-        logic.content.includes(searchTerm)
+        logic.title.includes(searchTerm) || logic.content.includes(searchTerm)
       );
     }
     return false;
@@ -90,6 +89,7 @@ export function getLogicsByTitleSearch(searchTerm = "") {
   });
 }
 
+// TODO: add counting of tags and categories
 export function getAllLogicsTags() {
   const allLogicArticles = getAllLogics();
   const allTags = [];

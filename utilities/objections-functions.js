@@ -62,8 +62,9 @@ export function getObjectionsByTag(tag = "") {
 
 export function getObjectionsByCategory(category = "") {
   return getAllObjections().filter((objection) => {
-    if (objection && objection.category) {
-      return objection.category.includes(category);
+    if (objection && objection.categories) {
+      console.log("catefories", objection.categories);
+      return objection.categories.includes(category);
     }
     return false;
   });
@@ -89,6 +90,7 @@ export function getObjectionsByTitleSearch(searchTerm = "") {
     return false;
   });
 }
+// TODO: add counting of tags and categories
 
 export function getAllObjectionsTags() {
   const allObjectionArticles = getAllObjections();

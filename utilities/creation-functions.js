@@ -56,6 +56,8 @@ export function getAllCreationArticles(orderedBy = "date") {
   return orderCreationArticlesBy(allCreationArticles, orderedBy);
 }
 
+// TODO: add counting of tags and categories
+
 export function getCreationArticlesByTag(tag = "") {
   return getAllCreationArticles().filter((creationArticle) => {
     if (creationArticle && creationArticle.tags) {

@@ -1,15 +1,82 @@
 import fs from "fs";
 import path from "path";
 
-// Get all objections and return them as an array of objects
-export async function getAllObjections() {
-  const files = fs.readdirSync(path.join(cwd(), "content/objections"));
-  console.log(files);
-  const objections = files.map((filename) => {
-    const filePath = path.join(process.cwd(), "objections", filename);
-    const fileContents = fs.readFileSync(filePath, "utf8");
-    const { data } = matter(fileContents);
-    return data;
+import matter from "gray-matter";
+
+function consoleLog(message) {
+  console.log("****************************************");
+  console.log("****************************************");
+  console.log(message);
+  console.log("****************************************");
+  console.log("****************************************");
+}
+
+function orderObjectionsBy(objections, orderBy) {
+  try {
+    return objections.sort((objectionA, objectionB) =>
+      objectionA[orderBy] > objectionB[orderBy] ? 1 : -1
+    );
+  } catch (error) {
+    consoleLog(error);
+  } finally {
+    return objections;
+  }
+}
+
+const objectionsDirectory = path.join(process.cwd(), "content/objections");
+
+export function getObjectionsFiles() {
+  return fs.readdirSync(objectionsDirectory);
+}
+
+export function getObjectionData(objectionIdentifier) {
+  const objectionSlug = objectionIdentifier.replace(/\.md$/, "");
+  const filePath = path.join(objectionsDirectory, `${objectionSlug}.md`);
+  const fileContent = fs.readFileSync(filePath, "utf-8");
+  const { data, content } = matter(fileContent);
+  const objectionData = {
+    slug: objectionSlug,
+    ...data,
+    content: content,
+  };
+  return objectionData;
+}
+
+export function getAllObjections(orderedBy = "date") {
+  const objectionFiles = getObjectionsFiles();
+  const allObjections = objectionFiles.map((objectionFile) => {
+    return getObjectionData(objectionFile);
   });
-  return objections;
+
+  return orderObjectionsBy(allObjections, orderedBy);
+}
+
+export function getObjectionsByTag(tag) {
+  return getAllObjections().filter((objection) => {
+    if (objection && objection.tags) {
+      return objection.tags.includes(tag);
+    }
+    return false;
+  });
+}
+
+export function getObjectionsByCategory(category) {
+  return getAllObjections().filter((objection) => {
+    if (objection && objection.category) {
+      return objection.category.includes(category);
+    }
+    return false;
+  });
+}
+
+export function getObjectionsBySearchTerm(searchTerm) {
+  return getAllObjections().filter((objection) => {
+    if (objection && objection.title) {
+      return (
+        objection.title.includes(searchTerm) ||
+        objection.content.includes(searchTerm)
+      );
+    }
+    return false;
+  });
 }

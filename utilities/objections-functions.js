@@ -63,7 +63,6 @@ export function getObjectionsByTag(tag = "") {
 export function getObjectionsByCategory(category = "") {
   return getAllObjections().filter((objection) => {
     if (objection && objection.categories) {
-      console.log("catefories", objection.categories);
       return objection.categories.includes(category);
     }
     return false;

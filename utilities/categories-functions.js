@@ -22,16 +22,14 @@ import {
 
 export function getAllCategoriesCount() {
   const creationCategories = getAllCreationsCategories();
-  //   console.log("CREATION CATS:   ", creationCategories);
+
   const logicCategories = getAllLogicsCategories();
 
   const objectionCategories = getAllObjectionsCategories();
 
   const publicationCategories = getAllPublicationsCategories();
-  //   console.log("PUBLICATION CATS:   ", publicationCategories);
 
   const allCategories = [];
-  //   loop through all categories and add them to allCategories check if they exist first, if they do , add the count to the found count
   creationCategories.forEach((creationCategory) => {
     const foundCategory = allCategories.find(
       (category) => category.category === creationCategory.category
@@ -80,20 +78,13 @@ export function getAllCategoriesarticles() {
   const allCatWithArticles = [];
   const allCategories = getAllCategoriesCount();
   allCategories.forEach((category) => {
-    console.log("CAT:   ", category);
-    const categoryCreationArticles = getCreationArticlesByCategory(category.category);
-    console.log("CAT CREATION ARTICLES:   ", categoryCreationArticles);
-    const categoryLogicArticles = getLogicsByCategory(category.category);
-    const categoryObjectionArticles = getObjectionsByCategory(category.category);
-    const categoryPublicationArticles = getPublicationsByCategory(category.category);
-    const categoryWithArticles = {
-      ...category,
-      creationArticles: categoryCreationArticles,
-      logicArticles: categoryLogicArticles,
-      objectionArticles: categoryObjectionArticles,
-      publicationArticles: categoryPublicationArticles,
-    };
-    allCatWithArticles.push(categoryWithArticles);
+    const creationArticlesByCategory = getCreationArticlesByCategory(
+      category.category
+    );
+    const objectionsArticlesByCategory = getObjectionsByCategory(
+      category.category
+    );
+    console.log("objectionsArticlesByCategory", objectionsArticlesByCategory);
   });
   return allCatWithArticles;
 }

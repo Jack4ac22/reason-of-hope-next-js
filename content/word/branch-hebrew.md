@@ -3,7 +3,6 @@ title: "غصن- צֶמַח [تسيماخ]"
 date: "2020-09-25"
 categories: 
   - "كلمة-ورسالة"
-  - "الكتاب-المقدس"
 tags: 
   - "عبري"
 coverImage: "e2808ee281a8d7a6d6b6d79ed6b7d797-branche281a9.jpg"

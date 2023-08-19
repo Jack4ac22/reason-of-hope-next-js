@@ -3,7 +3,6 @@ title: "تامّ، תָּם"
 date: "2020-08-25"
 categories: 
   - "كلمة-ورسالة"
-  - "الكتاب-المقدس"
 tags: 
   - "عبري"
 coverImage: "e2808ee281a8d7aad6b8d6bcd79de281a9.jpg"

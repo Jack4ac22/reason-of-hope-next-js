@@ -1,19 +1,35 @@
-import getAllObjections from "../../utilities/objections-functions";
+import {
+  getObjectionsBySearchTerm,
+  getAllObjectionTags,
+  getAllObjectionCategories,
+} from "../../utilities/objections-functions";
 
-export default function AllObjectionPage({ allObjections }) {
-  console.log(allObjections);
+export default function AllObjectionPage(props) {
   return (
     <>
       <h1>all objections</h1>
+      <ul>
+        {props.allObjections.map((objection) => (
+          <li key={objection.title}>{objection.title}</li>
+        ))}
+      </ul>
     </>
   );
 }
-export async function getStaticProps() {
-  const allObjections = await getAllObjections();
-
+export async function getStaticProps(props) {
+  const allObjectionTags = getAllObjectionTags();
+  console.log("ALL OBJECTION TAGS FROM INDEX:   ", allObjectionTags);
+  const allObjectionCategories = getAllObjectionCategories();
+  console.log(
+    "ALL OBJECTION CATEGORIES FROM INDEX:   ",
+    allObjectionCategories
+  );
+  const objections = getObjectionsBySearchTerm("الله");
+  // console.log("ALLOBJECTITIONS FROM INDEX:   ", objections);
+  const allObjections = ["hello", "world"];
   return {
     props: {
-      allObjections,
+      allObjections: objections,
     },
   };
 }

@@ -51,7 +51,7 @@ export function getAllObjections(orderedBy = "date") {
   return orderObjectionsBy(allObjections, orderedBy);
 }
 
-export function getObjectionsByTag(tag) {
+export function getObjectionsByTag(tag = "") {
   return getAllObjections().filter((objection) => {
     if (objection && objection.tags) {
       return objection.tags.includes(tag);
@@ -60,7 +60,7 @@ export function getObjectionsByTag(tag) {
   });
 }
 
-export function getObjectionsByCategory(category) {
+export function getObjectionsByCategory(category = "") {
   return getAllObjections().filter((objection) => {
     if (objection && objection.category) {
       return objection.category.includes(category);
@@ -69,7 +69,7 @@ export function getObjectionsByCategory(category) {
   });
 }
 
-export function getObjectionsBySearchTerm(searchTerm) {
+export function getObjectionsBySearchTerm(searchTerm = "") {
   return getAllObjections().filter((objection) => {
     if (objection && objection.title) {
       return (
@@ -79,4 +79,55 @@ export function getObjectionsBySearchTerm(searchTerm) {
     }
     return false;
   });
+}
+
+export function getObjectionsByTitleSearch(searchTerm = "") {
+  return getAllObjections().filter((objection) => {
+    if (objection && objection.title) {
+      return objection.title.includes(searchTerm);
+    }
+    return false;
+  });
+}
+
+export function getAllObjectionTags() {
+  const allObjectionArticles = getAllObjections();
+  const allTags = [];
+  allObjectionArticles.forEach((objectionArticle) => {
+    if (objectionArticle && objectionArticle.tags) {
+      objectionArticle.tags.forEach((tag) => {
+        const tagIndex = allTags.findIndex(
+          (tagObject) => tagObject.tag === tag
+        );
+        if (tagIndex === -1) {
+          allTags.push({ tag: tag, count: 1 });
+        } else {
+          allTags[tagIndex].count++;
+        }
+      });
+    }
+  });
+  return allTags.sort((tagA, tagB) => (tagA.count < tagB.count ? 1 : -1));
+}
+
+export function getAllObjectionCategories() {
+  const allObjectionArticles = getAllObjections();
+  const allCategories = [];
+  allObjectionArticles.forEach((objectionArticle) => {
+    if (objectionArticle && objectionArticle.categories) {
+      objectionArticle.categories.forEach((category) => {
+        const categoryIndex = allCategories.findIndex(
+          (categoryObject) => categoryObject.category === category
+        );
+        if (categoryIndex === -1) {
+          allCategories.push({ category: category, count: 1 });
+        } else {
+          allCategories[categoryIndex].count++;
+        }
+      });
+    }
+  });
+  return allCategories.sort((categoryA, categoryB) =>
+    categoryA.count < categoryB.count ? 1 : -1
+  );
 }

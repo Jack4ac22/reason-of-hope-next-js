@@ -18,6 +18,11 @@ import {
   getAllPublications,
   getPublicationsByCategory,
 } from "./publications-functions.js";
+import {
+  getAllWords,
+  getWordsByCategory,
+  getAllWordsCategories,
+} from "./word-functions.js";
 
 export function getAllCategoriesCount() {
   const creationCategories = getAllCreationsCategories();
@@ -28,7 +33,10 @@ export function getAllCategoriesCount() {
 
   const publicationCategories = getAllPublicationsCategories();
 
+  const wordCategories = getAllWordsCategories();
+
   const allCategories = [];
+
   creationCategories.forEach((creationCategory) => {
     const foundCategory = allCategories.find(
       (category) => category.category === creationCategory.category
@@ -69,7 +77,16 @@ export function getAllCategoriesCount() {
       allCategories.push(publicationCategory);
     }
   });
-  console.log("ALL CATS1:   ", allCategories);
+  wordCategories.forEach((wordCategory) => {
+    const foundCategory = allCategories.find(
+      (category) => category.category === wordCategory.category
+    );
+    if (foundCategory) {
+      foundCategory.count += wordCategory.count;
+    } else {
+      allCategories.push(wordCategory);
+    }
+  });
   return allCategories;
 }
 
@@ -88,17 +105,53 @@ export function getAllCategoriesarticles() {
     const publicationsArticlesByCategory = getPublicationsByCategory(
       category.category
     );
+    const wordsArticlesByCategory = getWordsByCategory(category.category);
+
     const newCategoryObject = {
       category: category.category,
       count: category.count,
-      articles: [
-        ...creationArticlesByCategory,
-        ...objectionsArticlesByCategory,
-        ...logicsArticlesByCategory,
-        ...publicationsArticlesByCategory,
-      ],
+      // make sure to spread the articles based on their source (creation, objection, logic, publication, word)
+      articles: {
+        creation: [...creationArticlesByCategory],
+        objection: [...objectionsArticlesByCategory],
+        logic: [...logicsArticlesByCategory],
+        publication: [...publicationsArticlesByCategory],
+        word: [...wordsArticlesByCategory],
+      }
     };
     allCatWithArticles.push(newCategoryObject);
   });
   return allCatWithArticles;
+}
+
+export function getArticlesByCategory(category) {
+  const creationArticlesByCategory = getCreationArticlesByCategory(category);
+  const objectionsArticlesByCategory = getObjectionsByCategory(category);
+  const logicsArticlesByCategory = getLogicsByCategory(category);
+  const publicationsArticlesByCategory = getPublicationsByCategory(category);
+  const wordsArticlesByCategory = getWordsByCategory(category);
+  const allArticles = {
+    creation: {
+      count: creationArticlesByCategory.length,
+      articles: [...creationArticlesByCategory],
+    },
+    objection: {
+      count: objectionsArticlesByCategory.length,
+      articles: [...objectionsArticlesByCategory],
+    },
+    logic: {
+      count: logicsArticlesByCategory.length,
+      articles: [...logicsArticlesByCategory],
+    },
+    publication: {
+      count: publicationsArticlesByCategory.length,
+      articles: [...publicationsArticlesByCategory],
+    },
+    word: {
+      count: wordsArticlesByCategory.length,
+      articles: [...wordsArticlesByCategory],
+    },
+  };
+
+  return allArticles;
 }

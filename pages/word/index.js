@@ -20,14 +20,18 @@ export default function AllWordPage(props) {
                     <li key={word.title}>
                       <h4>{word.title}</h4>
                       <p>{word.content}</p>
-                      <ul>tags:
+                      <ul>
+                        tags:
                         {word.tags.map((tag) => {
                           return <li key={tag}>{tag}</li>;
                         })}
                       </ul>
-                      <ul>categories:
+                      <ul>
+                        categories:
                         {word.categories.map((category) => {
-                          return <li key={category}>{category.replace('-', ' ')}</li>;
+                          return (
+                            <li key={category}>{category.replace("-", " ")}</li>
+                          );
                         })}
                       </ul>
                     </li>

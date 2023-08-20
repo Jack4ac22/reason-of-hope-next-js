@@ -62,8 +62,8 @@ export function getLogicsByTag(tag = "") {
 
 export function getLogicsByCategory(category = "") {
   return getAllLogics().filter((logic) => {
-    if (logic && logic.category) {
-      return logic.category.includes(category);
+    if (logic && logic.categories) {
+      return logic.categories.includes(category);
     }
     return false;
   });
@@ -89,7 +89,6 @@ export function getLogicsByTitleSearch(searchTerm = "") {
   });
 }
 
-// TODO: add counting of tags and categories
 export function getAllLogicsTags() {
   const allLogicArticles = getAllLogics();
   const allTags = [];

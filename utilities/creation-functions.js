@@ -69,8 +69,8 @@ export function getCreationArticlesByTag(tag = "") {
 
 export function getCreationArticlesByCategory(category = "") {
   return getAllCreationArticles().filter((creationArticle) => {
-    if (creationArticle && creationArticle.category) {
-      return creationArticle.category.includes(category);
+    if (creationArticle && creationArticle.categories) {
+      return creationArticle.categories.includes(category);
     }
     return false;
   });

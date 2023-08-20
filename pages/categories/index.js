@@ -12,6 +12,13 @@ export default function AllCategoriesPage(props) {
             <span>{creationArticle.category}</span>
             <span>: </span>
             <span>{creationArticle.count}</span>
+            <ul>
+              {creationArticle.articles.map((article) => (
+                <li key={article.slug}>
+                  <span>{article.title}</span>
+                </li>
+              ))}
+            </ul>
           </li>
         ))}
       </ul>
@@ -24,7 +31,7 @@ export async function getStaticProps(props) {
   console.log("ALL CATS Art:   ", allCategories);
   return {
     props: {
-      allCategories: [...categories],
+      allCategories: [...allCategories],
     },
   };
 }

@@ -1,36 +1,64 @@
 import {
-  getCreationArticlesBySearchTerm,
+  // getCreationArticlesBySearchTerm,
   getAllCreationsTags,
   getAllCreationsCategories,
   getCreationArticlesByCategory,
+  getCreationArticlesByTag,
 } from "../../utilities/creation-functions";
 
 export default function AllCreationArticlePage(props) {
   return (
     <>
-      <h1>all creationArticles</h1>
+      <h1>all Categories</h1>
       <ul>
-        {props.allCreationArticles.map((creationArticle) => (
-          <li key={creationArticle.title}>{creationArticle.title}</li>
+        {props.allCreationArticlesCategories.map((creationArticle) => (
+          <li key={creationArticle.category}>
+            {creationArticle.category}
+            <span> {creationArticle.count}</span>
+            <ul>
+              {creationArticle.articles.map((article) => (
+                <li key={article.title}>{article.title}</li>
+              ))}
+            </ul>
+          </li>
+        ))}
+      </ul>
+      <h1>all Tags</h1>
+      <ul>
+        {props.allCreationArticlesTags.map((creationArticle) => (
+          <li key={creationArticle.tag}>
+            {creationArticle.tag}
+            <span> {creationArticle.count}</span>
+            <ul>
+              {creationArticle.articles.map((article) => (
+                <li key={article.title}>{article.title}</li>
+              ))}
+            </ul>
+          </li>
         ))}
       </ul>
     </>
   );
 }
 export async function getStaticProps(props) {
-  const AllTags = getAllCreationsTags();
-  //   console.log("ALL TAGS FROM INDEX:   ", AllTags);
-  const allCategories = getAllCreationsCategories();
-  // console.log("ALL CATEGORIES FROM INDEX:   ", allCategories);
-  const creationArticlesByCat = getCreationArticlesByCategory("إصدارات");
-  console.log("creation articles by tag:   ", creationArticlesByCat);
-  const creationArticles = getCreationArticlesBySearchTerm("كارل");
+  const allTags = getAllCreationsTags();
 
-  // console.log("LENGTH FROM INDEX:   ", creationArticles.length);
-  const allCreationArticles = ["hello", "world"];
+  allTags.map((tag) => {
+    const articlesByTag = getCreationArticlesByTag(tag.tag);
+    tag.articles = articlesByTag;
+  });
+
+  const allCategories = getAllCreationsCategories();
+
+  allCategories.map((category) => {
+    const articlesByCategory = getCreationArticlesByCategory(category.category);
+    category.articles = articlesByCategory;
+  });
+
   return {
     props: {
-      allCreationArticles: creationArticlesByCat,
+      allCreationArticlesTags: allTags,
+      allCreationArticlesCategories: allCategories,
     },
   };
 }

@@ -1,4 +1,3 @@
-import { get } from "http";
 import {
   getAllCreationsCategories,
   getAllCreationArticles,
@@ -77,6 +76,7 @@ export function getAllCategoriesCount() {
 export function getAllCategoriesarticles() {
   const allCatWithArticles = [];
   const allCategories = getAllCategoriesCount();
+
   allCategories.forEach((category) => {
     const creationArticlesByCategory = getCreationArticlesByCategory(
       category.category
@@ -84,7 +84,21 @@ export function getAllCategoriesarticles() {
     const objectionsArticlesByCategory = getObjectionsByCategory(
       category.category
     );
-    console.log("objectionsArticlesByCategory", objectionsArticlesByCategory);
+    const logicsArticlesByCategory = getLogicsByCategory(category.category);
+    const publicationsArticlesByCategory = getPublicationsByCategory(
+      category.category
+    );
+    const newCategoryObject = {
+      category: category.category,
+      count: category.count,
+      articles: [
+        ...creationArticlesByCategory,
+        ...objectionsArticlesByCategory,
+        ...logicsArticlesByCategory,
+        ...publicationsArticlesByCategory,
+      ],
+    };
+    allCatWithArticles.push(newCategoryObject);
   });
   return allCatWithArticles;
 }

@@ -89,7 +89,6 @@ export function getObjectionsByTitleSearch(searchTerm = "") {
     return false;
   });
 }
-// TODO: add counting of tags and categories
 
 export function getAllObjectionsTags() {
   const allObjectionArticles = getAllObjections();

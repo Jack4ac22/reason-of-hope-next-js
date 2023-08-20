@@ -12,16 +12,19 @@ export default function UiHeader() {
           </div>
           <div className="col row">
             <div className="menu-item col">
-              <Link href="/about"> اعتراضات</Link>
+              <Link href="/objections"> اعتراضات</Link>
             </div>
             <div className="menu-item col">
-              <Link href="/articles"> مقالات الخلق </Link>
+              <Link href="/creation"> مقالات الخلق </Link>
             </div>
             <div className="menu-item col">
-              <Link href="/videos"> الإنجيل</Link>
+              <Link href="/logic"> المنطق</Link>
             </div>
             <div className="menu-item col">
-              <Link href="/books"> منشورات </Link>
+              <Link href="/word">كلمة ورسالة</Link> 
+            </div>
+            <div className="menu-item col">
+              <Link href="/publications"> منشورات </Link>
             </div>
             <div className="menu-item col">
               <Link href="/contact"> اتصل بنا </Link>

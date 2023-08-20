@@ -62,8 +62,8 @@ export function getPublicationsByTag(tag = "") {
 
 export function getPublicationsByCategory(category = "") {
   return getAllPublications().filter((publication) => {
-    if (publication && publication.category) {
-      return publication.category.includes(category);
+    if (publication && publication.categories) {
+      return publication.categories.includes(category);
     }
     return false;
   });

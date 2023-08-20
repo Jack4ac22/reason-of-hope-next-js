@@ -1,3 +1,4 @@
+import Link from "next/link";
 import {
   getWordsByCategory,
   getAllWordsTags,
@@ -18,8 +19,7 @@ export default function AllWordPage(props) {
                 {tagObject.list.map((word) => {
                   return (
                     <li key={word.title}>
-                      <h4>{word.title}</h4>
-                      <p>{word.content}</p>
+                      <Link href={`/word/${word.slug}` }>{word.title}</Link>
                       <ul>
                         tags:
                         {word.tags.map((tag) => {

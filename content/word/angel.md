@@ -1,0 +1,44 @@
+---
+title: "ملاك، מַלְאָךְ [مالاخ]"
+date: "2020-07-14"
+categories: 
+  - "كلمة-ورسالة"
+tags: 
+  - "ملاك"
+  - "ملاك-الرب"
+  - "الكتاب-المقدس"
+  - "عبري"
+coverImage: "e2808ee281a8d79ed6b7d79cd6b0d790d6b8d79ad6b0e281a9.jpg"
+---
+
+مع تزايد عدد الأشخاص المؤمنين بوجود الكائنات الفضائية غير البشرية، نجد عبارةً تنتشر عند تناول هذا النوع من المواضيع وهي: ”نحن لسنا وحيدون“. ولكن الأمر الذي قد يفاجئ الكثيرين هو أن الكتاب المقدس يؤيد هذه العبارة، فنحن لسنا وحيدون ولكن بمعنى آخر، فالكتاب المقدس يعلمنا أنَّه يوجد بُعدٌ آخر في العالم المخلوق هذا، بُعدٌ روحي تتواجد فيه تلك المخلوقات الروحية التي تُعرف باسم الملائكة - متضمنة الشريرة منها والخَيِّرة. ويسجل الكتاب المقدس العديد سرديات عن مناسبات التقى فيها أناس مع الملائكة، ويعلمنا بأنَّه في بعض الأحيان يستضيف الناس الملائكة دون معرفةٍ بذلك ([العبرانيين ١٣: ٢](https://biblia.com/books/ar-vandyke/heb13.2)).
+
+**מַלְאָךְ**
+
+إن الكلمة العبرية [מַלְאָךְ](https://www.blueletterbible.org/lang/lexicon/lexicon.cfm?Strongs=H4397&t=KJV) \[تُقرأ مالاك، مالاخ\] قد تشير إلى الإنسان المُرسَل سواء كان سفيراً مُرسلاً من قبل الملك في مهمة دبلوماسية ([صموئيل الثاني ٥: ١١](https://biblia.com/books/ar-vandyke/2sam5.11))، أو إن كان ساعي بريد يحمل رسالةً ذات طابع عسكريّ أو تجاريّ ([صموئيل الثاني ١٢: ٢٧](https://biblia.com/books/ar-vandyke/2sam12.27)). ويمكن أن يتم استخدام هذه الكلمة لوصف الأنبياء العبرانيّين ([حجي ١: ١٣](https://biblia.com/books/ar-vandyke/hag1.13)) والكهنة (ملاخي ٢: ٧) بوصفهم مرسلين من قبل الله.  
+إن الرسول هو ممثل للمُرسِل ونجد عبارةً مهمة كانت تصدر عن الرسل وهي تعكس أهمية هذا المنصب.  فنقرأ في أقوال أنبياء العهد القديم: ”هكذا قال الربّ…“ ([ارمياء ٦: ١٦](https://biblia.com/books/ar-vandyke/jer6.16)؛ [٩: ١٧](https://biblia.com/books/ar-vandyke/jer9.17) وغير ذلك الكثير). إن الأنبياء الذين أرسلهم الله قد نقلوا فقط الكلمات التي كانت قد اُعطيَت لهم من قِبَل الرب كما يرد في [رسالة بطرس الرسول الثانية ١: ٢١](https://biblia.com/books/ar-vandyke/2pet1.21).
+
+إن هذه الكلمة تشير أيضاً إلى الكائنات السماوية والمخلوقات الروحية التي تشتمل على حشود وربوات الملائكة ([دانيال ٧: ١٠](https://biblia.com/books/ar-vandyke/dan7.10))، إن الملائكة هي أعلى مرتبة من البشر وفق ترتيب الخلق ([المزمور ٨: ٥](https://biblia.com/books/ar-vandyke/psa8.5))، وعلى ما يبدو من النصوص المقدسة أنهم قادرون على اتخاذ الشكل والخصائص البشرية ([التكوين ١٩: ١-٢](https://biblia.com/books/ar-vandyke/Ge19.1-2)).  
+نقرأ عن وجود تصنيفات ملائكية مثل الشيروبيم ([الخروج ٢٥: ١٩](https://biblia.com/books/ar-vandyke/ex25.19)) والسيرافيم ([اشعياء ٦: ٢](https://biblia.com/books/ar-vandyke/is6.2))، وهذا الأمر يوحي بوجود نوع من الترتيب الهرمي بين الملائكة.  
+إن الوظيفة الرئيسية للملائكة هي التسبيح وتقديم المجد اللازم للرب الإله ([المزمور ١٠٣: ٢٠](https://biblia.com/books/ar-vandyke/psa103.20)؛ [١٤٨: ٢](https://biblia.com/books/ar-vandyke/psa148.2)). وتمَّ تكليف الملائكة بالعمل كرسل للرب الإله ونقل الوحي وتفسير الرؤى المختصة بأمور مستقبلية والأحلام ([زكريا ١: ١٤](https://biblia.com/books/ar-vandyke/zec1.14)؛ [٤: ١، ٤](https://biblia.com/books/ar-vandyke/zec4.1-4)؛ [٦: ٤-٥](https://biblia.com/books/ar-vandyke/zec6.4-5)). وفي بعض الأحيان تم توجيه الملائكة للدفاع عن شعب الله وحمايته ([الملوك الأول ١٩: ٥، ٧](https://biblia.com/books/ar-vandyke/1ki19.5-7)؛ [الملوك الثاني ٦: ١٧](https://biblia.com/books/ar-vandyke/2ki6.17)؛ [المزمور ٩١: ١١](https://biblia.com/books/ar-vandyke/psa91.11)). ويوجد جانب إضافي غامض نوعاً ما ويختص بالحرب السماوية التي يخوضها الملائكة مع نظرائهم الذين سقطوا، وهو الجانب الذي يمكننا أن نقرأ عنه من [دانيال ١٠: ١٣](https://biblia.com/books/ar-vandyke/dan10.13)، [دانيال ٢٠](https://biblia.com/books/ar-vandyke/dan20)؛ [زكريا ٣: ١-٢](https://biblia.com/books/ar-vandyke/zec3.1-2)).
+
+يوجد استخدام خاص لكلمة ”ملاك“ وهو عند الإشارة إلى تجسد أو ظهور اللاهوت المعروف باسم ”ملاك الربّ“ ([التكوين ١٦: ٧](https://biblia.com/books/ar-vandyke/Ge16.7)؛ [الخروج ٣: ٢](https://biblia.com/books/ar-vandyke/ex3.2)؛ [العدد ٢٢: ٣٥](https://biblia.com/books/ar-vandyke/num22.35)). ملاك الرب قد قدَّم الإرشاد وقاد الشعب عبر صحراء سيناء للعبرانيين بعد الخروج ([الخروج ٣٢: ٣٤](https://biblia.com/books/ar-vandyke/ex32.34))، وكان وسيطاً في نقل الإعلانات الإلهية ([القضاة ١٣: ١٦](https://biblia.com/books/ar-vandyke/jdg13.16))، وكان حامياً لخائفي الله ومُتَّقيه ([المزمور ٣٤: ٧](https://biblia.com/books/ar-vandyke/psa34.7)). كما أنَّ ملاك الربِّ امتلك السلطان ليغفر الخطايا ([الخروج ٢٣: ٢٠](https://biblia.com/books/ar-vandyke/jdg23.20)) وقَبِلَ العبادة من البشر ([القضاة ١٣: ٢٠](https://biblia.com/books/ar-vandyke/jdg13.2-)) وهذه الأعمال هي أعمال من اختصاص الله وحده, ولهذا السبب نجد أن الكثير من الدارسين يعتبرون أن ملاك الرب كان ظهورات للمسيح قبل التجسد في العهد القديم.
+
+لقد ذكر ملاخي رسولاً خاصّاً على شبه إيليا النبي، وهو سوف يُعِدُّ الطريق ليوم الربِّ ([ملاخي ٣: ١](https://biblia.com/books/ar-vandyke/mal3.1)؛ [٤: ٥](https://biblia.com/books/ar-vandyke/mal4.5)). وقد حدَّد يسوع شخصية هذا السابق بأنَّه يوحنا المعمدان ([متى ١٠: ١١](https://biblia.com/books/ar-vandyke/mt10.11)).
+
+إن العهد الجديد يؤكد على تعليم العهد القديم بأن الملائكة هم ”أرواح خادمة“ لأولئك العتيدين أن يرثوا الخلاص ([العبرانيين ١: ١٤](https://biblia.com/books/ar-vandyke/heb1.14)). كما يقدّم الرسول بولس وصفاً إضافياً للحرب الروحيّة التي تشير إلى صراع كوني بين الله والشيطان وذلك على المستوى العام وعلى المستوى الشخصي للمؤمنين ([رسالة أفسس ٦: ١٠-١٣](https://biblia.com/books/ar-vandyke/eph6.10-13)). وهنا يجب على المسيحيّين أن يتنبهوا إلى حقيقة كون الرب الإله قد قام بالفعل بنزع سلاح هذه القوى السماوية وبأنَّه لا يجب أن يتمَّ تقديم أي نوع من العبادة لها ([كولوسي ٢: ١٥، ١٨](https://biblia.com/books/ar-vandyke/col2.15-18)).  
+إن أيَّ نوعٍ من العبادة أو الصلاة للملائكة هو عملٌ رجسٌ وعبادةٌ للمخلوق دون الخالق، لذلك يتوجب على المؤمنين أن يكونوا حريصين بشكل دائمٍ من أن يُخدَعوا بأيّ تعليم خاطئٍ. بل بالحري أن يقدموا الشكر الواجب للرب الإله على الخطة الخلاصية التي أعدَّها وأتمَّها من خلال الموت الكفّاري للأقنوم الثاني، الإبن الوحيد، ربنا ومخلصنا يسوع المسيح الذي افتدانا من اللعنة وكسر شوكة الموت وسيأتي بمجدٍ ليدين الأحياء والاموات.
+
+> الآيات المفتاحية:  
+> التكوين ١٦: ٧ ”فَوَجَدَهَا **مَلاَكُ** الرَّبِّ عَلَى عَيْنِ الْمَاءِ فِي الْبَرِّيَّةِ، عَلَى الْعَيْنِ الَّتِي فِي طَرِيقِ شُورَ.“  
+> الخروج ٣: ٢ ”وَظَهَرَ لَهُ **مَلاَكُ** الرَّبِّ بِلَهِيبِ نَارٍ مِنْ وَسَطِ عُلَّيْقَةٍ. فَنَظَرَ وَإِذَا الْعُلَّيْقَةُ تَتَوَقَّدُ بِالنَّارِ، وَالْعُلَّيْقَةُ لَمْ تَكُنْ تَحْتَرِقُ.“  
+> زكريا ٢: ٣ ”وَإِذَا **بِالْمَلاَكِ** الَّذِي كَلَّمَنِي قَدْ خَرَجَ، وَخَرَجَ **مَلاَكٌ** آخَرُ لِلِقَائِهِ.“  
+> زكريا ٣: ١ ”وَأَرَانِي يَهُوشَعَ الْكَاهِنَ الْعَظِيمَ قَائِمًا قُدَّامَ **مَلاَكِ** الرَّبِّ، وَالشَّيْطَانُ قَائِمٌ عَنْ يَمِينِهِ لِيُقَاوِمَهُ.“
+
+مراجع:
+
+ Strong, J. (2009). [_A Concise Dictionary of the Words in the Greek Testament and The Hebrew Bible_](https://ref.ly/logosres/strngdichebgrk?ref=GreekStrongs.5624&off=579039) (Vol. 2, p. 66). Bellingham, WA: Logos Bible Software.  
+[_Carpenter, E. E., & Comfort, P. W. (2000). In_](https://ref.ly/logosres/hlmnkybblwds?ref=Page.p+9&off=161&ctx=+Zechariah+2:3%3b+3:1%0a~A+growing+number+of+) _[_Holman treasury of key Bible words: 200 Greek and 200 Hebrew words defined and explained_](https://ref.ly/logosres/hlmnkybblwds?ref=Page.p+9) (pp. 9–10). Nashville, TN: Broadman & Holman Publishers._  
+ J. A. McGuire-Moushon. (2016). [Angel, Critical Issues](https://ref.ly/logosres/lbd?hw=Angel%2c+Critical+Issues). In J. D. Barry, D. Bomar, D. R. Brown, R. Klippenstein, D. Mangum, C. Sinclair Wolcott, … W. Widder (Eds.), _The Lexham Bible Dictionary_. Bellingham, WA: Lexham Press.  
+Marlowe, W. C. (2016). [Angel](https://ref.ly/logosres/lbd?hw=Angel&off=19027). In J. D. Barry, D. Bomar, D. R. Brown, R. Klippenstein, D. Mangum, C. Sinclair Wolcott, … W. Widder (Eds.), _The Lexham Bible Dictionary_. Bellingham, WA: Lexham Press.  
+ Elwell, W. A., & Beitzel, B. J. (1988). [Angel of the Lord](https://ref.ly/logosres/bkrencbib?ref=Page.p+87&off=19279). In _Baker encyclopedia of the Bible_ (Vol. 1, pp. 87–90). Grand Rapids, MI: Baker Book House.

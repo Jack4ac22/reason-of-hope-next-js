@@ -1,5 +1,13 @@
 import Head from "next/head";
-import { getWordsFiles, getWordData } from "../../utilities/word-functions.js";
+import {
+  getWordsFiles,
+  getWordData,
+  getPostData,
+} from "../../utilities/word-functions.js";
+import { remark } from "remark";
+import html from "remark-html";
+import React from "react";
+import ReactMarkdown from "react-markdown";
 
 function WordDetailPage(props) {
   //   check if there is content then:
@@ -12,8 +20,8 @@ function WordDetailPage(props) {
         <title>{props.word.title}</title>
         <meta name="description" content={first30Words + " ... "} />
       </Head>
-      <p>{content}</p>
       {/* <WordContent word={props.word} /> */}
+      <ReactMarkdown>{content}</ReactMarkdown>
     </>
   );
 }
@@ -23,7 +31,7 @@ export function getStaticProps(context) {
   const { slug } = params;
 
   const wordData = getWordData(slug);
-
+  const wordHtmlData = getPostData(slug);
   return {
     props: {
       word: wordData,

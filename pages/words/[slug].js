@@ -1,3 +1,4 @@
+import WordContentPageComponent from "../../components/word-components/single-word/word-content-page";
 import Head from "next/head";
 import {
   getWordsFiles,
@@ -10,18 +11,23 @@ import React from "react";
 import ReactMarkdown from "react-markdown";
 
 function WordDetailPage(props) {
-  //   check if there is content then:
-  const content = props.word.content;
-  const words = content.split(/\s+/);
-  const first30Words = words.slice(0, 30).join(" ");
+  const { word } = props;
   return (
     <>
       <Head>
         <title>{props.word.title}</title>
-        <meta name="description" content={first30Words + " ... "} />
+        <meta name="description" content={word.descrition + " ... "} />
+        <meta property="og:title" content="My Dummy Markdown Page" />
+        <meta property="og:description" content={word.descrition + " ... "} />
+        <meta property="og:image" content={`/word-images/${word.coverImage}`} />
+        <meta
+          property="og:image:alt"
+          content={`Cover Image for: ${word.slug}`}
+        />
       </Head>
       {/* <WordContent word={props.word} /> */}
-      <ReactMarkdown>{content}</ReactMarkdown>
+      {/* <ReactMarkdown>{content}</ReactMarkdown> */}
+      <WordContentPageComponent word={word} />
     </>
   );
 }

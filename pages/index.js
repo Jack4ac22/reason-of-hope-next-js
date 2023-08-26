@@ -1,5 +1,29 @@
 import styles from "../styles/Home.module.css";
+import HeroMain from "../components/main/hero-main.js";
+import HeroWords from "../components/word-components/hero-words.js";
+import FeaturedWords from "../components/word-components/featured-words.js";
 
 export default function Home() {
-  return <div className={styles.container}></div>;
+  const dummyWords = [
+    {
+      title: "Lorem Ipsum",
+      content:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec lacinia sapien.",
+      image: "001.jpg",
+    },
+    {
+      title: "Dolor Sit Amet",
+      content:
+        "Dolor sit amet, consectetur adipiscing elit. Sed nec lacinia sapien.",
+      image: "003-1.jpg",
+    },
+  ];
+  
+  return (
+    <div className={styles.container}>
+      <HeroMain />
+      <HeroWords />
+      <FeaturedWords words={dummyWords} />
+    </div>
+  );
 }

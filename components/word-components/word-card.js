@@ -9,7 +9,7 @@ export default function WordCard(props) {
     <>
       <div className="col-sm-12 col-md-6 col-lg-4">
         <div className="card">
-          <Link href={`/word/${word.slug}`}>
+          <Link href={`/words/${word.slug}`}>
             <Image
               src={`/word-images/${word.coverImage}`}
               className="card-img-top img-fluid"

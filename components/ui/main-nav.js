@@ -14,7 +14,7 @@ export default function UiMainNav() {
           <Link href="/logic"> المنطق</Link>
         </div>
         <div className="menu-item col">
-          <Link href="/word">كلمة ورسالة</Link>
+          <Link href="/words">كلمة ورسالة</Link>
         </div>
         <div className="menu-item col">
           <Link href="/publications"> منشورات </Link>

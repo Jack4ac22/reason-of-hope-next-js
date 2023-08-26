@@ -19,7 +19,7 @@ export default function AllWordPage(props) {
                 {tagObject.list.map((word) => {
                   return (
                     <li key={word.title}>
-                      <Link href={`/word/${word.slug}` }>{word.title}</Link>
+                      <Link href={`/word/${word.slug}`}>{word.title}</Link>
                       <ul>
                         tags:
                         {word.tags.map((tag) => {

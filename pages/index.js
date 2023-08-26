@@ -1,6 +1,6 @@
 import styles from "../styles/Home.module.css";
 import HeroMain from "../components/main/hero-main.js";
-import HeroWords from "../components/word-components/hero-words.js";
+
 import FeaturedWords from "../components/word-components/featured-words.js";
 
 export default function Home() {
@@ -18,12 +18,12 @@ export default function Home() {
       image: "003-1.jpg",
     },
   ];
-  
+
   return (
     <div className={styles.container}>
       <HeroMain />
-      <HeroWords />
-      <FeaturedWords words={dummyWords} />
+
+      <FeaturedWords words={dummyWords} title="Featured Words" />
     </div>
   );
 }

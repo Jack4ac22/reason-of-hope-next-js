@@ -6,7 +6,7 @@ export default function HeroMain() {
     <>
       <section className={classes.hero}>
         <div className={classes.image}>
-          <Image src='/ROH.png' width={600} height={232} />
+          <Image src="/ROH.png" width={600} height={232} alt="title" />
         </div>
         <p className="display-6">صفحة تبشيرية دفاعية إصلاحية</p>
       </section>

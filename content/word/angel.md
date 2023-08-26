@@ -1,14 +1,13 @@
 ---
 title: "ملاك، מַלְאָךְ [مالاخ]"
 date: "2020-07-14"
-categories: 
+categories:
   - "كلمة-ورسالة"
-tags: 
+tags:
   - "ملاك"
-  - "ملاك-الرب"
-  - "الكتاب-المقدس"
   - "عبري"
-coverImage: "e2808ee281a8d79ed6b7d79cd6b0d790d6b8d79ad6b0e281a9.jpg"
+coverImage: "angel.jpg"
+description: "مع تزايد عدد الأشخاص المؤمنين بوجود الكائنات الفضائية غير البشرية، نجد عبارةً تنتشر عند تناول هذا النوع من المواضيع وهي: ”نحن لسنا وحيدون“. ولكن الأمر الذي قد يفاجئ الكثيرين هو أن الكتاب المقدس يؤيد هذه العبارة، فنحن لسنا وحيدون ولكن بمعنى آخر، فالكتاب المقدس يعلمنا أنَّه يوجد بُعدٌ آخر في العالم المخلوق هذا، بُعدٌ روحي تتواجد فيه تلك المخلوقات الروحية التي تُعرف باسم الملائكة."
 ---
 
 مع تزايد عدد الأشخاص المؤمنين بوجود الكائنات الفضائية غير البشرية، نجد عبارةً تنتشر عند تناول هذا النوع من المواضيع وهي: ”نحن لسنا وحيدون“. ولكن الأمر الذي قد يفاجئ الكثيرين هو أن الكتاب المقدس يؤيد هذه العبارة، فنحن لسنا وحيدون ولكن بمعنى آخر، فالكتاب المقدس يعلمنا أنَّه يوجد بُعدٌ آخر في العالم المخلوق هذا، بُعدٌ روحي تتواجد فيه تلك المخلوقات الروحية التي تُعرف باسم الملائكة - متضمنة الشريرة منها والخَيِّرة. ويسجل الكتاب المقدس العديد سرديات عن مناسبات التقى فيها أناس مع الملائكة، ويعلمنا بأنَّه في بعض الأحيان يستضيف الناس الملائكة دون معرفةٍ بذلك ([العبرانيين ١٣: ٢](https://biblia.com/books/ar-vandyke/heb13.2)).
@@ -37,8 +36,8 @@ coverImage: "e2808ee281a8d79ed6b7d79cd6b0d790d6b8d79ad6b0e281a9.jpg"
 
 مراجع:
 
- Strong, J. (2009). [_A Concise Dictionary of the Words in the Greek Testament and The Hebrew Bible_](https://ref.ly/logosres/strngdichebgrk?ref=GreekStrongs.5624&off=579039) (Vol. 2, p. 66). Bellingham, WA: Logos Bible Software.  
-[_Carpenter, E. E., & Comfort, P. W. (2000). In_](https://ref.ly/logosres/hlmnkybblwds?ref=Page.p+9&off=161&ctx=+Zechariah+2:3%3b+3:1%0a~A+growing+number+of+) _[_Holman treasury of key Bible words: 200 Greek and 200 Hebrew words defined and explained_](https://ref.ly/logosres/hlmnkybblwds?ref=Page.p+9) (pp. 9–10). Nashville, TN: Broadman & Holman Publishers._  
- J. A. McGuire-Moushon. (2016). [Angel, Critical Issues](https://ref.ly/logosres/lbd?hw=Angel%2c+Critical+Issues). In J. D. Barry, D. Bomar, D. R. Brown, R. Klippenstein, D. Mangum, C. Sinclair Wolcott, … W. Widder (Eds.), _The Lexham Bible Dictionary_. Bellingham, WA: Lexham Press.  
+Strong, J. (2009). [_A Concise Dictionary of the Words in the Greek Testament and The Hebrew Bible_](https://ref.ly/logosres/strngdichebgrk?ref=GreekStrongs.5624&off=579039) (Vol. 2, p. 66). Bellingham, WA: Logos Bible Software.  
+[_Carpenter, E. E., & Comfort, P. W. (2000). In_](https://ref.ly/logosres/hlmnkybblwds?ref=Page.p+9&off=161&ctx=+Zechariah+2:3%3b+3:1%0a~A+growing+number+of+) _[\_Holman treasury of key Bible words: 200 Greek and 200 Hebrew words defined and explained_](https://ref.ly/logosres/hlmnkybblwds?ref=Page.p+9) (pp. 9–10). Nashville, TN: Broadman & Holman Publishers._  
+ J. A. McGuire-Moushon. (2016). [Angel, Critical Issues](https://ref.ly/logosres/lbd?hw=Angel%2c+Critical+Issues). In J. D. Barry, D. Bomar, D. R. Brown, R. Klippenstein, D. Mangum, C. Sinclair Wolcott, … W. Widder (Eds.), \_The Lexham Bible Dictionary_. Bellingham, WA: Lexham Press.  
 Marlowe, W. C. (2016). [Angel](https://ref.ly/logosres/lbd?hw=Angel&off=19027). In J. D. Barry, D. Bomar, D. R. Brown, R. Klippenstein, D. Mangum, C. Sinclair Wolcott, … W. Widder (Eds.), _The Lexham Bible Dictionary_. Bellingham, WA: Lexham Press.  
  Elwell, W. A., & Beitzel, B. J. (1988). [Angel of the Lord](https://ref.ly/logosres/bkrencbib?ref=Page.p+87&off=19279). In _Baker encyclopedia of the Bible_ (Vol. 1, pp. 87–90). Grand Rapids, MI: Baker Book House.

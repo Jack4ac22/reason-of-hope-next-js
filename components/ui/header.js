@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function UiHeader() {
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top bg">
+    <nav className="navbar navbar-expand-lg bg-body-tertiary ">
       <div className="container-fluid">
         <Link className="navbar-brand" href="/">
           <UiLogo />

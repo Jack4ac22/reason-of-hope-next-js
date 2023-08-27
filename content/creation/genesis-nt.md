@@ -1,16 +1,20 @@
 ---
 title: "استخدام سفر التكوين في العهد الجديد"
 date: "2021-09-16"
-categories: 
+categories:
   - "قضيّة-الخلق"
   - "الكتاب-المقدس-والإنجيل"
+tags:
+  - "دفاعيات"
+  - "العهد-الجديد"
+  - "التكوين"
 coverImage: "holy-bible-5274594_640.jpg"
 ---
 
 بقلم: [Lita Sanders](https://creation.com/lita-sanders)
 
-يُمكنكم قراءة المقال من خلال زيارة موقع إرساليات الخلق الدولية [CMI](http://creation.com/arabic)  
-  
+يُمكنكم قراءة المقال من خلال زيارة موقع إرساليات الخلق الدولية [CMI](http://creation.com/arabic)
+
 [![](images/cmi.png)](https://creation.com/a/15247)
 
 https://hearthis.at/reasonofope/genesis-nt/VZ8
@@ -101,13 +105,13 @@ https://open.spotify.com/episode/2YJf8helkvaJNcLVTBxBaa?si=XWSPDCOTThSkO1iG6Qcdj
 
 ### مراجع
 
-1. إن إرساليات الخلق الدولية، بوصفها إرساليّةً غير طائفية، فإنها لا تتخذ موقفاً من الإسكاتولوجيا فيما عدا التأكيد على المجيء الثاني للمسيح، وقيامة الموتى الجسدية، والدينونة الأخيرة. 
-2. Nolland, J., _The Gospel of Matthew: A Commentary on the Greek Text_, Grand Rapids; Carlisle: W.B. Eerdmans; Paternoster, p. 899, 2005. 
-3. Bock, D., _Luke Volume_ 1: 1:1–9:50, Baker Exegetical Commentary on the New Testament, Grand Rapids: Baker Books, p. 360, 1994. 
-4. ”تاريخي“ من ناحية توافقه ”مع الأعراف التقليدية للكتابات التاريخية القديمة“. الأمر الأكيد هو أن جميع الأناجيل هي تاريخيّة من ناحية نقلها للأحداث الحقيقيّة التي وقعت. 
-5. Carson, D.A. , _The Gospel According to John_, Pillar New Testament Commentary, Grand Rapids: Eerdmans, p. 113, 1991. 
-6. Köstenberger, A., _John_, Baker Exegetical Commentary on the New Testament, Grand Rapids: Baker Academic, p. 25, 2004. Genesis 1:1 (in the Greek Septuagint) and John 1:1 begin with Ἐν ἀρχῇ _En arche_. 
-7. Witherington, B., Paul’s Letter to the Romans: A Socio-Rhetorical Commentary, Grand Rapids: Eerdmans, p. 141, 2004. 
-8. Witherington, p. 142. 
-9. In the context, Paul is most probably talking about married women. See Bruce Winter, _After Paul Left Corinth: The Influence of Secular Ethics and Social Change_, Grand Rapids: Eerdmans, p. 127–130, 2001. 
-10. See [Cosner, L.](https://creation.com/lita-cosner), [Christ as the last Adam: Paul’s use of the Creation narrative in 1 Corinthians 15](https://creation.com/1-corinthians-15), _J. Creation_**23**(3):70–75; creation.com/1-corinthians-15.
+1. إن إرساليات الخلق الدولية، بوصفها إرساليّةً غير طائفية، فإنها لا تتخذ موقفاً من الإسكاتولوجيا فيما عدا التأكيد على المجيء الثاني للمسيح، وقيامة الموتى الجسدية، والدينونة الأخيرة.
+2. Nolland, J., *The Gospel of Matthew: A Commentary on the Greek Text*, Grand Rapids; Carlisle: W.B. Eerdmans; Paternoster, p. 899, 2005.
+3. Bock, D., *Luke Volume* 1: 1:1–9:50, Baker Exegetical Commentary on the New Testament, Grand Rapids: Baker Books, p. 360, 1994.
+4. ”تاريخي“ من ناحية توافقه ”مع الأعراف التقليدية للكتابات التاريخية القديمة“. الأمر الأكيد هو أن جميع الأناجيل هي تاريخيّة من ناحية نقلها للأحداث الحقيقيّة التي وقعت.
+5. Carson, D.A. , *The Gospel According to John*, Pillar New Testament Commentary, Grand Rapids: Eerdmans, p. 113, 1991.
+6. Köstenberger, A., *John*, Baker Exegetical Commentary on the New Testament, Grand Rapids: Baker Academic, p. 25, 2004. Genesis 1:1 (in the Greek Septuagint) and John 1:1 begin with Ἐν ἀρχῇ *En arche*.
+7. Witherington, B., Paul’s Letter to the Romans: A Socio-Rhetorical Commentary, Grand Rapids: Eerdmans, p. 141, 2004.
+8. Witherington, p. 142.
+9. In the context, Paul is most probably talking about married women. See Bruce Winter, *After Paul Left Corinth: The Influence of Secular Ethics and Social Change*, Grand Rapids: Eerdmans, p. 127–130, 2001.
+10. See [Cosner, L.](https://creation.com/lita-cosner), [Christ as the last Adam: Paul’s use of the Creation narrative in 1 Corinthians 15](https://creation.com/1-corinthians-15), *J. Creation***23**(3):70–75; creation.com/1-corinthians-15.

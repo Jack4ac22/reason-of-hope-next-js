@@ -1,4 +1,4 @@
-import WordContentPageComponent from "../../components/word-components/single-word/word-content-page";
+import CreationContentPageComponent from "../../components/creation-components/single-creation/creation-content-page";
 
 import {
   getCreationArticlesFiles,
@@ -9,7 +9,7 @@ export default function CreationsArtilePage(props) {
   const { creationArticle } = props;
   return (
     <>
-      <WordContentPageComponent word={creationArticle} />
+      <CreationContentPageComponent creation={creationArticle} />
     </>
   );
 }

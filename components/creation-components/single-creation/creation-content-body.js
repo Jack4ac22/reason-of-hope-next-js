@@ -3,8 +3,8 @@ import Link from "next/link";
 import ReactMarkdown from "react-markdown";
 import remarkRehype from "remark-rehype";
 import gfm from "remark-gfm";
-export default function WordContentBody(props) {
-  const { word } = props;
+export default function CreationContentBody(props) {
+  const { creation } = props;
 
   const customRenderers = {
     hr() {
@@ -21,10 +21,10 @@ export default function WordContentBody(props) {
     },
     img(image) {
       return (
-        <Link href={`/word-images/${image.src}`}>
+        <Link href={`/blog-images/${image.src}`}>
           <Image
             className="col-md-2 float-md-end mb-4 ms-md-3 img-fluid"
-            src={`/word-images/${image.src}`}
+            src={`/blog-images/${image.src}`}
             alt={image.alt}
             width={300}
             height={100}
@@ -37,7 +37,7 @@ export default function WordContentBody(props) {
   return (
     <>
       <ReactMarkdown
-        children={word.content}
+        children={creation.content}
         remarkPlugins={[gfm]}
         rehypePlugins={[remarkRehype]}
         components={customRenderers}

@@ -1,3 +1,4 @@
+import CreationCardsList from "../../components/creation-components/creation-cards-list";
 import Link from "next/link";
 import {
   getAllCreationsCategories,
@@ -19,14 +20,8 @@ export default function AllCreationArticlePage(props) {
             </Link>
             <span> {creationArticle.count}</span>
             <ul>
-              {creationArticle.articles.map((article) => (
-                <li key={article.title}>
-                  <span>{article.title} </span>
-                  <Link className="" href={`/creation/${article.slug}`}>
-                    اقرأ اكثر
-                  </Link>
-                </li>
-              ))}
+            <CreationCardsList creations={creationArticle.articles} />
+              
             </ul>
           </li>
         ))}

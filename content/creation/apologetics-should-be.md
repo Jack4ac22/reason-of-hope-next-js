@@ -4,6 +4,10 @@ date: "2020-06-23"
 categories: 
   - "قضيّة-الخلق"
   - "التطور-ونتائجه"
+tags: 
+  - "دفاعيات"
+  - "الإيمان"
+  - "الإنجيل"
 ---
 
 بقلم: [Lita Cosner](https://creation.com/lita-cosner)

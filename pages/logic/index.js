@@ -2,9 +2,7 @@ import Link from "next/link";
 
 import {
   // getLogicsBySearchTerm,
-  getAllLogicsTags,
   getAllLogicsCategories,
-  getLogicsByTag,
   getLogicsByCategory,
 } from "../../utilities/logic-functions";
 
@@ -39,11 +37,6 @@ export default function AllLogicPage(props) {
   );
 }
 export async function getStaticProps(props) {
-  const allLogicTags = getAllLogicsTags();
-  allLogicTags.map((tag) => {
-    const articlesByTag = getLogicsByTag(tag.tag);
-    tag.articles = articlesByTag;
-  });
   const allLogicCategories = getAllLogicsCategories();
   allLogicCategories.map((category) => {
     const articlesByCategory = getLogicsByCategory(category.category);
@@ -51,7 +44,6 @@ export async function getStaticProps(props) {
   });
   return {
     props: {
-      allLogicTags: allLogicTags,
       allLogicCategories: allLogicCategories,
     },
   };

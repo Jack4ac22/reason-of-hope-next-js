@@ -5,10 +5,7 @@ import {
   getWordData,
   getPostData,
 } from "../../utilities/word-functions.js";
-import { remark } from "remark";
-import html from "remark-html";
 import React from "react";
-import ReactMarkdown from "react-markdown";
 
 function WordDetailPage(props) {
   const { word } = props;
@@ -25,8 +22,6 @@ function WordDetailPage(props) {
           content={`Cover Image for: ${word.slug}`}
         />
       </Head>
-      {/* <WordContent word={props.word} /> */}
-      {/* <ReactMarkdown>{content}</ReactMarkdown> */}
       <WordContentPageComponent word={word} />
     </>
   );

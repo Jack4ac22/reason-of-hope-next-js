@@ -1,37 +1,31 @@
+import Link from "next/link";
 import {
-  // getCreationArticlesBySearchTerm,
-  getAllCreationsTags,
   getAllCreationsCategories,
   getCreationArticlesByCategory,
-  getCreationArticlesByTag,
 } from "../../utilities/creation-functions";
 
 export default function AllCreationArticlePage(props) {
   return (
     <>
-      <h1>all Categories</h1>
+      <h1>مقالات الخلق بحسب التصنيف:</h1>
       <ul>
         {props.allCreationArticlesCategories.map((creationArticle) => (
-          <li key={creationArticle.category}>
-            {creationArticle.category}
+          <li className="alert alert-light" key={creationArticle.category}>
+            <Link
+              href={`/categories/${creationArticle.category}`}
+              className="link-offset-2 link-underline link-underline-opacity-0"
+            >
+              {creationArticle.category.replace("-", " ")}
+            </Link>
             <span> {creationArticle.count}</span>
             <ul>
               {creationArticle.articles.map((article) => (
-                <li key={article.title}>{article.title}</li>
-              ))}
-            </ul>
-          </li>
-        ))}
-      </ul>
-      <h1>all Tags</h1>
-      <ul>
-        {props.allCreationArticlesTags.map((creationArticle) => (
-          <li key={creationArticle.tag}>
-            {creationArticle.tag}
-            <span> {creationArticle.count}</span>
-            <ul>
-              {creationArticle.articles.map((article) => (
-                <li key={article.title}>{article.title}</li>
+                <li key={article.title}>
+                  <span>{article.title} </span>
+                  <Link className="" href={`/creation/${article.slug}`}>
+                    اقرأ اكثر
+                  </Link>
+                </li>
               ))}
             </ul>
           </li>
@@ -41,13 +35,6 @@ export default function AllCreationArticlePage(props) {
   );
 }
 export async function getStaticProps(props) {
-  const allTags = getAllCreationsTags();
-
-  allTags.map((tag) => {
-    const articlesByTag = getCreationArticlesByTag(tag.tag);
-    tag.articles = articlesByTag;
-  });
-
   const allCategories = getAllCreationsCategories();
 
   allCategories.map((category) => {
@@ -57,7 +44,6 @@ export async function getStaticProps(props) {
 
   return {
     props: {
-      allCreationArticlesTags: allTags,
       allCreationArticlesCategories: allCategories,
     },
   };

@@ -1,9 +1,9 @@
 import {
-  // getObjectionsBySearchTerm,
-  getAllObjectionsTags,
-  getAllObjectionsCategories,
-  getObjectionsByTag,
-  getObjectionsByCategory,
+  getObjectionsBySearchTerm,
+  // getAllObjectionsTags,
+  // getAllObjectionsCategories,
+  // getObjectionsByTag,
+  // getObjectionsByCategory,
 } from "../../utilities/objections-functions";
 
 export default function AllObjectionPage(props) {
@@ -22,7 +22,7 @@ export default function AllObjectionPage(props) {
           </li>
         ))}
       </ul>
-
+      {/* 
       <h1>Objections Tags</h1>
       <ul>
         {props.allObjectionTags.map((objection) => (
@@ -35,26 +35,16 @@ export default function AllObjectionPage(props) {
             </ol>
           </li>
         ))}
-      </ul>
+      </ul> */}
     </>
   );
 }
 export async function getStaticProps(props) {
-  const allObjectionTags = getAllObjectionsTags();
-  allObjectionTags.map((tag) => {
-    const articlesByTag = getObjectionsByTag(tag.tag);
-    tag.articles = articlesByTag;
-  });
-  const allObjectionCategories = getAllObjectionsCategories();
-  allObjectionCategories.map((category) => {
-    const articlesByCategory = getObjectionsByCategory(category.category);
-    category.articles = articlesByCategory;
-  });
+  const allObjectionsBySearchTerm = getObjectionsBySearchTerm("المسيح");
 
   return {
     props: {
-      allObjectionTags: allObjectionTags,
-      allObjectionCategories: allObjectionCategories,
+      allObjectionCategories: allObjectionsBySearchTerm,
     },
   };
 }

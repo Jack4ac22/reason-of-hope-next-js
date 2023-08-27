@@ -1,13 +1,14 @@
 ---
-title: "]القدير، שַׁדַּי [شَدَّاي"
+title: "القدير، שַׁדַּי [شَدَّاي]"
 date: "2020-06-16"
-categories: 
+categories:
   - "كلمة-ورسالة"
-tags: 
+tags:
   - "كلمة"
   - "الكتاب-المقدس"
   - "عبري"
-coverImage: "e2808ee281a8d7a9d6b7d781d793d6b7d6bcd799e281a9.jpg"
+coverImage: "almighty.jpg"
+description: "في الكثير من الأحيان نجد أن العهود تسقط لعدم القدرة على الوفاء بها، وغالباً ما نجد أعذار لهذا الأمر. إلا أنَّه يوجد سبب رئيسي ألا وهو غياب السلطان أو القدرة اللازمين للوفاء بهذه العهود. ويوجد عبارة متكرّرة ومبتذله إلى حدٍّ كبير تقول بأنَّه يجب ألا نتعهد بأشياء لا نستطيع أن نتمّمها. إلا أنَّ الرب الإله هو الوحيد الذي لم ولن يفشل في الايفاء بعهوده، فهو يمتلك القوة والمقدرة على إتمام عهوده."
 ---
 
 في الكثير من الأحيان نجد أن العهود تسقط لعدم القدرة على الوفاء بها، وغالباً ما نجد أعذار لهذا الأمر. إلا أنَّه يوجد سبب رئيسي ألا وهو غياب السلطان أو القدرة اللازمين للوفاء بهذه العهود. ويوجد عبارة متكرّرة ومبتذله إلى حدٍّ كبير تقول بأنَّه يجب ألا نتعهد بأشياء لا نستطيع أن نتمّمها. إلا أنَّ الرب الإله هو الوحيد الذي لم ولن يفشل في الايفاء بعهوده، فهو يمتلك القوة والمقدرة على إتمام عهوده.
@@ -22,13 +23,21 @@ coverImage: "e2808ee281a8d7a9d6b7d781d793d6b7d6bcd799e281a9.jpg"
 
 إن الرب الإله القدير هو إله رائع وحافظ لعهوده ليتمِّمَها ومتمسّكٌ بكلمته ليجريها وهي لا ترجع إليه خالية. لذلك فلنحني ركبتينا أمام عرش القدير الذي بفائق محبته وسلطانه الذي لا يُقارب قد اقتنانا بثمنٍ وأرسل الابن الوحيد يسوع المسيح ليحيا حياة البرّ التي فشلنا في إتمامها ويموت الموت الذي نستحقُّة ويقوم من بين الأموات ويمنحنا بقيامته حياةً أبدية. له المجد والسلطان إلى أبد الدهور. أمين
 
-_الآيات المفتاحية_ 
+---
+
+### الآيات المفتاحية:
 
 > التكوين ١٧: ١ ”وَلَمَّا كَانَ أَبْرَامُ ابْنَ تِسْعٍ وَتِسْعِينَ سَنَةً ظَهَرَ الرَّبُّ لأَبْرَامَ وَقَالَ لَهُ: «أَنَا اللهُ **الْقَدِيرُ**. سِرْ أَمَامِي وَكُنْ كَامِلاً،“  
+
 > التكوين ٢٨: ٣ ”وَاللهُ **الْقَدِيرُ** يُبَارِكُكَ، وَيَجْعَلُكَ مُثْمِرًا، وَيُكَثِّرُكَ فَتَكُونُ جُمْهُورًا مِنَ الشُّعُوبِ.“  
+
 > التكوين ٣٥: ١١ ”وَقَالَ لَهُ اللهُ: «أَنَا **اللهُ الْقَدِيرُ**. أَثْمِرْ وَاكْثُرْ. أُمَّةٌ وَجَمَاعَةُ أُمَمٍ تَكُونُ مِنْكَ، وَمُلُوكٌ سَيَخْرُجُونَ مِنْ صُلْبِكَ.“  
+
 > الخروج ٦: ٣ ”وَأَنَا ظَهَرْتُ لإِبْرَاهِيمَ وَإِسْحَاقَ وَيَعْقُوبَ بِأَنِّي الإِلهُ **الْقَادِرُ** عَلَى كُلِّ شَيْءٍ. وَأَمَّا بِاسْمِي «يَهْوَهْ» فَلَمْ أُعْرَفْ عِنْدَهُمْ.“  
+
 > أيوب ٥: ١٧ ”« هُوَذَا طُوبَى لِرَجُل يُؤَدِّبُهُ اللهُ. فَلاَ تَرْفُضْ تَأْدِيبَ **الْقَدِيرِ**.“
+
+---
 
 المواضع الستة التي ورد فيها اسم אֵ֣ל \[إيل\] שַׁדַּ֔י \[شَدَّاي\]:  
 التكوين: ١٧: ١؛ ٢٨:٣؛ ٣٥: ١١؛ ٤٣: ١٤؛ ٤٨: ٣؛ الخروج ٦: ٣
@@ -36,9 +45,11 @@ _الآيات المفتاحية_ 
 المواضع الأربعين التي ورد فيها الإسم שַׁדַּ֔י \[شَدَّاي\]:  
 التكوين: ٤٩: ٢٥؛ العدد: ٢٤: ٤، ١٦؛ راعوث ١: ٢٠-٢١؛ أيوب ٥: ١٧؛ ٦: ٤؛، ١٤؛ ٨: ٣، ٥؛ ١١: ٧؛ ١٣: ٣؛ ١٥: ٢٥؛ ٢١: ١٥، ٢٠؛ ٢٢: ٣، ١٧، ٢٣، ٢٥-٢٦؛ ٢٣: ١٦؛ ٢٤: ١؛ ٢٧: ٢، ١٠-١١، ١٣؛ ٢٩: ٥؛ ٣١: ٢، ٣٥؛ ٣٢: ٨؛ ٣٣: ٤؛ ٣٤: ١٠، ١٢؛ ٣٥: ١٣؛ ٣٧: ٢٣؛ ٤٠: ٢؛ المزمور ٦٨: ١٤؛ ٩١: ١؛ اشعياء ١٣: ٦؛ يوئيل ١: ١٥
 
-مراجع:
+---
 
-Elwell, W. A., & Beitzel, B. J. (1988). [Almighty](https://ref.ly/logosres/bkrencbib?ref=Page.p+56&off=42). In _Baker encyclopedia of the Bible_ (Vol. 1, p. 56). Grand Rapids, MI: Baker Book House.  
- Millard, A. R. (1996). [Almighty](https://ref.ly/logosres/nbd?ref=Page.p+25&off=2727). In D. R. W. Wood, I. H. Marshall, J. I. Packer, & D. J. Wiseman (Eds.), _New Bible dictionary_ (3rd ed., p. 25). Leicester, England; Downers Grove, IL: InterVarsity Press.  
- Carpenter, E. E., & Comfort, P. W. (2000). In [_Holman treasury of key Bible words: 200 Greek and 200 Hebrew words defined and explained_](https://ref.ly/logosres/hlmnkybblwds?ref=Page.p+7&off=146) (p. 7). Nashville, TN: Broadman & Holman Publishers.  
- Brand, C., Draper, C., England, A., Bond, S., Clendenen, E. R., & Butler, T. C. (Eds.). (2003). [Almighty](https://ref.ly/logosres/hlmnillbbldict?ref=Page.p+49&off=526). In _Holman Illustrated Bible Dictionary_ (p. 49). Nashville, TN: Holman Bible Publishers.
+#### مراجع:
+
+- Elwell, W. A., & Beitzel, B. J. (1988). [Almighty](https://ref.ly/logosres/bkrencbib?ref=Page.p+56&off=42). In _Baker encyclopedia of the Bible_ (Vol. 1, p. 56). Grand Rapids, MI: Baker Book House.
+- Millard, A. R. (1996). [Almighty](https://ref.ly/logosres/nbd?ref=Page.p+25&off=2727). In D. R. W. Wood, I. H. Marshall, J. I. Packer, & D. J. Wiseman (Eds.), _New Bible dictionary_ (3rd ed., p. 25). Leicester, England; Downers Grove, IL: InterVarsity Press.  
+- Carpenter, E. E., & Comfort, P. W. (2000). In [_Holman treasury of key Bible words: 200 Greek and 200 Hebrew words defined and explained_](https://ref.ly/logosres/hlmnkybblwds?ref=Page.p+7&off=146) (p. 7). Nashville, TN: Broadman & Holman Publishers.  
+- Brand, C., Draper, C., England, A., Bond, S., Clendenen, E. R., & Butler, T. C. (Eds.). (2003). [Almighty](https://ref.ly/logosres/hlmnillbbldict?ref=Page.p+49&off=526). In _Holman Illustrated Bible Dictionary_ (p. 49). Nashville, TN: Holman Bible Publishers.

@@ -132,3 +132,28 @@ export function getAllWordsCategories() {
     categoryA.count < categoryB.count ? 1 : -1
   );
 }
+
+import { remark } from "remark";
+import html from "remark-html";
+
+export async function getPostData(wordIdentifier) {
+  const wordSlug = wordIdentifier.replace(/\.md$/, "");
+  const filePath = path.join(wordsDirectory, `${wordSlug}.md`);
+  const fileContent = fs.readFileSync(filePath, "utf-8");
+
+  // Use gray-matter to parse the post metadata section
+  const matterResult = matter(fileContent);
+
+  // Use remark to convert markdown into HTML string
+  const processedContent = await remark()
+    .use(html)
+    .process(matterResult.content);
+  const contentHtml = processedContent.toString();
+
+  // Combine the data with the id and contentHtml
+  return {
+    slug: wordSlug,
+    contentHtml,
+    ...matterResult.data,
+  };
+}

@@ -1,14 +1,16 @@
+import WordCardsList from "../../components/word-components/word-cards-list";
 import Link from "next/link";
 import {
-  getWordsByCategory,
-  getAllWordsTags,
-  getWordsByTag,
+  getAllWords
 } from "../../utilities/word-functions";
 
 export default function AllWordPage(props) {
   return (
     <>
-      <h1>all words</h1>
+
+<WordCardsList words={props.allWords} />
+
+      {/* <h1>all words</h1>
       <ul>
         {props.allWords.map((tagObject) => {
           return (
@@ -19,7 +21,7 @@ export default function AllWordPage(props) {
                 {tagObject.list.map((word) => {
                   return (
                     <li key={word.title}>
-                      <Link href={`/word/${word.slug}` }>{word.title}</Link>
+                      <Link href={`/word/${word.slug}`}>{word.title}</Link>
                       <ul>
                         tags:
                         {word.tags.map((tag) => {
@@ -41,22 +43,13 @@ export default function AllWordPage(props) {
             </li>
           );
         })}
-      </ul>
+      </ul> */}
     </>
   );
 }
 export async function getStaticProps(props) {
-  const wordsArticles = getWordsByCategory("كلمة-ورسالة");
-  const tags = getAllWordsTags();
-  const wordslist = [];
+  const wordslist = getAllWords();
 
-  tags.forEach((tag) => {
-    const list = getWordsByTag(tag.tag);
-    // create a new tagObject tag, count, list
-    tag.list = list;
-    wordslist.push(tag);
-  });
-  // console.log("wordslist", wordslist);
   return {
     props: {
       allWords: wordslist,

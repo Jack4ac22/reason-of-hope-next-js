@@ -42,7 +42,7 @@ export function getStaticProps(context) {
     props: {
       word: wordData,
     },
-    revalidate: 600,
+    revalidate: 30000,
   };
 }
 

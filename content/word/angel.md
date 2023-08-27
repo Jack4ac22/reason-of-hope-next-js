@@ -28,15 +28,19 @@ description: "مع تزايد عدد الأشخاص المؤمنين بوجود 
 
 ---
 
-> الآيات المفتاحية:  
+### الآيات المفتاحية:
+
 > التكوين ١٦: ٧ ”فَوَجَدَهَا **مَلاَكُ** الرَّبِّ عَلَى عَيْنِ الْمَاءِ فِي الْبَرِّيَّةِ، عَلَى الْعَيْنِ الَّتِي فِي طَرِيقِ شُورَ.“  
+
 > الخروج ٣: ٢ ”وَظَهَرَ لَهُ **مَلاَكُ** الرَّبِّ بِلَهِيبِ نَارٍ مِنْ وَسَطِ عُلَّيْقَةٍ. فَنَظَرَ وَإِذَا الْعُلَّيْقَةُ تَتَوَقَّدُ بِالنَّارِ، وَالْعُلَّيْقَةُ لَمْ تَكُنْ تَحْتَرِقُ.“  
+
 > زكريا ٢: ٣ ”وَإِذَا **بِالْمَلاَكِ** الَّذِي كَلَّمَنِي قَدْ خَرَجَ، وَخَرَجَ **مَلاَكٌ** آخَرُ لِلِقَائِهِ.“  
+
 > زكريا ٣: ١ ”وَأَرَانِي يَهُوشَعَ الْكَاهِنَ الْعَظِيمَ قَائِمًا قُدَّامَ **مَلاَكِ** الرَّبِّ، وَالشَّيْطَانُ قَائِمٌ عَنْ يَمِينِهِ لِيُقَاوِمَهُ.“
 
 ---
 
-مراجع:
+### مراجع:
 
 - Strong, J. (2009). [_A Concise Dictionary of the Words in the Greek Testament and The Hebrew Bible_](https://ref.ly/logosres/strngdichebgrk?ref=GreekStrongs.5624&off=579039) (Vol. 2, p. 66). Bellingham, WA: Logos Bible Software.
 - [_Carpenter, E. E., & Comfort, P. W. (2000). In_](https://ref.ly/logosres/hlmnkybblwds?ref=Page.p+9&off=161&ctx=+Zechariah+2:3%3b+3:1%0a~A+growing+number+of+) _[\_Holman treasury of key Bible words: 200 Greek and 200 Hebrew words defined and explained_](https://ref.ly/logosres/hlmnkybblwds?ref=Page.p+9) (pp. 9–10). Nashville, TN: Broadman & Holman Publishers.\_

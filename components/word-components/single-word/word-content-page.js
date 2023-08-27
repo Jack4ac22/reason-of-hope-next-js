@@ -4,8 +4,10 @@ export default function WordContentPageComponent(props) {
   const { word } = props;
   return (
     <>
-      <WordContentHeader word={word} />
-      <WordContentBody word={word} />
+      <article>
+        <WordContentHeader word={word} />
+        <WordContentBody word={word} />
+      </article>
     </>
   );
 }

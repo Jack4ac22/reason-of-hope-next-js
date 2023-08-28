@@ -1,4 +1,5 @@
 import Image from "next/image";
+import CreationAuthors from "./creation-authors";
 export default function CreationContentHeader(props) {
   const { creation } = props;
   return (
@@ -7,6 +8,7 @@ export default function CreationContentHeader(props) {
         <div className="row">
           <div className="col align-self-center">
             <h1>{creation.title}</h1>
+            <CreationAuthors authors={creation.authors} />
           </div>
           <Image
             src={`/blog-images/${creation.coverImage}`}

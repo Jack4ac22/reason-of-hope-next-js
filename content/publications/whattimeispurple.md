@@ -2,7 +2,7 @@
 title: "أي وقت هو الأرجواني؟"
 date: "2021-05-25"
 categories: 
-  - "podcast"
+
   - "كتب"
   - "إصدارات"
 tags: 

@@ -2,7 +2,7 @@
 title: "السحر والشعوذة بين الشرق الأدنى القديم والكتاب المقدس"
 date: "2020-12-03"
 categories: 
-  - "podcast"
+
   - "إصدارات"
   - "دراسات-عامّة"
 coverImage: "magic-and-sorcery-e1607009237172.jpg"

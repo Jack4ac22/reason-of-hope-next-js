@@ -1,7 +1,5 @@
-import { get } from "http";
+import Link from "next/link";
 import {
-  getPublicationsByTag,
-  getAllPublicationsTags,
   getPublicationsByCategory,
   getAllPublicationsCategories,
 } from "../../utilities/publications-functions";
@@ -9,28 +7,25 @@ import {
 export default function AllPublicationPage(props) {
   return (
     <>
-      <h2>Categories</h2>
+      <h1>المنشورات بحسب التصنيف:</h1>
       <ul>
-        {props.categories.map((category) => (
-          <li key={category.category}>
-            {category.category} <span> {category.count}</span>
+        {props.allPublicationsCategories.map((publicationArticle) => (
+          <li className="alert alert-light" key={publicationArticle.category}>
+            <Link
+              href={`/categories/${publicationArticle.category}`}
+              className="link-offset-2 link-underline link-underline-opacity-0"
+            >
+              {publicationArticle.category.replace("-", " ")}
+            </Link>
+            <span> {publicationArticle.count}</span>
             <ul>
-              {category.articles.map((article) => (
-                <li key={article.slug}>{article.title}</li>
-              ))}
-            </ul>
-          </li>
-        ))}
-      </ul>
-
-      <h1>Tags:</h1>
-      <ul>
-        {props.tags.map((tag) => (
-          <li key={tag.tag}>
-            {tag.tag} <span> {tag.count}</span>
-            <ul>
-              {tag.articles.map((article) => (
-                <li key={article.slug}>{article.title}</li>
+              {publicationArticle.articles.map((article) => (
+                <li key={article.title}>
+                  <span>{article.title} </span>
+                  <Link className="" href={`/publications/${article.slug}`}>
+                    اقرأ اكثر
+                  </Link>
+                </li>
               ))}
             </ul>
           </li>
@@ -41,30 +36,15 @@ export default function AllPublicationPage(props) {
 }
 export async function getStaticProps() {
   const allCategories = getAllPublicationsCategories();
-  const allCategoriesWithPublications = [];
-  allCategories.forEach((category) => {
-    const categoryArticles = getPublicationsByCategory(category.category);
-    const newCategoryObject = {
-      ...category,
-      articles: categoryArticles,
-    };
-    allCategoriesWithPublications.push(newCategoryObject);
+
+  allCategories.map((category) => {
+    const articlesByCategory = getPublicationsByCategory(category.category);
+    category.articles = articlesByCategory;
   });
 
-  const allTags = getAllPublicationsTags();
-  const allTagsWithArticles = [];
-  allTags.forEach((tag) => {
-    const tagArticles = getPublicationsByTag(tag.tag);
-    const newTagObject = {
-      ...tag,
-      articles: tagArticles,
-    };
-    allTagsWithArticles.push(newTagObject);
-  });
   return {
     props: {
-      tags: allTagsWithArticles,
-      categories: allCategoriesWithPublications,
+      allPublicationsCategories: allCategories,
     },
   };
 }

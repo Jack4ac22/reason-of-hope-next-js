@@ -1,38 +1,35 @@
+import Link from "next/link";
+
 import {
   // getLogicsBySearchTerm,
-  getAllLogicsTags,
   getAllLogicsCategories,
-  getLogicsByTag,
   getLogicsByCategory,
 } from "../../utilities/logic-functions";
 
 export default function AllLogicPage(props) {
   return (
     <>
-      <h1>all logics by category</h1>
+      <h1>مقالات المنطق بحسب التصنيف:</h1>
       <ul>
-        {props.allLogicCategories.map((logic) => (
-          <li key={logic.category}>
-            {logic.category}
-            <ol>
-              {logic.articles.map((article) => (
-                <li key={article.title}>{article.title}</li>
+        {props.allLogicCategories.map((logicArticle) => (
+          <li className="alert alert-light" key={logicArticle.category}>
+            <Link
+              href={`/logic/${logicArticle.category}`}
+              className="link-offset-2 link-underline link-underline-opacity-0"
+            >
+              <span>{logicArticle.category.replace("-", " ")}</span>
+            </Link>
+            <span>: {logicArticle.count}</span>
+            <ul>
+              {logicArticle.articles.map((article) => (
+                <li key={article.title}>
+                  <span>{article.title} </span>
+                  <Link className="" href={`/logic/${article.slug}`}>
+                    اقرأ اكثر
+                  </Link>
+                </li>
               ))}
-            </ol>
-          </li>
-        ))}
-      </ul>
-
-      <h1>all logics by tag</h1>
-      <ul>
-        {props.allLogicTags.map((logic) => (
-          <li key={logic.tag}>
-            {logic.tag}
-            <ol>
-              {logic.articles.map((article) => (
-                <li key={article.title}>{article.title}</li>
-              ))}
-            </ol>
+            </ul>
           </li>
         ))}
       </ul>
@@ -40,11 +37,6 @@ export default function AllLogicPage(props) {
   );
 }
 export async function getStaticProps(props) {
-  const allLogicTags = getAllLogicsTags();
-  allLogicTags.map((tag) => {
-    const articlesByTag = getLogicsByTag(tag.tag);
-    tag.articles = articlesByTag;
-  });
   const allLogicCategories = getAllLogicsCategories();
   allLogicCategories.map((category) => {
     const articlesByCategory = getLogicsByCategory(category.category);
@@ -52,7 +44,6 @@ export async function getStaticProps(props) {
   });
   return {
     props: {
-      allLogicTags: allLogicTags,
       allLogicCategories: allLogicCategories,
     },
   };

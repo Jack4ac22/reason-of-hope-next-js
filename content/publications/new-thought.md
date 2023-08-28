@@ -2,7 +2,7 @@
 title: "الفكر الجديد (New Thought)"
 date: "2021-07-13"
 categories: 
-  - "podcast"
+
   - "إصدارات"
   - "الديانات-والطوائف"
 tags: 

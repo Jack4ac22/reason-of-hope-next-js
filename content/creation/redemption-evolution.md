@@ -4,6 +4,10 @@ date: "2019-08-13"
 categories: 
   - "قضيّة-الخلق"
   - "الكتاب-المقدس-والإنجيل"
+tags: 
+  - "دفاعيات"
+  - "الإيمان"
+  - "الإنجيل"
 ---
 
 بقلم: [Lita Cosner](https://creation.com/lita-cosner)  

@@ -1,11 +1,11 @@
 ---
 title: "أحفاد نُوح الستة عشر"
 date: "2019-01-22"
-categories: 
+categories:
   - "قضيّة-الخلق"
   - "الكتاب-المقدس-والإنجيل"
   - "العالم-التوراتي"
-tags: 
+tags:
   - "نوح"
   - "الكتاب-المقدس"
   - "الطوفان"
@@ -19,19 +19,13 @@ coverImage: "e2808ee281a8d986d988d8ade281a9.jpg"
 
 إنَّ التّاريخَ المدنّي يُفرز العديدَ من الأدلّةِ التي تُظهر أنَّ النَّاجين من طوفان نُوح كانوا شخصيّات تاريخية حُفِظَت أسماءهم على نحوٍ ثابت في العالم القديم.
 
-لحظة خَطى نُوح وأسرته خارج الفُلك خطواتهم الأولى، كانوا الأناس الوحيدين على الأرض، فوقع على عاتق أبناء نُوح الثلاثة: سام وحام ويافَث إعادة مَلء الأرض من خلال الأبناء الذين سَيولَدون لهم بعد الطوفان. ومن بين أحفاد نوح نجد ستة عشر حفيداً سُجِّلَت أسماءهم في الأصحاح العاشر من سفر لتكوين. 
+لحظة خَطى نُوح وأسرته خارج الفُلك خطواتهم الأولى، كانوا الأناس الوحيدين على الأرض، فوقع على عاتق أبناء نُوح الثلاثة: سام وحام ويافَث إعادة مَلء الأرض من خلال الأبناء الذين سَيولَدون لهم بعد الطوفان. ومن بين أحفاد نوح نجد ستة عشر حفيداً سُجِّلَت أسماءهم في الأصحاح العاشر من سفر لتكوين.
 
 https://hearthis.at/reasonofope/16granson/
 
 https://open.spotify.com/episode/3cFfVRdXGyKF6zDbkyoYRN?si=kXw5-NZ4QHy4mMkCc3YMSw
 
-##### يُمكنكم الحصول على الملفات الصوتية من المنصات التالية:  
-  
-[![](images/google-podcasts.png)](https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy81MTVjMjljNC9wb2RjYXN0L3Jzcw==/episode/YzdiODllNDUtOWIwNS00NTc1LWJkYzgtODkxMTA2Zjc4MDg2)[![](images/apple-podcasts-1.png)](https://podcasts.apple.com/lu/podcast/قضية-الخلق/id1562186150?i=1000522484029)[![](images/spotify.png)](https://open.spotify.com/episode/3cFfVRdXGyKF6zDbkyoYRN?si=vA5l9s9bQk2yDDo24eSwiw&nd=1)[![](images/anchor-2.png)](https://anchor.fm/reason-of-hope4/episodes/ep-e107tbr/a-a5f62ss)[![](images/breaker.png)](https://www.breaker.audio/sbb-lrj/e/87506972)[![](images/deezer.png)](https://www.deezer.com/en/episode/302328872?utm_campaign=clipboard-generic&utm_source=user_sharing&utm_medium=desktop&utm_content=talk_episode-302328872)[![](images/hearthis.at_.png)](https://hearthis.at/reasonofope/16granson/)
-
-![](images/EphesusRuins.jpg)
-
-أطلال من تركيّا. هنالك أدلّة تشير إلى أن اسم ذلك البلد مُشتَقّ من حفيد نوح المدعوّ توجرمة (انظر أدناه)
+![أطلال من تركيّا. هنالك أدلّة تشير إلى أن اسم ذلك البلد مُشتَقّ من حفيد نوح المدعوّ توجرمة](EphesusRuins.jpg)
 
 إن الله قَد حَفِظَ لنا الكثير من الأدلة لنتأكد من أنَّ هؤلاء الستة عشر حفيداً سَبَقَ وعاشوا بالحقيقة و أن أسماءهم المذكورة في الكتاب المقدس هي أسماء حقيقية أيضاً، فبعدَ التشتّت الذي حدث في بابل ([التكوين ١١: ١-٣٢](https://biblia.com/bible/ar-vandyke/Ge11.1-32)) انتشرت ذُرِّيتهم في أصقاع الأرض حيث أسسوا أُمِم العالم القديم.
 
@@ -57,9 +51,7 @@ https://youtu.be/v82TTQZGJcQ
 
 هؤلاء هاجروا لاحقاً باتجاه الغرب إلى ما ندعوه حالياً فرنساو اسبانيا، حيث أن فرنسا قد سَبق وحملت لقب بلاد الغال لعدّة قرون نسبةً إلى السلالة المُنحدرة من نسل جومر، وفي شمال غرب اسبانيا نجد منطقة باسم غاليسيا (جليقية) حتى يومنا هذا.
 
-![7915Ramesses-Nabatean](images/7915Ramesses-Nabatean.jpg)
-
-على اليسار: مجسّم ضخم منحوت للفرعون المِصريّ رمسيس الثاني. على اليمين أطلال من البتراء المدينة النبطيّة القديمة.
+![على اليسار: مجسّم ضخم منحوت للفرعون المِصريّ رمسيس الثاني. على اليمين أطلال من البتراء المدينة النبطيّة القديمة.](7915Ramesses-Nabatean.jpg)
 
 امبراطوريّأت عظيمة من الماضي: مصر، أشّور، بابل، وفارس كلَّها إمبراطوريات ذات صِلات تاريخيّة بشخصّيات كتابيّة مرتبطة بأبناء نوح. الغالب منها، وإن لم يَكُن الكلّ، كانت قبائل وعشائر من الممكن تقفّي أثرها إلى أولئك الرجال من خلال نَسلهم. على اليسار: مجسّم ضخم منحوت للفرعون المِصريّ رمسيس الثاني. على اليمين أطلال من البتراء المدينة النبطيّة القديمة.
 
@@ -123,12 +115,12 @@ https://youtu.be/v82TTQZGJcQ
 
 [المقال من الموقع الرسمي creation.com](https://creation.com/%D8%A3%D8%AD%D9%81%D8%A7%D8%AF-%D9%86%D9%8F%D9%88%D8%AD-%D8%A7%D9%84%D8%B3%D8%AA%D8%A9-%D8%B9%D8%B4%D8%B1)
 
-* * *
+---
 
 المراجع:
 
 1. Josephus: Complete Works, Kregel Publications, Grand Rapids, Michigan, ‘Antiquities of the Jews’, 1:6:1 (i.e. book 1, chapter 6, section 1).
-2. J. Davis, History of the Welsh Baptists from the Year Sixty-three to the Year One Thousand Seven Hundred and Seventy, D.M. Hogan, Pittsburgh, 1835, republished by The Baptist, Aberdeen, Mississippi, p. 1, 1976. 
+2. J. Davis, History of the Welsh Baptists from the Year Sixty-three to the Year One Thousand Seven Hundred and Seventy, D.M. Hogan, Pittsburgh, 1835, republished by The Baptist, Aberdeen, Mississippi, p. 1, 1976.
 3. Encyclopaedia Britannica, 2:422, 1967.
 4. Encyclopaedia Britannica, 20:116, 1967.
 5. Custance, A.C., Noah’s Three Sons, Vol. 1, ‘The Doorway Papers’, Zondervan, Michigan, p. 92, 1975.
@@ -136,7 +128,7 @@ https://youtu.be/v82TTQZGJcQ
 7. Cooper, B., After the Flood, New Wine Press, Chichester, England, p. 203, 1995.
 8. World Book Encyclopaedia, Vol. 18, p. 207, 1968.
 9. Ref. 1, 1:6:2.
-10. Ref. 7, p. 170. 
+10. Ref. 7, p. 170.
 11. Ref. 7, p. 172.
 12. Ref. 5, p. 117.
 13. Matthew 27:46 and Mark 15:34 quote the Aramaic form of Psalm 22:1, but Matthew reconverted Eloi to the Hebrew Eli.

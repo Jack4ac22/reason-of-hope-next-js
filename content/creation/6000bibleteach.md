@@ -9,21 +9,16 @@ tags:
   - "تاريخ"
   - "دراسة-سفر-التكوين"
   - "عمر-الأرض"
-coverImage: ""
-description: "هل يمكننا أن نقوم بتقدير عمر الأرض بناءً على ما يقدمه الكتاب المقدس؟ "
-spotify: "http://open.spotify.com/episode/3cFfVRdXGyKF6zDbkyoYRN?si=kXw5-NZ4QHy4mMkCc3YMSw"
-youtube: "v82TTQZGJcQ"
-creationLink: "https://creation.com/%D8%A3%D8%AD%D9%81%D8%A7%D8%AF-%D9%86%D9%8F%D9%88%D8%AD-%D8%A7%D9%84%D8%B3%D8%AA%D8%A9-%D8%B9%D8%B4%D8%B1"
+coverImage: "genesis-bible.jpg"
+spotify: "http://open.spotify.com/episode/08WH3thq39aeHvT233dzCz?si=Rm5xsKgyT\_228EA5IBABNQ"
+creationLink: "http://creation.com/%D9%83%D9%8A%D9%81-%D9%8A%D8%B9%D9%84%D9%85-%D8%A7%D9%84%D9%83%D8%AA%D8%A7%D8%A8-%D8%A7%D9%84%D9%85%D9%82%D8%AF%D8%B3-%D8%B9%D9%85%D8%B1-%D8%A7%D9%84%D8%A3%D8%B1%D8%B6-%D9%A6%D9%A0%D9%A0%D9%A0"
 authors:
   - name: "Russell Grigg"
-    link: "https://creation.com/russell-grigg"
+    link: "http://creation.com/russell-grigg"
   - name: Harold Hunt
-    link: "https://creation.com/harold-hunt"
+    link: "http://creation.com/harold-hunt"
+description: "هل يمكننا أن نقوم بتقدير عمر الأرض بناءً على ما يقدمه الكتاب المقدس؟ "
 ---
-
-https://hearthis.at/5422161/
-
-https://open.spotify.com/episode/08WH3thq39aeHvT233dzCz?si=Rm5xsKgyT\_228EA5IBABNQ
 
 ## يقدّم لنا التاريخ المسجّل في الكتاب المقدس إجابة على التساؤل عن عُمْر الأرض.
 
@@ -63,55 +58,33 @@ https://open.spotify.com/episode/08WH3thq39aeHvT233dzCz?si=Rm5xsKgyT\_228EA5IBAB
 
 بإمكاننا أن نكون على ثقة بأن كلمة الله دقيقة في تفاصيلها التاريخية وكذلك هي في ما قدّمته لنا عن اللاهوت.
 
-[المقال من الموقع الرسمي creatio.com](https://creation.com/%D9%83%D9%8A%D9%81-%D9%8A%D8%B9%D9%84%D9%85-%D8%A7%D9%84%D9%83%D8%AA%D8%A7%D8%A8-%D8%A7%D9%84%D9%85%D9%82%D8%AF%D8%B3-%D8%B9%D9%85%D8%B1-%D8%A7%D9%84%D8%A3%D8%B1%D8%B6-%D9%A6%D9%A0%D9%A0%D9%A0)
-
-|
-
-### الأب/ الحدث الأول
-
-|
-
-### الإبن/ الحدث الثاني
-
-|
-
-### العمر/ المدة الزمنية
-
-|
-
-### العمر الإجمالي
-
-|
-
-### المرجع
-
-|                   |
-| ----------------- | ------------- | --- | ---- | --------------------------------------------------------------- |
-| **آدم**           | شيث           | ١٣٠ | ١٣٠  | [التكوين ٥](https://biblia.com/bible/ar-vandyke/Ge5)            |
-| **شيث**           | أنوش          | ١٠٥ | ٢٣٥  | [التكوين ٥](https://biblia.com/bible/ar-vandyke/Ge5)            |
-| **أنوش**          | قينان         | ٩٠  | ٣٢٥  | [التكوين ٥](https://biblia.com/bible/ar-vandyke/Ge5)            |
-| **قينان**         | مهللئيل       | ٧٠  | ٣٩٥  | [التكوين ٥](https://biblia.com/bible/ar-vandyke/Ge5)            |
-| **مهللئيل**       | يارد          | ٦٥  | ٤٦٠  | [التكوين ٥](https://biblia.com/bible/ar-vandyke/Ge5)            |
-| **يارد**          | أخنوخ         | ١٦٢ | ٦٢٢  | [التكوين ٥](https://biblia.com/bible/ar-vandyke/Ge5)            |
-| **أخنوخ**         | متوشالح       | ٦٥  | ٦٨٧  | [التكوين ٥](https://biblia.com/bible/ar-vandyke/Ge5)            |
-| **متوشالح**       | لامَك         | ١٨٧ | ٨٧٤  | [التكوين ٥](https://biblia.com/bible/ar-vandyke/Ge5)            |
-| **لامَك**         | نُوح          | ١٨٢ | ١٠٥٦ | [التكوين ٥](https://biblia.com/bible/ar-vandyke/Ge5)            |
-| **نُوح**          | الطوفان       | ٦٠٠ | ١٦٥٦ | [التكوين ٧: ١١](https://biblia.com/bible/ar-vandyke/Ge7.11)     |
-| **الطوفان**       | أرفَكشاد      | ٢   | ١٦٥٨ | [التكوين ١١](https://biblia.com/bible/ar-vandyke/Ge11)          |
-| **أرفَكشاد**      | شَالَح        | ٣٥  | ١٦٩٣ | [التكوين ١١](https://biblia.com/bible/ar-vandyke/Ge11)          |
-| **شَالَح**        | عَابِر        | ٣٠  | ١٧٢٣ | [التكوين ١١](https://biblia.com/bible/ar-vandyke/Ge11)          |
-| **عَابِر**        | فَالَج        | ٣٤  | ١٧٥٧ | [التكوين ١١](https://biblia.com/bible/ar-vandyke/Ge11)          |
-| **فَالَج**        | رَعُو         | ٣٠  | ١٧٨٧ | [التكوين ١١](https://biblia.com/bible/ar-vandyke/Ge11)          |
-| **رَعُو**         | سَرُوج        | ٣٢  | ١٨١٩ | [التكوين ١١](https://biblia.com/bible/ar-vandyke/Ge11)          |
-| **سَرُوج**        | ناحُور        | ٣٠  | ١٨٤٩ | [التكوين ١١](https://biblia.com/bible/ar-vandyke/Ge11)          |
-| **ناحُور**        | تَارَح        | ٢٩  | ١٨٧٨ | [التكوين ١١](https://biblia.com/bible/ar-vandyke/Ge11)          |
-| **تَارَح**        | إبراهيم       | ١٣٠ | ٢٠٠٨ | [التكوين ١١](https://biblia.com/bible/ar-vandyke/Ge11)          |
-| **إبراهيم**       | إسحق          | ١٠٠ | ٢١٠٨ | [التكوين ٢١: ٥](https://biblia.com/bible/ar-vandyke/Ge21.5)     |
-| **إسحق**          | يعقوب         | ٦٠  | ٢١٦٨ | [التكوين ٢٥: ٢٦](https://biblia.com/bible/ar-vandyke/Ge25.26)   |
-| **يعقوب**         | يعقوب في مصر  | ١٣٠ | ٢٢٩٨ | [التكوين ٤٧: ٩](https://biblia.com/bible/ar-vandyke/Ge47.9)     |
-| **يعقوب في مصر**  | الخروج من مصر | ٤٣٠ | ٢٧٢٨ | [الخروج ١٢: ٤٠](https://biblia.com/bible/ar-vandyke/Ex12.40)    |
-| **الخروج من مصر** | بناء الهيكل   | ٤٨٠ | ٣٢٠٨ | [الملوك الأول ٦: ١](https://biblia.com/bible/ar-vandyke/1Ki6.1) |
-| **بناء الهيكل**   | السبي (النفي) | ٣٤٥ | ٣٥٥٣ |                                                                 |
+| الأب / الحدث الأول | الإبن/ الحدث الثاني | العمر / المدة الزمنية | العمر الإجمالي | المرجع                                                          |
+| :----------------- | :------------------ | :-------------------- | :------------- | :-------------------------------------------------------------- |
+| **آدم**            | شيث                 | ١٣٠                   | ١٣٠            | [التكوين ٥](https://biblia.com/bible/ar-vandyke/Ge5)            |
+| **شيث**            | أنوش                | ١٠٥                   | ٢٣٥            | [التكوين ٥](https://biblia.com/bible/ar-vandyke/Ge5)            |
+| **أنوش**           | قينان               | ٩٠                    | ٣٢٥            | [التكوين ٥](https://biblia.com/bible/ar-vandyke/Ge5)            |
+| **قينان**          | مهللئيل             | ٧٠                    | ٣٩٥            | [التكوين ٥](https://biblia.com/bible/ar-vandyke/Ge5)            |
+| **مهللئيل**        | يارد                | ٦٥                    | ٤٦٠            | [التكوين ٥](https://biblia.com/bible/ar-vandyke/Ge5)            |
+| **يارد**           | أخنوخ               | ١٦٢                   | ٦٢٢            | [التكوين ٥](https://biblia.com/bible/ar-vandyke/Ge5)            |
+| **أخنوخ**          | متوشالح             | ٦٥                    | ٦٨٧            | [التكوين ٥](https://biblia.com/bible/ar-vandyke/Ge5)            |
+| **متوشالح**        | لامَك               | ١٨٧                   | ٨٧٤            | [التكوين ٥](https://biblia.com/bible/ar-vandyke/Ge5)            |
+| **لامَك**          | نُوح                | ١٨٢                   | ١٠٥٦           | [التكوين ٥](https://biblia.com/bible/ar-vandyke/Ge5)            |
+| **نُوح**           | الطوفان             | ٦٠٠                   | ١٦٥٦           | [التكوين ٧: ١١](https://biblia.com/bible/ar-vandyke/Ge7.11)     |
+| **الطوفان**        | أرفَكشاد            | ٢                     | ١٦٥٨           | [التكوين ١١](https://biblia.com/bible/ar-vandyke/Ge11)          |
+| **أرفَكشاد**       | شَالَح              | ٣٥                    | ١٦٩٣           | [التكوين ١١](https://biblia.com/bible/ar-vandyke/Ge11)          |
+| **شَالَح**         | عَابِر              | ٣٠                    | ١٧٢٣           | [التكوين ١١](https://biblia.com/bible/ar-vandyke/Ge11)          |
+| **عَابِر**         | فَالَج              | ٣٤                    | ١٧٥٧           | [التكوين ١١](https://biblia.com/bible/ar-vandyke/Ge11)          |
+| **فَالَج**         | رَعُو               | ٣٠                    | ١٧٨٧           | [التكوين ١١](https://biblia.com/bible/ar-vandyke/Ge11)          |
+| **رَعُو**          | سَرُوج              | ٣٢                    | ١٨١٩           | [التكوين ١١](https://biblia.com/bible/ar-vandyke/Ge11)          |
+| **سَرُوج**         | ناحُور              | ٣٠                    | ١٨٤٩           | [التكوين ١١](https://biblia.com/bible/ar-vandyke/Ge11)          |
+| **ناحُور**         | تَارَح              | ٢٩                    | ١٨٧٨           | [التكوين ١١](https://biblia.com/bible/ar-vandyke/Ge11)          |
+| **تَارَح**         | إبراهيم             | ١٣٠                   | ٢٠٠٨           | [التكوين ١١](https://biblia.com/bible/ar-vandyke/Ge11)          |
+| **إبراهيم**        | إسحق                | ١٠٠                   | ٢١٠٨           | [التكوين ٢١: ٥](https://biblia.com/bible/ar-vandyke/Ge21.5)     |
+| **إسحق**           | يعقوب               | ٦٠                    | ٢١٦٨           | [التكوين ٢٥: ٢٦](https://biblia.com/bible/ar-vandyke/Ge25.26)   |
+| **يعقوب**          | يعقوب في مصر        | ١٣٠                   | ٢٢٩٨           | [التكوين ٤٧: ٩](https://biblia.com/bible/ar-vandyke/Ge47.9)     |
+| **يعقوب في مصر**   | الخروج من مصر       | ٤٣٠                   | ٢٧٢٨           | [الخروج ١٢: ٤٠](https://biblia.com/bible/ar-vandyke/Ex12.40)    |
+| **الخروج من مصر**  | بناء الهيكل         | ٤٨٠                   | ٣٢٠٨           | [الملوك الأول ٦: ١](https://biblia.com/bible/ar-vandyke/1Ki6.1) |
+| **بناء الهيكل**    | السبي (النفي)       | ٣٤٥                   | ٣٥٥٣           |                                                                 |
 
 ---
 

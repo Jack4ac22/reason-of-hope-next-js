@@ -13,7 +13,6 @@ tags:
   - "حام"
   - "دراسة-سفر-التكوين"
 coverImage: "e2808ee281a8d986d988d8ade281a9.jpg"
-description: "إن التاريخ المدني المحفوظ خارج الكتاب المقدس يحتفظ لنا بالعديد من الدلائل التي تؤيد وجود هؤلاء الأشخاص الذين انحدوا من نوح وبنيه. اعرف المزيد."
 spotify: "http://open.spotify.com/episode/3cFfVRdXGyKF6zDbkyoYRN?si=kXw5-NZ4QHy4mMkCc3YMSw"
 youtube: "v82TTQZGJcQ"
 creationLink: "https://creation.com/%D8%A3%D8%AD%D9%81%D8%A7%D8%AF-%D9%86%D9%8F%D9%88%D8%AD-%D8%A7%D9%84%D8%B3%D8%AA%D8%A9-%D8%B9%D8%B4%D8%B1"
@@ -22,6 +21,7 @@ authors:
     link: "https://creation.com/russell-grigg"
   - name: Harold Hunt
     link: "https://creation.com/harold-hunt"
+description: "إن التاريخ المدني المحفوظ خارج الكتاب المقدس يحتفظ لنا بالعديد من الدلائل التي تؤيد وجود هؤلاء الأشخاص الذين انحدوا من نوح وبنيه. اعرف المزيد."
 ---
 
 إنَّ التّاريخَ المدنّي يُفرز العديدَ من الأدلّةِ التي تُظهر أنَّ النَّاجين من طوفان نُوح كانوا شخصيّات تاريخية حُفِظَت أسماءهم على نحوٍ ثابت في العالم القديم.

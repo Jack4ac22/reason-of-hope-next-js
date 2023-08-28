@@ -11,6 +11,8 @@ export default function CreationContentBody(props) {
 
   const customRenderers = {
     a(anchor) {
+      // TODO: on Click of Bible Verse display the verse. from local json file.
+      // TODO: on Click of a link open a pop up and display the page.
       if (anchor.children[0] === "Youtube") {
         return <ReactPlayer url={anchor.href} />;
       } else if (anchor.children[0] === "Spotify") {
@@ -36,6 +38,7 @@ export default function CreationContentBody(props) {
       );
     },
     img(image) {
+      // TODO: on click display a big version of the image.
       return (
         <Link href={`/blog-images/${image.src}`} key={image.src}>
           <Image

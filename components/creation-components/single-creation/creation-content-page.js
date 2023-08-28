@@ -20,12 +20,16 @@ export default function CreationContentPageComponent(props) {
         <CreationContentHeader creation={creation} />
         <div className="container-md">
           <div className="row">
-            <div className="col-md-4">
-              <Spotify wide link={creation.spotify} />
-            </div>
-            <div className="col-md-8">
-              <YouTube videoId={creation.youtube} opts={opts} />
-            </div>
+            {creation.spotify && (
+              <div className={`${creation.youtube ? "col-md-5" : "col"} m-p-3`}>
+                <Spotify wide link={creation.spotify} />
+              </div>
+            )}
+            {creation.youtube && (
+              <div className={`${creation.youtube ? "col-md-7" : "col"} m-p-3`}>
+                <YouTube videoId={creation.youtube} opts={opts} />
+              </div>
+            )}
           </div>
         </div>
 

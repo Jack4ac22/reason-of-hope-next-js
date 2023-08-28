@@ -12,7 +12,7 @@ export default function CreationContentHeader(props) {
           </div>
           <Image
             src={`/blog-images/${creation.coverImage}`}
-            className="col-md-6 float-md-end mb-3 ms-md-3 img-fluid"
+            className="col-md-6 float-md-end mb-3 ms-md-3 img-fluid d-none d-lg-block"
             alt={`Cover Image for: ${creation.slug}`}
             width={430}
             height={180}

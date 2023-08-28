@@ -1,24 +1,22 @@
 ---
 title: "خمس معجزات إلحاديّة"
 date: "2019-02-26"
-categories: 
+categories:
   - "قضيّة-الخلق"
   - "التطور-ونتائجه"
-tags: 
-  - "معجزة"
+tags:
   - "إلحاد"
   - "الكون"
   - "النجوم"
   - "الأخلاق"
-  - "الخلق"
   - "تاريخ"
   - "تطور"
-  - "حياة"
   - "علوم"
 coverImage: "screenshot-2020-02-14-at-18.14.39.png"
+description: "إن التاريخ المدني المحفوظ خارج الكتاب المقدس يحتفظ لنا بالعديد من الدلائل التي تؤيد وجود هؤلاء الأشخاص الذين انحدوا من نوح وبنيه. اعرف المزيد."
 ---
 
-بقلم: [Don Batten](https://creation.com/dr-don-batten-cv)  
+بقلم: [Don Batten](https://creation.com/dr-don-batten-cv)
 
 يمكنكم قراءة المقال من موقع [Creation.com](http://creation.com/arabic) [من هنا](https://creation.com/خمسة-معجزات-إلحاديّة).
 
@@ -62,7 +60,7 @@ https://youtu.be/b4FwBdeW\_Zg
 
 هذا ليس سِحْراً، فالله السرمديّ والكلّيّ القُدرة، هو السبب المقنع لنشوء الكون. وهو موجودٌ سرمديّاً (إذ ليس له بداية) وكينونته غير مادّية (الله روح، هذا ما يصرّح به الكتاب المقدس في مواضع كثيرة).
 
-## 2. أصل النجوم:  
+## 2. أصل النجوم:
 
 إن تفسير نشأة النجوم وفقاً لنظرية الانفجار العظيم (اللاعب الوحيد في الساحة حالياً) يتطلب وجود طَوْرَين. الطَور الأول يُعنى بتَشكُّل النجوم من الهيدروجين/الهيليوم (الأمر الذي يعرف بجمهرة النجوم الثالثة9). وهنا المعضلة الأولى: كيف يمكن للغازات، التي تشكلت في الكون البدائي الذي يتّسع بسرعة كبيرة، أن تتحد معاً لتشكل كتلة حرجة ذات جاذبية كافية لجذب المزيد من الغازات لإنتاج نَجْم؟ علماً أن الغازات لا تميل إلى التجمُّع، إنما الى التبعثر، وخاصّة في حال وجود كمّيّة هائلة من الطاقة (الحرارة)10. فانظر العجَب، لقد اخترع علماء الكونيّات (الكوزمولوجي) ما يدعى "المادَّة المظلمة"، وهي "أشياء" غير مرئيّة أو غير قابلة للرصد (مخفية وغير مُدرَكة) ولديها القدرة على توليد كمية كبيرة من قوة الجاذبية وقت الحاجة إليها فقط. مزيد من السِّحْر!11
 
@@ -82,9 +80,9 @@ https://youtu.be/b4FwBdeW\_Zg
 
 إنَّ اللهَ قد عَمِلَ الشَّمسَ والنجوم في اليوم الرابع من أيام الخليقة السبعة. ونكرر، بأن هذا ليس بِسِحْرٍ أو خرافات، لأن الله قادر على فعل مثل هذه الأمور.
 
-## 3. أصل الحياة:  
+## 3. أصل الحياة:
 
-يقول عالِم الأحياء الكونية (أَسْترُولُوجِي) البروفيسور بول ديفيس:  
+يقول عالِم الأحياء الكونية (أَسْترُولُوجِي) البروفيسور بول ديفيس:
 
 > "كيف للذرات الغبية أن تقوم بكتابة برمجتها الخاصّة…؟ لا أحد يعرف… فلا يوجد قانون معروف في الفيزياء قادر على خلق معلومات من لا شيء"12.
 
@@ -156,35 +154,35 @@ https://youtu.be/b4FwBdeW\_Zg
 
 إنَّ يسوعَ المسيح قد أتى إلى العالم ليجعل مغفرة خطايانا ممكنة؛ انظر [الخبر السّار](https://creation.com/good-news)!
 
-* * *
+---
 
 ### مراجع
 
-1. أناس سُذَّج من سُكَّان الأرياف. 
-2. Batten, D., Superstition vs Christianity, _Creation_ **29**(1):6, 2006; creation.com/superstition-vs-christianity. 
-3. “I hope there is no God!”, Thomas Nagel quote; creation.com/nagel. 
-4. There is ‘black magic’ where Satan is the sufficient cause for the events; for example, the Pharaoh’s magicians in Egypt, where they threw down their staves and they became snakes. 
-5. Grossman, L., Death of eternal cosmos: From the cosmic egg to the infinite multiverses every model of the universe has a beginning, _New Scientist_ **213**(2847):6–7, January 2012. To say this we assume that the same laws of physics applied at the beginning, and that the Second Law applies to the whole universe (this is consistent with all experimental evidence). This is nothing more than the uniformity of nature in time and space, a foundational principle of science. Paul Davies said, “Yet the laws \[of physics\] that permit a Universe to create itself are even more impressive than a cosmic magician.” See, The singularity—a ‘Dark’ beginning. 
-6. هذا ما أَعلن عنه غلاف مجلة ديسكفري، في نيسان ٢٠٠٢. 
-7. Reynolds, D.W., Godless universe untenable: A review of A Universe from Nothing: Why There is Something Rather Than Nothing by Lawrence M. Krauss, _J. Creation_ **27**(1):30–35, 2013; creation.com/krauss-review. 
-8. See, Hartnett, J., The singularity—a ‘Dark’ beginning, July 2014; creation.com/dark-beginning. 
-9. See, Hartnett, J., Have Population III stars finally been discovered?, 2016; creation.com/population-iii-stars. 
-10. Bernitt, R., Stellar evolution and the problem of the ‘first’ stars, _J. Creation_ **16**(1):12-14, April 2002; creation.com/first-stars. 
-11. Hartnett, J.G., Stars just don’t form naturally—‘Dark matter’ the ‘god of the gaps’ is needed, September 2015; creation.com/stars-dont-form-naturally. 
-12. Davies, P., Life force, _New Scientist_ **163**(2204):27–30, September 1999. 
-13. Habermas, G., My pilgrimage from atheism to theism: an exclusive interview with former British atheist Professor Antony Flew, Philosophia Christi, Winter 2005; illustramedia.com. 
-14. Famous atheist now believes in God: One of world’s leading atheists now believes in God, more or less, based on scientific evidence, 2004, Associated Press; sciencefindsgod.com. 
-15. Nagel, T., Mind and Cosmos: Why the Materialist Neo-Darwinian Conception of Nature Is Almost Certainly False, Oxford University Press, 2012. 
-16. Batten, D., Origin of life, November 2013; creation.com/origin-of-life. 
-17. Dawkins, R., The Blind Watchmaker, W.W. Norton & Company, New York, p.1, 1986. 
-18. See ReMine, W.J., Desperate attempts to discover ‘the elusive process of evolution’, A review of The Altenberg 16: An Exposé of the Evolution Industry by Suzan Mazur, _J. Creation_ **26**(1):24–30, 2012; creation.com/review-altenberg-16. 
-19. Ref. 13, p. 6. 
-20. Batten, D., The myth of 1%, _Creation_ **36**(1):35–37, 2014; creation.com/1-percent-myth and Batten, D., Haldane’s dilemma has not been solved, _J. Creation_ **19**(1):20–21, 2005; creation.com/haldane. 
-21. 1% difference still adds up to 30 million base pairs (chemical ‘letters’) difference, which is a huge problem for an evolutionary scenario of random mutations and natural selection over supposedly six million years. 
-22. Bates, G., That quote!—about the missing transitional fossils: Embarrassed evolutionists try to ‘muddy the waters’; creation.com/pattquote. 
-23. Batten, D., Living fossils: a powerful argument for creation, _Creation_ **33**(2):20–23, 2011; creation.com/werner. 
-24. Nunn, W., Thomas Nagel—The atheist who dared to question materialism, March 2014; creation.com/nagel-materialism (and articles referenced therein). 
-25. Lewis, C.S., The Business of Heaven, Fount Paperbacks, U.K., p. 97, 1984. 
-26. Full quote Amazing admission, creation.com/lewontin. 
+1. أناس سُذَّج من سُكَّان الأرياف.
+2. Batten, D., Superstition vs Christianity, *Creation* **29**(1):6, 2006; creation.com/superstition-vs-christianity.
+3. “I hope there is no God!”, Thomas Nagel quote; creation.com/nagel.
+4. There is ‘black magic’ where Satan is the sufficient cause for the events; for example, the Pharaoh’s magicians in Egypt, where they threw down their staves and they became snakes.
+5. Grossman, L., Death of eternal cosmos: From the cosmic egg to the infinite multiverses every model of the universe has a beginning, *New Scientist* **213**(2847):6–7, January 2012. To say this we assume that the same laws of physics applied at the beginning, and that the Second Law applies to the whole universe (this is consistent with all experimental evidence). This is nothing more than the uniformity of nature in time and space, a foundational principle of science. Paul Davies said, “Yet the laws \[of physics\] that permit a Universe to create itself are even more impressive than a cosmic magician.” See, The singularity—a ‘Dark’ beginning.
+6. هذا ما أَعلن عنه غلاف مجلة ديسكفري، في نيسان ٢٠٠٢.
+7. Reynolds, D.W., Godless universe untenable: A review of A Universe from Nothing: Why There is Something Rather Than Nothing by Lawrence M. Krauss, *J. Creation* **27**(1):30–35, 2013; creation.com/krauss-review.
+8. See, Hartnett, J., The singularity—a ‘Dark’ beginning, July 2014; creation.com/dark-beginning.
+9. See, Hartnett, J., Have Population III stars finally been discovered?, 2016; creation.com/population-iii-stars.
+10. Bernitt, R., Stellar evolution and the problem of the ‘first’ stars, *J. Creation* **16**(1):12-14, April 2002; creation.com/first-stars.
+11. Hartnett, J.G., Stars just don’t form naturally—‘Dark matter’ the ‘god of the gaps’ is needed, September 2015; creation.com/stars-dont-form-naturally.
+12. Davies, P., Life force, *New Scientist* **163**(2204):27–30, September 1999.
+13. Habermas, G., My pilgrimage from atheism to theism: an exclusive interview with former British atheist Professor Antony Flew, Philosophia Christi, Winter 2005; illustramedia.com.
+14. Famous atheist now believes in God: One of world’s leading atheists now believes in God, more or less, based on scientific evidence, 2004, Associated Press; sciencefindsgod.com.
+15. Nagel, T., Mind and Cosmos: Why the Materialist Neo-Darwinian Conception of Nature Is Almost Certainly False, Oxford University Press, 2012.
+16. Batten, D., Origin of life, November 2013; creation.com/origin-of-life.
+17. Dawkins, R., The Blind Watchmaker, W.W. Norton & Company, New York, p.1, 1986.
+18. See ReMine, W.J., Desperate attempts to discover ‘the elusive process of evolution’, A review of The Altenberg 16: An Exposé of the Evolution Industry by Suzan Mazur, *J. Creation* **26**(1):24–30, 2012; creation.com/review-altenberg-16.
+19. Ref. 13, p. 6.
+20. Batten, D., The myth of 1%, *Creation* **36**(1):35–37, 2014; creation.com/1-percent-myth and Batten, D., Haldane’s dilemma has not been solved, *J. Creation* **19**(1):20–21, 2005; creation.com/haldane.
+21. 1% difference still adds up to 30 million base pairs (chemical ‘letters’) difference, which is a huge problem for an evolutionary scenario of random mutations and natural selection over supposedly six million years.
+22. Bates, G., That quote!—about the missing transitional fossils: Embarrassed evolutionists try to ‘muddy the waters’; creation.com/pattquote.
+23. Batten, D., Living fossils: a powerful argument for creation, *Creation* **33**(2):20–23, 2011; creation.com/werner.
+24. Nunn, W., Thomas Nagel—The atheist who dared to question materialism, March 2014; creation.com/nagel-materialism (and articles referenced therein).
+25. Lewis, C.S., The Business of Heaven, Fount Paperbacks, U.K., p. 97, 1984.
+26. Full quote Amazing admission, creation.com/lewontin.
 
-* * *
+---

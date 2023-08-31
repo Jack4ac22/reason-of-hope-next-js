@@ -5,6 +5,7 @@ import remarkRehype from "remark-rehype";
 import gfm from "remark-gfm";
 import ReactPlayer from "react-player/lazy";
 import { Spotify } from "react-spotify-embed";
+import YouTubeEmbed from "../../iframes/youtube-component";
 
 export default function CreationContentBody(props) {
   const { creation } = props;
@@ -14,7 +15,7 @@ export default function CreationContentBody(props) {
       // TODO: on Click of Bible Verse display the verse. from local json file.
       // TODO: on Click of a link open a pop up and display the page.
       if (anchor.children[0] === "Youtube") {
-        return <ReactPlayer url={anchor.href} />;
+        return <YouTubeEmbed video={anchor.href} />;
       } else if (anchor.children[0] === "Spotify") {
         return <Spotify wide link={anchor.href} />;
       } else {

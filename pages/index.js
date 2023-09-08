@@ -5,6 +5,9 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <HeroMain />
+      <div>
+        <h1>Main</h1>
+      </div>
     </div>
   );
 }

@@ -13,6 +13,14 @@ tags:
   - "دفاعيات"
   - "علوم"
 coverImage: "widmanstatten_hand.jpg"
+spotify: ""
+hearthis: ""
+youtube: ""
+creationLink: ""
+authors:
+  - name: ""
+    link: ""
+description: ""
 ---
 
 \[caption id="" align="alignleft" width="400"\]![nickel-iron-crystals](images/nickel-iron-crystals.jpg) يتواجد في بعض النيازك نسبة كبيرة من النيكل. تظهر بلورات الحديد والنيكل في هذا القسم المصقول من أحد النيازك. يحدث هذا التبلور عند ارتفاع درجة حرارة النيزك بفِعل سرعته القصوى والحرارة الناتجة عن الاحتكاك \[بجزيئات\] الهواء عند دخول الغلاف الجوّي للأرض، حيث ”يحترق“ كنيزك. ثم بعد ذلك يبرد ببطء مما يسمح للبلورات بالتشكّل.\[/caption\]

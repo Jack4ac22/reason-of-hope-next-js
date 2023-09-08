@@ -13,6 +13,14 @@ tags:
   - "ديناصورات"
   - "علوم"
 coverImage: "dinosaur-3149580_640.png"
+spotify: ""
+hearthis: ""
+youtube: ""
+creationLink: ""
+authors:
+  - name: ""
+    link: ""
+description: ""
 ---
 
 لافتة مُتحف تُقَدِّم تعريفاً يَهدُف لإقصاء الحقيقة عن سِفر التَّكوين.

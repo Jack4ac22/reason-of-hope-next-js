@@ -11,6 +11,14 @@ tags:
   - "تطور"
   - "علوم"
 coverImage: "austin-johnson-275715-unsplash.jpg"
+spotify: ""
+hearthis: ""
+youtube: ""
+creationLink: ""
+authors:
+  - name: ""
+    link: ""
+description: ""
 ---
 
 ## إن كان التطور يحدث بالفعل في جميع أرجاء كوننا هذا، فأين هم الجميع؟

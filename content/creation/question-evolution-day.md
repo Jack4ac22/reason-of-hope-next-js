@@ -8,6 +8,15 @@ tags:
   - "تطور"
   - "دفاعيات"
   - "داروين"
+coverImage: "ROH.png"
+spotify: ""
+hearthis: ""
+youtube: ""
+creationLink: ""
+authors:
+  - name: ""
+    link: ""
+description: ""
 ---
 
 ## يوم تحدي التطور

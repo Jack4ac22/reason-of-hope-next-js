@@ -9,6 +9,14 @@ tags:
   - "علوم"
   - "عمر-الأرض"
 coverImage: "mugger_crocodile_crocodylus_palustris.jpg"
+spotify: ""
+hearthis: ""
+youtube: ""
+creationLink: ""
+authors:
+  - name: ""
+    link: ""
+description: ""
 ---
 
 دراسة حديثة تناولت تحلل جثث التماسيح في المياه تحمل تطبيقاً مهماً يتعلق بتحجر المستحاثات.1

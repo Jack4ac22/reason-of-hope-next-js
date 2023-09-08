@@ -10,6 +10,15 @@ tags:
   - "الحيوانات"
   - "الخلق"
   - "حياة"
+coverImage: "ROH.png"
+spotify: ""
+hearthis: ""
+youtube: ""
+creationLink: ""
+authors:
+  - name: ""
+    link: ""
+description: ""
 ---
 
 يمكنكم قراءة المقال من الموقع الرسمي [من هنا](https://creation.com/المرجان-الحيوان-الذي-يتصرف-مثل-النبات).

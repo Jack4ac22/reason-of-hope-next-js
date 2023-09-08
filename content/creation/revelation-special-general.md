@@ -9,6 +9,14 @@ tags:
   - "الإعلان-الإلهي"
   - "الطبيعة"
 coverImage: "pexels-joshimer-biac2b1as-5526988.jpg"
+spotify: ""
+hearthis: ""
+youtube: ""
+creationLink: ""
+authors:
+  - name: ""
+    link: ""
+description: ""
 ---
 
 #### هل الطبيعة هي السفر السابع والستون من الكتاب المقدس؟

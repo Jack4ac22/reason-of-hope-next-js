@@ -9,6 +9,14 @@ tags:
   - "تطور"
   - "علوم"
 coverImage: "dorsetlambs.jpg"
+spotify: ""
+hearthis: ""
+youtube: ""
+creationLink: ""
+authors:
+  - name: ""
+    link: ""
+description: ""
 ---
 
 ما هو الأمر الذي يزيد كلّما نَقِصَ؟

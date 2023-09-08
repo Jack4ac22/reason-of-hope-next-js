@@ -7,6 +7,15 @@ categories:
 tags: 
   - "الكتاب-المقدس"
   - "الخلق"
+coverImage: "ROH.png"
+spotify: ""
+hearthis: ""
+youtube: ""
+creationLink: ""
+authors:
+  - name: ""
+    link: ""
+description: ""
 ---
 
 https://hearthis.at/5162514/

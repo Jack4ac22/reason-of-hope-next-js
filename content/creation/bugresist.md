@@ -10,6 +10,14 @@ tags:
   - "تطور"
   - "علوم"
 coverImage: "bed_bug_cimex_lectularius.jpg"
+spotify: ""
+hearthis: ""
+youtube: ""
+creationLink: ""
+authors:
+  - name: ""
+    link: ""
+description: ""
 ---
 
 ![bed-bugs](images/bed-bugs.jpg)

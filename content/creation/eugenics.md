@@ -9,6 +9,14 @@ tags:
   - "الحياة-البشرية"
   - "الخلق"
 coverImage: "embryo-1514192_640.png"
+spotify: ""
+hearthis: ""
+youtube: ""
+creationLink: ""
+authors:
+  - name: ""
+    link: ""
+description: ""
 ---
 
 https://hearthis.at/reasonofope/eugenics-is-back/

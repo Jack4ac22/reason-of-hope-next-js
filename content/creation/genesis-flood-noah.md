@@ -16,6 +16,15 @@ tags:
   - "الخلق"
   - "الطوفان"
   - "دراسة-سفر-التكوين"
+coverImage: "ROH.png"
+spotify: ""
+hearthis: ""
+youtube: ""
+creationLink: ""
+authors:
+  - name: ""
+    link: ""
+description: ""
 ---
 
 بقلم: [Tas Walker](https://creation.com/dr-tas-walker-speaker)

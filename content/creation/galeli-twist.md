@@ -9,6 +9,14 @@ tags:
   - "علوم"
   - "غاليليو"
 coverImage: "galileo_galilei_2.jpg"
+spotify: ""
+hearthis: ""
+youtube: ""
+creationLink: ""
+authors:
+  - name: ""
+    link: ""
+description: ""
 ---
 
 بقلم: ([Russell Grigg](https://creation.com/russell-grigg), M.Sc.(Hons 

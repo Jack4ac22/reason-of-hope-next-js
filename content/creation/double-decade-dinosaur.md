@@ -12,6 +12,14 @@ tags:
   - "ديناصورات"
   - "علوم"
 coverImage: "skeleton-3868120_640.jpg"
+spotify: ""
+hearthis: ""
+youtube: ""
+creationLink: ""
+authors:
+  - name: ""
+    link: ""
+description: ""
 ---
 
 https://hearthis.at/5395697/

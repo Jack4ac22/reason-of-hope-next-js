@@ -9,6 +9,14 @@ tags:
   - "الطوفان"
   - "عصر-جليدي"
 coverImage: "fox-4893199_640.jpg"
+spotify: ""
+hearthis: ""
+youtube: ""
+creationLink: ""
+authors:
+  - name: ""
+    link: ""
+description: ""
 ---
 
 لقراءة المقال من موقع Creation.com [اضغط هنا](https://creation.com/foxtrot-arabic).

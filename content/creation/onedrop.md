@@ -11,6 +11,15 @@ tags:
   - "الخلق"
   - "العنصرية"
   - "العبودية"
+coverImage: "ROH.png"
+spotify: ""
+hearthis: ""
+youtube: ""
+creationLink: ""
+authors:
+  - name: ""
+    link: ""
+description: ""
 ---
 
 بقلم: [Carl Wieland](https://creation.com/dr-carl-wieland-cv)

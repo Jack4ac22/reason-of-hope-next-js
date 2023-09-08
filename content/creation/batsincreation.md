@@ -1,19 +1,23 @@
 ---
 title: "العالم المذهل للخفافيش"
 date: "2021-03-31"
-categories: 
+categories:
   - "قضيّة-الخلق"
   - "علوم-معاصرة"
-tags: 
+tags:
   - "التطور"
   - "الحيوانات"
   - "الخلق"
 coverImage: "bats.jpg"
+spotify: ""
+hearthis: ""
+youtube: ""
+creationLink: "https://creation.com/bats-world-arabic"
+authors:
+  - name: "Matthew Cserhati"
+    link: "https://creation.com/matthew-cserhati"
+description: "تتسبب الخفافيش بالمشاكل لنظرية التطور؛ أليس من الأسهل قبول ما يقوله الله عن هذه المخلوقات في كلمته!"
 ---
-
-يمكنكم قراءة المقال من موقع كرييشن [من هنا.](https://creation.com/bats-world-arabic)
-
-بقلم: [Matthew Cserhati](https://creation.com/matthew-cserhati)
 
 إن الخفافيش هي مخلوقات مذهلة حقاً، وهي تشكّل حوالي خمس أنواع الثديات. إنها تعيش في جميع القارات باستثناء القارّة القطبية الجنوبية. يبلغ طول أصغر الخفافيش حوالي ٣٠ مم (ما يقرب من بوصة واحدة) ويزن ٢ غرام (أقل من أونصة) ويدعى بإسم ”الخفّاش الطنّان“. في حين أن البعض الآخر يتباهى بمساحة بين جناحيه تصل إلى متر ونصف (٥ قدم).
 
@@ -41,7 +45,17 @@ coverImage: "bats.jpg"
 
 فصيلة الروسيتوس Rousettus هي المجموعة الوحيدة من الخفافيش الضخمة التي تستخدم نظام تحديد الموقع من خلال الصدى، والتي تستخدم ألسنتها لإصدار نقرات مزدوجة مثل تلك الخاصة بالدلافين.5
 
-<table><tbody><tr><td></td><td>Megabats</td><td>Microbats</td></tr><tr><td>الحجم&nbsp;(النطاقات&nbsp;التقديرية)</td><td>أكبر</td><td>أصغر</td></tr><tr><td>الحركة</td><td>فقط&nbsp;أنواع&nbsp;قليلة&nbsp;(جنس&nbsp;واحد&nbsp;فقط)&nbsp;يستخدمنظام&nbsp;إيكو-لوكيشين&nbsp;(تحديد&nbsp;الموقع&nbsp;باستخدامالصدى)</td><td>جميعا&nbsp;تستخدم&nbsp;نظام&nbsp;إيكو-لوكيشين.</td></tr><tr><td>الآذان</td><td>أصغر</td><td>أكبر</td></tr><tr><td>العيون</td><td>أكبر</td><td>أصغر</td></tr><tr><td>الحمية&nbsp;الغذائية</td><td>الفاكهة&nbsp;بشكل&nbsp;أساسي</td><td>الحشرات،&nbsp;الفاكهة،&nbsp;الأسماك،&nbsp;الرحيق،&nbsp;الدم</td></tr><tr><td>سمات&nbsp;الوجه</td><td>وجه&nbsp;أطول</td><td>وجه&nbsp;أقصر</td></tr><tr><td>النشاطات</td><td>نشطة&nbsp;أيضاً&nbsp;خلال&nbsp;النهار</td><td>نشاط&nbsp;ليلي</td></tr><tr><td>تنوع&nbsp;الفصائل</td><td>فصائل&nbsp;أقل&nbsp;تنوعاً</td><td>فصائل&nbsp;متنوعة&nbsp;إلى&nbsp;درجة&nbsp;أعلى</td></tr><tr><td>الإنتشار&nbsp;الجغرافي</td><td>المناطق&nbsp;الإستوائية/الأجزاء&nbsp;شبه&nbsp;الإستوائيةمن&nbsp;أوروبا&nbsp;وأسيا&nbsp;وأفريقيا&nbsp;وأسترالياوميلانيزيا/&nbsp;ميكرونيزيا&nbsp;وبولينيزيا.</td><td>تنتشر&nbsp;في&nbsp;جميع&nbsp;أرجاء&nbsp;العالم</td></tr></tbody></table>
+|                            |                                                                                                       Megabats |                               Microbats |
+| -------------------------: | -------------------------------------------------------------------------------------------------------------: | --------------------------------------: |
+| الحجم (النطاقات التقديرية) |                                                                                                           أكبر |                                    أصغر |
+|                     الحركة |                           فقط أنواع قليلة (جنس واحد فقط) يستخدم نظام إيكو-لوكيشين (تحديد الموقع باستخدام الصدى) |         جميعا تستخدم نظام إيكو-لوكيشين. |
+|                     الآذان |                                                                                                           أصغر |                                    أكبر |
+|                     العيون |                                                                                                           أكبر |                                    أصغر |
+|            الحمية الغذائية |                                                                                             الفاكهة بشكل أساسي | الحشرات، الفاكهة، الأسماك، الرحيق، الدم |
+|                 سمات الوجه |                                                                                                       وجه أطول |                                وجه أقصر |
+|                   النشاطات |                                                                                         نشطة أيضاً خلال النهار |                               نشاط ليلي |
+|               تنوع الفصائل |                                                                                               فصائل أقل تنوعاً |              فصائل متنوعة إلى درجة أعلى |
+|          الإنتشار الجغرافي | المناطق الإستوائية/الأجزاء شبه الإستوائية من أوروبا وأسيا وأفريقيا وأستراليا وميلانيزيا/ميكرونيزيا وبولينيزيا. |              تنتشر في جميع أرجاء العالم |
 
 الجدول ١. الإختلافات بين الخفافيش الضخمة والخفافيش الصغيرة
 
@@ -83,21 +97,19 @@ coverImage: "bats.jpg"
 
 ### مراجع
 
-1. Denzinger, A. and Schnitzler, H.U., Bat guilds, a concept to classify the highly diverse foraging and echolocation behaviors of microchiropteran bats, _Front Physiol._ **4**:164, 2013.
-2. Wang, L.F. and 2 others, Mass extinctions, biodiversity and mitochondrial function: are bats ‘special’ as reservoirs for emerging viruses? _Current Opinion in Virology_**1**(6):649–57, 2011. 
-3. الخطم: هو أنف الحيوان وهو الجزء البارز من وجه الحيوان ويتألف من الأنف والفم والفكّ. 
-4. Jones, G., and Teeling, E.C., The evolution of echolocation in bats, _Trends in Ecology & Evolution_**21**(3):149–56, 2006. 
-5. Holland, R.A. and 2 others, Echolocation signal structure in the Megachiropteran bat _Rousettus aegyptiacus_ Geoffroy 1810, _J. Experimental Biology_ **207**:4361–4369, 2004. 
-6. Jones G. and Holderied, M.W., Bat echolocation calls: adaptation and convergent evolution. _Proc. Biological sciences / The Royal Society_, **274**(1612):905–12, 2007. 
-7. Jones G., Echolocation, _Current Biology_ **15**(13):R484–8, 2005. 
-8. Peixoto, F.P. and 2 others, A synthesis of ecological and evolutionary determinants of bat diversity across spatial scales, _BMC Ecolology_ **18**(1):18, 2018. 
-9. Rubin, J.J. and 5 others, The evolution of anti-bat sensory illusions in moths, _Science Advances_**4**(7):eaar7428, 2018. 
-10. Hedenström, A. and Johansson, L.C., Bat flight: aerodynamics, kinematics and flight morphology, _J. Experimental Biology_ **218**(5):653–63, 2015. 
-11. Bats and dolphins have incredible similarities in the genes that enable both to echolocate, but these similarities also cannot be explained through evolution: Sarfati, J., Echolocation ‘evolved in the same way’, 3 October 2013; [creation.com/echolocation-homoplasy](https://creation.com/echolocation-homoplasy). 
-12. Nishihara, H. and 2 others, Pegasoferae, an unexpected mammalian clade revealed by tracking ancient retroposon insertions, _Proc. National Academy of Sciences USA_ **103**(26):9929–34, 2006. 
-13. Papenfuss, A.T. and 9 others, The immune gene repertoire of an important viral reservoir, the Australian black flying fox, _BMC Genomics_ **20**:13:261, 2012. 
-14. Zhang, G., Comparative analysis of bat genomes provides insight into the evolution of flight and immunity, _Science_ **339**(6118):456–460, 2013. 
-15. Sears, K.E. and 3 others, Development of bat flight: morphologic and molecular evolution of bat wing digits, _Proc. National Academy of Sciences U S A._ **103**(17):6581–6, 2006. 
-16. Cretekos, C.J. and 5 others, Regulatory divergence modifies limb length between mammals, _Genes and Development_ **22**(2):141–151, 2008.
-
-* * *
+1. Denzinger, A. and Schnitzler, H.U., Bat guilds, a concept to classify the highly diverse foraging and echolocation behaviors of microchiropteran bats, *Front Physiol.* **4**:164, 2013.
+2. Wang, L.F. and 2 others, Mass extinctions, biodiversity and mitochondrial function: are bats ‘special’ as reservoirs for emerging viruses? \*Current Opinion in Virology**\*1**(6):649–57, 2011.
+3. الخطم: هو أنف الحيوان وهو الجزء البارز من وجه الحيوان ويتألف من الأنف والفم والفكّ.
+4. Jones, G., and Teeling, E.C., The evolution of echolocation in bats, \*Trends in Ecology & Evolution**\*21**(3):149–56, 2006.
+5. Holland, R.A. and 2 others, Echolocation signal structure in the Megachiropteran bat *Rousettus aegyptiacus* Geoffroy 1810, *J. Experimental Biology* **207**:4361–4369, 2004.
+6. Jones G. and Holderied, M.W., Bat echolocation calls: adaptation and convergent evolution. *Proc. Biological sciences / The Royal Society*, **274**(1612):905–12, 2007.
+7. Jones G., Echolocation, *Current Biology* **15**(13):R484–8, 2005.
+8. Peixoto, F.P. and 2 others, A synthesis of ecological and evolutionary determinants of bat diversity across spatial scales, *BMC Ecolology* **18**(1):18, 2018.
+9. Rubin, J.J. and 5 others, The evolution of anti-bat sensory illusions in moths, \*Science Advances**\*4**(7):eaar7428, 2018.
+10. Hedenström, A. and Johansson, L.C., Bat flight: aerodynamics, kinematics and flight morphology, *J. Experimental Biology* **218**(5):653–63, 2015.
+11. Bats and dolphins have incredible similarities in the genes that enable both to echolocate, but these similarities also cannot be explained through evolution: Sarfati, J., Echolocation ‘evolved in the same way’, 3 October 2013; [creation.com/echolocation-homoplasy](https://creation.com/echolocation-homoplasy).
+12. Nishihara, H. and 2 others, Pegasoferae, an unexpected mammalian clade revealed by tracking ancient retroposon insertions, *Proc. National Academy of Sciences USA* **103**(26):9929–34, 2006.
+13. Papenfuss, A.T. and 9 others, The immune gene repertoire of an important viral reservoir, the Australian black flying fox, *BMC Genomics* **20**:13:261, 2012.
+14. Zhang, G., Comparative analysis of bat genomes provides insight into the evolution of flight and immunity, *Science* **339**(6118):456–460, 2013.
+15. Sears, K.E. and 3 others, Development of bat flight: morphologic and molecular evolution of bat wing digits, *Proc. National Academy of Sciences U S A.* **103**(17):6581–6, 2006.
+16. Cretekos, C.J. and 5 others, Regulatory divergence modifies limb length between mammals, *Genes and Development* **22**(2):141–151, 2008.

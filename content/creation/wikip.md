@@ -8,6 +8,14 @@ tags:
   - "منطق"
   - "علوم"
 coverImage: "wiki.jpg"
+spotify: ""
+hearthis: ""
+youtube: ""
+creationLink: ""
+authors:
+  - name: ""
+    link: ""
+description: ""
 ---
 
 https://hearthis.at/5392055/

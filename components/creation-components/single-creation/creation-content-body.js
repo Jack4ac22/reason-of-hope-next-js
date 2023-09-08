@@ -14,17 +14,8 @@ export default function CreationContentBody(props) {
     a(anchor) {
       // TODO: on Click of Bible Verse display the verse. from local json file.
       // TODO: on Click of a link open a pop up and display the page.
-      if (anchor.children[0] === "Youtube") {
-        return <YouTubeEmbed video={anchor.href} />;
-      } else if (anchor.children[0] === "Spotify") {
-        return <Spotify wide link={anchor.href} />;
-      } else {
-        return (
-          <>
-            <Link href={anchor.href}>{anchor.children}</Link>
-          </>
-        );
-      }
+      // check if anchor.children is an array or not.
+
     },
     hr() {
       return <hr className="m-6" />;

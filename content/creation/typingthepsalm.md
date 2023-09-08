@@ -12,6 +12,14 @@ tags:
   - "تطور"
   - "علوم"
 coverImage: "7325huxley-wilberforce.jpg"
+spotify: ""
+hearthis: ""
+youtube: ""
+creationLink: ""
+authors:
+  - name: ""
+    link: ""
+description: ""
 ---
 
 https://hearthis.at/5436052/

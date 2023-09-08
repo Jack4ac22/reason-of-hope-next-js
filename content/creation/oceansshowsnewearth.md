@@ -10,6 +10,14 @@ tags:
   - "الطوفان"
   - "عمر-الأرض"
 coverImage: "beach-1751455_640.jpg"
+spotify: ""
+hearthis: ""
+youtube: ""
+creationLink: ""
+authors:
+  - name: ""
+    link: ""
+description: ""
 ---
 
 https://hearthis.at/reasonofope/oceans-speks/

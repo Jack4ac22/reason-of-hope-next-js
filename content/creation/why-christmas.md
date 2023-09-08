@@ -13,6 +13,14 @@ tags:
   - "بيت-لحم"
   - "سانتا"
 coverImage: "christmas.jpg"
+spotify: ""
+hearthis: ""
+youtube: ""
+creationLink: ""
+authors:
+  - name: ""
+    link: ""
+description: ""
 ---
 
 بقلم: [Russell Grigg](https://creation.com/russell-m-griggs-biography)

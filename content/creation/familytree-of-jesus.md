@@ -9,6 +9,14 @@ tags:
   - "يسوع-المسيح"
   - "إنجيل"
 coverImage: "god-2012104_640.jpg"
+spotify: ""
+hearthis: ""
+youtube: ""
+creationLink: ""
+authors:
+  - name: ""
+    link: ""
+description: ""
 ---
 
 بقلم: [Lita Cosner](https://creation.com/lita-cosner)

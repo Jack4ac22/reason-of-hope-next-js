@@ -8,6 +8,15 @@ tags:
   - "الإلحاد"
   - "التكوين"
   - "بولس"
+coverImage: "ROH.png"
+spotify: ""
+hearthis: ""
+youtube: ""
+creationLink: ""
+authors:
+  - name: ""
+    link: ""
+description: ""
 ---
 
 ### أو: كيف نكون غير مؤثرين في المُلحدين

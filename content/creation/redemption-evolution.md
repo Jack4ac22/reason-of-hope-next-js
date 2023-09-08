@@ -8,6 +8,15 @@ tags:
   - "دفاعيات"
   - "الإيمان"
   - "الإنجيل"
+coverImage: "ROH.png"
+spotify: ""
+hearthis: ""
+youtube: ""
+creationLink: ""
+authors:
+  - name: ""
+    link: ""
+description: ""
 ---
 
 بقلم: [Lita Cosner](https://creation.com/lita-cosner)  

@@ -12,6 +12,14 @@ tags:
   - "الطوفان"
   - "دراسة-سفر-التكوين"
 coverImage: "jesus-3548007_1280.jpg"
+spotify: ""
+hearthis: ""
+youtube: ""
+creationLink: ""
+authors:
+  - name: ""
+    link: ""
+description: ""
 ---
 
 بقلم: [Tas Walker](https://creation.com/dr-tas-walker)

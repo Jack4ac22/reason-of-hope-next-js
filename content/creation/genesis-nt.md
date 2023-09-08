@@ -9,6 +9,14 @@ tags:
   - "العهد-الجديد"
   - "التكوين"
 coverImage: "holy-bible-5274594_640.jpg"
+spotify: ""
+hearthis: ""
+youtube: ""
+creationLink: ""
+authors:
+  - name: ""
+    link: ""
+description: ""
 ---
 
 بقلم: [Lita Sanders](https://creation.com/lita-sanders)

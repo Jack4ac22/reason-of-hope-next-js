@@ -8,6 +8,15 @@ tags:
   - "منطق"
   - "الكتاب-المقدس"
   - "تنازلات"
+coverImage: "ROH.png"
+spotify: ""
+hearthis: ""
+youtube: ""
+creationLink: ""
+authors:
+  - name: ""
+    link: ""
+description: ""
 ---
 
 ## تحدّي الشكوك

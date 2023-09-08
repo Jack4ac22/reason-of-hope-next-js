@@ -9,6 +9,15 @@ tags:
   - "حياة"
   - "دفاعيات"
   - "علوم"
+coverImage: "ROH.png"
+spotify: ""
+hearthis: ""
+youtube: ""
+creationLink: ""
+authors:
+  - name: ""
+    link: ""
+description: ""
 ---
 
 بقلم توم فاغنر ([Tom Wagner](https://creation.com/tom-wagner))

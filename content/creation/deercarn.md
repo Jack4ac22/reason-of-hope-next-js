@@ -9,6 +9,14 @@ tags:
   - "تاريخ"
   - "علوم"
 coverImage: "fallow-deer-984573_1280.jpg"
+spotify: ""
+hearthis: ""
+youtube: ""
+creationLink: ""
+authors:
+  - name: ""
+    link: ""
+description: ""
 ---
 
 أكل اللحوم هو أسلوب حياة اختياريّ - حتى بالنسبة للحيونات

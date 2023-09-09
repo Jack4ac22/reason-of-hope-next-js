@@ -11,11 +11,21 @@ export default function CreationContentBody(props) {
   const { creation } = props;
 
   const customRenderers = {
+    ul(list) {
+      return <ul className="">{list.children}</ul>;
+    },
+    ol(list) {
+      console.log(list);
+      return <ol className="">{list.children}</ol>;
+    },
+    li(listItem) {
+      console.log(listItem);
+      return <li className="text-break">{listItem.children}</li>;
+    },
     a(anchor) {
       // TODO: on Click of Bible Verse display the verse. from local json file.
       // TODO: on Click of a link open a pop up and display the page.
       // check if anchor.children is an array or not.
-
     },
     hr() {
       return <hr className="m-6" />;
@@ -29,16 +39,22 @@ export default function CreationContentBody(props) {
         </div>
       );
     },
+
+
     img(image) {
-      // TODO: on click display a big version of the image.
+      // Check if the caption contains the word "full"
+      const isFullWidth = image.alt.toLowerCase().includes("full");
+
       return (
         <Link href={`/blog-images/${image.src}`} key={image.src}>
           <Image
-            className="col-md-2 float-md-end mb-4 ms-md-3 img-fluid"
+            className={`col-md-2 float-md-end mb-4 ms-md-3 img-fluid rounded float-end ${
+              isFullWidth ? "w-100" : "" // Add w-100 class for full width if caption contains 'full'
+            }`}
             src={`/blog-images/${image.src}`}
             alt={image.alt}
-            width={300}
-            height={100}
+            width={400}
+            height={300}
           />
         </Link>
       );

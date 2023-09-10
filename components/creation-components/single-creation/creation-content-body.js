@@ -15,11 +15,11 @@ export default function CreationContentBody(props) {
       return <ul className="">{list.children}</ul>;
     },
     ol(list) {
-      console.log(list);
+      // console.log(list);
       return <ol className="">{list.children}</ol>;
     },
     li(listItem) {
-      console.log(listItem);
+      // console.log(listItem);
       return <li className="text-break">{listItem.children}</li>;
     },
     a(anchor) {
@@ -39,7 +39,6 @@ export default function CreationContentBody(props) {
         </div>
       );
     },
-
 
     img(image) {
       // Check if the caption contains the word "full"

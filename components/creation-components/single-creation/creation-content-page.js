@@ -2,6 +2,7 @@ import CreationContentBody from "./creation-content-body";
 import CreationContentHeader from "./creation-content-header";
 import YouTube, { YouTubeProps } from "react-youtube";
 import { Spotify } from "react-spotify-embed";
+import YouTubeEmbed from "../../iframes/youtube-component";
 export default function CreationContentPageComponent(props) {
   const { creation } = props;
 
@@ -32,7 +33,6 @@ export default function CreationContentPageComponent(props) {
             )}
           </div>
         </div>
-
         <CreationContentBody creation={creation} />
       </article>
     </>

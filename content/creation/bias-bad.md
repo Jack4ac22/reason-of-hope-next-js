@@ -15,7 +15,7 @@ creationLink: ""
 authors:
   - name: "Lita Cosner"
     link: "https://creation.com/lita-cosner"
-description: ""
+description: "إن جميع الأشخاص يمتكلون تحيزاً ما. ولكن هل التحيز بذاته يعتبر أمراً سلبياً؟"
 ---
 
 ![bias-bad-thing](bias-bad-thing.jpg)

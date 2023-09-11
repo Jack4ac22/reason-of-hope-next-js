@@ -1,31 +1,23 @@
 ---
 title: "خطوات الثعلب الرائعة والبعيدة المدى"
 date: "2021-02-11"
-categories: 
+categories:
   - "قضيّة-الخلق"
   - "العالم-التوراتي"
-tags: 
+tags:
   - "الحيوانات"
   - "الطوفان"
   - "عصر-جليدي"
 coverImage: "fox-4893199_640.jpg"
-spotify: ""
-hearthis: ""
+spotify: "https://open.spotify.com/episode/7AZgiDP3z37H6UFXVBW7iQ?si=oHEcVPVxQF-YgdSGx8Pd0Q"
+hearthis: "https://hearthis.at/reasonofope/foxtrot/"
 youtube: ""
-creationLink: ""
+creationLink: "https://creation.com/foxtrot-arabic"
 authors:
-  - name: ""
-    link: ""
-description: ""
+  - name: "Philip Robinson"
+    link: "https://creation.com/phil-robinson"
+description: "كيف انتقلت الحيوانات وانتشرت حول العالم بعد الطوفان؟ سؤال يثير اهتمام الكثير من الأشخاص، وإليكم القليل من المساعدة على فهم بعض جوانب عالم الحيوان."
 ---
-
-لقراءة المقال من موقع Creation.com [اضغط هنا](https://creation.com/foxtrot-arabic).
-
-بقلم: Philip Robinson
-
-https://open.spotify.com/episode/7AZgiDP3z37H6UFXVBW7iQ?si=oHEcVPVxQF-YgdSGx8Pd0Q
-
-https://hearthis.at/reasonofope/foxtrot/
 
 قامت مجموعة من الباحثين في المعهد النرويجيّ القُطبي بتعقب رحلة ثعلب قطبي (Vulpes lagopus) امتدت عبر ثلاثة بلدان وقارّتين في مدة ستة وسبعين يوماً فقط. تم تجهيز أُنثى الثعلب، التي هي من فصيلة الثعالب الزرقاء المنتشرة في المناطق الساحلية، بطوق تتبع للموقع عن طريق الأقمار الصناعية قبل أن تُتِمَّ عامها الأول. لاحقاً، تمَّ تتبع تحركاتها في الفترة الممتدة من الأول من آذار/مارس وحتى الأول من تموز/يوليو من العام ٢٠١٨، والتي غطت مسافةً اجمالية مجموعها ٤،٤١٥ كم (٢،٧٤٣ ميل)، وكانت مسافة خط النظر بين نقطتي البداية والنهاية ١،٧٨٩ كم (١١١١ ميل).
 
@@ -35,7 +27,7 @@ https://hearthis.at/reasonofope/foxtrot/
 
 تُشكِّل كتل الجليد البحرية جسوراً تصل إلى مناطق القطب الشمالي بشكل موسمي، وهو الأمر الذي يوفر إمكانية القيام بهذه الرحلة الطويلة. انخفضت سرعة الثعلب في مناسبتين إلى مادون ١٠ كم/اليوم (٦ ميل/يوم)، وهو ما ”قد يُعزى إلى وجود حواجز مادية على الجليد البحري أو سوء الأحوال الجوية أو العثور على مصدر للغذاء“.2
 
-![arctic-fox-journey](images/arctic-fox-journey.jpg)
+![arctic-fox-journey](arctic-fox-journey.jpg)
 
 ## رحلة الثعلب القطبي وإعادة ملئ الأرض
 
@@ -45,8 +37,6 @@ https://hearthis.at/reasonofope/foxtrot/
 
 ### مراجع
 
-1. Bharti, B., An Arctic fox walked from Norway to Canada in just 76 days. That’s 3,500 km, three countries and two continents, nationalpost.com, 2 Jul 2019. 
-2. Fuglei, E., & Tarroux, A., Artic fox dispersal from Svalbard to Canada: one female’s long run across sea ice, _Polar Research_ **38:** 3512, 2019. 
-3. Robinson, P., [The red blanket](https://creation.com/the-red-blanket), _Creation_ **40**(3):12–13. 
-
-* * *
+1. Bharti, B., An Arctic fox walked from Norway to Canada in just 76 days. That’s 3,500 km, three countries and two continents, nationalpost.com, 2 Jul 2019.
+2. Fuglei, E., & Tarroux, A., Artic fox dispersal from Svalbard to Canada: one female’s long run across sea ice, *Polar Research* **38:** 3512, 2019.
+3. Robinson, P., [The red blanket](https://creation.com/the-red-blanket), *Creation* **40**(3):12–13.

@@ -1,31 +1,23 @@
 ---
 title: "سجل نسب يسوع"
 date: "2021-06-30"
-categories: 
+categories:
   - "قضيّة-الخلق"
   - "الكتاب-المقدس-والإنجيل"
-tags: 
+tags:
   - "نسب"
   - "يسوع-المسيح"
   - "إنجيل"
 coverImage: "god-2012104_640.jpg"
-spotify: ""
-hearthis: ""
+spotify: "https://open.spotify.com/episode/1kWV29PLBVvjxFnfQH7pPn?si=roEQHyfZS7Cm7moxiPWnWA&dl\_branch=1"
+hearthis: "https://hearthis.at/reasonofope/jesusfamlytree"
 youtube: ""
-creationLink: ""
+creationLink: "https://creation.com/a/15234"
 authors:
-  - name: ""
-    link: ""
-description: ""
+  - name: "Lita Cosner"
+    link: "https://creation.com/lita-cosner"
+description: "لماذا نقرأ كل تلك الأسماء المسجلة في الأسفار التاريخية من الكتاب المقدس؟ إليكم بعض الأفكار التي قد تساعدكم على تغيير رؤيتكم لهذا الأمر."
 ---
-
-بقلم: [Lita Cosner](https://creation.com/lita-cosner)
-
-[![](images/cmi.png)](https://creation.com/a/15234)
-
-https://hearthis.at/reasonofope/jesusfamlytree
-
-https://open.spotify.com/episode/1kWV29PLBVvjxFnfQH7pPn?si=roEQHyfZS7Cm7moxiPWnWA&dl\_branch=1
 
 عند قراءة العهد القديم، نجد أن الكثير من الاشخاص يقومون بتجاوز العديد من سجلات النسب ولوائح الأسماء المُسجَّلة في الأسفار التاريخية. إلا أنَّه يوجد غاية من تدوين تلك التفاصيل، وسيحصل الشخص الذي يدرسها على فوائد لن يكون من الممكن له الحصول عليها من مكان آخر. واحد من الأسباب التي تجعل من دراسة هذه الآيات ذات أهمية هو أنها تقدم لنا سجل نسب يسوع؛ إن هذه هي تفاصيل كان الله قد أقرَّ أنها مهمة إلى درجة وجوب حفظها.
 

@@ -1,31 +1,25 @@
 ---
 title: "عودة تحسين النسل إلى الواجهة"
 date: "2021-04-17"
-categories: 
+categories:
   - "قضيّة-الخلق"
   - "التطور-ونتائجه"
-tags: 
+tags:
   - "التطور"
   - "الحياة-البشرية"
   - "الخلق"
 coverImage: "embryo-1514192_640.png"
-spotify: ""
-hearthis: ""
+spotify: "https://open.spotify.com/episode/2n1Skvsr0uK1xdYkqIXLXR?si=dSKIJtxNR9G7PJEl73O2VQ"
+hearthis: "https://hearthis.at/reasonofope/eugenics-is-back/"
 youtube: ""
-creationLink: ""
+creationLink: "https://creation.com/a/13407"
 authors:
-  - name: ""
-    link: ""
-description: ""
+  - name: "Russell Grigg"
+    link: "https://creation.com/russell-grigg"
+description: "هل ترغب في الحصول على أبناء بمواصفات خاصّة. إليك الحل: إنَّه تحسين النسل. تعرف على الجانب المظلم من هذه العملية الإجرامية."
 ---
 
-https://hearthis.at/reasonofope/eugenics-is-back/
-
-استمع إلى المقال.
-
-يمكنكم قراءة المقال من موقع Creation.com [من هنا](https://creation.com/عودة-تحسين-النسل-إلى-الواجهة).
-
-في عام ١٨٨٠ قام السيد فرانسيس غالتون، ابن عمّ تشارلز داروين باستحداثِ كلمةً جديدةً ومسعىً جديد، وكانت هذه الكلمة ”تحسين النسل“، وتعني ”وُلِدَ بصورة جيّدة“ (وهي مشتقة من الأصل اليوناني εὖ \[إيو التي تعني بشكل جيّد أو حسن\]، و γένος \[غينوس التي تعني نسل أو ذرّية\]).1 هذا هو مفهوم تحسين الجنس البشري من خلال تشجيع الأفراد الذين يتم اعتبارهم ”لائقين“ للتكاثر، مع تثبيط أو منع أولئك الذين يعتبرون ”غير لائقين“ للقيام بالأمر عينه. أيَّد داروين ذلك بحرارة وكتب: ”إذا كان الحكيم يتجنَّب الزواج، بينما يتزوج المتهوّرون، فإن الأفراد الأدنى منزلةً سوف يميلون إلى استبدال الأفراد الأرقى من المجتمع“.2لقد قام النازيون بإحداث عُقم لدى ٤٠٠٫٠٠٠ شخص من ذوي الإعاقات الجسدية والعقلية. 
+في عام ١٨٨٠ قام السيد فرانسيس غالتون، ابن عمّ تشارلز داروين باستحداثِ كلمةً جديدةً ومسعىً جديد، وكانت هذه الكلمة ”تحسين النسل“، وتعني ”وُلِدَ بصورة جيّدة“ (وهي مشتقة من الأصل اليوناني εὖ \[إيو التي تعني بشكل جيّد أو حسن\]، و γένος \[غينوس التي تعني نسل أو ذرّية\]).1 هذا هو مفهوم تحسين الجنس البشري من خلال تشجيع الأفراد الذين يتم اعتبارهم ”لائقين“ للتكاثر، مع تثبيط أو منع أولئك الذين يعتبرون ”غير لائقين“ للقيام بالأمر عينه. أيَّد داروين ذلك بحرارة وكتب: ”إذا كان الحكيم يتجنَّب الزواج، بينما يتزوج المتهوّرون، فإن الأفراد الأدنى منزلةً سوف يميلون إلى استبدال الأفراد الأرقى من المجتمع“.2لقد قام النازيون بإحداث عُقم لدى ٤٠٠٫٠٠٠ شخص من ذوي الإعاقات الجسدية والعقلية.
 
 يعتبر مفهوم ”الأطفال الأفضل“ فكرةً رائعة \[ورائجة\] من قِبَل السياسيّين الذين عاصروا \[تلك الحقبة\]، الذين أقرّوا قوانين تسمح بإحداث العُقم والفصل بطريقة قسريّة لأولئك الذين يتمّ اعتبارهم غير لائقين. ولذلك فإن تحسين النسل قد ازدهر في أوائل القرن العشرين في المملكة المتحدة، وفي معظم الدول الأوروبية، وكذلك في الولايات المتحدة الأمريكية، حيث تمَّ إحداث عُقمٍ قسريّ لأكثر من ٦٠٫٠٠٠ مواطن.3 وكان في مرحلة الحرب العالمية الثانية حيث تم تأكيد استخدام أيديولوجية هتلر للعرق السّامي للفكرة \[هذه\]. حيث قام النازيون بإحداث عُقمٍ لدى ٤٠٠٫٠٠٠ شخص من ذوي الإعاقات الجسدية والعقلية، ومن ثمَّ ارتقوا إلى استخدام ”القتل الرحيم“ لما يقرب من ٣٠٠٫٠٠٠ مواطن، وفي النهاية شرعوا بإبادة ملايين اليهود وغيرهم من غير الآريّين ”غير المُتطوّرين \[المُتقّدمين\]“.
 
@@ -43,7 +37,7 @@ https://hearthis.at/reasonofope/eugenics-is-back/
 
 يزعم المؤيدون ودون أيّ تكلُّف بأنَّه: ”لا يوجد وفيّات، لا يوجد إحداثٌ لأي عُقم، لا يوجد إجهاض: إنه مجرَّد تلقيح يتم توجيهه بطريقة علمية.“4 هذا غير صحيح! عندما تتحد خلية جنسية ذكرية مع خلية جنسيّة أنثويّة، يتشكُّل كائن حيّ جديد وحيد الخلية. ويبدأ بشكل مباشر بالتضاعف والنموّ إلى أن يتمّ في النهاية ولادة طفل. وبالتالي فإنَّه على قيد الحياة ابتداءً من \[لحظة\] التلقيح، ولا يوجد أي سبب عقلاني أو علمي أو توراتي يفضي إلى استنتاج سوى أنَّه لطالما كان شخصا - فهو شخص فريد جينياً \[لكنّه\] غير مولود. وبالتالي فإنه يجب عدم رميه في مجرى الصرف الصحي بعد ١٤ يوماً من الحياة في طبق بِتري \[حيث تمَّ التلقيح\] كما هو حال أي طفل ذو ١٤ أسبوعاً أو أي مريض ذو ٩٠ عاماً.
 
-في نظر الله، إن الأشخاص غير المولودين بعد هم أفراد فريدون، وهذا ما يشهد به داود في [المزمور ١٣٩](https://biblia.com/bible/ar-vandyke/Ps139)، حيث يكتب عن كيفية تصوير الله له في الرحم فيقول ([الآية ١٦](https://biblia.com/bible/ar-vandyke/Ps139:16)): ”رَأَتْ عَيْنَاكَ أَعْضَائِي، وَفِي سِفْرِكَ كُلُّهَا كُتِبَتْ يَوْمَ تَصَوَّرَتْ، إِذْ لَمْ يَكُنْ وَاحِدٌ مِنْهَا.“وبالتالي فإنه يجب عدم رميه في مجرى الصرف الصحي بعد ١٤ يوماً من الحياة في طبق بِتري كما هو حال أي طفل ذو ١٤ أسبوعاً أو أي مريض ذو ٩٠ عاماً. 
+في نظر الله، إن الأشخاص غير المولودين بعد هم أفراد فريدون، وهذا ما يشهد به داود في [المزمور ١٣٩](https://biblia.com/bible/ar-vandyke/Ps139)، حيث يكتب عن كيفية تصوير الله له في الرحم فيقول ([الآية ١٦](https://biblia.com/bible/ar-vandyke/Ps139:16)): ”رَأَتْ عَيْنَاكَ أَعْضَائِي، وَفِي سِفْرِكَ كُلُّهَا كُتِبَتْ يَوْمَ تَصَوَّرَتْ، إِذْ لَمْ يَكُنْ وَاحِدٌ مِنْهَا.“وبالتالي فإنه يجب عدم رميه في مجرى الصرف الصحي بعد ١٤ يوماً من الحياة في طبق بِتري كما هو حال أي طفل ذو ١٤ أسبوعاً أو أي مريض ذو ٩٠ عاماً.
 
 كما أن المشكلة الإجتماعية لهذا التعديل الجيني تتضمن أنَّ الأهل قد يرغبون أيضاً في إنشاء أطفال أطول، وأكثر ذكاءً و أفضل ”تصميماً“. لكن الأمر المؤكد أنه إن كان الأغنياء قادرين على تخصيص أطفال فائقين بطريقة مشابهة، فإن هذا سيؤدي إلى تعميق ”فجوة الفرص“ بين الأغنياء والفقراء.
 
@@ -53,13 +47,11 @@ https://hearthis.at/reasonofope/eugenics-is-back/
 
 ### مراجع
 
-1. Galton, F., _Inquiries into Human Faculty and Its Development_, Macmillan and Co., London, 1883, p. 17.2.
-2. Darwin online, _Descent of Man, and selection in relation to sex_, 2nd Edn, p. 618, 1882.
-3. Black, E., _War Against the Weak: Eugenics and America’s Campaign to Create a Master Race_, Palgrave Macmillan, New York, 2004. See also review, Sarfati, J., [America’s evolutionists: Hitler’s inspiration?](https://creation.com/americas-evolutionists-hitlers-inspiration)_Creation_ **27**(2):49, 2005; creation.com/weak.
-4. Nelson, F., The return of eugenics, _The Spectator_; 2 April 2016.
-5. Gallagher, J., Scientists get ‘gene-editing’ go-ahead, bbc.com/news; 1 February 2016. 
-6. Cheng, M., Britain approves controversial gene-editing technique, society.org; 1 February 2016. 
-7. Bangay, T., Gene editing:can the law keep up? ibanet.org 15 December 2016. 
+1. Galton, F., *Inquiries into Human Faculty and Its Development*, Macmillan and Co., London, 1883, p. 17.2.
+2. Darwin online, *Descent of Man, and selection in relation to sex*, 2nd Edn, p. 618, 1882.
+3. Black, E., *War Against the Weak: Eugenics and America’s Campaign to Create a Master Race*, Palgrave Macmillan, New York, 2004. See also review, Sarfati, J., [America’s evolutionists: Hitler’s inspiration?](https://creation.com/americas-evolutionists-hitlers-inspiration)*Creation* **27**(2):49, 2005; creation.com/weak.
+4. Nelson, F., The return of eugenics, *The Spectator*; 2 April 2016.
+5. Gallagher, J., Scientists get ‘gene-editing’ go-ahead, bbc.com/news; 1 February 2016.
+6. Cheng, M., Britain approves controversial gene-editing technique, society.org; 1 February 2016.
+7. Bangay, T., Gene editing:can the law keep up? ibanet.org 15 December 2016.
 8. See also, [Surrogate mothering and IVF: are they biblical?](https://creation.com/surrogate-mothering-and-ivf-are-they-biblical) creation.com/ivf. Also relevant, given that a baby has been born with DNA from three people, is [creation.com/three-parent-embryos](https://creation.com/three-parent-embryos).
-
-* * *

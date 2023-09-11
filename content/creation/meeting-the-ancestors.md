@@ -9,6 +9,15 @@ tags:
   - "الخلق"
   - "تاريخ"
   - "دراسة-سفر-التكوين"
+coverImage: "ROH.png"
+spotify: ""
+hearthis: ""
+youtube: ""
+creationLink: ""
+authors:
+  - name: ""
+    link: ""
+description: ""
 ---
 
 ## فحص مميز للائحة الآباء البطاركة الواردة في مقدمة سفر التكوين

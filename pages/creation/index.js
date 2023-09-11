@@ -1,45 +1,33 @@
 import CreationCardsList from "../../components/creation-components/creation-cards-list";
 import Link from "next/link";
 import {
-  getAllCreationsCategories,
-  getCreationArticlesByCategory,
+  // getAllCreationsCategories,
+  // getCreationArticlesByCategory,
+  getAllCreationArticles,
 } from "../../utilities/creation-functions";
 
 export default function AllCreationArticlePage(props) {
+  const creationArticles = props.creationArticles;
   return (
     <>
-      <h1>مقالات الخلق بحسب التصنيف:</h1>
+      <h1>مقالات الخلق:</h1>
       <ul>
-        {props.allCreationArticlesCategories.map((creationArticle) => (
-          <li className="alert alert-light" key={creationArticle.category}>
-            <Link
-              href={`/categories/${creationArticle.category}`}
-              className="link-offset-2 link-underline link-underline-opacity-0"
-            >
-              {creationArticle.category.replace("-", " ")}
-            </Link>
-            <span> {creationArticle.count}</span>
-            <ul>
-            <CreationCardsList creations={creationArticle.articles} />
-              
-            </ul>
-          </li>
-        ))}
+        <CreationCardsList creations={creationArticles} />
       </ul>
     </>
   );
 }
 export async function getStaticProps(props) {
-  const allCategories = getAllCreationsCategories();
-
-  allCategories.map((category) => {
-    const articlesByCategory = getCreationArticlesByCategory(category.category);
-    category.articles = articlesByCategory;
-  });
+  // const allCategories = getAllCreationsCategories();
+  // allCategories.map((category) => {
+  //   const articlesByCategory = getCreationArticlesByCategory(category.category);
+  //   category.articles = articlesByCategory;
+  // });
+  const allArticlesByTitle = getAllCreationArticles("slug");
 
   return {
     props: {
-      allCreationArticlesCategories: allCategories,
+      creationArticles: allArticlesByTitle,
     },
   };
 }

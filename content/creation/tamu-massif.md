@@ -8,6 +8,14 @@ tags:
   - "الخلق"
   - "جيولوجيا"
 coverImage: "bands_of_glowing_magma_from_submarine_volcano-e1620896556432.jpg"
+spotify: ""
+hearthis: ""
+youtube: ""
+creationLink: ""
+authors:
+  - name: ""
+    link: ""
+description: ""
 ---
 
 بقلم: [Tas Walker](https://creation.com/dr-tas-walker-speaker)

@@ -11,6 +11,15 @@ tags:
   - "حواء"
   - "دراسة-سفر-التكوين"
   - "عدن"
+coverImage: "ROH.png"
+spotify: ""
+hearthis: ""
+youtube: ""
+creationLink: ""
+authors:
+  - name: ""
+    link: ""
+description: ""
 ---
 
 بقلم: [Lita Sanders](https://creation.com/lita-sanders) ؛ يُمكنكم قراءة المقال من الموقع الرسمي لإرساليات الخلق الدولية [CMI](http://creation.com/arabic) [من هنا](https://creation.com/victory-of-jesus-arabic).

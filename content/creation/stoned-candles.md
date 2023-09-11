@@ -11,6 +11,14 @@ tags:
   - "الطوفان"
   - "عمر-الأرض"
 coverImage: "candle-2038736_640.jpg"
+spotify: ""
+hearthis: ""
+youtube: ""
+creationLink: ""
+authors:
+  - name: ""
+    link: ""
+description: ""
 ---
 
 بقلم: [Jonathan O’Brien](https://creation.com/jonathan-obrien)[](https://creation.com/a/15163)

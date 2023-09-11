@@ -10,6 +10,14 @@ tags:
   - "حياة"
   - "علوم"
 coverImage: "recent-origin-of-species.jpg"
+spotify: ""
+hearthis: ""
+youtube: ""
+creationLink: ""
+authors:
+  - name: ""
+    link: ""
+description: ""
 ---
 
 ## دراسة جديدة تتناول الحمض النووي تقود إلى نتاج تتحدى القصة التطورية المزعومة

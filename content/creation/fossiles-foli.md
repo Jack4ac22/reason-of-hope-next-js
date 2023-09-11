@@ -1,31 +1,31 @@
 ---
 title: "تضليل أُحفوري مُتَعَمَّد"
 date: "2019-02-06"
-categories: 
+categories:
   - "قضيّة-الخلق"
   - "الديناصورات-والتأريخ"
-tags: 
+tags:
   - "مخلوقات"
   - "إلحاد"
-  - "الخلق"
   - "تاريخ"
-  - "حياة"
   - "ديناصورات"
   - "علوم"
 coverImage: "dinosaur-3149580_640.png"
+spotify: "https://open.spotify.com/episode/3HwM7cM5PZldzhAOhwgqvZ?si=yaKnNKnyQWG6U8LwZ9ACnw"
+hearthis: "https://hearthis.at/5380433/"
+youtube: ""
+creationLink: "https://creation.com/a/12852"
+authors:
+  - name: "David Catchpoole"
+    link: "https://creation.com/david-catchpoole-cv"
+description: "هل يُمكن الوثوق بما نقرأه في المتاحف والمعارض بخصوص المستحاثات؟"
 ---
 
 لافتة مُتحف تُقَدِّم تعريفاً يَهدُف لإقصاء الحقيقة عن سِفر التَّكوين.
 
-https://hearthis.at/5380433/
-
-استمع إلى المقال
-
 تكثر معروضات المتاحف التي تُروّج لنظرية التطور (على سبيل المثال راجع المقال "  [تمثال أنثى قرد مُضلِّل للجمهور](https://creation.com/ape-woman-statue-misleads-public-anatomy-professor)، Creation 19(1):52, 1997")، بالإضافة إلى ذلك نجد مستحاثّة (أحفور) معروضة في متحف وادي الديناصورات في ولاية كولورادو الغربية، في الولايات المتحدةالأمريكية، تتخذ وبتبجُّح موقفاً معادياً لتعليم الكتاب المقدس إلى مستوى جديد من التشدد وبالخطّ العريض ( أنظر الصورة أعلاه )، حيث تمّ تعريف كلمة مستحاثّة بأنها أي دليل على وجود حياة قبل سبعة آلاف عام.
 
-![Fossil7000Sign-lge](https://arabcreationisthome.files.wordpress.com/2019/04/fossil7000sign-lge.jpg?w=300)
-
-يتزايد عدد الناس المُتسائِلين عن ثوابت عقيدة العُمر الطَّويل للأرض (ملايين السنين)، وبات العديد منهم متنبّهاً للدلائل التي تشير إلى الخَلق. اللافتة الظاهرة في الصورة أعلاه، لربما تظهر ردّ فعلٍ لما سلف، بمحاولة لتغيير تعريف كلمة بالشكل الذي يهدف لدحض الحقائق التاريخية للكتاب المقدس.
+![يتزايد عدد الناس المُتسائِلين عن ثوابت عقيدة العُمر الطَّويل للأرض (ملايين السنين)، وبات العديد منهم متنبّهاً للدلائل التي تشير إلى الخَلق. اللافتة الظاهرة في الصورة أعلاه، لربما تظهر ردّ فعلٍ لما سلف، بمحاولة لتغيير تعريف كلمة بالشكل الذي يهدف لدحض الحقائق التاريخية للكتاب المقدس.](fossil7000sign-lge.jpg)
 
 إنه تعريف مدهش يرفض من خلال بضعة كلمات الحسابات المستوحاة من سفر التكوين، حيث أنه من خلال دراسة الأنساب في الكتاب المقدس يتبيّن لنا بشكل واضح أن الحياة – كل ما هو حيّ بالإضافة إلى السموات والأرض – قد تمَّ تكوينها في ستّة أيام فقط، منذ ما يقارب ستّة آلاف إلى سبعة آلاف سنة خَلَت، لكن بحسب التعريف المُقَدَّم من قِبَل هذا المتحف، فإنك في أي مرّة تعاين مستحاثّة، فأنت تشهد دليلاً على وجود الحياة قبل ذلك الزمن؛ وبالتالي، فإن زوار المتحف سيصلون إلى استنتاج – منطقي - بأن الكتاب المقدّس لا بُدَّ أن يكون على خطأ.
 
@@ -35,20 +35,16 @@ https://hearthis.at/5380433/
 
 من حق الإنسان أن يعتقد بأن هذا الرقم (٧٠٠٠) قد تم اختياره بطريقة مقصودة بغرض واضح، هو تقويض سلطان الكتاب المقدس، ومن المؤكد أنّه سيترك في العديد من الناس أثراً فيتشككوا في مصداقية الكتاب المقدس. بالنظر إلى مدى انتشار معروضات مضلَّلة كهذه في المتاحف، فليس من المستغرب أن الوحي المقدَّس سَبَقَ و حذَّر المؤمنين بأن "امتحنوا كلَّ شيء" ([١تسالونيكي ٥: ٢١](https://biblia.com/bible/ar-vandyke/1Th5.21))، وأيضاً من عدم الوقوع في سبي الفلسفة و اتباع مشورة الأشرار ([كولوسي ٢: ٨](https://biblia.com/bible/ar-vandyke/Col2.8)، [المزامير ١: ١](https://biblia.com/bible/ar-vandyke/Ps1.1)).
 
-[المقال من الموقع الرسمي creatio.com](https://creation.com/%D8%A7%D9%84%D8%A3%D8%AD%D9%81%D9%88%D8%B1-%D8%A7%D9%84%D8%A3%D8%AD%D9%85%D9%82)
+## مراجع
 
-مراجع
+---
 
-* * *
+1- Walker, P.M.B. \[ed\], *Chambers Science and Technology Dictionary*, W. & R. Chambers Ltd, Edinburgh, UK, p. 361, 1991.
 
-1- Walker, P.M.B. \[ed\], _Chambers Science and Technology Dictionary_, W. & R. Chambers Ltd, Edinburgh, UK, p. 361, 1991.
+2- Lafferty, P. and Rowe, J. \[eds\], *The Hutchinson Dictionary of Science*, Helicon, Oxford, UK, p. 250, 1994.
 
-2- Lafferty, P. and Rowe, J. \[eds\], _The Hutchinson Dictionary of Science_, Helicon, Oxford, UK, p. 250, 1994.
+3- Curtis, H., *Biology* 4th Ed., Worth Publishers Inc., New York, NY, USA, p. 1095, 1983.
 
-3- Curtis, H., _Biology_ 4th Ed., Worth Publishers Inc., New York, NY, USA, p. 1095, 1983.
+4- Press, F. and Siever, R., *Earth* 4th Ed., W.H. Freeman and Co., New York, NY, USA, p. 633, 1986.
 
-4- Press, F. and Siever, R., _Earth_ 4th Ed., W.H. Freeman and Co., New York, NY, USA, p. 633, 1986.
-
-5-For example, ‘[Fast fossils bug those long-agers](https://creation.com/focus-163#fossils)’ _Creation_ **16**(3):7, 1994, ‘[Tarawera’s night of terror](https://creation.com/tarawera-s-night-of-terror)’ _Creation_ **18**(1):16–19, 1996, ‘[The clock in the rock](https://creation.com/the-clock-in-the-rock)’ _Creation_ **19**(3):6, 1997, ‘[Fascinating fossil fence-wire](https://creation.com/fascinating-fossil-fence-wire)’ _Creation_ **20**(3):6, 1998. Note that a clock or fence wire is a ‘trace’ of an organism in a similar sense to a fossilised insect cocoon, for instance.
-
-* * *
+5-For example, ‘[Fast fossils bug those long-agers](https://creation.com/focus-163#fossils)’ *Creation* **16**(3):7, 1994, ‘[Tarawera’s night of terror](https://creation.com/tarawera-s-night-of-terror)’ *Creation* **18**(1):16–19, 1996, ‘[The clock in the rock](https://creation.com/the-clock-in-the-rock)’ *Creation* **19**(3):6, 1997, ‘[Fascinating fossil fence-wire](https://creation.com/fascinating-fossil-fence-wire)’ *Creation* **20**(3):6, 1998. Note that a clock or fence wire is a ‘trace’ of an organism in a similar sense to a fossilised insect cocoon, for instance.

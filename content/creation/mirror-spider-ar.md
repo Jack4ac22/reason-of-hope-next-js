@@ -9,6 +9,14 @@ tags:
   - "علوم"
   - "عناكب"
 coverImage: "bling_spider_-_neon_spider_-_thwaitsia_sp._from_the_nsw_central_coast_7.jpg"
+spotify: ""
+hearthis: ""
+youtube: ""
+creationLink: ""
+authors:
+  - name: ""
+    link: ""
+description: ""
 ---
 
 # إن خليقة الله المثيرة للذهول تذخر بالمفاجآت التي لا حدَّ لها

@@ -10,6 +10,14 @@ tags:
   - "الخلق"
   - "علوم"
 coverImage: "francesco-de-tommaso-1283481-unsplash.jpg"
+spotify: ""
+hearthis: ""
+youtube: ""
+creationLink: ""
+authors:
+  - name: ""
+    link: ""
+description: ""
 ---
 
 https://hearthis.at/5395682/

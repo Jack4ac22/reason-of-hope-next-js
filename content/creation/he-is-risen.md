@@ -7,6 +7,14 @@ categories:
 tags: 
   - "القيامة"
 coverImage: "stones-5359790_640-e1617688735460.jpg"
+spotify: ""
+hearthis: ""
+youtube: ""
+creationLink: ""
+authors:
+  - name: ""
+    link: ""
+description: ""
 ---
 
 يمكنك قراءة المقال بشكل مباشر من خلال الضغط [هنا.](https://creation.com/he-is-risen-arabic)

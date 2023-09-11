@@ -1,20 +1,24 @@
 ---
 title: "ديناصورات حديثة العهد!"
 date: "2019-02-02"
-categories: 
+categories:
   - "قضيّة-الخلق"
   - "الديناصورات-والتأريخ"
-tags: 
+tags:
   - "نوح"
   - "إلحاد"
-  - "الحيوانات"
-  - "الخلق"
   - "ديناصورات"
   - "علوم"
 coverImage: "skeleton-3868120_640.jpg"
+spotify: "https://open.spotify.com/episode/2hruZECaWi0Xr5eRtPNEOR"
+hearthis: "https://hearthis.at/5395697/"
+youtube: ""
+creationLink: "https://creation.com/a/12851"
+authors:
+  - name: "David Catchpoole"
+    link: "https://creation.com/david-catchpoole-cv"
+description: "هل انقرضت الديناصورات منذ عدة ملايين من السنوات أم أنَّه يوجد أدلّة علمية تدل على خلاف ذلك؟"
 ---
-
-https://hearthis.at/5395697/
 
 خلال آخر عقدين من الزَّمن، كَشَفَت مُستَحاثّات لعظام ديناصورات تحت الدِّراسة عن مكنونات لم يَكُن من المتوقَّع وجودها في مُستَحاثّات لكائنات يُفتَرض إنقراضها منذ عدّة ملايين من السنين، مثل بقايا الحمض النووي و الكربون ١٤ المشعّ.
 
@@ -56,29 +60,29 @@ https://hearthis.at/5395697/
 
 [المقال من الموقع الرسمي creatio.com](https://creation.com/%D8%AF%D9%8A%D9%86%D8%A7%D8%B5%D9%88%D8%B1%D8%A7%D8%AA-%D8%AD%D8%AF%D9%8A%D8%AB%D8%A9-%D8%A7%D9%84%D8%B9%D9%87%D8%AF)
 
-* * *
+---
 
 مراجع
 
-1. Yeoman, B., Schweitzer’s Dangerous Discovery, _Discover_ **27**(4):37–41; p. 39, 2006.
+1. Yeoman, B., Schweitzer’s Dangerous Discovery, *Discover* **27**(4):37–41; p. 39, 2006.
 2. Renowned for many dinosaur discoveries, e.g. he led a team that retrieved over 80 fossil specimens from a single site in Mongolia. See: Walker, T., [Massive graveyard of parrot-beaked dinosaurs in Mongolia—Paleontologists puzzle about the cause of death but miss the obvious clue](https://creation.com/dino-graveyard), creation.com/dino-graveyard, 26 October 2007.
 3. For more on this see: Catchpoole, D. and Sarfati, J., [Schweitzer’s dangerous discovery](https://creation.com/schweit), creation.com/schweit, 19 July 2006.
-4. Morell, V., Dino DNA: The hunt and the hype, _Science_ **261**(5118):160–162, 1993.
-5. [Dinosaur bone blood cells found](https://creation.com/t-rex-blood), _Creation_ **16**(1):9, 1993; creation.com/t-rex-blood.
-6. Schweitzer, M., and 8 others, Heme compounds in dinosaur trabecular bone, _Proceedings of the National Academy of Sciences of the USA_ **94**:6291–6296, 1997.
-7. M. Schweitzer, M. and Staedter, I., The Real Jurassic Park, _Earth_, June 1997, pp. 55–57.
-8. See also: Wieland, C., [Sensational dinosaur blood report!](https://creation.com/dino-blood) _Creation_ **19**(4):42–43, 1997; creation.com/dino-blood.
-9. Specifically, bones of an _Iguanodon_ ‘dating’ to 120 million years of age contained enough of the protein osteocalcin to produce an immune reaction. Embery, G., and 5 others, Identification of proteinaceous material in the bone of the dinosaur Iguanodon, _Connective Tissue Research_ **44** Suppl 1:41–46, 2003.
-10. Schweitzer, M. and 3 others, Soft-tissue vessels and cellular preservation in _Tyrannosaurus rex_, _Science_ **307**(5717):1952–1955, 2005.
-11. Stokstad, E., _Tyrannosaurus rex_ soft tissue raises tantalizing prospects, _Science_ **307**(5717):1852, 2005.
+4. Morell, V., Dino DNA: The hunt and the hype, *Science* **261**(5118):160–162, 1993.
+5. [Dinosaur bone blood cells found](https://creation.com/t-rex-blood), *Creation* **16**(1):9, 1993; creation.com/t-rex-blood.
+6. Schweitzer, M., and 8 others, Heme compounds in dinosaur trabecular bone, *Proceedings of the National Academy of Sciences of the USA* **94**:6291–6296, 1997.
+7. M. Schweitzer, M. and Staedter, I., The Real Jurassic Park, *Earth*, June 1997, pp. 55–57.
+8. See also: Wieland, C., [Sensational dinosaur blood report!](https://creation.com/dino-blood) *Creation* **19**(4):42–43, 1997; creation.com/dino-blood.
+9. Specifically, bones of an *Iguanodon* ‘dating’ to 120 million years of age contained enough of the protein osteocalcin to produce an immune reaction. Embery, G., and 5 others, Identification of proteinaceous material in the bone of the dinosaur Iguanodon, *Connective Tissue Research* **44** Suppl 1:41–46, 2003.
+10. Schweitzer, M. and 3 others, Soft-tissue vessels and cellular preservation in *Tyrannosaurus rex*, *Science* **307**(5717):1952–1955, 2005.
+11. Stokstad, E., *Tyrannosaurus rex* soft tissue raises tantalizing prospects, *Science* **307**(5717):1852, 2005.
 12. See also: Wieland, C., [Dinosaur soft-tissue find—a stunning rebuttal of ‘millions of years’](https://creation.com/stretchy), creation.com/stretchy, 25 March 2005.
-13. Schweitzer, M. and 6 others, Analyses of soft tissue from _Tyrannosaurus rex_ suggest the presence of protein, _Science_ **316**(5822):277–280, 2007.
-14. See also: Doyle, S., [Squishosaur scepticism squashed—Tests confirm proteins found in _T. rex_ bones](https://creation.com/collagen), creation.com/collagen, 20 April 2007.
-15. Schweitzer, M. and 15 others, Biomolecular characterization and protein sequences of the Campanian hadrosaur _B. canadensis_, _Science_**324**(5927):626–631, 2009.
+13. Schweitzer, M. and 6 others, Analyses of soft tissue from *Tyrannosaurus rex* suggest the presence of protein, *Science* **316**(5822):277–280, 2007.
+14. See also: Doyle, S., [Squishosaur scepticism squashed—Tests confirm proteins found in *T. rex* bones](https://creation.com/collagen), creation.com/collagen, 20 April 2007.
+15. Schweitzer, M. and 15 others, Biomolecular characterization and protein sequences of the Campanian hadrosaur *B. canadensis*, \*Science**\*324**(5927):626–631, 2009.
 16. Also see: Wieland, C., [Dinosaur soft tissue and protein—even more confirmation!](https://creation.com/schweit2) creation.com/schweit2, 6 May 2009.
-17. Key extract from the paper’s summary: “These data are the first to support preservation of multiple proteins \[_viz._ actin, tubulin, PHEX, histone H4\] and to present multiple lines of evidence for material consistent with DNA in dinosaurs.” Schweitzer, M. and 3 others, Molecular analyses of dinosaur osteocytes support the presence of endogenous molecules, _Bone_ **52**(1):414–423, 2013. عودة إلى النص.
-18. See also: Sarfati, J., [DNA and bone cells found in dinosaur bone](https://creation.com/dino-dna), _J. Creation_ **27**(1):10–12, 2013; creation.com/dino-dna, 11 December 2012.
+17. Key extract from the paper’s summary: “These data are the first to support preservation of multiple proteins \[*viz.* actin, tubulin, PHEX, histone H4\] and to present multiple lines of evidence for material consistent with DNA in dinosaurs.” Schweitzer, M. and 3 others, Molecular analyses of dinosaur osteocytes support the presence of endogenous molecules, *Bone* **52**(1):414–423, 2013. عودة إلى النص.
+18. See also: Sarfati, J., [DNA and bone cells found in dinosaur bone](https://creation.com/dino-dna), *J. Creation* **27**(1):10–12, 2013; creation.com/dino-dna, 11 December 2012.
 19. Press release “Dinosaur bones’ Carbon-14 dated to less than 40,000 years—Censored international conference report” and additional information, newgeology.us/presentation48.html, accessed 27 December 2012.
-20. See also: Wieland, C., [Radiocarbon in dino bones—International conference result censored](https://creation.com/c14-dinos), creation.com/c14-dinos, 22 January 2013. 
-    
-    * * *
+20. See also: Wieland, C., [Radiocarbon in dino bones—International conference result censored](https://creation.com/c14-dinos), creation.com/c14-dinos, 22 January 2013.
+
+    ***

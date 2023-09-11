@@ -10,6 +10,14 @@ tags:
   - "تاريخ"
   - "دراسة-سفر-التكوين"
 coverImage: "943creation-tablet.jpg"
+spotify: ""
+hearthis: ""
+youtube: ""
+creationLink: ""
+authors:
+  - name: ""
+    link: ""
+description: ""
 ---
 
 \[caption id="attachment\_672" align="alignleft" width="350"\]![943Babylonian-tablet](images/943babylonian-tablet.jpg) قطعة من لوحة بابلية أثرية تم العثور عليها في منطقة نيبور (نِفر)، وهي موقع بابليّ قديم في نفس المنطقة العامة التي خرج منها ابراهيم. المنطقة المُحاطة بالأسود هي سجل يتحدث عن الطوفان. علماً أنه يوجد حول العالم أكثر من ٣٠٠ تسجيل معروف عن الفيضان، ٣٠ منها تسجيلات مكتوبة. والبعض منها يتقارب في التفاصيل بشكل ملحوظ في التفاصيل مع الأصل – الموجود في الكتاب المقدس.Photo Dr Clifford Wilson\[/caption\]

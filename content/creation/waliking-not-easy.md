@@ -10,6 +10,14 @@ tags:
   - "هندسة-إحيائية"
   - "علوم"
 coverImage: "barefoot-feet-macro-105776.jpg"
+spotify: ""
+hearthis: ""
+youtube: ""
+creationLink: ""
+authors:
+  - name: ""
+    link: ""
+description: ""
 ---
 
 ## لا يزال الطريق طويلاً أمام مهندسي الرجال الآليّين الذين يحاولون استنساخ حركة القدمين البشريّتين

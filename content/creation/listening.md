@@ -6,6 +6,15 @@ categories:
   - "علوم-معاصرة"
 tags: 
   - "الخلق"
+coverImage: "ROH.png"
+spotify: ""
+hearthis: ""
+youtube: ""
+creationLink: ""
+authors:
+  - name: ""
+    link: ""
+description: ""
 ---
 
 بقلم: [David Catchpoole](https://creation.com/david-catchpoole-cv)

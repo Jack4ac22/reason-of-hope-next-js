@@ -14,6 +14,14 @@ tags:
   - "اسرائيل"
   - "تاريخ"
 coverImage: "e2808ee281a8d8a7d984d8a8d8add8ab-d8b9d986-d985d988d8b3d989e281a9.jpg"
+spotify: ""
+hearthis: ""
+youtube: ""
+creationLink: ""
+authors:
+  - name: ""
+    link: ""
+description: ""
 ---
 
 https://hearthis.at/5238144/

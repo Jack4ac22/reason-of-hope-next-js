@@ -12,6 +12,14 @@ tags:
   - "استراليا"
   - "عصر-جليدي"
 coverImage: "wallabies-4228258_1280.png"
+spotify: ""
+hearthis: ""
+youtube: ""
+creationLink: ""
+authors:
+  - name: ""
+    link: ""
+description: ""
 ---
 
 بقلم: [Philip Robinson](https://creation.com/phil-robinson)

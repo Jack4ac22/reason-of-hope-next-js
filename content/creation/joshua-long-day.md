@@ -9,6 +9,15 @@ tags:
   - "الخلق"
   - "تاريخ"
   - "علوم"
+coverImage: "ROH.png"
+spotify: ""
+hearthis: ""
+youtube: ""
+creationLink: ""
+authors:
+  - name: ""
+    link: ""
+description: ""
 ---
 
 #### هل حدث بالفعل- وكيف؟

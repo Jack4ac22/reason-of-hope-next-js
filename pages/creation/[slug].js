@@ -1,3 +1,4 @@
+import Head from "next/head";
 import CreationContentPageComponent from "../../components/creation-components/single-creation/creation-content-page";
 
 import {
@@ -7,8 +8,30 @@ import {
 
 export default function CreationsArtilePage(props) {
   const { creationArticle } = props;
+  const { title, description, coverImage, content, authors } = creationArticle;
+
   return (
     <>
+      <Head>
+        <title>{creationArticle.title}</title>
+        <meta
+          name="description"
+          content={creationArticle.description + " ... "}
+        />
+        <meta property="og:title" content={creationArticle.title} />
+        <meta
+          property="og:description"
+          content={creationArticle.description + " ... "}
+        />
+        {/* <meta
+          property="og:image"
+          content={`/blog-images/${
+            props.creationsArtile.coverImage
+              ? props.creationsArtile.coverImage
+              : ROH.png
+          }`}
+        /> */}
+      </Head>
       <CreationContentPageComponent creation={creationArticle} />
     </>
   );

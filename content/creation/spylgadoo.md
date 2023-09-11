@@ -1,14 +1,23 @@
 ---
 title: "ما الذي قد يكون نوح عاينه عند الخروج من الفُلك؟"
 date: "2019-04-02"
-categories: 
+categories:
   - "قضيّة-الخلق"
   - "العالم-التوراتي"
-tags: 
+tags:
   - "نوح"
   - "الطوفان"
   - "تاريخ"
   - "علوم"
+coverImage: "ROH.png"
+spotify: ""
+hearthis: ""
+youtube: ""
+creationLink: ""
+authors:
+  - name: ""
+    link: ""
+description: ""
 ---
 
 ## سدّ سبيلغا وعالم ما بعد الطوفان
@@ -54,4 +63,4 @@ tags:
 - McDowell, I., Heatwave reveals submerged Mourne history at Spelga Dam, bbc.com, 11 July 2018.
 - Langan, S., How many places named Belfast are there in the US? Irishcentral.com, 24 August 2016.
 
-* * *
+---

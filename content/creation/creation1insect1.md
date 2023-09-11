@@ -9,14 +9,16 @@ tags:
   - "حياة"
   - "دفاعيات"
   - "علوم"
+coverImage: "mosquito-49141_640.jpg"
+spotify: ""
+hearthis: ""
+youtube: ""
+creationLink: "https://creation.com/a/12840"
+authors:
+  - name: "Tom Wagner"
+    link: "https://creation.com/tom-wagner"
+description: "ما الذي يمكننا ملاحظته عند سحق بعوضة بين أصابعنا. هل من الممكن أن يشير هذا الفعل إلى الخلق؟"
 ---
-
-بقلم توم فاغنر ([Tom Wagner](https://creation.com/tom-wagner))
-
-يُمكنكم قراءة النص من خلال زيارة موقع إرساليات الخلق الدولية [CMI](http://www.creation.com/arabic):  
-[![](images/cmi.png)](https://creation.com/a/12840)
-
-![AnophelesGambiaemosquito](images/AnophelesGambiaemosquito.jpg)
 
 هل تستطيع البعوضة إجتياز إختبار السَّحْق؟
 

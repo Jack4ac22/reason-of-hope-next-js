@@ -1,25 +1,25 @@
 ---
 title: "كلنا واحد!"
 date: "2019-07-30"
-categories: 
+categories:
   - "قضيّة-الخلق"
   - "التطور-ونتائجه"
-tags: 
+tags:
   - "مخلوقات"
   - "الحياة-البشرية"
   - "علوم"
 coverImage: "one-people.jpg"
+spotify: "https://open.spotify.com/episode/46HCIDyVo2PmUwn7vSoVxt?si=vKXTFmN6Qb67ktY4XdNStw"
+hearthis: "https://hearthis.at/reasonofope/we-areone/"
+youtube: ""
+creationLink: "https://creation.com/كلّنا-واحد"
+authors:
+  - name: "Jonathan O’Brien"
+    link: "https://creation.com/jonathan-obrien"
+description: "قد ننتمي إلى أعراق مُختلفة، وقد نُولَدُ في أوطانٍ مختلفة. وأياً تكن الأمور التي تُفرِّق بيننا، فإننا سنبقى جميعنا بشر و مخلوقين على صورة الله."
 ---
 
-يُمكنكم قراءة المقال من موقع Creation.com [من هنا](https://creation.com/كلّنا-واحد).
-
-بقلم: [Jonathan O’Brien](https://creation.com/jonathan-obrien)
-
-https://hearthis.at/reasonofope/we-areone/
-
-https://open.spotify.com/episode/46HCIDyVo2PmUwn7vSoVxt?si=vKXTFmN6Qb67ktY4XdNStw
-
-الأختان لوسي وماريّا أيلمار (يساراً) من المملكة المتحدة، هما دليل مذهل على أننا جميعاً أقرباء. فإن ماريّا هي ”سوداء البشرة“ ولوسي ”بيضاء البشرة“، ومع ذلك فهما توأمان وُلِدَتا لأمٍ جامايكيّة الأصل وأبٍ ذو بشرة بيضاء.1 وتتفق هذه النتيجة مع ما نتوقعه من التاريخ المسجّل في الكتاب المُقدَّس. 
+الأختان لوسي وماريّا أيلمار (يساراً) من المملكة المتحدة، هما دليل مذهل على أننا جميعاً أقرباء. فإن ماريّا هي ”سوداء البشرة“ ولوسي ”بيضاء البشرة“، ومع ذلك فهما توأمان وُلِدَتا لأمٍ جامايكيّة الأصل وأبٍ ذو بشرة بيضاء.1 وتتفق هذه النتيجة مع ما نتوقعه من التاريخ المسجّل في الكتاب المُقدَّس.
 
 فالكتاب المُقدَّس يقول بأننا جميعاً من نسل أول شخصين وُجِدَا على وجه الأرض، وهما آدم وحوّاء اللذان خلَقَهُما الله ووضعها في جنة عدن. ثم بعد الطوفان العالمي الذي كان دينونةً من الله، نجا فقط نوح وزوجته وأبناءه الثلاثة ونساءهم. ولم يتعلَّم أحفادهم الأوائل العبرة، فعَصَوا أوامر الله بأن \[يتكاثروا\] ويملأوا الأرض. حيث أنهم تجمعوا في بابل وقاموا ببناء برجٍ ضخمٍ- في أيَّام فالَج وذلك بعد حوالي قرنٍ من الزمان ([تكوين ١٠: ٢٥](https://biblia.com/bible/ar-vandyke/Ge10:25)). لذلك بلبل الله ألسنتهم، وأجبرهم أن يتشتتوا ([تكوين ١١](https://biblia.com/bible/ar-vandyke/Ge11)). وقد أدى هذا التّشتت إلى نشوء الأُمَم المُختلفة المُجدولة في [الاصحاح العاشر من سفر التكوين](https://biblia.com/bible/ar-vandyke/Ge10). وقد كانت الإختلافات الوراثية الطفيفة المسماة ”الأعراق“ نتيجةً للعزلة الجينيّة لمجموعات الأشخاص التي استمرت لقرون من الزمن.3،2
 
@@ -29,10 +29,10 @@ https://open.spotify.com/episode/46HCIDyVo2PmUwn7vSoVxt?si=vKXTFmN6Qb67ktY4XdNSt
 
 ### مراجع
 
-1. Pearson, M., UK twins turn heads: One is white, the other black, cnn.com, 4 March 2015. 
-2. See Batten, D., (Ed.), [_The Creation Answers Book_](https://creation.com/%D9%83%D8%AA%D8%A7%D8%A8-%D8%A7%D9%84%D8%A3%D8%AC%D9%88%D8%A8%D8%A9-%D8%A7%D9%84%D8%AE%D9%84%D9%82), الفصل ١٨, Creation Book Publishers; creation.com/كتاب-الأجوبة-الخلق. 
-3. For more detail, see Wieland, C., [_One Human Family_](https://creation.com/s/10-2-578), Ch. 2, Creation Book Publishers, 2011; creation.com/s/10-2-578. 
-4. Wieland, Ref. 3, Ch. 1. 
-5. See also Batten, D., [Adam and Noah: two beginnings](https://creation.com/adam-and-noah), _Creation_ **34**(1):12–14, 2011; creation.com/adam-and-noah. 
+1. Pearson, M., UK twins turn heads: One is white, the other black, cnn.com, 4 March 2015.
+2. See Batten, D., (Ed.), [_The Creation Answers Book_](https://creation.com/%D9%83%D8%AA%D8%A7%D8%A8-%D8%A7%D9%84%D8%A3%D8%AC%D9%88%D8%A8%D8%A9-%D8%A7%D9%84%D8%AE%D9%84%D9%82), الفصل ١٨, Creation Book Publishers; creation.com/كتاب-الأجوبة-الخلق.
+3. For more detail, see Wieland, C., [_One Human Family_](https://creation.com/s/10-2-578), Ch. 2, Creation Book Publishers, 2011; creation.com/s/10-2-578.
+4. Wieland, Ref. 3, Ch. 1.
+5. See also Batten, D., [Adam and Noah: two beginnings](https://creation.com/adam-and-noah), *Creation* **34**(1):12–14, 2011; creation.com/adam-and-noah.
 
-* * *
+---

@@ -13,14 +13,17 @@ function WordDetailPage(props) {
     <>
       <Head>
         <title>{props.word.title}</title>
-        <meta name="description" content={word.descrition + " ... "} />
-        <meta property="og:title" content="My Dummy Markdown Page" />
-        <meta property="og:description" content={word.descrition + " ... "} />
+        <meta name="description" content={word.description + " ... "} />
+        <meta property="og:title" content={word.title} />
+        <meta property="og:description" content={word.description + " ... "} />
         <meta property="og:image" content={`/word-images/${word.coverImage}`} />
         <meta
           property="og:image:alt"
           content={`Cover Image for: ${word.slug}`}
         />
+        <meta property="og:type" content="article" />
+        <meta property="article:published_time" content={word.date} />
+        <meta property="article:author" content="Jack Kazanjyan" />
       </Head>
       <WordContentPageComponent word={word} />
     </>

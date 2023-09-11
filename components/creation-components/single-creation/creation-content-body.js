@@ -15,18 +15,18 @@ export default function CreationContentBody(props) {
       return <ul className="">{list.children}</ul>;
     },
     ol(list) {
-      // console.log(list);
+      console.log(list);
       return <ol className="">{list.children}</ol>;
     },
     li(listItem) {
-      // console.log(listItem);
+      console.log(listItem);
       return <li className="text-break">{listItem.children}</li>;
     },
-    a(anchor) {
-      // TODO: on Click of Bible Verse display the verse. from local json file.
-      // TODO: on Click of a link open a pop up and display the page.
-      // check if anchor.children is an array or not.
-    },
+    // a(anchor) {
+    //   // TODO: on Click of Bible Verse display the verse. from local json file.
+    //   // TODO: on Click of a link open a pop up and display the page.
+    //   // check if anchor.children is an array or not.
+    // },
     hr() {
       return <hr className="m-6" />;
     },

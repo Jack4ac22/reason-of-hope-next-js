@@ -6,6 +6,7 @@ import gfm from "remark-gfm";
 import ReactPlayer from "react-player/lazy";
 import { Spotify } from "react-spotify-embed";
 import YouTubeEmbed from "../../iframes/youtube-component";
+import ModalImage from "../../general-compenents/modal-image";
 
 export default function CreationContentBody(props) {
   const { creation } = props;
@@ -15,11 +16,11 @@ export default function CreationContentBody(props) {
       return <ul className="">{list.children}</ul>;
     },
     ol(list) {
-      console.log(list);
+      // console.log(list);
       return <ol className="">{list.children}</ol>;
     },
     li(listItem) {
-      console.log(listItem);
+      // console.log(listItem);
       return <li className="text-break">{listItem.children}</li>;
     },
     // a(anchor) {
@@ -57,6 +58,7 @@ export default function CreationContentBody(props) {
           />
         </Link>
       );
+      // return <ModalImage image={image} />;
     },
   };
 

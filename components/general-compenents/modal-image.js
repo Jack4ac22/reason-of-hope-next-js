@@ -26,7 +26,7 @@ export default function ModalImage(props) {
         >
           {/* <figure calssName="figure"> */}
           
-          <Image src={`/blog-images/${image.src}`} alt={image.alt} width={900} height={600} className="img-fluid"/>
+          <Image src={`/blog-images/${image.src}`} alt={image.alt} width={400} height={250} className="img-fluid"/>
           {/* <img
             src={`/blog-images/${image.src}`}
             className={"w-100 img-fluid"}

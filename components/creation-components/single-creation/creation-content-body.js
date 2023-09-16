@@ -60,6 +60,18 @@ export default function CreationContentBody(props) {
       );
       // return <ModalImage image={image} />;
     },
+    p: (paragraph) => {
+      const { node } = paragraph;
+
+      if (node.children[0].tagName === "img") {
+        const image = {
+          src: `${node.children[0].properties.src}`,
+          alt: node.children[0].properties.alt,
+        };
+        return <ModalImage image={image} />;
+      }
+      return <p>{paragraph.children}</p>;
+    },
   };
 
   return (

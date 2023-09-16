@@ -1,30 +1,41 @@
+import Image from "next/image";
 export default function ModalImage(props) {
   const { image } = props;
+  // adjust the image alt to remove the words "full" or "large" or "small"
+  image.alt = image.alt.replace(/full|large|small/gi, "");
   const isFullWidth = image.alt.toLowerCase().includes("full");
+  const isLargeWidth = image.alt.toLowerCase().includes("large");
+  const isSmallidth = image.alt.toLowerCase().includes("small");
   // const isFloatRight = image.alt.toLowerCase().includes("right");
   // const isFloatLeft = image.alt.toLowerCase().includes("left");
   // const isFloatCenter = image.alt.toLowerCase().includes("center");
   const identifier = image.src.replace(/\.[^/.]+$/, "");
   return (
     <>
-      {/* <div className="col-md-6 col-lg-4"> */}
-      <button
-        type="button"
-        className={`btn btn-link ` + (isFullWidth ? "w-100" : "col-lg-4 colf-md-12 float-end")}
-        data-bs-toggle="modal"
-        data-bs-target={`#modal${identifier}`}
+      <div
+        className={`container-fluid ${isFullWidth ? "w-100" : ""}
+        ${isLargeWidth ? "w-50" : ""}
+      ${!isFullWidth && !isLargeWidth ? "col-lg-4 col-md-12 float-end " : ""}
+      }`}
       >
-        {/* <figure calssName="figure"> */}
-        <img
-          src={`/blog-images/${image.src}`}
-          className={`col-md-6  img-fluid rounded float-end ${
-            isFullWidth ? "w-100" : ""
-          } `}
-        />
-        {/* <figcaption calssName="figure-caption">{image.alt}</figcaption> */}
-        {/* </figure> */}
-      </button>
-      {/* </div> */}
+        <button
+          type="button"
+          className={`btn btn-link`}
+          data-bs-toggle="modal"
+          data-bs-target={`#modal${identifier}`}
+        >
+          {/* <figure calssName="figure"> */}
+          
+          <Image src={`/blog-images/${image.src}`} alt={image.alt} width={900} height={600} className="img-fluid"/>
+          {/* <img
+            src={`/blog-images/${image.src}`}
+            className={"w-100 img-fluid"}
+          /> */}
+          
+          {/* <figcaption calssName="figure-caption">{image.alt}</figcaption> */}
+          {/* </figure> */}
+        </button>
+      </div>
       <div
         className="modal fade"
         id={`modal${identifier}`}
@@ -41,10 +52,14 @@ export default function ModalImage(props) {
             </div>
             <div className="modal-body">
               <figure calssName="figure">
+
+                <Image src={`/blog-images/${image.src}`} alt={image.alt} width={900} height={600} className="img-fluid"/>
+                
+{/*                 
                 <img
                   src={`/blog-images/${image.src}`}
                   className="img-fluid w-100"
-                />
+                /> */}
                 <figcaption calssName="figure-caption">{image.alt}</figcaption>
               </figure>
             </div>
@@ -63,3 +78,4 @@ export default function ModalImage(props) {
     </>
   );
 }
+// TODO: check if Image from next/image is better than img tag.

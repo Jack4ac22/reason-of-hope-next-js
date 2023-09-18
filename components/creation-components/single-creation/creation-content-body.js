@@ -58,8 +58,8 @@ export default function CreationContentBody(props) {
           />
         </Link>
       );
-      // return <ModalImage image={image} />;
     },
+    // TODO: add a custom render for the images which are in a link to be link images not to use the ModalImage.
     p: (paragraph) => {
       const { node } = paragraph;
 

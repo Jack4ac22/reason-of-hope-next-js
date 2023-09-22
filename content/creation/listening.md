@@ -1,33 +1,25 @@
 ---
 title: "النباتات ’تصغي‘!"
 date: "2020-04-30"
-categories: 
+categories:
   - "قضيّة-الخلق"
   - "علوم-معاصرة"
-tags: 
+tags:
   - "الخلق"
-coverImage: "ROH.png"
-spotify: ""
-hearthis: ""
+coverImage: "plants-are-listening.jpg"
+spotify: "https://open.spotify.com/episode/2UWQGr5wQCuMWIB46DmQQY?si=cTiTc3gxRQ2lZtAiGS8G5A"
+hearthis: "https://hearthis.at/5398602/"
 youtube: ""
-creationLink: ""
+creationLink: "https://creation.com/a/14279"
 authors:
-  - name: ""
-    link: ""
+  - name: "David Catchpoole"
+    link: "https://creation.com/david-catchpoole-cv"
 description: ""
 ---
 
-بقلم: [David Catchpoole](https://creation.com/david-catchpoole-cv)
-
-https://hearthis.at/5398602/
-
-https://open.spotify.com/episode/2UWQGr5wQCuMWIB46DmQQY?si=cTiTc3gxRQ2lZtAiGS8G5A
-
-![plants-are-listening](images/plants-are-listening.jpg)
-
 أعلن بيان صادر عن جامعة غرب أستراليا أنَّ ”النباتات تمتلك حواس أكثر تعقيداً وتطوراً مما كنا نعتقد“ مع قدرة على رصد الأصوات والإستجابة لها.1 وعلى وجه الخصوص، أظهرت هذه الأبحاث المثيرة أنَّ الجذور تستطيع أن ’تسمع‘ صوت رقرقة المياه.
 
-قام الباحثون بزراعة شتلات البازيلاء في أواني مصنوعة على شكل حرف Y مقلوب، بحيث يكون للجذور سبيلين ’للإختيار بينهما‘.2 على سبيل المثال ـ أن تنمو باتجاه التربة الرطبة بدلاً من التربة الجافة، أو أن تتجه نحو طبق من الماء عوضاً عن التربة الجافة. واللافت للنظر هو أنَّه عندما كان أحد الخيارات عبارة عن أنبوب مياه مغلق موصول بمصدر المياه، نمت جذور الشتلات نحوه بدلاً من أن تنموا باتجاه التربة الجافّة.أوضحت الباحثة الرئيسية مونيكا غاغيليانو: ”لقد عَلِمَت بأنَّ المياه كانت متواجده هناك، وذلك على الرغم من أنَّ الشيء الوحيد الذي يمكن أن يتم رصده كان صوت تدفق \[المياه\] داخل الأنبوب.“ 
+قام الباحثون بزراعة شتلات البازيلاء في أواني مصنوعة على شكل حرف Y مقلوب، بحيث يكون للجذور سبيلين ’للإختيار بينهما‘.2 على سبيل المثال ـ أن تنمو باتجاه التربة الرطبة بدلاً من التربة الجافة، أو أن تتجه نحو طبق من الماء عوضاً عن التربة الجافة. واللافت للنظر هو أنَّه عندما كان أحد الخيارات عبارة عن أنبوب مياه مغلق موصول بمصدر المياه، نمت جذور الشتلات نحوه بدلاً من أن تنموا باتجاه التربة الجافّة.أوضحت الباحثة الرئيسية مونيكا غاغيليانو: ”لقد عَلِمَت بأنَّ المياه كانت متواجده هناك، وذلك على الرغم من أنَّ الشيء الوحيد الذي يمكن أن يتم رصده كان صوت تدفق \[المياه\] داخل الأنبوب.“
 
 أوضحت الباحثة الرئيسية مونيكا غاغيليانو: ”لقد عَلِمَت بأنَّ المياه كانت متواجده هناك، وذلك على الرغم من أنَّ الشيء الوحيد الذي يمكن أن يتم رصده كان صوت تدفق \[المياه\] داخل الأنبوب.“3 وفي الحالة التي عُرضت التربة الرطبة كبديل، فإن جذور النباتات قد نمت باتجاهها عوضاً عن النمود باتجاه الإنبوب المرقرق، وهذا ما دفع الباحثين إلى أن يقوموا بتخمين يفيد بأنَّ النباتات تستخدم الموجات الصوتية لاكتشاف الماء عن بعد، إلا أنها تستقر باتجاه الرطوبة الفعلية عندما تكون أقرب.
 
@@ -37,15 +29,13 @@ https://open.spotify.com/episode/2UWQGr5wQCuMWIB46DmQQY?si=cTiTc3gxRQ2lZtAiGS8G5
 
 من أين أتت هذه المقدرة ”السمعية“ الرائعة؟ وفقاً للدكتورة غاغليانو وزملاؤها فإن ذلك على ما يبدو يُعزى إلى التطور، حيث نجد بين الأشياء التي كتبوها، على سبيل المثال، ”إن النباتات تهتز على إيقاع الفطرة التطوريّة“ 4 إلا أنَّ التعقيد المذهل للنباتات، مع هذه القدرات ’الحسية‘ المذهلة والتي اكتشفها العلماء الآن وبعد سنوات من البحث المضني، تتحدث بقوة عن تصميمها - في اليوم الثالث من أسبوع الخلق ([تكوين ١: ١١- ١٣](https://biblia.com/books/ar-vandyke/ge1.11-13)). ويُحدِّد الكتاب المقدس المصمّم بأنَّه ربنا ومخلصنا يسوع ([كولوسي ١: ١٦](https://biblia.com/books/ar-vandyke/Col1.16)).
 
-يمكنكم قراءة المقال من الموقع الرسمي [من هنا.](https://creation.com/النباتات-تصغي)
-
 ### مراجع
 
-1- Study reveals plants ‘listen’ to find sources of water, news.uwa.edu.au, 11 April 2017. 
-2- Gagliano, M., and 3 others, Tuned in: plant roots use sound to locate water, _Oecologia_ **184**(1):151–160, 2017 | doi:10.1007/s00442-017-3862-z.  
-3- Zaraska, M., Can plants hear? _Scientific American_ **317**(1):20, July 2017 | doi:10.1038/scientificamerican0717-20 .  
-4- Gagliano, M., Mancuso, S., and Robert, D., Towards understanding plant bioacoustics, _Trends Plant Sci._ **17**:323–325, 2012. 
-5- Meissen, R., Hearing danger: predator vibrations trigger plant chemical defenses, decodingscience.missouri.edu, 1 July 2014. 
-6- Gagliano, M., and 4 others, Out of sight but not out of mind: Alternative means of communication in plants. _PLoS ONE_ **7**(5):e37382, 2012 | doi: 10.1371/journal.pone.0037382.
+1- Study reveals plants ‘listen’ to find sources of water, news.uwa.edu.au, 11 April 2017.
+2- Gagliano, M., and 3 others, Tuned in: plant roots use sound to locate water, *Oecologia* **184**(1):151–160, 2017 | doi:10.1007/s00442-017-3862-z.  
+3- Zaraska, M., Can plants hear? *Scientific American* **317**(1):20, July 2017 | doi:10.1038/scientificamerican0717-20 .  
+4- Gagliano, M., Mancuso, S., and Robert, D., Towards understanding plant bioacoustics, *Trends Plant Sci.* **17**:323–325, 2012.
+5- Meissen, R., Hearing danger: predator vibrations trigger plant chemical defenses, decodingscience.missouri.edu, 1 July 2014.
+6- Gagliano, M., and 4 others, Out of sight but not out of mind: Alternative means of communication in plants. *PLoS ONE* **7**(5):e37382, 2012 | doi: 10.1371/journal.pone.0037382.
 
-* * *
+---

@@ -2,14 +2,15 @@ import Image from "next/image";
 export default function ModalImage(props) {
   const { image } = props;
   // adjust the image alt to remove the words "full" or "large" or "small"
-  image.alt = image.alt.replace(/full|large|small/gi, "");
   const isFullWidth = image.alt.toLowerCase().includes("full");
   const isLargeWidth = image.alt.toLowerCase().includes("large");
   const isSmallidth = image.alt.toLowerCase().includes("small");
+  image.alt = image.alt.replace(/full|large|small/gi, "");
   // const isFloatRight = image.alt.toLowerCase().includes("right");
   // const isFloatLeft = image.alt.toLowerCase().includes("left");
   // const isFloatCenter = image.alt.toLowerCase().includes("center");
   const identifier = image.src.replace(/\.[^/.]+$/, "");
+
   return (
     <>
       <div
@@ -25,13 +26,19 @@ export default function ModalImage(props) {
           data-bs-target={`#modal${identifier}`}
         >
           {/* <figure calssName="figure"> */}
-          
-          <Image src={`/blog-images/${image.src}`} alt={image.alt} width={400} height={250} className="img-fluid"/>
+
+          <Image
+            src={`/blog-images/${image.src}`}
+            alt={image.alt}
+            width={isFullWidth ? 800 : 400}
+            height={isFullWidth ? 500 : 250}
+            className="img-fluid"
+          />
           {/* <img
             src={`/blog-images/${image.src}`}
             className={"w-100 img-fluid"}
           /> */}
-          
+
           {/* <figcaption calssName="figure-caption">{image.alt}</figcaption> */}
           {/* </figure> */}
         </button>
@@ -52,10 +59,15 @@ export default function ModalImage(props) {
             </div>
             <div className="modal-body">
               <figure calssName="figure">
+                <Image
+                  src={`/blog-images/${image.src}`}
+                  alt={image.alt}
+                  width={900}
+                  height={600}
+                  className="img-fluid"
+                />
 
-                <Image src={`/blog-images/${image.src}`} alt={image.alt} width={900} height={600} className="img-fluid"/>
-                
-{/*                 
+                {/*                 
                 <img
                   src={`/blog-images/${image.src}`}
                   className="img-fluid w-100"

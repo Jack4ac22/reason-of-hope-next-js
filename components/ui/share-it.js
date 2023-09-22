@@ -40,7 +40,7 @@ export default function ShareIt({
         <WhatsappIcon size={size} round={round} />
       </WhatsappShareButton>
 
-      <EmailShareButton url={url} options={"title"}>
+      <EmailShareButton url={url} options={title}>
         <EmailIcon size={size} round={round} />
       </EmailShareButton>
     </div>

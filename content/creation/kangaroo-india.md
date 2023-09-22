@@ -1,10 +1,10 @@
 ---
 title: "حيوانات الكنغر في الهند؟"
 date: "2021-08-16"
-categories: 
+categories:
   - "قضيّة-الخلق"
   - "العالم-التوراتي"
-tags: 
+tags:
   - "كنغر"
   - "مخلوقات"
   - "الفلك"
@@ -12,23 +12,15 @@ tags:
   - "استراليا"
   - "عصر-جليدي"
 coverImage: "wallabies-4228258_1280.png"
-spotify: ""
-hearthis: ""
+spotify: "https://open.spotify.com/episode/26fx2BGyraDzWCvoJvnPs0?si=I3SQxvTaTUS-xHyDLfryKg"
+hearthis: "https://hearthis.at/reasonofope/kangaroo-in-india/"
 youtube: ""
-creationLink: ""
+creationLink: "https://creation.com/a/15356"
 authors:
-  - name: ""
-    link: ""
-description: ""
+  - name: "Philip Robinson"
+    link: "https://creation.com/phil-robinson"
+description: "نقوش جدارية تكشف وجود حيوانات الكنغر في الهند في مرحلة من مراحل هجرتها إلى استراليا. "
 ---
-
-بقلم: [Philip Robinson](https://creation.com/phil-robinson)
-
-https://hearthis.at/reasonofope/kangaroo-in-india/
-
-يُمكنكم قراءة المقال من خلال زيارة موقع إرساليات الخلق الدولية [CMI](https://creation.com/a/15356)
-
-[![](images/cmi.png)](http://creation.com/arabic)
 
 إنّ حيوانات الكنغر هي أكثر الحيوانات الأسترالية شُهرةً. ويُمكن للرسومات الجدارية المكتشفة مؤخراً (النقوش الصخرية) أن تساعد على استكمال الصورة التاريخية لوصول هذه الحيوانات (التي تنتمي إلى فصيلة الجرابيات) إلى هناك. استطاع الدكتور جينو كوشي، وهو عالم الآثار من جامعة مَدراس (Madras)، العثور على ما يُعتقد بأنَّه أكبر مجموعة للفنون الصخرية في الهند. يوجد في مقاطعة أندهار براديش واحد من الملاجئ الصخرية التي تتميز بوجود رسومات للخنازير والغزلان والأبقار والبشر بالإضافة إلى مجموعة من الرموز.
 
@@ -38,19 +30,19 @@ https://hearthis.at/reasonofope/kangaroo-in-india/
 
 تُظهر خارطة العصر الجليدي المرفقة هذا الأمر، وتُحدّد طريقاً مباشراً للهجرة (من خلال التكاثر والإنتشار عبر الأجيال \[المتلاحقة\]) إلى ما يُعرف الآن باسم اندونيسيا، وبابوا غينيا الجديدة، وأستراليا. إن البلدان الثلاثة السابقة لا تزال تحتوي على حيوانات كنغز قاطنة فيها، وهي من فصائل تستوطن الأشجار وتبدو مناسبة للأجواء الاستوائية، وهي الأنواع الوحيدة التي لا تزال موجودة في أول بلدين. وهي متواجدة أيضاً في الغابات المطرية الأسترالية الشمالية، ومن المحتمل أن تكون من ذات نوع المخلوقات الذي تنتمي إليه حيوانات الكنغر التي تستوطن اليابسة والتي تنتشر في جميع أرجاء أستراليا الباقية.
 
-![Au-India-map](images/Au-India-map.jpg)
+![خارطة للطريق الذي يُفترض بالحيوانات أن تسلكه للوصول إلى الهند. full](Au-India-map.jpg)
 
-![marsupials-drawn](images/marsupials-drawn.jpg)
+![تُظهِر المخلوقات المرسومة باللون الأحمر الزاهي الجراب الخاص \[بكل منها\] من الأمام وترتفع أيديها في الهواء. انظر الصور المرفقة أدناه. full](marsupials-drawn.jpg)
 
-تُظهِر المخلوقات المرسومة باللون الأحمر الزاهي الجراب الخاص \[بكل منها\] من الأمام وترتفع أيديها في الهواء. انظر الصور المرفقة أدناه.
+
 
 إن هذا الدرب يُمكن أن يمر بسهولة عبر هذه المقاطعة الهندية، والذي كان في الغالب فوق سطح الماء. كان من المُمكن أن يتم عبور الحواجز المائية القليلة المتبقية من خلال الطواف على حصائر النباتات التي خلَّفتها العواصف، أو من خلال القدرة القوية على السباحة التي تمتلكها هذه الحيوانات.
 
 إن كان الأمر كذلك، فإن الرسّامين الذين نقشوا رسوماتهم على الصخور، كانوا قادرين على معاينة هذه الحيوانات أثناء استطيانها وقبل أن تُهاجر \[من المنطقة\] وتَفنى المجموعة الباقية منها. يوجد في الهند في يومنا الراهن مجموعة كبيرة من الحيوانات المفترسة، والتي تتضمن النمور، والفهود، وكذلك تشتمل على الأسد الآسيوي، والتي ربما لعبت دوراً مساعداً على فنائها \[أي فناء حيوانات الكنغر\]. لم يتم العثور على أيّ من هذه الحيوانات \[المفترسة\] في أستراليا؛ لربما لم تتمكن أسلافها من الوصول إلى أستراليا قبل أن يؤدي ارتفاع مستوى سطح البحر إلى قطع الطريق الذي يصل إليها.
 
-![wall-painting](images/wall-painting.jpg)
+![رسم جداري يُظهر الرسومات التي تتم الإشارة إليها في المقال. full](wall-painting.jpg)
 
 ### مراجع
 
-1. Chandrasekran, A., Did kangaroos ever live in India? A new discovery has some archaeologists hopping with excitement; scroll.in, 13 May 2019. 
-2. See ‘How did animals get from the Ark to places such as Australia?’, chap. 17 of CMI’s _The Creation Answers Book_; [creation.com/cab17](https://creation.com/cab17).
+1. Chandrasekran, A., Did kangaroos ever live in India? A new discovery has some archaeologists hopping with excitement; scroll.in, 13 May 2019.
+2. See ‘How did animals get from the Ark to places such as Australia?’, chap. 17 of CMI’s *The Creation Answers Book*; [creation.com/cab17](https://creation.com/cab17).

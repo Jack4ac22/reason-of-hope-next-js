@@ -1,30 +1,23 @@
 ---
 title: "فقط اكرزوا بالإنجيل؟"
 date: "2023-01-30"
-categories: 
+categories:
   - "قضيّة-الخلق"
   - "الكتاب-المقدس-والإنجيل"
-tags: 
+tags:
   - "الإلحاد"
   - "التكوين"
   - "بولس"
-coverImage: "ROH.png"
+coverImage: "open-book-981405_640.jpg"
 spotify: ""
 hearthis: ""
 youtube: ""
-creationLink: ""
+creationLink: "https://creation.com/a/16255"
 authors:
-  - name: ""
-    link: ""
-description: ""
+  - name: "Jonathan Sarfati"
+    link: "https://creation.com/dr-jonathan-d-sarfati"
+description: "هل يتوجب علينا أن نتجنب القضايا الخلافية في سبيل التبشير بالإنجيل؟"
 ---
-
-### أو: كيف نكون غير مؤثرين في المُلحدين
-
-بقلم: [](https://creation.com/russell-m-griggs-biography)[Jonathan Sarfati](https://creation.com/dr-jonathan-d-sarfati)
-
-يُمكنكم قراءة المقال من خلال زيارة الموقع الرسمي لإرساليات الخلق الدولية [CMI](http://creation.com/arabic)  
-[![](images/cmi.png)](https://creation.com/just-preach-the-gospel-ar)
 
 يُقدِّم الكثير من المسيحيّين الذين لا يؤمنون بالتعليم الكتابي عن (”الأرض حديثة العهد“)، إدِّعاءات تقول بأن هذا التعليم يُسيء إلى الشهادة للمحلدين. لذلك فإنهم يقولون بأنه من الواجب علينا أن نتحاشى القضايا الخلافية1 مثل قضية سفر التكوين و ”أن نلتزم بالتبشير بالإنجيل، فقط“. لكن، هل تستوي هذه الكرازة مع كرازة أفضل المبشرين الذين يذكرهم الوحي المقدس؟
 
@@ -90,42 +83,42 @@ description: ""
 
 1. للتعامل مع هذه الإتهامات انظر مقالاً للدكتور دون باتِن بعنوان: [لكنها مُثيرة للإنقسام!](https://creation.com/but-its-divisive) حيث يوضح أن السبب الحقيقي للإنقسام هو اولئك الذين يُنكرون التعليم الكتابي ([رومية ١٦: ١٧](https://my.bible.com/bible/101/ROM.16.17)).
 
-3. Anderson, D., [creation.com/easters-earliest-creed](https://creation.com/easters-earliest-creed), 8 April 2007.
+2. Anderson, D., [creation.com/easters-earliest-creed](https://creation.com/easters-earliest-creed), 8 April 2007.
 
-5. Cosner, L., [Christ as the Last Adam: Paul’s use of the Creation narrative in 1 Corinthians 15](https://creation.com/1-corinthians-15), _J. Creation_ **23**(3):70–75, 2009; creation.com/1-corinthians-15. 
+3. Cosner, L., [Christ as the Last Adam: Paul’s use of the Creation narrative in 1 Corinthians 15](https://creation.com/1-corinthians-15), *J. Creation* **23**(3):70–75, 2009; creation.com/1-corinthians-15.
 
-7. Cosner, L., [Romans 5:12 21: Paul’s view of a literal Adam](https://creation.com/romans-5-pauls-literal-adam), _J. Creation_ **22**(2):105–107, 2008; creation.com/romans5.
+4. Cosner, L., [Romans 5:12 21: Paul’s view of a literal Adam](https://creation.com/romans-5-pauls-literal-adam), *J. Creation* **22**(2):105–107, 2008; creation.com/romans5.
 
-9. Sarfati, J., [Why Bible history matters](https://creation.com/bible-history-fall-ark), _Creation_ **33**(4): 18–21, 2011; creation.com/bible-history. 
+5. Sarfati, J., [Why Bible history matters](https://creation.com/bible-history-fall-ark), *Creation* **33**(4): 18–21, 2011; creation.com/bible-history.
 
-11. Sarfati, J., [Genesis: Bible authors believed it to be history](https://creation.com/genesis-bible-authors-believed-it-to-be-history), _Creation_ **28**(2):21–23, 2006; creation.com/gen-hist. See also Batten, D., and Sarfati, J., 15 Reasons to Take Genesis as History, CBP, 2006. 
+6. Sarfati, J., [Genesis: Bible authors believed it to be history](https://creation.com/genesis-bible-authors-believed-it-to-be-history), *Creation* **28**(2):21–23, 2006; creation.com/gen-hist. See also Batten, D., and Sarfati, J., 15 Reasons to Take Genesis as History, CBP, 2006.
 
-13. Cosner, L., [What the New Testament doesn’t say](https://creation.com/nt-doesnt-say), creation.com/nt-doesnt-say, 11 September 2012. 
+7. Cosner, L., [What the New Testament doesn’t say](https://creation.com/nt-doesnt-say), creation.com/nt-doesnt-say, 11 September 2012.
 
-15. Zindler, American atheist, in a debate with well known Christian apologist William Craig, Atheism vs. Christianity video, Zondervan, 1996. 
+8. Zindler, American atheist, in a debate with well known Christian apologist William Craig, Atheism vs. Christianity video, Zondervan, 1996.
 
-17. يدعو دوكينز الديانة المؤمنة بالله باسم ”ڤيروس الذهن“ وهو ما يجعل منها نوعاً من المرض أو الوباء، وبحسب دوكينز، فإن الآباء الذين يعلمونه لأبنائهم، يمارسون نوهاً من التحرش الذهنيّ بالأطفال. إلا أن هذه المعايير التي يستخدمها دوكينز تجعل المرء يتسائل ما إذا كان تعصبه العدائي للإله يمكن أن يكون بحد ذاته مرضاً ذهنياً ـ أثيوباث (atheopath). 
+9. يدعو دوكينز الديانة المؤمنة بالله باسم ”ڤيروس الذهن“ وهو ما يجعل منها نوعاً من المرض أو الوباء، وبحسب دوكينز، فإن الآباء الذين يعلمونه لأبنائهم، يمارسون نوهاً من التحرش الذهنيّ بالأطفال. إلا أن هذه المعايير التي يستخدمها دوكينز تجعل المرء يتسائل ما إذا كان تعصبه العدائي للإله يمكن أن يكون بحد ذاته مرضاً ذهنياً ـ أثيوباث (atheopath).
 
-19. Dawkins, R., _The root of all evil?_ Channel 4, UK, 16 January 2006. 
+10. Dawkins, R., *The root of all evil?* Channel 4, UK, 16 January 2006.
 
-21. Sarfati, J., [The Fall: a cosmic catastrophe: Hugh Ross’s blunders on plant death in the Bible](https://creation.com/the-fall-a-cosmic-catastrophe), _J. Creation_ **19**(3):60–64, 2005; creation.com/plant\_death. 
+11. Sarfati, J., [The Fall: a cosmic catastrophe: Hugh Ross’s blunders on plant death in the Bible](https://creation.com/the-fall-a-cosmic-catastrophe), *J. Creation* **19**(3):60–64, 2005; creation.com/plant_death.
 
-23. For a thorough treatment of the implications of the Fall taught by Romans 8, see Smith, H.B., [Cosmic and universal death from Adam’s Fall: An exegesis of Romans 8:19–23a](https://creation.com/cosmic-and-universal-death-from-adams-fall-an-exegesis-of-romans-819-23a), _J. Creation_ **21**(1):75–85, 2007; creation.com/romans8. 
+12. For a thorough treatment of the implications of the Fall taught by Romans 8, see Smith, H.B., [Cosmic and universal death from Adam’s Fall: An exegesis of Romans 8:19–23a](https://creation.com/cosmic-and-universal-death-from-adams-fall-an-exegesis-of-romans-819-23a), *J. Creation* **21**(1):75–85, 2007; creation.com/romans8.
 
-25. For a thorough documentation of death, disease and injury in human fossils, and the problem for old-earth beliefs, see Lubenow, M., [Pre-Adamites, sin, death and the human fossils](https://creation.com/pre-adamites-and-human-fossils), _J. Creation_ **12**(2):230, 1998; creation.com/pre-adamites. 
+13. For a thorough documentation of death, disease and injury in human fossils, and the problem for old-earth beliefs, see Lubenow, M., [Pre-Adamites, sin, death and the human fossils](https://creation.com/pre-adamites-and-human-fossils), *J. Creation* **12**(2):230, 1998; creation.com/pre-adamites.
 
-27. Gurney, R., [The carnivorous nature and suffering of animals](https://creation.com/the-carnivorous-nature-and-suffering-of-animals), _J. Creation_ **18**(3):70–75, 2004, creation.com/carniv. 
+14. Gurney, R., [The carnivorous nature and suffering of animals](https://creation.com/the-carnivorous-nature-and-suffering-of-animals), *J. Creation* **18**(3):70–75, 2004, creation.com/carniv.
 
-29. Catchpoole, D., [Drawing power The famous Eden on bones illustration has a new stablemate, Thorns before sin , doubling the impact](https://creation.com/drawing-power), creation.com/drawing-power, 16 August 2012. 
+15. Catchpoole, D., [Drawing power The famous Eden on bones illustration has a new stablemate, Thorns before sin , doubling the impact](https://creation.com/drawing-power), creation.com/drawing-power, 16 August 2012.
 
-31. Moritz, K.P., [creation.com/can-christians-believe-evolution](https://creation.com/can-christians-believe-evolution), 21 October 2010. 
+16. Moritz, K.P., [creation.com/can-christians-believe-evolution](https://creation.com/can-christians-believe-evolution), 21 October 2010.
 
-33. Darwin, C.R., On the Origin of Species by Means of Natural Selection, or the Preservation of Favoured Races in the Struggle for Life, 1st ed., p. 490, John Murray, London, 1859; darwin-online.org.uk (emphasis added).
+17. Darwin, C.R., On the Origin of Species by Means of Natural Selection, or the Preservation of Favoured Races in the Struggle for Life, 1st ed., p. 490, John Murray, London, 1859; darwin-online.org.uk (emphasis added).
 
-35. Hull, D., The God of the Galápagos, _Nature_ **352**:485–86, 8 August 1991. 
+18. Hull, D., The God of the Galápagos, *Nature* **352**:485–86, 8 August 1991.
 
-37. Monod, Jacques, _The Secret of Life_, ABC interview, Australia, 1976. See also Gadsby, P.W., [Jacques Monod and theistic evolution](https://creation.com/jacques-monod-and-theistic-evolution), _Creation_ **3**(2):18–19, 1980; creation.com/monod (emphasis added). 
+19. Monod, Jacques, *The Secret of Life*, ABC interview, Australia, 1976. See also Gadsby, P.W., [Jacques Monod and theistic evolution](https://creation.com/jacques-monod-and-theistic-evolution), *Creation* **3**(2):18–19, 1980; creation.com/monod (emphasis added).
 
-39. Sarfati, J., [Church of England apologises to Darwin](https://creation.com/church-of-england-apologises-to-charles-darwin), creation.com/anglican, 20 September 2008. 
+20. Sarfati, J., [Church of England apologises to Darwin](https://creation.com/church-of-england-apologises-to-charles-darwin), creation.com/anglican, 20 September 2008.
 
-41. Cited in Cosner, L., [Evolutionary syncretism: a critique of Biologos](https://creation.com/biologos-evolutionary-syncretism), creation.com/biologos, 7 September 2010.
+21. Cited in Cosner, L., [Evolutionary syncretism: a critique of Biologos](https://creation.com/biologos-evolutionary-syncretism), creation.com/biologos, 7 September 2010.

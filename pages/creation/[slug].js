@@ -23,14 +23,14 @@ export default function CreationsArtilePage(props) {
           property="og:description"
           content={creationArticle.description + " ... "}
         />
-        {/* <meta
+        <meta
           property="og:image"
           content={`/blog-images/${
-            props.creationsArtile.coverImage
-              ? props.creationsArtile.coverImage
+            creationArticle.coverImage
+              ? creationArticle.coverImage
               : ROH.png
           }`}
-        /> */}
+        />
       </Head>
       <CreationContentPageComponent creation={creationArticle} />
     </>

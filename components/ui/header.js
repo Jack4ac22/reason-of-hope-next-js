@@ -1,9 +1,11 @@
 import UiLogo from "./logo";
 import Link from "next/link";
+import BackToPreviousPage from "./back-to-previouse-page";
+import ScrollToTopButton from "./scroll-to-top";
 
 export default function UiHeader() {
   return (
-    <nav className="navbar navbar-expand-md bg-body-tertiary ">
+    <nav className="navbar navbar-expand-md bg-body-tertiary" id="navbar">
       <div className="container-fluid">
         <Link className="navbar-brand" href="/">
           <UiLogo />
@@ -69,6 +71,8 @@ export default function UiHeader() {
           </ul>
         </div>
       </div>
+      <BackToPreviousPage />
+      <ScrollToTopButton />
     </nav>
   );
 }

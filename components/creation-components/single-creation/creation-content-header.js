@@ -1,5 +1,6 @@
 import Image from "next/image";
 import CreationAuthors from "./creation-authors";
+import ShareIt from "../../ui/share-it";
 export default function CreationContentHeader(props) {
   const { creation } = props;
   return (
@@ -8,6 +9,11 @@ export default function CreationContentHeader(props) {
         <div className="row">
           <div className="col align-self-center">
             <h1>{creation.title}</h1>
+            <ShareIt title={creation.title}
+            url={`https://reasonofhope.com/creation/${creation.slug}`}
+            tags={creation.tags}
+            description={creation.description}
+            />
             <CreationAuthors authors={creation.authors} />
           </div>
           <Image

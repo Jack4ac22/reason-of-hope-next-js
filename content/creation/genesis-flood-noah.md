@@ -1,45 +1,32 @@
 ---
 title: "طوفان التكوين وفلك نوح"
 date: "2021-07-08"
-categories: 
-
+categories:
   - "قضيّة-الخلق"
   - "كتب"
   - "إصدارات"
   - "الكتاب-المقدس-والإنجيل"
   - "الديناصورات-والتأريخ"
   - "العالم-التوراتي"
-tags: 
+tags:
   - "نوح"
   - "التكوين"
   - "التطور"
   - "الخلق"
   - "الطوفان"
   - "دراسة-سفر-التكوين"
-coverImage: "ROH.png"
-spotify: ""
-hearthis: ""
+coverImage: "rainbow-5372892_1920-edited.jpg"
+spotify: "https://open.spotify.com/episode/4V7k1jVmphjtjHr210nbQv?si=ZdSdn0XGRLGx85RdETBBTw&dl\_branch=1"
+hearthis: "https://hearthis.at/reasonofope/set/genesisflood/"
 youtube: ""
-creationLink: ""
+creationLink: "https://creation.com/a/15148"
 authors:
-  - name: ""
-    link: ""
-description: ""
+  - name: "Tas Walker"
+    link: "https://creation.com/dr-tas-walker-speaker"
+description: "إن سفر التكوين والسرد الذي يقدمه عن الطوفان يتعرضان إلى أعتى الهجمات التي تتشكك بمصداقيتهما. يقدم هذا الكُتيّب نظرة عامةً على الإعتراضات الرئيسية ويتعامل معها."
 ---
 
-بقلم: [Tas Walker](https://creation.com/dr-tas-walker-speaker)
-
-https://hearthis.at/reasonofope/set/genesisflood/
-
-https://open.spotify.com/episode/4V7k1jVmphjtjHr210nbQv?si=ZdSdn0XGRLGx85RdETBBTw&dl\_branch=1
-
-## احصل على نسختك المجانية من هذا الكتيب  
-  
-[![](images/apple.png)](http://books.apple.com/us/book/id1567552549)[![](images/google-books.png)](https://books.google.lu/books/about?id=FlkuEAAAQBAJ&redir_esc=y&hl=de)[![](images/pdf.png)](https://arabcreationisthome.files.wordpress.com/2021/07/genesis-flood.pdf)[![](images/www.png)](https://creation.com/a/15148)[![](images/cmi.png)](https://creation.com/arabic/?page=1)
-
-## يُمكنكم الوصول إلى التسجيلات الصوتية من المنصات التالية:  
-  
-[![](images/google-podcasts.png)](https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy81MTVjMjljNC9wb2RjYXN0L3Jzcw==/episode/MWVhMTMzOWItMmU5MS00ZGI5LWJjZjctNWJjYmZjYmU1MDVm)[![](images/anchor-2.png)](https://anchor.fm/reason-of-hope4/episodes/ep-e12kt6n)[![](images/spotify.png)](https://open.spotify.com/episode/4V7k1jVmphjtjHr210nbQv?si=ubM0I6YYT6mzNnjg35hxaw&dl_branch=1&nd=1)[![](images/hearthis.at_.png)](https://hearthis.at/reasonofope/set/genesisflood/)[![](images/breaker.png)](https://www.breaker.audio/sbb-lrj/e/89297854)
+<!-- TODO: add the book link -->
 
 يتشكك الكثير من الأشخاص بالسرد التوراتي عن الطوفان الذي حدث في أيام نوح. ينظر الكثيرون إلى هذه القصة كما لو أنها كانت مجرد مبالغة فاضحة أو نوع من أعمال الخيال. ولكن إن كان طوفان نوح غير قابل للتصديق، لماذا نثق بأي سرد تاريخي من الكتاب المقدس؟ لقد قدَّم الناس العديد من الإعتراضات على التفسير الواقعيّ لهذا الحدث وهذا المقال (بالإضافة إلى المقالات المرتبطة به) يجيب على العديد من الأسئلة الرئيسية التي يطرحها الناس عن الطوفان والفُلْك.
 
@@ -47,9 +34,7 @@ https://open.spotify.com/episode/4V7k1jVmphjtjHr210nbQv?si=ZdSdn0XGRLGx85RdETBBT
 
 يقوم الكثير من الأشخاص بتصور الفُلك كما لو أنَّه حوض استحمام كبير عائم، مع تلك الزرافات والفيلة ونوح الذين يقفون على سطح السفينة ويلوّحون بأيدهم للحيتان التي تنتشر في المياه. إلا أنَّ الكتاب المقدس يصف الفلك على أنَّه مركب ضخم.
 
-![](https://arabcreationisthome.files.wordpress.com/2021/05/truck-2683872_1280.jpg?w=194)
-
-نصف مقطورة
+![نصف مقطورة](truck-2683872_1280.jpg)
 
 > …ثَلاَثَ مِئَةِ ذِرَاعٍ يَكُونُ طُولُ الْفُلْكِ، وَخَمْسِينَ ذِرَاعًا عَرْضُهُ، وَثَلاَثِينَ ذِرَاعًا ارْتِفَاعُهُ. ([التكوين ٦: ١٥](https://www.bible.com/bible/67/gen.6.15))
 
@@ -69,9 +54,7 @@ https://open.spotify.com/episode/4V7k1jVmphjtjHr210nbQv?si=ZdSdn0XGRLGx85RdETBBT
 
 كان الإنسان الأول الذي خلقه الله كاملاً. خلال السنوات الستة آلاف التي مضت منذ ذلك الحين، [كان مستوانا الذهني يتراجع بالغالب بسبب آثار اللعنة](https://creation.com/fall-of-adam-played-vital-role-in-development-of-western-science-harrison). لحسن الحظ، قمنا بمواجهة ذلك التراجع في المقدرات من خلال [تسجيل ونقل المعلومات](https://creation.com/computers-on-the-ark) والإكتشافات.
 
-![](https://arabcreationisthome.files.wordpress.com/2019/04/noahs-ark.jpg?w=945)
-
-الحجم الهائل للفُلك.
+![الحجم الهائل للفُلك. full](noahs-ark.jpg)
 
 إن التنوع المثير للدهشة في أنواع الحيوانات الموجودة في يومنا الراهن قد تولَّد من التكاثر والقليل من **”**التهجين**“** الذي حصل بين أنواع الحيوانات التي كانت على متن فلك نوح.
 
@@ -115,9 +98,7 @@ https://open.spotify.com/episode/4V7k1jVmphjtjHr210nbQv?si=ZdSdn0XGRLGx85RdETBBT
 
 بعض الديناصورات كانت أصغر من الدجاج (دون أن يكون لها علاقة بالطيور؛ إذ أنَّ الله كان قد خلق الديناصورات في اليوم الذي تلى خلقه للطيور). إن الحجم المتوسط لأي ديناصور بالغ كان معادلاً لحجم الثور.
 
-![](https://arabcreationisthome.files.wordpress.com/2021/05/eggs-688789_640.jpg?w=640)
-
-مجسم فنيّ لـ ”عش“ يحتوي على بيض ديناصورات.
+![مجسم فنيّ لـ ”عش“ يحتوي على بيض ديناصورات.](eggs-688789_640.jpg)
 
 إن الديناصورات تفقس من البيض، وأكبر بيضة توازي في حجمها حجم كرة القدم. في الحقيقة لا يمكن أن تكون أكبر من ذلك بكثير، وإلا فإن سماكة القشرة اللازمة لدعم وزنها سوف تمنع تدفق الأكسجين إلى الجنين. بالإضافة إلى أنَّ تحليل حلقات النمو لعظام الديناصورات يُظهر أنها مرَّت بما يُعرف ب[طفرة نمو الأحداث](https://creation.com/how-did-dinosaurs-grow-so-big). لذلك فإنَّه من المنطقي أن يقوم الله باختيار ديناصورات بعمر يسبق عمر النمو السريع للأحداث. وبالتالي فإن أكبر الديناصورات من أمثال الأباتوصوروس والبراكيوصوروس يمكن بسهولة أن يوجد لها مكان على متن الفلك حين [تكون يافعة](https://creation.com/how-did-dinosaurs-grow-so-big). كذلك كان من الممكن أن يتم التعامل مع الفيلة وحيوانات وحيد القرن وفق ذات الطريقة. إن الزواحف المجنَّحة من أمثال التيروداكتيلوس كانت قد وُجِدَت على متن الفلك، ولكن لم يتم وضع الزواحف البحرية من أمثال البليوصوروس.
 
@@ -145,9 +126,7 @@ https://open.spotify.com/episode/4V7k1jVmphjtjHr210nbQv?si=ZdSdn0XGRLGx85RdETBBT
 
 ## الكتاب المقدس يقدم وصفاً لطوفان عالمي
 
-![](https://arabcreationisthome.files.wordpress.com/2021/05/rainbow-5372892_1920-edited.jpg?w=300)
-
-عهد الله من خلال قوس قزح يعني أنَّ الطوفان كان عالمياً.
+![عهد الله من خلال قوس قزح يعني أنَّ الطوفان كان عالمياً.](rainbow-5372892_1920-edited.jpg?w=300)
 
 لو أن الطوفان كان حدثاً محلياً، ما هي الحاجة إلى فلك بهذه الضخامة؟ كان من الممكن أن يغادروا المنطقة ويكونوا آمنين! لماذا تمَّ وضع الطيور على متن الفُلك؟ لقد كانت قادرةً على التحليق بعيداً. إن يسوع آمن أنَّ الطوفان قد مَحى الجميع فيما عداً نوح وعائلته ([متى ٢٤: ٣٧-٣٩](https://www.bible.com/bible/67/mat.24.37-39)). لو أنَّ الطوفان كان محلياً، فإن تأثيره لم يكن ليمتد إلى الأشخاص الذين يعيشون خارج المنطقة، بل كانوا سينجون من دينونة الله للخطيئة.
 
@@ -161,9 +140,7 @@ https://open.spotify.com/episode/4V7k1jVmphjtjHr210nbQv?si=ZdSdn0XGRLGx85RdETBBT
 
 إن الكتاب المقدس يصف لنا مصدرين للمياه - الأمطار من السماء والمياه المتدفقة من ”تفجَّر ينابيع الغمر العظيم“
 
-![](https://arabcreationisthome.files.wordpress.com/2021/05/new-zealand-3018634_1280.jpg?w=300)
-
-من الممكن أن تكون الثورات البركانية قد حصلت على نطاق واسع بشكل متزامن مع تفجر مياه الغمر العظيم.
+![من الممكن أن تكون الثورات البركانية قد حصلت على نطاق واسع بشكل متزامن مع تفجر مياه الغمر العظيم.](new-zealand-3018634_1280.jpg?w=300)
 
 > في السَّنةِ السِّتِّ مئةٍ مِنْ عُمْرِ نُوحٍ، في الشَّهرِ الثَّاني، في اليومِ السَّابعَ عشَرَ مِنهُ تفَجَّرَت ينابـيعُ الغَمْرِ العظيمِ وتفتَّحَت نَوافِذُ السَّماءِ. وكانَ المطَرُ على الأرضِ أربعينَ نهارا وأربعينَ ليلَةً. ([التكوين ٧: ١١-١٢](https://my.bible.com/bible/67/GEN.7.11-12))
 
@@ -217,10 +194,7 @@ https://open.spotify.com/episode/4V7k1jVmphjtjHr210nbQv?si=ZdSdn0XGRLGx85RdETBBT
 
 ## ٣. هل يوجد دليل تاريخي على حدوث الطوفان؟
 
-![](https://arabcreationisthome.files.wordpress.com/2021/05/british_museum_flood_tablet.jpg?w=905)
-
-By BabelStone (Own work), CC0, https://commons.wikimedia.org/w/index.php?curid=10755114  
-إن محلمة چلچامش كانت قد سُجِّلَت على ألواح طينيّة. لقد تمَّ العثور على العديد من قصص الطوفان في الحضارات المنتشرة على امتداد العالم.
+![By BabelStone (Own work), CC0, https://commons.wikimedia.org/w/index.php?curid=10755114 إن محلمة چلچامش كانت قد سُجِّلَت على ألواح طينيّة. لقد تمَّ العثور على العديد من قصص الطوفان في الحضارات المنتشرة على امتداد العالم.](british_museum_flood_tablet.jpg?w=905)
 
 تحتفظ [العديد من الحضارات](https://creation.com/many-flood-legends) في مختلف أصقاع العالم بذكرى الطوفان في تاريخها المحلي. تمتلك [العديد من القبائل الأمريكية الأصلية قصص طوفانات عالمية](https://creation.com/indian-creation-myths). تروي إحدى هذه القصص من قبيلة الشوكتاو، كيف أنَّ البشر قد وصلوا إلى درجة من الفساد إلى أنَّ الروح العظيمة دمَّرتهم من خلال طوفان ونجا رجل واحد فقط.
 
@@ -232,10 +206,7 @@ By BabelStone (Own work), CC0, https://commons.wikimedia.org/w/index.php?curid=1
 
 تم اكتشاف واحدة من أشهر قصص الطوفان في العام ١٨٥٣ على ألواح عُثر عليها في نينوى القديمة. يُدعى نوح في ملحمة چلچامش هذه بإسم أوتنابشتيم. تمتلك هذه الملحمة أوجه تشابه كثيرة مع سرد الطوفان المسجل في سفر التكوين، لذلك [يعتقد العديد من العلماء أن قصة سفر التكوين قد اشتُقَّت منها](https://creation.com/noahs-flood-and-the-gilgamesh-epic). إلا أن ملحمة چلچامش هي أسطورة نموذجية، فهي تحتوي على كائنات سحرية وعدد من الآلهة، بالإضافة إلى الزخرفات والفلك ذو الإحتمالية الضعيفة بشكله الصندوقيّ، في حين أن سرد سفر التكوين يُقرأ مثل التاريخ الحقيقي. ربما تشير القصتين إلى نفس الحدث الحقيقي. إذ يحتفظ سفر التكوين بالسجل الأصلي، في حين أن ملحمة چلچامش تُقدم نسخة مشوهة.
 
-![](https://arabcreationisthome.files.wordpress.com/2021/05/msh80_eruption_mount_st_helens_05-18-80.jpg?w=681)
-
-By Austin Post - Public Domain, https://commons.wikimedia.org/w/index.php?curid=3157525  
-إن ثوران بركان ماونت سانت هيلين في العام ١٩٨٠ قد تسبب بتغيير التفكير الجيولوجي.  
+![إن ثوران بركان ماونت سانت هيلين في العام ١٩٨٠ قد تسبب بتغيير التفكير الجيولوجي. By Austin Post - Public Domain, https://commons.wikimedia.org/w/index.php?curid=3157525 ](msh80_eruption_mount_st_helens_05-18-80.jpg?w=681)
 
 هذه القصص والمئات غيرها تمتلك العديد من أوجه التشابه اللافتة للنظر. إن هذا الدليل يدعم رواية الكتاب المقدس بأنَّ جميع الناس ينحدرون من ثمانية أشخاص نجوا من الطوفان العالمي. إن الكتاب المقدس يحتفظ بسرد لشهادة عيان مكتوبة لحدث تاريخيّ حدث في تاريخ العالم.
 
@@ -255,10 +226,7 @@ By Austin Post - Public Domain, https://commons.wikimedia.org/w/index.php?curid=
 
 يوجد الكثير من الأشخاص الذين لا يقومون بالربط بين المستحاثات وبين طوفان نوح لأنَّه يُفترض بهذه المستحاثات أن تعود إلى عدة ملايين من السنوات. إلا أنَّ هذه الأعمار هي مجرَّد آراء بشرية، ولم يتمّ قياسها بشكل مباشر. يوجد الكثير من الأدلة التي تشير إلى أنَّ عمر العالم لا يتجاوز عدة آلاف من السنوات.
 
-![](https://arabcreationisthome.files.wordpress.com/2021/05/cambrianrusophycus.jpg?w=1024)
-
-By Wilson44691 - Own work, Public Domain, https://commons.wikimedia.org/w/index.php?curid=7564321  
-المستحاثات المدفونة بسرعة في الرواسب في جميع أنحاء العالم هي دليل على كارثة الطوفان.
+![المستحاثات المدفونة بسرعة في الرواسب في جميع أنحاء العالم هي دليل على كارثة الطوفان. By Wilson44691 - Own work, Public Domain, https://commons.wikimedia.org/w/index.php?curid=7564321  ](cambrianrusophycus.jpg?w=1024)
 
 على سبيل المثال، تم العثور على [قطعة من الخشب مدفونة في الحجر الرمليّ في مقلع حجريّ في مدينة سيدني](https://creation.com/dating-dilemma-fossil-wood-in-ancient-sandstone). يُقال أن الحجر الرملي يرجع إلى أكثر من مئتي مليون سنة، إلا أنَّ تحليل قطعة الخشب باستخدام الكربون ١٤ كان قد أشار إلى أنَّ عمرها يرجع إلى بضعة آلاف من السنوات فقط. إن العلماء يقومون بتحديد العمر الذي يجب القبول به وذلك بالإعتماد على توافق قيمته مع معتقداتهم السابقة المتعلقة بالماضي.
 
@@ -274,7 +242,7 @@ By Wilson44691 - Own work, Public Domain, https://commons.wikimedia.org/w/index.
 
 إن الصورة التي يمتلكها العديد من الأشخاص تقدم زوجاً من الحيوانات يُغادر الفلك ويخوض رحلةً طويلة للغاية. إلا أنَّه قد مضت عدة قرون وقد هاجرت الحيوانات على امتداد أجيال متعددة.
 
-![](https://arabcreationisthome.files.wordpress.com/2021/05/cane-toad-5537940_640.jpg?w=300)
+![صورة لضفدع القصب](cane-toad-5537940_640.jpg?w=300)
 
 مباشرةً بعد حدوث الطوفان وخلال فترة [العصر الجليدي](https://creation.com/ice-age-questions-and-answers)، كانت مستويات البحر أخفض بكثير \[مما هي عليه في يومنا الراهن\]، وهو الأمر الذي تسبب بتوفير الجسور البرية للحيوانات لكي تعبر من خلالها. يمكن أن تكون الحيوانات قد انتقلت أيضاً عبر المحيط على متن طوافات عائمة تتشكل من النباتات، وهو الأمر الذي تتم ملاحظته بشكل متكرر في الآونة الأخيرة. كما أنَّ البشر كانوا قادرين على نقل الحيوانات إلى أجزاء مختلفة من العالم، كما يحدث في يومنا الراهن.
 
@@ -330,7 +298,7 @@ By Wilson44691 - Own work, Public Domain, https://commons.wikimedia.org/w/index.
 
 على الرغم من أن يسوع المسيح الخالق هو بلا خطيئة، لكنه بالنيابة عن البشرية قد قاسى الموت والإنفصال عن الله، وكان ذلك عقوبةً لخطايانا. من خلال هذا الفعل أرضى مطالب قداسة وعدالة الله، أبيه. كان يسوع هو الذبيح الذي بلا عيب. مات على الصليب، ولكنه في اليوم الثالث قام من بين الأموات ليهزم الموت، وبذلك فإنَّ كل شخص يضع ثقته به ويتوب عن خطاياه ويخضع له بالحقيقة (عوضاً عن أن ينال استحقاق \[خطاياه\]) سيتمكن من العودة إلى الله ليحيا في حضرة الخالق إلى الأبد.
 
-> ﻿فمَنْ يُؤمِنُ بالاَبنِ لا يُدانُ. ومَنْ لا يُؤمِنُ بِه دِينَ، لأنّهُ ما آمَنَ باَبنِ اللهِ الأوحدِ. ([يوحنا ٣: ١٨](https://www.bible.com/67/jhn.3.18))
+> فمَنْ يُؤمِنُ بالاَبنِ لا يُدانُ. ومَنْ لا يُؤمِنُ بِه دِينَ، لأنّهُ ما آمَنَ باَبنِ اللهِ الأوحدِ. ([يوحنا ٣: ١٨](https://www.bible.com/67/jhn.3.18))
 
 يا له من مُخلّص رائع - ويا له من خلاص عجيب في المسيح خالقنا!
 
@@ -338,9 +306,9 @@ By Wilson44691 - Own work, Public Domain, https://commons.wikimedia.org/w/index.
 
 ### مراجع
 
-1. باستخدام القياس المقبول عموماً للذراع وهو ١٨ إنشاً (٤٥،٧ سم). انظر Lovett, T., Which cubit for Noah’s Ark?, _J. Creation_ **20**(3):71–77, 2006.
-2. Sarfati, J., The Genesis Account, Creation Book Publishers, Powder Springs, Georgia, 2015. 
-3. Pierce, L., [The large ships of antiquity](https://creation.com/the-large-ships-of-antiquity), _Creation_ **22**(3):46–48, June–August 2000; creation.com/huge-ships. 
-4. Nunn, W., Giant sea-going wooden vessels challenge Ark skeptics, _Creation_ **37**(1):12–13, 2015. 
-5. كُلُّ مَنْ في أنفِهِ نَسَمةُ حياةٍ ـ هذه العبارة تشير إلى الحيوانات الفقارية ([التكوين٧: ٢٢](https://www.bible.com/bible/67/gen.7.22)) 
-6. Woodmorappe, J., _Noah’s Ark: A Feasibility Study_, Institute for Creation Research, El Cajon, Calif.
+1. باستخدام القياس المقبول عموماً للذراع وهو ١٨ إنشاً (٤٥،٧ سم). انظر Lovett, T., Which cubit for Noah’s Ark?, *J. Creation* **20**(3):71–77, 2006.
+2. Sarfati, J., The Genesis Account, Creation Book Publishers, Powder Springs, Georgia, 2015.
+3. Pierce, L., [The large ships of antiquity](https://creation.com/the-large-ships-of-antiquity), *Creation* **22**(3):46–48, June–August 2000; creation.com/huge-ships.
+4. Nunn, W., Giant sea-going wooden vessels challenge Ark skeptics, *Creation* **37**(1):12–13, 2015.
+5. كُلُّ مَنْ في أنفِهِ نَسَمةُ حياةٍ ـ هذه العبارة تشير إلى الحيوانات الفقارية ([التكوين٧: ٢٢](https://www.bible.com/bible/67/gen.7.22))
+6. Woodmorappe, J., *Noah’s Ark: A Feasibility Study*, Institute for Creation Research, El Cajon, Calif.

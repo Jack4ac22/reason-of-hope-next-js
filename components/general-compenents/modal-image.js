@@ -53,9 +53,7 @@ export default function ModalImage(props) {
         <div className="modal-dialog modal-dialog-scrollable">
           <div className="modal-content">
             <div className="modal-header">
-              <h5 className="modal-title" id={`modal${identifier}Label`}>
-                {image.alt}
-              </h5>
+              <h5 className="modal-title" id={`modal${identifier}Label`}></h5>
             </div>
             <div className="modal-body">
               <figure calssName="figure">

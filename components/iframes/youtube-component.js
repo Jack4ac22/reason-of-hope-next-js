@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-const YouTubeEmbed = ({ video }) => {
+function YouTubeEmbed({ video }) {
   const [iframeWidth, setIframeWidth] = useState("560");
   const [iframeHeight, setIframeHeight] = useState("315");
 
@@ -19,20 +19,13 @@ const YouTubeEmbed = ({ video }) => {
     handleResize();
 
     window.addEventListener("resize", handleResize);
-    console.log("resize");
-    console.log(iframeWidth);
-    console.log(iframeHeight);
 
     return () => {
       window.removeEventListener("resize", handleResize);
     };
   }, []);
 
-  const videoId = video.match(
-    /(?:youtu\.be\/|youtube\.com\/(watch\?(.*&)?v=|(embed|v)\/))([^\?&"'>]+)/
-  )[3];
-
-  const embedUrl = `https://www.youtube.com/embed/${videoId}`;
+  const embedUrl = `https://www.youtube.com/embed/${video}`;
 
   const iframeStyle = {
     width: `${iframeWidth}px`,
@@ -50,6 +43,6 @@ const YouTubeEmbed = ({ video }) => {
       ></iframe>
     </div>
   );
-};
+}
 
 export default YouTubeEmbed;

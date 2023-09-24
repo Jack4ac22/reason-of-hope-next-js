@@ -13,6 +13,7 @@ coverImage: "francesco-de-tommaso-1283481-unsplash.jpg"
 spotify: "https://open.spotify.com/episode/3oIoTKv6HhFKo1y38lB02Y?si=f6ZsSZriQbqZlxRutn8ShA"
 hearthis: "https://hearthis.at/5395682/"
 youtube: ""
+status: "published"
 creationLink: "https://creation.com/a/12977"
 authors:
   - name: "David Catchpoole"

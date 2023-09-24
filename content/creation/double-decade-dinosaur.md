@@ -13,6 +13,7 @@ coverImage: "skeleton-3868120_640.jpg"
 spotify: "https://open.spotify.com/episode/2hruZECaWi0Xr5eRtPNEOR"
 hearthis: "https://hearthis.at/5395697/"
 youtube: ""
+status: "published"
 creationLink: "https://creation.com/a/12851"
 authors:
   - name: "David Catchpoole"
@@ -80,7 +81,7 @@ description: "هل انقرضت الديناصورات منذ عدة ملايي�
 14. See also: Doyle, S., [Squishosaur scepticism squashed—Tests confirm proteins found in *T. rex* bones](https://creation.com/collagen), creation.com/collagen, 20 April 2007.
 15. Schweitzer, M. and 15 others, Biomolecular characterization and protein sequences of the Campanian hadrosaur *B. canadensis*, \*Science**\*324**(5927):626–631, 2009.
 16. Also see: Wieland, C., [Dinosaur soft tissue and protein—even more confirmation!](https://creation.com/schweit2) creation.com/schweit2, 6 May 2009.
-17. Key extract from the paper’s summary: “These data are the first to support preservation of multiple proteins \[*viz.* actin, tubulin, PHEX, histone H4\] and to present multiple lines of evidence for material consistent with DNA in dinosaurs.” Schweitzer, M. and 3 others, Molecular analyses of dinosaur osteocytes support the presence of endogenous molecules, *Bone* **52**(1):414–423, 2013. عودة إلى النص.
+17. Key extract from the paper’s summary: “These data are the first to support preservation of multiple proteins \[*viz.* actin, tubulin, PHEX, histone H4\] and to present multiple lines of evidence for material consistent with DNA in dinosaurs.” Schweitzer, M. and 3 others, Molecular analyses of dinosaur osteocytes support the presence of endogenous molecules, *Bone* **52**(1):414–423, 2013.
 18. See also: Sarfati, J., [DNA and bone cells found in dinosaur bone](https://creation.com/dino-dna), *J. Creation* **27**(1):10–12, 2013; creation.com/dino-dna, 11 December 2012.
 19. Press release “Dinosaur bones’ Carbon-14 dated to less than 40,000 years—Censored international conference report” and additional information, newgeology.us/presentation48.html, accessed 27 December 2012.
 20. See also: Wieland, C., [Radiocarbon in dino bones—International conference result censored](https://creation.com/c14-dinos), creation.com/c14-dinos, 22 January 2013.

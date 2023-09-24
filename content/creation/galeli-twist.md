@@ -12,6 +12,7 @@ coverImage: "galileo_galilei_2.jpg"
 spotify: ""
 hearthis: ""
 youtube: ""
+status: "published"
 creationLink: "https://creation.com/a/13021"
 authors:
   - name: "Russell Grigg"

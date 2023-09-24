@@ -17,6 +17,7 @@ coverImage: "waves-1867285_1280.jpg"
 spotify: ""
 hearthis: ""
 youtube: ""
+status: "published"
 creationLink: ""
 authors:
   - name: ""

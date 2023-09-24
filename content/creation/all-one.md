@@ -12,6 +12,7 @@ coverImage: "one-people.jpg"
 spotify: "https://open.spotify.com/episode/46HCIDyVo2PmUwn7vSoVxt?si=vKXTFmN6Qb67ktY4XdNStw"
 hearthis: "https://hearthis.at/reasonofope/we-areone/"
 youtube: ""
+status: "published"
 creationLink: "https://creation.com/كلّنا-واحد"
 authors:
   - name: "Jonathan O’Brien"

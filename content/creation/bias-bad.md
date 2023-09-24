@@ -11,6 +11,7 @@ coverImage: "scale-2634795_640.jpg"
 spotify: "https://open.spotify.com/episode/6dqzeYt9DqfUzqJWmOSOMs?si=uQEa2SwrRYGg2hDGIObh9A"
 hearthis: "https://hearthis.at/5390053/"
 youtube: ""
+status: "published"
 creationLink: ""
 authors:
   - name: "Lita Cosner"

@@ -8,11 +8,11 @@ categories:
 tags:
   - "الخلق"
   - "تاريخ"
-  - "دراسة-سفر-التكوين"
 coverImage: "943creation-tablet.jpg"
 spotify: ""
 hearthis: ""
 youtube: ""
+status: "published"
 creationLink: "https://creation.com/a/12980"
 authors:
   - name: "Russell Grigg"

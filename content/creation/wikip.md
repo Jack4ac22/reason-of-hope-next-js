@@ -11,6 +11,7 @@ coverImage: "wiki.jpg"
 spotify: ""
 hearthis: ""
 youtube: ""
+status: "published"
 creationLink: ""
 authors:
   - name: ""

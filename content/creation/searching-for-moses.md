@@ -17,6 +17,7 @@ coverImage: "e2808ee281a8d8a7d984d8a8d8add8ab-d8b9d986-d985d988d8b3d989e281a9.jp
 spotify: ""
 hearthis: ""
 youtube: ""
+status: "published"
 creationLink: ""
 authors:
   - name: ""

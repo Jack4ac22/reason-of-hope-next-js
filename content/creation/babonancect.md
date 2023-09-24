@@ -16,6 +16,7 @@ coverImage: "animals-1974166_640.jpg"
 spotify: "https://open.spotify.com/episode/029BfMNX72Um4SA74pgGTB?si=L55NC8YFSImvGKe9lXay-w"
 hearthis: "https://hearthis.at/5389235/"
 youtube: ""
+status: "published"
 creationLink: "https://creation.com/%D9%84%D9%88%D8%B3%D9%8A-%D8%AA%D9%85%D8%AA%D9%84%D9%83-%D8%B9%D9%85%D9%88%D8%AF-%D9%81%D9%82%D8%B1%D9%8A-%D9%84%D8%B3%D8%B9%D8%AF%D8%A7%D9%86-%D8%A7%D9%84%D8%A8%D8%A7%D8%A8%D9%88%D9%86"
 authors:
   - name: "Keaton Halley"

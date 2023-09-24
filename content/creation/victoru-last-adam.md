@@ -9,12 +9,12 @@ tags:
   - "آدم"
   - "الخلق"
   - "حواء"
-  - "دراسة-سفر-التكوين"
   - "عدن"
 coverImage: "ROH.png"
 spotify: ""
 hearthis: ""
 youtube: ""
+status: "published"
 creationLink: ""
 authors:
   - name: ""

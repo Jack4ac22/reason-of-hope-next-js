@@ -12,12 +12,12 @@ tags:
   - "بحيرة"
   - "تاريخ"
   - "حياة"
-  - "دراسة-سفر-التكوين"
   - "علوم"
 coverImage: "salt-lake-594609_1280.jpg"
 spotify: ""
 hearthis: ""
 youtube: ""
+status: "published"
 creationLink: ""
 authors:
   - name: ""

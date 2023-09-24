@@ -13,6 +13,7 @@ coverImage: "mosquito-49141_640.jpg"
 spotify: ""
 hearthis: ""
 youtube: ""
+status: "published"
 creationLink: "https://creation.com/a/12840"
 authors:
   - name: "Tom Wagner"

@@ -11,6 +11,7 @@ coverImage: "genesis-bible.jpg"
 spotify: "https://open.spotify.com/episode/2bCq7OCt7B4jFI6ijLMw2X?si=Xdod2vCpRgyKbACOljkR_Q"
 hearthis: "https://hearthis.at/5162514/"
 youtube: ""
+status: "published"
 creationLink: "https://creation.com/a/14756"
 authors:
   - name: "Gary Bates"

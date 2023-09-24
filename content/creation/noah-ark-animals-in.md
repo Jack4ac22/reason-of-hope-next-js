@@ -1,39 +1,31 @@
 ---
 title: "كيف استطاع نُوح أن يَضَع كلّ تلك الحيوانات في الفُلك؟"
 date: "2019-01-08"
-categories: 
+categories:
   - "قضيّة-الخلق"
   - "العالم-التوراتي"
-tags: 
+tags:
   - "نوح"
   - "الفُلْك"
   - "الحيوانات"
-  - "الخلق"
   - "الطوفان"
-  - "دراسة-سفر-التكوين"
 coverImage: "jesus-3548007_1280.jpg"
-spotify: ""
-hearthis: ""
+spotify: "https://open.spotify.com/episode/7M1vuP9zPbEw6ALEyFVN6U?si=GAGP2VekS9WUHO-bLzjzpA"
+hearthis: "https://hearthis.at/5390147/"
 youtube: ""
-creationLink: ""
+status: "published"
+creationLink: "https://creation.com/a/12846"
 authors:
-  - name: ""
-    link: ""
-description: ""
+  - name: "Tas Walker"
+    link: "https://creation.com/dr-tas-walker"
+description: "كيف استطاع نُوح أن يَضَع كلّ تلك الحيوانات في الفُلك؟ غالباً ما يَطرح المُشكّكون هذا التَّحدي، مُعتّقدين أنَّه ليس من ردّ عليه، لكن الردّ موجودٌ، وهو ردٌّ بسيط."
 ---
-
-بقلم: [Tas Walker](https://creation.com/dr-tas-walker)
-
-يمكنكم قراءة المقال من الموقع الرسمي لإرساليات الخلق الدولية [CMI](http://www.creation.com/arabic):  
-[![](images/cmi.png)](https://creation.com/a/12846)
 
 غالباً ما يَطرح المُشكّكون هذا التَّحدي، مُعتّقدين أنَّه ليس من ردّ عليه، لكن الردّ موجودٌ، وهو ردٌّ بسيط.
 
 يحمل هذا السؤال شِقَّين هما عدد الحيوانات، وحجم الفُلك.
 
-https://hearthis.at/5390147/
-
-![5644ark](images/5644ark.jpg)
+![رسم لفلك نوح](5644ark.jpg)
 
 ليس هنالك من حاجة لتواجد كلّ نوع من الكائنات الحيّة على متن الفُلك. فقط الحيوانات التي تتنفس \[تستنشق\] الهواء (”كلُّ جسدٍ فيه روح حياة“([سفر التكوين ٧: ١٥](https://biblia.com/bible/ar-vandyke/Ge7.15))) والتي تسكن اليابسة (”فمات كلُّ ذي جسدٍ كان يدبُّ على الأرض“ ([سفر التكوين ٧: ٢١](https://biblia.com/bible/ar-vandyke/Ge7.21))).
 

@@ -14,6 +14,7 @@ coverImage: "dinosaur-3149580_640.png"
 spotify: "https://open.spotify.com/episode/3HwM7cM5PZldzhAOhwgqvZ?si=yaKnNKnyQWG6U8LwZ9ACnw"
 hearthis: "https://hearthis.at/5380433/"
 youtube: ""
+status: "published"
 creationLink: "https://creation.com/a/12852"
 authors:
   - name: "David Catchpoole"

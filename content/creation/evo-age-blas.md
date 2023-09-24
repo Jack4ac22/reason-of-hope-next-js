@@ -16,6 +16,7 @@ coverImage: "bible-53753_1920.jpg"
 spotify: ""
 hearthis: ""
 youtube: ""
+status: "published"
 creationLink: "https://creation.com/a/12978"
 authors:
   - name: "Gavin Cox"

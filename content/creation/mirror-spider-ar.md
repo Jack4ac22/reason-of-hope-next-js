@@ -1,10 +1,10 @@
 ---
 title: "عنكبوت المرآة ”يشبه كُرة الديسكو“"
 date: "2019-05-14"
-categories: 
+categories:
   - "قضيّة-الخلق"
   - "علوم-معاصرة"
-tags: 
+tags:
   - "مخلوقات"
   - "علوم"
   - "عناكب"
@@ -12,16 +12,17 @@ coverImage: "bling_spider_-_neon_spider_-_thwaitsia_sp._from_the_nsw_central_coa
 spotify: ""
 hearthis: ""
 youtube: ""
-creationLink: ""
+status: "published"
+creationLink: "https://creation.com/mirror-spider-arabic"
 authors:
-  - name: ""
-    link: ""
-description: ""
+  - name: "David Catchpoole"
+    link: "https://creation.com/david-catchpoole-cv"
+description: "إن التغيّر السريع في عناكب المرايا، العناكب البرّاقة، أو العناكب المشابهة البيضاء ينتج من الجوانين المتبلور في خلايا الجوانين اللمفاوية."
 ---
 
 # إن خليقة الله المثيرة للذهول تذخر بالمفاجآت التي لا حدَّ لها
 
-![mirror-spider](images/mirror-spider.jpg)
+![صورة لعنكبوت المرآة.](mirror-spider.jpg)
 
 إن البقع العاكسة اللافتة للنظر المتموضعة على جسم عنكبوت ثويتيسيا (_Thwaitesia_) هذا، تجعل منه بالتأكيد واحداً من أجمل العناكب. ”يشبه كرة الديسكو مع الكثير من المرايا“ هو الوصف الذي قدَّمه روبرت وايت، خبير العناكب في متحف كوينزلاند، وأسهب بالقول: إن البقع المتلألئة ”تُبَدِّد الضوء وتجعل من رؤيته أمراً صعباً بالنسبة للحيوانات المفترسة“.1
 
@@ -37,15 +38,12 @@ description: ""
 
 في الواقع، هنالك الكثير مما يتعلق بخليقة الله والذي لم يتم استكشافه بعد، بالإضافة إلى العديد من المخلوقات المدهشة وخصائصها التي تنتظر اكتشاف الإنسان وفحصه لها. فكم هي مناسبة هنا الكلمات المكتوبة في سفر المزامير: ” مَا أَعْظَمَ أَعْمَالَكَ يَا رَبُّ! كُلَّهَا بِحِكْمَةٍ صَنَعْتَ. مَلآنةٌ الأَرْضُ مِنْ خَليقَتِكَ. “([مزمور ١٠٤: ٢٤](https://biblia.com/bible/ar-vandyke/Ps104.24)).
 
-### [المقال من الموقع الرسمي creation.com](https://creation.com/mirror-spider-arabic)
-
 ### مراجع
 
 1. Cudmore, B., How is a spider like a disco ball?, sciencefriday.com/articles/picture-of-the-week-sequined-spider,8 September 2014.
 2. Wunderlin, J., and Kropf, C., Rapid colour change in spiders, Chapter 26 of Nentwig, W. (Ed.), _Spider Ecophysiology_, Springer-Verlag, Berlin, 2013.
 3. Atkinson, R., Spider hazards and defences, findaspider.org.au/info/hazards.htm, 15 February 2015.
-4. The photographer of the _Thwaitesia_ spider shown here, Nicky Bay, has also photographed the same spider after a disturbance, showing the contraction of the ‘mirrors’. sgmacro.blogspot.com.au/2013/07/transformation-of-mirror-spider.html.  
-    
-    * * *
-    
-    ###### the cover By Poyt448 Peter Woodard - Own work, CC BY-SA 3.0,
+4. The photographer of the _Thwaitesia_ spider shown here, Nicky Bay, has also photographed the same spider after a disturbance, showing the contraction of the ‘mirrors’. sgmacro.blogspot.com.au/2013/07/transformation-of-mirror-spider.html.
+
+
+*the cover By Poyt448 Peter Woodard - Own work, CC BY-SA 3.0,*

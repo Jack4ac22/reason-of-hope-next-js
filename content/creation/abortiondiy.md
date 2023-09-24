@@ -11,6 +11,7 @@ tags:
 coverImage: "pill-316747_640.jpg"
 spotify: "https://open.spotify.com/episode/5aJ09ynN7I8qds3Xpxw183"
 youtube: ""
+status: "published"
 creationLink: "https://creation.com/diy-abortion-arabic"
 authors:
   - name: "Lucien Tuinstra"

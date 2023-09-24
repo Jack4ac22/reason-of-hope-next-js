@@ -2,7 +2,6 @@ export default function CreationAuthors(props) {
   const { authors } = props;
   return (
     <>
-
       {/* check if the authors is an array before. */}
       {authors.length > 1 ? <h5>كُتَّاب المقال: </h5> : <h5>كاتب المقال: </h5>}
       {authors.map((author) => (
@@ -10,6 +9,7 @@ export default function CreationAuthors(props) {
           <a
             href={author.link ? author.link : "www.creation.com"}
             key={author.name}
+            target="_blank"
             className="text-decoration-none btn"
           >
             <div className="card-body">
@@ -18,7 +18,6 @@ export default function CreationAuthors(props) {
           </a>
         </div>
       ))}
-
     </>
   );
 }

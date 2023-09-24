@@ -12,6 +12,7 @@ coverImage: "fallow-deer-984573_1280.jpg"
 spotify: "https://open.spotify.com/episode/2XEczz5FFSGdNzBV7sa2Yh"
 hearthis: "https://hearthis.at/5390201/"
 youtube: ""
+status: "published"
 creationLink: "https://creation.com/%D8%BA%D8%B2%D8%A7%D9%84-%D8%A2%D9%83%D9%84-%D9%84%D9%84%D8%AD%D9%88%D9%85"
 authors:
   - name: "Paul Price"

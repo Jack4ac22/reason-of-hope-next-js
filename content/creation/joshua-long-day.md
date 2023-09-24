@@ -13,6 +13,7 @@ coverImage: "sea-164989_640.jpg"
 spotify: "https://open.spotify.com/episode/6dmWZQogtDqu7wwENrxVHQ?si=VtGu153PQEey9jTfKQpRfg"
 hearthis: "https://hearthis.at/5415888/"
 youtube: ""
+status: "published"
 creationLink: "https://creation.com/a/13427"
 authors:
   - name: "Russell Grigg"

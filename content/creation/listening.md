@@ -10,6 +10,7 @@ coverImage: "plants-are-listening.jpg"
 spotify: "https://open.spotify.com/episode/2UWQGr5wQCuMWIB46DmQQY?si=cTiTc3gxRQ2lZtAiGS8G5A"
 hearthis: "https://hearthis.at/5398602/"
 youtube: ""
+status: "published"
 creationLink: "https://creation.com/a/14279"
 authors:
   - name: "David Catchpoole"

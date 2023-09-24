@@ -12,6 +12,7 @@ coverImage: "open-book-981405_640.jpg"
 spotify: ""
 hearthis: ""
 youtube: ""
+status: "published"
 creationLink: "https://creation.com/a/16255"
 authors:
   - name: "Jonathan Sarfati"

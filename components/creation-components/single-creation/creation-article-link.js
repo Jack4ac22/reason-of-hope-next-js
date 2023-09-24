@@ -7,7 +7,7 @@ export default function LinkToCreation(props) {
       <h5>
         {" "}
         المقال من موقع إرساليات الخلق الدولية:
-        <Link href={creation.creationLink}>
+        <Link href={creation.creationLink} target="_blank">
           <Image
             src="/blog-images/cmi.png"
             alte="CMI logo and link"

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 export default function ModalImage(props) {
   const { image } = props;
   // adjust the image alt to remove the words "full" or "large" or "small"
@@ -25,22 +26,21 @@ export default function ModalImage(props) {
           data-bs-toggle="modal"
           data-bs-target={`#modal${identifier}`}
         >
-          {/* <figure calssName="figure"> */}
-
-          <Image
-            src={`/blog-images/${image.src}`}
-            alt={image.alt}
-            width={isFullWidth ? 800 : 400}
-            height={isFullWidth ? 500 : 250}
-            className="img-fluid"
-          />
-          {/* <img
+          <figure calssName="figure">
+            <Image
+              src={`/blog-images/${image.src}`}
+              alt={image.alt}
+              width={isFullWidth ? 800 : 400}
+              height={isFullWidth ? 500 : 250}
+              className="img-fluid"
+            />
+            {/* <img
             src={`/blog-images/${image.src}`}
             className={"w-100 img-fluid"}
           /> */}
 
-          {/* <figcaption calssName="figure-caption">{image.alt}</figcaption> */}
-          {/* </figure> */}
+            <figcaption calssName="figure-caption">{image.alt}</figcaption>
+          </figure>
         </button>
       </div>
       <div
@@ -53,7 +53,17 @@ export default function ModalImage(props) {
         <div className="modal-dialog modal-dialog-scrollable">
           <div className="modal-content">
             <div className="modal-header">
-              <h5 className="modal-title" id={`modal${identifier}Label`}></h5>
+              <h5 className="modal-title" id={`modal${identifier}Label`}>
+                لمعاينة الصورة بحجمها الكامل{" "}
+                <Link
+                  href={`/blog-images/${image.src}`}
+                  target="_blank"
+                  className="btn"
+                >
+                  انقر هنا
+                </Link>
+                .
+              </h5>
             </div>
             <div className="modal-body">
               <figure calssName="figure">

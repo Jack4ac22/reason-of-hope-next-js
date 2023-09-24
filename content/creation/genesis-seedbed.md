@@ -12,11 +12,11 @@ tags:
   - "التكوين"
   - "الخلاص"
   - "الخطيئة"
-  - "دراسة-سفر-التكوين"
 coverImage: "genesis-bible.jpg"
 spotify: ""
 hearthis: ""
 youtube: ""
+status: "published"
 creationLink: "https://creation.com/genesis-theseedbed-arabic"
 authors:
   - name: "Russell Grigg"

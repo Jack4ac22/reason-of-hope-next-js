@@ -13,6 +13,7 @@ coverImage: "beach-1751455_640.jpg"
 spotify: ""
 hearthis: ""
 youtube: ""
+status: "published"
 creationLink: ""
 authors:
   - name: ""

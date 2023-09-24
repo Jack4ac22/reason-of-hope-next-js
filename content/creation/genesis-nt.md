@@ -12,6 +12,7 @@ coverImage: "holy-bible-5274594_640.jpg"
 spotify: "https://open.spotify.com/episode/2YJf8helkvaJNcLVTBxBaa?si=XWSPDCOTThSkO1iG6Qcdjg"
 hearthis: "https://hearthis.at/reasonofope/genesis-nt/VZ8"
 youtube: ""
+status: "published"
 creationLink: ""
 authors:
   - name: "Lita Sanders"

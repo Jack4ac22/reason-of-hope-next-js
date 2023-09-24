@@ -15,6 +15,7 @@ coverImage: "7325huxley-wilberforce.jpg"
 spotify: ""
 hearthis: ""
 youtube: ""
+status: "published"
 creationLink: ""
 authors:
   - name: ""

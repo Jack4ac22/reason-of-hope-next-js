@@ -34,6 +34,7 @@ export default function CreationContentBody(props) {
     //   // TODO: on Click of Bible Verse display the verse. from local json file.
     //   // TODO: on Click of a link open a pop up and display the page.
     //   // check if anchor.children is an array or not.
+    //  TODO: if the link is to an external site open in a new tab.
     // },
     hr() {
       return <hr className="m-6" />;

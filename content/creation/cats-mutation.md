@@ -14,6 +14,7 @@ coverImage: "white-tiger.jpg"
 spotify: ""
 hearthis: ""
 youtube: ""
+status: "published"
 creationLink: "https://creation.com/%D8%A7%D9%84%D8%B7%D9%81%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D9%88%D8%B1%D8%A7%D8%AB%D9%8A%D8%A9-%D9%84%D8%AF%D9%89-%D8%A7%D9%84%D9%82%D8%B7%D8%B7"
 authors:
   - name: "David Catchpoole"

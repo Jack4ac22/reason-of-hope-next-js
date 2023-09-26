@@ -14,6 +14,7 @@ coverImage: "coral-cover.jpg"
 spotify: "https://open.spotify.com/episode/4HpVhGY81vTE0CMMFWksLR?si=7MzgxWDoQUycu9bW-4O8jA"
 hearthis: "https://hearthis.at/5416058/"
 youtube: ""
+status: "published"
 creationLink: "https://creation.com/المرجان-الحيوان-الذي-يتصرف-مثل-النبات"
 authors:
   - name: "Rob Carter"

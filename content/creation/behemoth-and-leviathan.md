@@ -15,6 +15,7 @@ coverImage: "liber_floridus-1120-leviathan-p135.jpg"
 spotify: ""
 hearthis: ""
 youtube: ""
+status: "published"
 creationLink: "https://creation.com/%D8%A8%D9%8E%D9%87%D9%90%D9%8A%D9%85%D9%8F%D9%88%D8%AB-%D9%88%D9%84%D9%8E%D9%88%D9%90%D9%8A%D9%8E%D8%A7%D8%AB%D9%8E%D8%A7%D9%86"
 authors:
   - name: "Mart-Jan Paul"

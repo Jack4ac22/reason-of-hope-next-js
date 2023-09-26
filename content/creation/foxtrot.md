@@ -12,6 +12,7 @@ coverImage: "fox-4893199_640.jpg"
 spotify: "https://open.spotify.com/episode/7AZgiDP3z37H6UFXVBW7iQ?si=oHEcVPVxQF-YgdSGx8Pd0Q"
 hearthis: "https://hearthis.at/reasonofope/foxtrot/"
 youtube: ""
+status: "published"
 creationLink: "https://creation.com/foxtrot-arabic"
 authors:
   - name: "Philip Robinson"

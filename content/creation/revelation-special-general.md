@@ -12,6 +12,7 @@ coverImage: "pexels-joshimer-biac2b1as-5526988.jpg"
 spotify: ""
 hearthis: ""
 youtube: ""
+status: "published"
 creationLink: ""
 authors:
   - name: ""

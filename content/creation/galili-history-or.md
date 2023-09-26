@@ -13,6 +13,7 @@ coverImage: "justus_sustermans_-_portrait_of_galileo_galilei_1636.jpg"
 spotify: ""
 hearthis: ""
 youtube: ""
+status: "published"
 creationLink: "https://creation.com/a/13021"
 authors:
   - name: "Russell Grigg"

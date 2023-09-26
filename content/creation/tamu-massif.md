@@ -11,6 +11,7 @@ coverImage: "bands_of_glowing_magma_from_submarine_volcano-e1620896556432.jpg"
 spotify: ""
 hearthis: ""
 youtube: ""
+status: "published"
 creationLink: ""
 authors:
   - name: ""

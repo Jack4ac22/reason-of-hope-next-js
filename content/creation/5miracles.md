@@ -14,6 +14,7 @@ tags:
 coverImage: "screenshot-2020-02-14-at-18.14.39.png"
 spotify: "http://open.spotify.com/episode/5nPq3hzce0NWxo29XhoaVg?si=29o7wZIJTf2wCWBegbgtuw"
 youtube: "b4FwBdeW_Zg"
+status: "published"
 creationLink: "http://creation.com/5-atheist-miracles"
 authors:
   - name: "Don Batten"

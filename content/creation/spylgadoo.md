@@ -13,6 +13,7 @@ coverImage: "ROH.png"
 spotify: ""
 hearthis: ""
 youtube: ""
+status: "published"
 creationLink: ""
 authors:
   - name: ""

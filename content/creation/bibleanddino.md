@@ -14,6 +14,7 @@ coverImage: "hqdefault.jpg"
 spotify: ""
 hearthis: ""
 youtube: "uzW5YEeiClk"
+status: "published"
 creationLink: ""
 authors:
   - name: "Jack Kazanjyan"

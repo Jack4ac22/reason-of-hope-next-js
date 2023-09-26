@@ -14,6 +14,7 @@ coverImage: "candle-2038736_640.jpg"
 spotify: ""
 hearthis: ""
 youtube: ""
+status: "published"
 creationLink: ""
 authors:
   - name: ""

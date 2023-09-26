@@ -17,6 +17,7 @@ export default function CreationContentPageComponent(props) {
   };
   return (
     <>
+    
       <article>
         <CreationContentHeader creation={creation} />
         <div className="container-md">
@@ -29,6 +30,7 @@ export default function CreationContentPageComponent(props) {
             {creation.youtube && (
               <div className={`${creation.youtube ? "col-md-7" : "col"} m-p-3`}>
                 <YouTube videoId={creation.youtube} opts={opts} />
+                {/* <YouTubeEmbed video={creation.youtube} /> */}
               </div>
             )}
           </div>

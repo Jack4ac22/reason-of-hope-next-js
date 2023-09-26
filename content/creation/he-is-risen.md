@@ -10,6 +10,7 @@ coverImage: "stones-5359790_640-e1617688735460.jpg"
 spotify: "https://open.spotify.com/episode/78n6X4tkt0WntsDc06peXC?si=zq7NeusLSTSAYnWhqCFTmw"
 hearthis: "https://hearthis.at/reasonofope/15118-ar15097en-he-is-risen-arabic/"
 youtube: ""
+status: "published"
 creationLink: "https://creation.com/he-is-risen-arabic"
 authors:
   - name: "Lita Sanders"

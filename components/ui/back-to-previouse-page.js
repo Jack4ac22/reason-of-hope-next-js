@@ -8,7 +8,7 @@ const BackToPreviousPage = () => {
   };
 
   return (
-    <div className="position-fixed top-0 end-0 m-4 mt-5 opacity-25">
+    <div className="position-fixed top-0 end-0 mt-5 opacity-25">
       <button className="btn btn-primary rounded-circle" onClick={goBack}>
         <svg
           xmlns="http://www.w3.org/2000/svg"

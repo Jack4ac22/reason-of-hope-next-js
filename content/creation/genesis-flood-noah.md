@@ -14,11 +14,11 @@ tags:
   - "التطور"
   - "الخلق"
   - "الطوفان"
-  - "دراسة-سفر-التكوين"
 coverImage: "rainbow-5372892_1920-edited.jpg"
 spotify: "https://open.spotify.com/episode/4V7k1jVmphjtjHr210nbQv?si=ZdSdn0XGRLGx85RdETBBTw&dl\_branch=1"
 hearthis: "https://hearthis.at/reasonofope/set/genesisflood/"
 youtube: ""
+status: "published"
 creationLink: "https://creation.com/a/15148"
 authors:
   - name: "Tas Walker"

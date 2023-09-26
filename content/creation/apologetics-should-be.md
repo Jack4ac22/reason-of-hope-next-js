@@ -12,6 +12,7 @@ coverImage: "apologist.jpg"
 spotify: "https://open.spotify.com/episode/7b9Fqu02EFE2Ptn39nZsCx"
 hearthis: "https://hearthis.at/5396258/"
 youtube: ""
+status: "published"
 creationLink: "https://creation.com/me-apologist-ar"
 authors:
   - name: "Lita Cosner"

@@ -15,7 +15,6 @@ tags:
   - "التطور"
   - "الخلق"
   - "الطوفان"
-  - "دراسة-سفر-التكوين"
 ---
 
 بقلم: [Tas Walker](https://creation.com/dr-tas-walker-speaker)

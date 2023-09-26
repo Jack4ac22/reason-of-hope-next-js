@@ -10,11 +10,12 @@ coverImage: "plants-are-listening.jpg"
 spotify: "https://open.spotify.com/episode/2UWQGr5wQCuMWIB46DmQQY?si=cTiTc3gxRQ2lZtAiGS8G5A"
 hearthis: "https://hearthis.at/5398602/"
 youtube: ""
+status: "published"
 creationLink: "https://creation.com/a/14279"
 authors:
   - name: "David Catchpoole"
     link: "https://creation.com/david-catchpoole-cv"
-description: ""
+description: "هل تمتلك النباتات مستقبلات حسية معقدة؟ أم أن هذه خرافة تتناقلها الجدَّأت؟!"
 ---
 
 أعلن بيان صادر عن جامعة غرب أستراليا أنَّ ”النباتات تمتلك حواس أكثر تعقيداً وتطوراً مما كنا نعتقد“ مع قدرة على رصد الأصوات والإستجابة لها.1 وعلى وجه الخصوص، أظهرت هذه الأبحاث المثيرة أنَّ الجذور تستطيع أن ’تسمع‘ صوت رقرقة المياه.

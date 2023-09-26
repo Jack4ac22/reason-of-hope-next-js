@@ -13,6 +13,7 @@ coverImage: "barefoot-feet-macro-105776.jpg"
 spotify: ""
 hearthis: ""
 youtube: ""
+status: "published"
 creationLink: ""
 authors:
   - name: ""

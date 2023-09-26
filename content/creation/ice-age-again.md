@@ -12,6 +12,7 @@ coverImage: "leopard-2467166_1920.jpg"
 spotify: ""
 hearthis: ""
 youtube: ""
+status: "published"
 creationLink: "https://creation.com/a/13133"
 authors:
   - name: "Cody Guitard"

@@ -12,6 +12,7 @@ coverImage: "bats.jpg"
 spotify: ""
 hearthis: ""
 youtube: ""
+status: "published"
 creationLink: "https://creation.com/bats-world-arabic"
 authors:
   - name: "Matthew Cserhati"

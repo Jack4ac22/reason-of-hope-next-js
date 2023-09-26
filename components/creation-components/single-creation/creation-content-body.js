@@ -12,6 +12,13 @@ export default function CreationContentBody(props) {
   const { creation } = props;
 
   const customRenderers = {
+    table(table) {
+      return (
+        <div className="table-responsive">
+          <table className="table table-striped">{table.children}</table>
+        </div>
+      );
+    },
     ul(list) {
       return <ul className="">{list.children}</ul>;
     },
@@ -27,6 +34,7 @@ export default function CreationContentBody(props) {
     //   // TODO: on Click of Bible Verse display the verse. from local json file.
     //   // TODO: on Click of a link open a pop up and display the page.
     //   // check if anchor.children is an array or not.
+    //  TODO: if the link is to an external site open in a new tab.
     // },
     hr() {
       return <hr className="m-6" />;
@@ -42,22 +50,23 @@ export default function CreationContentBody(props) {
     },
 
     img(image) {
+      return <ModalImage image={image} />;
       // Check if the caption contains the word "full"
-      const isFullWidth = image.alt.toLowerCase().includes("full");
+      // const isFullWidth = image.alt.toLowerCase().includes("full");
 
-      return (
-        <Link href={`/blog-images/${image.src}`} key={image.src}>
-          <Image
-            className={`col-md-2 float-md-end mb-4 ms-md-3 img-fluid rounded float-end ${
-              isFullWidth ? "w-100" : "" // Add w-100 class for full width if caption contains 'full'
-            }`}
-            src={`/blog-images/${image.src}`}
-            alt={image.alt}
-            width={400}
-            height={300}
-          />
-        </Link>
-      );
+      // return (
+      //   <Link href={`/blog-images/${image.src}`} key={image.src}>
+      //     <Image
+      //       className={`col-md-2 float-md-end mb-4 ms-md-3 img-fluid rounded float-end ${
+      //         isFullWidth ? "w-100" : "" // Add w-100 class for full width if caption contains 'full'
+      //       }`}
+      //       src={`/blog-images/${image.src}`}
+      //       alt={image.alt}
+      //       width={400}
+      //       height={300}
+      //     />
+      //   </Link>
+      // );
     },
     // TODO: add a custom render for the images which are in a link to be link images not to use the ModalImage.
     p: (paragraph) => {

@@ -11,10 +11,10 @@ tags:
   - "الطوفان"
   - "تاريخ"
   - "حام"
-  - "دراسة-سفر-التكوين"
 coverImage: "e2808ee281a8d986d988d8ade281a9.jpg"
 spotify: "http://open.spotify.com/episode/3cFfVRdXGyKF6zDbkyoYRN?si=kXw5-NZ4QHy4mMkCc3YMSw"
 youtube: "v82TTQZGJcQ"
+status: "published"
 creationLink: "https://creation.com/%D8%A3%D8%AD%D9%81%D8%A7%D8%AF-%D9%86%D9%8F%D9%88%D8%AD-%D8%A7%D9%84%D8%B3%D8%AA%D8%A9-%D8%B9%D8%B4%D8%B1"
 authors:
   - name: "Russell Grigg"

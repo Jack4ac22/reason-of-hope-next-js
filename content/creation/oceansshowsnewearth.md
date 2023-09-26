@@ -1,32 +1,24 @@
 ---
 title: "المُحيطات تُظهر لنا أرض حديثة العهد"
 date: "2021-03-17"
-categories: 
-
+categories:
   - "قضيّة-الخلق"
   - "الديناصورات-والتأريخ"
-tags: 
+tags:
   - "البحار"
   - "الطوفان"
   - "عمر-الأرض"
 coverImage: "beach-1751455_640.jpg"
-spotify: ""
-hearthis: ""
+spotify: "https://open.spotify.com/episode/5xSncnBA3QNTGtxmMsrHk0?si=dkapwFOpRKqj8mJ20hQ8NQ"
+hearthis: "https://hearthis.at/reasonofope/oceans-speks/"
 youtube: ""
-creationLink: ""
+status: "published"
+creationLink: "https://wasp.creation.com/webteam/manage_article/15070#:~:text=https%3A//creation.com/a/15070"
 authors:
-  - name: ""
-    link: ""
-description: ""
+  - name: "Paul Price"
+    link: "https://creation.com/paul-price"
+description: "لا تحتوي محيطاتنا على أدلة تؤيد التاريخ التوراتي فحسب، بل هي تحتوي على ذات تلك المياه التي فاضت على الكوكب قبل زمن طويل - المياه ذاتها التي حملت فُلكَ نوح."
 ---
-
-https://hearthis.at/reasonofope/oceans-speks/
-
-استمع إلى النص
-
-https://open.spotify.com/episode/5xSncnBA3QNTGtxmMsrHk0?si=dkapwFOpRKqj8mJ20hQ8NQ
-
-استمع إلى النص
 
 إن مُعتقد العصور القديمة الممتدة لعدة ملايين من السنوات هو مصطلح واسع الإنتشار في يومنا الراهن. يبدو هذا المعتقد كما لو أنَّه العصا السحرية التي تقوم بحل المشكلات المرتبطة بتحول الجزيئات إلى إنسان. على الرغم من أنَّ وجود ”السنوات المليونية“ هو شرط ضروري من أجل الحصول على التطور البيولوجي (الإحيائي)، إلا أنَّه ليس شرطاً كافياً- لطالما قمنا بإظهار إمكانية استبعاد \[هذا الأمر\] من خلال أدلة علمية أُخرى.
 
@@ -78,8 +70,8 @@ https://open.spotify.com/episode/5xSncnBA3QNTGtxmMsrHk0?si=dkapwFOpRKqj8mJ20hQ8N
 
 1. Austin S.A. and Humphreys, D.R., The sea’s missing salt: a dilemma for evolutionists, Proc. Second International Conference on Creationism, Vol. II, pp. 17–33, 1990.
 2. Why do we have oceans? oceanservice.noaa.gov, 25 June 2018
-3. Sarfati, J., [Salty seas](https://creation.com/%D8%A7%D9%84%D8%A8%D8%AD%D8%A7%D8%B1-%D8%A7%D9%84%D9%85%D8%A7%D9%84%D8%AD%D8%A9-%D8%AF%D9%84%D9%8A%D9%84-%D8%B9%D9%84%D9%89-%D8%AD%D8%AF%D8%A7%D8%AB%D8%A9-%D8%B9%D9%8F%D9%85%D8%B1-%D8%A7%D9%84%D8%A3%D8%B1%D8%B6), _Creation_ **21**(1):16–17, 1998; creation.com/salty.
-4. Whyte, D., [Nickel concentration indicates young oceans](https://creation.com/%D9%86%D8%B3%D8%A8%D8%A9-%D8%AA%D8%B1%D9%83%D9%8A%D8%B2-%D8%A7%D9%84%D9%86%D9%8A%D9%83%D9%84-%D8%AA%D8%B4%D9%8A%D8%B1-%D8%A5%D9%84%D9%89-%D8%AD%D8%AF%D8%A7%D8%AB%D8%A9-%D8%B9%D9%8F%D9%85%D8%B1-%D8%A7%D9%84%D9%85%D8%AD%D9%8A%D8%B7%D8%A7%D8%AA), _Creation_ **38**(3):54–55, 2016; creation.com/nickel. Figures used are those updated on 8 March 2021.
+3. Sarfati, J., [Salty seas](https://creation.com/a/13020), _Creation_ **21**(1):16–17, 1998; creation.com/salty.
+4. Whyte, D., [Nickel concentration indicates young oceans](https://creation.com/a/12967), _Creation_ **38**(3):54–55, 2016; creation.com/nickel. Figures used are those updated on 8 March 2021.
 5. Walker, T., [The mud is missing](https://creation.com/missing-mud), _Creation_ **32**(3):52, 2010; creation.com/missing-mud.
 6. Oard, M., [Submarine canyons bigger than Grand Canyon: Carved as Noah’s floodwaters receded, _Creation_](https://creation.com/submarine-canyons-bigger-than-grand-canyon) **41**(3):48–51, 2019.
 7. نص المزمور من ترجمة كتاب الحياة.

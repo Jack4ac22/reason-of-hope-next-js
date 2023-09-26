@@ -1,33 +1,24 @@
 ---
 title: "أقدم بحيرة ملحيّة في العالم تعود إلى بضعة آلاف من السنين فقط"
 date: "2019-01-30"
-categories: 
+categories:
   - "قضيّة-الخلق"
   - "الديناصورات-والتأريخ"
-tags: 
+tags:
   - "ملح"
-  - "الكتاب-المقدس"
-  - "الخلق"
   - "استراليا"
   - "بحيرة"
-  - "تاريخ"
-  - "حياة"
-  - "دراسة-سفر-التكوين"
-  - "علوم"
 coverImage: "salt-lake-594609_1280.jpg"
-spotify: ""
+spotify: "https://open.spotify.com/episode/6JyEWkENFMPDzGV0Jw3rno?si=CqxmUvrwRjO-5IUr41gyKQ"
 hearthis: ""
 youtube: ""
-creationLink: ""
+status: "published"
+creationLink: "https://creation.com/a/12849"
 authors:
-  - name: ""
-    link: ""
-description: ""
+  - name: "Alexander R. Williams"
+    link: "https://creation.com/alexander-williams"
+description: "مالذي تُعلنه أقدم البحيرات الملحية في العالم بخصوص الخلق؟"
 ---
-
-[المقال من الموقع الرسمي creation.com](https://creation.com/%D8%A3%D9%82%D8%AF%D9%85-%D8%A8%D8%AD%D9%8A%D8%B1%D8%A9-%D9%85%D9%84%D8%AD%D9%8A%D9%91%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85-%D8%AA%D8%B9%D9%88%D8%AF-%D8%A5%D9%84%D9%89-%D8%A8%D8%B6%D8%B9%D8%A9-%D8%A2%D9%84%D8%A7%D9%81-%D9%85%D9%86-%D8%A7%D9%84%D8%B3%D9%86%D9%8A%D9%86-%D9%81%D9%82%D8%B7)
-
-https://open.spotify.com/episode/6JyEWkENFMPDzGV0Jw3rno?si=CqxmUvrwRjO-5IUr41gyKQ
 
 في عام ١٩٨٤ قام \[فريق من\] العلماء بقياس كميّة الأملاح المُتراكمة في بحيرة آيِر أكبر بحيرة ملحية تقع في جنوب أستراليا، وقدَّروا أن التراكم يحتاج ٧٣٠٠٠.سنة بافتراض أن طوفاناً يحدث كل خمسين عاماً.#1
 
@@ -39,11 +30,9 @@ https://open.spotify.com/episode/6JyEWkENFMPDzGV0Jw3rno?si=CqxmUvrwRjO-5IUr41gyK
 
 على أيّ حال، انها عدّة آلاف من السنوات قد انقضت منذ الطوفان الذي حدث في زمن نوح، كما يؤكّد الكتاب المُقَدَّس، بالتالي ربما تكون كل الأملاح موجودة بالفعل هناك.
 
-* * *
+---
 
-المراجع
+## المراجع
 
-1. The estimated store of soluble salts in the Lake Eyre catchment in Queensland and their possible transport in streamflow to the lake, Gunn, R.H., and Fleming, P.M., _Aust. J. Soil Res._ **22**(2):119–134, 1984 | doi: 10.1071/SR9840119.
-2. Parkabout, National Parks and Wildlife Service of South Australia, Vol.1 No.6, 1991. 
-    
-    * * *
+1. The estimated store of soluble salts in the Lake Eyre catchment in Queensland and their possible transport in streamflow to the lake, Gunn, R.H., and Fleming, P.M., *Aust. J. Soil Res.* **22**(2):119–134, 1984 | doi: 10.1071/SR9840119.
+2. Parkabout, National Parks and Wildlife Service of South Australia, Vol.1 No.6, 1991.

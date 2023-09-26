@@ -14,6 +14,7 @@ coverImage: "austin-johnson-275715-unsplash.jpg"
 spotify: ""
 hearthis: ""
 youtube: ""
+status: "published"
 creationLink: ""
 authors:
   - name: ""

@@ -1,42 +1,23 @@
 ---
 title: "العبودية و”قطرة دم واحدة“"
 date: "2021-06-22"
-categories: 
-
+categories:
   - "قضيّة-الخلق"
   - "التطور-ونتائجه"
-tags: 
-  - "التكوين"
-  - "التطور"
-  - "الخلق"
+tags:
   - "العنصرية"
   - "العبودية"
-coverImage: "ROH.png"
-spotify: ""
-hearthis: ""
+coverImage: "chains-19176_640.jpg"
+spotify: "https://open.spotify.com/episode/2ZDk3g7R0d5l7r0hfRpdwO?si=Rrg7mwDKQKuupY9bQ\_5rsg&dl\_branch=1&nd=1"
+hearthis: "https://hearthis.at/reasonofope/slave/F04/"
 youtube: ""
-creationLink: ""
+status: "published"
+creationLink: "https://creation.com/slavery-one-drop-ar"
 authors:
-  - name: ""
-    link: ""
-description: ""
+  - name: "Carl Wieland"
+    link: "https://creation.com/dr-carl-wieland-cv"
+description: "دراسة عن الإرتباط بين العبودية والعنصرية في الولايات المتحدة مع مقارنة النتائج بنتائج البرازيل. نتائج قد تكون صادمة."
 ---
-
-بقلم: [Carl Wieland](https://creation.com/dr-carl-wieland-cv)
-
-#### يمكنكم قراءة المقال من الموقع الرسمي لإرساليات الخلق الدولية:  
-  
-[![](images/cmi.png)](https://creation.com/slavery-one-drop-ar)
-
-#### يُمكنكم الإستماع إلى النص من خلال إحدى المنصات التالية:  
-  
-[![](images/spotify.png)](https://open.spotify.com/episode/2ZDk3g7R0d5l7r0hfRpdwO?si=Rrg7mwDKQKuupY9bQ_5rsg&dl_branch=1&nd=1)[![](images/anchor-2.png)](https://anchor.fm/reason-of-hope4/episodes/ep-evter0/a-a5df4mc)[![](images/hearthis.at_.png)](https://hearthis.at/reasonofope/slave/)
-
-https://hearthis.at/reasonofope/slave/F04/
-
-استمع الآن
-
-https://open.spotify.com/episode/2ZDk3g7R0d5l7r0hfRpdwO?si=Rrg7mwDKQKuupY9bQ\_5rsg&dl\_branch=1&nd=1
 
 في الغالب يتم افتراض كون العبودية التي \[انتشرت في الولايات المتحدة الأمريكية في فترة ما قبل الحرب1 أنها كانت مدفوعة بالعنصرية من البيض ضد السود. لكن الحقيقة هي أن خلاف ذلك هو الصواب - إن العبودية هي التي تسببت بتفاقم العنصرية.
 
@@ -62,12 +43,10 @@ https://open.spotify.com/episode/2ZDk3g7R0d5l7r0hfRpdwO?si=Rrg7mwDKQKuupY9bQ\_5r
 
 ### مراجع
 
-1. الحرب الأهلية. 
-2. W. Williams (an African-American economist), Black Slavery is Alive in 2001, Available at www.capitalismmagazine.com, 4 January, 2001, acc. 10 October 2010. 
+1. الحرب الأهلية.
+2. W. Williams (an African-American economist), Black Slavery is Alive in 2001, Available at www.capitalismmagazine.com, 4 January, 2001, acc. 10 October 2010.
 3. كانت الغاية من ذلك هو جعل آدم سلفاً ”للعرق الأبيض“ فقط. وبالتالي فإن هؤلاء الذين يُزعم أنهم قد وُجِدوا قبلَ آدم هم أسلاف المجموعات البشرية الأُخرى، والذين يُمكن أن يتم تصنيفهم على أنهم دون البشر كنتيجة لذلك. إنّ عدم وجودهم في سلالة آدم قد تسبب بعدم أمكانية خلاصهم من خلال يسوع المسيح الذي هو ”قريب الدم“ ([اشعياء٥٩: ٢٠](https://my.bible.com/bible/101/ISA.59.20)) و ”آدم الأخير“ ([كورنثوس الأولى١٥: ٤٥](https://my.bible.com/bible/101/1CO.15.45)).
-4. بالطبع يوجد لعنة على حام، ولكن لم يوجد أي ذكر للون البشرة في ارتباط مع السرد المختص باللعنة على كنعان ابن حام. للحصول على تفسير رائع لجوانب إضافية من هذه القضية راجع كتاب المؤلّف: [عائلة بشرية واحدة: الكتاب المقدس، العلم، العرق والثقافة](https://creation.com/one-human-family). 
-5. See also the book by secular researcher Sylvester A. Johnson, _The myth of Ham in nineteenth-century American Christianity_, Palgrave Macmillan, 2004. 
-6. في أستراليا المعاصرة، يمكن لقانون ”قطرة واحدة“ أن يمنح الضحية حالةً تسمح له بالوصول إلى مزايا مختلفة حتى عندما يكون لدى الشخص ارتباطاً ضعيفاً من الناحية التاريخية أو الثقافية بأيّ مجموعة من السكان الأصليّين. 
-7. Fears, D., People of color who never felt they were black: racial label surprises many Latino immigrants, _The Washington Post_, p. A01, 26 December 2002.
-
-[](https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fcreation.com%2Fslavery-one-drop-ar&quote=%D8%A7%D9%84%D8%B9%D8%A8%D9%88%D8%AF%D9%8A%D8%A9+%D9%88%26rdquo%3B%D9%82%D8%B7%D8%B1%D8%A9+%D8%AF%D9%85+%D9%88%D8%A7%D8%AD%D8%AF%D8%A9%26ldquo%3B+-+creation.com)
+4. بالطبع يوجد لعنة على حام، ولكن لم يوجد أي ذكر للون البشرة في ارتباط مع السرد المختص باللعنة على كنعان ابن حام. للحصول على تفسير رائع لجوانب إضافية من هذه القضية راجع كتاب المؤلّف: [عائلة بشرية واحدة: الكتاب المقدس، العلم، العرق والثقافة](https://creation.com/one-human-family).
+5. See also the book by secular researcher Sylvester A. Johnson, *The myth of Ham in nineteenth-century American Christianity*, Palgrave Macmillan, 2004.
+6. في أستراليا المعاصرة، يمكن لقانون ”قطرة واحدة“ أن يمنح الضحية حالةً تسمح له بالوصول إلى مزايا مختلفة حتى عندما يكون لدى الشخص ارتباطاً ضعيفاً من الناحية التاريخية أو الثقافية بأيّ مجموعة من السكان الأصليّين.
+7. Fears, D., People of color who never felt they were black: racial label surprises many Latino immigrants, *The Washington Post*, p. A01, 26 December 2002.

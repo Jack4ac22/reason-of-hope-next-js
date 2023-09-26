@@ -12,6 +12,7 @@ coverImage: "god-2012104_640.jpg"
 spotify: "https://open.spotify.com/episode/1kWV29PLBVvjxFnfQH7pPn?si=roEQHyfZS7Cm7moxiPWnWA&dl\_branch=1"
 hearthis: "https://hearthis.at/reasonofope/jesusfamlytree"
 youtube: ""
+status: "published"
 creationLink: "https://creation.com/a/15234"
 authors:
   - name: "Lita Cosner"

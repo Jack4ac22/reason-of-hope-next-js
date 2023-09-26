@@ -12,6 +12,7 @@ coverImage: "embryo-1514192_640.png"
 spotify: "https://open.spotify.com/episode/2n1Skvsr0uK1xdYkqIXLXR?si=dSKIJtxNR9G7PJEl73O2VQ"
 hearthis: "https://hearthis.at/reasonofope/eugenics-is-back/"
 youtube: ""
+status: "published"
 creationLink: "https://creation.com/a/13407"
 authors:
   - name: "Russell Grigg"

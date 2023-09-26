@@ -12,6 +12,7 @@ coverImage: "bible-1166241_1280.jpg"
 spotify: ""
 hearthis: ""
 youtube: ""
+status: "published"
 creationLink: "https://creation.com/a/13019"
 authors:
   - name: "Lita Sanders"

@@ -13,6 +13,7 @@ coverImage: "bed_bug_cimex_lectularius.jpg"
 spotify: ""
 hearthis: ""
 youtube: ""
+status: "published"
 creationLink: "https://creation.com/%D8%A8%D9%82%D9%91%D9%8F-%D8%A7%D9%84%D9%81%D8%B1%D8%A7%D8%B4%D9%90-%D9%8A%D9%8F%D9%82%D8%A7%D9%88%D9%90%D9%85"
 authors:
   - name: "Gary Bates"

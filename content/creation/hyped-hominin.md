@@ -12,6 +12,7 @@ coverImage: "australopithecusafarensis-reconstruction.jpg"
 spotify: ""
 hearthis: ""
 youtube: ""
+status: "published"
 creationLink: ""
 authors:
   - name: "Peter Line"

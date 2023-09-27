@@ -1,34 +1,24 @@
 ---
 title: "الإعلان العام والإعلان الخاص"
 date: "2021-07-22"
-categories: 
+categories:
   - "قضيّة-الخلق"
   - "الكتاب-المقدس-والإنجيل"
-tags: 
+tags:
   - "الكتاب-المقدس"
   - "الإعلان-الإلهي"
   - "الطبيعة"
 coverImage: "pexels-joshimer-biac2b1as-5526988.jpg"
-spotify: ""
-hearthis: ""
+spotify: "https://open.spotify.com/episode/3WOITkTgKu5aP7Tc7zP3w7?si=lHaVOi65TZWqIjrO_y7Psg"
+hearthis: "https://hearthis.at/reasonofope/revelaton-general-secial"
 youtube: ""
 status: "published"
-creationLink: ""
+creationLink: "https://creation.com/a/15235"
 authors:
-  - name: ""
-    link: ""
-description: ""
+  - name: "Dominic Statham"
+    link: "https://creation.com/dominic-statham"
+description: "الإعلان الإلهي هو تواصل من الله مع الإنسان عن الحقيقة الإلهية، وبشكل خاص فيما يتعلق بكشف الله عن ذاته، وعن طبيعته وعن مشيئته."
 ---
-
-#### هل الطبيعة هي السفر السابع والستون من الكتاب المقدس؟
-
-بقلم: [Dominic Statham](https://creation.com/dominic-statham)
-
-[![](https://arabcreationisthome.files.wordpress.com/2021/05/cmi.png?w=150)](https://creation.com/a/15235)
-
-اقرأه من موقع إرساليات الخلق الدولية [CMI](https://creation.com/a/15235).
-
-https://hearthis.at/reasonofope/revelaton-general-secial
 
 نحن عاجزون عن معرفة أيّ أمر عن الله أو عن مشيئته إن لم يقم هو بذاته بالكشف عنه لنا ([رومية ١: ١٩](https://my.bible.com/bible/101/ROM.1.19.keh) و[متى ١١](https://my.bible.com/bible/101/MAT.11.27.keh)[: ٢٧](https://my.bible.com/bible/101/MAT.11.27.keh)). مع ذلك فإن الله بمحبته ونعمته، وفي سبيل أن يُتمم مقاصده الصالحة، اختار أن يقوم بذلك. إن إعلان الله عن ذاته من خلال ما نراه حولنا، ومن خلال الضمير، هو ما يُعرف بإسم الإعلان الإلهي العام. فالله قد أعلن عن ذاته من خلال الكتاب المقدس ومن خلال شخص يسوع المسيح وهو ما يُعرف بالإعلان الإلهي الخاص.
 
@@ -80,13 +70,13 @@ https://hearthis.at/reasonofope/revelaton-general-secial
 
 يجب أن يكون الإعلان العام خاضعاً للإعلان الخاص. يرجع هذا إلى أنَّ الإعلان العام قد امتزج مع الخطيئة وسيتم ايضاحه واستكماله فقط من خلال الإعلان الخاص. في الوقت الذي نجد فيه أن العالم، كما خُلق في الأصل، يُظهر بشكل كامل صفات الله، فإنَّه الآن، ونتيجةً للدينونة التي يُطبقها على الخطيئة، والمعاناة والموت فإننا لا نستطيع أن نقدر صلاحه ورحمته بالشكل الواجب. في المقابل من ذلك، إن الإعلان الإلهي الخاص، من خلال الكتاب المقدس، هو كامل ([مزمور ١٩: ٧](https://my.bible.com/bible/101/PSA.19.7)) ولا يُمكن أن يُنقض ([يوحنا ١٠: ٣٥](https://my.bible.com/bible/101/JHN.10.35) و[لوقا ١٦](https://my.bible.com/bible/101/LUK.16.17)[: ١٧](https://my.bible.com/bible/101/LUK.16.17)). إن أفكار الإنسان عن الله وخليقته، المستوحاة من المعاينات للطبيعة، هي قابلة للخطأ وعرضة للتشويش الناتج عن الخطيئة ([ارميا ١٧: ٩](https://my.bible.com/bible/101/JER.17.9) و[رومية ١](https://my.bible.com/bible/101/ROM.1.18)[: ١٨](https://my.bible.com/bible/101/ROM.1.18))؛ إن الكتاب المقدس هو الكلمة الإلهية وهو أنفاس الله ([تيموثاوس الثانية ٣: ١٦](https://my.bible.com/bible/101/2TI.3.16))، وبالتالي فهو كُلي الموثوقية.
 
-* * *
+---
 
 ### مراجع
 
-1. Westfall, R., _Isaac Newton_, in Ferngren, G., ed., _Science and Religion_, Johns Hopkins University Press, 2002, p. 155. 
-2. Lloyds-Jones, D.M., _Romans: An exposition of Chapter 1_, Banner of Truth, Edinburgh, 1985, p. 369. 
-3. Cosner, L., [Former leading atheist argues for the existence of God](https://creation.com/review-there-is-a-god-by-antony-flew): A review of _There is a God: How The World’s Most Notorious Atheist Changed His Mind_ by Antony Flew with Roy Varghese, _Journal of Creation_ **22**(3):21-24, December 2008. 
-4. Wieland, C. & Sarfati, J., [Manipulating life? Genetic engineering researcher backs Genesis](https://creation.com/manipulating-life-dr-eirich-interview), _Creation_**27**(1):46-49, December 2004. 
-5. Cashmore, A., [_The Lucretian_ swerve: The biological basis of human behavior and the criminal justice system](http://www.pnas.org/content/107/10/4499.full.pdf%20html), _Proceedings of the National Academy of Sciences_**107**(10):4499-4504, 2010. 
+1. Westfall, R., *Isaac Newton*, in Ferngren, G., ed., *Science and Religion*, Johns Hopkins University Press, 2002, p. 155.
+2. Lloyds-Jones, D.M., *Romans: An exposition of Chapter 1*, Banner of Truth, Edinburgh, 1985, p. 369.
+3. Cosner, L., [Former leading atheist argues for the existence of God](https://creation.com/review-there-is-a-god-by-antony-flew): A review of *There is a God: How The World’s Most Notorious Atheist Changed His Mind* by Antony Flew with Roy Varghese, *Journal of Creation* **22**(3):21-24, December 2008.
+4. Wieland, C. & Sarfati, J., [Manipulating life? Genetic engineering researcher backs Genesis](https://creation.com/manipulating-life-dr-eirich-interview), \*Creation**\*27**(1):46-49, December 2004.
+5. Cashmore, A., [*The Lucretian* swerve: The biological basis of human behavior and the criminal justice system](http://www.pnas.org/content/107/10/4499.full.pdf%20html), \*Proceedings of the National Academy of Sciences**\*107**(10):4499-4504, 2010.
 6. في هذه المرحلة، يُمكننا أن نُجادل بأنَّ الإعلان الإلهي العامَّ كان بالحقيقة كاملاً. على سبيل المثال، إن الخليقة في مرحلة ما قبل السقوط قد أظهرت صلاح الربّ الإله حيث لم يوجد أي أمراض، أو فساد، أو موت. بعد السقوط، كان هنالك حاجة ماسّة لإعلان خاص من خلال الكتاب المقدس. وذلك في الوقت الذي تكون فيه أُمور الله ظاهرةٌ ([رومية١: ٢٠](https://my.bible.com/bible/101/ROM.1.20)) - لذلك فإنه لا يوجد أي شخص يمتلك عُذراً لإنكار وجود الله المُصَمِّم- إلا أن هذا الإعلان الإلهي العام هو في حالة السقوط وهو تحت الدينونة ([رومية٨: ٢٠](https://my.bible.com/bible/101/ROM.8.20)).

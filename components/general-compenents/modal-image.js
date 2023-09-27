@@ -6,7 +6,9 @@ export default function ModalImage(props) {
   const isFullWidth = image.alt.toLowerCase().includes("full");
   const isLargeWidth = image.alt.toLowerCase().includes("large");
   const isSmallidth = image.alt.toLowerCase().includes("small");
-  image.alt = image.alt.replace(/full|large|small/gi, "");
+  if (image.alt) {
+    image.alt = image.alt.replace(/full|large|small/gi, "");
+  }
   // const isFloatRight = image.alt.toLowerCase().includes("right");
   // const isFloatLeft = image.alt.toLowerCase().includes("left");
   // const isFloatCenter = image.alt.toLowerCase().includes("center");

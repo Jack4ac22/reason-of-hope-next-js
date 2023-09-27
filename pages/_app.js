@@ -3,6 +3,8 @@ import "../styles/globals.css";
 import Head from "next/head";
 import UiHeader from "../components/ui/header";
 import UiFooter from "../components/ui/footer";
+import { Analytics } from '@vercel/analytics/react';
+
 function MyApp({ Component, pageProps }) {
   return (
     <>
@@ -19,6 +21,7 @@ function MyApp({ Component, pageProps }) {
         <Component {...pageProps} />
       </main>
       <UiFooter />
+      <Analytics />
     </>
   );
 }

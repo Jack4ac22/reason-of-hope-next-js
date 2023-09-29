@@ -1,10 +1,10 @@
 ---
 title: "اللغز"
 date: "2019-07-02"
-categories: 
+categories:
   - "قضيّة-الخلق"
   - "علوم-معاصرة"
-tags: 
+tags:
   - "مخلوقات"
   - "تطور"
   - "علوم"
@@ -17,14 +17,14 @@ creationLink: ""
 authors:
   - name: ""
     link: ""
-description: ""
+description: "ما هو الأمر الذي يزيد كلّما نَقِصَ؟"
 ---
 
 ما هو الأمر الذي يزيد كلّما نَقِصَ؟
 
-للإجابة على هذا السؤال سنقوم بإلقاء نظرة سريعة على بعض الأغنام. تم تطوير سلالة دورست من الأغنام في جنوب إنكلترا وذلك قبل عدة مئات من السنوات. إن لدى هذه السلالة العديد من السمات المُحبَّبة وتم استيرادها إلى الولايات المتحدة في أواخر القرن التاسع عشر.1 كانت سلالة من الأغنام البيضاء والمتوسطة الحجم. والنِعاج منها كانت أمهات جيدات ويمكن أن تلد أكثر من مرَّة في السنة، لطالما امتلكت هذه السلالة قرون. في الحقيقة كانت هذه هي الحال حتى حوالي العام ١٩٤٨. 2 في ذلك الوقت، وفي قطيع أصيل وُلِدَ حمل لم ينم له قرون. وتم تسمية هذه الحالة ب Polled (أي عديم القرون).  
+للإجابة على هذا السؤال سنقوم بإلقاء نظرة سريعة على بعض الأغنام. تم تطوير سلالة دورست من الأغنام في جنوب إنكلترا وذلك قبل عدة مئات من السنوات. إن لدى هذه السلالة العديد من السمات المُحبَّبة وتم استيرادها إلى الولايات المتحدة في أواخر القرن التاسع عشر.1 كانت سلالة من الأغنام البيضاء والمتوسطة الحجم. والنِعاج منها كانت أمهات جيدات ويمكن أن تلد أكثر من مرَّة في السنة، لطالما امتلكت هذه السلالة قرون. في الحقيقة كانت هذه هي الحال حتى حوالي العام ١٩٤٨. 2 في ذلك الوقت، وفي قطيع أصيل وُلِدَ حمل لم ينم له قرون. وتم تسمية هذه الحالة ب Polled (أي عديم القرون).
 
-\[caption id="" align="alignnone" width="800"\]![dorsetlambs](images/dorsetlambs.jpg) Photo by Marlene Bell, ewephoric.com\[/caption\]
+![Photo by Marlene Bell, ewephoric.com](dorsetlambs.jpg)
 
 إن القرون تبدو جميلة وجذابة للغاية على الأغنام. وبالرغم من ذلك، فإن المزارعين والرعاة يعتبرونها مصدر للإزعاج. فالحيوان قد يُمسك منها جين تعلق ببعض الأشياء، أو أنها تتسبب في بعض الأحيان في إصابة الناس أو الحيوانات الأُخرى كما قد تتسبب بتلف المُعدَّأت. غالباً ما نجد قرون الأغنام تنحني نحو الرأس، وفي بعض الأحيان يمكن أن تنمو باتجاه رأس الحيوان!3 إن الحيوانات التي تمتلك قروناً تحتاج إلى مساحة أكبر وخاصةً في حوض التغذية أو الماء. ولتفادي المشاكل التي قد تنجم عن القرون عادةً ما يقوم المزارعون بإقتلاع القرون وذلك بعد فترة وجيزة من ولادة الحملان. وبهذه الطريقة لا تنمو القرون أبداً ويتم اجتناب المشاكل التي تترافق عادةً معها.
 
@@ -34,7 +34,7 @@ description: ""
 
 والآن لنعود إلى اللغز الذي طرحناه. ما الذي قد يزيد عند فقدان بعض الأشياء؟ أولا، فلنسأل مالذي فقدناه في الحملان عديمة القرون؟ إنها القرون. ومالذي قد زاد؟ لقد زادت الأنواع.5 ففي البداية كانت سلالة دورست دائماً تمتلك قروناً. أما الآن فالبعض منها يمتلك قروناً والبعض الآخر لا. يمكن الحصول على التنوع هذا عندما تفقد بعض الحيوانات إحدى السمات التي كانت تمتلكها جميع الحيوانات في المجموعة. فهل يمكن أن تختفي هذه السمة؟ من المؤكد. وقد تم ذلك من خلال الإنتقاء. فحين تم انتقاء الدورست عديمة القرون للتناسل، تم فقدان سمة القرون من المجموعة. وقد خفَّض هذا من التنوع لأن هذه السلالة الجديدة من الدورست لا تمتلك القرون.
 
-\[caption id="" align="aligncenter" width="300"\]![hornedsheep](images/hornedsheep.jpg) حمل من سلالة الدورست الأصلية\[/caption\]
+![ حمل من سلالة الدورست الأصلية](hornedsheep.jpg)
 
 لماذا كان الحمل عديم القرون؟ إن ذلك نتج عن طفرة وراثية تسبب في تشويه أو تدمير معلومات في المجمع الجيني والتي كانت ضرورية لنمو القرون. والطفرات في الحقيقة هي أخطاء في المعلومات المُخزَّنة في المجمع الجيني. وهي تعرف عادة نسبةً إلى المرض الذي تُسبِّبُه6 (مثل فقر الدم المنجلي عند البشر،7 متلازمة الضأن العنكبوتيّ في الأغنام8). كما أنَّ بعض الطفرات غير ضارة ومن الممكن أن تمرّ دون أن يلاحظها أحد. ومن غير المُعتاد أن تكون الطفرة مفيدة،9 علماً أنّه من الممكن أن يكون المزارعين مُقتنعين بأنها كذلك في حالة الدورست هذه. والأمر الذي لم تتم ملاحظته أبداً هو طفرة تضيف معلومات جديدة، مثل طفرة تتسبب بنمو القرون على رأس الكلاب أو القطط.
 
@@ -44,7 +44,7 @@ description: ""
 
 هذا يشهد على أنَّ خلق المعلومات الجينيّة قد حدث في البداية. وأنَّ هذه المعلومات يمكن أن يُفقَد جزء منها، وفي بعض الأحيان يحمل هذا الفقدان آثاراً جيدة للمزارعين. إلا أن الحصول على المعلومات اللازمة لنموّ قرون على حيوانات لا تمتلكها، إنما هو أمر غير وارد الحدوث من خلال العمليات الطبيعية.
 
-### [المقال من الموقع الرسمي creation.com](https://creation.com/%D8%A7%D9%84%D9%84%D8%BA%D8%B2)
+---
 
 مراجع
 
@@ -54,14 +54,12 @@ description: ""
 4. يوجد سلالة مشابهة من الدورست تم تطوريها في أستراليا بين عامي ١٩٣٧ و ١٩٥٤. حيث تم ذلك من خلال ادخال سمة عدم امتلاك القرون من عدد من السلالات الأُخرى (Corriedale and Ryeland rams) ومن ثم استعمال النسل الذي لم يمتلك قروناً للتناسل وإنتاج الدورست polldorset.org.au and nzsheep.co.nz, accessed 20 August 2004.
 5. إن اهذا النوع من التنوّع الذي نتناوله هنا يُعرف بالتنوّع الجيني أو التمايز الجيني.
 6. إن معظم الأمراض أو العيوب الوراثية تحدث نتيجة الطفرات. وفي بعض الأحيان قد تتسبب هدو طفرات مختلفة في نفس المرض. ويوجد حوالي ٤٥٠٠ مرض وراثي معروف عند الإنسان. فهل الطفرات هي تطوّر أم تراجع؟  
-    christiananswers.net, accessed August 2004. Inheritance of single-gene defects, merck.com, accessed August 2004. Similarly, there are many genetic defects in animals. Sweiter, K., Gacsala, E., Esquivel, H., Genetic defects in sheep, ag.ansc.purdue.edu, accessed August 2004. Chart of genetic defects, kinne.net/ob4.htm accessed August 2004. Canine Inherited Disorders Database, upei.ca, accessed August 2004.
+   christiananswers.net, accessed August 2004. Inheritance of single-gene defects, merck.com, accessed August 2004. Similarly, there are many genetic defects in animals. Sweiter, K., Gacsala, E., Esquivel, H., Genetic defects in sheep, ag.ansc.purdue.edu, accessed August 2004. Chart of genetic defects, kinne.net/ob4.htm accessed August 2004. Canine Inherited Disorders Database, upei.ca, accessed August 2004.
 7. تتسبب هذه الطفرة في إنتاج نوع غير طبيعي من الهيموغلوبين. وعندما تكون مستويات الإكسجين منخفضة في الدم، فإن خلايا الدمّ الحمراء تتخذ شكل المنجل فير الطبيعي **وتميل إلى** التسبب بانسداد الشعيرات الدموية الدقيقة. انظر:[Sickle-cell anemia does not prove evolution!](https://creation.com/sickle-cell-anemia-does-not-prove-evolution)
 8. تعرف بإسم (ovine hereditary chondrodysplasia)، وعلى الرغم من أن الأغنام تبدو بحالة طبيعية عند الولادة، إلا أنها في غضون ٤-٦ أسابيع تظهر لديها تشوّهات واضحة في الهيكل العظمي.  
-    Taraska, T., Spider Lamb Syndrome, College of Veterinary Medicine and Biomedical Sciences, Colorado State University, dlab.colostate.edu, accessed August 2004.
-9. See also Wieland, C., [Beetle bloopers](https://creation.com/beetle-bloopers), _Creation_ **19**(3):30, 1997; creation.com/beetle. Lightner, J., [Special tools of life](https://creation.com/special-tools-of-life), May 2004.
+   Taraska, T., Spider Lamb Syndrome, College of Veterinary Medicine and Biomedical Sciences, Colorado State University, dlab.colostate.edu, accessed August 2004.
+9. See also Wieland, C., [Beetle bloopers](https://creation.com/beetle-bloopers), *Creation* **19**(3):30, 1997; creation.com/beetle. Lightner, J., [Special tools of life](https://creation.com/special-tools-of-life), May 2004.
 10. [تكوين ١: ١١](https://biblia.com/bible/ar-vandyke/Ge1.11)، [١٢](https://biblia.com/bible/ar-vandyke/Ge1.12)، [٢١](https://biblia.com/bible/ar-vandyke/Ge1.21)، [٢٤](https://biblia.com/bible/ar-vandyke/Ge1.24)، [٢٥](https://biblia.com/bible/ar-vandyke/Ge1.25).
 11. وقد أعطى الله أمراً للناس والحيوانات بأن يتكاثروا ويقوموا بملء الأرض (تكوين ١[: ٢٢](https://biblia.com/bible/ar-vandyke/Ge1.22)، [٢٨](https://biblia.com/bible/ar-vandyke/Ge1.28)؛ [٨: ١٧](https://biblia.com/bible/ar-vandyke/Ge8.17)؛ [٩: ١](https://biblia.com/bible/ar-vandyke/Ge9.1)، [٧](https://biblia.com/bible/ar-vandyke/Ge9.7)). وقد أعطاهم الله الأمر والقدرة على إطاعته. كما أنَّ كل ما معرفة عن علم الزراعة وعلم الجينات يؤكّد حقيقة أنَّ الله أعطى هذه المخلوقات القدرة على التكيف مع مجموعة واسعة من المناخات.
 12. هذا ما سجَّله سفر [التكوين ٣](https://biblia.com/bible/ar-vandyke/Ge3) (انظر مقال لجوناثان سرفاتي، [السقوط كارثة كونية](https://creation.com/the-fall-a-cosmic-catastrophe)، مجلة الخلق ١٩(٣): ٦٠-٦٤)، ديسمبر ٢٠٠٥. هذا السقوط تسبب بدخول الموت والمرض والمعاناة إلى العالم. وعلى الرغم من اللعنة التي تنجب عن تمرّد البشر إلا أنَّ الله لازال يرعاهم ويعتم بهم ([متى ٦: ٢٥-٣٤](https://biblia.com/bible/ar-vandyke/Mt6.25-34)، [كولوسي ١: ١٦، ١٧](https://biblia.com/bible/ar-vandyke/Col1.16-17))، فهو إن لم يفعل هذا فلن يكون لهم أيُّ وجود.
-13. Although they may form a new species. For an explanation, see: Catchpoole, D. and Wieland, C., [Speedy species surprise](https://creation.com/speedy-species-surprise), _Creation_ **23**(2):13–15, 2001; Bell, P., [Genetic engineers unwind species barrier](https://creation.com/genetic-engineers-unwind-species-barrier), _Creation_ **25**(4):52–53, 2003; and Wieland, C., [Brisk biters](https://creation.com/brisk-biters), _Creation_ **21**(2):41, 1999.
-
-* * *
+13. Although they may form a new species. For an explanation, see: Catchpoole, D. and Wieland, C., [Speedy species surprise](https://creation.com/speedy-species-surprise), *Creation* **23**(2):13–15, 2001; Bell, P., [Genetic engineers unwind species barrier](https://creation.com/genetic-engineers-unwind-species-barrier), *Creation* **25**(4):52–53, 2003; and Wieland, C., [Brisk biters](https://creation.com/brisk-biters), *Creation* **21**(2):41, 1999.

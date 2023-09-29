@@ -1,11 +1,11 @@
 ---
 title: "السير ليس بالأمر السهل"
 date: "2019-08-20"
-categories: 
+categories:
   - "قضيّة-الخلق"
   - "التطور-ونتائجه"
   - "علوم-معاصرة"
-tags: 
+tags:
   - "مخلوقات"
   - "هندسة-إحيائية"
   - "علوم"
@@ -16,18 +16,10 @@ youtube: ""
 status: "published"
 creationLink: ""
 authors:
-  - name: ""
-    link: ""
-description: ""
+  - name: "David Catchpoole"
+    link: "https://creation.com/david-catchpoole-cv"
+description: "هل تعتقد أن السير هو عملية بسيطة؟ إن المهندسين الذين يحاولون محاكاة هذه العملية لا يوافقونك الرأي!"
 ---
-
-## لا يزال الطريق طويلاً أمام مهندسي الرجال الآليّين الذين يحاولون استنساخ حركة القدمين البشريّتين
-
-بقلم: [David Catchpoole](https://creation.com/david-catchpoole-cv)  
-
-![feet](images/feet.jpg)
-
-123rf.com
 
 لقد دأب المهندسون في مختلف أصقاع الأرض ولمدة ٥٠ عاماً على محاولة إنشاء رجال آليّين ذوي بنية شبه بشرية تكون قادرة على السير بشكل مستقرّ وفعَّال كما يفعل البشر. وعلى الرغم من التقدم الذي تمَّ تحقيقه إلا أنَّ هذا التقدم لا يزال بعيداً عن تحقيق الغايَة المرجوَّة.
 
@@ -43,9 +35,7 @@ description: ""
 
 لكن التفاعل إنما هو أشدّ تعقيداً2\- ليس فقط بين الآليات الميكانيكية والبنيويّة \[الهيكليّة\]، إنما أيضاً بين الأنظمة العصبية أيضاً (الأعصاب / الإشارات العصبية). وتقول ورقة المراجعة عن هذا الأمر:
 
-![walking](images/walking.jpg)
-
-123rf.com
+![رسم من موقع 123rf.com full](walking.jpg)
 
 > ”نتيجةً لذلك، يُظهِرُ البشر قُدُرات وظيفية قوية للغاية ومتعدِّدَة الإستخدامات وذات فعالية فيما يتعلّق بالطاقة وذلك في مجموعة واسعة من حالات الحركة. إنَّ عملية نقل هذه المبادئ إلى المَنصَّات الآلية ليست بالأمر البسيط، ذلك على اعتبار أن التفاعل المعقّد بين الآليات الحسيّة المُشاركة في عملية السير \[المشي\] البشرية أبعد ما يكون عن الفهم الكامل.“1
 
@@ -55,5 +45,5 @@ description: ""
 
 ### مراجع
 
-1. Torricelli, D. and 9 others, Human-like compliant locomotion: state of the art of robotics implementation systems, _Bioinspiration & Biomimetics_ **11**(5):1002, 22 August 2016.
-2. Even arm-swinging is integral to the energy efficiency of the human gait. See: [Arm-swinging _not_ an “evolutionary relic”](https://creation.com/focus-creation-322#arm-swinging), _Creation_ **32**(2):8, 2010; [creation.com/arm-swinging](https://creation.com/focus-creation-322#arm-swinging)
+1. Torricelli, D. and 9 others, Human-like compliant locomotion: state of the art of robotics implementation systems, *Bioinspiration & Biomimetics* **11**(5):1002, 22 August 2016.
+2. Even arm-swinging is integral to the energy efficiency of the human gait. See: [Arm-swinging *not* an “evolutionary relic”](https://creation.com/focus-creation-322#arm-swinging), *Creation* **32**(2):8, 2010; [creation.com/arm-swinging](https://creation.com/focus-creation-322#arm-swinging)

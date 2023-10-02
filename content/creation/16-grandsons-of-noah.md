@@ -7,15 +7,13 @@ categories:
   - "العالم-التوراتي"
 tags:
   - "نوح"
-  - "الكتاب-المقدس"
   - "الطوفان"
   - "تاريخ"
-  - "حام"
 coverImage: "e2808ee281a8d986d988d8ade281a9.jpg"
 spotify: "http://open.spotify.com/episode/3cFfVRdXGyKF6zDbkyoYRN?si=kXw5-NZ4QHy4mMkCc3YMSw"
 youtube: "v82TTQZGJcQ"
 status: "published"
-creationLink: "https://creation.com/%D8%A3%D8%AD%D9%81%D8%A7%D8%AF-%D9%86%D9%8F%D9%88%D8%AD-%D8%A7%D9%84%D8%B3%D8%AA%D8%A9-%D8%B9%D8%B4%D8%B1"
+creationLink: "https://creation.com/a/12847"
 authors:
   - name: "Russell Grigg"
     link: "https://creation.com/russell-grigg"
@@ -116,7 +114,7 @@ description: "إن التاريخ المدني المحفوظ خارج الكت�
 
 ---
 
-المراجع:
+### المراجع:
 
 1. Josephus: Complete Works, Kregel Publications, Grand Rapids, Michigan, ‘Antiquities of the Jews’, 1:6:1 (i.e. book 1, chapter 6, section 1).
 2. J. Davis, History of the Welsh Baptists from the Year Sixty-three to the Year One Thousand Seven Hundred and Seventy, D.M. Hogan, Pittsburgh, 1835, republished by The Baptist, Aberdeen, Mississippi, p. 1, 1976.

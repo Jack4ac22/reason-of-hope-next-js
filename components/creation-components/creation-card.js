@@ -7,7 +7,7 @@ export default function CreationCard(props) {
 
   return (
     <>
-      <div className="col-sm-12 col-md-6 col-lg-4">
+      <div className="col-sm-12 col-md-6 col-lg-4 col-xl-3">
         <div className="card">
           <Link href={`/creation/${creation.slug}`}>
             <Image

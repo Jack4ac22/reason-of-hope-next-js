@@ -12,14 +12,12 @@ spotify: "https://open.spotify.com/episode/6dqzeYt9DqfUzqJWmOSOMs?si=uQEa2SwrRYG
 hearthis: "https://hearthis.at/5390053/"
 youtube: ""
 status: "published"
-creationLink: ""
+creationLink: "https://creation.com/a/12854"
 authors:
   - name: "Lita Cosner"
     link: "https://creation.com/lita-cosner"
 description: "إن جميع الأشخاص يمتكلون تحيزاً ما. ولكن هل التحيز بذاته يعتبر أمراً سلبياً؟"
 ---
-
-![bias-bad-thing](bias-bad-thing.jpg)
 
 تلقينا مؤخراً بريداً الكترونياً يصف معضلة شائعة. حيث قام أحد القرّاء بمشاركة مقال من موقعنا creation.com على إحدى مَنصّات التواصل الإجتماعي. لكن أحد أصدقاءه رفض قراءة المقال معلّقاً: إن أي مقال من موقع يسمّى كرييشن (الخَلْق) لا بُدَّ من أن يكون متحيزاًّ!
 

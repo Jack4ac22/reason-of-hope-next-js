@@ -25,10 +25,8 @@ export default function CreationsArtilePage(props) {
         />
         <meta
           property="og:image"
-          content={`/blog-images/${
-            creationArticle.coverImage
-              ? creationArticle.coverImage
-              : ROH.png
+          content={`https://reasonofhope.com/blog-images/${
+            creationArticle.coverImage ? creationArticle.coverImage : ROH.png
           }`}
         />
       </Head>

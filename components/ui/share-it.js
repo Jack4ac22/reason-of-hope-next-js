@@ -1,48 +1,87 @@
+import React, { useState } from "react";
+
 import {
   EmailShareButton,
+  EmailIcon,
+  TelegramShareButton,
+  TelegramIcon,
   FacebookShareButton,
   FacebookIcon,
   TwitterShareButton,
-  WhatsappShareButton,
   TwitterIcon,
+  WhatsappShareButton,
   WhatsappIcon,
-  EmailIcon,
 } from "react-share";
 
 export default function ShareIt({
   url = "https://reasonofhope.com",
   title = "سبب الرجاء",
-  description = "",
+  description = "يُقدِّم موقع سبب الرجاء الكثير من الدراسات المجانية التي تهدف إلى مساعدة المؤمنين في التعرف على الكتاب المقدس والدفاع عنه.\n ",
   tags = [],
   size = 32,
   round = true,
 }) {
+  const [isSharingOpen, setIsSharingOpen] = useState(false);
+
+  const toggleSharing = () => {
+    setIsSharingOpen(!isSharingOpen);
+  };
+
   return (
-    <div className="flex flex-row space-x-2">
-      <FacebookShareButton
-        url={url}
-        quote={description}
-        hashtag={`${tags.map((tag) => `#${tag}`).join(" ")}`}
-        description={description}
+    <>
+      <button
+        onClick={toggleSharing}
+        className="btn btn-outline-info mt-3 mb-3"
       >
-        <FacebookIcon size={32} round />
-      </FacebookShareButton>
+        شارك المنفعة مع الآخرين
+      </button>
 
-      <TwitterShareButton
-        title={title}
-        url={url}
-        hashtags={tags}
-      >
-        <TwitterIcon size={32} round />
-      </TwitterShareButton>
+      {isSharingOpen && (
+        <div className="mb-3">
+          <FacebookShareButton
+            onClick={toggleSharing}
+            url={url}
+            quote={description}
+            hashtag={`${tags.map((tag) => `#${tag}`).join(" ")}`}
+            description={description}
+          >
+            <FacebookIcon size={32} round />
+          </FacebookShareButton>
 
-      <WhatsappShareButton url={url} title={title}>
-        <WhatsappIcon size={size} round={round} />
-      </WhatsappShareButton>
+          <TwitterShareButton
+            onClick={toggleSharing}
+            title={title}
+            url={url}
+            hashtags={tags}
+          >
+            <TwitterIcon size={32} round />
+          </TwitterShareButton>
 
-      <EmailShareButton url={url} options={title}>
-        <EmailIcon size={size} round={round} />
-      </EmailShareButton>
-    </div>
+          <WhatsappShareButton
+            onClick={toggleSharing}
+            url={url}
+            title={title}
+            separator=":: "
+          >
+            <WhatsappIcon size={size} round={round} />
+          </WhatsappShareButton>
+
+          <TelegramShareButton onClick={toggleSharing} url={url} title={title}>
+            <TelegramIcon size={32} round />
+          </TelegramShareButton>
+
+          <EmailShareButton
+            onClick={toggleSharing}
+            url={url}
+            subject={title}
+            body={`يُقدِّم موقع سبب الرجاء الكثير من الدراسات المجانية التي تهدف إلى مساعدة المؤمنين في التعرف على الكتاب المقدس والدفاع عنه.\n ${
+              description ? "هذا المنشور يُقدِّم:" + description : ""
+            } \n المجد لله دائماً.`}
+          >
+            <EmailIcon size={size} round={round} />
+          </EmailShareButton>
+        </div>
+      )}
+    </>
   );
 }

@@ -7,7 +7,6 @@ categories:
 tags:
   - "نوح"
   - "إلحاد"
-  - "ديناصورات"
   - "علوم"
 coverImage: "skeleton-3868120_640.jpg"
 spotify: "https://open.spotify.com/episode/2hruZECaWi0Xr5eRtPNEOR"
@@ -59,11 +58,9 @@ description: "هل انقرضت الديناصورات منذ عدة ملايي�
 
 لاحظ عزيزي القارئ، أن محاولات أنصار نظرية التطور لتفسير هذه الاكتشافات سواء كان من خلال التلوث، أو تحركاتهم المقنّعة لإعاقة نشر نتائج الكربون المشع بشكل خاصّ. يشهد على عدم الإستعداد لمواجهة الأدلة التي تنقض وتتحدّى نموذج ملايين السنين. إنّ أي مراقب منفتح الذهن يجب أن يتساءل، ”لماذا؟“
 
-[المقال من الموقع الرسمي creatio.com](https://creation.com/%D8%AF%D9%8A%D9%86%D8%A7%D8%B5%D9%88%D8%B1%D8%A7%D8%AA-%D8%AD%D8%AF%D9%8A%D8%AB%D8%A9-%D8%A7%D9%84%D8%B9%D9%87%D8%AF)
-
 ---
 
-مراجع
+### مراجع
 
 1. Yeoman, B., Schweitzer’s Dangerous Discovery, *Discover* **27**(4):37–41; p. 39, 2006.
 2. Renowned for many dinosaur discoveries, e.g. he led a team that retrieved over 80 fossil specimens from a single site in Mongolia. See: Walker, T., [Massive graveyard of parrot-beaked dinosaurs in Mongolia—Paleontologists puzzle about the cause of death but miss the obvious clue](https://creation.com/dino-graveyard), creation.com/dino-graveyard, 26 October 2007.
@@ -85,5 +82,3 @@ description: "هل انقرضت الديناصورات منذ عدة ملايي�
 18. See also: Sarfati, J., [DNA and bone cells found in dinosaur bone](https://creation.com/dino-dna), *J. Creation* **27**(1):10–12, 2013; creation.com/dino-dna, 11 December 2012.
 19. Press release “Dinosaur bones’ Carbon-14 dated to less than 40,000 years—Censored international conference report” and additional information, newgeology.us/presentation48.html, accessed 27 December 2012.
 20. See also: Wieland, C., [Radiocarbon in dino bones—International conference result censored](https://creation.com/c14-dinos), creation.com/c14-dinos, 22 January 2013.
-
-    ***

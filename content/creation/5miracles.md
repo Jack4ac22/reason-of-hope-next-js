@@ -174,5 +174,3 @@ description: "إن الفلسفة المادية تقوم على افتراض أ
 24. Nunn, W., Thomas Nagel—The atheist who dared to question materialism, March 2014; creation.com/nagel-materialism (and articles referenced therein).
 25. Lewis, C.S., The Business of Heaven, Fount Paperbacks, U.K., p. 97, 1984.
 26. Full quote Amazing admission, creation.com/lewontin.
-
----

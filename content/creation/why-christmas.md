@@ -1,10 +1,10 @@
 ---
 title: "لماذا الميلاد؟"
 date: "2021-12-23"
-categories: 
+categories:
   - "قضيّة-الخلق"
   - "الكتاب-المقدس-والإنجيل"
-tags: 
+tags:
   - "يسوع-المسيح"
   - "الميلاد"
   - "المجوس"
@@ -13,24 +13,16 @@ tags:
   - "بيت-لحم"
   - "سانتا"
 coverImage: "christmas.jpg"
-spotify: ""
+spotify: "https://open.spotify.com/episode/3xeIOI2YCawrnZq1GHZXEU?si=iPsJcs91QjiWGaIiY9XfpA"
 hearthis: ""
 youtube: ""
 status: "published"
-creationLink: ""
+creationLink: "https://creation.com/a/6594"
 authors:
-  - name: ""
-    link: ""
+  - name: "Russell Grigg"
+    link: "https://creation.com/russell-m-griggs-biography"
 description: ""
 ---
-
-بقلم: [Russell Grigg](https://creation.com/russell-m-griggs-biography)
-
-https://open.spotify.com/episode/3xeIOI2YCawrnZq1GHZXEU?si=iPsJcs91QjiWGaIiY9XfpA
-
-[![](https://arabcreationisthome.files.wordpress.com/2021/05/cmi.png?w=150)](https://creation.com/a/6594)
-
-![Christmas](images/Christmas.jpg)
 
 سجود الرعاة، كما صَوَّره رسام العصر الذهبي الهولندي جيرار ڤان هونثورست في العام ١٦٢٢.
 
@@ -68,7 +60,7 @@ https://open.spotify.com/episode/3xeIOI2YCawrnZq1GHZXEU?si=iPsJcs91QjiWGaIiY9Xfp
 
 إن أولى إشارات الكتاب المقدس إلى يسوع هي في الوعد الذي أُعطي إلى آدم وحوّاء بشكل مباشر بعد أن أخطأا إلى الله. في [التكوين ٣](https://bible.com/bible/101/gen.3.15.KEH)[: ١٥](https://bible.com/bible/101/gen.3.15.KEH)، قال الله للشيطان: ”وَأُثِيرُ عَدَاوَةً دَائِمَةً بَيْنَكِ وَبَيْنَ الْمَرْأَةِ، وَكَذَلِكَ بَيْنَ نَسْلَيْكُمَا. هُوَ يَسْحَقُ رَأْسَكِ وَأَنْتِ تَلْدَغِينَ عَقِبَهُ».“ إن نسل حوّاء سيكون هو الرب يسوع المسيح. لقد دُعي ”نسل“ المرأة إذ لم يمتلك أباً بشرياً، ولكنه [وُلِدَ من عذراء](https://creation.com/the-virginal-conception-of-christ) من خلال القدرة المُعجزية لله ([اشعياء ٧: ١٤](https://bible.com/bible/101/isa.7.14.KEH)، [متى ١: ٢٠](https://bible.com/bible/101/mat.1.20.KEH)، [٢٣](https://bible.com/bible/101/mat.1.23.KEH)). وبعد ذلك عاش حياةً خالية من الخطيئة، ومات على الصليب من أجل خطايا العالم، وأُقيم إلى الحياة، وبذلك هزم قوة الشيطان ([العبرانيين ٢: ١٤](https://bible.com/bible/101/heb.2.14.KEH)) انظر مقالاً بعنوان: [أهمية قيامة يسوع المسيح من أجل خلاصنا](https://creation.com/importance-of-the-resurrection).
 
-![resurrection](images/resurrection.jpg)
+![resurrection](resurrection.jpg)
 
 إن السبب الذي يقف وراء الإحتفال بموسم الميلاد هو أنَّ يسوع قد جاء إلى الأرض ليولد ويعيش ويموت من أجل خطايا العالم، ويقوم من جديد ليعطي حياة جديدة لجميع أولئك الذين يضعون إيمانهم وثقتهم به.
 
@@ -96,10 +88,12 @@ https://open.spotify.com/episode/3xeIOI2YCawrnZq1GHZXEU?si=iPsJcs91QjiWGaIiY9Xfp
 
 لذلك فإنّنا وفي الوقت الذي نستمتع فيه بكل الأشياء الجيدة التي تترافق مع عيد الميلاد، نحتاج كذلك إلى أن نستذكر ”السبب وراء هذا الموسم“ وهو أنَّ يسوع قد جاء إلى الأرض ليولد ويعيش ويموت من أجل خطايا العالم، ويقوم من جديد ليعطي حياة جديدة لجميع أولئك الذين يضعون إيمانهم وثقتهم به.
 
+---
+
 ### مراجع
 
-1. إن الأمر الواضح هو أن هؤلاء الرجال الحكماء كانوا يمتلكون حاشية من القوم لحمايتهم في رحلتهم، وحمل المؤن، وإعداد وجبات الطعام، وتقديم العناية. 
-2. See graphs in http://www.myweather2.com/City-Town/Israel/Bethlehem/climate-profile.aspx. 
+1. إن الأمر الواضح هو أن هؤلاء الرجال الحكماء كانوا يمتلكون حاشية من القوم لحمايتهم في رحلتهم، وحمل المؤن، وإعداد وجبات الطعام، وتقديم العناية.
+2. See graphs in http://www.myweather2.com/City-Town/Israel/Bethlehem/climate-profile.aspx.
 3. See Gessert, M., Winter Sheep Care – LittleHats.net.
-4. MYTH: Too cold for shepherds to Tend Flocks in December: Logistics of feeding a flock of sheep, jesus-reasonforseason.com/. 
+4. MYTH: Too cold for shepherds to Tend Flocks in December: Logistics of feeding a flock of sheep, jesus-reasonforseason.com/.
 5. تقول إحدى الأساطير المتاخرة جداً أن نيقولاوس كان قد استمع إلى المهرطق آريوس المُجَدِّف في إنكاره لألوهية المسيح وصفعه.See Pearse, R., Did St Nicholas of Myra / Santa Claus punch Arius at the Council of Nicaea? roger-

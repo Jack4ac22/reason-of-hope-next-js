@@ -13,14 +13,14 @@ spotify: "https://open.spotify.com/episode/2XEczz5FFSGdNzBV7sa2Yh"
 hearthis: "https://hearthis.at/5390201/"
 youtube: ""
 status: "published"
-creationLink: "https://creation.com/%D8%BA%D8%B2%D8%A7%D9%84-%D8%A2%D9%83%D9%84-%D9%84%D9%84%D8%AD%D9%88%D9%85"
+creationLink: "https://creation.com/a/13134"
 authors:
   - name: "Paul Price"
     link: "https://creation.com/paul-price"
 description: "أكل اللحوم هو أسلوب حياة اختياريّ - حتى بالنسبة للحيونات"
 ---
 
-> > أكل اللحوم هو أسلوب حياة اختياريّ - حتى بالنسبة للحيونات
+> أكل اللحوم هو أسلوب حياة اختياريّ - حتى بالنسبة للحيونات
 
 منذ أن خلق الله البشر والحيوانات على حد سواء، كانت النباتات طعاماً للجميع في البداية ([تكوين ١: ٢٩-٣٠](https://biblia.com/bible/ar-vandyke/Ge1.29-30))، فمن أين أتى \[اللواحم\] أكلة اللحوم؟ أحد الأمثلة المذهلة للحيوانات العاشبة التي تأكل اللحوم يأتي من تقارير للصيادين في الولايات المتحدة التي تصرح بأن الغزال ذو الذيل الأبيض يأكل بقايا جثث الحيوانات.1
 

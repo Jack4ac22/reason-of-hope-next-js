@@ -1,10 +1,10 @@
 ---
 title: "مفارقة فيرمي"
 date: "2019-03-26"
-categories: 
+categories:
   - "قضيّة-الخلق"
   - "علوم-معاصرة"
-tags: 
+tags:
   - "فضاء"
   - "مخلوقات"
   - "إلحاد"
@@ -15,16 +15,14 @@ spotify: ""
 hearthis: ""
 youtube: ""
 status: "published"
-creationLink: ""
+creationLink: "https://creation.com/the-fermi-paradox-arabic"
 authors:
-  - name: ""
-    link: ""
-description: ""
+  - name: "Gary Bates"
+    link: "https://creation.com/gary-bates"
+description: "هل يوجد حياة خارج كوكب الأرض؟ وما هي علاقة هذا الأمر بالتطور؟"
 ---
 
-## إن كان التطور يحدث بالفعل في جميع أرجاء كوننا هذا، فأين هم الجميع؟
-
-\[caption id="" align="alignleft" width="350"\]![fermi](images/fermi.jpg) إنريكو فيرمي (١٩٠١-١٩٥٤)   wikipedia.org\[/caption\]
+![إنريكو فيرمي (١٩٠١-١٩٥٤)](fermi.jpg)
 
 في الخمسينيات من القرن الماضي، طرح إنريكو فيرمي، الحاصل على جائزة نوبل والرائد في مجال الطاقة الذرية، أثناء عمله في منشأة لوس ألاموس النووية في نيو مكسيكو، بعض الأسئلة المباشرة: هل نحن الحضارة الوحيدة المتقدمة من الناحية التكنولوجية في الكون، وإن لم نكن كذلك، فأين هم؟ لماذا لم نر أي أثر للحياة خارج الأرض سواء أكان مسبار فضاء أو إرسال من نوعٍ ما؟ لماذا لم نعثر على أعمالهم الفنية على الأرض أو في النظام الشمسي؟
 
@@ -50,7 +48,7 @@ description: ""
 
 > ”إن الافتراض المعتاد هو بأنهم نوع من الكائنات الفضائية الناعمة الإسفنجية الشبيهة بما نعاينه في الأفلام – وهي أكثر تقدماً منا بقليل، الأمر الذي يمكننا من العثور عليهم. إلا أن المجرّة \[درب التبانة\] هي ضعفي أو ثلاثة أضعاف ذلك العمر \[أي عمر الأرض\]، لذا سيتواجد بعض المجتمعات هناك في الخارج على بعد ملايين السنين \[الضوئية\] عنّا أو ربما أبعد من ذلك“
 
-[![12972-galaxy](images/12972-galaxy.jpg)](https://dl0.creation.com/articles/p129/c12972/12972-galaxy-lge.jpg)
+![صورة للمجرة](12972-galaxy.jpg)
 
 باختصار، يعتقد شوستاك بأننا قد نكون ثقافة بدائية نحاول التواصل مع حضارات أقدم وأكثر تقدّم منا، الأمر الذي يشبه احدى القبائل في الغابات التي تضرب على الطبول وتنتظراستماع الرد القادم من قبل الأشخاص المتحضرين المحترفين الذين يتواصلون من خلال الهواتف المحمولة. فإن كان هذا هو الحال، يعتقد شوستاك بأنه من الكافي العثور على أصغر أثر للحياة، بالماضي أو الحاضر، على أي من الكواكب الأُخرى.
 
@@ -66,13 +64,9 @@ description: ""
 
 > لأَنَّهُ هكَذَا قَالَ الرَّبُّ: «خَالِقُ السَّمَاوَاتِ هُوَ اللهُ. مُصَوِّرُ الأَرْضِ وَصَانِعُهَا. هُوَ قَرَّرَهَا. لَمْ يَخْلُقْهَا بَاطِلاً. لِلسَّكَنِ صَوَّرَهَا. أَنَا الرَّبُّ وَلَيْسَ آخَرُ.
 
-### [المقال من الموقع الرسمي creation.com](https://creation.com/the-fermi-paradox-arabic)
-
 ### مراجع
 
 - The ET Quandary, _The Canadian National Post_, 8 December 2003, p. A13.
 - Aliens ‘Absolutely’ Exist, SETI Astronomer Believes, news.nationalgeographic.com, 6 March 2004.
 - Life on Mars Is a Siren Song in the Human Drive to Know, _The Australian (Features)_, 9 January 2004, p. 11.
 - Despite the huge size of the universe there are theological and Gospel implications with the idea that God may have created sentient life on other planets. See [creation.com/did-god-create-life-on-other-planets](/did-god-create-life-on-other-planets).
-
-* * *

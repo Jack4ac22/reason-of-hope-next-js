@@ -1,42 +1,27 @@
 ---
 title: "الشموع التي تحولت إلى حجارة"
 date: "2021-07-15"
-categories: 
-
+categories:
   - "قضيّة-الخلق"
   - "الديناصورات-والتأريخ"
-tags: 
+tags:
   - "نوح"
   - "الخلق"
   - "الطوفان"
   - "عمر-الأرض"
 coverImage: "candle-2038736_640.jpg"
-spotify: ""
-hearthis: ""
+spotify: "https://open.spotify.com/episode/6ijIPXvwDxo7XcdUiFHX8b?si=bGJXof6yQVyRnOI1RJTsjg&dl\_branch=1&nd=1"
+hearthis: "https://hearthis.at/reasonofope/stoned-candles-n"
 youtube: ""
 status: "published"
-creationLink: ""
+creationLink: "https://creation.com/a/15163"
 authors:
-  - name: ""
-    link: ""
-description: ""
+  - name: "Jonathan O’Brien"
+    link: "https://creation.com/jonathan-obrien"
+description: "هل يتوفر أدلة تشير إلى أنَّ المستحاثات لا تحتاج إلى عدة ملايين من السنوات لكي تتحجر؟"
 ---
 
-بقلم: [Jonathan O’Brien](https://creation.com/jonathan-obrien)[](https://creation.com/a/15163)
-
-### يُمكنكم قراءة المقال من خلال زيارة موقع إرساليات الخلق الدولية [CMI](http://Creation.com/arabic)  
-  
-[![](images/cmi.png)](https://creation.com/a/15163)
-
-### يُمكنكم الوصول إلى التسجيل الصوتي من خلال المنصات التالية:  
-  
-[![](images/apple-podcasts-1.png)](https://podcasts.apple.com/lu/podcast/الشموع-التي-تحولت-إلى-حجارة/id1562186150?i=1000528973020)[![](images/google-podcasts.png)](https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy81MTVjMjljNC9wb2RjYXN0L3Jzcw/episode/ZGMwNWIwY2QtZjlmOS00YWUwLThjNzQtNjVhNDEyZjM5Y2Yz?sa=X&ved=0CA0QkfYCahcKEwio1Z-FpeXxAhUAAAAAHQAAAAAQAQ)[![](images/spotify.png)](https://open.spotify.com/episode/6ijIPXvwDxo7XcdUiFHX8b?si=bGJXof6yQVyRnOI1RJTsjg&dl_branch=1&nd=1)[![](images/anchor-2.png)](https://anchor.fm/reason-of-hope4/episodes/ep-e1052s1)[![](images/hearthis.at_.png)](https://hearthis.at/reasonofope/stoned-candles-n/)
-
-https://hearthis.at/reasonofope/stoned-candles-n
-
-https://open.spotify.com/episode/6ijIPXvwDxo7XcdUiFHX8b?si=bGJXof6yQVyRnOI1RJTsjg&dl\_branch=1&nd=1
-
-![petrified-candles](images/petrified-candles.jpg)
+![petrified-candles](petrified-candles.jpg)
 
 التحجر هو عملية طبيعية تتحول من خلالها المواد العضوية بشكل تدريجي إلى حجارة. يدور في أذهان معظم الأشخاص المعاصرين أن هذه العملية تشير إلى أحداث جرت في عصور ”ما قبل التاريخ“ - إلا أنَّه يوجد العديد من الأمثلة التي ثَبُتَ من خلالها أن التحجر قد حدث بسرعة أكبر.
 
@@ -52,9 +37,9 @@ https://open.spotify.com/episode/6ijIPXvwDxo7XcdUiFHX8b?si=bGJXof6yQVyRnOI1RJTsj
 
 عدا عن ذلك، فإن الرواسب التي تمَّ العثور فيها على المستحاثات، لم تكن بحاجة إلى عصور زمنية طويلة لكي تصبح صخوراً صلبة. على سبيل المثال، الخرسانة \[الإسمنت\] هي مثال بسيط على كيفية تصلب المزيج الصحيح من الصخور المسحوقة خلال فترة زمنية قصيرة، وتُظهر التجارب أن أنواع مُحدَّدة من البكتيريا قادرة على تمكين الرمال وتحويلها إلى صخور صلبة.2 إن جميع هذه الأمور تحمل معنى في ضوء العمر التوراتي الحقيقي للأرض والمقدر بحدود ٦٠٠٠ عام.
 
-* * *
+---
 
 ### مراجع
 
 1. Minnesota Museum of Mining, Chisholm, Minnesota, USA. See mnmuseumofmining.org.
-2. Catchpoole, D., [Speedy stone](https://creation.com/speedy-stone), _Creation_ **32**(3):33, 2010; creation.com/speedy-stone.
+2. Catchpoole, D., [Speedy stone](https://creation.com/speedy-stone), *Creation* **32**(3):33, 2010; creation.com/speedy-stone.

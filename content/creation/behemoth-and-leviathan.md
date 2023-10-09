@@ -16,7 +16,7 @@ spotify: ""
 hearthis: ""
 youtube: ""
 status: "published"
-creationLink: "https://creation.com/%D8%A8%D9%8E%D9%87%D9%90%D9%8A%D9%85%D9%8F%D9%88%D8%AB-%D9%88%D9%84%D9%8E%D9%88%D9%90%D9%8A%D9%8E%D8%A7%D8%AB%D9%8E%D8%A7%D9%86"
+creationLink: "https://creation.com/a/13014"
 authors:
   - name: "Mart-Jan Paul"
     link: "https://creation.com"
@@ -246,5 +246,3 @@ _16- Histories_, **II**, p. 68.
 41- J.E. Hartley indicates that behemoth possibly symbolizes natural powers that can cause destruction in specific regions (earthquakes, floods), while leviathan represents the cosmic evil powers that, from time to time, can disrupt life on Earth. See Hartley, J.E., Theology of Job, *NIDOTTE* **4**:780–796, 1997; p. 791.
 
 42- Morris, H.M., *The Remarkable Record of Job*, Baker, Grand Rapids, MI, 1988.
-
----

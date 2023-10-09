@@ -1,25 +1,23 @@
 ---
 title: ".ويكيبيديا، مصدر مشكوك فيه، ولكن أداة لقمع المخالفين بالرأي"
 date: "2019-01-15"
-categories: 
+categories:
   - "قضيّة-الخلق"
   - "التطور-ونتائجه"
-tags: 
+tags:
   - "منطق"
   - "علوم"
 coverImage: "wiki.jpg"
-spotify: ""
-hearthis: ""
+spotify: "https://open.spotify.com/episode/3l0cMeh1JuDQwT2kQaBh7x?si=Pgn20K5NQSGZxyPXooeOkQ"
+hearthis: "https://hearthis.at/5392055/"
 youtube: ""
 status: "published"
-creationLink: ""
+creationLink: "https://creation.com/a/12976"
 authors:
-  - name: ""
-    link: ""
-description: ""
+  - name: "Paul Price"
+    link: "https://creation.com/paul-price"
+description: "تُعتبر ويكيبيديا من أكثر الموسوعات الرقمية استخدامات، ولكن يوجد جانب مظلم لهذه الموسوعة."
 ---
-
-https://hearthis.at/5392055/
 
 منذ انطلاقته، كان ويكيبيديا موقعأً مثيراً للجدل، يعاني من الكثير من المشاكل، وأكبرها هو القلق الحقيقي من المُحتوى المتحيِّز وغير الدقيق.1 وهذه ليست بمشكلة صغيرة للإنترنت بشكل عامّ، حيث أنَّ ويكيبيديا أصبحت تشكل مصدراً موَجهاً على كافّة الأصعدة تقريباً، حيث أنها تظهر كواحدة من أفضل النتائج في نسبة عالية جداً من عمليات البحث عبر غوغل.2
 
@@ -79,44 +77,25 @@ https://hearthis.at/5392055/
 
 إن المشاكل التي تعاني منها ويكيبيديا هي مجرد عارض من أعراض الصِّراع الأكبر المُستمر منذ فترة تسبق تواجد ويكيبيديا نفسها. وبمعونة الله، دعونا نقوم بدورنا بتقديم والدفاع عن الحقيقية التي يحملها الكتاب المقدس وإنجيل يسوع المسيح للعالم، وذلك بكلّ وسيلة ممكنة.
 
-[المقال من الموقع الرسمي creation.com](https://creation.com/wikipedia-arabic)
-
-* * *
+---
 
 ### مراجع
 
-1- Fletcher, D., A Brief History of Wikipedia, content.time.com, 18 August 2009.
-
-2- Petrilli, M., Wikipedia or Wickedpedia? Assessing the online encyclopedia’s impact on K-12 education, educationnext.org, 2008.
-
-3- Grunin, L., Wikipedia says vandals caused Google to display Nazism as GOP ideology, cnet.com, 1 June 2018.
-
-4- See ref. 2.
-
-5- Glott, R., Schmidt, P., Ghosh, R., Wikipedia Survey - Overview of Results, UNU-MERIT, 28 August 2011; quoted at Wikipedia:Wikipedians, en.wikipedia.org, Accessed 6 June 2018.
-
-6- Jones, Robert P., Daniel Cox, Betsy Cooper, and Rachel Lienesch. “Exodus: Why Americans Are Leaving Religion – and Why They’re Unlikely to Come Back”, PRRI.org, 22 September 2016.
-
-7- Sherwood, H., ‘Christianity as default is gone’: the rise of a non-Christian Europe, theguardian.com, 20 March 2018.
-
-8- Gross, R., Evolution Is Finally Winning Out Over Creationism, slate.com, 19 November 2015.
-
-٩- تعتمد النظرية هذه على الإجماع العام للمراقبين بغضّ النظر عن الخبرة أو العدد، أو يمكن اعتبارها انعكاس للقبول العام.
-
-10 Wikipedia:Fringe theories, en.wikipedia.org, Accessed 6 June 2018.
-
-11- For one example of this, which confirms the predictions of Sanford’s Genetic Entropy, See Carter, R. and Sanford, J., A new look at an old virus: patterns of mutation accumulation in the human H1N1 influenza virus since 1918, Theor Biol Med Model., 2012 Oct 12, doi: 10.1186/1742-4682-9-42
-
-12- Creation science, en.wikipedia.org, Accessed 6 June 2018.
-
-13- Wikipedia:Neutral point of view, en.wikipedia.org, Accessed 7 June 2018.
-
-14- Nov, O., What Motivates Wikipedians?, Communications of the ACM, 2007, 50 (11): 60–64, doi:10.1145/1297797.1297798; quoted at Wikipedia:Wikipedians, en.wikipedia.org, Accessed 6 June 2018.
-
-15- See Jonathan Sarfati, en.wikipedia.org, accessed 11 June 2018.
-
-16- Comment from user ‘Guy Macon’, Talk:Jonathan Sarfati, en.wikipedia.org, accessed 11 June 2018.
-
-١٧- مغالطة ليس من إسكتلندي حقيقي، بالتعريف من موقع logicalfallacies.info هي ”شكل من أشكال الجدل الدائري، مع الافتراض بأن الاعتقاد القائم هو صحيح وذلك من أجل رفض أي أمثلة مضادة وواضحة له. وبذلك يصبح هذا الاعتقاد غير قابل للنقض.“
-
-18- See Tyranny of the Majority: Definition & Examples, study.com, Accessed 7 June 2018
+1. Fletcher, D., A Brief History of Wikipedia, content.time.com, 18 August 2009.
+2. Petrilli, M., Wikipedia or Wickedpedia? Assessing the online encyclopedia’s impact on K-12 education, educationnext.org, 2008.
+3. Grunin, L., Wikipedia says vandals caused Google to display Nazism as GOP ideology, cnet.com, 1 June 2018.
+4. See ref. 2.
+5. Glott, R., Schmidt, P., Ghosh, R., Wikipedia Survey - Overview of Results, UNU-MERIT, 28 August 2011; quoted at Wikipedia:Wikipedians, en.wikipedia.org, Accessed 6 June 2018.
+6. Jones, Robert P., Daniel Cox, Betsy Cooper, and Rachel Lienesch. “Exodus: Why Americans Are Leaving Religion – and Why They’re Unlikely to Come Back”, PRRI.org, 22 September 2016.
+7. Sherwood, H., ‘Christianity as default is gone’: the rise of a non-Christian Europe, theguardian.com, 20 March 2018.
+8. Gross, R., Evolution Is Finally Winning Out Over Creationism, slate.com, 19 November 2015.
+9. تعتمد النظرية هذه على الإجماع العام للمراقبين بغضّ النظر عن الخبرة أو العدد، أو يمكن اعتبارها انعكاس للقبول العام.
+10. Wikipedia:Fringe theories, en.wikipedia.org, Accessed 6 June 2018.
+11. For one example of this, which confirms the predictions of Sanford’s Genetic Entropy, See Carter, R. and Sanford, J., A new look at an old virus: patterns of mutation accumulation in the human H1N1 influenza virus since 1918, Theor Biol Med Model., 2012 Oct 12, doi: 10.1186/1742-4682-9-42
+12. Creation science, en.wikipedia.org, Accessed 6 June 2018.
+13. Wikipedia:Neutral point of view, en.wikipedia.org, Accessed 7 June 2018.
+14. Nov, O., What Motivates Wikipedians?, Communications of the ACM, 2007, 50 (11): 60–64, doi:10.1145/1297797.1297798; quoted at Wikipedia:Wikipedians, en.wikipedia.org, Accessed 6 June 2018.
+15. See Jonathan Sarfati, en.wikipedia.org, accessed 11 June 2018.
+16. Comment from user ‘Guy Macon’, Talk:Jonathan Sarfati, en.wikipedia.org, accessed 11 June 2018.
+17. مغالطة ليس من إسكتلندي حقيقي، بالتعريف من موقع logicalfallacies.info هي ”شكل من أشكال الجدل الدائري، مع الافتراض بأن الاعتقاد القائم هو صحيح وذلك من أجل رفض أي أمثلة مضادة وواضحة له. وبذلك يصبح هذا الاعتقاد غير قابل للنقض.“
+18. See Tyranny of the Majority: Definition & Examples, study.com, Accessed 7 June 2018

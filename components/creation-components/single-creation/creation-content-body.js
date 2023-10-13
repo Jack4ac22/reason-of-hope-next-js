@@ -7,6 +7,7 @@ import ReactPlayer from "react-player/lazy";
 import { Spotify } from "react-spotify-embed";
 import YouTubeEmbed from "../../iframes/youtube-component";
 import ModalImage from "../../general-compenents/modal-image";
+import ModalURL from "../../general-compenents/modal-url";
 
 export default function CreationContentBody(props) {
   const { creation } = props;
@@ -30,12 +31,19 @@ export default function CreationContentBody(props) {
       // console.log(listItem);
       return <li className="text-break">{listItem.children}</li>;
     },
-    // a(anchor) {
-    //   // TODO: on Click of Bible Verse display the verse. from local json file.
-    //   // TODO: on Click of a link open a pop up and display the page.
-    //   // check if anchor.children is an array or not.
-    //  TODO: if the link is to an external site open in a new tab.
-    // },
+    a(anchor) {
+      // console.log(anchor.href);
+      // return ModalURL((anchor = anchor));
+      return (
+        <>
+          <a href={anchor.href} target="_blank">{anchor.children[0]}</a>
+        </>
+      );
+      // TODO: on Click of Bible Verse display the verse. from local json file.
+      // TODO: on Click of a link open a pop up and display the page.
+      // check if anchor.children is an array or not.
+      //  TODO: if the link is to an external site open in a new tab.
+    },
     hr() {
       return <hr className="m-6" />;
     },

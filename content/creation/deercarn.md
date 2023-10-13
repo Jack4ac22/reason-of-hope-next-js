@@ -44,14 +44,14 @@ description: "أكل اللحوم هو أسلوب حياة اختياريّ - ح
 
 3- Bittel, J., The violence of the lambs: animal vegetarians who dabble in flesh, earthtouchnews.com, 23 January 2015.
 
-4- See [creation.com/carnivory](/death-and-suffering-questions-and-answers#carnivory).
+4- See [creation.com/carnivory](https://creation.com/death-and-suffering-questions-and-answers#carnivory).
 
 5- Wild panda spotted eating meat in China, telegraph.co.uk, 30 December 2011.
 
-6- See Sarfati, J., [When did animals become carnivorous?](/animal-carnivory-began-at-fall) creation.com/carnivory-fall, 31 August 2014.
+6- See Sarfati, J., [When did animals become carnivorous?](https://creation.com/animal-carnivory-began-at-fall) creation.com/carnivory-fall, 31 August 2014.
 
-7- Catchpoole, D., [Skeptics challenge: a ‘God of love’ created a killer jellyfish?](/skeptics-challenge-a-god-of-love-created-a-killer-jellyfish)_Creation_**25**(4):34–35, 2003; creation.com/killer-jellyfish.
+7- Catchpoole, D., [Skeptics challenge: a ‘God of love’ created a killer jellyfish?](https://creation.com/skeptics-challenge-a-god-of-love-created-a-killer-jellyfish)_Creation_**25**(4):34–35, 2003; creation.com/killer-jellyfish.
 
-8- Gurney, R., [The carnivorous nature and suffering of animals](/the-carnivorous-nature-and-suffering-of-animals), _Journal of Creation_**18**(3):70–75, 2004; creation.com/carniv.
+8- Gurney, R., [The carnivorous nature and suffering of animals](https://creation.com/the-carnivorous-nature-and-suffering-of-animals), _Journal of Creation_**18**(3):70–75, 2004; creation.com/carniv.
 
-9- Cosner, L. and Bates, G., [The new earth: Christ’s victory over the Fall](/new-earth), creation.com/new-earth, 20 April 2014.
+9- Cosner, L. and Bates, G., [The new earth: Christ’s victory over the Fall](https://creation.com/new-earth), creation.com/new-earth, 20 April 2014.

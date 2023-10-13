@@ -36,4 +36,4 @@ description: "قد ننتمي إلى أعراق مُختلفة، وقد نُول
 2. See Batten, D., (Ed.), [_The Creation Answers Book_](https://creation.com/%D9%83%D8%AA%D8%A7%D8%A8-%D8%A7%D9%84%D8%A3%D8%AC%D9%88%D8%A8%D8%A9-%D8%A7%D9%84%D8%AE%D9%84%D9%82), الفصل ١٨, Creation Book Publishers; creation.com/كتاب-الأجوبة-الخلق.
 3. For more detail, see Wieland, C., [_One Human Family_](https://creation.com/s/10-2-578), Ch. 2, Creation Book Publishers, 2011; creation.com/s/10-2-578.
 4. Wieland, Ref. 3, Ch. 1.
-5. See also Batten, D., [Adam and Noah: two beginnings](https://creation.com/adam-and-noah), *Creation* **34**(1):12–14, 2011; creation.com/adam-and-noah.
+5. See also Batten, D., [Adam and Noah: two beginnings](https://creation.com/adam-and-noah), Creation **34**(1):12–14, 2011; creation.com/adam-and-noah.

@@ -81,4 +81,4 @@ description: "دراسة حديثة تناولت تحلل جثث التماسي�
 3. Syme and Salisbury, ref. 1, p 116.
 4. Syme and Salisbury, ref. 1, p 119.
 5. Syme and Salisbury, ref. 1, p 121.
-6. Garner, P., [Green river blues](/green-river-blues); creation.com/green-river-blues, especially ref. 8.
+6. Garner, P., [Green river blues](https://creation.com/green-river-blues); creation.com/green-river-blues, especially ref. 8.

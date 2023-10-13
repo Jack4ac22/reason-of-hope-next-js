@@ -62,7 +62,7 @@ description: "هناك الكثير من الاختلاف حول عدد العص
 
 ### مراجع
 
-1. See Vallorani, B., [Movie Review: The Day After Tomorrow](/movie-review-the-day-after-tomorrow); creation.com/day-after-tomorrow. 31 May 2004.
+1. See Vallorani, B., [Movie Review: The Day After Tomorrow](https://creation.com/movie-review-the-day-after-tomorrow); creation.com/day-after-tomorrow. 31 May 2004.
 2. Old-earth scientists typically argue for a total of five major glaciation events: the Huronian, the Cryogenian, the Andean-Saharan, the Karoo, and the Quaternary (or Pleistocene); see Marshall, M., The history of ice on Earth; newscientist.com, 24 May 2010.
 3. Jones, N., Evidence found for planet-cooling asteroid; nature.com, 2 September 2013.
 4. Ambrose, S.H., Late Pleistocene human population bottlenecks, volcanic winter, and differentiation of modern humans, _Journal of Human Evolution_ **34**(6):623–651, June 1998.
@@ -72,13 +72,13 @@ description: "هناك الكثير من الاختلاف حول عدد العص
 8. Abe-Ouchi, A., Saito, F., Kawamura, K., Raymo, M. E., Okuno, J., Takahashi, K., and Blatter, H., Insolation-driven 100,000-year glacial cycles and hysteresis of ice-sheet volume, _Nature_ **500**(7461):190–193, 8 August 2013.
 9. Zimmermann, K.A., Pleistocene epoch: Facts about the last ice age; livescience.com, 9 October 2013.
 10. University of Exeter, Direct evidence for a positive feedback in climate change: Global warming itself will likely accelerate warming; sciencedaily.com, 30 March, 2015.
-11. Oard, M.J., [Wild ice-core interpretations by uniformitarian scientists](/wild-ice-core-interpretations-by-uniformitarian-scientists), _J. Creation_ **16**(1):45–47, April 2002; Sibley, A., [Likely causes of the Ice Age](/images/pdfs/tj/j18_2/j18_2_83-90.pdf), _J. Creation_ **18**(2): 83–90, August 2004.
-12. Walker, T., The Geologic Record; in: [_Evolution’s Achilles’ Heels_](/s/35-5-558), (Ed.) Robert Carter, Creation Book Publishers, Powder Springs, GA, p. 188, 2014.
+11. Oard, M.J., [Wild ice-core interpretations by uniformitarian scientists](https://creation.com/wild-ice-core-interpretations-by-uniformitarian-scientists), _J. Creation_ **16**(1):45–47, April 2002; Sibley, A., [Likely causes of the Ice Age](https://creation.com/images/pdfs/tj/j18_2/j18_2_83-90.pdf), _J. Creation_ **18**(2): 83–90, August 2004.
+12. Walker, T., The Geologic Record; in: [_Evolution’s Achilles’ Heels_](https://creation.com/s/35-5-558), (Ed.) Robert Carter, Creation Book Publishers, Powder Springs, GA, p. 188, 2014.
 13. The need for “a complicated dynamic interaction” between several climatic and geographic features was noted by an old-earth scientist in Maasch, K.A., What triggers ice ages? pbs.org, 1 January 1997.
 14. Biello, D., What thawed the last ice age? scientificamerican.com, 4 April 2012.
 15. Oard, M.J., _Ancient Ice Ages or Gigantic Submarine Landslides?_ Creation Research Society Books, Chino Valley, AZ, 1997; Molén, M., Diamictites: ice-ages or gravity flows? in Walsh, R. E. and Brooks, C. L. (Eds.), _Proceedings of the Second International Conference on Creationism_, Creation Science Fellowship, Pittsburgh, PA, pp. 177–190, 1990.
 16. Oard, M.J., _An Ice Age Caused by the Genesis Flood_, Technical Monograph, Institute for Creation Research, El Cajon, CA, pp. 135–149, 1990; Snelling, A. A., _Earth’s Catastrophic Past: Geology, Creation, & the Flood \[Volume 2\]_, Institute for Creation Research, Dallas, TX, 773–778, 2009.
-17. Gallop, R.G., [_Evolution: The Greatest Deception in Modern History_](/s/10-2-686), Red Butte Press, Jacksonville, FL, p. 72, 2011.
+17. Gallop, R.G., [_Evolution: The Greatest Deception in Modern History_](https://creation.com/s/10-2-686), Red Butte Press, Jacksonville, FL, p. 72, 2011.
 18. Sheldrick, G., Scientist predicts earth is heading for another Ice Age; express.co.uk, 29 March 2013.
 19. Edmonds, M., Will there be a new Ice Age? geography.howstuffworks.com, accessed 24 May 2015.
 20. Weaver, A.J., and Hillaire-Marcel, C., Global warming and the next Ice Age, _Science_ **304**(5669):400–402, 16 April 2004.

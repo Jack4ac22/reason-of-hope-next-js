@@ -45,6 +45,8 @@ description: "أكبر بركان منفرد في العالم قد تشكل خ�
 
 > أقْطَعُ عَهْدِي مَعَكُمْ بِأَنْ لَا يُبِيدَ الطُّوفَانُ كُلَّ ذِي جَسَدٍ ثَانِيَةً، وَأَنْ لَا يَكُونَ هُنَاكَ طُوفَانٌ لِيَقْضِيَ عَلَى الْحَيَاةِ فِي الأَرْضِ».
 
+---
+
 ### مراجع
 
 1. Walker, T., Perth, [Western Australia—Recessive Stage of Flood began in the mid-Cretaceous and eroded kilometres of sediment from continent](https://creation.com/images/pdfs/tj/j28_1/j28_1_84-90.pdf), *Journal of Creation* **28**(1):84–90, 2014.

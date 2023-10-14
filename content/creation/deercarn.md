@@ -13,7 +13,7 @@ spotify: "https://open.spotify.com/episode/2XEczz5FFSGdNzBV7sa2Yh"
 hearthis: "https://hearthis.at/5390201/"
 youtube: ""
 status: "published"
-creationLink: "https://creation.com/a/13134"
+creationLink: "https://creation.com/a/12974"
 authors:
   - name: "Paul Price"
     link: "https://creation.com/paul-price"

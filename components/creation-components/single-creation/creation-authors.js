@@ -7,7 +7,7 @@ export default function CreationAuthors(props) {
       {authors.map((author) => (
         <div key={author.name} className="badge text-bg-light">
           <a
-            href={author.link ? author.link : "www.creation.com"}
+            href={author.link ? author.link : "#"}
             key={author.name}
             target="_blank"
             className="text-decoration-none btn"

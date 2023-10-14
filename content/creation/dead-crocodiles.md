@@ -13,7 +13,7 @@ spotify: ""
 hearthis: ""
 youtube: ""
 status: "published"
-creationLink: "https://creation.com/%D8%AA%D8%AD%D9%84%D9%84-%D8%AC%D8%AB%D8%AB-%D8%A7%D9%84%D8%AA%D9%85%D8%A7%D8%B3%D9%8A%D8%AD"
+creationLink: "https://creation.com/a/13134"
 authors:
   - name: "Ron Neller"
     link: "https://creation.com/dr-ron-neller"

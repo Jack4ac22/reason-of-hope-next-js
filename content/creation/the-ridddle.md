@@ -13,10 +13,10 @@ spotify: ""
 hearthis: ""
 youtube: ""
 status: "published"
-creationLink: ""
+creationLink: "https://creation.com/a/13146"
 authors:
-  - name: ""
-    link: ""
+  - name: "Jean Lightner"
+    link: "https://creation.com/dr-jean-lightner"
 description: "ما هو الأمر الذي يزيد كلّما نَقِصَ؟"
 ---
 

@@ -13,7 +13,7 @@ spotify: "https://open.spotify.com/episode/5xSncnBA3QNTGtxmMsrHk0?si=dkapwFOpRKq
 hearthis: "https://hearthis.at/reasonofope/oceans-speks/"
 youtube: ""
 status: "published"
-creationLink: "https://wasp.creation.com/webteam/manage_article/15070#:~:text=https%3A//creation.com/a/15070"
+creationLink: "https://creation.com/a/15070"
 authors:
   - name: "Paul Price"
     link: "https://creation.com/paul-price"

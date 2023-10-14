@@ -13,7 +13,7 @@ spotify: ""
 hearthis: ""
 youtube: ""
 status: "published"
-creationLink: "https://creation.com/%D8%AA%D8%AD%D9%84%D9%84-%D8%AC%D8%AB%D8%AB-%D8%A7%D9%84%D8%AA%D9%85%D8%A7%D8%B3%D9%8A%D8%AD"
+creationLink: "https://creation.com/a/13134"
 authors:
   - name: "Ron Neller"
     link: "https://creation.com/dr-ron-neller"
@@ -81,4 +81,4 @@ description: "دراسة حديثة تناولت تحلل جثث التماسي�
 3. Syme and Salisbury, ref. 1, p 116.
 4. Syme and Salisbury, ref. 1, p 119.
 5. Syme and Salisbury, ref. 1, p 121.
-6. Garner, P., [Green river blues](/green-river-blues); creation.com/green-river-blues, especially ref. 8.
+6. Garner, P., [Green river blues](https://creation.com/green-river-blues); creation.com/green-river-blues, especially ref. 8.

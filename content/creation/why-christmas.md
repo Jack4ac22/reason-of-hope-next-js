@@ -17,7 +17,7 @@ spotify: "https://open.spotify.com/episode/3xeIOI2YCawrnZq1GHZXEU?si=iPsJcs91Qji
 hearthis: ""
 youtube: ""
 status: "published"
-creationLink: "https://creation.com/a/6594"
+creationLink: "https://creation.com/a/15625"
 authors:
   - name: "Russell Grigg"
     link: "https://creation.com/russell-m-griggs-biography"

@@ -62,7 +62,7 @@ description: "هل من المطلوب أن نقوم بتقديم دلائل ع�
 
 ### مراجع
 
-1. See Halley, K., [Archaeology supports the Bible](/archaeology-supports-the-bible), creation.com/archaeology-supports-bible, 28 January 2017.
-2. [Archaeologist confirms creation and the Bible: Interview with archaeologist Dr Clifford Wilson](/archaeologist-confirms-creation-and-the-bible) … by Dr Carl Wieland, _Creation_**14**(4):46–50, 1992; creation.com/clifford-wilson.
-3. Cosner, L., [The lead codices—this year’s ‘Gospel of Judas’?](/lead-codices) creation.com/lead-codices, 17 April 2011.
-4. Cosner, L., [Did Jesus have a wife?](/gospel-jesus-wife) creation.com/gospel-jesus-wife, 7 July 2016.
+1. See Halley, K., [Archaeology supports the Bible](https://creation.com/archaeology-supports-the-bible), creation.com/archaeology-supports-bible, 28 January 2017.
+2. [Archaeologist confirms creation and the Bible: Interview with archaeologist Dr Clifford Wilson](https://creation.com/archaeologist-confirms-creation-and-the-bible) … by Dr Carl Wieland, _Creation_**14**(4):46–50, 1992; creation.com/clifford-wilson.
+3. Cosner, L., [The lead codices—this year’s ‘Gospel of Judas’?](https://creation.com/lead-codices) creation.com/lead-codices, 17 April 2011.
+4. Cosner, L., [Did Jesus have a wife?](https://creation.com/gospel-jesus-wife) creation.com/gospel-jesus-wife, 7 July 2016.

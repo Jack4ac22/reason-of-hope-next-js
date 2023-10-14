@@ -15,7 +15,7 @@ spotify: "https://open.spotify.com/episode/1Vmf9O2muLiyp41Pf2SBRM?si=12c382e7646
 hearthis: "https://hearthis.at/5238144/"
 youtube: ""
 status: "published"
-creationLink: ""
+creationLink: "https://creation.com/a/14798"
 authors:
   - name: "David Down"
     link: "https://creation.com/david-down"

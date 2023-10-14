@@ -70,13 +70,20 @@ export default function ShareIt({
             <TelegramIcon size={32} round />
           </TelegramShareButton>
 
-          <EmailShareButton
+          {/* <EmailShareButton
             onClick={toggleSharing}
-            url={url}
+            // url={url}
             subject={title}
             body={`يُقدِّم موقع سبب الرجاء الكثير من الدراسات المجانية التي تهدف إلى مساعدة المؤمنين في التعرف على الكتاب المقدس والدفاع عنه.\n ${
               description ? "هذا المنشور يُقدِّم:" + description : ""
             } \n المجد لله دائماً.`}
+          >
+            <EmailIcon size={size} round={round} />
+          </EmailShareButton> */}
+
+          <EmailShareButton
+            subject={`Check out what I did on GoodWerk`}
+            body={`يُقدِّم موقع سبب الرجاء الكثير من الدراسات المجانية التي تهدف إلى مساعدة المؤمنين في التعرف على الكتاب المقدس والدفاع عنه.\n  ${title}: ${url}  \n المجد لله دائماً.`}
           >
             <EmailIcon size={size} round={round} />
           </EmailShareButton>

@@ -35,13 +35,16 @@ export default function ModalImage(props) {
               width={isFullWidth ? 800 : 400}
               height={isFullWidth ? 500 : 250}
               className="img-fluid"
+              style={{ objectFit: "contain" }}
             />
             {/* <img
             src={`/blog-images/${image.src}`}
             className={"w-100 img-fluid"}
           /> */}
 
-            <figcaption calssName="figure-caption">{image.alt}</figcaption>
+            <figcaption calssName="figure-caption text-break">
+              {image.alt}
+            </figcaption>
           </figure>
         </button>
       </div>

@@ -13,7 +13,7 @@ spotify: "https://open.spotify.com/episode/2YJf8helkvaJNcLVTBxBaa?si=XWSPDCOTThS
 hearthis: "https://hearthis.at/reasonofope/genesis-nt/VZ8"
 youtube: ""
 status: "published"
-creationLink: ""
+creationLink: "https://creation.com/a/15247"
 authors:
   - name: "Lita Sanders"
     link: "https://creation.com/lita-sanders"

@@ -44,9 +44,10 @@ description: "ما هي العلاقة بين نسبة النيكل في الم�
 
 إن الحسابات المذكورة في الجدول أعلاه تفترض عدم استخراج النيكل من المحيط. وهذا الإفتراض ليس صحيحاً تماماً. إذ يوجد في قاع المحيطات كتل معدنية تُسَمَّى عُقيدات المنغنيز (بشكل كريات)، تتكون بالغالب من المنغنيز والحديد. وتحتوي أيضاً على معادن أُخرى بما في ذلك النيكل. ويُظهر تحليل هذه العُقيدات إلى أنها تحتوي على ما بين ١,٢٥٪ و ١,٥٪ من النيكل، ويُقَدَّر وجود ٥٠٠ مليار طن متري في قاع البحر.7 وهكذا يُصبح السؤال، كم يبلغ عدد السنوات التي ستحتاج إليها الأنهار، في حال ذهب كل النيكل إلى هذه العُقَيدات بدلاً من المحيط. الجواب هو ١٣٣٠٠٠ سنة (انظر الجدول). لذا فعلى الرغم من أن هذه العُقَيدات تحتوي على الكثير من النيكل، إلا أن هذا غير كافي لمنع البحر من أن يُصبح سامّاً على مدار بضعة ملايين من السنوات.
 
-![سنتيمتر مكعب من النيكل، بجوار عُقَيدة النيكل المستخدمة في عملية التنقية لاستخراج النيكل](nickel.jpg)
 
 هل من الممكن أن يكون النيكل قد انتهى إلى مكان آخر؟ يدَّعي علماء الجيولوجيا (المؤمنين بقِدَم عُمر الأرض) أن الصفائح التكتونيّة ’بحسب الزمن الجيولوجي‘ ستقوم بدفن \[طَمْر\] رواسب قاع البحر إلى مناطق \[طبقات\] أعمق في \[الطبقة السفلية للأرض المدعوة\] الوِشاح. لذلك فإنه من الممكن أن يكون قد تم إزالة النيكل من بيئة المحيطات. إلا أن العمر المقبول لأرضيات المحيطات التي قد تكون دُفِنَت \[أُبعِدَت إلى طبقات أدنى\] لا يزيد عن ٢٠٠ مليون سنة.8 وبالتالي فهذا لا يعتبر كافياً لإزالة النيكل من العقيدات التي في قاع البحر،ذلك بالمقارنةً مع كميات النيكل التي تدخل إلى المحيطات.
+
+![سنتيمتر مكعب من النيكل، بجوار عُقَيدة النيكل المستخدمة في عملية التنقية لاستخراج النيكل](nickel.jpg)
 
 وبالتالي فإن مستوى النيكل في المحيط يقدِّم إشارة إلى محيط حديث العهد، وبالتالي أرض حديثة العهد أيضاً. وعلى الرغم من أن النيكل يتجمع ضمن العقيدات المتجمعة في قاع المحيطات، إلا أن هذا ليس كافٍ لتثبيط ارتفاع منسوب سُمَيَّة النيكل في مياه البحر. علاوة على ذلك، فإن \[مُعدل\] دفن النيكل من قاع المحيطات ليس بالسرعة الكافية لإزالة مستويات مرتفعة من النيكل. ومن هذا التحليل، فإننا نتوجه إلى الاستنتاج القائل بأن المحيطات إنما هي حديثة العهد.
 
@@ -58,19 +59,19 @@ description: "ما هي العلاقة بين نسبة النيكل في الم�
 
 تُشَكِّل كميات النيكل في المحيطات أحد الأمثلة على أن الافتراضات ذات (الوتيرة الواحدة) الخاصّة بأنصار التطور كافية لتقويض إيمانهم بِقدم العمر (ملايين السنين).10
 
-![لون مختلف مركبات النيكل الثنائي في محاليل مائيّة من اليسار إلى اليمين: +Ni(NH3)6]2+, [Ni(en)3]2+, [NiCl4]2-, [Ni(H2O)6]2]. full](aqueous-solution.jpg)
+![لون مختلف مركبات النيكل الثنائي في محاليل مائيّة من اليسار إلى اليمين: +Ni\(NH3\)6\]2+, [Ni(en)3]2+, [NiCl4]2-, [Ni(H2O)6]2\]. full](aqueous-solution.jpg)
+
+---
 
 ### مراجع
 
-- Sarfati, J., [Salty seas: Evidence for a young earth](/salty-seas-evidence-for-a-young-earth), _Creation_ **21**(1):16–17, 1998; creation.com/salty.
-- Austin, S.A., and Humphreys, D.R., The sea’s missing salt: a dilemma for evolutionists, _Proceedings of the Second International Conference on Creationism_, Vol. II, pp. 17–33, 1990.
-- To be precise, µg/litre (micrograms per litre), which is used in the calculation, but PPB is very close. Source: WHO Europe, _Air Quality Guidelines for Europe_, Second Edition, Chapter 6.10 Nickel, p. 162, 2000; euro.who.int.
-- Baralkiewicz, B., and Siepak, J., Chromium, nickel and cobalt in environmental samples and existing legal norms, _Polish Journal of Environmental Studies_ **8**(4):201–208, 1999; pjoes.com.
-- Shiklomanov, I., World fresh water resources: in: Gleick, P.H., (ed.), _Water in Crisis: A Guide to the World’s Fresh Water Resources_, Oxford University Press, New York, 1993; cited in water.usgs.gov/edu/earthwherewater.html, accessed 23 November 2015.
-- Cole, S., Codling, I.D., Parr, W., and Zabel, T., _Guidelines for Managing Water Quality Impacts within UK European Marine Sites: Appendix B, Nickel_, WRc Swindon, p. 186, 1999.
-- Parada, J., Feng, X., Hauerhof, E., Suzuki, R., Abubakar, U., The deep sea energy park: Harvesting hydrothermal energy for seabed exploration, _The LRET Collegium 2012 Series_, Vol. 3, University of Southampton, p. 8, 2012.
-- Luyendyk, B.P., Oceanic crust, _Encyclopaedia Britannica_, britannica.com/science/oceanic-crust, accessed 3 December 2015.
-- Cosner, L., [كيف يعلِّم الكتاب المقدس أن عمر الأرض يقرب من ٦٠٠٠ عام؟](/كيف-يعلم-الكتاب-المقدس-عمر-الأرض-٦٠٠٠) _Creation_ **35**(1):54–55.
-- Batten, D., [Age of the earth: 101 evidences for a young age of the earth and the universe](/age-of-the-earth), creation.com/age, 4 June 2009.
-
----
+1. Sarfati, J., [Salty seas: Evidence for a young earth](https://creation.com/a/13020), _Creation_ **21**(1):16–17, 1998; creation.com/salty.
+2. Austin, S.A., and Humphreys, D.R., The sea’s missing salt: a dilemma for evolutionists, _Proceedings of the Second International Conference on Creationism_, Vol. II, pp. 17–33, 1990.
+3. To be precise, µg/litre (micrograms per litre), which is used in the calculation, but PPB is very close. Source: WHO Europe, _Air Quality Guidelines for Europe_, Second Edition, Chapter 6.10 Nickel, p. 162, 2000; euro.who.int.
+4. Baralkiewicz, B., and Siepak, J., Chromium, nickel and cobalt in environmental samples and existing legal norms, _Polish Journal of Environmental Studies_ **8**(4):201–208, 1999; pjoes.com.
+5. Shiklomanov, I., World fresh water resources: in: Gleick, P.H., (ed.), _Water in Crisis: A Guide to the World’s Fresh Water Resources_, Oxford University Press, New York, 1993; cited in water.usgs.gov/edu/earthwherewater.html, accessed 23 November 2015.
+6. Cole, S., Codling, I.D., Parr, W., and Zabel, T., _Guidelines for Managing Water Quality Impacts within UK European Marine Sites: Appendix B, Nickel_, WRc Swindon, p. 186, 1999.
+7. Parada, J., Feng, X., Hauerhof, E., Suzuki, R., Abubakar, U., The deep sea energy park: Harvesting hydrothermal energy for seabed exploration, _The LRET Collegium 2012 Series_, Vol. 3, University of Southampton, p. 8, 2012.
+8. Luyendyk, B.P., Oceanic crust, _Encyclopaedia Britannica_, britannica.com/science/oceanic-crust, accessed 3 December 2015.
+9. Cosner, L., [كيف يعلِّم الكتاب المقدس أن عمر الأرض يقرب من ٦٠٠٠ عام؟](https://creation.com/كيف-يعلم-الكتاب-المقدس-عمر-الأرض-٦٠٠٠) _Creation_ **35**(1):54–55.
+10. Batten, D., [Age of the earth: 101 evidences for a young age of the earth and the universe](https://creation.com/age-of-the-earth), creation.com/age, 4 June 2009.

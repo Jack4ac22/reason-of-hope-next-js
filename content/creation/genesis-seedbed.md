@@ -17,7 +17,7 @@ spotify: ""
 hearthis: ""
 youtube: ""
 status: "published"
-creationLink: "https://creation.com/genesis-theseedbed-arabic"
+creationLink: "https://creation.com/a/15452"
 authors:
   - name: "Russell Grigg"
     link: "https://creation.com/russell-m-griggs-biography"

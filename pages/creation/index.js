@@ -1,11 +1,6 @@
 import Head from "next/head";
 import CreationCardsList from "../../components/creation-components/creation-cards-list";
-import Link from "next/link";
-import {
-  // getAllCreationsCategories,
-  // getCreationArticlesByCategory,
-  getAllCreationArticles,
-} from "../../utilities/creation-functions";
+import { getAllCreationArticles } from "../../utilities/creation-functions";
 
 export default function AllCreationArticlePage(props) {
   const creationArticles = props.creationArticles;
@@ -38,6 +33,7 @@ export async function getStaticProps(props) {
   //   category.articles = articlesByCategory;
   // });
   const allArticlesByTitle = getAllCreationArticles("slug");
+  // const articlesByTag = getCreationArticlesByTag("الخلق");
 
   return {
     props: {

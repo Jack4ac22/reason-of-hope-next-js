@@ -21,7 +21,7 @@ creationLink: "https://creation.com/a/15625"
 authors:
   - name: "Russell Grigg"
     link: "https://creation.com/russell-m-griggs-biography"
-description: ""
+description: "ما هو السبب الذي يقف وراء الإحتفال بالميلاد؟ ولماذا في الخامس والعشرين من كانون الأول/ديسمبر؟"
 ---
 
 سجود الرعاة، كما صَوَّره رسام العصر الذهبي الهولندي جيرار ڤان هونثورست في العام ١٦٢٢.

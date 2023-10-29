@@ -40,23 +40,23 @@ export default function CreationPagesList() {
   ];
   return (
     <>
-      <div className="container">
-        <div className="row">
+      <div className="container overflow-x-scroll ">
+        <div className="row justify-content-evenly ">
           {pages.map((page) => {
             return (
               <div key={page.title} className="col">
-                <div className="container">
-                  <div className="row">
+                <div className="container text-center">
+                  <div className="row ">
                     <Link href={page.path}>
-                      <div className="col">
+                      <div className="col align-self-center">
                         <Image
                           src={page.icon}
                           alt={`icon of: ${page.title} page`}
-                          width={100}
-                          height={100}
+                          width={75}
+                          height={75}
                         />
                       </div>
-                      <div className="col">
+                      <div className="col align-self-center">
                         <p className="h5">
                           {" "}
                           <span className="badge text-bg-light">

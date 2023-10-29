@@ -1,4 +1,5 @@
 import CarouselItems from "./carousel-item";
+import CarouselItemCard from "./carousel-item-card";
 export default function AutoplayingCarousel(props) {
   const articles = props.articles;
   const id = props.id;
@@ -7,16 +8,7 @@ export default function AutoplayingCarousel(props) {
     <>
       <div id={id} className="carousel slide" data-bs-ride="carousel">
         <div className="carousel-inner">
-          {/* <div className="carousel-item active">
-            <img src="/blog-images/032.jpg" className="d-block w-100" alt="..." />
-          </div>
-          <div className="carousel-item">
-            <img src="/blog-images/003-1.jpg" className="d-block w-100" alt="..." />
-          </div>
-          <div className="carousel-item">
-            <img src="/blog-images/130.jpg" className="d-block w-100" alt="..." />
-          </div> */}
-          <CarouselItems articles={articles} />
+          <CarouselItemCard articles={articles} />
         </div>
         <button
           className="carousel-control-prev"

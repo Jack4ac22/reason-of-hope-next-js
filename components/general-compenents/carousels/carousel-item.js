@@ -3,7 +3,7 @@ export default function CarouselItems(props) {
   return (
     <>
       {articles.map((article, index) => {
-        console.log(index);
+        // console.log(index);
         return (
           <div className="container">
             <div className="row">

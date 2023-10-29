@@ -54,7 +54,7 @@ export default function MainCreationOne(props) {
         </div>
       </section>
       <section className="rounded-4 border border-5 mt-3">
-        <div className="container mt-5 mb-5">
+        <div className="container mt-5 ">
           <div className="row justify-content-center">
             <div className="col-lg-6">
               <AutoplayingCarousel
@@ -62,7 +62,7 @@ export default function MainCreationOne(props) {
                 id="category_gospel"
               />
             </div>
-            <div className="col-md-6 mt-5 mb-5">
+            <div className="col-md-6 mt-5">
               <div>
                 <h3>الكتاب المُقدَّس والإنجيل</h3>
                 <p className="h5">

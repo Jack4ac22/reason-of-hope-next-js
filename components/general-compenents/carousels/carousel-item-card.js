@@ -2,7 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 export default function CarouselItemCard(props) {
   const articles = props.articles;
-  console.log(articles[0]);
   return (
     <>
       {articles.map((article, index) => {
@@ -29,9 +28,12 @@ export default function CarouselItemCard(props) {
                           <p class="card-text mt-3 text-white bg-dark text-center">
                             {article.description}
                           </p>
-                          <p class="card-text">
-                            {/* <small>Last updated 3 mins ago</small> */}
-                          </p>
+                          <Link
+                            href={`/creation/${article.slug}`}
+                            className="btn btn-sm btn-warning"
+                          >
+                            اقرأ هذا المنشور
+                          </Link>
                         </div>
                       </div>
                     </div>

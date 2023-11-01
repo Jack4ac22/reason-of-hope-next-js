@@ -1,10 +1,10 @@
 import Head from "next/head";
-import CreationContentPageComponent from "../../components/creation-components/single-creation/creation-content-page";
+import CreationContentPageComponent from "../../../components/creation-components/single-creation/creation-content-page";
 
 import {
   getCreationArticlesFiles,
   getCreationArticleData,
-} from "../../utilities/creation-functions";
+} from "../../../utilities/creation-functions";
 
 export default function CreationsArtilePage(props) {
   const { creationArticle } = props;

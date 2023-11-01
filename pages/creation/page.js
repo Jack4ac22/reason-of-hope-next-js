@@ -3,89 +3,56 @@ import {
   getAllCreationArticles,
   getCreationArticlesByCategory,
 } from "../../utilities/creation-functions";
-import AutoplayingCarousel from "../../components/general-compenents/carousels/Autoplaying-carousels";
-import CreationPagesList from "../../components/creation-components/creation-pages-list/creation-pages-list";
-import PageTitle from "../../components/general-compenents/page-title";
 
-import Link from "next/link";
-import Image from "next/image";
+import BiblicalWorldSection from "../../components/creation-components/creation-main-page-sections/biblical-world";
+import CreationAndGospelSection from "../../components/creation-components/creation-main-page-sections/creation-and-gospel";
+import CreationPagesList from "../../components/creation-components/creation-pages-list/creation-pages-list";
+import DinoDatingSection from "../../components/creation-components/creation-main-page-sections/dino-dating";
+import EvolutionEthicsSection from "../../components/creation-components/creation-main-page-sections/evolution-ethics";
+import ModernScinceSection from "../../components/creation-components/creation-main-page-sections/modern-scince";
+import CreationPageMainSection from "../../components/creation-components/creation-main-page-sections/creation-page-main-section";
+import PageTitle from "../../components/general-compenents/page-title";
 
 export default function MainCreationOne(props) {
   const creationArticles = props.creationArticles;
   const articlesByCategoryGospel = props.articlesByCategoryGospel;
+  const articlesByCategoryBiblicalWorld = props.articlesByCategoryBiblicalWorld;
+  const articlesByCategoryDino = props.articlesByCategoryDino;
+  const articlesByCategoryEvolution = props.articlesByCategoryEvolution;
+  const articlesByCategoryModernScince = props.articlesByCategoryModernScince;
 
   return (
     <>
       <PageTitle title="قضية الخلق" />
       <figure className="m-5">
-        <blockquote class="blockquote">
+        <blockquote className="blockquote">
           <p>فِي الْبَدْءِ خَلَقَ اللهُ السَّمَاوَاتِ وَالأَرْضَ</p>
         </blockquote>
-        <figcaption class="blockquote-footer">
+        <figcaption className="blockquote-footer">
           التكوين ١: ١ <cite title="Source Title">ترجمة البستاني ڤاندايك</cite>
         </figcaption>
       </figure>
 
       <CreationPagesList />
-      <section className="rounded-4 border border-5 mt-3">
-        <div className="container mt-3">
-          <div className="row justify-content-center">
-            <div className="col-md-6 mt-5 mb-5">
-              <Image
-                src="/creation-pages-images/pexels-photo-5199754.jpeg"
-                alt={`Image for a girl holding a Bible.`}
-                width={300}
-                height={300}
-                style={{ objectFit: "cover" }}
-              />
-            </div>
-            <div className="col-md-6 mt-5 mb-5">
-              <p className="h3">
-                إن قضيّة الخلق هي من القضايا المهمة التي تُشكل حجر عثرة أمام
-                الكثير من المؤمنين. لا تُبقي على تساؤلاتك دون إجابات!
-              </p>
-              <p className="h3">ابدأ الآن واطلب المساعدة.</p>
-              <Link href="/contact" className=" h4 btn btn-info m-5">
-                {" "}
-                اتصل بنا
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className="rounded-4 border border-5 mt-3">
-        <div className="container mt-5 ">
-          <div className="row justify-content-center">
-            <div className="col-lg-6">
-              <AutoplayingCarousel
-                articles={articlesByCategoryGospel}
-                id="category_gospel"
-              />
-            </div>
-            <div className="col-md-6 mt-5">
-              <div>
-                <h3>الكتاب المُقدَّس والإنجيل</h3>
-                <p className="h5">
-                  يتعرض الكتاب المقدس لهجمات ممنهجة من قِبَل العلمانيّين
-                  والمُتديّنين المُساومين، <b>إلا أنَّ كلمة الله لا تسقط</b>.
-                </p>
-                <p className="h5">
-                  تجدون ضمن هذه الفئة مجموعة المقالات المرتبطة بكيفية مُقاربة
-                  الكتاب المقدس بخصوص قضية الخلق بشكل خاصّ، بالإضافة إلى ارتباط
-                  هذه القضية بالبشرى الخلاصية بنعمة الله المجانية من خلال
-                  الإيمان بالفداء المجاني بالإيمان بالمسيح يسوع.
-                </p>
-                <Link
-                  href="/creation/creation-gospel"
-                  className=" h4 btn btn-info m-5"
-                >
-                  اقرأ مقالات هذه الفئة
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <CreationPageMainSection />
+
+      <CreationAndGospelSection
+        articlesByCategoryGospel={articlesByCategoryGospel}
+      />
+
+      <BiblicalWorldSection
+        articlesByCategoryBiblicalWorld={articlesByCategoryBiblicalWorld}
+      />
+
+      <DinoDatingSection articlesByCategoryDino={articlesByCategoryDino} />
+
+      <EvolutionEthicsSection
+        articlesByCategoryEvolution={articlesByCategoryEvolution}
+      />
+
+      <ModernScinceSection
+        articlesByCategoryModernScince={articlesByCategoryModernScince}
+      />
     </>
   );
 }
@@ -97,10 +64,30 @@ export async function getStaticProps(props) {
     getCreationArticlesByCategory("الكتاب-المقدس-والإنجيل"),
     3
   );
+  const articlesByCategoryBiblicalWorld = randomArticlesFromArray(
+    getCreationArticlesByCategory("العالم-التوراتي"),
+    3
+  );
+  const articlesByCategoryDino = randomArticlesFromArray(
+    getCreationArticlesByCategory("الديناصورات-والتأريخ"),
+    3
+  );
+  const articlesByCategoryEvolution = randomArticlesFromArray(
+    getCreationArticlesByCategory("التطور-ونتائجه"),
+    3
+  );
+  const articlesByCategoryModernScince = randomArticlesFromArray(
+    getCreationArticlesByCategory("علوم-معاصرة"),
+    3
+  );
   return {
     props: {
       creationArticles: randomArticles,
       articlesByCategoryGospel: articlesByCategoryGospel,
+      articlesByCategoryBiblicalWorld: articlesByCategoryBiblicalWorld,
+      articlesByCategoryDino: articlesByCategoryDino,
+      articlesByCategoryEvolution: articlesByCategoryEvolution,
+      articlesByCategoryModernScince: articlesByCategoryModernScince,
     },
   };
 }

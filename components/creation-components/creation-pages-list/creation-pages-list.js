@@ -40,7 +40,7 @@ export default function CreationPagesList() {
   ];
   return (
     <>
-      <div className="container overflow-x-scroll ">
+      <div className="container overflow-x-auto">
         <div className="row justify-content-evenly ">
           {pages.map((page) => {
             return (

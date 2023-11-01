@@ -14,9 +14,9 @@ export default function PageTitle(props) {
         <meta property="og:description" content={description} />
         <meta property="og:image" content={image} />
       </Head>
-      <div className="container text-center">
+      <div className="container text-center my-1">
         <div className="row">
-          <h1 className="col align-self-center m-5">{title}</h1>
+          <h1 className="display-3 fw-bold text-body-emphasis">{title}</h1>
         </div>
       </div>
     </>

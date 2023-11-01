@@ -1,7 +1,16 @@
+import { useRouter } from "next/router";
 import Image from "next/image";
 import Link from "next/link";
+import ShareIt from "../../ui/share-it";
 export default function CreationPagesList() {
   const pages = [
+    {
+      title: "creation home",
+      arabicTitle: "قضية الخلق",
+      path: "/creation",
+      icon: "/creation-pages-images/creation-homepage.png",
+      coverImage: "",
+    },
     {
       title: "Biblical World",
       arabicTitle: "العالم التوراتي",
@@ -38,39 +47,40 @@ export default function CreationPagesList() {
       coverImage: "",
     },
   ];
+  const router = useRouter();
+  const { asPath } = router;
+  // console.log("the path is ----- " + asPath);
   return (
     <>
-      <div className="container overflow-x-auto">
-        <div className="row justify-content-evenly ">
+      <div class="nav-scroller py-1 mb-3 border-bottom">
+        <nav class="nav nav-underline justify-content-between">
           {pages.map((page) => {
-            return (
-              <div key={page.title} className="col">
-                <div className="container text-center">
-                  <div className="row ">
-                    <Link href={page.path}>
-                      <div className="col align-self-center">
-                        <Image
-                          src={page.icon}
-                          alt={`icon of: ${page.title} page`}
-                          width={75}
-                          height={75}
-                        />
-                      </div>
-                      <div className="col align-self-center">
-                        <p className="h5">
-                          {" "}
-                          <span className="badge text-bg-light">
-                            {page.arabicTitle}
-                          </span>
-                        </p>
-                      </div>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            );
+            if (page.path !== asPath) {
+              return (
+                <>
+                  <Link
+                    class="nav-item nav-link link-body-emphasis align-self-center"
+                    href={page.path}
+                    key={page.title.split(" ").join("-")}
+                  >
+                    <Image
+                      src={page.icon}
+                      alt={`icon of: ${page.title} page`}
+                      width={75}
+                      height={75}
+                    />
+                    {/* {page.arabicTitle} */}
+                  </Link>
+                </>
+              );
+            }
           })}
-        </div>
+        </nav>
+        <ShareIt
+          title="سبب الرجاء"
+          url={`https://reasonofhope.com${asPath}`}
+          description={`قضية الخلق وارتباطتها بالحياة المسيحية والتعاليم الكتابية`}
+        />
       </div>
     </>
   );

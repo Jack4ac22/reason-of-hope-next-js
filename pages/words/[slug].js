@@ -1,4 +1,4 @@
-import WordContentPageComponent from "../../components/word-components/single-word/word-content-page";
+import ArticleContentPageComponent from "../../components/article-components/single-article-page/article-content-page";
 import Head from "next/head";
 import {
   getWordsFiles,
@@ -16,7 +16,7 @@ function WordDetailPage(props) {
         <meta name="description" content={word.description + " ... "} />
         <meta property="og:title" content={word.title} />
         <meta property="og:description" content={word.description + " ... "} />
-        <meta property="og:image" content={`/word-images/${word.coverImage}`} />
+        <meta property="og:image" content={`/blog-images/${word.coverImage}`} />
         <meta
           property="og:image:alt"
           content={`Cover Image for: ${word.slug}`}
@@ -25,7 +25,7 @@ function WordDetailPage(props) {
         <meta property="article:published_time" content={word.date} />
         <meta property="article:author" content="Jack Kazanjyan" />
       </Head>
-      <WordContentPageComponent word={word} />
+      <ArticleContentPageComponent article={word} />{" "}
     </>
   );
 }

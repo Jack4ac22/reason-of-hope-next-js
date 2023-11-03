@@ -9,7 +9,8 @@ import DinoDatingSection from "../../components/creation-components/creation-mai
 import EvolutionEthicsSection from "../../components/creation-components/creation-main-page-sections/evolution-ethics";
 import ModernScinceSection from "../../components/creation-components/creation-main-page-sections/modern-scince";
 import CreationPageMainSection from "../../components/creation-components/creation-main-page-sections/creation-page-main-section";
-import PageTitle from "../../components/general-compenents/page-title";
+import PageTitle from 
+ "../../components/ui/page-title"
 import ShareIt from "../../components/ui/share-it";
 
 export default function MainCreationOne(props) {

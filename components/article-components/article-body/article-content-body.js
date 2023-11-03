@@ -1,16 +1,10 @@
-import Image from "next/image";
-import Link from "next/link";
 import ReactMarkdown from "react-markdown";
 import remarkRehype from "remark-rehype";
 import gfm from "remark-gfm";
-import ReactPlayer from "react-player/lazy";
-import { Spotify } from "react-spotify-embed";
-import YouTubeEmbed from "../../iframes/youtube-component";
 import ModalImage from "../../general-compenents/modal-image";
-import ModalURL from "../../general-compenents/modal-url";
 
-export default function CreationContentBody(props) {
-  const { creation } = props;
+export default function ArticleContentBody(props) {
+  const { article } = props;
 
   const customRenderers = {
     table(table) {
@@ -36,7 +30,9 @@ export default function CreationContentBody(props) {
       // return ModalURL((anchor = anchor));
       return (
         <>
-          <a href={anchor.href} target="_blank">{anchor.children[0]}</a>
+          <a href={anchor.href} target="_blank">
+            {anchor.children[0]}
+          </a>
         </>
       );
       // TODO: on Click of Bible Verse display the verse. from local json file.
@@ -94,7 +90,7 @@ export default function CreationContentBody(props) {
   return (
     <>
       <ReactMarkdown
-        children={creation.content}
+        children={article.content}
         remarkPlugins={[gfm]}
         rehypePlugins={[remarkRehype]}
         components={customRenderers}

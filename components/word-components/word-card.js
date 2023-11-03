@@ -11,7 +11,7 @@ export default function WordCard(props) {
         <div className="card">
           <Link href={`/words/${word.slug}`}>
             <Image
-              src={`/word-images/${word.coverImage}`}
+              src={`/blog-images/${word.coverImage}`}
               className="card-img-top img-fluid"
               alt={`Cover Image for: ${word.slug}`}
               width={860}

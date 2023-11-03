@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: http://reasonofhope.com
+
+# Sitemaps
+Sitemap: http://reasonofhope.com/sitemap.xml

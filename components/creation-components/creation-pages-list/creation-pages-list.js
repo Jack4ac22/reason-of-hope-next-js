@@ -52,14 +52,14 @@ export default function CreationPagesList() {
   // console.log("the path is ----- " + asPath);
   return (
     <>
-      <div class="nav-scroller py-1 mb-3 border-bottom">
-        <nav class="nav nav-underline justify-content-between">
+      <div className="nav-scroller py-1 mb-3 border-bottom">
+        <nav className="nav nav-underline justify-content-between">
           {pages.map((page) => {
             if (page.path !== asPath) {
               return (
                 <>
                   <Link
-                    class="nav-item nav-link link-body-emphasis align-self-center"
+                    className="nav-item nav-link link-body-emphasis align-self-center"
                     href={page.path}
                     key={page.title.split(" ").join("-")}
                   >

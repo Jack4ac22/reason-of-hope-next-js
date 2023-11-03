@@ -1,5 +1,4 @@
-import WordContentPageComponent from "../../components/word-components/single-word/word-content-page";
-import Head from "next/head";
+import ArticleContentPageComponent from "../../components/article-components/single-article-page/article-content-page";
 import {
   getLogicsFiles,
   getLogicData,
@@ -10,7 +9,7 @@ export default function LogicArtilePage(props) {
   const { logicArticle } = props;
   return (
     <>
-      <WordContentPageComponent word={logicArticle} />
+      <ArticleContentPageComponent article={logicArticle} />
     </>
   );
 }

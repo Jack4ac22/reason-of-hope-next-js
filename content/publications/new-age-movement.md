@@ -8,6 +8,27 @@ tags:
   - "new-age"
   - "العصر-الجديد"
 coverImage: "e2808ee281a8d8a7d984d8b9d8b5d8b1-d8a7d984d8acd8afd98ad8afe281a9.png"
+youtube: ""
+resouces:
+  - pdfFile: ""
+  - internetArchiveLink: ""
+  - googleBooksLink: ""
+  - appleBooksLink: ""
+audio:
+  - applePodcasts: ""
+  - googlePodcasts: ""
+  - hearthisAt: ""
+  - spotify: ""
+  - anchorLink: ""
+externalLink: ""
+authors:
+  - name: ""
+    link: ""
+translators:
+  - name: ""
+    link: ""
+description: ""
+status: ""
 ---
 
 https://open.spotify.com/episode/0sx0MfFNtIX4ptwhDrhTTJ?si=LGDfcz-SRU2CE1AjwcLs0Q

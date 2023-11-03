@@ -1,20 +1,41 @@
 ---
 title: "طوفان التكوين وفلك نوح"
 date: "2021-07-08"
-categories: 
-
+categories:
+  - "إصدارات"
   - "قضيّة-الخلق"
   - "كتب"
-  - "إصدارات"
   - "الكتاب-المقدس-والإنجيل"
   - "الديناصورات-والتأريخ"
   - "العالم-التوراتي"
-tags: 
+tags:
   - "نوح"
   - "التكوين"
   - "التطور"
   - "الخلق"
   - "الطوفان"
+coverImage: ""
+youtube: ""
+resouces:
+  - pdfFile: ""
+  - internetArchiveLink: ""
+  - googleBooksLink: ""
+  - appleBooksLink: ""
+audio:
+  - applePodcasts: ""
+  - googlePodcasts: ""
+  - hearthisAt: ""
+  - spotify: ""
+  - anchorLink: ""
+externalLink: ""
+authors:
+  - name: ""
+    link: ""
+translators:
+  - name: ""
+    link: ""
+description: ""
+status: ""
 ---
 
 بقلم: [Tas Walker](https://creation.com/dr-tas-walker-speaker)
@@ -23,12 +44,12 @@ https://hearthis.at/reasonofope/set/genesisflood/
 
 https://open.spotify.com/episode/4V7k1jVmphjtjHr210nbQv?si=ZdSdn0XGRLGx85RdETBBTw&dl\_branch=1
 
-## احصل على نسختك المجانية من هذا الكتيب  
-  
+## احصل على نسختك المجانية من هذا الكتيب
+
 [![](images/apple.png)](http://books.apple.com/us/book/id1567552549)[![](images/google-books.png)](https://books.google.lu/books/about?id=FlkuEAAAQBAJ&redir_esc=y&hl=de)[![](images/pdf.png)](https://arabcreationisthome.files.wordpress.com/2021/07/genesis-flood.pdf)[![](images/www.png)](https://creation.com/a/15148)[![](images/cmi.png)](https://creation.com/arabic/?page=1)
 
-## يُمكنكم الوصول إلى التسجيلات الصوتية من المنصات التالية:  
-  
+## يُمكنكم الوصول إلى التسجيلات الصوتية من المنصات التالية:
+
 [![](images/google-podcasts.png)](https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy81MTVjMjljNC9wb2RjYXN0L3Jzcw==/episode/MWVhMTMzOWItMmU5MS00ZGI5LWJjZjctNWJjYmZjYmU1MDVm)[![](images/anchor-2.png)](https://anchor.fm/reason-of-hope4/episodes/ep-e12kt6n)[![](images/spotify.png)](https://open.spotify.com/episode/4V7k1jVmphjtjHr210nbQv?si=ubM0I6YYT6mzNnjg35hxaw&dl_branch=1&nd=1)[![](images/hearthis.at_.png)](https://hearthis.at/reasonofope/set/genesisflood/)[![](images/breaker.png)](https://www.breaker.audio/sbb-lrj/e/89297854)
 
 يتشكك الكثير من الأشخاص بالسرد التوراتي عن الطوفان الذي حدث في أيام نوح. ينظر الكثيرون إلى هذه القصة كما لو أنها كانت مجرد مبالغة فاضحة أو نوع من أعمال الخيال. ولكن إن كان طوفان نوح غير قابل للتصديق، لماذا نثق بأي سرد تاريخي من الكتاب المقدس؟ لقد قدَّم الناس العديد من الإعتراضات على التفسير الواقعيّ لهذا الحدث وهذا المقال (بالإضافة إلى المقالات المرتبطة به) يجيب على العديد من الأسئلة الرئيسية التي يطرحها الناس عن الطوفان والفُلْك.
@@ -225,7 +246,7 @@ By BabelStone (Own work), CC0, https://commons.wikimedia.org/w/index.php?curid=1
 ![](https://arabcreationisthome.files.wordpress.com/2021/05/msh80_eruption_mount_st_helens_05-18-80.jpg?w=681)
 
 By Austin Post - Public Domain, https://commons.wikimedia.org/w/index.php?curid=3157525  
-إن ثوران بركان ماونت سانت هيلين في العام ١٩٨٠ قد تسبب بتغيير التفكير الجيولوجي.  
+إن ثوران بركان ماونت سانت هيلين في العام ١٩٨٠ قد تسبب بتغيير التفكير الجيولوجي.
 
 هذه القصص والمئات غيرها تمتلك العديد من أوجه التشابه اللافتة للنظر. إن هذا الدليل يدعم رواية الكتاب المقدس بأنَّ جميع الناس ينحدرون من ثمانية أشخاص نجوا من الطوفان العالمي. إن الكتاب المقدس يحتفظ بسرد لشهادة عيان مكتوبة لحدث تاريخيّ حدث في تاريخ العالم.
 
@@ -320,7 +341,7 @@ By Wilson44691 - Own work, Public Domain, https://commons.wikimedia.org/w/index.
 
 على الرغم من أن يسوع المسيح الخالق هو بلا خطيئة، لكنه بالنيابة عن البشرية قد قاسى الموت والإنفصال عن الله، وكان ذلك عقوبةً لخطايانا. من خلال هذا الفعل أرضى مطالب قداسة وعدالة الله، أبيه. كان يسوع هو الذبيح الذي بلا عيب. مات على الصليب، ولكنه في اليوم الثالث قام من بين الأموات ليهزم الموت، وبذلك فإنَّ كل شخص يضع ثقته به ويتوب عن خطاياه ويخضع له بالحقيقة (عوضاً عن أن ينال استحقاق \[خطاياه\]) سيتمكن من العودة إلى الله ليحيا في حضرة الخالق إلى الأبد.
 
-> ﻿فمَنْ يُؤمِنُ بالاَبنِ لا يُدانُ. ومَنْ لا يُؤمِنُ بِه دِينَ، لأنّهُ ما آمَنَ باَبنِ اللهِ الأوحدِ. ([يوحنا ٣: ١٨](https://www.bible.com/67/jhn.3.18))
+> فمَنْ يُؤمِنُ بالاَبنِ لا يُدانُ. ومَنْ لا يُؤمِنُ بِه دِينَ، لأنّهُ ما آمَنَ باَبنِ اللهِ الأوحدِ. ([يوحنا ٣: ١٨](https://www.bible.com/67/jhn.3.18))
 
 يا له من مُخلّص رائع - ويا له من خلاص عجيب في المسيح خالقنا!
 
@@ -328,9 +349,9 @@ By Wilson44691 - Own work, Public Domain, https://commons.wikimedia.org/w/index.
 
 ### مراجع
 
-1. باستخدام القياس المقبول عموماً للذراع وهو ١٨ إنشاً (٤٥،٧ سم). انظر Lovett, T., Which cubit for Noah’s Ark?, _J. Creation_ **20**(3):71–77, 2006.
-2. Sarfati, J., The Genesis Account, Creation Book Publishers, Powder Springs, Georgia, 2015. 
-3. Pierce, L., [The large ships of antiquity](https://creation.com/the-large-ships-of-antiquity), _Creation_ **22**(3):46–48, June–August 2000; creation.com/huge-ships. 
-4. Nunn, W., Giant sea-going wooden vessels challenge Ark skeptics, _Creation_ **37**(1):12–13, 2015. 
-5. كُلُّ مَنْ في أنفِهِ نَسَمةُ حياةٍ ـ هذه العبارة تشير إلى الحيوانات الفقارية ([التكوين٧: ٢٢](https://www.bible.com/bible/67/gen.7.22)) 
-6. Woodmorappe, J., _Noah’s Ark: A Feasibility Study_, Institute for Creation Research, El Cajon, Calif.
+1. باستخدام القياس المقبول عموماً للذراع وهو ١٨ إنشاً (٤٥،٧ سم). انظر Lovett, T., Which cubit for Noah’s Ark?, *J. Creation* **20**(3):71–77, 2006.
+2. Sarfati, J., The Genesis Account, Creation Book Publishers, Powder Springs, Georgia, 2015.
+3. Pierce, L., [The large ships of antiquity](https://creation.com/the-large-ships-of-antiquity), *Creation* **22**(3):46–48, June–August 2000; creation.com/huge-ships.
+4. Nunn, W., Giant sea-going wooden vessels challenge Ark skeptics, *Creation* **37**(1):12–13, 2015.
+5. كُلُّ مَنْ في أنفِهِ نَسَمةُ حياةٍ ـ هذه العبارة تشير إلى الحيوانات الفقارية ([التكوين٧: ٢٢](https://www.bible.com/bible/67/gen.7.22))
+6. Woodmorappe, J., *Noah’s Ark: A Feasibility Study*, Institute for Creation Research, El Cajon, Calif.

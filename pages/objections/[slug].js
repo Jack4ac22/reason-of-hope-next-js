@@ -1,5 +1,4 @@
-import WordContentPageComponent from "../../components/word-components/single-word/word-content-page";
-
+import ArticleContentPageComponent from "../../components/article-components/single-article-page/article-content-page";
 import {
   getObjectionsFiles,
   getObjectionData,
@@ -9,7 +8,7 @@ export default function objectionArtilePage(props) {
   const { objection } = props;
   return (
     <>
-      <WordContentPageComponent word={objection} />
+      <ArticleContentPageComponent article={objection} />{" "}
     </>
   );
 }

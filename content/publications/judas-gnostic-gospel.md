@@ -2,7 +2,6 @@
 title: "الخائن أم الضحية؟ نظرة عامة على إنجيل يهوذا."
 date: "2021-04-21"
 categories: 
-
   - "إصدارات"
   - "دراسات-عامّة"
 tags: 
@@ -10,6 +9,27 @@ tags:
   - "يهوذا"
   - "غنوصي"
 coverImage: "giotto_-_scrovegni_-_-31-_-_kiss_of_judas.jpg"
+youtube: ""
+resouces:
+  - pdfFile: ""
+  - internetArchiveLink: ""
+  - googleBooksLink: ""
+  - appleBooksLink: ""
+audio:
+  - applePodcasts: ""
+  - googlePodcasts: ""
+  - hearthisAt: ""
+  - spotify: ""
+  - anchorLink: ""
+externalLink: ""
+authors:
+  - name: ""
+    link: ""
+translators:
+  - name: ""
+    link: ""
+description: ""
+status: ""
 ---
 
 ## سلسلة الكتابات الغنوصية (٤).

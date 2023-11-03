@@ -2,7 +2,6 @@
 title: "الفكر الجديد (New Thought)"
 date: "2021-07-13"
 categories: 
-
   - "إصدارات"
   - "الديانات-والطوائف"
 tags: 
@@ -10,6 +9,27 @@ tags:
   - "كاريزماتية"
   - "ماري-بيكر-إيدي"
 coverImage: "new-thought.png"
+youtube: ""
+resouces:
+  - pdfFile: ""
+  - internetArchiveLink: ""
+  - googleBooksLink: ""
+  - appleBooksLink: ""
+audio:
+  - applePodcasts: ""
+  - googlePodcasts: ""
+  - hearthisAt: ""
+  - spotify: ""
+  - anchorLink: ""
+externalLink: ""
+authors:
+  - name: ""
+    link: ""
+translators:
+  - name: ""
+    link: ""
+description: ""
+status: ""
 ---
 
 https://hearthis.at/reasonofope/new-thought/

@@ -1,15 +1,36 @@
 ---
 title: "كتاب الدليل الحاسم للخلق"
 date: "2020-04-30"
-categories: 
-  - "كتب"
+categories:
   - "إصدارات"
-tags: 
+  - "كتب"
+tags:
   - "كتاب"
   - "الخلق"
   - "الدليل-الحاسم"
   - "دفاعيات"
 coverImage: "upoccover.png"
+youtube: ""
+resouces:
+  - pdfFile: ""
+  - internetArchiveLink: ""
+  - googleBooksLink: ""
+  - appleBooksLink: ""
+audio:
+  - applePodcasts: ""
+  - googlePodcasts: ""
+  - hearthisAt: ""
+  - spotify: ""
+  - anchorLink: ""
+externalLink: ""
+authors:
+  - name: ""
+    link: ""
+translators:
+  - name: ""
+    link: ""
+description: ""
+status: ""
 ---
 
 [![](https://arabcreationisthome.files.wordpress.com/2020/04/upoccover.png?w=718)](https://arabcreationisthome.files.wordpress.com/2020/12/ultimate-proof-of-creation-arabic-pdf.pdf)
@@ -30,17 +51,17 @@ coverImage: "upoccover.png"
 
 https://hearthis.at/reasonofope/set/ultimate-proof-og-creation-arabic/
 
-#### يمكنكم قراءة هذا الكتاب من المنصات التالية:  
-  
+#### يمكنكم قراءة هذا الكتاب من المنصات التالية:
+
 [![](images/pdf.png)](https://arabcreationisthome.files.wordpress.com/2021/10/ultimate-proof-of-creation-arabic-pdf.pdf)[![](images/internet-archive.png)](https://archive.org/details/UltimateProofOfCreationArabic/ultimate%20proof%20of%20creation%20Arabic%20PDF)[![](images/google-books.png)](https://books.google.lu/books?id=09zdDwAAQBAJ)[![](images/apple.png)](http://books.apple.com/us/book/id1564241827)
 
-#### يمكنكم الإستماع إلى الكتاب من خلال المنصات التالية:  
-  
+#### يمكنكم الإستماع إلى الكتاب من خلال المنصات التالية:
+
 [![](images/breaker.png)](/var/folders/cg/4wdqdm115vn1hczsw3bw1lrc0000gn/T/com.pixelmatorteam.pixelmator.x/0939D1DF-00FB-4ECA-AB4D-482579C5B652/Path.tiff)[![](images/anchor-2.png)](https://anchor.fm/reason-of-hope4/episodes/ep-esh32b)[![](images/hearthis.at_.png)](https://hearthis.at/reasonofope/set/ultimate-proof-og-creation-arabic/)[![](images/youtube.png)](https://www.youtube.com/playlist?list=PLlToIY3-KqMD7bDJXJFzlvRdTwyNZC_RO)[![](images/google-podcasts.png)](https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy81MTVjMjljNC9wb2RjYXN0L3Jzcw/episode/ZTI2YWNjYzgtZGRkMi00YmIxLThiNmMtZGQ1NDNhZWUyMmZm?sa=X&ved=0CAIQuIEEahcKEwjoqKXIm57wAhUAAAAAHQAAAAAQCA)[![](images/apple-podcasts-1.png)](https://podcasts.apple.com/us/podcast/الدليل-الحاسم-للخلق/id1547845596)
 
-* * *
+---
 
-* * *
+---
 
 https://www.youtube.com/playlist?list=PLlToIY3-KqMD7bDJXJFzlvRdTwyNZC\_RO
 
@@ -83,4 +104,4 @@ https://www.youtube.com/playlist?list=PLlToIY3-KqMD7bDJXJFzlvRdTwyNZC\_RO
 
 الملحق ج - إجابة المعترضين ٢
 
-* * *
+---

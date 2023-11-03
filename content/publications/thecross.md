@@ -1,12 +1,33 @@
 ---
 title: "الصليب"
 date: "2022-05-18"
-categories: 
+categories:
   - "إصدارات"
   - "دراسات-عامّة"
-tags: 
+tags:
   - "الصليب"
 coverImage: "cross-6703536.jpg"
+youtube: ""
+resouces:
+  - pdfFile: ""
+  - internetArchiveLink: ""
+  - googleBooksLink: ""
+  - appleBooksLink: ""
+audio:
+  - applePodcasts: ""
+  - googlePodcasts: ""
+  - hearthisAt: ""
+  - spotify: ""
+  - anchorLink: ""
+externalLink: ""
+authors:
+  - name: ""
+    link: ""
+translators:
+  - name: ""
+    link: ""
+description: ""
+status: ""
 ---
 
 [![](images/pdf.png)](https://arabcreationisthome.files.wordpress.com/2022/05/thecrosspdf.pdf)[![](images/google-books.png)](https://books.google.lu/books?id=nv1vEAAAQBAJ&printsec=frontcover&hl=de&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false)[![](images/apple.png)](http://books.apple.com/us/book/id6442816430)
@@ -109,7 +130,7 @@ coverImage: "cross-6703536.jpg"
 
 ([كورنثوس الأولى ١: ٢٢-٢٥](https://my.bible.com/bible/101/1CO.1.22-25))
 
-* * *
+---
 
 ## الهوامش
 
@@ -121,9 +142,9 @@ coverImage: "cross-6703536.jpg"
 
 ٤ تاريخ هيرودوتس، الكتاب الثالث، ص ٢٧٥، ٢٩١. لقراءة النسخة الإنجليزية من تاريخ هيرودوتُس انظر الرابط التالي: [www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0126:book=3:chapter=159:section=2](http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0126:book=3:chapter=159:section=2).
 
-٥ ترد هذه الأنباء في كتابات كل من: ديودوروس سيكولوس (Diodorus Siculus)؛ [https://penelope.uchicago.edu/Thayer/e/roman/texts/diodorus\_siculus/2a\*.html](https://penelope.uchicago.edu/Thayer/e/roman/texts/diodorus_siculus/2a*.html) لوسيان (Juppiter trageodeis, Lucian)؛ [www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0437:section=16](http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0437:section=16) يوريبيديس (Euripides, Iphigenia in Tauris) [www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0112:card=1390](http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0112:card=1390)
+٥ ترد هذه الأنباء في كتابات كل من: ديودوروس سيكولوس (Diodorus Siculus)؛ [https://penelope.uchicago.edu/Thayer/e/roman/texts/diodorus_siculus/2a\*.html](https://penelope.uchicago.edu/Thayer/e/roman/texts/diodorus_siculus/2a*.html) لوسيان (Juppiter trageodeis, Lucian)؛ [www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0437:section=16](http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0437:section=16) يوريبيديس (Euripides, Iphigenia in Tauris) [www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0112:card=1390](http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0112:card=1390)
 
-٦ تاريخ ديودوروس، ك ٥ ف ٣٢ ع ٦. [https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Diodorus\_Siculus/5B\*.html](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Diodorus_Siculus/5B*.html)
+٦ تاريخ ديودوروس، ك ٥ ف ٣٢ ع ٦. [https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Diodorus_Siculus/5B\*.html](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Diodorus_Siculus/5B*.html)
 
 ٧ الأعمال الكاملة لكورنيليوس تاسيتوس ك ١ ف ٦١ ع٤؛ ك٤ ف٧٢ ع٢؛ ك١٤ ف٣٣ ع٢. [https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0078:book=1:chapter=61](https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0078:book=1:chapter=61) [https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0078:book=4:chapter=7](https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0078:book=4:chapter=7) [https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0078:book=14:chapter=33](https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0078:book=14:chapter=33)
 
@@ -131,19 +152,19 @@ coverImage: "cross-6703536.jpg"
 
 ٩ سالتوس، إيوغارثا ف ١٤ ع ١٥. [https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0002:text=Cat.:chapter=14](https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0002:text=Cat.:chapter=14)
 
-١٠ تاريخ بوليبيوس ك ١ ف ١١ ع ٥،  ف ٢٤ ع ٦، ف ٧٩ ع ٤-٥؛ [https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Polybius/1\*.html](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Polybius/1*.html) تاريخ ديودوروس ك ٢٥ ف ٥ ع ٢، ف ١٠ ع ٢؛ ك ٢٦ ف ٢٣ ع١؛ [https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Diodorus\_Siculus/25\*.html](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Diodorus_Siculus/25*.html) [https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Diodorus\_Siculus/26\*.html](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Diodorus_Siculus/26*.html)  تاريخ تيطس ليڤي ك٢٢ ف١٣ ع٩، ك٣٨ ف٤٨ ع١٣. [www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0152:book=22:chapter=13](http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0152:book=22:chapter=13) [www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0178:book=38:chapter=48:section=13](http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0178:book=38:chapter=48:section=13)
+١٠ تاريخ بوليبيوس ك ١ ف ١١ ع ٥،  ف ٢٤ ع ٦، ف ٧٩ ع ٤-٥؛ [https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Polybius/1\*.html](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Polybius/1*.html) تاريخ ديودوروس ك ٢٥ ف ٥ ع ٢، ف ١٠ ع ٢؛ ك ٢٦ ف ٢٣ ع١؛ [https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Diodorus_Siculus/25\*.html](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Diodorus_Siculus/25*.html) [https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Diodorus_Siculus/26\*.html](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Diodorus_Siculus/26*.html)  تاريخ تيطس ليڤي ك٢٢ ف١٣ ع٩، ك٣٨ ف٤٨ ع١٣. [www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0152:book=22:chapter=13](http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0152:book=22:chapter=13) [www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0178:book=38:chapter=48:section=13](http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0178:book=38:chapter=48:section=13)
 
-١١ تاريخ ديودوروس ك١٤ ف٥٣ ع٤. [https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Diodorus\_Siculus/14D\*.html](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Diodorus_Siculus/14D*.html)
+١١ تاريخ ديودوروس ك١٤ ف٥٣ ع٤. [https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Diodorus_Siculus/14D\*.html](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Diodorus_Siculus/14D*.html)
 
 ١٢ تاريخ كورتيوس روفوس ك٤ ف٤ ع١٧. [https://penelope.uchicago.edu/Thayer/L/Roman/Texts/Curtius/4\*.html](https://penelope.uchicago.edu/Thayer/L/Roman/Texts/Curtius/4*.html)
 
-١٣ تاريخ ديودوروس ك١٩ ف ٦٧ ع٢. [https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Diodorus\_Siculus/19D\*.html](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Diodorus_Siculus/19D*.html)
+١٣ تاريخ ديودوروس ك١٩ ف ٦٧ ع٢. [https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Diodorus_Siculus/19D\*.html](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Diodorus_Siculus/19D*.html)
 
-١٤ تاريخ ديودوروس ك٢٠ ف١٠٣ ع٦. [https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Diodorus\_Siculus/20E\*.html](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Diodorus_Siculus/20E*.html)
+١٤ تاريخ ديودوروس ك٢٠ ف١٠٣ ع٦. [https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Diodorus_Siculus/20E\*.html](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Diodorus_Siculus/20E*.html)
 
-١٥ الآثار اليهودية ليوسيفوس ف١٢ ع٢٥٦. [https://lexundria.com/j\_aj/12.256/wst](https://lexundria.com/j_aj/12.256/wst)
+١٥ الآثار اليهودية ليوسيفوس ف١٢ ع٢٥٦. [https://lexundria.com/j_aj/12.256/wst](https://lexundria.com/j_aj/12.256/wst)
 
-١٦ بلوتارخ، موراليا، ٥٤٤ أ/ب. [https://www.loebclassics.com/view/plutarch-delays\_divine\_vengeance/1959/pb\_LCL405.215.xml](https://www.loebclassics.com/view/plutarch-delays_divine_vengeance/1959/pb_LCL405.215.xml)
+١٦ بلوتارخ، موراليا، ٥٤٤ أ/ب. [https://www.loebclassics.com/view/plutarch-delays_divine_vengeance/1959/pb_LCL405.215.xml](https://www.loebclassics.com/view/plutarch-delays_divine_vengeance/1959/pb_LCL405.215.xml)
 
 ١٧ الآثار اليهودية ليوسيفوس ف١٣ ع٣٨٠-٣٨٣؛ [https://lexundria.com/go?q=J.+AJ+13.380&v=wst](https://lexundria.com/go?q=J.+AJ+13.380&v=wst)؛ حُروب اليهود ف١ ع٩٧-٩٨. [https://lexundria.com/go?q=J.+BJ+1.97-98&v=wst](https://lexundria.com/go?q=J.+BJ+1.97-98&v=wst)
 
@@ -153,7 +174,7 @@ coverImage: "cross-6703536.jpg"
 
 ٢٠ حروب اليهود ليوسيفوس ف٧ ع٢٠٣. [https://lexundria.com/go?q=J.+BJ+7.203&v=wst](https://lexundria.com/go?q=J.+BJ+7.203&v=wst)
 
-٢١ فيلو (Philo) من كتاب ضدّ فلاكوس ٧٢: ٨٤-٨٥. يرد هذا السرد في النسخة الإلكترونية تحت الفصل التاسع IX والعدد ٧٢، ويُكمن الوصول إليه من خلال الرابط التالي: [penelope.uchicago.edu/Thayer/E/Roman/Texts/Philo/in\_Flaccum\*.html](http://penelope.uchicago.edu/Thayer/E/Roman/Texts/Philo/in_Flaccum*.html)
+٢١ فيلو (Philo) من كتاب ضدّ فلاكوس ٧٢: ٨٤-٨٥. يرد هذا السرد في النسخة الإلكترونية تحت الفصل التاسع IX والعدد ٧٢، ويُكمن الوصول إليه من خلال الرابط التالي: [penelope.uchicago.edu/Thayer/E/Roman/Texts/Philo/in_Flaccum\*.html](http://penelope.uchicago.edu/Thayer/E/Roman/Texts/Philo/in_Flaccum*.html)
 
 ٢٢ حروب اليهود ليوسيفوس ٢: ٣٠٨. [https://lexundria.com/go?q=J.+BJ+2.308&v=wst](https://lexundria.com/go?q=J.+BJ+2.308&v=wst)
 
@@ -167,9 +188,9 @@ coverImage: "cross-6703536.jpg"
 
 ٢٧ أوروسيوس ك٥ ف٩ ع٤. [attalus.org/translate/orosius5A.html](http://attalus.org/translate/orosius5A.html)
 
-٢٨ الحرب الأهلية، أبيان (Appiac) ك١ ع١٢٠. [penelope.uchicago.edu/Thayer/e/roman/texts/appian/civil\_wars/1\*.html](http://penelope.uchicago.edu/Thayer/e/roman/texts/appian/civil_wars/1*.html)
+٢٨ الحرب الأهلية، أبيان (Appiac) ك١ ع١٢٠. [penelope.uchicago.edu/Thayer/e/roman/texts/appian/civil_wars/1\*.html](http://penelope.uchicago.edu/Thayer/e/roman/texts/appian/civil_wars/1*.html)
 
-٢٩ ساتيري Satire VI الكتاب السادس ع ٢٢٣، النسخة اللاتينية: [www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2007.01.0093:book=2:poem=6](http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2007.01.0093:book=2:poem=6)، النسخة الإنجليزية: [https://www.poetryintranslation.com/PITBR/Latin/JuvenalSatires6.php#anchor\_Toc282858860](https://www.poetryintranslation.com/PITBR/Latin/JuvenalSatires6.php#anchor_Toc282858860)
+٢٩ ساتيري Satire VI الكتاب السادس ع ٢٢٣، النسخة اللاتينية: [www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2007.01.0093:book=2:poem=6](http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2007.01.0093:book=2:poem=6)، النسخة الإنجليزية: [https://www.poetryintranslation.com/PITBR/Latin/JuvenalSatires6.php#anchor_Toc282858860](https://www.poetryintranslation.com/PITBR/Latin/JuvenalSatires6.php#anchor_Toc282858860)
 
 ٣٠ كورنيليوس تاسيتوس (Cornelius Taacitus - The Annals) ك١٣ ع٣٢. [www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0078:book=13:chapter=32](http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0078:book=13:chapter=32)
 
@@ -179,7 +200,7 @@ coverImage: "cross-6703536.jpg"
 
 ٣٣ يظهر هذا القول في سياقات مُختلفة في الأناجيل الإزائية: [مرقس ٨: ٣٤](https://my.bible.com/bible/101/MRK.8.34)، [١٠: ٣٨](https://my.bible.com/bible/101/MRK.10.38)؛ [متى ١٦: ٢٤](https://my.bible.com/bible/101/MAT.16.24)؛ [لوقا ٩: ٢٣](https://my.bible.com/bible/101/LUK.9.23)، [١٤: ٢٧](https://my.bible.com/bible/101/LUK.14.27).
 
-* * *
+---
 
 ## المراجع
 

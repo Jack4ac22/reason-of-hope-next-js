@@ -1,5 +1,6 @@
-import ArticleContentBody from "../../article-components/article-body/article-content-body"
+import ArticleContentBody from "../../article-components/article-body/article-content-body";
 import ArticleContentHeader from "./article-content-header";
+import ArticleHeader from "../article-header/article-header";
 import YouTube, { YouTubeProps } from "react-youtube";
 import { Spotify } from "react-spotify-embed";
 export default function ArticleContentPageComponent(props) {
@@ -16,6 +17,7 @@ export default function ArticleContentPageComponent(props) {
   };
   return (
     <>
+      <ArticleHeader article={article} />
       <article>
         <ArticleContentHeader article={article} />
         <div className="container-md">

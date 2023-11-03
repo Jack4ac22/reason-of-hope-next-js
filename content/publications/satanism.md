@@ -7,6 +7,27 @@ categories:
 tags: 
   - "الشيطان"
 coverImage: "saitanism-symp.jpg"
+youtube: ""
+resouces:
+  - pdfFile: ""
+  - internetArchiveLink: ""
+  - googleBooksLink: ""
+  - appleBooksLink: ""
+audio:
+  - applePodcasts: ""
+  - googlePodcasts: ""
+  - hearthisAt: ""
+  - spotify: ""
+  - anchorLink: ""
+externalLink: ""
+authors:
+  - name: ""
+    link: ""
+translators:
+  - name: ""
+    link: ""
+description: ""
+status: ""
 ---
 
 https://open.spotify.com/episode/1ugmwelNAgeapPiZBIgnsv?si=T3i81zovQcGaSf-Kk20WqA

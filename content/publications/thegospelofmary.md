@@ -2,7 +2,6 @@
 title: "رؤيا مريم المجدلية: نظرة عامة على إنجيل مريم."
 date: "2021-03-25"
 categories: 
-
   - "إصدارات"
   - "دراسات-عامّة"
 tags: 
@@ -10,6 +9,27 @@ tags:
   - "توما"
   - "غنوصي"
 coverImage: "guido_reni_-_the_penitent_magdalene_-_google_art_project.jpg"
+youtube: ""
+resouces:
+  - pdfFile: ""
+  - internetArchiveLink: ""
+  - googleBooksLink: ""
+  - appleBooksLink: ""
+audio:
+  - applePodcasts: ""
+  - googlePodcasts: ""
+  - hearthisAt: ""
+  - spotify: ""
+  - anchorLink: ""
+externalLink: ""
+authors:
+  - name: ""
+    link: ""
+translators:
+  - name: ""
+    link: ""
+description: ""
+status: ""
 ---
 
 ## سلسلة الكتابات الغنوصية (٣).

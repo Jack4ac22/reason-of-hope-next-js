@@ -1,22 +1,42 @@
 ---
 title: "الله يمتلك خطة رائعة لحياتك"
 date: "2021-12-31"
-categories: 
-
-  - "كتب"
+categories:
   - "إصدارات"
-tags: 
+  - "كتب"
+tags:
   - "يسوع-المسيح"
   - "الكرازة"
   - "التبشير"
   - "الخلاص"
 coverImage: "screenshot-2021-12-31-at-08.19.04.png"
+youtube: ""
+resouces:
+  - pdfFile: ""
+  - internetArchiveLink: ""
+  - googleBooksLink: ""
+  - appleBooksLink: ""
+audio:
+  - applePodcasts: ""
+  - googlePodcasts: ""
+  - hearthisAt: ""
+  - spotify: ""
+  - anchorLink: ""
+externalLink: ""
+authors:
+  - name: ""
+    link: ""
+translators:
+  - name: ""
+    link: ""
+description: ""
+status: ""
 ---
 
 ![](https://arabcreationisthome.files.wordpress.com/2021/12/front-cover.jpg?w=647)
 
-## احصل على نسختك المجانية من هذا الكتيب  
-  
+## احصل على نسختك المجانية من هذا الكتيب
+
 [![](images/apple.png)](http://books.apple.com/us/book/id1602019113)[![](images/google-books.png)](https://books.google.lu/books?id=3G5WEAAAQBAJ&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false)[![](images/pdf.png)](https://arabcreationisthome.files.wordpress.com/2021/12/god-has-a-wonderful-plan-for-your-life-pdf.pdf)[](https://creation.com/arabic/?page=1)
 
 في زمن تسيطر فيه الخطابات الحماسية والعاطفية على منابر الكنائس، لا بد لنا من مواجهة الحقيقة المُرة في أن الكنيسة المُعاصرة قد فشلت في نقل رسالة الإنجيل بأمانة. تظهر ملامح هذا الأمر من خلال غياب الكرازة الحقيقيّة بإنجيل الخلاص، وظهور كرازة سطحية مساومة تنقل صورة مشوهة عن الله، وتقود الكثير من الأشخاص إلى اهتداءاتٍ كاذبةٍ وإيمانٍ غير كتابي.  

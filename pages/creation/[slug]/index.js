@@ -1,5 +1,3 @@
-import Head from "next/head";
-import CreationContentPageComponent from "../../../components/creation-components/single-creation/creation-content-page";
 import ArticleContentPageComponent from "../../../components/article-components/single-article-page/article-content-page";
 
 import {
@@ -8,31 +6,11 @@ import {
 } from "../../../utilities/creation-functions";
 
 export default function CreationsArtilePage(props) {
-  const { creationArticle } = props;
-  const { title, description, coverImage, content, authors } = creationArticle;
+  const { article } = props;
 
   return (
     <>
-      <Head>
-        <title>{creationArticle.title}</title>
-        <meta
-          name="description"
-          content={creationArticle.description + " ... "}
-        />
-        <meta property="og:title" content={creationArticle.title} />
-        <meta
-          property="og:description"
-          content={creationArticle.description + " ... "}
-        />
-        <meta
-          property="og:image"
-          content={`https://reasonofhope.com/blog-images/${
-            creationArticle.coverImage ? creationArticle.coverImage : ROH.png
-          }`}
-        />
-      </Head>
-      {/* <CreationContentPageComponent creation={creationArticle} /> */}
-      <ArticleContentPageComponent article={creationArticle} />
+      <ArticleContentPageComponent article={article} />
     </>
   );
 }
@@ -42,7 +20,7 @@ export function getStaticProps(context) {
   const creationArticleData = getCreationArticleData(slug);
   return {
     props: {
-      creationArticle: creationArticleData,
+      article: creationArticleData,
     },
     revalidate: 30000,
   };

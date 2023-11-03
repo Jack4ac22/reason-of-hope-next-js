@@ -8,7 +8,7 @@ export default function PublicationsArtilePage(props) {
   const { article } = props;
   return (
     <>
-      <ArticleContentPageComponent article={article} />
+      {/* <ArticleContentPageComponent article={article} /> */}
     </>
   );
 }

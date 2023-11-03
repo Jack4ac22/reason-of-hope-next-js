@@ -1,4 +1,4 @@
-import WordCardsList from "../../components/word-components/word-cards-list";
+import ArticleCardsList from "../../components/general-compenents/cards-list/acrticles-cards-list";
 import Head from "next/head";
 import { getAllWords } from "../../utilities/word-functions";
 
@@ -19,7 +19,7 @@ export default function AllWordPage(props) {
         <meta property="og:image" content={"/blog-images/page-cover.jpg"} />
         <meta property="og:image:alt" content={"صورة الغلاف لكلمة ورسالة"} />
       </Head>
-      <WordCardsList words={props.allWords} />
+      <ArticleCardsList articles={props.allWords} baseUrl="/words" />{" "}
     </>
   );
 }

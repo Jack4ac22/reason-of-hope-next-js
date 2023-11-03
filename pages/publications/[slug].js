@@ -1,15 +1,14 @@
-import WordContentPageComponent from "../../components/word-components/single-word/word-content-page";
-
+import ArticleContentPageComponent from "../../components/article-components/single-article-page/article-content-page";
 import {
   getPublicationsFiles,
   getPublicationData,
 } from "../../utilities/publications-functions";
 
 export default function PublicationsArtilePage(props) {
-  const { publicationsArticle } = props;
+  const { article } = props;
   return (
     <>
-      <WordContentPageComponent word={publicationsArticle} />
+      <ArticleContentPageComponent article={article} />
     </>
   );
 }
@@ -19,7 +18,7 @@ export function getStaticProps(context) {
   const publicationsArticleData = getPublicationData(slug);
   return {
     props: {
-      publicationsArticle: publicationsArticleData,
+      article: publicationsArticleData,
     },
     revalidate: 30000,
   };

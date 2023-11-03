@@ -1,4 +1,4 @@
-import WordContentPageComponent from "../../components/word-components/single-word/word-content-page";
+import ArticleContentPageComponent from "../../components/article-components/single-article-page/article-content-page";
 import Head from "next/head";
 import {
   getWordsFiles,
@@ -25,7 +25,7 @@ function WordDetailPage(props) {
         <meta property="article:published_time" content={word.date} />
         <meta property="article:author" content="Jack Kazanjyan" />
       </Head>
-      <WordContentPageComponent word={word} />
+      <ArticleContentPageComponent article={word} />{" "}
     </>
   );
 }

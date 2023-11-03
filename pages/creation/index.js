@@ -18,7 +18,8 @@ export default function MainCreationOne(props) {
   const articlesByCategoryDino = props.articlesByCategoryDino;
   const articlesByCategoryEvolution = props.articlesByCategoryEvolution;
   const articlesByCategoryModernScince = props.articlesByCategoryModernScince;
-
+// TODO: add visit CMI if possible.
+// TODO: add a link to all articles in this page.
   return (
     <>
       <PageTitle
@@ -57,7 +58,7 @@ export default function MainCreationOne(props) {
   );
 }
 
-export async function getStaticProps(props) {
+export async function getStaticProps() {
   const articlesByCategoryGospel = randomArticlesFromArray(
     getCreationArticlesByCategory("الكتاب-المقدس-والإنجيل"),
     3
@@ -86,5 +87,6 @@ export async function getStaticProps(props) {
       articlesByCategoryEvolution: articlesByCategoryEvolution,
       articlesByCategoryModernScince: articlesByCategoryModernScince,
     },
+    revalidate: 43200,
   };
 }

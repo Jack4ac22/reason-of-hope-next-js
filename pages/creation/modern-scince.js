@@ -48,7 +48,7 @@ export default function ModernScince(props) {
     </>
   );
 }
-export async function getStaticProps(props) {
+export async function getStaticProps() {
   const articlesByCategoryModernScince =
     getCreationArticlesByCategory("علوم-معاصرة");
 
@@ -56,5 +56,6 @@ export async function getStaticProps(props) {
     props: {
       articlesByCategoryModernScince: articlesByCategoryModernScince,
     },
+    revalidate: 43200,
   };
 }

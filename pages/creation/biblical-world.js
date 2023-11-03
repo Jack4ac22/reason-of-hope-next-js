@@ -47,7 +47,7 @@ export default function BiblicalWorld(props) {
     </>
   );
 }
-export async function getStaticProps(props) {
+export async function getStaticProps() {
   const articlesByCategoryBiblicalWorld =
     getCreationArticlesByCategory("العالم-التوراتي");
 
@@ -55,5 +55,6 @@ export async function getStaticProps(props) {
     props: {
       articlesByCategoryBiblicalWorld: articlesByCategoryBiblicalWorld,
     },
+    revalidate: 43200,
   };
 }

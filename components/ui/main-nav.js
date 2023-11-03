@@ -20,6 +20,9 @@ export default function UiMainNav() {
           <Link href="/publications"> منشورات </Link>
         </div>
         <div className="menu-item col">
+          <Link href="/our-faith"> إيماننا</Link>
+        </div>
+        <div className="menu-item col">
           <Link href="/contact"> اتصل بنا </Link>
         </div>
       </nav>

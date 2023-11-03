@@ -3,11 +3,11 @@ import { getAllTagsCount } from "../../utilities/tags-functions";
 export default function AllTagsPage(props) {
   return (
     <>
-      <h2>tags with count</h2>
+      <h2>{props.tags.length}</h2>
     </>
   );
 }
-export async function getStaticProps(props) {
+export async function getStaticProps() {
   const tags = getAllTagsCount();
   return {
     props: {

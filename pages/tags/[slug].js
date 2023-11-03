@@ -2,13 +2,12 @@ import {
   getArticlesByTag,
   getAllTagsCount,
 } from "../../utilities/tags-functions";
-import Link from "next/link";
 
 export default function TagArtilePage(props) {
   const { articles, slug } = props;
   return (
     <>
-      <h2>tags</h2>
+      <h2>{slug}</h2>
     </>
   );
 }

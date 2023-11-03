@@ -5,7 +5,8 @@ categories:
   - "إصدارات"
   - "دراسات-عامّة"
 tags:
-  - ""
+  - "سحر"
+  - "الشرق الأدنى القديم"
 coverImage: "magic-and-sorcery-e1607009237172.jpg"
 youtube: ""
 resouces:

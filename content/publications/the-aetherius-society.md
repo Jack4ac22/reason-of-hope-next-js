@@ -5,8 +5,7 @@ categories:
   - "إصدارات"
   - "الديانات-والطوائف"
 tags:
-  - ""
-  - ""
+  - "فضاء"
 coverImage: "aetherius-society.png"
 youtube: ""
 resouces:

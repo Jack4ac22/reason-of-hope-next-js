@@ -61,6 +61,13 @@ export default function UiHeader() {
                 منشورات
               </Link>
             </li>
+          
+            <li className="nav-item">
+              <Link className="nav-link" href="/our-faith">
+                {" "}
+                إيماننا
+              </Link>
+            </li>
 
             <li className="nav-item">
               <Link className="nav-link" href="/contact">

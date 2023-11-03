@@ -46,7 +46,7 @@ export default function EvolutionAndEthics(props) {
     </>
   );
 }
-export async function getStaticProps(props) {
+export async function getStaticProps() {
   const articlesByCategoryEvolution =
     getCreationArticlesByCategory("التطور-ونتائجه");
 
@@ -54,5 +54,6 @@ export async function getStaticProps(props) {
     props: {
       articlesByCategoryEvolution: articlesByCategoryEvolution,
     },
+    revalidate: 43200,
   };
 }

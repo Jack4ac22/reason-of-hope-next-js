@@ -49,7 +49,7 @@ export default function DinoAndDating(props) {
     </>
   );
 }
-export async function getStaticProps(props) {
+export async function getStaticProps() {
   const articlesByCategoryDino = getCreationArticlesByCategory(
     "الديناصورات-والتأريخ"
   );
@@ -58,5 +58,6 @@ export async function getStaticProps(props) {
     props: {
       articlesByCategoryDino: articlesByCategoryDino,
     },
+    revalidate: 43200,
   };
 }

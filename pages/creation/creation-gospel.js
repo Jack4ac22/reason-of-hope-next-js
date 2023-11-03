@@ -49,7 +49,7 @@ export default function CreationGospel(props) {
     </>
   );
 }
-export async function getStaticProps(props) {
+export async function getStaticProps() {
   const articlesByCategoryGospel = getCreationArticlesByCategory(
     "الكتاب-المقدس-والإنجيل"
   );
@@ -57,6 +57,6 @@ export async function getStaticProps(props) {
   return {
     props: {
       articlesByCategoryGospel: articlesByCategoryGospel,
-    },
+    }, revalidate: 43200, 
   };
 }

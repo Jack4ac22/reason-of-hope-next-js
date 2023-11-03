@@ -1,4 +1,5 @@
-import PageTitle from "../../components/general-compenents/page-title";
+import PageTitle from 
+ "../../components/ui/page-title"
 import { getCreationArticlesByCategory } from "../../utilities/creation-functions";
 
 import BibleVerseHero from "../../components/general-components/bible-verse-hero";

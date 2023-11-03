@@ -1,7 +1,8 @@
 import CreationCardsList from "../../components/creation-components/creation-cards-list";
 import { getAllCreationArticles } from "../../utilities/creation-functions";
 import CreationPagesList from "../../components/creation-components/creation-pages-list/creation-pages-list";
-import PageTitle from "../../components/general-compenents/page-title";
+import PageTitle from 
+ "../../components/ui/page-title"
 
 export default function AllCreationArticlePage(props) {
   const creationArticles = props.creationArticles;

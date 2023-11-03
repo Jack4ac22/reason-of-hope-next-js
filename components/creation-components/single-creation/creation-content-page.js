@@ -1,4 +1,4 @@
-import CreationContentBody from "./creation-content-body";
+import ArticleContentBody from '../../article-body/article-content-body'
 import CreationContentHeader from "./creation-content-header";
 import YouTube, { YouTubeProps } from "react-youtube";
 import { Spotify } from "react-spotify-embed";
@@ -35,7 +35,7 @@ export default function CreationContentPageComponent(props) {
             )}
           </div>
         </div>
-        <CreationContentBody creation={creation} />
+        <ArticleContentBody article={creation} />
       </article>
     </>
   );

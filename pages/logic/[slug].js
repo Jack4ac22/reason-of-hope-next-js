@@ -1,4 +1,4 @@
-import WordContentPageComponent from "../../components/word-components/single-word/word-content-page";
+import CreationContentPageComponent from "../../components/creation-components/single-creation/creation-content-page";
 import Head from "next/head";
 import {
   getLogicsFiles,
@@ -10,7 +10,7 @@ export default function LogicArtilePage(props) {
   const { logicArticle } = props;
   return (
     <>
-      <WordContentPageComponent word={logicArticle} />
+      {/* <CreationContentPageComponent word={logicArticle} /> */}
     </>
   );
 }

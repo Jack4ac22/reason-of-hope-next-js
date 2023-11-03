@@ -4,7 +4,8 @@ export default function ArticleCardFooter(props) {
   const article = props.article;
   return (
     <div className="card-footer">
-      {article.tags.length > 0 &&
+      {article.tags &&
+        article.tags.length > 0 &&
         article.tags.map((tag) => {
           return (
             <Link

@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function ArticleCard(props) {
   const article = props.article;
   const baseUrl = props.baseUrl;
-  console.log(article);
+  // console.log(article);
   return (
     <>
       <div className="col-sm-12 col-md-6 col-lg-4 col-xl-3">

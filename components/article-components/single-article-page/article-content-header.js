@@ -4,7 +4,7 @@ import Image from "next/image";
 import ShareIt from "../../ui/share-it";
 
 export default function CreationContentHeader(props) {
-  const { article } = props;
+  const article = props.article;
   return (
     <>
       <header className="container p-3">

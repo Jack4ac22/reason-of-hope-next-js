@@ -16,7 +16,7 @@ function WordDetailPage(props) {
         <meta name="description" content={word.description + " ... "} />
         <meta property="og:title" content={word.title} />
         <meta property="og:description" content={word.description + " ... "} />
-        <meta property="og:image" content={`/word-images/${word.coverImage}`} />
+        <meta property="og:image" content={`/blog-images/${word.coverImage}`} />
         <meta
           property="og:image:alt"
           content={`Cover Image for: ${word.slug}`}

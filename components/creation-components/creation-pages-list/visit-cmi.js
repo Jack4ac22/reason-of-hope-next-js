@@ -4,7 +4,7 @@ export default function VisitCMIWebsite() {
   return (
     <>
       <Link
-        class="nav-item nav-link link-body-emphasis align-self-center"
+        className="nav-item nav-link link-body-emphasis align-self-center"
         href="https://creation.com/arabic"
         key="CMI-Arabic-home"
       >

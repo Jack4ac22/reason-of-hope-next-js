@@ -1,7 +1,7 @@
 import ReactMarkdown from "react-markdown";
 import remarkRehype from "remark-rehype";
 import gfm from "remark-gfm";
-import ModalImage from "../general-compenents/modal-image";
+import ModalImage from "../../general-compenents/modal-image";
 
 export default function ArticleContentBody(props) {
   const { article } = props;

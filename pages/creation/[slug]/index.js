@@ -1,5 +1,6 @@
 import Head from "next/head";
 import CreationContentPageComponent from "../../../components/creation-components/single-creation/creation-content-page";
+import ArticleContentPageComponent from "../../../components/article-components/single-article-page/article-content-page";
 
 import {
   getCreationArticlesFiles,
@@ -30,7 +31,8 @@ export default function CreationsArtilePage(props) {
           }`}
         />
       </Head>
-      <CreationContentPageComponent creation={creationArticle} />
+      {/* <CreationContentPageComponent creation={creationArticle} /> */}
+      <ArticleContentPageComponent article={creationArticle} />
     </>
   );
 }

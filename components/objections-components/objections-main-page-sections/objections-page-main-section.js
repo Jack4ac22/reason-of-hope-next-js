@@ -204,7 +204,7 @@ export default function ObjectionsPageMainSection(props) {
             <div className="col-lg-6">
               <figure className="rounded mx-auto d-block">
                 <AutoplayingCarousel
-                  articles={objectionsSectionTwo}
+                  articles={objectionsSectionFive}
                   id="objections-section-five"
                   const
                   baseUrl="objections"

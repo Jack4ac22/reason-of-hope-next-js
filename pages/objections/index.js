@@ -4,6 +4,7 @@ import BibleVerseHero from "../../components/general-components/bible-verse-hero
 import ObjectionsPageMainSection from "../../components/objections-components/objections-main-page-sections/objections-page-main-section";
 import PageTitle from "../../components/ui/page-title";
 import { randomArticlesFromArray } from "../../utilities/general-functions";
+import ObjectionsPagesList from "../../components/objections-components/objections-pages-list/objections-pages-list";
 
 export default function AllObjectionPage(props) {
   const objectionsSectionOne = props.objectionsSectionOne;
@@ -19,6 +20,7 @@ export default function AllObjectionPage(props) {
           description="السلسلة من المقاطع المصورة تقدم لكم نظرة عامة على هذه الآيات بالإضافة إلى تحليل منطقي لما يُعتقد بأنَّه تناقض بين الآيات وذلك بالإعتماد على علم المنطق."
           image="/blog-images/bible-2110439_640.jpg"
         />
+        <ObjectionsPagesList />
         <BibleVerseHero
           body="أمّا يَسوعُ فهوَ هوَ، بِالأمسِ واليومِ وإلى الأبَدِ."
           reference="الرسالة إلى العبرانيين 13: 8"

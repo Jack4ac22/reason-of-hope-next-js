@@ -1,19 +1,24 @@
 import ArticleCardsList from "../../components/general-compenents/cards-list/acrticles-cards-list";
-import { getAllArticles } from "../../utilities/articles-functions";
-
+import { getArticlesByCategory } from "../../utilities/articles-functions";
+import ObjectionsPagesList from "../../components/objections-components/objections-pages-list/objections-pages-list";
 export default function ObjectionsSectionOnePage(props) {
-  console.log(props.allObjections[0]);
+  const articles = props.articles;
   return (
     <>
-      <ArticleCardsList articles={props.allObjections} baseUrl="/objections" />
+      <ObjectionsPagesList />
+      <ArticleCardsList articles={articles} baseUrl="/objections" />
     </>
   );
 }
 export async function getStaticProps() {
-  const allObjections = getAllArticles('content/objections');
+  const objectionsSectionOne = getArticlesByCategory(
+    "الإختلافات-الكمية-والعددية",
+    "content/objections",
+    "title"
+  );
   return {
     props: {
-      allObjections: allObjections,
+      articles: objectionsSectionOne,
     },
   };
 }

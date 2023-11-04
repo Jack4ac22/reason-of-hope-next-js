@@ -1,7 +1,24 @@
+import ArticleCardsList from "../../components/general-compenents/cards-list/acrticles-cards-list";
+import { getArticlesByCategory } from "../../utilities/articles-functions";
+import ObjectionsPagesList from "../../components/objections-components/objections-pages-list/objections-pages-list";
 export default function ObjectionsSectionTwoPage(props) {
+  const articles = props.articles;
   return (
     <>
-      <h1>Objections Section Two Page</h1>
+      <ObjectionsPagesList />
+      <ArticleCardsList articles={articles} baseUrl="/objections" />
     </>
   );
+}
+export async function getStaticProps() {
+  const objectionsSectionTwo = getArticlesByCategory(
+    "أسماء-الأشخاص",
+    "content/objections",
+    "title"
+  );
+  return {
+    props: {
+      articles: objectionsSectionTwo,
+    },
+  };
 }

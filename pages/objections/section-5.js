@@ -6,7 +6,7 @@ export default function ObjectionsSectionFivePage(props) {
   return (
     <>
       <ObjectionsPagesList />
-      <ArticleCardsList articles={articles} baseUrl="/objections" />
+      <ArticleCardsList articles={articles} baseUrl="objections" />
     </>
   );
 }

@@ -52,13 +52,6 @@ export default function ObjectionsPagesList() {
                     key={page.title.split(" ").join("-")}
                   >
                     {page.arabicTitle}
-                    {/* <Image
-                      src={page.icon}
-                      alt={`icon of: ${page.title} page`}
-                      width={75}
-                      height={75}
-                    /> */}
-                    {/* {page.arabicTitle} */}
                   </Link>
                 </>
               );

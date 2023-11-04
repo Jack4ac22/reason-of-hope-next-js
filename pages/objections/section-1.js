@@ -6,7 +6,7 @@ export default function ObjectionsSectionOnePage(props) {
   return (
     <>
       <ObjectionsPagesList />
-      <ArticleCardsList articles={articles} baseUrl="/objections" />
+      <ArticleCardsList articles={articles} baseUrl="objections" />
     </>
   );
 }

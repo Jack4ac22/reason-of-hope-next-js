@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 export default function CarouselItemCard(props) {
   const articles = props.articles;
+  const baseUrl = props.baseUrl;
 
   // TODO: check if the length of the string of the title is more than 6 words then the length of the description should be reduced to 10 words and concatinate it with "..." else the length of the description should be reduced to 20 words and concatinate it with "..."
   return (
@@ -9,7 +10,9 @@ export default function CarouselItemCard(props) {
       {articles.map((article, index) => {
         const randomIdentifier = Math.random().toString(36).substring(7);
         const key = randomIdentifier;
-        const short_description = article.description.substring(0, 100);
+        const short_description = article.description
+          ? article.description.substring(0, 100)
+          : "";
         return (
           <>
             <div
@@ -34,12 +37,13 @@ export default function CarouselItemCard(props) {
                           {article.title}
                         </h5>
                         <p className="card-text mt-3 text-white bg-dark text-center">
-                          {article.description.split(" ").length > 20
+                          {article.description &&
+                          article.description.split(" ").length > 20
                             ? short_description + "..."
                             : article.description}
                         </p>
                         <Link
-                          href={`/creation/${article.slug}`}
+                          href={`/${baseUrl}/${article.slug}`}
                           className="btn btn-sm btn-warning"
                         >
                           اقرأ هذا المنشور

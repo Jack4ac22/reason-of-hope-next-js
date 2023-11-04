@@ -1,3 +1,11 @@
+/**
+ * Renders a Bible verse hero component.
+ * @param {Object} props - The props object.
+ * @param {string} props.body - The body of the Bible verse.
+ * @param {string} props.reference - The reference of the Bible verse.
+ * @param {string} props.translation - The translation of the Bible verse.
+ * @returns {JSX.Element} The Bible verse hero component.
+ */
 export default function BibleVerseHero(props) {
   return (
     <>

@@ -12,6 +12,7 @@ export default function DinoDatingSection(props) {
               <AutoplayingCarousel
                 articles={articlesByCategoryDino}
                 id="dino-dating"
+                const baseUrl = "creation"
               />
             </div>
             <div className="col-md-6 mt-5">

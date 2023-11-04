@@ -15,6 +15,7 @@ export default function BiblicalWorldSection(props) {
               <AutoplayingCarousel
                 articles={articlesByCategoryBiblicalWorld}
                 id="biblical-world"
+                const baseUrl = "creation"
               />
             </div>
             <div className="col-md-6 mt-5">

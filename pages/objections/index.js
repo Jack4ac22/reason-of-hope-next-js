@@ -1,3 +1,5 @@
+import PageTitle from "../../components/ui/page-title";
+
 import ArticleCardsList from "../../components/general-compenents/cards-list/acrticles-cards-list";
 import {
   getAllArticles,
@@ -11,7 +13,12 @@ export default function AllObjectionPage(props) {
   const objectionsSectionFive = props.objectionsSectionFive;
   return (
     <>
-      <ArticleCardsList articles={props.allObjections} baseUrl="/objections" />
+      <PageTitle
+        title="قضية الخلق"
+        description="إن قضيّة الخلق هي من القضايا المهمة التي تُشكل حجر عثرة أمام الكثير من المؤمنين. لا تُبقي على تساؤلاتك دون إجابات!"
+        image="/creation-pages-images/pexels-photo-5199754.jpeg"
+      />
+      <ArticleCardsList articles={objectionsSectionOne} baseUrl="objections" />
     </>
   );
 }
@@ -56,5 +63,6 @@ export async function getStaticProps() {
       objectionsSectionFour: objectionsSectionFour,
       objectionsSectionFive: objectionsSectionFive,
     },
+    revalidate: 43200,
   };
 }

@@ -1,16 +1,14 @@
-import { randomArticlesFromArray } from "../../utilities/general-functions";
 import { getCreationArticlesByCategory } from "../../utilities/creation-functions";
-
+import { randomArticlesFromArray } from "../../utilities/general-functions";
 import BibleVerseHero from "../../components/general-components/bible-verse-hero";
 import BiblicalWorldSection from "../../components/creation-components/creation-main-page-sections/biblical-world";
 import CreationAndGospelSection from "../../components/creation-components/creation-main-page-sections/creation-and-gospel";
+import CreationPageMainSection from "../../components/creation-components/creation-main-page-sections/creation-page-main-section";
 import CreationPagesList from "../../components/creation-components/creation-pages-list/creation-pages-list";
 import DinoDatingSection from "../../components/creation-components/creation-main-page-sections/dino-dating";
 import EvolutionEthicsSection from "../../components/creation-components/creation-main-page-sections/evolution-ethics";
 import ModernScinceSection from "../../components/creation-components/creation-main-page-sections/modern-scince";
-import CreationPageMainSection from "../../components/creation-components/creation-main-page-sections/creation-page-main-section";
-import PageTitle from 
- "../../components/ui/page-title"
+import PageTitle from "../../components/ui/page-title";
 import ShareIt from "../../components/ui/share-it";
 
 export default function MainCreationOne(props) {
@@ -19,8 +17,8 @@ export default function MainCreationOne(props) {
   const articlesByCategoryDino = props.articlesByCategoryDino;
   const articlesByCategoryEvolution = props.articlesByCategoryEvolution;
   const articlesByCategoryModernScince = props.articlesByCategoryModernScince;
-// TODO: add visit CMI if possible.
-// TODO: add a link to all articles in this page.
+  // TODO: add visit CMI if possible.
+  // TODO: add a link to all articles in this page.
   return (
     <>
       <PageTitle

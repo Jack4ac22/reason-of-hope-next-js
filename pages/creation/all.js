@@ -1,8 +1,7 @@
-import CreationCardsList from "../../components/creation-components/creation-cards-list";
 import { getAllCreationArticles } from "../../utilities/creation-functions";
+import ArticleCardsList from "../../components/general-compenents/cards-list/acrticles-cards-list";
 import CreationPagesList from "../../components/creation-components/creation-pages-list/creation-pages-list";
-import PageTitle from 
- "../../components/ui/page-title"
+import PageTitle from "../../components/ui/page-title";
 
 export default function AllCreationArticlePage(props) {
   const creationArticles = props.creationArticles;
@@ -15,9 +14,8 @@ export default function AllCreationArticlePage(props) {
       />
 
       <CreationPagesList />
-      <ul>
-        <CreationCardsList creations={creationArticles} />
-      </ul>
+
+      <ArticleCardsList articles={creationArticles} baseUrl="/creation" />
     </>
   );
 }

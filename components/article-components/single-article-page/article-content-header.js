@@ -5,6 +5,8 @@ import ShareIt from "../../ui/share-it";
 
 export default function CreationContentHeader(props) {
   const article = props.article;
+  // TODO: make the image responsive with max height and width
+  // TODO: restyle the header of the article to make it more responsive and make the cover image with a max height of 200px or 350px max so it will not cause troubles. and redesigne the authors and the add the article link of the articles.
   return (
     <>
       <header className="container p-3">
@@ -42,4 +44,3 @@ export default function CreationContentHeader(props) {
     </>
   );
 }
-// TODO: restyle the header of the article to make it more responsive and make the cover image with a max height of 200px or 350px max so it will not cause troubles. and redesigne the authors and the add the article link of the articles.

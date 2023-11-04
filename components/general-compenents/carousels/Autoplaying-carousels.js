@@ -3,12 +3,12 @@ import CarouselItemCard from "./carousel-item-card";
 export default function AutoplayingCarousel(props) {
   const articles = props.articles;
   const id = props.id;
-
+  const baseUrl = props.baseUrl;
   return (
     <>
       <div id={id} className="carousel slide" data-bs-ride="carousel">
         <div className="carousel-inner">
-          <CarouselItemCard articles={articles} />
+          <CarouselItemCard articles={articles} baseUrl={baseUrl} />
         </div>
         <button
           className="carousel-control-prev"

@@ -1,10 +1,10 @@
-import PageTitle from "../../components/ui/page-title";
-
+import { getArticlesByCategory } from "../../utilities/articles-functions";
 import ArticleCardsList from "../../components/general-compenents/cards-list/acrticles-cards-list";
-import {
-  getAllArticles,
-  getArticlesByCategory,
-} from "../../utilities/articles-functions";
+import BibleVerseHero from "../../components/general-components/bible-verse-hero";
+import ObjectionsPageMainSection from "../../components/objections-components/objections-main-page-sections/objections-page-main-section";
+import PageTitle from "../../components/ui/page-title";
+import { randomArticlesFromArray } from "../../utilities/general-functions";
+
 export default function AllObjectionPage(props) {
   const objectionsSectionOne = props.objectionsSectionOne;
   const objectionsSectionTwo = props.objectionsSectionTwo;
@@ -13,22 +13,39 @@ export default function AllObjectionPage(props) {
   const objectionsSectionFive = props.objectionsSectionFive;
   return (
     <>
-      <PageTitle
-        title="قضية الخلق"
-        description="إن قضيّة الخلق هي من القضايا المهمة التي تُشكل حجر عثرة أمام الكثير من المؤمنين. لا تُبقي على تساؤلاتك دون إجابات!"
-        image="/creation-pages-images/pexels-photo-5199754.jpeg"
-      />
-      <ArticleCardsList articles={objectionsSectionOne} baseUrl="objections" />
+      <>
+        <PageTitle
+          title="التناقضات المفترضة في الكتاب المقدس"
+          description="السلسلة من المقاطع المصورة تقدم لكم نظرة عامة على هذه الآيات بالإضافة إلى تحليل منطقي لما يُعتقد بأنَّه تناقض بين الآيات وذلك بالإعتماد على علم المنطق."
+          image="/blog-images/bible-2110439_640.jpg"
+        />
+        <BibleVerseHero
+          body="أمّا يَسوعُ فهوَ هوَ، بِالأمسِ واليومِ وإلى الأبَدِ."
+          reference="الرسالة إلى العبرانيين 13: 8"
+          translation="الترجمة العربية المشتركة"
+        />
+      </>
+      <>
+        <ObjectionsPageMainSection
+          objectionsSectionOne={objectionsSectionOne}
+          objectionsSectionTwo={objectionsSectionTwo}
+          objectionsSectionThree={objectionsSectionThree}
+          objectionsSectionFour={objectionsSectionFour}
+          objectionsSectionFive={objectionsSectionFive}
+        />
+      </>
     </>
   );
 }
 export async function getStaticProps() {
-  const allObjections = getAllArticles("content/objections");
-
   const objectionsSectionOne = getArticlesByCategory(
     "الإختلافات-الكمية-والعددية",
     "content/objections",
     "title"
+  );
+  const RandomObjectionsSectionOne = randomArticlesFromArray(
+    objectionsSectionOne,
+    3
   );
 
   const objectionsSectionTwo = getArticlesByCategory(
@@ -36,11 +53,19 @@ export async function getStaticProps() {
     "content/objections",
     "title"
   );
+  const RandomObjectionsSectionTwo = randomArticlesFromArray(
+    objectionsSectionTwo,
+    3
+  );
 
   const objectionsSectionThree = getArticlesByCategory(
     "توقيت-الأحداث",
     "content/objections",
     "title"
+  );
+  const RandomObjectionsSectionThree = randomArticlesFromArray(
+    objectionsSectionThree,
+    3
   );
 
   const objectionsSectionFour = getArticlesByCategory(
@@ -48,20 +73,28 @@ export async function getStaticProps() {
     "content/objections",
     "title"
   );
+  const RandomObjectionsSectionFour = randomArticlesFromArray(
+    objectionsSectionFour,
+    3
+  );
 
   const objectionsSectionFive = getArticlesByCategory(
     "إختلافات-التفاصيل",
     "content/objections",
     "title"
   );
+  const RandomObjectionsSectionFive = randomArticlesFromArray(
+    objectionsSectionFive,
+    3
+  );
 
   return {
     props: {
-      objectionsSectionOne: objectionsSectionOne,
-      objectionsSectionTwo: objectionsSectionTwo,
-      objectionsSectionThree: objectionsSectionThree,
-      objectionsSectionFour: objectionsSectionFour,
-      objectionsSectionFive: objectionsSectionFive,
+      objectionsSectionOne: RandomObjectionsSectionOne,
+      objectionsSectionTwo: RandomObjectionsSectionTwo,
+      objectionsSectionThree: RandomObjectionsSectionThree,
+      objectionsSectionFour: RandomObjectionsSectionFour,
+      objectionsSectionFive: RandomObjectionsSectionFive,
     },
     revalidate: 43200,
   };

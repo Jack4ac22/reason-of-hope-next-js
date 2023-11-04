@@ -15,6 +15,7 @@ export default function EvolutionEthicsSection(props) {
               <AutoplayingCarousel
                 articles={articlesByCategoryEvolution}
                 id="evolution-ethics"
+                const baseUrl = "creation"
               />
             </div>
             <div className="col-md-6 mt-5">

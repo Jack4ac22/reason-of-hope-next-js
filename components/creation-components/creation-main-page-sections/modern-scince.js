@@ -12,6 +12,7 @@ export default function ModernScinceSection(props) {
               <AutoplayingCarousel
                 articles={articlesByCategoryModernScince}
                 id="modern-scince"
+                const baseUrl = "creation"
               />
             </div>
             <div className="col-md-6 mt-5">

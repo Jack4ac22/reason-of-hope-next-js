@@ -14,6 +14,7 @@ export default function CreationAndGospelSection(props) {
               <AutoplayingCarousel
                 articles={articlesByCategoryGospel}
                 id="category_gospel"
+                const baseUrl = "creation"
               />
             </div>
             <div className="col-md-6 mt-5">

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import AutoplayingCarousel from "../../general-compenents/carousels/Autoplaying-carousels.js";
-import BibleVerseHero from "../../general-components/bible-verse-hero.js";
+import BibleVerseHero from "../../ui/bible-verse-hero.js";
 
 export default function ObjectionsPageMainSection(props) {
   const objectionsSectionOne = props.objectionsSectionOne;

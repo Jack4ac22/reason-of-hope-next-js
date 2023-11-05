@@ -8,11 +8,14 @@ function YouTubeEmbed({ video }) {
     const handleResize = () => {
       const screenWidth = window.innerWidth;
       if (screenWidth < 560) {
-        setIframeWidth("560");
-        setIframeHeight("315");
-      } else {
-        setIframeWidth(screenWidth.toString());
+        setIframeWidth(0.7 * 560);
+        setIframeHeight(0.7 * 315);
+      } else if (screenWidth < 960) {
+        setIframeWidth((0.7 * screenWidth).toString());
         setIframeHeight(((screenWidth / 560) * 315).toString());
+      } else {
+        setIframeWidth(720);
+        setIframeHeight(((960 / 560) * 315).toString());
       }
     };
 

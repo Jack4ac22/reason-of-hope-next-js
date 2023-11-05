@@ -1,6 +1,6 @@
 import { getArticlesByCategory } from "../../utilities/articles-functions";
 import ArticleCardsList from "../../components/general-compenents/cards-list/acrticles-cards-list";
-import BibleVerseHero from "../../components/general-components/bible-verse-hero";
+import BibleVerseHero from "../../components/ui/bible-verse-hero";
 import ObjectionsPageMainSection from "../../components/objections-components/objections-main-page-sections/objections-page-main-section";
 import PageTitle from "../../components/ui/page-title";
 import { randomArticlesFromArray } from "../../utilities/general-functions";

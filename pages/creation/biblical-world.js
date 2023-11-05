@@ -1,6 +1,6 @@
 import { getCreationArticlesByCategory } from "../../utilities/creation-functions";
 import ArticleCardsList from "../../components/general-compenents/cards-list/acrticles-cards-list";
-import BibleVerseHero from "../../components/general-components/bible-verse-hero";
+import BibleVerseHero from "../../components/ui/bible-verse-hero";
 import CreationPagesList from "../../components/creation-components/creation-pages-list/creation-pages-list";
 import PageTitle from "../../components/ui/page-title";
 

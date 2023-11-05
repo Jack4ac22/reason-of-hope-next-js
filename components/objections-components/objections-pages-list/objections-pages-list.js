@@ -5,32 +5,32 @@ import ShareIt from "../../ui/share-it";
 export default function ObjectionsPagesList() {
   const pages = [
     {
-      title: "objections home",
+      title: "objections_nav_item_home",
       arabicTitle: "الإعتراضات",
       path: "/objections",
     },
     {
-      title: "section one",
+      title: "section_nav_item_one",
       arabicTitle: "القسم الأول",
       path: "/objections/section-1",
     },
     {
-      title: "section two",
+      title: "section_nav_item_two",
       arabicTitle: "القسم الثاني",
       path: "/objections/section-2",
     },
     {
-      title: "section three",
+      title: "section_nav_item_three",
       arabicTitle: "القسم الثالث",
       path: "/objections/section-3",
     },
     {
-      title: "section four",
+      title: "section_nav_item_four",
       arabicTitle: "القسم الرابع",
       path: "/objections/section-4",
     },
     {
-      title: "section five",
+      title: "section_nav_item_five",
       arabicTitle: "القسم الخامس",
       path: "/objections/section-5",
     },
@@ -49,7 +49,7 @@ export default function ObjectionsPagesList() {
                   <Link
                     className="nav-item nav-link link-body-emphasis align-self-center"
                     href={page.path}
-                    key={page.title.split(" ").join("-")}
+                    key={page.title}
                   >
                     {page.arabicTitle}
                   </Link>

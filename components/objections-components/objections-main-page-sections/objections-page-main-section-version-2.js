@@ -56,23 +56,47 @@ export default function ObjectionsPageMainSection(props) {
       <section key="sectionOne">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-lg-6">
-              <figure className="rounded mx-auto d-block">
-                <AutoplayingCarousel
-                  articles={objectionsSectionOne}
-                  id="objections-section-one"
-                  baseUrl="objections"
-                />
-                <figcaption className="figure-caption text-center mt-1">
-                  القسم الأول: الإختلافات الكمية أو العددية.
-                  <Link
-                    href="/objections/section-1"
-                    className=" h4 btn btn-sm btn-info "
+            <div className="col-lg-6 border rounded-3 my-2">
+              <div className="accordion accordion-flush" id="accordionFlushExample">
+                <div className="accordion-item">
+                  <h2 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseOne"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseOne"
+                    >
+                      القسم الأول: الإختلافات الكمية أو العددية.
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseOne"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample"
                   >
-                    المزيد من المقالات
-                  </Link>
-                </figcaption>
-              </figure>
+                    <div className="accordion-body">
+                      <figure className="rounded mx-auto d-block">
+                        <AutoplayingCarousel
+                          articles={objectionsSectionOne}
+                          id="objections-section-one"
+                          baseUrl="objections"
+                        />
+                        <figcaption className="figure-caption text-center mt-1">
+                          القسم الأول: الإختلافات الكمية أو العددية.
+                          <Link
+                            href="/objections/section-1"
+                            className=" h4 btn btn-sm btn-info "
+                          >
+                            المزيد من المقالات
+                          </Link>
+                        </figcaption>
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
             <div className="col-lg-6">
               <p className="h4">

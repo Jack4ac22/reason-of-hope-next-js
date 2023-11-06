@@ -1,7 +1,7 @@
 import { getArticlesByCategory } from "../../utilities/articles-functions";
 import ArticleCardsList from "../../components/general-compenents/cards-list/acrticles-cards-list";
 import BibleVerseHero from "../../components/ui/bible-verse-hero";
-import ObjectionsPageMainSection from "../../components/objections-components/objections-main-page-sections/objections-page-main-section";
+import ObjectionsPageMainSection from "../../components/objections-components/objections-main-page-sections/objections-page-main-section-version-2";
 import PageTitle from "../../components/ui/page-title";
 import { randomArticlesFromArray } from "../../utilities/general-functions";
 import ObjectionsPagesList from "../../components/objections-components/objections-pages-list/objections-pages-list";

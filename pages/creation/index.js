@@ -1,6 +1,6 @@
 import { getCreationArticlesByCategory } from "../../utilities/creation-functions";
 import { randomArticlesFromArray } from "../../utilities/general-functions";
-import BibleVerseHero from "../../components/general-components/bible-verse-hero";
+import BibleVerseHero from "../../components/ui/bible-verse-hero";
 import BiblicalWorldSection from "../../components/creation-components/creation-main-page-sections/biblical-world";
 import CreationAndGospelSection from "../../components/creation-components/creation-main-page-sections/creation-and-gospel";
 import CreationPageMainSection from "../../components/creation-components/creation-main-page-sections/creation-page-main-section";

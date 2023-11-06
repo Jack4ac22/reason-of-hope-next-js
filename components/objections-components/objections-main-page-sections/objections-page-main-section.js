@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import AutoplayingCarousel from "../../general-compenents/carousels/Autoplaying-carousels.js";
-import BibleVerseHero from "../../general-components/bible-verse-hero.js";
+import BibleVerseHero from "../../ui/bible-verse-hero.js";
 
 export default function ObjectionsPageMainSection(props) {
   const objectionsSectionOne = props.objectionsSectionOne;
@@ -17,7 +17,7 @@ export default function ObjectionsPageMainSection(props) {
             <div className="col-lg-6">
               <figure className="rounded mx-auto d-block">
                 <Image
-                  className="rounded mx-auto d-block"
+                  className="rounded mx-auto d-block img-fluid"
                   src={"/blog-images/bible-2110439_640.jpg"}
                   width={400}
                   height={400}
@@ -56,7 +56,7 @@ export default function ObjectionsPageMainSection(props) {
       <section key="sectionOne">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-lg-6">
+            <div className="col-lg-6 border border-dark rounded p-2 my-2">
               <figure className="rounded mx-auto d-block">
                 <AutoplayingCarousel
                   articles={objectionsSectionOne}
@@ -95,7 +95,7 @@ export default function ObjectionsPageMainSection(props) {
       <section key="sectionTwo">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-lg-6">
+            <div className="col-lg-6 border border-dark rounded p-2 my-2">
               <figure className="rounded mx-auto d-block">
                 <AutoplayingCarousel
                   articles={objectionsSectionTwo}
@@ -130,7 +130,7 @@ export default function ObjectionsPageMainSection(props) {
       <section key="sectionThree">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-lg-6">
+            <div className="col-lg-6 border border-dark rounded p-2 my-2">
               <figure className="rounded mx-auto d-block">
                 <AutoplayingCarousel
                   articles={objectionsSectionThree}
@@ -165,7 +165,7 @@ export default function ObjectionsPageMainSection(props) {
       <section key="sectionFour">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-lg-6">
+            <div className="col-lg-6 border border-dark rounded p-2 my-2">
               <figure className="rounded mx-auto d-block">
                 <AutoplayingCarousel
                   articles={objectionsSectionFour}
@@ -201,7 +201,7 @@ export default function ObjectionsPageMainSection(props) {
       <section key="sectionFive">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-lg-6">
+            <div className="col-lg-6 border border-dark rounded p-2 my-2">
               <figure className="rounded mx-auto d-block">
                 <AutoplayingCarousel
                   articles={objectionsSectionFive}

@@ -36,15 +36,19 @@ export default function UiHeader() {
             </li>
 
             <li className="nav-item">
+              <Link className="nav-link" href="/gospel">
+                الإنجيل
+              </Link>
+            </li>
+
+            <li className="nav-item">
               <Link className="nav-link" href="/creation">
-                {" "}
-                مقالات الخلق
+                قضيّة الخلق
               </Link>
             </li>
 
             <li className="nav-item">
               <Link className="nav-link" href="/logic">
-                {" "}
                 المنطق
               </Link>
             </li>
@@ -57,21 +61,18 @@ export default function UiHeader() {
 
             <li className="nav-item">
               <Link className="nav-link" href="/publications">
-                {" "}
                 منشورات
               </Link>
             </li>
-          
+
             <li className="nav-item">
               <Link className="nav-link" href="/our-faith">
-                {" "}
                 إيماننا
               </Link>
             </li>
 
             <li className="nav-item">
               <Link className="nav-link" href="/contact">
-                {" "}
                 اتصل بنا
               </Link>
             </li>

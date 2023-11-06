@@ -3,6 +3,8 @@ title: "مغالطة المواربة"
 date: "2019-05-30"
 categories: 
   - "المنطق"
+youtube: ""
+status: "published"
 tags: 
   - "منطق"
   - "مغالطات"

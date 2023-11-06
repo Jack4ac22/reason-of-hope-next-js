@@ -3,6 +3,8 @@ title: "مغالطة ”التماس السلطة“"
 date: "2019-08-29"
 categories: 
   - "المنطق"
+youtube: ""
+status: "published"
 tags: 
   - "منطق"
   - "التماس-السلطة"

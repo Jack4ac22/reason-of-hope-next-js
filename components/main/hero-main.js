@@ -8,7 +8,7 @@ export default function HeroMain() {
         <div className={classes.image}>
           <Image src="/ROH.png" width={600} height={232} alt="title" />
         </div>
-        <p className="display-6">صفحة تبشيرية دفاعية إصلاحية</p>
+        <p className="display-6">هذه الصفحة قيد الإنشاء حالياً...</p>
       </section>
     </>
   );

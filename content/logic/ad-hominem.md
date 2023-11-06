@@ -3,6 +3,8 @@ title: "مغالطة ”شخصنة الجدل“"
 date: "2019-08-09"
 categories: 
   - "المنطق"
+youtube: ""
+status: "published"
 tags: 
   - "منطق"
   - "مغالطات"

@@ -3,6 +3,8 @@ title: "مغالطة التماس السؤال بطريقة عاطفية"
 date: "2019-06-27"
 categories: 
   - "المنطق"
+youtube: ""
+status: "published"
 tags: 
   - "منطق"
   - "مغالطات"

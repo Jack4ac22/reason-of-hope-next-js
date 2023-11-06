@@ -3,6 +3,8 @@ title: "المغالطات الرسميّة"
 date: "2019-09-19"
 categories: 
   - "المنطق"
+youtube: ""
+status: "published"
 tags: 
   - "منطق"
   - "مغالطات"

@@ -3,6 +3,8 @@ title: "مغالطة التماس السؤال"
 date: "2019-06-13"
 categories: 
   - "المنطق"
+youtube: ""
+status: "published"
 tags: 
   - "منطق"
   - "مغالطات"

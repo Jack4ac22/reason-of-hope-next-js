@@ -3,6 +3,8 @@ title: "مغالطات أُخرى: الجزء الثاني"
 date: "2019-12-21"
 categories: 
   - "المنطق"
+youtube: ""
+status: "published"
 tags: 
   - "منطق"
   - "مغالطات"

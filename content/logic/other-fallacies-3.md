@@ -3,6 +3,8 @@ title: "مغالطات أُخرى: الجزء الثالث"
 date: "2020-01-04"
 categories: 
   - "المنطق"
+youtube: ""
+status: "published"
 tags: 
   - "منطق"
   - "مغالطات"

@@ -1,14 +1,13 @@
+import {  getPublicationsFiles,  getPublicationData,} from "../../utilities/publications-functions";
 import ArticleContentPageComponent from "../../components/article-components/single-article-page/article-content-page";
-import {
-  getPublicationsFiles,
-  getPublicationData,
-} from "../../utilities/publications-functions";
+import HeroMain from "../../components/main/hero-main";
 
 export default function PublicationsArtilePage(props) {
   const { article } = props;
   return (
     <>
       {/* <ArticleContentPageComponent article={article} /> */}
+      <HeroMain />
     </>
   );
 }

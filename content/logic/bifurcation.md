@@ -3,6 +3,8 @@ title: "مغالطة التَشَّعُّب (التقليص الخاطئ)"
 date: "2019-07-25"
 categories: 
   - "المنطق"
+youtube: ""
+status: "published"
 tags: 
   - "منطق"
   - "مغالطات"

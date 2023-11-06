@@ -1,154 +1,167 @@
 import VisitCMIWebsite from "../creation-components/creation-pages-list/visit-cmi";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function UiFooter() {
   return (
     <>
-    {/* TODO: add visit CMI */}
+      {/* TODO: add visit CMI */}
       <footer className="py-5 border-top">
         <div className="row">
           <div className="col-6 col-md-2 mb-3">
-            <h5>Section</h5>
+            <h5>قضية الخلق</h5>
             <ul className="nav flex-column">
               <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-body-secondary">
-                  Home
-                </a>
+                <Link
+                  href="/creation"
+                  className="nav-link p-0 text-body-secondary"
+                >
+                  الصفحة الرئيسية لقضية الخلق
+                </Link>
               </li>
               <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-body-secondary">
-                  Features
-                </a>
+                <Link
+                  href="creation/creation-gospel"
+                  className="nav-link p-0 text-body-secondary"
+                >
+                  الكتاب المُقدَّس والإنجيل
+                </Link>
               </li>
               <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-body-secondary">
-                  Pricing
-                </a>
+                <Link
+                  href="/creation/biblical-world"
+                  className="nav-link p-0 text-body-secondary"
+                >
+                  العالم التوراتي
+                </Link>
               </li>
               <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-body-secondary">
-                  FAQs
-                </a>
+                <Link
+                  href="/creation/dino-dating"
+                  className="nav-link p-0 text-body-secondary"
+                >
+                  الديناصورات والتأريخ
+                </Link>
               </li>
               <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-body-secondary">
-                  About
-                </a>
+                <Link
+                  href="/creation/evolution-ethics"
+                  className="nav-link p-0 text-body-secondary"
+                >
+                  التطور ونتائجه
+                </Link>
+              </li>
+              <li className="nav-item mb-2">
+                <Link
+                  href="/creation/modern-scince"
+                  className="nav-link p-0 text-body-secondary"
+                >
+                  علوم معاصرة
+                </Link>
               </li>
             </ul>
           </div>
 
           <div className="col-6 col-md-2 mb-3">
-            <h5>Section</h5>
+            <h5>plcae_holder</h5>
             <ul className="nav flex-column">
               <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-body-secondary">
-                  Home
-                </a>
+                <Link href="#" className="nav-link p-0 text-body-secondary">
+                  plcae_holder
+                </Link>
               </li>
               <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-body-secondary">
-                  Features
-                </a>
+                <Link href="#" className="nav-link p-0 text-body-secondary">
+                  plcae_holder
+                </Link>
               </li>
               <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-body-secondary">
-                  Pricing
-                </a>
+                <Link href="#" className="nav-link p-0 text-body-secondary">
+                  plcae_holder
+                </Link>
               </li>
               <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-body-secondary">
-                  FAQs
-                </a>
+                <Link href="#" className="nav-link p-0 text-body-secondary">
+                  plcae_holder
+                </Link>
               </li>
               <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-body-secondary">
-                  About
-                </a>
+                <Link href="#" className="nav-link p-0 text-body-secondary">
+                  plcae_holder
+                </Link>
               </li>
             </ul>
           </div>
 
           <div className="col-6 col-md-2 mb-3">
-            <h5>Section</h5>
+            <h5>place_holder</h5>
             <ul className="nav flex-column">
               <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-body-secondary">
-                  Home
-                </a>
+                <Link href="#" className="nav-link p-0 text-body-secondary">
+                  place_holder
+                </Link>
               </li>
               <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-body-secondary">
-                  Features
-                </a>
+                <Link href="#" className="nav-link p-0 text-body-secondary">
+                  place_holder
+                </Link>
               </li>
               <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-body-secondary">
-                  Pricing
-                </a>
+                <Link href="#" className="nav-link p-0 text-body-secondary">
+                  place_holder
+                </Link>
               </li>
               <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-body-secondary">
-                  FAQs
-                </a>
+                <Link href="#" className="nav-link p-0 text-body-secondary">
+                  place_holder
+                </Link>
               </li>
               <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-body-secondary">
-                  About
-                </a>
+                <Link href="#" className="nav-link p-0 text-body-secondary">
+                  place_holder
+                </Link>
               </li>
             </ul>
           </div>
 
           <div className="col-md-5 offset-md-1 mb-3">
             <form>
-              <h5>Subscribe to our newsletter</h5>
-              <p>Monthly digest of what's new and exciting from us.</p>
+              <h5 className="rtl">اشترك للحصول على نشرتنا الإخبارية</h5>
+              <p className="rtl">
+                هذه النشرة هي نشرة ربع سنوية، بالإضافة إلى عدد من الرسائل
+                الإستثنائية عند نشر دراسات كتابية خاصّة.
+              </p>
               <div className="d-flex flex-column flex-sm-row w-100 gap-2">
                 <label for="newsletter1" className="visually-hidden">
-                  Email address
+                  البريد الإلكتروني
                 </label>
                 <input
                   id="newsletter1"
                   type="text"
                   className="form-control"
-                  placeholder="Email address"
+                  placeholder="بريدك الإلكتروني"
                 />
                 <button className="btn btn-primary" type="button">
-                  Subscribe
+                  اشترك الآن
                 </button>
               </div>
             </form>
           </div>
         </div>
 
-        <div className="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-          <p dir="ltr">© 2023 Reason Of Hope, Inc. All rights reserved.</p>
-          <p dir="rtl">© 2023 سبب الرجاء. جميع الحقوق محفوظة.</p>
-          <ul className="list-unstyled d-flex">
-            <Image src="/blog-images/ROH.png" width={80} height={30} />
-            <VisitCMIWebsite />
-            {/* <li className="ms-3">
-              <a className="link-body-emphasis" href="#">
-                <svg className="bi" width="24" height="24">
-                  <use xlink:href="#twitter"></use>
-                </svg>
-              </a>
-            </li>
-            <li className="ms-3">
-              <a className="link-body-emphasis" href="#">
-                <svg className="bi" width="24" height="24">
-                  <use xlink:href="#instagram"></use>
-                </svg>
-              </a>
-            </li>
-            <li className="ms-3">
-              <a className="link-body-emphasis" href="#">
-                <svg className="bi" width="24" height="24">
-                  <use xlink:href="#facebook"></use>
-                </svg>
-              </a>
-            </li> */}
+        <div className="d-flex flex-column flex-sm-row justify-content-center py-4 my-4 border-top">
+          <ul>
+            <p dir="rtl" className="text-center">
+              {" "}
+              © 2023 سبب الرجاء.
+            </p>
+            <p dir="rtl" className="text-center">
+              {" "}
+              جميع الحقوق محفوظة.
+            </p>
+            <p dir="ltr" className="text-center">
+              © 2023 Reason Of Hope, Inc. All rights reserved.
+            </p>
           </ul>
         </div>
       </footer>

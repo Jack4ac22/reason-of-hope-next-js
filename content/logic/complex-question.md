@@ -3,6 +3,8 @@ title: "مغالطة السؤال المُرَكَّب"
 date: "2019-07-11"
 categories: 
   - "المنطق"
+youtube: ""
+status: "published"
 tags: 
   - "منطق"
   - "مغالطات"

@@ -1,7 +1,7 @@
 import PageTitle from "../components/general-compenents/page-title";
 import YouTubeEmbed from "../components/iframes/youtube-component";
 import ShareIt from "../components/ui/share-it";
-import BibleVerseHero from "../components/general-compenents/bible-verse-hero";
+import BibleVerseHero from "../components/ui/bible-verse-hero";
 
 export default function TheGospelPage() {
   return (
@@ -25,7 +25,7 @@ export default function TheGospelPage() {
         </div>
       </section>
       <section>
-          <BibleVerseHero />
+        <BibleVerseHero />
       </section>
     </>
   );

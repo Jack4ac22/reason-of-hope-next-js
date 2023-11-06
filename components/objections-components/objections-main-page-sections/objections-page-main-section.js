@@ -56,7 +56,7 @@ export default function ObjectionsPageMainSection(props) {
       <section key="sectionOne">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-lg-6">
+            <div className="col-lg-6 border border-dark rounded p-2 my-2">
               <figure className="rounded mx-auto d-block">
                 <AutoplayingCarousel
                   articles={objectionsSectionOne}
@@ -95,7 +95,7 @@ export default function ObjectionsPageMainSection(props) {
       <section key="sectionTwo">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-lg-6">
+            <div className="col-lg-6 border border-dark rounded p-2 my-2">
               <figure className="rounded mx-auto d-block">
                 <AutoplayingCarousel
                   articles={objectionsSectionTwo}
@@ -130,7 +130,7 @@ export default function ObjectionsPageMainSection(props) {
       <section key="sectionThree">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-lg-6">
+            <div className="col-lg-6 border border-dark rounded p-2 my-2">
               <figure className="rounded mx-auto d-block">
                 <AutoplayingCarousel
                   articles={objectionsSectionThree}
@@ -165,7 +165,7 @@ export default function ObjectionsPageMainSection(props) {
       <section key="sectionFour">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-lg-6">
+            <div className="col-lg-6 border border-dark rounded p-2 my-2">
               <figure className="rounded mx-auto d-block">
                 <AutoplayingCarousel
                   articles={objectionsSectionFour}
@@ -201,7 +201,7 @@ export default function ObjectionsPageMainSection(props) {
       <section key="sectionFive">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-lg-6">
+            <div className="col-lg-6 border border-dark rounded p-2 my-2">
               <figure className="rounded mx-auto d-block">
                 <AutoplayingCarousel
                   articles={objectionsSectionFive}

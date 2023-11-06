@@ -11,27 +11,27 @@ export default function ObjectionsPagesList() {
     },
     {
       title: "section_nav_item_one",
-      arabicTitle: "القسم الأول",
+      arabicTitle: "القسم الأول: الكميّة",
       path: "/objections/section-1",
     },
     {
       title: "section_nav_item_two",
-      arabicTitle: "القسم الثاني",
+      arabicTitle: "القسم الثاني: الأسماء",
       path: "/objections/section-2",
     },
     {
       title: "section_nav_item_three",
-      arabicTitle: "القسم الثالث",
+      arabicTitle: "القسم الثالث: التواقيت",
       path: "/objections/section-3",
     },
     {
       title: "section_nav_item_four",
-      arabicTitle: "القسم الرابع",
+      arabicTitle: "القسم الرابع: الأسباب",
       path: "/objections/section-4",
     },
     {
       title: "section_nav_item_five",
-      arabicTitle: "القسم الخامس",
+      arabicTitle: "القسم الخامس: التفاصيل",
       path: "/objections/section-5",
     },
   ];

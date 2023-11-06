@@ -5,7 +5,7 @@ export default function UiMainNav() {
     <>
       <nav className="col row">
         <div className="menu-item col">
-          <Link href="/objections">اعتراضات</Link>
+          <Link href="/objections">التناقضات</Link>
         </div>
         <div className="menu-item col">
           <Link href="/creation"> مقالات الخلق </Link>

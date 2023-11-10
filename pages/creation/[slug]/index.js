@@ -1,9 +1,8 @@
 import ArticleContentPageComponent from "../../../components/article-components/single-article-page/article-content-page";
-
 import {
-  getCreationArticlesFiles,
-  getCreationArticleData,
-} from "../../../utilities/creation-functions";
+  getArticleFiles,
+  getArticleData,
+} from "../../../utilities/articles-functions.js";
 
 export default function CreationsArtilePage(props) {
   const { article } = props;
@@ -17,16 +16,16 @@ export default function CreationsArtilePage(props) {
 export function getStaticProps(context) {
   const { params } = context;
   const { slug } = params;
-  const creationArticleData = getCreationArticleData(slug);
+  const creationArticleData = getArticleData(slug, "/content/creation");
   return {
     props: {
       article: creationArticleData,
     },
-    revalidate: 30000,
+    revalidate: 43200, // validate every 12 hours
   };
 }
 export function getStaticPaths() {
-  const creationArticleFilenames = getCreationArticlesFiles();
+  const creationArticleFilenames = getArticleFiles("/content/creation");
   const slugs = creationArticleFilenames.map((fileName) =>
     fileName.replace(/\.md$/, "")
   );

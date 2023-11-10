@@ -1,4 +1,4 @@
-import { getCreationArticlesByCategory } from "../../utilities/creation-functions";
+import { getArticlesByCategory } from "../../utilities/articles-functions";
 import { randomArticlesFromArray } from "../../utilities/general-functions";
 import BibleVerseHero from "../../components/ui/bible-verse-hero";
 import BiblicalWorldSection from "../../components/creation-components/creation-main-page-sections/biblical-world";
@@ -59,23 +59,23 @@ export default function MainCreationOne(props) {
 
 export async function getStaticProps() {
   const articlesByCategoryGospel = randomArticlesFromArray(
-    getCreationArticlesByCategory("الكتاب-المقدس-والإنجيل"),
+    getArticlesByCategory("الكتاب-المقدس-والإنجيل", "/content/creation"),
     3
   );
   const articlesByCategoryBiblicalWorld = randomArticlesFromArray(
-    getCreationArticlesByCategory("العالم-التوراتي"),
+    getArticlesByCategory("العالم-التوراتي", "/content/creation"),
     3
   );
   const articlesByCategoryDino = randomArticlesFromArray(
-    getCreationArticlesByCategory("الديناصورات-والتأريخ"),
+    getArticlesByCategory("الديناصورات-والتأريخ", "/content/creation"),
     3
   );
   const articlesByCategoryEvolution = randomArticlesFromArray(
-    getCreationArticlesByCategory("التطور-ونتائجه"),
+    getArticlesByCategory("التطور-ونتائجه", "/content/creation"),
     3
   );
   const articlesByCategoryModernScince = randomArticlesFromArray(
-    getCreationArticlesByCategory("علوم-معاصرة"),
+    getArticlesByCategory("علوم-معاصرة", "/content/creation"),
     3
   );
   return {

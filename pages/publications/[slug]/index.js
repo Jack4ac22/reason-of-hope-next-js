@@ -1,6 +1,9 @@
-import {  getPublicationsFiles,  getPublicationData,} from "../../utilities/publications-functions";
-import ArticleContentPageComponent from "../../components/article-components/single-article-page/article-content-page";
-import HeroMain from "../../components/main/hero-main";
+import {
+  getArticleFiles,
+  getArticleData,
+} from "../../../utilities/articles-functions.js";
+import ArticleContentPageComponent from "../../../components/article-components/single-article-page/article-content-page";
+import HeroMain from "../../../components/main/hero-main";
 
 export default function PublicationsArtilePage(props) {
   const { article } = props;
@@ -14,17 +17,17 @@ export default function PublicationsArtilePage(props) {
 export function getStaticProps(context) {
   const { params } = context;
   const { slug } = params;
-  const publicationsArticleData = getPublicationData(slug);
+  const publicationsArticleData = getArticleData(slug, "/content/publications");
   return {
     props: {
       article: publicationsArticleData,
     },
-    revalidate: 30000,
+    revalidate: 43200, // validate every 12 hours
   };
 }
 
 export function getStaticPaths() {
-  const publicationsArticleFilenames = getPublicationsFiles();
+  const publicationsArticleFilenames = getArticleFiles("/content/publications");
   const slugs = publicationsArticleFilenames.map((fileName) =>
     fileName.replace(/\.md$/, "")
   );

@@ -1,10 +1,10 @@
-import { getAllCreationArticles } from "../../utilities/creation-functions";
+import {getAllArticles}  from "../../utilities/articles-functions";
 import ArticleCardsList from "../../components/general-compenents/cards-list/acrticles-cards-list";
 import CreationPagesList from "../../components/creation-components/creation-pages-list/creation-pages-list";
 import PageTitle from "../../components/ui/page-title";
 
 export default function AllCreationArticlePage(props) {
-  const creationArticles = props.creationArticles;
+  const articles = props.articles;
   return (
     <>
       <PageTitle
@@ -15,16 +15,16 @@ export default function AllCreationArticlePage(props) {
 
       <CreationPagesList />
 
-      <ArticleCardsList articles={creationArticles} baseUrl="/creation" />
+      <ArticleCardsList articles={articles} baseUrl="/creation" />
     </>
   );
 }
-export async function getStaticProps(props) {
-  const allArticlesByTitle = getAllCreationArticles("slug");
+export async function getStaticProps() {
+  const allArticlesByTitle = getAllArticles("/content/creation","title");
 
   return {
     props: {
-      creationArticles: allArticlesByTitle,
+      articles: allArticlesByTitle,
     },
   };
 }

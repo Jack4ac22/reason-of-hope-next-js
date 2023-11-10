@@ -1,11 +1,11 @@
-import { getCreationArticlesByCategory } from "../../utilities/creation-functions";
+import {getArticlesByCategory}  from "../../utilities/articles-functions";
 import ArticleCardsList from "../../components/general-compenents/cards-list/acrticles-cards-list";
 import BibleVerseHero from "../../components/ui/bible-verse-hero";
 import CreationPagesList from "../../components/creation-components/creation-pages-list/creation-pages-list";
 import PageTitle from "../../components/ui/page-title";
 
 export default function BiblicalWorld(props) {
-  const articlesByCategoryBiblicalWorld = props.articlesByCategoryBiblicalWorld;
+  const articles = props.articles;
   return (
     <>
       <>
@@ -44,7 +44,7 @@ export default function BiblicalWorld(props) {
         </section>
         <section className="rounded-4 border border-5 mt-3 p-3 mb-2">
           <ArticleCardsList
-            articles={articlesByCategoryBiblicalWorld}
+            articles={articles}
             baseUrl="/creation"
           />
         </section>
@@ -53,12 +53,12 @@ export default function BiblicalWorld(props) {
   );
 }
 export async function getStaticProps() {
-  const articlesByCategoryBiblicalWorld =
-    getCreationArticlesByCategory("العالم-التوراتي");
+  const articles =
+  getArticlesByCategory("العالم-التوراتي", "/content/creation");
 
   return {
     props: {
-      articlesByCategoryBiblicalWorld: articlesByCategoryBiblicalWorld,
+      articles: articles,
     },
     revalidate: 43200,
   };

@@ -1,14 +1,14 @@
-import ArticleContentPageComponent from "../../components/article-components/single-article-page/article-content-page";
+import ArticleContentPageComponent from "../../../components/article-components/single-article-page/article-content-page";
 import {
-  getObjectionsFiles,
-  getObjectionData,
-} from "../../utilities/objections-functions";
+  getArticleFiles,
+  getArticleData,
+} from "../../../utilities/articles-functions.js";
 
 export default function objectionArtilePage(props) {
-  const { objection } = props;
+  const { article } = props;
   return (
     <>
-      <ArticleContentPageComponent article={objection} />{" "}
+      <ArticleContentPageComponent article={article} />{" "}
     </>
   );
 }
@@ -16,16 +16,16 @@ export default function objectionArtilePage(props) {
 export function getStaticProps(context) {
   const { params } = context;
   const { slug } = params;
-  const objectionData = getObjectionData(slug);
+  const objectionData =   getArticleData(slug, "/content/objections");
   return {
     props: {
-      objection: objectionData,
+      article: objectionData,
     },
     revalidate: 30000,
   };
 }
 export function getStaticPaths() {
-  const objectionFilenames = getObjectionsFiles();
+  const objectionFilenames = getArticleFiles("/content/objections");
   const slugs = objectionFilenames.map((fileName) =>
     fileName.replace(/\.md$/, "")
   );

@@ -5,16 +5,16 @@ import {
 } from "../../../utilities/articles-functions.js";
 import PageTitle from "../../../components/general-compenents/page-title.js";
 
-function WordDetailPage(props) {
+export default function LogicArtilePage(props) {
   const { article } = props;
   return (
     <>
-      <PageTitle
+    <PageTitle
         title={article.title}
         description={article.description}
         image={`/blog-images/${article.coverImage}`}
       />
-      <ArticleContentPageComponent article={article} />{" "}
+      <ArticleContentPageComponent article={article} />
     </>
   );
 }
@@ -22,25 +22,22 @@ function WordDetailPage(props) {
 export function getStaticProps(context) {
   const { params } = context;
   const { slug } = params;
-
-  const wordData = getArticleData(slug, "/content/word");
+  const logicArticleData = getArticleData(slug, "/content/logic");
   return {
     props: {
-      article: wordData,
+      logicArticle: logicArticleData,
     },
     revalidate: 43200, // validate every 12 hours
   };
 }
 
 export function getStaticPaths() {
-  const wordFilenames = getArticleFiles("/content/word");
-
-  const slugs = wordFilenames.map((fileName) => fileName.replace(/\.md$/, ""));
-
+  const logicArticleFilenames = getArticleFiles("/content/logic");
+  const slugs = logicArticleFilenames.map((fileName) =>
+    fileName.replace(/\.md$/, "")
+  );
   return {
     paths: slugs.map((slug) => ({ params: { slug: slug } })),
     fallback: false,
   };
 }
-
-export default WordDetailPage;

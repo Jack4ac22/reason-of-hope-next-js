@@ -20,12 +20,12 @@ export default function AllObjectionPage(props) {
           description="السلسلة من المقاطع المصورة تقدم لكم نظرة عامة على هذه الآيات بالإضافة إلى تحليل منطقي لما يُعتقد بأنَّه تناقض بين الآيات وذلك بالإعتماد على علم المنطق."
           image="/blog-images/bible-2110439_640.jpg"
         />
-        <ObjectionsPagesList />
         <BibleVerseHero
           body="أمّا يَسوعُ فهوَ هوَ، بِالأمسِ واليومِ وإلى الأبَدِ."
           reference="الرسالة إلى العبرانيين 13: 8"
           translation="الترجمة العربية المشتركة"
         />
+        <ObjectionsPagesList />
       </>
       <>
         <ObjectionsPageMainSection

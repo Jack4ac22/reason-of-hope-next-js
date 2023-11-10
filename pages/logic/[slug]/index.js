@@ -22,10 +22,10 @@ export default function LogicArtilePage(props) {
 export function getStaticProps(context) {
   const { params } = context;
   const { slug } = params;
-  const logicArticleData = getArticleData(slug, "/content/logic");
+  const article = getArticleData(slug, "/content/logic");
   return {
     props: {
-      logicArticle: logicArticleData,
+      article: article,
     },
     revalidate: 43200, // validate every 12 hours
   };

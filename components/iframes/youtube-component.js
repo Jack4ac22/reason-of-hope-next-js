@@ -11,7 +11,7 @@ function YouTubeEmbed({ video }) {
         setIframeWidth(0.7 * 560);
         setIframeHeight(0.7 * 315);
       } else if (screenWidth < 960) {
-        setIframeWidth((0.7 * screenWidth).toString());
+        setIframeWidth((0.65 * screenWidth).toString());
         setIframeHeight(((screenWidth / 560) * 315).toString());
       } else {
         setIframeWidth(720);
@@ -37,12 +37,12 @@ function YouTubeEmbed({ video }) {
   };
 
   return (
-    <div className="youtube-embed">
+    <div className="youtube-embed col rounded">
       <iframe
         src={embedUrl}
         allowFullScreen
         title="YouTube Video"
-        style={iframeStyle} // Apply the styles using the style attribute
+        style={iframeStyle}
       ></iframe>
     </div>
   );

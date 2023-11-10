@@ -5,7 +5,7 @@ export default function objectionArtilePage(props) {
   const article = props.article;
   return (
     <>
-      <ArticleContentPageComponent article={article} />{" "}
+      <ArticleContentPageComponent article={article} />
     </>
   );
 }

@@ -8,11 +8,11 @@ export default function ObjectionsPageSectionOne(props) {
       <section key="main-section-one" className="mb-2">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-lg-6">
-              <figure className="rounded mx-auto d-block">
+            <div className="col-lg-6 aspect-ratio-1x1">
+              <figure className="rounded mx-auto d-block ">
                 <Image
                   alt="cover image for the section one of the objections page"
-                  className="rounded mx-auto d-block"
+                  className="rounded mx-auto d-block img-fluid "
                   src={"/blog-images/pexels-photo-6623835.jpeg"}
                   width={400}
                   height={400}

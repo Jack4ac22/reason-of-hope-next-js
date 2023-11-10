@@ -12,7 +12,7 @@ export default function ObjectionsPageSectionFive(props) {
               <figure className="rounded mx-auto d-block">
                 <Image
                   alt="cover image for the section five of the objections page"
-                  className="rounded mx-auto d-block"
+                  className="rounded mx-auto d-block img-fluid "
                   src={"/blog-images/pexels-photo-6681855.jpeg"}
                   width={400}
                   height={400}

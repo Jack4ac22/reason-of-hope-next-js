@@ -3,6 +3,7 @@ import ArticleContentHeader from "./article-content-header";
 import ArticleHeader from "../article-header/article-header";
 import YouTube, { YouTubeProps } from "react-youtube";
 import { Spotify } from "react-spotify-embed";
+import YouTubeEmbed from "../../iframes/youtube-component";
 export default function ArticleContentPageComponent(props) {
   const { article } = props;
 
@@ -29,7 +30,8 @@ export default function ArticleContentPageComponent(props) {
             )}
             {article.youtube && (
               <div className={`${article.youtube ? "col-md-7" : "col"} m-p-3`}>
-                <YouTube videoId={article.youtube} opts={opts} />
+                <YouTubeEmbed video={article.youtube} />
+                {/* <YouTube videoId={article.youtube} opts={opts} /> */}
               </div>
             )}
           </div>

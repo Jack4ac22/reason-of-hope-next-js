@@ -2,10 +2,14 @@ import Image from "next/image";
 import Link from "next/link";
 export default function ModalImage(props) {
   const { image } = props;
+  // console.log(image);
   // adjust the image alt to remove the words "full" or "large" or "small"
   const isFullWidth = image.alt.toLowerCase().includes("full");
   const isLargeWidth = image.alt.toLowerCase().includes("large");
   const isSmallidth = image.alt.toLowerCase().includes("small");
+  const isFloatRight = image.src.toLowerCase().includes("position=right");
+  const isFloatLeft = image.src.toLowerCase().includes("position=left");
+  const isFloatCenter = image.src.toLowerCase().includes("position=center");
   if (image.alt) {
     image.alt = image.alt.replace(/full|large|small/gi, "");
   }
@@ -19,8 +23,12 @@ export default function ModalImage(props) {
       <div
         className={`container-fluid ${isFullWidth ? "w-100" : ""}
         ${isLargeWidth ? "w-50" : ""}
-      ${!isFullWidth && !isLargeWidth ? "col-lg-4 col-md-12 float-end " : ""}
-      }`}
+      ${!isFullWidth && !isLargeWidth ? "col-lg-4 col-md-12 " : ""}
+      ${isFloatRight ? "float-end" : ""}
+      ${isFloatLeft ? "float-start" : ""}
+      ${isFloatCenter ? "mx-auto d-block" : ""}
+      ${!isFloatCenter && !isFloatLeft && !isFloatRight ? "float-end" : ""}
+      `}
       >
         <button
           type="button"
@@ -31,7 +39,7 @@ export default function ModalImage(props) {
           <figure calssName="figure">
             <Image
               src={`/blog-images/${image.src}`}
-              alt={image.alt}
+              alt={image.alt ? image.alt : "صورة"}
               width={isFullWidth ? 800 : 400}
               height={isFullWidth ? 500 : 250}
               className="img-fluid"
@@ -43,7 +51,7 @@ export default function ModalImage(props) {
           /> */}
 
             <figcaption calssName="figure-caption text-break">
-              {image.alt}
+              {image.alt ? image.alt : ""}
             </figcaption>
           </figure>
         </button>
@@ -59,7 +67,7 @@ export default function ModalImage(props) {
           <div className="modal-content">
             <div className="modal-header">
               <h5 className="modal-title" id={`modal${identifier}Label`}>
-                لمعاينة الصورة بحجمها الكامل{" "}
+                لمعاينة الصورة بحجمها الكامل
                 <Link
                   href={`/blog-images/${image.src}`}
                   target="_blank"

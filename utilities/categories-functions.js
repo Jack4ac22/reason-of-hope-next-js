@@ -4,32 +4,6 @@ import {
   getArticlesByCategory,
 } from "./articles-functions.js";
 
-import {
-  getAllCreationsCategories,
-  getAllCreationArticles,
-  getCreationArticlesByCategory,
-} from "./creation-functions";
-import {
-  getAllLogicsCategories,
-  getAllLogics,
-  getLogicsByCategory,
-} from "./logic-functions.js";
-import {
-  getAllObjectionsCategories,
-  getAllObjections,
-  getObjectionsByCategory,
-} from "./objections-functions.js";
-import {
-  getAllPublicationsCategories,
-  getAllPublications,
-  getPublicationsByCategory,
-} from "./publications-functions.js";
-import {
-  getAllWords,
-  getWordsByCategory,
-  getAllWordsCategories,
-} from "./word-functions.js";
-
 export function getAllCategoriesCount() {
   const creationCategories = getAllArticleCategories("/content/creation");
   const logicCategories = getAllArticleCategories("/content/logic");

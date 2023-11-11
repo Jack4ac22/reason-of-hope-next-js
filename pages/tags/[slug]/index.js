@@ -1,7 +1,7 @@
 import {
-  getArticlesByTag,
+  getAllArticlesByTag,
   getAllTagsCount,
-} from "../../utilities/tags-functions";
+} from "../../../utilities/tags-functions";
 
 export default function TagArtilePage(props) {
   const { articles, slug } = props;
@@ -15,7 +15,7 @@ export default function TagArtilePage(props) {
 export async function getStaticProps(context) {
   const { params } = context;
   const { slug } = params;
-  const articles = getArticlesByTag(slug);
+  const articles = getAllArticlesByTag(slug);
   return {
     props: {
       articles: articles,

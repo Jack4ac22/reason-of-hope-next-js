@@ -1,15 +1,15 @@
-import ArticleContentPageComponent from "../../../components/article-components/single-article-page/article-content-page.js";
 import {
   getArticleFiles,
   getArticleData,
 } from "../../../utilities/articles-functions.js";
+import ArticleContentPageComponent from "../../../components/article-components/single-article-page/article-content-page.js";
 import PageTitle from "../../../components/general-compenents/page-title.js";
 
 export default function LogicArtilePage(props) {
   const { article } = props;
   return (
     <>
-    <PageTitle
+      <PageTitle
         title={article.title}
         description={article.description}
         image={`/blog-images/${article.coverImage}`}

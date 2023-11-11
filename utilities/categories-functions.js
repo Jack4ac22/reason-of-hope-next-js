@@ -1,4 +1,10 @@
 import {
+  getAllArticles,
+  getAllArticleCategories,
+  getArticlesByCategory,
+} from "./articles-functions.js";
+
+import {
   getAllCreationsCategories,
   getAllCreationArticles,
   getCreationArticlesByCategory,
@@ -25,15 +31,11 @@ import {
 } from "./word-functions.js";
 
 export function getAllCategoriesCount() {
-  const creationCategories = getAllCreationsCategories();
-
-  const logicCategories = getAllLogicsCategories();
-
-  const objectionCategories = getAllObjectionsCategories();
-
-  const publicationCategories = getAllPublicationsCategories();
-
-  const wordCategories = getAllWordsCategories();
+  const creationCategories = getAllArticleCategories("/content/creation");
+  const logicCategories = getAllArticleCategories("/content/logic");
+  const objectionCategories = getAllArticleCategories("/content/objections");
+  const publicationCategories = getAllArticleCategories("/content/publications");
+  const wordCategories = getAllArticleCategories("/content/word");
 
   const allCategories = [];
 
@@ -95,17 +97,11 @@ export function getAllCategoriesarticles() {
   const allCategories = getAllCategoriesCount();
 
   allCategories.forEach((category) => {
-    const creationArticlesByCategory = getCreationArticlesByCategory(
-      category.category
-    );
-    const objectionsArticlesByCategory = getObjectionsByCategory(
-      category.category
-    );
-    const logicsArticlesByCategory = getLogicsByCategory(category.category);
-    const publicationsArticlesByCategory = getPublicationsByCategory(
-      category.category
-    );
-    const wordsArticlesByCategory = getWordsByCategory(category.category);
+    const creationArticlesByCategory = getArticlesByCategory(category.category,"/content/creation");
+    const logicsArticlesByCategory = getArticlesByCategory(category.category,"/content/logic");
+    const objectionsArticlesByCategory = getArticlesByCategory(category.category,"/content/objections");
+    const publicationsArticlesByCategory = getArticlesByCategory(category.category,"/content/publications");
+    const wordsArticlesByCategory = getArticlesByCategory(category.category,"/content/word");
 
     const newCategoryObject = {
       category: category.category,
@@ -117,19 +113,19 @@ export function getAllCategoriesarticles() {
         logic: [...logicsArticlesByCategory],
         publication: [...publicationsArticlesByCategory],
         word: [...wordsArticlesByCategory],
-      }
+      },
     };
     allCatWithArticles.push(newCategoryObject);
   });
   return allCatWithArticles;
 }
 
-export function getArticlesByCategory(category) {
-  const creationArticlesByCategory = getCreationArticlesByCategory(category);
-  const objectionsArticlesByCategory = getObjectionsByCategory(category);
-  const logicsArticlesByCategory = getLogicsByCategory(category);
-  const publicationsArticlesByCategory = getPublicationsByCategory(category);
-  const wordsArticlesByCategory = getWordsByCategory(category);
+export function getAllArticlesByCategory(category) {
+  const creationArticlesByCategory = getArticlesByCategory(category,"/content/creation");
+  const logicsArticlesByCategory = getArticlesByCategory(category,"/content/logic");
+  const objectionsArticlesByCategory = getArticlesByCategory(category,"/content/objections");
+  const publicationsArticlesByCategory = getArticlesByCategory(category,"/content/publications");
+  const wordsArticlesByCategory = getArticlesByCategory(category,"/content/word");
   const allArticles = {
     creation: {
       count: creationArticlesByCategory.length,

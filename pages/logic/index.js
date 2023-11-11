@@ -1,6 +1,6 @@
+import { getAllArticles } from "../../utilities/articles-functions";
 import ArticleCardsList from "../../components/general-compenents/cards-list/acrticles-cards-list";
 import PageTitle from "../../components/general-compenents/page-title";
-import { getAllArticles } from "../../utilities/articles-functions";
 
 export default function AllLogicPage(props) {
   const articles = props.articles;

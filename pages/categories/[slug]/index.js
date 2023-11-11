@@ -1,7 +1,7 @@
 import {
   getAllCategoriesCount,
-  getArticlesByCategory,
-} from "../../utilities/categories-functions";
+  getAllArticlesByCategory,
+} from "../../../utilities/categories-functions";
 import Link from "next/link";
 
 export default function AllCategoriesPage(props) {
@@ -89,7 +89,7 @@ export async function getStaticProps(context) {
   const { params } = context;
   const { slug } = params;
 
-  const articles = getArticlesByCategory(slug);
+  const articles = getAllArticlesByCategory(slug);
 
   return {
     props: {

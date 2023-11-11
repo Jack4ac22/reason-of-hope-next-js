@@ -6,7 +6,7 @@ const BackToPreviousPage = () => {
   const goBack = () => {
     router.back();
   };
-
+// TODO: remove this component if there is no back in the router.back()
   return (
     <div className="position-fixed top-0 end-0 mt-5 opacity-25">
       <button className="btn btn-primary rounded-circle" onClick={goBack}>

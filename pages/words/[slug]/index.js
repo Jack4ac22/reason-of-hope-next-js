@@ -6,15 +6,15 @@ import {
 import PageTitle from "../../../components/general-compenents/page-title.js";
 
 function WordDetailPage(props) {
-  const { word } = props;
+  const { article } = props;
   return (
     <>
       <PageTitle
-        title={word.title}
-        description={word.description}
-        image={`/blog-images/${word.coverImage}`}
+        title={article.title}
+        description={article.description}
+        image={`/blog-images/${article.coverImage}`}
       />
-      <ArticleContentPageComponent article={word} />{" "}
+      <ArticleContentPageComponent article={article} />{" "}
     </>
   );
 }
@@ -26,7 +26,7 @@ export function getStaticProps(context) {
   const wordData = getArticleData(slug, "/content/word");
   return {
     props: {
-      word: wordData,
+      article: wordData,
     },
     revalidate: 43200, // validate every 12 hours
   };

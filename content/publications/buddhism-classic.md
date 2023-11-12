@@ -11,47 +11,33 @@ tags:
   - "تاريخ"
 coverImage: "buddhism.jpg"
 youtube: ""
-resouces:
+resources:
   - pdfFile: ""
-  - internetArchiveLink: ""
-  - googleBooksLink: ""
-  - appleBooksLink: ""
+  - internetArchiveLink: "https://reasonofhope.com/?p=7014"
+  - googleBooksLink: "https://books.google.lu/books/about?id=w_NjEAAAQBAJ&redir_esc=y"
+  - appleBooksLink: "http://books.apple.com/us/book/id1614123850"
 audio:
-  - applePodcasts: ""
-  - googlePodcasts: ""
-  - hearthisAt: ""
-  - spotify: ""
-  - anchorLink: ""
-externalLink: ""
+  - applePodcasts: "https://podcasts.apple.com/lu/podcast/%D9%81%D9%8A-%D8%A7%D9%84%D8%A8%D8%AF%D8%A1/id1579034794?i=1000553890051"
+  - googlePodcasts: "https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy81MTVjMjljNC9wb2RjYXN0L3Jzcw/episode/NjQ3ZTMxY2YtNWUzYS00NTRkLTk4YzItMmI5YjFjYmRjYzBk?sa=X&ved=0CAUQkfYCahcKEwjYzcvkjcr2AhUAAAAAHQAAAAAQAQ"
+  - hearthisAt: "https://hearthis.at/reasonofope/buddism"
+  - spotify: "https://open.spotify.com/episode/74z1UuV4dQhLrWFWBaWpux?si=_yXXEhf5SWS-ADDo2VEoLQ"
+  - anchorLink: "https://anchor.fm/reason-of-hope4/episodes/--e1fkit8"
+externalLink: "https://rumble.com/vx97vl-55857441.html"
 authors:
-  - name: ""
+  - name: "جاك قازنجيان - Jack Kazanjyan"
     link: ""
 translators:
   - name: ""
     link: ""
-description: ""
+description: "لمحة مُختصرة عن تاريخ ونشأة البوذية الكلاسيكية بالإضافة إلى نظرة عامة تُظهر التباين بين تعاليمها وبين التعاليم المسيحية المبنية على الكتاب المقدس."
 status: ""
 ---
-
-https://hearthis.at/reasonofope/buddism
-
-https://open.spotify.com/episode/74z1UuV4dQhLrWFWBaWpux?si=\_yXXEhf5SWS-ADDo2VEoLQ
-
-### يُمكنكم الحصول على نسختكم النصيّة من خلال المنصات التالية:
-
-[![](images/pdf.png)](https://arabcreationisthome.files.wordpress.com/2022/03/buddhism.pdf)[![](images/apple.png)](http://books.apple.com/us/book/id1614123850)[![](images/google-books.png)](https://books.google.lu/books/about?id=w_NjEAAAQBAJ&redir_esc=y)
-
-### يُمكنكم الإستماع إلى التسجيلات الصوتية من خلال المنصات التالية:
-
-[![](images/apple-podcasts-1.png)](https://podcasts.apple.com/lu/podcast/%D9%81%D9%8A-%D8%A7%D9%84%D8%A8%D8%AF%D8%A1/id1579034794?i=1000553890051)[![](images/google-podcasts.png)](https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy81MTVjMjljNC9wb2RjYXN0L3Jzcw/episode/NjQ3ZTMxY2YtNWUzYS00NTRkLTk4YzItMmI5YjFjYmRjYzBk?sa=X&ved=0CAUQkfYCahcKEwjYzcvkjcr2AhUAAAAAHQAAAAAQAQ)[![](images/spotify.png)](https://open.spotify.com/episode/74z1UuV4dQhLrWFWBaWpux?si=_yXXEhf5SWS-ADDo2VEoLQ)[![](images/anchor-2.png)](https://anchor.fm/reason-of-hope4/episodes/--e1fkit8)[![](images/deezer.png)](https://deezer.page.link/AwSJWeUpwqMmmQC89)[![](images/hearthis.at_.png)](https://hearthis.at/reasonofope/buddism)
 
 ## **مقدمة**
 
 تتبوأ البوذية مكانةً متقدمة من ناحية الإنتشار والعدد بين الديانات الكُبرى، وقد شهدت البوذية انتشاراً واسع النطاق في بدايات القرن العشرين، حيث وصلت إلى القارة الأمريكية الشمالية وانتشرت في أرجاء واسعة من القارة الأوروبية، وقد تحولت من كونها واحدة من بين الديانات الشرقية إلى أن أصبحت إيماناً شائع الإنتشار في معظم الدول الغربية.
 
 على الرغم من وجود إشكالية في تصنيف البوذيّة على أساس كونها ديانة، إلا أنَّها كانت الحاضنة التي تفرعت منها مجموعة كبيرة من الجماعات والفِرق والشيع الدينية الحديثة التي قامت بتبني وإعادة تجميع طقوسها وممارساتها بأشكال مُختلفة، من بين هذه الجماعات نجد: الساينتولوجي (Scientology)، ومجموعة فوروم (FORUM)، ولايف سبرينغ (Lifrspring) وسواها. عدا عن وجود بعض الجماعات أو الفرق التي تفرعت عن البوذية في حُقب تاريخية سالفة من أمثال: زِن (Zen)، نيشرين (Nichren)، وشوشو (Shoshu) وسواها.
-
-https://rumble.com/embed/vun1tn/?pub=pxif7
 
 ## **التاريخ** 
 

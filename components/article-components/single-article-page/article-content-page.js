@@ -30,8 +30,8 @@ export default function ArticleContentPageComponent(props) {
             )}
             {article.youtube && (
               <div className={`${article.youtube ? "col-md-7" : "col"} m-p-3`}>
-                <YouTubeEmbed video={article.youtube} />
-                {/* <YouTube videoId={article.youtube} opts={opts} /> */}
+                {/* <YouTubeEmbed video={article.youtube} /> */}
+                <YouTube videoId={article.youtube} opts={opts} />
               </div>
             )}
           </div>

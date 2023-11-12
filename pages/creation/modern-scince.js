@@ -1,11 +1,11 @@
-import { getCreationArticlesByCategory } from "../../utilities/creation-functions";
+import { getArticlesByCategory } from "../../utilities/articles-functions";
 import ArticleCardsList from "../../components/general-compenents/cards-list/acrticles-cards-list";
 import BibleVerseHero from "../../components/ui/bible-verse-hero";
 import CreationPagesList from "../../components/creation-components/creation-pages-list/creation-pages-list";
 import PageTitle from "../../components/ui/page-title";
 
 export default function ModernScince(props) {
-  const articlesByCategoryModernScince = props.articlesByCategoryModernScince;
+  const articles = props.articles;
   return (
     <>
       <>
@@ -45,7 +45,7 @@ export default function ModernScince(props) {
         </section>
         <section className="rounded-4 border border-5 mt-3 p-3 mb-2">
           <ArticleCardsList
-            articles={articlesByCategoryModernScince}
+            articles={articles}
             baseUrl="/creation"
           />
         </section>
@@ -54,12 +54,12 @@ export default function ModernScince(props) {
   );
 }
 export async function getStaticProps() {
-  const articlesByCategoryModernScince =
-    getCreationArticlesByCategory("علوم-معاصرة");
+  const articles =
+  getArticlesByCategory("علوم-معاصرة", "/content/creation");
 
   return {
     props: {
-      articlesByCategoryModernScince: articlesByCategoryModernScince,
+      articles: articles,
     },
     revalidate: 43200,
   };

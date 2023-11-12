@@ -1,11 +1,11 @@
-import { getCreationArticlesByCategory } from "../../utilities/creation-functions";
+import { getArticlesByCategory } from "../../utilities/articles-functions";
 import ArticleCardsList from "../../components/general-compenents/cards-list/acrticles-cards-list";
 import BibleVerseHero from "../../components/ui/bible-verse-hero";
 import CreationPagesList from "../../components/creation-components/creation-pages-list/creation-pages-list";
 import PageTitle from "../../components/ui/page-title";
 
 export default function EvolutionAndEthics(props) {
-  const articlesByCategoryEvolution = props.articlesByCategoryEvolution;
+  const articles = props.articles;
   return (
     <>
       <>
@@ -43,7 +43,7 @@ export default function EvolutionAndEthics(props) {
         </section>
         <section className="rounded-4 border border-5 mt-3 p-3 mb-2">
           <ArticleCardsList
-            articles={articlesByCategoryEvolution}
+            articles={articles}
             baseUrl="/creation"
           />
         </section>
@@ -52,12 +52,12 @@ export default function EvolutionAndEthics(props) {
   );
 }
 export async function getStaticProps() {
-  const articlesByCategoryEvolution =
-    getCreationArticlesByCategory("التطور-ونتائجه");
+  const articles =
+  getArticlesByCategory("التطور-ونتائجه", "/content/creation");
 
   return {
     props: {
-      articlesByCategoryEvolution: articlesByCategoryEvolution,
+      articles: articles,
     },
     revalidate: 43200,
   };

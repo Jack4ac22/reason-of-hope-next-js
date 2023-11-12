@@ -1,11 +1,11 @@
-import PageTitle from "../../components/ui/page-title";
-import { getCreationArticlesByCategory } from "../../utilities/creation-functions";
+import { getArticlesByCategory } from "../../utilities/articles-functions";
+import ArticleCardsList from "../../components/general-compenents/cards-list/acrticles-cards-list";
 import BibleVerseHero from "../../components/ui/bible-verse-hero";
 import CreationPagesList from "../../components/creation-components/creation-pages-list/creation-pages-list";
-import ArticleCardsList from "../../components/general-compenents/cards-list/acrticles-cards-list";
+import PageTitle from "../../components/ui/page-title";
 
 export default function DinoAndDating(props) {
-  const articlesByCategoryDino = props.articlesByCategoryDino;
+  const articles = props.articles;
   return (
     <>
       <>
@@ -47,23 +47,21 @@ export default function DinoAndDating(props) {
           </div>
         </section>
         <section className="rounded-4 border border-5 mt-3 p-3 mb-2">
-          <ArticleCardsList
-            articles={articlesByCategoryDino}
-            baseUrl="/creation"
-          />
+          <ArticleCardsList articles={articles} baseUrl="/creation" />
         </section>
       </>
     </>
   );
 }
 export async function getStaticProps() {
-  const articlesByCategoryDino = getCreationArticlesByCategory(
-    "الديناصورات-والتأريخ"
+  const articles = getArticlesByCategory(
+    "الديناصورات-والتأريخ",
+    "/content/creation"
   );
 
   return {
     props: {
-      articlesByCategoryDino: articlesByCategoryDino,
+      articles: articles,
     },
     revalidate: 43200,
   };

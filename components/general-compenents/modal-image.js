@@ -4,9 +4,9 @@ export default function ModalImage(props) {
   const { image } = props;
   // console.log(image);
   // adjust the image alt to remove the words "full" or "large" or "small"
-  const isFullWidth = image.alt.toLowerCase().includes("full");
-  const isLargeWidth = image.alt.toLowerCase().includes("large");
-  const isSmallidth = image.alt.toLowerCase().includes("small");
+  const isFullWidth = image.alt.toLowerCase().includes("full") || image.src.toLowerCase().includes("width=full");
+  const isLargeWidth = image.alt.toLowerCase().includes("large") || image.src.toLowerCase().includes("width=large");
+  const isSmallidth = image.alt.toLowerCase().includes("small") || image.src.toLowerCase().includes("width=small");
   const isFloatRight = image.src.toLowerCase().includes("position=right");
   const isFloatLeft = image.src.toLowerCase().includes("position=left");
   const isFloatCenter = image.src.toLowerCase().includes("position=center");

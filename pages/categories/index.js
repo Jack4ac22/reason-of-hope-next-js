@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { getAllCategoriesCount } from "../../utilities/categories-functions";
 export default function AllCategoriesPage(props) {
+  console.log(props);
   return (
     <>
       <h2>categories with count</h2>

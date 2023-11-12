@@ -4,6 +4,8 @@ date: "2021-11-08"
 categories: 
   - "إختلافات-التفاصيل"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "كورنثوس"
   - "يسوع"

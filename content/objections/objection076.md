@@ -4,6 +4,8 @@ date: "2019-07-08"
 categories: 
   - "أسماء-الأشخاص"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "فروع"
   - "متى"

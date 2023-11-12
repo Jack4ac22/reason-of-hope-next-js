@@ -4,6 +4,8 @@ date: "2020-02-27"
 categories: 
   - "توقيت-الأحداث"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "صموئيل"
 coverImage: "d9a1d9a3d9a6.jpg"

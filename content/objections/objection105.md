@@ -4,6 +4,8 @@ date: "2019-12-19"
 categories: 
   - "أسماء-الأشخاص"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "موسى"
   - "التثنية"

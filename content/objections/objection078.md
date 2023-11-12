@@ -4,6 +4,8 @@ date: "2019-07-12"
 categories: 
   - "أسماء-الأشخاص"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "منطق-مُريب"
   - "أخبار-الأيام"

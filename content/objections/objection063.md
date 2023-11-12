@@ -4,6 +4,8 @@ date: "2019-04-12"
 categories: 
   - "أسماء-الأشخاص"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "لوقا"
   - "متى"

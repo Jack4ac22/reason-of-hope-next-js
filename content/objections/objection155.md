@@ -4,6 +4,8 @@ date: "2020-05-11"
 categories: 
   - "إختلافات-التفاصيل"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "التكوين"
 coverImage: "d9a1d9a5d9a5.jpg"

@@ -4,6 +4,8 @@ date: "2019-02-11"
 categories: 
   - "الإختلافات-الكمية-والعددية"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "فروع"
   - "مصر"

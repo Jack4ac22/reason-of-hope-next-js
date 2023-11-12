@@ -4,6 +4,8 @@ date: "2021-01-18"
 categories: 
   - "إختلافات-التفاصيل"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "نوح"
   - "التكوين"

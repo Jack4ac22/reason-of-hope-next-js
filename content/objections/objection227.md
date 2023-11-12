@@ -4,6 +4,8 @@ date: "2021-05-24"
 categories: 
   - "إختلافات-التفاصيل"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "أخبار-الأيام"
   - "الملوك"

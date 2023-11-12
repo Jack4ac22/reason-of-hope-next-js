@@ -4,6 +4,8 @@ date: "2020-01-20"
 categories: 
   - "توقيت-الأحداث"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "التكوين"
   - "ابراهيم"

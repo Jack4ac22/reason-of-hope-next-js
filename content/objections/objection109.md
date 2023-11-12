@@ -4,6 +4,8 @@ date: "2020-01-02"
 categories: 
   - "أسماء-الأشخاص"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "لوقا"
   - "متى"

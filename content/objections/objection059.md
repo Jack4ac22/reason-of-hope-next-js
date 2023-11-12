@@ -4,6 +4,8 @@ date: "2019-04-03"
 categories: 
   - "أسماء-الأشخاص"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "منطق-مُريب"
   - "إستير"

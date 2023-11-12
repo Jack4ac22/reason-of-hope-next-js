@@ -4,6 +4,8 @@ date: "2020-05-18"
 categories: 
   - "إختلافات-التفاصيل"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "منطق-مُريب"
   - "نحميا"

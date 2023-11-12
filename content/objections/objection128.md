@@ -4,6 +4,8 @@ date: "2020-01-30"
 categories: 
   - "توقيت-الأحداث"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "أعمال-الرسل"
   - "غلاطية"

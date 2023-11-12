@@ -4,6 +4,8 @@ date: "2022-08-22"
 categories: 
   - "إختلافات-التفاصيل"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "مرقس"
   - "يوحنا"

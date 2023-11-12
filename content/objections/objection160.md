@@ -4,6 +4,8 @@ date: "2020-05-28"
 categories: 
   - "إختلافات-التفاصيل"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "القضاة"
   - "التثنية"

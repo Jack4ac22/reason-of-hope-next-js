@@ -4,6 +4,8 @@ date: "2019-11-21"
 categories: 
   - "أسماء-الأشخاص"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "نحميا"
   - "أخبار-الأيام"

@@ -4,6 +4,8 @@ date: "2021-10-18"
 categories: 
   - "إختلافات-التفاصيل"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "لوقا"
   - "متى"

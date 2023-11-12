@@ -4,6 +4,8 @@ date: "2019-04-08"
 categories: 
   - "أسماء-الأشخاص"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "أخبار-الأيام"
   - "الملوك"

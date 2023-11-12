@@ -4,6 +4,8 @@ date: "2020-09-14"
 categories: 
   - "إختلافات-التفاصيل"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "التثنية"
   - "غلاطية"

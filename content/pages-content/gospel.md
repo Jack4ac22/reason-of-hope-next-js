@@ -2,12 +2,14 @@
 title: "تناقضات“ الكتاب المقدس”"
 date: "2019-01-02"
 categories:
-  - "مقدّمة"
-  - "تناقضات"
+  - "pages"
+youtube: ""
+status: "published"
 tags:
-  - "منطق"
-  - "مغالطات"
   - "الكتاب-المقدس"
+  - "الإنجيل"
+  - "الخلاص"
+  - "المسيح"
 coverImage: "img_3509.jpg"
 spotify: ""
 youtube: "98IhK5V53ks"

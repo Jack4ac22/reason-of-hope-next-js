@@ -4,6 +4,8 @@ date: "2022-06-20"
 categories: 
   - "إختلافات-التفاصيل"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "متى"
   - "يهوذا"

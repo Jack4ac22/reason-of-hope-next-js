@@ -4,6 +4,8 @@ date: "2022-03-28"
 categories: 
   - "إختلافات-التفاصيل"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "الخروج"
   - "السبت"

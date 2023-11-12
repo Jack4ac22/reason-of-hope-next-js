@@ -4,6 +4,8 @@ date: "2020-02-13"
 categories: 
   - "توقيت-الأحداث"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "نوح"
   - "التكوين"

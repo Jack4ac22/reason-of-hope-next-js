@@ -4,6 +4,8 @@ date: "2019-04-22"
 categories: 
   - "الإختلافات-الكمية-والعددية"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "مزمور"
   - "التكوين"

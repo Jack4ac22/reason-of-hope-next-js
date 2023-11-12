@@ -4,6 +4,8 @@ date: "2019-09-19"
 categories: 
   - "أسماء-الأشخاص"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "الملوك"
   - "النطاق-الدلالي"

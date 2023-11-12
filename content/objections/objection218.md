@@ -4,6 +4,8 @@ date: "2021-03-22"
 categories: 
   - "إختلافات-التفاصيل"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "كورنثوس"
   - "لوقا"

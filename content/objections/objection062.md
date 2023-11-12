@@ -4,6 +4,8 @@ date: "2019-04-10"
 categories: 
   - "أسماء-الأشخاص"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "أخبار-الأيام"
   - "التكوين"

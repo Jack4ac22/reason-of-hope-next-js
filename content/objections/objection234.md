@@ -4,6 +4,8 @@ date: "2021-07-12"
 categories: 
   - "إختلافات-التفاصيل"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "يشوع"
   - "التكوين"

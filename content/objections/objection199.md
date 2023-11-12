@@ -4,6 +4,8 @@ date: "2020-11-09"
 categories: 
   - "إختلافات-التفاصيل"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "مزمور"
   - "أخبار-الأيام"

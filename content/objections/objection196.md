@@ -4,6 +4,8 @@ date: "2020-10-19"
 categories: 
   - "إختلافات-التفاصيل"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "لوقا"
   - "مرقس"

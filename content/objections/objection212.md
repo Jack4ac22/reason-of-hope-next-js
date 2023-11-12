@@ -4,6 +4,8 @@ date: "2021-02-08"
 categories: 
   - "إختلافات-التفاصيل"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "لوقا"
   - "يوحنا"

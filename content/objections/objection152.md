@@ -4,6 +4,8 @@ date: "2020-04-30"
 categories: 
   - "العلاقة-السببية"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "أخبار-الأيام"
   - "صموئيل"

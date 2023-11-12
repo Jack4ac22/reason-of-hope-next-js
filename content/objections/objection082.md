@@ -4,6 +4,8 @@ date: "2019-09-02"
 categories: 
   - "أسماء-الأشخاص"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "يشوع"
   - "يعقوب"

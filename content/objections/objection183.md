@@ -4,6 +4,8 @@ date: "2020-08-17"
 categories: 
   - "إختلافات-التفاصيل"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "منطق-مُريب"
   - "اللاويين"

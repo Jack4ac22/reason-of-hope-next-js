@@ -4,6 +4,8 @@ date: "2019-08-15"
 categories: 
   - "توقيت-الأحداث"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "التكوين"
   - "الخلق"

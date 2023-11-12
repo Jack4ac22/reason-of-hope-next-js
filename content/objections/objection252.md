@@ -4,6 +4,8 @@ date: "2021-11-15"
 categories: 
   - "إختلافات-التفاصيل"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "أعمال-الرسل"
   - "بولس"

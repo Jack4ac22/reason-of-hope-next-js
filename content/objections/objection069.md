@@ -4,6 +4,8 @@ date: "2019-06-21"
 categories: 
   - "أسماء-الأشخاص"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "متى"
   - "مرقس"

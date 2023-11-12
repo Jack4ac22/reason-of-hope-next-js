@@ -4,6 +4,8 @@ date: "2020-06-01"
 categories: 
   - "إختلافات-التفاصيل"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "ملاخي"
   - "ميخا"

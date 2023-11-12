@@ -4,6 +4,8 @@ date: "2021-09-27"
 categories: 
   - "إختلافات-التفاصيل"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "كورنثوس"
   - "الجامعة"

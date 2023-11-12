@@ -4,6 +4,8 @@ date: "2019-02-13"
 categories: 
   - "الإختلافات-الكمية-والعددية"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "فروع"
   - "هيكل"

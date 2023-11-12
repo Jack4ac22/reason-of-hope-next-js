@@ -4,6 +4,8 @@ date: "2022-04-25"
 categories: 
   - "إختلافات-التفاصيل"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "القضاة"
 coverImage: "d9a2d9a6d9a8.jpg"

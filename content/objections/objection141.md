@@ -4,6 +4,8 @@ date: "2020-03-16"
 categories: 
   - "العلاقة-السببية"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "اللاويين"
   - "العبرانيين"

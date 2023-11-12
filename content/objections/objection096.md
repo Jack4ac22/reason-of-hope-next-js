@@ -4,6 +4,8 @@ date: "2019-10-24"
 categories: 
   - "أسماء-الأشخاص"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "منطق-مُريب"
   - "مرقس"

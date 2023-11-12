@@ -4,6 +4,8 @@ date: "2019-12-16"
 categories: 
   - "أسماء-الأشخاص"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "فروع"
   - "التثنية"

@@ -4,6 +4,8 @@ date: "2020-01-23"
 categories: 
   - "توقيت-الأحداث"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "الملوك"
   - "تحليل-النقل-النصّي"

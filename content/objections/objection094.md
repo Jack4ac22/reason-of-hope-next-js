@@ -4,6 +4,8 @@ date: "2019-10-14"
 categories: 
   - "أسماء-الأشخاص"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "أخبار-الأيام"
   - "المواربة"

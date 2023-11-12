@@ -4,6 +4,8 @@ date: "2021-11-01"
 categories: 
   - "إختلافات-التفاصيل"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "لوقا"
   - "ملاخي"

@@ -4,6 +4,8 @@ date: "2019-06-28"
 categories: 
   - "أسماء-الأشخاص"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "فروع"
   - "أخبار-الأيام"

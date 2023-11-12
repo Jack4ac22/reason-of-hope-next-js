@@ -4,6 +4,8 @@ date: "2019-03-01"
 categories: 
   - "الإختلافات-الكمية-والعددية"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "نوح"
   - "الفُلْك"

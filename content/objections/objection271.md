@@ -4,6 +4,8 @@ date: "2022-05-30"
 categories: 
   - "إختلافات-التفاصيل"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "أيوب"
   - "صموئيل"

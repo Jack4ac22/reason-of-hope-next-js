@@ -4,6 +4,8 @@ date: "2022-06-06"
 categories: 
   - "إختلافات-التفاصيل"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "اللاويين"
 coverImage: "272.jpg"

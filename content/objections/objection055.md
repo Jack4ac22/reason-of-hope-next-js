@@ -4,6 +4,8 @@ date: "2019-03-24"
 categories: 
   - "أسماء-الأشخاص"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "أخبار-الأيام"
   - "المواربة"

@@ -4,6 +4,8 @@ date: "2019-08-12"
 categories: 
   - "توقيت-الأحداث"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "نوح"
   - "نطاق-دلالي"

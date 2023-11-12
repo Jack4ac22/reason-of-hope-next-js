@@ -4,6 +4,8 @@ date: "2022-02-07"
 categories: 
   - "إختلافات-التفاصيل"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "ملاخي"
   - "مزمور"

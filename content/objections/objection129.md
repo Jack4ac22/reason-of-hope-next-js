@@ -4,6 +4,8 @@ date: "2020-02-03"
 categories: 
   - "توقيت-الأحداث"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "لوقا"
   - "منطق-مُريب"

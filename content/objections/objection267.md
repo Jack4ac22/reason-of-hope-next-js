@@ -4,6 +4,8 @@ date: "2022-04-12"
 categories: 
   - "إختلافات-التفاصيل"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "أخبار-الأيام"
   - "صموئيل"

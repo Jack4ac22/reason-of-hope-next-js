@@ -4,6 +4,8 @@ date: "2019-08-29"
 categories: 
   - "أسماء-الأشخاص"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "النطاق-الدلالي"
   - "عبري"

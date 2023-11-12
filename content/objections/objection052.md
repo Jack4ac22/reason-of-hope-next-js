@@ -4,6 +4,8 @@ date: "2019-06-07"
 categories: 
   - "الإختلافات-الكمية-والعددية"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "فروع"
   - "الملوك"

@@ -4,6 +4,8 @@ date: "2020-04-23"
 categories: 
   - "العلاقة-السببية"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "يشوع"
   - "العبرانيين"

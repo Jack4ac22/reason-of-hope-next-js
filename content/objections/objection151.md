@@ -4,6 +4,8 @@ date: "2020-04-27"
 categories: 
   - "العلاقة-السببية"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "كولوسي"
   - "يوحنا"

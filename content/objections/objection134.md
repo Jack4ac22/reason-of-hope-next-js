@@ -4,6 +4,8 @@ date: "2020-02-20"
 categories: 
   - "توقيت-الأحداث"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "التكوين"
 coverImage: "d9a1d9a3d9a4.jpg"

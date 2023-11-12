@@ -4,6 +4,8 @@ date: "2019-07-29"
 categories: 
   - "توقيت-الأحداث"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "منطق-مُريب"
   - "نبوخذنصَّر"

@@ -4,6 +4,8 @@ date: "2019-08-05"
 categories: 
   - "توقيت-الأحداث"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "لوقا"
   - "منطق-مُريب"

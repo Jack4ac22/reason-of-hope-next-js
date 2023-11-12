@@ -4,6 +4,8 @@ date: "2019-07-10"
 categories: 
   - "أسماء-الأشخاص"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "تحليل-النقل-النصّي"
   - "داود"

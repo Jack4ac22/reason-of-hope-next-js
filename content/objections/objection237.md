@@ -4,6 +4,8 @@ date: "2021-08-02"
 categories: 
   - "إختلافات-التفاصيل"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "كورنثوس"
   - "متى"

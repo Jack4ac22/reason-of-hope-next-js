@@ -4,6 +4,8 @@ date: "2019-03-27"
 categories: 
   - "أسماء-الأشخاص"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "مغالطات"
   - "أخبار-الأيام"

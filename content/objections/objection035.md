@@ -4,6 +4,8 @@ date: "2019-04-29"
 categories: 
   - "الإختلافات-الكمية-والعددية"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "فروع"
   - "مغالطات"

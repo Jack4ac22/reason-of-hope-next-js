@@ -4,6 +4,8 @@ date: "2020-04-13"
 categories: 
   - "العلاقة-السببية"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "أخبار-الأيام"
   - "الملوك"

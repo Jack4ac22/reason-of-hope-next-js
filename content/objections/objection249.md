@@ -4,6 +4,8 @@ date: "2021-10-25"
 categories: 
   - "إختلافات-التفاصيل"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "متى"
   - "مزمور"

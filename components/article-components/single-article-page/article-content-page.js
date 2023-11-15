@@ -16,6 +16,8 @@ export default function ArticleContentPageComponent(props) {
       light: 1,
     },
   };
+  // TODO: centralise the youtube component, check the alternative, and centeralize the spotify component
+  // TODO: add a check if there is fallacies, and related objections and add them to the article
   return (
     <>
       <ArticleHeader article={article} />

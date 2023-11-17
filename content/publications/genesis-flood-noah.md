@@ -22,7 +22,7 @@ resouces:
   - googleBooksLink: "https://books.google.lu/books/about?id=FlkuEAAAQBAJ&redir_esc=y&hl=de"
   - appleBooksLink: "http://books.apple.com/us/book/id1567552549"
 audio:
-  - applePodcasts: ""
+  - applePodcasts: "https://podcasts.apple.com/lu/podcast/%D9%82%D8%B6%D9%8A%D8%A9-%D8%A7%D9%84%D8%AE%D9%84%D9%82/id1562186150?i=1000526323728"
   - googlePodcasts: "https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy81MTVjMjljNC9wb2RjYXN0L3Jzcw==/episode/MWVhMTMzOWItMmU5MS00ZGI5LWJjZjctNWJjYmZjYmU1MDVm"
   - hearthisAt: "https://hearthis.at/reasonofope/set/genesisflood/"
   - spotify: "https://open.spotify.com/episode/4V7k1jVmphjtjHr210nbQv?si=ZdSdn0XGRLGx85RdETBBTw&dl\_branch=1"

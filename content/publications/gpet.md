@@ -144,7 +144,7 @@ https://youtu.be/qFgRo3RAxgQ
 
 ---
 
-##### يمكنكم قراءة النص الإنكليزي للدراسة السابقة.
+##### يمكنكم قراءة النص الإنجليزي للدراسة السابقة.
 
 [![](images/www.png)](https://citylightseattle.com/blog/the-giant-jesus-and-the-talking-cross-a-study-of-the-gospel-according-to-peter/)
 

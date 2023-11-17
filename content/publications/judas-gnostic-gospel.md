@@ -124,7 +124,7 @@ https://youtu.be/oa4f1cTWYzg
 
 * * *
 
-##### يمكنكم قراءة النص الإنكليزي للدراسة السابقة.  
+##### يمكنكم قراءة النص الإنجليزي للدراسة السابقة.  
   
 [![](images/www.png)](https://citylightseattle.com/blog/the-villain-or-the-victim-an-overview-of-the-gospel-of-judas/?fbclid=IwAR1E9nuvy7DciepP5ZEgKCD6A_t3alU968u9yLonLrxpFxhQ3a8dtrP8tGU)
 

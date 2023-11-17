@@ -110,7 +110,7 @@ https://youtu.be/Z5x-6U39rxQ
 
 * * *
 
-##### يمكنكم قراءة النص الإنكليزي للدراسة السابقة.  
+##### يمكنكم قراءة النص الإنجليزي للدراسة السابقة.  
   
 [![](images/www.png)](https://citylightseattle.com/blog/the-vision-of-mary-magdalene-an-overview-of-the-gospel-of-mary/?fbclid=IwAR3wGogE1nxtDKKOTA1ml05GZSdKjaYFaQ2x90I_m27YAjt8HiD0q4CH5MU)
 

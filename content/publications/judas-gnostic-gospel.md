@@ -11,7 +11,7 @@ tags:
 coverImage: "giotto_-_scrovegni_-_-31-_-_kiss_of_judas.jpg"
 youtube: "oa4f1cTWYzg"
 resouces:
-  - pdfFile: ""
+  - pdfFile: "gjudas.pdf"
   - internetArchiveLink: ""
   - googleBooksLink: "https://books.google.lu/books?id=qfAlEAAAQBAJ&lpg=PP1&pg=PP1#v=onepage&q&f=false"
   - appleBooksLink: "http://books.apple.com/us/book/id1564245596"

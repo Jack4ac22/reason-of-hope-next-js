@@ -9,46 +9,28 @@ tags:
   - "الغنوصية"
   - "بطرس"
 coverImage: "gpet-cover-e1613583592761.png"
-youtube: ""
+youtube: "qFgRo3RAxgQ"
 resouces:
-  - pdfFile: ""
+  - pdfFile: "gpet_pdf.pdf"
   - internetArchiveLink: ""
-  - googleBooksLink: ""
-  - appleBooksLink: ""
+  - googleBooksLink: "https://books.google.lu/books?id=1-wdEAAAQBAJ&lpg=PA3&pg=PP1#v=onepage&q&f=false"
+  - appleBooksLink: "https://books.apple.com/us/book/id1564243099"
 audio:
-  - applePodcasts: ""
-  - googlePodcasts: ""
-  - hearthisAt: ""
-  - spotify: ""
-  - anchorLink: ""
+  - applePodcasts: "https://podcasts.apple.com/lu/podcast/الكتابات-الغنوصية/id1562187072?i=1000516313433"
+  - googlePodcasts: "https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy81MTVjMjljNC9wb2RjYXN0L3Jzcw/episode/NmNlNTUwY2EtMzRhNC00NGZmLWI5MmEtYWRjZTBjOGE0YWI3?sa=X&ved=0CA0QkfYCahcKEwiIlb3ziprwAhUAAAAAHQAAAAAQAQ"
+  - hearthisAt: "https://hearthis.at/reasonofope/gpet-high/"
+  - spotify: "https://open.spotify.com/episode/54PLscYiPMoK28EQEPG6z6?si=Xzo0xz7cTLG7P2C0oRAXjw&nd=1"
+  - anchorLink: "https://anchor.fm/reason-of-hope4/episodes/--eustk4"
 externalLink: ""
 authors:
-  - name: ""
-    link: ""
+  - name: "د. ستيڤن بويس - Dr. Stephen Boyce"
+    link: "/people/Stephen Boyce"
 translators:
-  - name: ""
-    link: ""
+  - name: "جاك قازنجيان - Jack Kazanjyan"
+    link: "/jack-kazanjyan"
 description: ""
-status: ""
+status: "published"
 ---
-
-## سلسلة الكتابات الغنوصية (١).
-
-##### **يُمكنكم الإستماع إلى هذه الدراسة من خلال المنصات التالية:**
-
-[![](images/apple-podcasts-1.png)](https://podcasts.apple.com/lu/podcast/الكتابات-الغنوصية/id1562187072?i=1000516313433)[![](images/google-podcasts.png)](https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy81MTVjMjljNC9wb2RjYXN0L3Jzcw/episode/NmNlNTUwY2EtMzRhNC00NGZmLWI5MmEtYWRjZTBjOGE0YWI3?sa=X&ved=0CA0QkfYCahcKEwiIlb3ziprwAhUAAAAAHQAAAAAQAQ)[![](images/spotify.png)](https://open.spotify.com/episode/54PLscYiPMoK28EQEPG6z6?si=Xzo0xz7cTLG7P2C0oRAXjw&nd=1)[![](images/anchor-2.png)](https://anchor.fm/reason-of-hope4/episodes/--eustk4)[![](images/hearthis.at_.png)](https://hearthis.at/reasonofope/gpet-high/)[![](images/breaker.png)](https://www.breaker.audio/sbb-lrj/e/85135980)[![](images/deezer.png)](https://deezer.page.link/LdxAhHbZYLXXwhSZ9)
-
-##### يمكنكم قراءة هذه الدراسة من خلال المنصات التالية:
-
-[![](images/apple.png)](https://books.apple.com/us/book/id1564243099)[![](images/google-books.png)](https://books.google.lu/books?id=1-wdEAAAQBAJ&lpg=PA3&pg=PP1#v=onepage&q&f=false)[![](images/pdf.png)](https://arabcreationisthome.files.wordpress.com/2021/02/gpet-arbic-1.pdf)
-
-https://open.spotify.com/episode/54PLscYiPMoK28EQEPG6z6?si=Xzo0xz7cTLG7P2C0oRAXjw&nd=1
-
-https://hearthis.at/reasonofope/gpet-high/
-
-https://rumble.com/embed/vih0wb/?pub=pxif7
-
-https://youtu.be/qFgRo3RAxgQ
 
 ## **مقدمة**
 
@@ -102,7 +84,7 @@ https://youtu.be/qFgRo3RAxgQ
 
 إلا أنَّ انجيل بطرس يُعلمنا بأنَّ يسوع كان مُتألماً لأن قوَّته قد أُخِذَت مِنه. سيبقى بذلك المزمور ٢٢: ٢ دون تَحقُّق (اكتمال) وسيكون التركيز على المسيح الحامل للخطيئة بجسده غائباً بشكل كامل. لإثبات أن ما تقوله المخطوطة هو ”يا قُوَّتي، يا قُوَّتي“ أو ”قُوَّة، يا قُوَّتي“، سأقوم بوضع صورة للمخطوطة أدناه وهي تُظهر الكلمات اليونانية التالية: ”δύναμις μου, η δύναμις“.
 
-![](https://arabcreationisthome.files.wordpress.com/2021/02/image-5.png?w=648)
+![δύναμις μου, η δύναμις](gpet-manuscript-1.png?width=full&position=center)
 
 إلى جانب هذا التناقض، يشير الدارسون إلى كون الجملة الأخيرة دليلاً على أنَّه إنجيل غنوصي. إن السطر الأخير يتحدث عنه على أساس أنَّه ”أُخِذَ“ عوضاً عن كونه قد أَسْلَمِ الروح. يُعلِّق فريدريك ف. بروس عن هذا الأمر:
 
@@ -132,7 +114,7 @@ https://youtu.be/qFgRo3RAxgQ
 
 أنا أتفق مع براون وإيرمان بأنَّ هذا المستند قد قام بإنشاءه شخص كان يكتب بالإعتماد على ذاكرته من التقليد الشفهي. من المؤكد أنَّ الناسخ (الكاتب) لم يقم بإظهار أي استهتار أو ازدراء بالرب في تسجيل النص اليوناني. وخلال السرد بمجمله نجد أنَّ ”الرب“ و ”الله“ قد تم تقديمها من خلال الأسماء المقدسة (Nomina Sacra). إن النسّاخ يقومون بهذا الأمر من منطلق الإحترام للأسماء المقدسة لله. إليكم مثال عن النومينا ساكرا ”الأسماء المقدسة“ في النص:
 
-![](https://arabcreationisthome.files.wordpress.com/2021/02/image-4.png?w=658)
+![مثال عن النومينا ساكرا](gpet-manuscript-2.png?width=full&position=center)
 
 إن النومينا ساكرا أو الإسم المقدس ”الرب“ هو الكلمة اليونانية κυριον \[كوريوس\]. ويتم كتابة الحرفين الأول والأخير مع رسم خط فوقهما (كما هو مُشار إليه  في الرسم أعلاه). تجدر الإشارة إلى أنَّه لا يوجد في انجيل بطرس أي موضع يقدم اسم ”يسوع“ أو ”المسيح“ في المخطوطة الناجية. إنه يشير إليه دوماً  باستخدام ”رب“ أو ”ابن الرب“. إلا أنَّه قد دُعي يسوع في الإقتباس الموجود في رسالة اكليمندس الثانية ٥: ٢-٤ ولكن لا يوجد أي مخطوطة ناجية لتدعم هذه المعلومات.
 
@@ -141,13 +123,3 @@ https://youtu.be/qFgRo3RAxgQ
 نعمة وسلام
 
 الدكتور ستيڤن بويس
-
----
-
-##### يمكنكم قراءة النص الإنجليزي للدراسة السابقة.
-
-[![](images/www.png)](https://citylightseattle.com/blog/the-giant-jesus-and-the-talking-cross-a-study-of-the-gospel-according-to-peter/)
-
-##### يمكنكم الوصول إلى المزيد من المواضيع التي قام بتقديمها الدكتور بويس من خلال الموقع الإلكتروني لكنيسة سيتي لايت:
-
-[![](images/city-light-church.png)](http://citylightseattle.com)

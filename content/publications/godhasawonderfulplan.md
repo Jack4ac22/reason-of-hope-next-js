@@ -17,11 +17,6 @@ resouces:
   - googleBooksLink: "https://books.google.lu/books/about?id=3G5WEAAAQBAJ&redir_esc=y"
   - appleBooksLink: "http://books.apple.com/us/book/id1602019113"
 audio:
-  - applePodcasts: ""
-  - googlePodcasts: ""
-  - hearthisAt: ""
-  - spotify: ""
-  - anchorLink: ""
 externalLink: ""
 authors:
   - name: "راي كومفورت - Ray Comfort"

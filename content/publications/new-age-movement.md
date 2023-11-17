@@ -22,8 +22,8 @@ audio:
   - anchorLink: ""
 externalLink: ""
 authors:
-  - name: ""
-    link: ""
+  - name: "جاك قازنجيان - Jack Kazanjyan"
+    link: "/jack-kazanjyan"
 translators:
   - name: ""
     link: ""

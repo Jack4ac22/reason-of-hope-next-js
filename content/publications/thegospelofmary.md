@@ -23,11 +23,11 @@ audio:
   - anchorLink: ""
 externalLink: ""
 authors:
-  - name: ""
-    link: ""
+  - name: "د. ستيڤن بويس - Dr. Stephen Boyce"
+    link: "/people/Stephen Boyce"
 translators:
-  - name: ""
-    link: ""
+  - name: "جاك قازنجيان - Jack Kazanjyan"
+    link: "/jack-kazanjyan"
 description: ""
 status: ""
 ---

@@ -31,7 +31,8 @@ translators:
     link: "/jack-kazanjyan"
   - name: "ميشيل مسعود - Michel Massoud"
     link: "/michel-massoud"
-description: ""
+description: "يُقدم هذا الكُتيب لكم نظرة عامة على كيفية وصول الكتاب المقدس بطريقة مبسطة يعالج من خلالها بعض المواضيع الحيوية.
+يوجد تسعة عشر باب مبسط تضيء على جوانب هامة وتساعد على بدء البحث في الإعلان الإلهي للجنس البشري. "
 status: "published"
 ---
 

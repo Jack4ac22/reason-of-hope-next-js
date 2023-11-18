@@ -1,51 +1,37 @@
 ---
 title: "الفكر الجديد (New Thought)"
 date: "2021-07-13"
-categories: 
+categories:
   - "إصدارات"
   - "الديانات-والطوائف"
-tags: 
+tags:
   - "كويمبي"
   - "كاريزماتية"
   - "ماري-بيكر-إيدي"
 coverImage: "new-thought.png"
-youtube: ""
+youtube: "x9gvYA019-M"
 resouces:
-  - pdfFile: ""
+  - pdfFile: "sc08"
   - internetArchiveLink: ""
-  - googleBooksLink: ""
-  - appleBooksLink: ""
+  - googleBooksLink: "https://books.google.lu/books?id=07A2EAAAQBAJ&lpg=PP1&hl=de&pg=PP1#v=onepage&q&f=false"
+  - appleBooksLink: "http://books.apple.com/us/book/id1575071640"
 audio:
-  - applePodcasts: ""
-  - googlePodcasts: ""
-  - hearthisAt: ""
-  - spotify: ""
-  - anchorLink: ""
+  - applePodcasts: "https://podcasts.apple.com/lu/podcast/الديانات-والطوائف/id1562186290?i=1000528605362"
+  - googlePodcasts: "https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy81MTVjMjljNC9wb2RjYXN0L3Jzcw/episode/NDcwMDY1MTAtZDk3MC00ZWRlLThlZjMtOGE1YmMzY2I0NTE0?sa=X&ved=0CAUQkfYCahcKEwjQ_JHG_N_xAhUAAAAAHQAAAAAQAQ"
+  - hearthisAt: "https://hearthis.at/reasonofope/new-thought/"
+  - spotify: "https://open.spotify.com/episode/0oLl5rzTcyv78f0mNFK2Tp?si=3PSqq\_HWTlKY4Jh\_5fd72A&dl_branch=1"
+  - anchorLink: "https://anchor.fm/reason-of-hope4/episodes/--e12r9q8"
 externalLink: ""
 authors:
-  - name: ""
-    link: ""
-translators:
-  - name: ""
-    link: ""
+  - name: "جاك قازنجيان - Jack Kazanjyan"
+    link: "/jack-kazanjyan"
 description: ""
-status: ""
+status: "published"
 ---
-
-https://hearthis.at/reasonofope/new-thought/
-
-https://open.spotify.com/episode/0oLl5rzTcyv78f0mNFK2Tp?si=3PSqq\_HWTlKY4Jh\_5fd72A&dl\_branch=1
-
-### يُمكنكم الحصول على نسختكم النصيّة من خلال المنصات التالية:  
-  
-[![](images/pdf.png)](https://arabcreationisthome.files.wordpress.com/2021/07/new-thought-1.pdf)[![](images/apple.png)](http://books.apple.com/us/book/id1575071640)[![](images/google-books.png)](https://books.google.lu/books?id=07A2EAAAQBAJ&lpg=PP1&hl=de&pg=PP1#v=onepage&q&f=false)
-
-### يُمكنكم الإستماع إلى التسجيلات الصوتية من خلال المنصات التالية:  
-[![](images/apple-podcasts-1.png)](https://podcasts.apple.com/lu/podcast/الديانات-والطوائف/id1562186290?i=1000528605362)[![](images/google-podcasts.png)](https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy81MTVjMjljNC9wb2RjYXN0L3Jzcw/episode/NDcwMDY1MTAtZDk3MC00ZWRlLThlZjMtOGE1YmMzY2I0NTE0?sa=X&ved=0CAUQkfYCahcKEwjQ_JHG_N_xAhUAAAAAHQAAAAAQAQ)[![](images/spotify.png)](https://open.spotify.com/episode/0oLl5rzTcyv78f0mNFK2Tp?si=3PSqq_HWTlKY4Jh_5fd72A&dl_branch=1)[![](images/anchor-2.png)](https://anchor.fm/reason-of-hope4/episodes/--e12r9q8)[![](images/deezer.png)](https://deezer.page.link/51tqwof7vjtxNBSh9)[![](images/hearthis.at_.png)](https://hearthis.at/reasonofope/new-thought/)[![](images/breaker.png)](https://www.breaker.audio/sbb-lrj/e/90596700)
 
 ## **مقدمة**
 
-![](https://arabcreationisthome.files.wordpress.com/2021/07/image.png?w=188)
+![فينياس باركوس كويمبي](<NewThought/Phineas_Parkhurst_Quimby_(courtesy_of_George_A._Quimby).jpg?position=left>)
 
 تتم الإشارة إلى الفكر الجديد في بعض الأحيان باستخدام مصطلح ”الفلسفة التقدميّة“ حيث يُقال عنه بأنَّه ”أحدث نتاج للعقل المتقدم“ وكذلك بأنَّه ”موقف ذهنيّ وليس فرقةً دينية“.
 
@@ -59,17 +45,15 @@ https://open.spotify.com/episode/0oLl5rzTcyv78f0mNFK2Tp?si=3PSqq\_HWTlKY4Jh\_5fd
 
 إن الترويج للحركات الناشئة لا يتم عادةً من خلال الكُتَّاب أو المُفكّرين بقدر ما يتم من خلال أشخاص متخصصين بعلوم الخطابة والتواصل؛ وهو الحال مع حركة الفكر الجديد التي كان المُتحدِّث البارز لها هو يوليوس دريسر. بوصفه تلميذ لكويمبي قام مع زوجته آنيتا وابنه هوراشيو بالترويج لأفكار كويمبي، وقد قام بتحدي سلطان ماري بيكر إيدي واحتكارها لأفكار كويمبي في بوسطن وذلك عندما قام بالتعاون مع أتباعه بتأسيس ”كنيسة الحياة الأعلى“. ابتدأ مصطلح ”الفكر الجديد“ بالظهور إلى العلن ابتداءاً من العام ١٩٨٠ وذلك بالتزامن مع صدور مجلة تحمل ذات الإسم. بعد ذلك انطلقت عدة حركات تحت مظلة الفكر الجديد في الأعوام ١٨٩٥، ١٨٩٩ و ١٩١٤.
 
-https://youtu.be/x9gvYA019-M
-
 ## **المنظمة**
 
 تتواجد مراكز لحركة الفكر الجديد في خمس عشرة ولاية بالإضافة إلى مراكز في أنحاء مختلفة من العالم. على الرغم من استقلالية كل مركز من هذه المراكز، فإنَّه يوجد شبكة مُدمجة للفكر الجديد لديها مجلس إدراة يتألف من رئيس ونائب رئيس وأمين صندوق ومنسق تعليمي وعضو واحد. يُمنح الأشخاص المُنضمّون إلى حركة الفكر الجديد أحقية التصويت ويُطلب منهم التمسك بتعاليم الفكر الجديد والمشاركة في الأنشطة المختلفة، بالإضافة إلى تبادل الأفكار والتعاون مع مختلف اللجان.
 
 ## **التعاليم**
 
-![](images/image-1.png)
+![فينياس باركوس كويمبي](NewThought/Phineas_Quimby_and_Lucius_Burkmar.jpg?position=left)
 
-تم في العام ١٩١٥ تأسيس الإتحاد العالمي للفكر الجديد. يُلخِّص دستور هذا الإتحاد الأفكار الأساسية المتجذّرة في الحركة النامية وهي: 
+تم في العام ١٩١٥ تأسيس الإتحاد العالمي للفكر الجديد. يُلخِّص دستور هذا الإتحاد الأفكار الأساسية المتجذّرة في الحركة النامية وهي:
 
 أن يتم التعليم عن اللامتناهي عن الأسمى، عن ألوهة الإنسان والإمكانيات غير المحدودة الناجمة عن القوة الإبداعية للتفكير البنَّاء والإستجابة لصوت الحضور الساكن فينا، الذي هو مصدر كل إلهامنا وقوّتنا وصحّتنا ورخائنا.
 
@@ -87,7 +71,7 @@ https://youtu.be/x9gvYA019-M
 
 ### **البشرية**
 
-![](https://arabcreationisthome.files.wordpress.com/2021/07/image-2.png?w=203)
+![فريدريك شلايرماخر](NewThought/Friedrich_Daniel_Ernst_Schleiermacher_2.jpg?position=left)
 
 كما هو مُتوَقَّع، فإنَّ نتيجة تبني التعليم السابق ستظهر من خلال الإعتقاد بأنَّ البشريّة تمتلك طبيعة إلهيّة. فالسعي وراء الله هو النظر إلى الذات الداخلية للإنسان.
 
@@ -125,13 +109,13 @@ https://youtu.be/x9gvYA019-M
 
 الكتاب المقدس.
 
-#### **الأعضاء****:**
+#### **الأعضاء\*\***:\*\*
 
 لا يوجد إحصائية تُوثّق عدد الأعضاء المنتسبين.
 
-* * *
+---
 
-## **مُلحق****:** **المِيسمَرِيَّة** **(Mesmerism)**
+## **مُلحق: المِيسمَرِيَّة (Mesmerism)**
 
 **خلال القرن الثامن عشر** كان العديد من ممارسي الطب يعتقدون بارتباط العلم بالتصوف والفولكلور، وظهر ادعاء بين الممارسين الأوروبيّين بوجود قوة علاجية خاصّة للأحجار المغناطيسية. قام الطبيب النمساوي فريدريك (فرانز) أنتون ميسمِر (١٧٣٣-١٨١٥) بتكييف هذه النظرية لتكوين مصطلح جديد وهو ”مغناطيسيّة الحيوان“ وهو ما قام بتعريفه وتحديده على أساس أنَّه سيل غير مرئي يتدفق من الشمس والقمر والنجوم والحيوانات والحديد. كان ميسمر قد اعتقد أنَّ المرض ينتج عن اختلال التوازن المغناطيسي لدى الشخص المريض. وكان العلاج المقترح ينطوي على استخدام قضبان حديدية وعصيّ مغناطيسية لتوجيه السيل المغناطيسي العلاجي نحو المريض. تترافق هذه الجلسات العلاجية في الغالب مع دخول المريض في حالة من الغيبة (النشوة) العميقة.
 
@@ -165,7 +149,9 @@ https://youtu.be/x9gvYA019-M
 
 يكشف سفر التكوين كيف أن الإيحاءات الكاذبة للحية الشريرة دفعت بحواء إلى إساءة تفسير أوامر الله والتشكك في صلاحه - وكانت العواقب مأساويّة ([التكوين ٣](https://my.bible.com/bible/101/geN.3)). إن السؤال ليس عما إذا كان مُمكناً لنا أن نتعرض للإيحاءات، إذ أنَّ كلّاً من خبراتنا الشخصية والكتاب المقدس يُقرّان بذلك. إلا أنَّ القضية الرئيسية هي لمن نعهد ضعفنا. يُمكن للتنويم - في حال استُخدِمَ من قِبَل مُتخصِّصٍ أخلاقي - أن يساعدنا على تمييز الحقيقية المزروعة في كياننا لكي نصبح أكثر شبهاً بالمسيح.
 
-**المراجع**
+---
+
+### **المراجع**
 
 - Allen, A.L., 1908–1926. NEW THOUGHT J. Hastings, J. A. Selbie, & L. H. Gray, eds. _Encyclopædia of Religion and Ethics_, 9, pp.359–361.
 - Decker, D.H., 1999. Hypnosis D. G. Benner & P. C. Hill, eds. _Baker encyclopedia of psychology & counseling_, pp.595–597.

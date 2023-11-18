@@ -10,10 +10,10 @@ tags:
 coverImage: "screenshot-2020-11-22-at-07.23.46-e1606027013352.png"
 youtube: ""
 resouces:
-  - pdfFile: ""
-  - internetArchiveLink: ""
-  - googleBooksLink: ""
-  - appleBooksLink: ""
+  - pdfFile: "wgm_pdf.pdf"
+  - internetArchiveLink: "https://archive.org/details/whygenesismatter"
+  - googleBooksLink: "https://books.google.lu/books?id=CLWlDwAAQBAJ&printsec=frontcover&redir_esc=y#v=onepage&q&f=false"
+  - appleBooksLink: "https://books.apple.com/lu/book/%D8%A7-%D9%87%D9%85%D9%8A%D8%A9-%D8%B3%D9%81%D8%B1-%D8%A7%D9%84%D8%AA%D9%83%D9%88%D9%8A%D9%86/id6451097287"
 audio:
   - applePodcasts: ""
   - googlePodcasts: ""
@@ -22,18 +22,16 @@ audio:
   - anchorLink: ""
 externalLink: ""
 authors:
-  - name: ""
-    link: ""
+  - name: "د. جيسون لايل - Dr. Jason Lisle"
+    link: "https://biblicalscienceinstitute.com/"
 translators:
-  - name: ""
-    link: ""
-description: ""
-status: ""
+  - name: "جاك قازنجيان - Jack Kazanjyan"
+    link: "/jack-kazanjyan"
+description: "إنَّ أول أسفار الكتاب المقدس هو سفر التكوين، وهذا السفر يقدم لنا حقيقة الخلق الذي أتمَّه إلهنا الفائق القداسة في ستة أيام. إلا أن هذه الحقيقة قد تمَّ تهميشها ورفضها في عصرنا الراهن، والسبب هو التعليم التطوريّ الذي ينادي بملايين ومليارات من السنوات التي استغرقها التطور."
+status: "published"
 ---
 
 أهمية سفر التكوين
-
-![](images/why-genesis-matter-cover.jpg)
 
 إنَّ أول أسفار الكتاب المقدس هو سفر التكوين، وهذا السفر يقدم لنا حقيقة الخلق الذي أتمَّه إلهنا الفائق القداسة في ستة أيام. إلا أن هذه الحقيقة قد تمَّ تهميشها ورفضها في عصرنا الراهن، والسبب هو التعليم التطوريّ الذي ينادي بملايين ومليارات من السنوات التي استغرقها التطور.
 
@@ -50,5 +48,3 @@ status: ""
 هل تعتقد أن هذه الأسئلة مهمة لإيمانك وحياتك المسيحيّة؟
 
 سوف يتم التعامل مع هذه الأسئلة بالإضافة إلى عدد من الأسئلة الأُخرى التي تختص بموضوع أهمية سفر التكوين في الحياة المسيحية.
-
-[![](https://arabcreationisthome.files.wordpress.com/2020/01/pdf.png?w=150)](https://arabcreationisthome.files.wordpress.com/2020/11/d8a3d987d985d98ad8a9-d8b3d981d8b1-d8a7d984d8aad983d988d98ad986.pdf)

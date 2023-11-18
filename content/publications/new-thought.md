@@ -11,7 +11,7 @@ tags:
 coverImage: "new-thought.png"
 youtube: "x9gvYA019-M"
 resouces:
-  - pdfFile: "sc08"
+  - pdfFile: "sc08.pdf"
   - internetArchiveLink: ""
   - googleBooksLink: "https://books.google.lu/books?id=07A2EAAAQBAJ&lpg=PP1&hl=de&pg=PP1#v=onepage&q&f=false"
   - appleBooksLink: "http://books.apple.com/us/book/id1575071640"
@@ -25,7 +25,7 @@ externalLink: ""
 authors:
   - name: "جاك قازنجيان - Jack Kazanjyan"
     link: "/jack-kazanjyan"
-description: ""
+description: "دراسة تتناول تاريخ حركة الفكر الجديد التي بنيت على أفكار كويمبي، وهو الذي قدَّم الأساس الفكري واللاهوتي للعديد من الحركات المعاصرة."
 status: "published"
 ---
 
@@ -109,7 +109,7 @@ status: "published"
 
 الكتاب المقدس.
 
-#### **الأعضاء\*\***:\*\*
+#### **الأعضاء:**
 
 لا يوجد إحصائية تُوثّق عدد الأعضاء المنتسبين.
 

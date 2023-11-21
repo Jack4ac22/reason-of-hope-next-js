@@ -8,7 +8,7 @@ tags:
   - "مخلوقات"
   - "علوم"
   - "عناكب"
-coverImage: "bling_spider_-_neon_spider_-_thwaitsia_sp._from_the_nsw_central_coast_7.jpg"
+coverImage: "bling_spider_neon_spider.jpeg"
 spotify: ""
 hearthis: ""
 youtube: ""
@@ -45,5 +45,4 @@ description: "إن التغيّر السريع في عناكب المرايا، 
 3. Atkinson, R., Spider hazards and defences, findaspider.org.au/info/hazards.htm, 15 February 2015.
 4. The photographer of the _Thwaitesia_ spider shown here, Nicky Bay, has also photographed the same spider after a disturbance, showing the contraction of the ‘mirrors’. sgmacro.blogspot.com.au/2013/07/transformation-of-mirror-spider.html.
 
-
-*the cover By Poyt448 Peter Woodard - Own work, CC BY-SA 3.0,*
+_the cover By Poyt448 Peter Woodard - Own work, CC BY-SA 3.0,_

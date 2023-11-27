@@ -5,7 +5,13 @@ categories:
   - "إختلافات-التفاصيل"
   - "تناقضات"
 youtube: ""
-status: "published"coverImage: "d9a2d9a7d9a3.jpg"
+tags:
+  - "متى"
+  - "مرقس"
+  - "لوقا"
+  - "يوحنا"
+status: "published"
+coverImage: "d9a2d9a7d9a3.jpg"
 ---
 
 يعتقد الناقد بوجود تناقض بين كل من [متى ٢٧: ٣٧](https://my.bible.com/bible/101/MAT.27.37) و[مرقس ١٥: ٢٦](https://my.bible.com/bible/101/MRK.15.26) و[لوقا ٢٣: ٣٨](https://my.bible.com/bible/101/LUK.23.38) و[يوحنا ١٩: ١٩](https://my.bible.com/bible/101/JHN.19.19).

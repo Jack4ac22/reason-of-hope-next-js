@@ -1,11 +1,14 @@
 ---
 title: "الإعتراض ١٦٢، مما خُلِقَت الحيوانات؟"
 date: "2020-06-04"
-categories: 
+categories:
   - "إختلافات-التفاصيل"
   - "تناقضات"
 youtube: ""
-status: "published"coverImage: "d9a1d9a6d9a2.jpg"
+status: "published"
+tags:
+  - "التكوين"
+coverImage: "d9a1d9a6d9a2.jpg"
 ---
 
 يعتقد المعترض بوجود تناقض بين التكوين ١: ٢٠ والتكوين ٢: ١٩

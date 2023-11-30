@@ -11,7 +11,7 @@ export default function CreationGospel(props) {
         <PageTitle
           title="قضية الخلق والكتاب المقدس والإنجيل"
           description="مجموعة من المقالات  المرتبطة بكيفية مُقاربة الكتاب المقدس بخصوص قضية الخلق بشكل خاصّ، بالإضافة إلى ارتباط هذه القضية بالبشرى الخلاصية بنعمة الله المجانية من خلال الإيمان بالفداء المجاني بالإيمان بالمسيح يسوع."
-          image={`/blog-images/bible-2110439_640.jpg`}
+          image={`/blogImages/bible-2110439_640.jpg`}
         />
 
         <BibleVerseHero

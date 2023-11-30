@@ -11,7 +11,7 @@ export default function ObjectionsSectionFourPage(props) {
       <PageTitle
         title="القسم الرابع: الإختلافات بين المُسَبِّبْ والنَّاتِج"
         description="سوف نقوم في هذا القسم بفحص الإدعاءات التي يتم تقديمها بأن الكتاب المقدس يناقض نفسه فيما يختص بالمسببات – أي: مَنْ الشخص أو ما الأمْرُ الذي تسبب بوقوع أحداث معيّنة؟ ونجد أنه يتم تقديم إحدى الآيات على أنها تُقَدِّمُ مُسبِّباً معيناً في الوقت الذي تُقدِّم آية أُخرى مُسبِّباً آخر، فأيٌّ منهما هو الصحيح؟"
-        image="/blog-images/creativity-819371_640.jpg"
+        image="/blogImages/creativity-819371_640.jpg"
       />
       <ObjectionsPagesList />
       <ObjectionsPageSectionFour />

@@ -11,7 +11,7 @@ export default function ObjectionsSectionFivePage(props) {
       <PageTitle
         title="القسم الخامس: الإختلافات في التفاصيل"
         description="نجد في البعض من آيات الكتاب المقدس بعض التفاصيل التي تعطي الانطباع بأنها غير متوافقة مع التفاصيل التي تقدمها آيات آُخرى تتعامل مع ذات الموضوع. ويكون الأمر الغالب هو أن النُّقاد يشيرون إلى الاختلافات في الطرق التي يقوم بها كُتَّاب الأناجيل بتسجيل الأحداث، والأمر الأكيد أنَّه يوجد اختلافات من هذا النوع. لكن السؤال هو: هل هي تناقضات أم أنها اختلافات متوافقة؟"
-        image="/blog-images/pexels-photo-6681855.jpeg"
+        image="/blogImages/pexels-photo-6681855.jpeg"
       />
       <ObjectionsPagesList />
       <ObjectionsPageSectionFive />

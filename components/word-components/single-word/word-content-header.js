@@ -9,7 +9,7 @@ export default function WordContentHeader(props) {
             <h1>{word.title}</h1>
           </div>
           <Image
-            src={`/blog-images/${word.coverImage}`}
+            src={`/blogImages/${word.coverImage}`}
             className="col-md-6 float-md-end mb-3 ms-md-3 img-fluid"
             alt={`Cover Image for: ${word.slug}`}
             width={430}

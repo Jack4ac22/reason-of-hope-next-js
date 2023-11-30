@@ -59,12 +59,12 @@ export default function ArticleContentBody(props) {
       // const isFullWidth = image.alt.toLowerCase().includes("full");
 
       // return (
-      //   <Link href={`/blog-images/${image.src}`} key={image.src}>
+      //   <Link href={`/blogImages/${image.src}`} key={image.src}>
       //     <Image
       //       className={`col-md-2 float-md-end mb-4 ms-md-3 img-fluid rounded float-end ${
       //         isFullWidth ? "w-100" : "" // Add w-100 class for full width if caption contains 'full'
       //       }`}
-      //       src={`/blog-images/${image.src}`}
+      //       src={`/blogImages/${image.src}`}
       //       alt={image.alt}
       //       width={400}
       //       height={300}

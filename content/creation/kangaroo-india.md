@@ -11,7 +11,7 @@ tags:
   - "الهندوسية"
   - "استراليا"
   - "عصر-جليدي"
-coverImage: "wallabies-4228258_1280.png"
+coverImage: "wallabies-4228258_1280.jpg"
 spotify: "https://open.spotify.com/episode/26fx2BGyraDzWCvoJvnPs0?si=I3SQxvTaTUS-xHyDLfryKg"
 hearthis: "https://hearthis.at/reasonofope/kangaroo-in-india/"
 youtube: ""

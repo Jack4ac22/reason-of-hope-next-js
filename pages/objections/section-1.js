@@ -11,7 +11,7 @@ export default function ObjectionsSectionOnePage(props) {
       <PageTitle
         title="القسم الأول: الإختلافات الكمية أو العددية"
         description="يتناول هذا القسم الإدعاءات القائلة بأنه يوجد تناقض بين تصريحات آيات الكتاب المقدس عن تعداد بعض الأمور المختلفة."
-        image="/blog-images/pexels-photo-6623835.jpeg"
+        image="/blogImages/pexels-photo-6623835.jpeg"
       />
       <ObjectionsPagesList />
       <ObjectionsPageSectionOne />

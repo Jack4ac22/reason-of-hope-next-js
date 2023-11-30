@@ -9,7 +9,7 @@ export default function VisitCMIWebsite() {
         key="CMI-Arabic-home"
       >
         <Image
-          src="/blog-images/CMI.png"
+          src="/blogImages/CMI.png"
           alt={`icon of: CMI visit website `}
           width={35}
           height={35}

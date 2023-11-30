@@ -17,7 +17,7 @@ export default function ExternalLink(props) {
             target="_blank"
           >
             <Image
-              src="/blog-images/cmi.png"
+              src="/blogImages/cmi.png"
               alte="CMI logo and link"
               width={75}
               height={75}
@@ -39,7 +39,7 @@ export default function ExternalLink(props) {
             target="_blank"
           >
             <Image
-              src="/blog-images/www.png"
+              src="/blogImages/www.png"
               alte="External site logo and link"
               width={75}
               height={75}

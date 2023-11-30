@@ -21,10 +21,10 @@ export default function WordContentBody(props) {
     },
     img(image) {
       return (
-        <Link href={`/blog-images/${image.src}`}>
+        <Link href={`/blogImages/${image.src}`}>
           <Image
             className="col-md-2 float-md-end mb-4 ms-md-3 img-fluid"
-            src={`/blog-images/${image.src}`}
+            src={`/blogImages/${image.src}`}
             alt={image.alt}
             width={300}
             height={100}

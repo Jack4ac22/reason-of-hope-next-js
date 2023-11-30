@@ -7,7 +7,7 @@ export default function FeaturedWords(props) {
           <div className="col">
             <div className="card">
               <Image
-                src={`/blog-images/${word.image}`}
+                src={`/blogImages/${word.image}`}
                 className="card-img-top img-fluid"
                 alt="..."
                 width={1280}

@@ -18,7 +18,7 @@ export default function AllObjectionPage(props) {
         <PageTitle
           title="التناقضات المفترضة في الكتاب المقدس"
           description="السلسلة من المقاطع المصورة تقدم لكم نظرة عامة على هذه الآيات بالإضافة إلى تحليل منطقي لما يُعتقد بأنَّه تناقض بين الآيات وذلك بالإعتماد على علم المنطق."
-          image="/blog-images/bible-2110439_640.jpg"
+          image="/blogImages/bible-2110439_640.jpg"
         />
         <BibleVerseHero
           body="أمّا يَسوعُ فهوَ هوَ، بِالأمسِ واليومِ وإلى الأبَدِ."

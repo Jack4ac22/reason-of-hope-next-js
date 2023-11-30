@@ -9,7 +9,7 @@ tags:
   - "الخلق"
   - "الدليل-الحاسم"
   - "دفاعيات"
-coverImage: "upoccover.png"
+coverImage: "upoccover.jpeg"
 youtube: ""
 resouces:
   - pdfFile: "ultimate-proof-of-creation-Arabic.pdf"

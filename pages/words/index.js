@@ -11,7 +11,7 @@ export default function AllWordPage(props) {
       <PageTitle
         title="كلمة ورسالة"
         description={description}
-        image="/blog-images/page-cover.jpg"
+        image="/blogImages/page-cover.jpg"
       />
       <section className="container">
         <div className="row">

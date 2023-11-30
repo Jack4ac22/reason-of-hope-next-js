@@ -11,7 +11,7 @@ export default function ObjectionsSectionTwoPage(props) {
       <PageTitle
         title="القسم الثاني: الإختلافات في أسماء الأشخاص والمواقع، والأنساب"
         description="يتناول هذا القسم الإدعاءات القائلة بأن الكتاب المُقدَّس يخلط بين أسماء الأشخاص والمواقع، أو أنه يذكر بشكل خاطئ صلات القُرْبى بين أشخاص مُعَيَّنين."
-        image="/blog-images/pexels-photo-2127869.jpeg"
+        image="/blogImages/pexels-photo-2127869.jpeg"
       />
       <ObjectionsPagesList />
       <ObjectionsPageSectionTwo />

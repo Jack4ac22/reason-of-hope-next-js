@@ -12,7 +12,7 @@ function WordDetailPage(props) {
       <PageTitle
         title={article.title}
         description={article.description}
-        image={`/blog-images/${article.coverImage}`}
+        image={`/blogImages/${article.coverImage}`}
       />
       <ArticleContentPageComponent article={article} />{" "}
     </>

@@ -4,7 +4,7 @@ export default function PageTitle(props) {
   const description = props.description
     ? props.description
     : "إن رجاءنا بالخلاص هو بنعمة الله (وحدها) بالإيمان (وحده) بالمسيح (وحده) من خلال الكتاب المقدس (وحده) لمجد الله (وحده).";
-  const image = props.image ? props.image : "/blog-images/ROH.png";
+  const image = props.image ? props.image : "/blogImages/ROH.png";
   const author = props.author ? props.author : "Jack Kazanjyan";
   const authorMeta = Array.isArray(author)
     ? author.map((a) => <meta key={a} property="article:author" content={a} />)

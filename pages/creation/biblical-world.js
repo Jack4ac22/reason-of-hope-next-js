@@ -12,7 +12,7 @@ export default function BiblicalWorld(props) {
         <PageTitle
           title="قضية الخلق والعالم التوراتي"
           description="مجموعة من المقالات  المرتبطة  بالتاريخ المسجل في الكتاب المقدس، بالإضافة إلى الدراسات المرتبطة بقضية طوفان سفر التكوين وفلك نوح. سيتم إرفاق الموضوعات المرتبطة بالمواقع الجغرافية وسواها مع هذه المجموعة."
-          image={`/blog-images/biblical-world-cover.jpeg`}
+          image={`/blogImages/biblical-world-cover.jpeg`}
         />
 
         <BibleVerseHero

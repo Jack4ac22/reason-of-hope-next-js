@@ -61,10 +61,19 @@ export function getAllTagsarticles() {
   const allTags = getAllTagsCount();
 
   allTags.forEach((tag) => {
-    const creationArticlesByTag = getArticlesByTag(tag.tag, "/content/creation");
+    const creationArticlesByTag = getArticlesByTag(
+      tag.tag,
+      "/content/creation"
+    );
     const logicsArticlesByTag = getArticlesByTag(tag.tag, "/content/logic");
-    const objectionsArticlesByTag = getArticlesByTag(tag.tag, "/content/objectios");
-    const publicationsArticlesByTag = getArticlesByTag(tag.tag, "/content/publications");
+    const objectionsArticlesByTag = getArticlesByTag(
+      tag.tag,
+      "/content/objectios"
+    );
+    const publicationsArticlesByTag = getArticlesByTag(
+      tag.tag,
+      "/content/publications"
+    );
     const wordsArticlesByTag = getArticlesByTag(tag.tag, "/content/word");
 
     const newTagObject = {
@@ -88,7 +97,10 @@ export function getAllArticlesByTag(tag) {
   const creationArticlesByTag = getArticlesByTag(tag, "/content/creation");
   const logicsArticlesByTag = getArticlesByTag(tag, "/content/logic");
   const objectionsArticlesByTag = getArticlesByTag(tag, "/content/objections");
-  const publicationsArticlesByTag = getArticlesByTag(tag, "/content/publications");
+  const publicationsArticlesByTag = getArticlesByTag(
+    tag,
+    "/content/publications"
+  );
   const wordsArticlesByTag = getArticlesByTag(tag, "/content/word");
   const allArticles = {
     creation: {
@@ -113,5 +125,50 @@ export function getAllArticlesByTag(tag) {
     },
   };
 
+  return allArticles;
+}
+
+export function getArticlesByTagComined(tag) {
+  const creationArticlesByTag = getArticlesByTag(tag, "/content/creation");
+  const logicsArticlesByTag = getArticlesByTag(tag, "/content/logic");
+  const objectionsArticlesByTag = getArticlesByTag(tag, "/content/objections");
+  const publicationsArticlesByTag = getArticlesByTag(
+    tag,
+    "/content/publications"
+  );
+  const wordsArticlesByTag = getArticlesByTag(tag, "/content/word");
+  const creationArticlesAdjusted = creationArticlesByTag.map((article) => {
+    return {
+      ...article,
+      slug: `creation/${article.slug}`,
+    };
+  });
+  const objectionsArticlesAdjusted = objectionsArticlesByTag.map((article) => {
+    return {
+      ...article,
+      slug: `objections/${article.slug}`,
+    };
+  });
+  const logicsArticlesAdjusted = logicsArticlesByTag.map((article) => {
+    return {
+      ...article,
+      slug: `logic/${article.slug}`,
+    };
+  });
+  const publicationsArticlesAdjusted = publicationsArticlesByTag.map(
+    (article) => {
+      return {
+        ...article,
+        slug: `publications/${article.slug}`,
+      };
+    }
+  );
+  const allArticles = [
+    ...creationArticlesAdjusted,
+    ...objectionsArticlesAdjusted,
+    ...logicsArticlesAdjusted,
+    ...publicationsArticlesAdjusted,
+    ...wordsArticlesByTag,
+  ];
   return allArticles;
 }

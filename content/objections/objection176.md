@@ -4,6 +4,8 @@ date: "2020-07-23"
 categories: 
   - "إختلافات-التفاصيل"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "التكوين"
 ---

@@ -1,6 +1,9 @@
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
+import { getArticlesByTagComined } from "./tags-functions";
+import { randomArticlesFromArray } from "./general-functions";
+import { all } from "remark-rehype";
 
 function consoleLog(message) {
   console.log("****************************************");
@@ -29,11 +32,38 @@ export function getArticleFiles(articlesDirectoryPath) {
 
 export function getArticleData(articleIdentifier, articlesDirectoryPath) {
   const articleSlug = articleIdentifier.replace(/\.md$/, "");
-  const filePath = path.join(process.cwd(), articlesDirectoryPath, `${articleSlug}.md`);
+  const filePath = path.join(
+    process.cwd(),
+    articlesDirectoryPath,
+    `${articleSlug}.md`
+  );
   const fileContent = fs.readFileSync(filePath, "utf-8");
   const { data, content } = matter(fileContent);
   const articleData = {
     slug: articleSlug,
+    ...data,
+    content: content,
+  };
+  return articleData;
+}
+
+export function getArticleDataWithRelatedArticles(
+  articleIdentifier,
+  articlesDirectoryPath,
+  related = 3
+) {
+  const articleSlug = articleIdentifier.replace(/\.md$/, "");
+  const filePath = path.join(
+    process.cwd(),
+    articlesDirectoryPath,
+    `${articleSlug}.md`
+  );
+  const fileContent = fs.readFileSync(filePath, "utf-8");
+  const { data, content } = matter(fileContent);
+  const relatedArticles = getRelatedArticles(data.tags, related);
+  const articleData = {
+    slug: articleSlug,
+    related: relatedArticles,
     ...data,
     content: content,
   };
@@ -49,7 +79,45 @@ export function getAllArticles(articlesDirectoryPath, orderedBy = "date") {
   return orderArticlesBy(allArticles, orderedBy);
 }
 
-export function getArticlesByTag(tag = "", articlesDirectoryPath, orderedBy = "date") {
+export function getAllBlogArticles() {
+  const creationArticles = getAllArticles("/content/creation");
+  const logicArticles = getAllArticles("/content/logic");
+  const objectionArticles = getAllArticles("/content/objections");
+  const publicationArticles = getAllArticles("/content/publications");
+  const wordArticles = getAllArticles("/content/word");
+
+  const adjustedCreationArticles = creationArticles.map((article) => {
+    return { ...article, slug: "creation/" + article.slug };
+  });
+  const adjustedLogicArticles = logicArticles.map((article) => {
+    return { ...article, slug: "logic/" + article.slug };
+  });
+  const adjustedObjectionArticles = objectionArticles.map((article) => {
+    return { ...article, slug: "objections/" + article.slug };
+  });
+  const adjustedPublicationArticles = publicationArticles.map((article) => {
+    return { ...article, slug: "publications/" + article.slug };
+  });
+  const adjustedWordArticles = wordArticles.map((article) => {
+    return { ...article, slug: "word/" + article.slug };
+  });
+
+  const allArticles = [
+    ...adjustedCreationArticles,
+    ...adjustedLogicArticles,
+    ...adjustedObjectionArticles,
+    ...adjustedPublicationArticles,
+    ...adjustedWordArticles,
+  ];
+
+  return allArticles;
+}
+
+export function getArticlesByTag(
+  tag = "",
+  articlesDirectoryPath,
+  orderedBy = "date"
+) {
   return orderArticlesBy(
     getAllArticles(articlesDirectoryPath).filter((article) => {
       if (article && article.tags) {
@@ -61,7 +129,11 @@ export function getArticlesByTag(tag = "", articlesDirectoryPath, orderedBy = "d
   );
 }
 
-export function getArticlesByCategory(category = "", articlesDirectoryPath, orderedBy = "date") {
+export function getArticlesByCategory(
+  category = "",
+  articlesDirectoryPath,
+  orderedBy = "date"
+) {
   return orderArticlesBy(
     getAllArticles(articlesDirectoryPath).filter((article) => {
       if (article && article.categories) {
@@ -73,7 +145,11 @@ export function getArticlesByCategory(category = "", articlesDirectoryPath, orde
   );
 }
 
-export function getArticlesBySearchTerm(searchTerm = "", articlesDirectoryPath, orderedBy = "date") {
+export function getArticlesBySearchTerm(
+  searchTerm = "",
+  articlesDirectoryPath,
+  orderedBy = "date"
+) {
   return orderArticlesBy(
     getAllArticles(articlesDirectoryPath).filter((article) => {
       if (article && article.title) {
@@ -88,7 +164,11 @@ export function getArticlesBySearchTerm(searchTerm = "", articlesDirectoryPath, 
   );
 }
 
-export function getArticlesByTitleSearch(searchTerm = "", articlesDirectoryPath, orderedBy = "date") {
+export function getArticlesByTitleSearch(
+  searchTerm = "",
+  articlesDirectoryPath,
+  orderedBy = "date"
+) {
   return orderArticlesBy(
     getAllArticles(articlesDirectoryPath).filter((article) => {
       if (article && article.title) {
@@ -140,4 +220,16 @@ export function getAllArticleCategories(articlesDirectoryPath) {
   return allCategories.sort((categoryA, categoryB) =>
     categoryA.count < categoryB.count ? 1 : -1
   );
+}
+
+export function getRelatedArticles(tags, number = 3) {
+  const relatedArticles = [];
+  const allArticles = getAllBlogArticles();
+  tags.forEach((tag) => {
+    const filteredArticles = allArticles.filter(
+      (article) => article.tags && article.tags.includes(tag)
+    );
+    relatedArticles.push(...filteredArticles);
+  });
+  return randomArticlesFromArray(relatedArticles, number);
 }

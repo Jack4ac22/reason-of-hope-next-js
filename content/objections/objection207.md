@@ -4,6 +4,8 @@ date: "2021-01-04"
 categories: 
   - "إختلافات-التفاصيل"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "متى"
   - "أعمال-الرسل"

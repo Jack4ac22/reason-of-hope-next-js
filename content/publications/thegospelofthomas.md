@@ -10,44 +10,28 @@ tags:
   - "الغنوصية"
   - "توما"
 coverImage: "el_evangelio_de_tomas-gospel_of_thomas-_codex_ii_manuscritos_de_nag_hammadi-the_nag_hammadi_manuscripts-e1614508121668.png"
-youtube: ""
+youtube: "Hg7c0ErdPLs"
 resouces:
-  - pdfFile: ""
+  - pdfFile: "gthomas_pdf.pdf"
   - internetArchiveLink: ""
-  - googleBooksLink: ""
-  - appleBooksLink: ""
+  - googleBooksLink: "https://books.google.lu/books?id=YKAeEAAAQBAJ&lpg=PA2&hl=de&pg=PP1#v=onepage&q&f=false"
+  - appleBooksLink: "https://books.apple.com/us/book/ا-نجيل-توما/id1564244316"
 audio:
-  - applePodcasts: ""
-  - googlePodcasts: ""
-  - hearthisAt: ""
-  - spotify: ""
-  - anchorLink: ""
+  - applePodcasts: "https://podcasts.apple.com/lu/podcast/%D8%A7%D9%84%D9%83%D8%AA%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D8%BA%D9%86%D9%88%D8%B5%D9%8A%D8%A9/id1562187072?i=1000516313431"
+  - googlePodcasts: "https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy81MTVjMjljNC9wb2RjYXN0L3Jzcw==/episode/NzAxMzhjMDYtNGRiNi00Y2JiLWI2NDItZjYzYzEwYzk5NThm"
+  - hearthisAt: "https://hearthis.at/reasonofope/thomas-with-effects/"
+  - spotify: "https://open.spotify.com/episode/7BxKkWoZ8KQPLJIRjNPAaZ?si=-nKvBqUORTmn2zECYiB18Q"
+  - anchorLink: "https://anchor.fm/reason-of-hope4/episodes/--eusu4o/a-a58a4sf"
 externalLink: ""
 authors:
-  - name: ""
-    link: ""
+  - name: "د. ستيڤن بويس - Dr. Stephen Boyce"
+    link: "/people/Stephen Boyce"
 translators:
-  - name: ""
-    link: ""
-description: ""
-status: ""
+  - name: "جاك قازنجيان - Jack Kazanjyan"
+    link: "/jack-kazanjyan"
+description: "يتساءل العديد من الأشخاص عن السبب الذي يقف وراء عدم وضع إنجيل توما بين أسفار العهد الجديد. إليكم إجابة من الدكتور ستيڤن بويس."
+status: "published"
 ---
-
-## سلسلة الكتابات الغنوصية (٢).
-
-##### **يُمكنكم الإستماع إلى هذه الدراسة من خلال المنصات التالية:**
-
-[![](images/apple-podcasts-1.png)](https://podcasts.apple.com/lu/podcast/%D8%A7%D9%84%D9%83%D8%AA%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D8%BA%D9%86%D9%88%D8%B5%D9%8A%D8%A9/id1562187072?i=1000516313431)[![](images/google-podcasts.png)](https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy81MTVjMjljNC9wb2RjYXN0L3Jzcw==/episode/NzAxMzhjMDYtNGRiNi00Y2JiLWI2NDItZjYzYzEwYzk5NThm)[![](images/spotify.png)](https://open.spotify.com/episode/7BxKkWoZ8KQPLJIRjNPAaZ?si=-nKvBqUORTmn2zECYiB18Q)[![](images/anchor-2.png)](https://anchor.fm/reason-of-hope4/episodes/--eusu4o/a-a58a4sf)[![](images/hearthis.at_.png)](https://hearthis.at/reasonofope/thomas-with-effects/)[![](images/breaker.png)](https://www.breaker.audio/sbb-lrj/e/85135977)[![](images/deezer.png)](https://deezer.page.link/TG7Q7EnkSTqWbHUi8)
-
-##### يمكنكم قراءة هذه الدراسة من خلال المنصات التالية:
-
-[![](images/apple.png)](https://books.apple.com/us/book/ا-نجيل-توما/id1564244316)[![](images/google-books.png)](https://books.google.lu/books?id=YKAeEAAAQBAJ&lpg=PA2&hl=de&pg=PP1#v=onepage&q&f=false)[![](images/pdf.png)](https://arabcreationisthome.files.wordpress.com/2021/02/thomas-pdf.pdf)
-
-https://open.spotify.com/episode/7BxKkWoZ8KQPLJIRjNPAaZ?si=-nKvBqUORTmn2zECYiB18Q
-
-https://hearthis.at/reasonofope/thomas-with-effects/
-
-https://youtu.be/Hg7c0ErdPLs
 
 ## **مقدمة**
 
@@ -129,15 +113,3 @@ https://youtu.be/Hg7c0ErdPLs
 نعمة وسلام
 
 الدكتور ستيڤن بويس
-
----
-
-##### يمكنكم قراءة النص الإنكليزي للدراسة السابقة.
-
-[![](images/www.png)](https://citylightseattle.com/blog/the-giant-jesus-and-the-talking-cross-a-study-of-the-gospel-according-to-peter/)
-
-##### يمكنكم الوصول إلى المزيد من المواضيع التي قام بتقديمها الدكتور بويس من خلال الموقع الإلكتروني لكنيسة سيتي لايت:
-
-[![](images/city-light-church.png)](http://citylightseattle.com)
-
----

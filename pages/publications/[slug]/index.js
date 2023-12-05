@@ -9,8 +9,11 @@ export default function PublicationsArtilePage(props) {
   const { article } = props;
   return (
     <>
-      {/* <ArticleContentPageComponent article={article} /> */}
-      <HeroMain />
+    {article.status === "published" &&
+      <ArticleContentPageComponent article={article} />
+    }
+    {article.status !== "published" &&
+      <HeroMain />}
     </>
   );
 }
@@ -28,6 +31,7 @@ export function getStaticProps(context) {
 
 export function getStaticPaths() {
   const publicationsArticleFilenames = getArticleFiles("/content/publications");
+
   const slugs = publicationsArticleFilenames.map((fileName) =>
     fileName.replace(/\.md$/, "")
   );

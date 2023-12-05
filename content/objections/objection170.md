@@ -4,6 +4,8 @@ date: "2020-07-02"
 categories: 
   - "إختلافات-التفاصيل"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "المواربة"
   - "تيموثاوس"

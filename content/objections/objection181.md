@@ -4,6 +4,8 @@ date: "2020-08-10"
 categories: 
   - "إختلافات-التفاصيل"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "لوقا"
   - "متى"

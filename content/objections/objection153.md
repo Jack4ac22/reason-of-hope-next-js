@@ -4,6 +4,8 @@ date: "2020-05-04"
 categories: 
   - "العلاقة-السببية"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "كورنثوس"
   - "لوقا"

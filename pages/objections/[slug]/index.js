@@ -1,14 +1,16 @@
 import ArticleContentPageComponent from "../../../components/article-components/single-article-page/article-content-page";
 import {
   getArticleFiles,
-  getArticleData,
+  // getArticleData,
+  getArticleDataWithRelatedArticles,
 } from "../../../utilities/articles-functions.js";
 
 export default function objectionArtilePage(props) {
   const { article } = props;
+  // console.log(article.related.length);
   return (
     <>
-      <ArticleContentPageComponent article={article} />{" "}
+      <ArticleContentPageComponent article={article} />
     </>
   );
 }
@@ -16,7 +18,11 @@ export default function objectionArtilePage(props) {
 export function getStaticProps(context) {
   const { params } = context;
   const { slug } = params;
-  const objectionData =   getArticleData(slug, "/content/objections");
+  const objectionData = getArticleDataWithRelatedArticles(
+    slug,
+    "/content/objections",
+    5
+  );
   return {
     props: {
       article: objectionData,

@@ -4,6 +4,8 @@ date: "2020-06-15"
 categories: 
   - "إختلافات-التفاصيل"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "أخبار-الأيام"
   - "الملوك"

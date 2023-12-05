@@ -4,6 +4,8 @@ date: "2020-05-21"
 categories: 
   - "إختلافات-التفاصيل"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "يوحنا"
   - "المواربة"

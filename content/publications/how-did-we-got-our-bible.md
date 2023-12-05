@@ -8,40 +8,35 @@ categories:
 tags:
   - "الكتاب-المقدس"
 coverImage: "how-did-we-got-our-bible-youtube-thumbnail-.jpg"
-youtube: ""
+youtube: "jS9fCWHvnrc"
 resouces:
-  - pdfFile: ""
-  - internetArchiveLink: ""
-  - googleBooksLink: ""
-  - appleBooksLink: ""
+  - pdfFile: "how-did-we-get-our-bible.pdf"
+  - internetArchiveLink: "https://archive.org/details/How-did-we-got-our-bible-arabic"
+  - googleBooksLink: "https://books.google.lu/books?id=s6TJDwAAQBAJ&lpg=PP1&pg=PP1#v=onepage&q&f=false"
+  - appleBooksLink: "http://books.apple.com/us/book/id1568902464"
 audio:
-  - applePodcasts: ""
-  - googlePodcasts: ""
-  - hearthisAt: ""
-  - spotify: ""
-  - anchorLink: ""
-externalLink: ""
+  - applePodcasts: "https://podcasts.apple.com/lu/podcast/%D9%81%D9%8A-%D8%A7%D9%84%D8%A8%D8%AF%D8%A1/id1544597228?i=1000502145575"
+  - googlePodcasts: "https://podcasts.google.com?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy81MTVjMjljNC9wb2RjYXN0L3Jzcw%3D%3D&episode=MmViZDdlZTYtZTJkMS00YzFlLTgyNDMtY2IxZjAyNGFkMWEw"
+  - hearthisAt: "https://hearthis.at/reasonofope/audio-book/"
+  - spotify: "https://open.spotify.com/episode/3Xt5hBaoM5CyMqpSZohNXY?si=CE7wAMlTRnOSOemEYgzxlQ"
+  - anchorLink: "https://anchor.fm/reason-of-hope4/episodes/ep-eskehe"
+externalLink: "https://creation.com/كيف-وصل-إلينا-الكتاب-المقدس؟"
 authors:
-  - name: ""
-    link: ""
+  - name: "Gary Bates"
+    link: "https://creation.com/gary-bates"
+  - name: "Lita Sanders"
+    link: "https://creation.com/lita-sanders"
 translators:
-  - name: ""
-    link: ""
-description: ""
-status: ""
+  - name: "جاك قازنجيان - Jack Kazanjyan"
+    link: "/jack-kazanjyan"
+  - name: "ميشيل مسعود - Michel Massoud"
+    link: "/michel-massoud"
+description: "يُقدم هذا الكُتيب لكم نظرة عامة على كيفية وصول الكتاب المقدس بطريقة مبسطة يعالج من خلالها بعض المواضيع الحيوية.
+يوجد تسعة عشر باب مبسط تضيء على جوانب هامة وتساعد على بدء البحث في الإعلان الإلهي للجنس البشري. "
+status: "published"
 ---
 
-![](images/bible-1068176.jpg)
-
-![](https://arabcreationisthome.files.wordpress.com/2021/05/cover-how-did-we-got-our-bible.png?w=722)
-
-#### احصل على نسختك الآن
-
-[![](images/pdf.png)](https://arabcreationisthome.files.wordpress.com/2020/01/a5-pdf.pdf)[![](images/apple.png)](http://books.apple.com/us/book/id1568902464)[![](images/google-books.png)](https://books.google.lu/books?id=s6TJDwAAQBAJ&lpg=PP1&pg=PP1#v=onepage&q&f=false)[![](images/internet-archive.png)](https://archive.org/details/How-did-we-got-our-bible-arabic)[![](images/cmi.png)](https://creation.com/كيف-وصل-إلينا-الكتاب-المقدس؟)
-
-#### استمع إليه من خلال المنصات التالية
-
-[![](images/apple-podcasts-1.png)](https://podcasts.apple.com/lu/podcast/%D9%81%D9%8A-%D8%A7%D9%84%D8%A8%D8%AF%D8%A1/id1544597228?i=1000502145575)[![](images/google-podcasts.png)](https://podcasts.google.com?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy81MTVjMjljNC9wb2RjYXN0L3Jzcw%3D%3D&episode=MmViZDdlZTYtZTJkMS00YzFlLTgyNDMtY2IxZjAyNGFkMWEw)[![](images/spotify.png)](https://open.spotify.com/episode/3Xt5hBaoM5CyMqpSZohNXY?si=CE7wAMlTRnOSOemEYgzxlQ)[![](images/hearthis.at_.png)](https://hearthis.at/reasonofope/audio-book/)[![](images/anchor-2.png)](https://anchor.fm/reason-of-hope4/episodes/ep-eskehe)[![](images/breaker.png)](https://www.breaker.audio/sbb-lrj/e/83132383)[![](images/youtube.png)](https://www.youtube.com/watch?v=jS9fCWHvnrc&list=PLlToIY3-KqMCOTag_ZQ-c1cUASi8daDmr)
+[youtube list](https://www.youtube.com/watch?v=jS9fCWHvnrc&list=PLlToIY3-KqMCOTag_ZQ-c1cUASi8daDmr)
 
 ## **_كيف وصل إلينا الكتاب المقدس؟_**
 
@@ -49,14 +44,8 @@ status: ""
 
 لكل من غاري باتس وليتا كوسنر.
 
-[](https://creation.com/كيف-وصل-إلينا-الكتاب-المقدس؟)
-
----
-
 هذا الكتيب يقدم مجموعة من العناوين والمواضيع بشكل مقالات مترابطة.   
 يساعدك على التعرف على الكيفية التي وصل فيها الكتاب المقدس إلينا وقد يشكل نقطة انطلاق لأبحاث أعمق. الكثير من المعلومات التي قد تسمعها لأول مرة.
-
----
 
 #### فهرس العناوين:
 
@@ -79,11 +68,3 @@ status: ""
 17. هل يوجدُ تناقضاتٌ بينَ الأناجيلِ؟
 18. هل تمَّ تغيير الأناجيل؟
 19. هل يُمكننا أن نثقَ بالكتابِ المُقَدَّسِ حقاً؟
-
-https://hearthis.at/reasonofope/audio-book/
-
-استمع إلى الكُتيب كاملاً الآن.
-
-https://open.spotify.com/episode/3Xt5hBaoM5CyMqpSZohNXY?si=CE7wAMlTRnOSOemEYgzxlQ
-
-https://www.youtube.com/watch?v=jS9fCWHvnrc&list=PLlToIY3-KqMCOTag\_ZQ-c1cUASi8daDmr

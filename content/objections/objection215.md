@@ -4,6 +4,8 @@ date: "2021-03-01"
 categories: 
   - "إختلافات-التفاصيل"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "متى"
   - "يوحنا"

@@ -4,6 +4,8 @@ date: "2020-05-25"
 categories: 
   - "إختلافات-التفاصيل"
   - "تناقضات"
+youtube: ""
+status: "published"
 tags: 
   - "متى"
   - "المواربة"

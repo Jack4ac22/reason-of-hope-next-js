@@ -1,7 +1,7 @@
 import ArticleContentPageComponent from "../../../components/article-components/single-article-page/article-content-page";
 import {
   getArticleFiles,
-  getArticleData,
+  getArticleDataWithRelatedArticles,
 } from "../../../utilities/articles-functions.js";
 
 export default function CreationsArtilePage(props) {
@@ -16,7 +16,7 @@ export default function CreationsArtilePage(props) {
 export function getStaticProps(context) {
   const { params } = context;
   const { slug } = params;
-  const creationArticleData = getArticleData(slug, "/content/creation");
+  const creationArticleData = getArticleDataWithRelatedArticles(slug, "/content/creation");
   return {
     props: {
       article: creationArticleData,

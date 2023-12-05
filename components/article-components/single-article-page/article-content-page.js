@@ -4,9 +4,9 @@ import ArticleHeader from "../article-header/article-header";
 import YouTube, { YouTubeProps } from "react-youtube";
 import { Spotify } from "react-spotify-embed";
 import YouTubeEmbed from "../../iframes/youtube-component";
+import RelatedArticles from "../related-articles/related-acticles";
 export default function ArticleContentPageComponent(props) {
   const { article } = props;
-
   const opts = {
     width: "100%",
     height: "100%",
@@ -40,6 +40,9 @@ export default function ArticleContentPageComponent(props) {
         </div>
         <ArticleContentBody article={article} />
       </article>
+
+      {/* Related Articles: */}
+      <RelatedArticles article={article} />
     </>
   );
 }

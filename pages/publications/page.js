@@ -13,7 +13,7 @@ export default function PublicationsMainPage(props) {
       <PageTitle title="منشورات" description={description} image={coverImage} />
       <ArticleCardsList
         articles={props.allCults}
-        baseUrl="/publications"
+        baseUrl="publications"
       />
     </>
   );

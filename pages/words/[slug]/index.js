@@ -1,7 +1,7 @@
 import ArticleContentPageComponent from "../../../components/article-components/single-article-page/article-content-page.js";
 import {
   getArticleFiles,
-  getArticleData,
+  getArticleDataWithRelatedArticles,
 } from "../../../utilities/articles-functions.js";
 import PageTitle from "../../../components/general-compenents/page-title.js";
 
@@ -23,7 +23,7 @@ export function getStaticProps(context) {
   const { params } = context;
   const { slug } = params;
 
-  const wordData = getArticleData(slug, "/content/word");
+  const wordData = getArticleDataWithRelatedArticles(slug, "/content/word");
   return {
     props: {
       article: wordData,

@@ -25,12 +25,13 @@ export default function CreationContentHeader(props) {
 
           <Image
             src={`/blogImages/${article.coverImage}`}
-            className="col-md-6 float-md-end mb-3 ms-md-3 img-fluid d-none d-lg-block cover-image-header"
+            className="col-md-6 float-md-end mb-3 ms-md-3 rounded mx-auto d-none d-md-block "
             alt={`Cover Image for: ${article.slug}`}
             width={430}
             height={180}
             loading="lazy"
-            object-fit="cover"
+            object-fit="contain"
+            style={{ objectFit: "contain" }}
           />
         </div>
       </header>

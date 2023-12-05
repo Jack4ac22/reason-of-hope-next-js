@@ -43,7 +43,7 @@ export default function CarouselItemCard(props) {
                             : article.description}
                         </p>
                         <Link
-                          href={`/${baseUrl}/${article.slug}`}
+                          href={`${baseUrl}/${article.slug}`}
                           className="btn btn-sm btn-warning"
                         >
                           اقرأ هذا المنشور

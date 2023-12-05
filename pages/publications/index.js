@@ -16,7 +16,7 @@ export default function AllPublicationPage(props) {
       />
       <ArticleCardsList
         articles={props.allPublications}
-        baseUrl="/publications"
+        baseUrl="publications"
       />
     </>
   );

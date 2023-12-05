@@ -7,7 +7,7 @@ categories:
 tags:
   - "منطق"
   - "مغالطات"
-coverImage: "e2808ee281a8d8aad985d98ad98ad8b2-d8a7d984d8add982d98ad982d8a9e281a9.jpg"
+coverImage: "discerning-truth.jpg"
 youtube: "20JXnSoyCFE"
 resouces:
   - pdfFile: "discerning-truth.pdf"

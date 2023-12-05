@@ -11,7 +11,7 @@ export default function ObjectionsSectionThreePage(props) {
       <PageTitle
         title="القسم الثالث: الإختلافات في توقيت الأحداث"
         description="يتم في الكثير من الأحيان تقديم تصريحات تفيد بأن الكتاب المُقدَّس يناقض نفسه فيما يتعلق بتوقيت الأحداث التاريخية التي ينقلها لنا. فلنفترض أن إحدى آيات الكتاب المُقدَّس تقول بأن الحدث (أ) قد وقع قبل الحدث (ب)، و في الوقت عينه توجد آية أُخرى تُصرَّح بأن الحدث (ب) قد وقع أولاً، ألن يتسبب هذا الأمر مشكلة؟"
-        image="/blog-images/pexels-photo-707676.jpeg"
+        image="/blog_images/pexels-photo-707676.jpeg"
       />
       <ObjectionsPagesList />
       <ObjectionsPageSectionThree />

@@ -9,7 +9,7 @@ tags:
   - "الشفاء"
   - "العلم-المسيحي"
   - "علوم"
-coverImage: "chistian-science-logo.jpg"
+coverImage: "sc11.jpg"
 youtube: "qZIQ_h1do_8"
 resouces:
   - pdfFile: "sc11.pdf"

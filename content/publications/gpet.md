@@ -8,7 +8,7 @@ tags:
   - "إنجيل"
   - "الغنوصية"
   - "بطرس"
-coverImage: "gpet-cover-e1613583592761.png"
+coverImage: "gpet.jpg"
 youtube: "qFgRo3RAxgQ"
 resouces:
   - pdfFile: "gpet_pdf.pdf"

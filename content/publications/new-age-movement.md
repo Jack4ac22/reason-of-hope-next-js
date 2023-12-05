@@ -7,11 +7,11 @@ categories:
 tags:
   - "new-age"
   - "العصر-الجديد"
-coverImage: "e2808ee281a8d8a7d984d8b9d8b5d8b1-d8a7d984d8acd8afd98ad8afe281a9.png"
+coverImage: "sc03.jpg"
 youtube: ""
 resouces:
   - pdfFile: "sc03.pdf"
-  - internetArchiveLink: ""
+  - internetArchiveLink: "PgcBrJvfViU"
   - googleBooksLink: "https://books.google.lu/books/about?id=B-IXEAAAQBAJ&redir_esc=y"
   - appleBooksLink: "http://books.apple.com/us/book/id1564559345"
 audio:

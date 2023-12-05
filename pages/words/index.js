@@ -11,7 +11,7 @@ export default function AllWordPage(props) {
       <PageTitle
         title="كلمة ورسالة"
         description={description}
-        image="/blog-images/page-cover.jpg"
+        image="/blog_images/page-cover.jpg"
       />
       <section className="container">
         <div className="row">
@@ -20,7 +20,7 @@ export default function AllWordPage(props) {
           </div>
         </div>
       </section>
-      <ArticleCardsList articles={articles} baseUrl="/words" />{" "}
+      <ArticleCardsList articles={articles} baseUrl="words" />
     </>
   );
 }

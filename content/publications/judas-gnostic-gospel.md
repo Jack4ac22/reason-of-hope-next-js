@@ -8,7 +8,7 @@ tags:
   - "نقد"
   - "يهوذا"
   - "غنوصي"
-coverImage: "giotto_-_scrovegni_-_-31-_-_kiss_of_judas.jpg"
+coverImage: "gjudas.jpg"
 youtube: "oa4f1cTWYzg"
 resouces:
   - pdfFile: "gjudas.pdf"

@@ -9,8 +9,8 @@ export default function AllLogicPage(props) {
     <PageTitle
     title= "علم المنطق والأخطاء المنطقية"
     description= "إن المنطق السليم هو من المهارات الذهنية التي باتت تُعتَبر مفقودةً في عالمنا المعاصر، ولابد للمسيحيّين المؤمنين بالكتاب المقدس أن يكونوا على استعدادا لكشف الأخطاء المنطقية والتنبه من عدم ارتكابها. إليكم سلسلة من المنشورات المصورة والمكتوبة والتي تتعامل مع علم المنطق والمغالطات المنطقية التي يتم ارتكابها بشكل خاص في الجدل الدائر حول موضوع الأصول."
-    image="/blog-images/roh.png"/>
-      <ArticleCardsList articles={articles} baseUrl="/logic" />
+    image="/blog_images/roh.png"/>
+      <ArticleCardsList articles={articles} baseUrl="logic" />
     </>
   );
 }

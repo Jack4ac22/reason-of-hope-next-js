@@ -12,7 +12,7 @@ export default function BiblicalWorld(props) {
         <PageTitle
           title="قضية الخلق والعالم التوراتي"
           description="مجموعة من المقالات  المرتبطة  بالتاريخ المسجل في الكتاب المقدس، بالإضافة إلى الدراسات المرتبطة بقضية طوفان سفر التكوين وفلك نوح. سيتم إرفاق الموضوعات المرتبطة بالمواقع الجغرافية وسواها مع هذه المجموعة."
-          image={`/blog-images/biblical-world-cover.jpeg`}
+          image={`/blog_images/biblical-world-cover.jpeg`}
         />
 
         <BibleVerseHero
@@ -45,7 +45,7 @@ export default function BiblicalWorld(props) {
         <section className="rounded-4 border border-5 mt-3 p-3 mb-2">
           <ArticleCardsList
             articles={articles}
-            baseUrl="/creation"
+            baseUrl="creation"
           />
         </section>
       </>

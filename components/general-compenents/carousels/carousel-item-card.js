@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function CarouselItemCard(props) {
   const articles = props.articles;
   const baseUrl = props.baseUrl;
-
+  const isBook = props.isBook;
   // TODO: check if the length of the string of the title is more than 6 words then the length of the description should be reduced to 10 words and concatinate it with "..." else the length of the description should be reduced to 20 words and concatinate it with "..."
   return (
     <>
@@ -22,7 +22,7 @@ export default function CarouselItemCard(props) {
               <div className="card text-bg-dark">
                 <Image
                   className="card-img"
-                  src={`/blog-images/${article.coverImage}`}
+                  src={`/blog_images/${article.coverImage}`}
                   alt={article.title}
                   width={300}
                   height={300}
@@ -43,10 +43,10 @@ export default function CarouselItemCard(props) {
                             : article.description}
                         </p>
                         <Link
-                          href={`/${baseUrl}/${article.slug}`}
+                          href={`${baseUrl}/${article.slug}`}
                           className="btn btn-sm btn-warning"
                         >
-                          اقرأ هذا المنشور
+                          {isBook ? "اقرأ هذا الكتاب" : "اقرأ هذا المنشور"}
                         </Link>
                       </div>
                     </div>

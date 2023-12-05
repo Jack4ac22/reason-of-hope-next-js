@@ -9,10 +9,10 @@ tags:
   - "إنجيل"
   - "القانون"
   - "تاريخ"
-coverImage: "nicea.jpg"
+coverImage: "Did-Nicaea-Choose-Our-Four-Gospels.jpg"
 youtube: ""
 resouces:
-  - pdfFile: "Did-Nicaea-Choose- Our-Four-Gospels.pdf"
+  - pdfFile: "Did-Nicaea-Choose-Our-Four-Gospels.pdf"
   - internetArchiveLink: ""
   - googleBooksLink: "https://books.google.lu/books?id=mt4_EAAAQBAJ&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false"
   - appleBooksLink: "http://books.apple.com/us/book/id1583424188"

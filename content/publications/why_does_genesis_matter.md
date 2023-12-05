@@ -7,7 +7,7 @@ categories:
 tags:
   - "التكوين"
   - "الخلق"
-coverImage: "screenshot-2020-11-22-at-07.23.46-e1606027013352.png"
+coverImage: "wgm.jpg"
 youtube: ""
 resouces:
   - pdfFile: "wgm_pdf.pdf"

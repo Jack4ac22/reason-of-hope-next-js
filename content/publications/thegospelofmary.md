@@ -8,7 +8,7 @@ tags:
   - "نقد"
   - "توما"
   - "غنوصي"
-coverImage: "guido_reni_-_the_penitent_magdalene_-_google_art_project.jpg"
+coverImage: "gmary.jpg"
 youtube: "Z5x-6U39rxQ"
 resouces:
   - pdfFile: "gmary.pdf"

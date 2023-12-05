@@ -18,7 +18,7 @@ export default function ObjectionsPageMainSection(props) {
               <figure className="rounded mx-auto d-block">
                 <Image
                   className="rounded mx-auto d-block img-fluid"
-                  src={"/blog-images/bible-2110439_640.jpg"}
+                  src={"/blog_images/bible-2110439_640.jpg"}
                   width={400}
                   height={400}
                   style={{ objectFit: "cover" }}

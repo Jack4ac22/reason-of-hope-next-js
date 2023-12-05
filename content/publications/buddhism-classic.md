@@ -9,7 +9,7 @@ tags:
   - "البوذية"
   - "بوذا"
   - "تاريخ"
-coverImage: "buddhism.jpg"
+coverImage: "sc12.jpg"
 youtube: "ccTAjpOKog0"
 resources:
   - pdfFile: "sc12.pdf"

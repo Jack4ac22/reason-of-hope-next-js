@@ -13,7 +13,7 @@ export default function ObjectionsPageSectionFive(props) {
                 <Image
                   alt="cover image for the section five of the objections page"
                   className="rounded mx-auto d-block img-fluid "
-                  src={"/blog-images/pexels-photo-6681855.jpeg"}
+                  src={"/blog_images/pexels-photo-6681855.jpeg"}
                   width={400}
                   height={400}
                   style={{ objectFit: "cover" }}

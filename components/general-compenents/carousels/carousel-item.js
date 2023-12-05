@@ -20,7 +20,7 @@ export default function CarouselItems(props) {
                     className={`carousel-item ${index == 0 ? "active" : ""} `}
                   >
                     <img
-                      src={`/blog-images/${article.coverImage}`}
+                      src={`/blog_images/${article.coverImage}`}
                       className="img-fluid"
                       alt={article.title}
                       objectFit="cover"

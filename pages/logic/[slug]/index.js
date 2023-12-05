@@ -1,6 +1,6 @@
 import {
   getArticleFiles,
-  getArticleData,
+  getArticleDataWithRelatedArticles,
 } from "../../../utilities/articles-functions.js";
 import ArticleContentPageComponent from "../../../components/article-components/single-article-page/article-content-page.js";
 import PageTitle from "../../../components/general-compenents/page-title.js";
@@ -12,7 +12,7 @@ export default function LogicArtilePage(props) {
       <PageTitle
         title={article.title}
         description={article.description}
-        image={`/blog-images/${article.coverImage}`}
+        image={`/blog_images/${article.coverImage}`}
       />
       <ArticleContentPageComponent article={article} />
     </>
@@ -22,7 +22,7 @@ export default function LogicArtilePage(props) {
 export function getStaticProps(context) {
   const { params } = context;
   const { slug } = params;
-  const article = getArticleData(slug, "/content/logic");
+  const article = getArticleDataWithRelatedArticles(slug, "/content/logic");
   return {
     props: {
       article: article,

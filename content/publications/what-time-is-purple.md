@@ -9,7 +9,7 @@ tags:
   - "الإيمان"
   - "التطور"
   - "الخلق"
-coverImage: "cover-1.jpg"
+coverImage: "What_Time_Is_Purple.jpg"
 youtube: "https://www.youtube.com/playlist?list=PLlToIY3-KqMAf-fNVZinpEi7kAHaSUxkk"
 resouces:
   - pdfFile: "What_Time_Is_Purple_PDF_full_1.2.pdf"

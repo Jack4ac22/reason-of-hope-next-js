@@ -12,7 +12,7 @@ export default function DinoAndDating(props) {
         <PageTitle
           title="قضية الخلق والتأريخ والديناصورات"
           description="مجموعة من المقالات  المرتبطة  بالديناصورات وتوافقها مع الكتاب المقدس، بالإضافة إلى الدراسات الخاصة بنظريات التأريخ المستخدمة في النظام العلماني."
-          image={`/blog-images/tyrannosaurus-855188_640.jpg`}
+          image={`/blog_images/tyrannosaurus-855188_640.jpg`}
         />
 
         <BibleVerseHero
@@ -47,7 +47,7 @@ export default function DinoAndDating(props) {
           </div>
         </section>
         <section className="rounded-4 border border-5 mt-3 p-3 mb-2">
-          <ArticleCardsList articles={articles} baseUrl="/creation" />
+          <ArticleCardsList articles={articles} baseUrl="creation" />
         </section>
       </>
     </>

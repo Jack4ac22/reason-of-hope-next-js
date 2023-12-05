@@ -6,7 +6,7 @@ categories:
   - "الديانات-والطوائف"
 tags:
   - "فضاء"
-coverImage: "aetherius-society.png"
+coverImage: "sc06.jpg"
 youtube: "m17Ot4oQS1o"
 resouces:
   - pdfFile: "sc06.pdf"

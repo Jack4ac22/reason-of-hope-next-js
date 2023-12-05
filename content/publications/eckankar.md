@@ -6,7 +6,7 @@ categories:
   - "الديانات-والطوائف"
 tags:
   - "إيكانكار"
-coverImage: "eckankar/eckankar-symbol.png"
+coverImage: "sc02.jpg"
 outube: "ccTAjpOKog0"
 resources:
   - pdfFile: "sc02.pdf"

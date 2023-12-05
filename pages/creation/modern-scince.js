@@ -12,7 +12,7 @@ export default function ModernScince(props) {
         <PageTitle
           title="قضية الخلق والعلوم المعاصرة"
           description="يعتقد البعض من الأشخاص أن العلوم المعاصرة قد أثبتت بطلان الكتاب المقدس، إلا أن الدراسات التي سيتم عرضها ضمن هذه الفئة تُظهر بُطلان هذه الإدعاءات."
-          image={`/blog-images/modern-scince-page-cover.jpeg`}
+          image={`/blog_images/modern-scince-page-cover.jpeg`}
         />
 
         <BibleVerseHero
@@ -46,7 +46,7 @@ export default function ModernScince(props) {
         <section className="rounded-4 border border-5 mt-3 p-3 mb-2">
           <ArticleCardsList
             articles={articles}
-            baseUrl="/creation"
+            baseUrl="creation"
           />
         </section>
       </>

@@ -8,7 +8,7 @@ tags:
   - "كويمبي"
   - "كاريزماتية"
   - "الشفاء"
-coverImage: "religious-science.jpg"
+coverImage: "sc09.jpg"
 youtube: "u4IrKdwWsKc"
 resouces:
   - pdfFile: "sc09.pdf"

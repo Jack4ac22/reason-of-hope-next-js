@@ -12,7 +12,7 @@ export default function ArticleCard(props) {
         <div className="card">
           <Link href={`/${baseUrl}/${article.slug}`}>
             <Image
-              src={`/blog-images/${article.coverImage}`}
+              src={`/blog_images/${article.coverImage}`}
               className="card-img-top img-fluid"
               alt={`Cover Image for: ${article.slug}`}
               width={860}

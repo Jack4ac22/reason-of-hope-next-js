@@ -20,7 +20,7 @@ export default function AllWordPage(props) {
           </div>
         </div>
       </section>
-      <ArticleCardsList articles={articles} baseUrl="/words" />{" "}
+      <ArticleCardsList articles={articles} baseUrl="words" />
     </>
   );
 }

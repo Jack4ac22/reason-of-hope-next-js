@@ -7,6 +7,8 @@ categories:
 tags:
   - "العنصرية"
   - "العبودية"
+  - الخلق
+  - التكوين
 coverImage: "chains-19176_640.jpg"
 spotify: "https://open.spotify.com/episode/2ZDk3g7R0d5l7r0hfRpdwO?si=Rrg7mwDKQKuupY9bQ\_5rsg&dl\_branch=1&nd=1"
 hearthis: "https://hearthis.at/reasonofope/slave/F04/"

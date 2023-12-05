@@ -6,6 +6,9 @@ categories:
   - "التطور-ونتائجه"
 tags:
   - "داروين"
+  - تطور
+  - تحدي
+  - التكوين
 coverImage: "Darwin.jpeg"
 spotify: ""
 hearthis: ""

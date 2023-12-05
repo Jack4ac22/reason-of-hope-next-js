@@ -44,7 +44,7 @@ export default function EvolutionAndEthics(props) {
         <section className="rounded-4 border border-5 mt-3 p-3 mb-2">
           <ArticleCardsList
             articles={articles}
-            baseUrl="/creation"
+            baseUrl="creation"
           />
         </section>
       </>

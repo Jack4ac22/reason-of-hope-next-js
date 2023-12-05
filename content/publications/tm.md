@@ -8,7 +8,7 @@ tags:
   - "مهاريشي"
   - "الهندوسية"
   - "التأمل-التجاوزي"
-coverImage: "transcendental-meditation-1.jpg"
+coverImage: "sc04.jpg"
 youtube: ""
 resouces:
   - pdfFile: "sc04.pdf"

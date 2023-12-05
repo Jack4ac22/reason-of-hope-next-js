@@ -6,7 +6,7 @@ categories:
   - "دراسات-عامّة"
 tags:
   - "الصليب"
-coverImage: "cross-6703536.jpg"
+coverImage: "TheCross.jpg"
 youtube: ""
 resouces:
   - pdfFile: "TheCrossPDF.pdf"

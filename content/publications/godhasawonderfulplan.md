@@ -9,7 +9,7 @@ tags:
   - "الكرازة"
   - "التبشير"
   - "الخلاص"
-coverImage: "screenshot-2021-12-31-at-08.19.04.png"
+coverImage: "God-Has-A-Wonderful-Plan-for-your-life.jpg"
 youtube: ""
 resouces:
   - pdfFile: "god-has-a-Wonderful-plan-for-your-life.pdf"

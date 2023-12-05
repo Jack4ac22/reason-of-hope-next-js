@@ -6,7 +6,7 @@ categories:
   - "الديانات-والطوائف"
 tags:
   - "الهندوسية"
-coverImage: "hinduism/hinduism-sympol.png"
+coverImage: "sc01.jpg"
 youtube: "ccTAjpOKog0"
 resources:
   - pdfFile: "sc01.pdf"

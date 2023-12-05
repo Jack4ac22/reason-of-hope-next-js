@@ -4,11 +4,16 @@ export default function AutoplayingCarousel(props) {
   const articles = props.articles;
   const id = props.id;
   const baseUrl = props.baseUrl;
+  const isBook = props.isBook;
   return (
     <>
       <div id={id} className="carousel slide" data-bs-ride="carousel">
         <div className="carousel-inner">
-          <CarouselItemCard articles={articles} baseUrl={baseUrl} />
+          <CarouselItemCard
+            articles={articles}
+            baseUrl={baseUrl}
+            isBook={isBook}
+          />
         </div>
         <button
           className="carousel-control-prev"

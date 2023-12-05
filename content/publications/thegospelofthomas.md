@@ -9,7 +9,7 @@ tags:
   - "إنجيل"
   - "الغنوصية"
   - "توما"
-coverImage: "el_evangelio_de_tomas-gospel_of_thomas-_codex_ii_manuscritos_de_nag_hammadi-the_nag_hammadi_manuscripts-e1614508121668.png"
+coverImage: "gthomas.jpg"
 youtube: "Hg7c0ErdPLs"
 resouces:
   - pdfFile: "gthomas_pdf.pdf"

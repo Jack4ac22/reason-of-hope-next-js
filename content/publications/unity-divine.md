@@ -11,7 +11,7 @@ tags:
   - "الوحدة"
   - "الشفاء"
   - "علوم"
-coverImage: "unity-.png"
+coverImage: "sc10.jpg"
 youtube: "iyQOkM0Jg8s"
 resouces:
   - pdfFile: "sc10.pdf"

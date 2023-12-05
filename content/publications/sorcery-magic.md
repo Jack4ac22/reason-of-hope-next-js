@@ -7,7 +7,7 @@ categories:
 tags:
   - "سحر"
   - "الشرق الأدنى القديم"
-coverImage: "magic-and-sorcery-e1607009237172.jpg"
+coverImage: "Magic_and_sorcery.jpg"
 youtube: ""
 resouces:
   - pdfFile: "Magic_and_sorcery_pdf.pdf"

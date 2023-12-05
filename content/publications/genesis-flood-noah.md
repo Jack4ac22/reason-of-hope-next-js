@@ -14,7 +14,7 @@ tags:
   - "التطور"
   - "الخلق"
   - "الطوفان"
-coverImage: "the-genesis-flood-and-noahs-ark-cover.jpg"
+coverImage: "Genesis-Flood.jpg"
 youtube: ""
 resouces:
   - pdfFile: "Genesis-Flood.pdf"

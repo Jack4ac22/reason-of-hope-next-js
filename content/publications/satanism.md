@@ -6,7 +6,7 @@ categories:
   - "الديانات-والطوائف"
 tags:
   - "الشيطان"
-coverImage: "saitanism-symp.jpg"
+coverImage: "sc07.jpg"
 youtube: "jHy_yd1_fQw"
 resouces:
   - pdfFile: "sc07.pdf"

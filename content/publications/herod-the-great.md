@@ -7,7 +7,7 @@ categories:
 tags:
   - "هيرودس"
   - "بيت-لحم"
-coverImage: "d987d98ad8b1d988d8afd8b3-d8a7d984d983d8a8d98ad8b1-cover-e1607627858135.png"
+coverImage: "Herod-The-Great.jpg"
 youtube: ""
 resouces:
   - pdfFile: "Herod-The-Great-PDF.pdf"

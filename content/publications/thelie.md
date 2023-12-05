@@ -9,7 +9,7 @@ tags:
   - "الكذبة"
   - "التطور"
   - "الخلق"
-coverImage: "cover-e1613818837827.jpg"
+coverImage: "The-Lie-Arabic-Edition.jpg"
 youtube: ""
 resouces:
   - pdfFile: "The-Lie-Arabic-Edition.pdf"

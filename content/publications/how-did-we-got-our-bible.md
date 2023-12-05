@@ -7,7 +7,7 @@ categories:
   - "كتب"
 tags:
   - "الكتاب-المقدس"
-coverImage: "how-did-we-got-our-bible-youtube-thumbnail-.jpg"
+coverImage: "how-did-we-get-our-bible.jpg"
 youtube: "jS9fCWHvnrc"
 resouces:
   - pdfFile: "how-did-we-get-our-bible.pdf"

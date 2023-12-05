@@ -8,7 +8,7 @@ tags:
   - "كويمبي"
   - "كاريزماتية"
   - "ماري-بيكر-إيدي"
-coverImage: "new-thought.png"
+coverImage: "sc08.jpg"
 youtube: "x9gvYA019-M"
 resouces:
   - pdfFile: "sc08.pdf"

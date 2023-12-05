@@ -12,7 +12,7 @@ export default function EvolutionAndEthics(props) {
         <PageTitle
           title="قضية الخلق والتطور ونتائجه"
           description="إن الإيمان بالتطور يحمل عواقب ويتطلب افتراضات يتم تبنيها على أساس أنها من المسلّمات."
-          image={`/blogImages/modern-scince-page-cover.jpeg`}
+          image={`/blog_images/modern-scince-page-cover.jpeg`}
         />
 
         <BibleVerseHero

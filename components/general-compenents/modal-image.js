@@ -38,7 +38,7 @@ export default function ModalImage(props) {
         >
           <figure calssName="figure">
             <Image
-              src={`/blogImages/${image.src}`}
+              src={`/blog_images/${image.src}`}
               alt={image.alt ? image.alt : "صورة"}
               width={isFullWidth ? 800 : 400}
               height={isFullWidth ? 500 : 250}
@@ -46,7 +46,7 @@ export default function ModalImage(props) {
               style={{ objectFit: "contain" }}
             />
             {/* <img
-            src={`/blogImages/${image.src}`}
+            src={`/blog_images/${image.src}`}
             className={"w-100 img-fluid"}
           /> */}
 
@@ -69,7 +69,7 @@ export default function ModalImage(props) {
               <h5 className="modal-title" id={`modal${identifier}Label`}>
                 لمعاينة الصورة بحجمها الكامل
                 <Link
-                  href={`/blogImages/${image.src}`}
+                  href={`/blog_images/${image.src}`}
                   target="_blank"
                   className="btn"
                 >
@@ -81,7 +81,7 @@ export default function ModalImage(props) {
             <div className="modal-body">
               <figure calssName="figure">
                 <Image
-                  src={`/blogImages/${image.src}`}
+                  src={`/blog_images/${image.src}`}
                   alt={image.alt}
                   width={900}
                   height={600}
@@ -90,7 +90,7 @@ export default function ModalImage(props) {
 
                 {/*                 
                 <img
-                  src={`/blogImages/${image.src}`}
+                  src={`/blog_images/${image.src}`}
                   className="img-fluid w-100"
                 /> */}
                 <figcaption calssName="figure-caption">{image.alt}</figcaption>

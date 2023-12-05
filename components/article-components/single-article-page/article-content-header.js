@@ -24,7 +24,7 @@ export default function CreationContentHeader(props) {
           </div>
 
           <Image
-            src={`/blogImages/${article.coverImage}`}
+            src={`/blog_images/${article.coverImage}`}
             className="col-md-6 float-md-end mb-3 ms-md-3 rounded mx-auto d-none d-md-block "
             alt={`Cover Image for: ${article.slug}`}
             width={430}

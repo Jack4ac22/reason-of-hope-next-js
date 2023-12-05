@@ -22,7 +22,7 @@ export default function CarouselItemCard(props) {
               <div className="card text-bg-dark">
                 <Image
                   className="card-img"
-                  src={`/blogImages/${article.coverImage}`}
+                  src={`/blog_images/${article.coverImage}`}
                   alt={article.title}
                   width={300}
                   height={300}

@@ -6,7 +6,7 @@ export default function OurFaithPage() {
       <PageTitle
         title="إيماننا"
         description=""
-        image="/blogImages/bible-4249164_640.jpg"
+        image="/blog_images/bible-4249164_640.jpg"
       />
 
       <section className="container">

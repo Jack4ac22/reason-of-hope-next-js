@@ -9,28 +9,28 @@ export default function PublicationsPagesList() {
       arabicTitle: "المنشورات",
       path: "/publications",
       coverImage: "",
-      icon: "/blogImages/publications_home.png",
+      icon: "/blog_images/publications_home.png",
     },
     {
       title: "published_books",
       arabicTitle: "الكتب المُترجمة",
       path: "/publications/books",
       coverImage: "",
-      icon: "/blogImages/publications.png",
+      icon: "/blog_images/publications.png",
     },
     {
       title: "published_studies",
       arabicTitle: "دراسات مُتنوعة",
       path: "/publications/studies",
       coverImage: "",
-      icon: "/blogImages/studies.png",
+      icon: "/blog_images/studies.png",
     },
     {
       title: "published_sc",
       arabicTitle: "الديانات والطوائف",
       path: "/publications/cults",
       coverImage: "",
-      icon: "/blogImages/cults_sects.png",
+      icon: "/blog_images/cults_sects.png",
     },
   ];
   const router = useRouter();

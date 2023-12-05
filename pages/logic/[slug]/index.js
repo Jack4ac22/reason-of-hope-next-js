@@ -12,7 +12,7 @@ export default function LogicArtilePage(props) {
       <PageTitle
         title={article.title}
         description={article.description}
-        image={`/blogImages/${article.coverImage}`}
+        image={`/blog_images/${article.coverImage}`}
       />
       <ArticleContentPageComponent article={article} />
     </>

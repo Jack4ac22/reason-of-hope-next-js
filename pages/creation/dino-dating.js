@@ -12,7 +12,7 @@ export default function DinoAndDating(props) {
         <PageTitle
           title="قضية الخلق والتأريخ والديناصورات"
           description="مجموعة من المقالات  المرتبطة  بالديناصورات وتوافقها مع الكتاب المقدس، بالإضافة إلى الدراسات الخاصة بنظريات التأريخ المستخدمة في النظام العلماني."
-          image={`/blogImages/tyrannosaurus-855188_640.jpg`}
+          image={`/blog_images/tyrannosaurus-855188_640.jpg`}
         />
 
         <BibleVerseHero

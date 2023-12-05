@@ -4,7 +4,7 @@ date: "2021-02-01"
 categories:
   - "إختلافات-التفاصيل"
   - "تناقضات"
-youtube: ""
+youtube: "co2nojW430A"
 status: "published"
 tags:
   - "التكوين"

@@ -9,11 +9,10 @@ export default function PublicationsArtilePage(props) {
   const { article } = props;
   return (
     <>
-    {article.status === "published" &&
-      <ArticleContentPageComponent article={article} />
-    }
-    {article.status !== "published" &&
-      <HeroMain />}
+      {article.status === "published" && (
+        <ArticleContentPageComponent article={article} isBook={true} />
+      )}
+      {article.status !== "published" && <HeroMain />}
     </>
   );
 }

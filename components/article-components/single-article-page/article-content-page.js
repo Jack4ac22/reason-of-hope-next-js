@@ -9,7 +9,7 @@ export default function ArticleContentPageComponent(props) {
   const { article } = props;
   const opts = {
     width: "100%",
-    height: "100%",
+    height: "400",
     playerVars: {
       autoplay: 0,
       controls: 1,
@@ -24,7 +24,7 @@ export default function ArticleContentPageComponent(props) {
       <article>
         <ArticleContentHeader article={article} />
         <div className="container-md">
-          <div className="row">
+          <div className="row justify-content-center">
             {article.spotify && (
               <div className={`${article.youtube ? "col-md-5" : "col"} m-p-3`}>
                 <Spotify wide link={article.spotify} />

@@ -12,16 +12,17 @@ export default function QuizPage() {
       answers: [
         {
           id: 1,
-          answer: "False",
-          answer_ar: "خاطئ",
-          isCorrect: true,
-        },
-        {
-          id: 2,
           answer: "true",
           answer_ar: "صحيح",
           isCorrect: false,
         },
+        {
+          id: 2,
+          answer: "False",
+          answer_ar: "خاطئ",
+          isCorrect: true,
+        },
+       
       ],
     },
     {
@@ -59,9 +60,13 @@ export default function QuizPage() {
   const [score, setScore] = useState(0);
   const [selectedButton, setSelectedButton] = useState(null);
   const [showAnswer, setShowAnswer] = useState(false);
+  const [showNext, setShowNext] = useState(false);
+  const [showCheckAnswer, setShowCheckAnswer] = useState(false);
+  const [deactivated, setDeactivated] = useState(false);
 
   const handleAnswerSelection = (answerId) => {
     setSelectedAnswer(answerId);
+    setShowCheckAnswer(true);
   };
 
   const handleNextQuestion = () => {
@@ -74,15 +79,19 @@ export default function QuizPage() {
       if (selectedAnswerObj.isCorrect) {
         setScore(score + 1);
       }
-
+      setDeactivated(false);
       setSelectedAnswer(null);
       setShowAnswer(false);
       setCurrentQuestionIndex(currentQuestionIndex + 1);
+      setShowNext(false);
     }
   };
 
   const handleCheckAnswer = () => {
     setShowAnswer(true);
+    setShowNext(true);
+    setShowCheckAnswer(false);
+    setDeactivated(true);
   };
 
   return (
@@ -91,7 +100,7 @@ export default function QuizPage() {
       {currentQuestionIndex < questions.length ? (
         <div>
           <div>{questions[currentQuestionIndex].category}</div>
-          <div>{questions[currentQuestionIndex].question_ar}</div>
+          <div>{questions[currentQuestionIndex].question}</div>
           {questions[currentQuestionIndex].category === "True or false" && (
             <div>
               <button
@@ -105,7 +114,7 @@ export default function QuizPage() {
                   questions[currentQuestionIndex].answers[0].id
                     ? "selected"
                     : ""
-                }`}
+                } ${deactivated ? "disabled" : ""}`}
               >
                 True
               </button>
@@ -120,7 +129,7 @@ export default function QuizPage() {
                   questions[currentQuestionIndex].answers[1].id
                     ? "selected"
                     : ""
-                }`}
+                }  ${deactivated ? "disabled" : ""}`}
               >
                 False
               </button>
@@ -134,14 +143,16 @@ export default function QuizPage() {
                   onClick={() => handleAnswerSelection(answer.id)}
                   className={`btn btn-outline-primary ${
                     selectedAnswer === answer.id ? "selected" : ""
-                  }`}
+                  }  ${deactivated ? "disabled" : ""}`}
                 >
-                  {answer.answer_ar}
+                  {answer.answer}
                 </button>
               ))}
             </div>
           )}
-          <button onClick={handleCheckAnswer}>Check Answer</button>
+          {showCheckAnswer && (
+            <button onClick={handleCheckAnswer}>Check Answer</button>
+          )}
           {showAnswer && (
             <>
               <div>
@@ -149,7 +160,7 @@ export default function QuizPage() {
                 {
                   questions[currentQuestionIndex].answers.find(
                     (answer) => answer.isCorrect
-                  ).answer_ar
+                  ).answer
                 }
               </div>
               <div>
@@ -157,12 +168,20 @@ export default function QuizPage() {
                 {
                   questions[currentQuestionIndex].answers.find(
                     (answer) => answer.id === selectedAnswer
-                  ).answer_ar
+                  ).answer
                 }
               </div>
             </>
           )}
-          <button onClick={handleNextQuestion}>Next</button>
+          {showNext && (
+            <>
+              {currentQuestionIndex === questions.length - 1 ? (
+                <button onClick={handleNextQuestion}>Get Your score</button>
+              ) : (
+                <button onClick={handleNextQuestion}>Next</button>
+              )}
+            </>
+          )}
         </div>
       ) : (
         <div>

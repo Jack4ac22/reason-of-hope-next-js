@@ -5,7 +5,7 @@
 // }
 
 module.exports = {
-  siteUrl: "http://reasonofhope.com",
+  siteUrl: "http://reasonofhope.org",
   generateRobotsTxt: true,
   sitemap: {
     // This assumes your pages are in the "pages" directory
@@ -20,6 +20,8 @@ module.exports = {
         "objections",
         "publications",
         "tags",
+        "gospel",
+        "our-faith",
       ];
       return data.map((page) => ({
         url: `/${page}`,

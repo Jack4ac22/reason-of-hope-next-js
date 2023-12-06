@@ -5,18 +5,18 @@ import YouTube, { YouTubeProps } from "react-youtube";
 import { Spotify } from "react-spotify-embed";
 import YouTubeEmbed from "../../iframes/youtube-component";
 import RelatedArticles from "../related-articles/related-acticles";
+import ObjectionFallacies from "../objection-fallacies/objection-fallacies";
 export default function ArticleContentPageComponent(props) {
   const { article } = props;
   const opts = {
     width: "100%",
-    height: "100%",
+    height: "250",
     playerVars: {
       autoplay: 0,
       controls: 1,
       light: 1,
     },
   };
-  // TODO: centralise the youtube component, check the alternative, and centeralize the spotify component
   // TODO: add a check if there is fallacies, and related objections and add them to the article
   return (
     <>
@@ -24,7 +24,7 @@ export default function ArticleContentPageComponent(props) {
       <article>
         <ArticleContentHeader article={article} />
         <div className="container-md">
-          <div className="row">
+          <div className="row justify-content-center">
             {article.spotify && (
               <div className={`${article.youtube ? "col-md-5" : "col"} m-p-3`}>
                 <Spotify wide link={article.spotify} />
@@ -41,8 +41,12 @@ export default function ArticleContentPageComponent(props) {
         <ArticleContentBody article={article} />
       </article>
 
+      {/* fallacies */}
+      {article.fallacies && article.fallacies.length > 0 && (
+        <ObjectionFallacies article={article} />
+      )}
       {/* Related Articles: */}
-      <RelatedArticles article={article} />
+      {article.related && <RelatedArticles article={article} />}
     </>
   );
 }

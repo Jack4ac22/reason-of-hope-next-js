@@ -6,9 +6,9 @@ export default function RelatedArticles(props) {
     <>
       {article.related && (
         <section>
-          <div class="container text-center">
-            <div class="row justify-content-center">
-              <div class="col-sm-12 col-md-7 col-lg-5 align-self-center">
+          <div className="container text-center">
+            <div className="row justify-content-center">
+              <div className="col-sm-12 col-md-7 col-lg-5 align-self-center">
                 <hr />
                 <h3>مواضيع أخرى</h3>
                 <AutoplayingCarousel

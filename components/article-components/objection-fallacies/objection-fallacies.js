@@ -1,6 +1,8 @@
+import Link from "next/link";
 import YouTube, { YouTubeProps } from "react-youtube";
 export default function ObjectionFallacies(props) {
   const article = props.article;
+  console.log(article.fallacies);
   const opts = {
     width: "100%",
     height: "250",
@@ -10,7 +12,6 @@ export default function ObjectionFallacies(props) {
       light: 1,
     },
   };
-  // TODO: add the fallacies link to the ones that has an article iunder category logic...
   const fallaciesData = {
     "الإحتجاج-من-الصمت": {
       title: "مغالطة الإحتجاج من الصمت",
@@ -19,22 +20,25 @@ export default function ObjectionFallacies(props) {
       video: "",
     },
     "الإلتماس-العاطفي-للمطلوب": {
-      title: "",
+      title: "التماس المطلوب بطريقة عاطفية",
       description:
         "تحدث هذه المغالطة حين يقوم الشخص باستخدام لغة متحيّزة (وغالبا تكون مشحونة بعبارات عاطفيّة) في محاولة لدعم استنتاج لم يقم  بتقديم إثبات منطقيّ له. \n على سبيل المثال، إن قام أحد المراسلين الصحفيين بنقل خبر باسلوب يشبه التالي: ”لقد تم توجيه التهمة إلى المجرم بأنه قد قام بقتل الضحّية البريئة، وذلك بطريقة وحشية،“ سيكون هذا استخداما لالتماس السؤال العاطفي لأنه قد استخدم لغة متحيّزة ليقدّم قضيته علما أن القضية لم تحسم بعد. أما الطريقة الموضوعية لنقل الخبر ستكون ”لقد تمّ توجيه التهمة إلى المشتبه به بأنّه قد قتل شخصا آخر.“",
       video: "Fh8Gw6iJWqE",
+      fallacy_article: "logic/epithet",
     },
     "التعميم-واسع-النطاق": {
       title: "مغالطة التعميم واسع النطاق وغير الدقيق",
       description:
         "وهي فشل في ملاحظة كون بعض المبادئ التي وضعت بصفة عامة تمتلك بعض الاستثناءات. فسفر الأمثال هو خير مثال عن هذا التعميم - ان الأشياء المذكورة فيه هي صحيحة في معظم الظروف، ولكن يوجد بعض الإستثناءات. وهنا تحدث مغالطة التعميم غير الدقيق حين يتم الإفتراض بكون الاستثناءات هي تناقضات. إنَّه ليس بتناقض حين يتم تقديم تصريح بأنَّه ”في معظم الأحيان أ لكن أحياناً ليس أ.“  على سبيل المثال، إن الطلاق بشكل عام هو غير مقبول وبدقة أكبر هو غير مقبول إلا في حالة الخيانة. وبالتالي فإن ذلك ليس بتناقض بأن يتم التصريح بأن الطلاق هو مقبول (بمعنى أنَّه ليس خطيئةً) في حالة الزنى.",
       video: "U82pnIOYvBk",
+      fallacy_article: "logic/other-fallacies-1",
     },
     "المغالطات-الرسمية": {
       title: "المغالطات الرسميّة",
       description:
         "إنّ المغالطات الرسمية تتعامل مع المنطق الرسمي الإستنباطي الذي سبق وأشرنا إليه في المقدمة وهو المنطق الذي يمكن التعبير عنه باستخدام الرموز عوضا عن الفروض. وهو ما يعرف بالقياس المنطقي حيث أننا ننتج صيغة رياضية قياسية صالحة للحكم على مدى صلاحية الجدلات المنطقية.",
       video: "cp05WnmDsUo",
+      fallacy_article: "logic/modus",
     },
     "تحليل-النقل-النصّي": {
       title: "الفشل في اجراء تحليل للنقل النصي",
@@ -43,16 +47,18 @@ export default function ObjectionFallacies(props) {
       video: "",
     },
     "مغالطة التشعُّب": {
-      title: "مغالطة التشعّب (التقليص الخاطئ):",
+      title: "مغالطة التشعّب",
       description:
-        "وتعرف باسم مغالطة (إمّا أو). وتحدث هذه المغالطة حين يطالب الشخص بأن تكون الإجابة هي واحدة من بين إجابتين أو أكثر كان قد أعدها بشكل مسبق في حين أنَّ الحقيقة تكون في إجابة ثالثة لم يقم بتقديمها. كما في حالة ”إنَّ الإشارة الضوئية للمرور إما أن تكون حمراء أو خضراء“ فهي مغالطة تشعّب حيث أنّ الإشارة الضوئية قد تكون صفراء. ”إما أن يتبرر الإنسان بالأعمال أو بالإيمان“ وهذه مغالطة تشعّب أيضاً فالإنسان قد يتبرر بالإيمان أمام الله في حين أنَّه يتبرر بالأعمال أمام الناس.",
-      video: "",
+        "وتعرف باسم مغالطة التقليص الخاطئ أو مغالطة إمّا أو. وتحدث هذه المغالطة حين يطالب الشخص بأن تكون الإجابة هي واحدة من بين إجابتين أو أكثر كان قد أعدها بشكل مسبق في حين أنَّ الحقيقة تكون في إجابة ثالثة لم يقم بتقديمها. كما في حالة ”إنَّ الإشارة الضوئية للمرور إما أن تكون حمراء أو خضراء“ فهي مغالطة تشعّب حيث أنّ الإشارة الضوئية قد تكون صفراء. ”إما أن يتبرر الإنسان بالأعمال أو بالإيمان“ وهذه مغالطة تشعّب أيضاً فالإنسان قد يتبرر بالإيمان أمام الله في حين أنَّه يتبرر بالأعمال أمام الناس.",
+      video: "kYvRFMLLtQs",
+      fallacy_article: "logic/biforcation",
     },
     "مغالطة-التعميم-القطعي": {
       title: "مغالطة التعميم غير الدقيق / القطعي",
       description:
         "تحدث هذه المغالطة حين يتم تطبيق التعميم على الإستثناءات. إذ أن التصريحات العامة هي عامّة التطبيق ولكن ليس بشكل دائم. فهي صحيحة في حين يتم تطبيقها على معظم الأفراد في معظم الأحيان. إلا أنه يوجد استثناءات. \n مثلا ”رياضة الجري هي مفيدة لعضلة القلب. إن السيد (س) لديه مشكلة خاصة بالقلب، وبالتالي فإنه من المفترض أن يمارس الجري.“",
       video: "U82pnIOYvBk",
+      fallacy_article: "logic/other-fallacies-1",
     },
     "مغالطة-الفروع": {
       title: "مغالطة الفروع",
@@ -65,6 +71,7 @@ export default function ObjectionFallacies(props) {
       description:
         "تحدث حين يعزو المجادل علاقة سببية خاطئة بين حدثين. فلمجرد أن الحدثين وقعا في الوقت عينه تقريبا فإن ذلك لا يعني بأنّ واحدهما قد سبب الآخر. فالأمر قد يكون مجرّد مصادفة، أو أنه يوجد مسبّب آخر للحدثين معا. ولربما يكون أكثر الأمثلة تكرارا هو القول بأن المسيحيّة تسببت بالعصور المظلمة المعروفة في أوروبا، أو أن اكتشاف التطور هو المسؤول عن التطور الطبي والتكنولوجي المعاصر. \n فوقوع الأمرين في وقت واحد قد يكون مجرّد مصادفة. والخرافات تصنف على أنها ارتكاب لهذه المغالطة. مثل السير أسفل السلم، الرقم ١٣، مرور قطة سوداء في دربك وما يتبع ذلك من أحداث ومصائب، هذه الأمور هي ارتكاب لمغالطة المسببات الخاطئة.",
       video: "PXO-HKB-VK8",
+      fallacy_article: "logic/other-fallacies-2",
     },
     "مغالطة-المفارقة-التاريخيّة-للمعنى": {
       title: "مغالطة المفارقة التاريخيّة للمعنى",
@@ -76,7 +83,8 @@ export default function ObjectionFallacies(props) {
       title: "مغالطة المواربة",
       description:
         "وتحدث حين يقوم الشخص بتغيير معنى كلمة معينة ضمن سياق جداله الذي يقدمه. على سبيل المثال: ”رسالة يعقوب ١: ٣ تُعلِّم بأنّ اللهَ غَيْرُ مُجَرَّبٍ، في حين أن الرسالة إلى العبرانيين ٤: ١٥ تعلم بأن يسوع المسيح (الإله) مُجَرَّبٌ فِي كُلِّ شَيْءٍ“ أليس هذا تناقضاً؟. لكن كلمة ”جُرِّبَ“ قد حملت معنيَين مُختلفَين في الآيتين فهي قد تعني ”اختُبِرَ“ (وهو المعنى المستخدم في الرسالة إلى العبرانيين ) أو قد تعني ”أُغويَ“ (وهو المعنى المستخدم في رسالة يعقوب). وهو ليس بتناقض أن يتم التأكيد بأن يسوع كان تحت الإختبار إلا أنَّه لم يُغوى. ",
-      video: "",
+      video: "XqbQu1CNlQg",
+      fallacy_article: "logic/equivocation",
     },
     "مغالطة-النطاق-الدلالي-لمعنى-الكلمة": {
       title: "مغالطة النطاق الدلالي لمعنى الكلمة",
@@ -89,6 +97,7 @@ export default function ObjectionFallacies(props) {
       description:
         "تحدث مغالطة رجل القش حين يقوم الشخص بتشويه موقف الخصم ومن ثم يتابع في دحض ما سبق وقدّمه عوضاً عن التعامل مع الموقف الحقيقي للخصم. إن مغالطة رجل القش هي نوع خاص من مغالطة الفرضيات غير المترابطة حيث ان هذا النوع من المغالطات يعتمد على إثبات نقطة ليست موضوعة على طاولة الحوار. وفي حالة رجل القش يقوم الشخص بدحض الموقف الوهمي الذي قام بتقديمه وهذا الأمر لا صلة له بالموقف الحقيقي للخصم فهو قد قام بإنشاء كيان من قشّ وتابع باستعراض قوته أمامه. وهذا النوع من الأخطاء المنطقية يجب أن يتم تلافيه والحذر منه في الوقت ذاته.",
       video: "UiY9lZV2ycQ",
+      fallacy_article: "logic/strawman",
     },
     "منطق-مُخادع": {
       title: "المنطق المُخادِع",
@@ -101,6 +110,7 @@ export default function ObjectionFallacies(props) {
       description:
         "تحدث حين يقوم الشخص بالجدل بطريقة مغلوطة مدّعيا أن مايصحّ على الجزء يجب أن يكون صحيحا على الكلّ، أو ما يصحّ على عدد من أفراد المجموعة هو صحيح على كامل المجموعة. \n في بعض الأحيان يكون ذلك صحيحا، لكن ذلك لا يعني أنه صحيح بشكل دائم؛ وبالتالي فإنه يتوجب علينا أن نقوم بفحص كل ادعاء بشكل منفصل.",
       video: "U82pnIOYvBk",
+      fallacy_article: "logic/other-fallacies-1",
     },
     "قراءة-غير-دقيقة": {
       title: "القراءة غير الدقيقة والفشل في تحديد طبيعة النصّ",
@@ -112,31 +122,55 @@ export default function ObjectionFallacies(props) {
   return (
     <>
       <hr />
-      <div>
-        <h3>الأخطاء المنطقية المُستخدمة في هذا الإعتراض:</h3>
+      <h3>الأخطاء المنطقية المُستخدمة في هذا الإعتراض:</h3>
+      <div className="accordion accordion-flush" id="accordionFlushObjections">
         {article.fallacies.map((fallacy, index) => (
-          <div key={index}>
-            <h4>{fallaciesData[fallacy].title}</h4>
-            <p>{fallaciesData[fallacy].description}</p>
-            {fallaciesData[fallacy].video && (
-              <div className="container-md">
-                <div className="row justify-content-center">
-                  {fallaciesData[fallacy].video && (
-                    <div
-                      className={`${
-                        article.youtube ? "col-md-7" : "col"
-                      } m-p-3`}
-                    >
-                      {/* <YouTubeEmbed video={article.youtube} /> */}
-                      <YouTube
-                        videoId={fallaciesData[fallacy].video}
-                        opts={opts}
-                      />
-                    </div>
+          <div className="accordion-item">
+            <h2 className="accordion-header">
+              <button
+                className="btn collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target={`#flush-collapseOne${index}`}
+                aria-expanded="false"
+                aria-controls={`flush-collapseOne${index}`}
+              >
+                {index + 1 + " - " + fallaciesData[fallacy].title}
+              </button>
+            </h2>
+            <div
+              id={`flush-collapseOne${index}`}
+              className="accordion-collapse collapse"
+              data-bs-parent="#accordionFlushObjections"
+            >
+              <div className="accordion-body">
+                <p>
+                  {fallaciesData[fallacy].description}
+                  {fallaciesData[fallacy].fallacy_article && (
+                    <>
+                      <Link
+                        href={`/${fallaciesData[fallacy].fallacy_article}`}
+                        className="btn btn-outline-info "
+                      >
+                        اقرأ المزيد عن {fallaciesData[fallacy].title}
+                      </Link>
+                    </>
                   )}
-                </div>
+                </p>
+                {fallaciesData[fallacy].video && (
+                  <div className="container-md">
+                    <div className="row justify-content-center">
+                      <div className={`col-md-6 col-lg-5 m-p-3 round`}>
+                        <YouTube
+                          videoId={fallaciesData[fallacy].video}
+                          opts={opts}
+                        />
+                      </div>
+                    </div>
+                  </div>
+                )}
               </div>
-            )}
+            </div>
           </div>
         ))}
       </div>

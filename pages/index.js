@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <HeroMain />
-      <ShareIt url="ReasonOfHope.com" title="سبب الرجاء" tags={tags} />
+      <ShareIt url="reasonofhope.org" title="سبب الرجاء" tags={tags} />
     </div>
   );
 }

@@ -34,7 +34,7 @@ export default function ExternalLink(props) {
             href={
               article.externalLink
                 ? article.externalLink
-                : "www.reasonofhope.com"
+                : "www.reasonofhope.org"
             }
             target="_blank"
           >

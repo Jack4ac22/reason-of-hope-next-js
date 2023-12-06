@@ -13,13 +13,13 @@ export default function QuizPage() {
         {
           id: 1,
           answer: "False",
-          answer: "خاطئ",
+          answer_ar: "خاطئ",
           isCorrect: true,
         },
         {
           id: 2,
           answer: "true",
-          answer: "صحيح",
+          answer_ar: "صحيح",
           isCorrect: false,
         },
       ],
@@ -57,9 +57,9 @@ export default function QuizPage() {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState(null);
   const [score, setScore] = useState(0);
-  console.log(currentQuestionIndex);
-  console.log(selectedAnswer);
-  console.log(score);
+  const [selectedButton, setSelectedButton] = useState(null);
+  const [showAnswer, setShowAnswer] = useState(false);
+
   const handleAnswerSelection = (answerId) => {
     setSelectedAnswer(answerId);
   };
@@ -76,16 +76,22 @@ export default function QuizPage() {
       }
 
       setSelectedAnswer(null);
+      setShowAnswer(false);
       setCurrentQuestionIndex(currentQuestionIndex + 1);
     }
   };
+
+  const handleCheckAnswer = () => {
+    setShowAnswer(true);
+  };
+
   return (
     <div>
       <h1>Quiz</h1>
       {currentQuestionIndex < questions.length ? (
         <div>
           <div>{questions[currentQuestionIndex].category}</div>
-          <div>{questions[currentQuestionIndex].question}</div>
+          <div>{questions[currentQuestionIndex].question_ar}</div>
           {questions[currentQuestionIndex].category === "True or false" && (
             <div>
               <button
@@ -130,19 +136,38 @@ export default function QuizPage() {
                     selectedAnswer === answer.id ? "selected" : ""
                   }`}
                 >
-                  {answer.answer}
+                  {answer.answer_ar}
                 </button>
               ))}
             </div>
+          )}
+          <button onClick={handleCheckAnswer}>Check Answer</button>
+          {showAnswer && (
+            <>
+              <div>
+                Correct answer:{" "}
+                {
+                  questions[currentQuestionIndex].answers.find(
+                    (answer) => answer.isCorrect
+                  ).answer_ar
+                }
+              </div>
+              <div>
+                your answer:{" "}
+                {
+                  questions[currentQuestionIndex].answers.find(
+                    (answer) => answer.id === selectedAnswer
+                  ).answer_ar
+                }
+              </div>
+            </>
           )}
           <button onClick={handleNextQuestion}>Next</button>
         </div>
       ) : (
         <div>
           <h2>Quiz completed!</h2>
-          <p>
-            Your score: {score}/{questions.length}
-          </p>
+          <p>Your score: {score}</p>
         </div>
       )}
     </div>
@@ -152,3 +177,4 @@ export default function QuizPage() {
 //  TODO: first chose how many questions you want to play, ?? add timing for each question if needed.
 //  TODO: add share my results to the last sceene.
 //  TODO: add chose categories? or others.
+//  TODO: full screen does not mark the chosen answer.

@@ -1,8 +1,8 @@
 /**
  * A component that renders social media sharing buttons.
  * @param {Object} props - The component props.
- * @param {string} [props.baseUrl="https://reasonofhope.com"] - The base URL to share.
- * @param {string} [props.url="https://reasonofhope.com"] - The URL to share.
+ * @param {string} [props.baseUrl="https://reasonofhope.org"] - The base URL to share.
+ * @param {string} [props.url="https://reasonofhope.org"] - The URL to share.
  * @param {string} [props.title="سبب الرجاء"] - The title of the shared content.
  * @param {string} [props.description="يُقدِّم موقع سبب الرجاء الكثير من الدراسات المجانية التي تهدف إلى مساعدة المؤمنين في التعرف على الكتاب المقدس والدفاع عنه.\n "] - The description of the shared content.
  * @param {string[]} [props.tags=[]] - The tags to include in the shared content.
@@ -26,8 +26,8 @@ import {
 } from "react-share";
 
 export default function ShareIt({
-  baseUrl = "https://reasonofhope.com",
-  url = "https://reasonofhope.com",
+  baseUrl = "https://reasonofhope.org",
+  url = "https://reasonofhope.org",
   title = "سبب الرجاء",
   description = "يُقدِّم موقع سبب الرجاء الكثير من الدراسات المجانية التي تهدف إلى مساعدة المؤمنين في التعرف على الكتاب المقدس والدفاع عنه.\n ",
   tags = [],

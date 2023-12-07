@@ -9,7 +9,7 @@ tags:
   - "إنجيل"
   - "القانون"
   - "تاريخ"
-coverImage: "Did-Nicaea-Choose-Our-Four-Gospels.jpg"
+coverImage: "Did-Nicaea-Choose- Our-Four-Gospels.jpg"
 youtube: ""
 resouces:
   - pdfFile: "Did-Nicaea-Choose-Our-Four-Gospels.pdf"

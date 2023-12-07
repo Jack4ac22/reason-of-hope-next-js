@@ -10,8 +10,8 @@ export default function PublicationsCults(props) {
         key={"publications-cults-sections"}
       >
         <div className="container mt-5 ">
-          <div className="row justify-content-center">
-            <div className="col-lg-6">
+          <div className="row justify-content-around">
+            <div className="col-md-3">
               <AutoplayingCarousel
                 articles={cults_articles}
                 id="publications-cults-sections"

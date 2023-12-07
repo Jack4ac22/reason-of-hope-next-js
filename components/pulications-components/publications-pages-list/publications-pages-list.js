@@ -9,14 +9,14 @@ export default function PublicationsPagesList() {
       arabicTitle: "المنشورات",
       path: "/publications",
       coverImage: "",
-      icon: "/blog_images/publications_home.png",
+      icon: "/blog_images/allPublications.png",
     },
     {
       title: "published_books",
       arabicTitle: "الكتب المُترجمة",
       path: "/publications/books",
       coverImage: "",
-      icon: "/blog_images/publications.png",
+      icon: "/blog_images/translatedBooks.png",
     },
     {
       title: "published_studies",
@@ -39,7 +39,7 @@ export default function PublicationsPagesList() {
   return (
     <>
       <div className="nav-scroller py-1 mb-3 border-bottom">
-        <nav className="nav nav-underline justify-content-between">
+        <nav className="nav nav-underline justify-content-center">
           {pages.map((page) => {
             if (page.path !== asPath) {
               return (

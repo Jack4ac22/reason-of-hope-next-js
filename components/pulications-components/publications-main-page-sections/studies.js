@@ -10,14 +10,14 @@ export default function PublicationsStudies(props) {
         key={"publications-studies-sections"}
       >
         <div className="container mt-5 ">
-          <div className="row justify-content-center">
-            <div className="col-lg-6">
+          <div className="row justify-content-around">
+            <div className="col-md-3">
               <AutoplayingCarousel
                 articles={studies_articles}
                 id="publications-studies-sections"
                 const
-                baseUrl="creation"
-                isBook = {true} 
+                baseUrl="publications"
+                isBook={true}
               />
             </div>
             <div className="col-md-6 mt-5">

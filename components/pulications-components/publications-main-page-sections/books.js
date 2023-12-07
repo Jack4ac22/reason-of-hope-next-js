@@ -10,13 +10,13 @@ export default function PublicationsBooks(props) {
         key={"publications-books-sections"}
       >
         <div className="container mt-5 ">
-          <div className="row justify-content-center">
-            <div className="col-lg-6">
+          <div className="row justify-content-around">
+            <div className="col-md-3">
               <AutoplayingCarousel
                 articles={books_articles}
                 id="publications-books-sections"
                 const
-                baseUrl="creation"
+                baseUrl="publications"
                 isBook={true}
               />
             </div>

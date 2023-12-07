@@ -26,33 +26,45 @@ export default function CarouselItemCard(props) {
                   alt={article.title}
                   width={300}
                   height={300}
-                  style={{ objectFit: "cover" }}
+                  style={{ objectFit: isBook ? "scale-down" : "cover" }}
                 />
-                {/* <Link href={`/creation/${article.slug}`}> */}
                 <div className="card-img-overlay">
-                  <div className="container text-center">
-                    <div className="row align-items-center">
-                      <div className="col">
-                        <h5 className="card-title m-5 text-white bg-dark text-center">
-                          {article.title}
-                        </h5>
-                        <p className="card-text mt-3 text-white bg-dark text-center">
-                          {article.description &&
-                          article.description.split(" ").length > 20
-                            ? short_description + "..."
-                            : article.description}
-                        </p>
+                  <div className="container text-center ">
+                    <div
+                      className={` ${
+                        isBook
+                          ? "row aligne-items-end"
+                          : "row align-items-center"
+                      } `}
+                    >
+                      <div className="col align-self-end">
+                        {isBook || (
+                          <h5 className="card-title m-5 text-white bg-dark text-center">
+                            {article.title}
+                          </h5>
+                        )}
+                        {isBook || (
+                          <p className="card-text mt-3 text-white bg-dark text-center">
+                            {article.description &&
+                            article.description.split(" ").length > 20
+                              ? short_description + "..."
+                              : article.description}
+                          </p>
+                        )}
                         <Link
-                          href={`${baseUrl}/${article.slug}`}
-                          className="btn btn-sm btn-warning"
+                          href={`/${baseUrl}/${article.slug}`}
+                          className={`${
+                            isBook
+                              ? "btn btn-sm btn-primary"
+                              : "btn btn-sm btn-info"
+                          }`}
                         >
-                          {isBook ? "اقرأ هذا الكتاب" : "اقرأ هذا المنشور"}
+                          {isBook ? "احصل على هذا الكتاب" : "اقرأ هذا المنشور"}
                         </Link>
                       </div>
                     </div>
                   </div>
                 </div>
-                {/* </Link> */}
               </div>
             </div>
           </>

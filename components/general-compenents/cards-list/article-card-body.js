@@ -9,7 +9,7 @@ export default function ArticleCardBody(props) {
         <p className="card-text">{article.description}</p>
         <div className=" d-grid gap-2 col-6 mx-auto">
           <Link
-            href={`/${baseUrl}/${article.slug}`}
+            href={`${baseUrl}/${article.slug}`}
             className="btn btn-primary"
           >
             اقرأ أكثر

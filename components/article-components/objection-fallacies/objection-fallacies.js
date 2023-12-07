@@ -2,7 +2,6 @@ import Link from "next/link";
 import YouTube, { YouTubeProps } from "react-youtube";
 export default function ObjectionFallacies(props) {
   const article = props.article;
-  console.log(article.fallacies);
   const opts = {
     width: "100%",
     height: "250",

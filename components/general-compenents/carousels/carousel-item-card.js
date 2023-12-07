@@ -52,7 +52,7 @@ export default function CarouselItemCard(props) {
                           </p>
                         )}
                         <Link
-                          href={`/${baseUrl}/${article.slug}`}
+                          href={`${baseUrl}/${article.slug}`}
                           className={`${
                             isBook
                               ? "btn btn-sm btn-primary"

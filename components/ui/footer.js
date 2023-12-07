@@ -83,6 +83,14 @@ export default function UiFooter() {
               </li>
               <li className="nav-item mb-2">
                 <Link
+                  href="/studies"
+                  className="nav-link p-0 text-body-secondary"
+                >
+                  دراسات كتابية
+                </Link>
+              </li>
+              <li className="nav-item mb-2">
+                <Link
                   href="/publications"
                   className="nav-link p-0 text-body-secondary"
                 >

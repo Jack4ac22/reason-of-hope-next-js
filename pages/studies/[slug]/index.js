@@ -1,8 +1,5 @@
+import {getArticleFiles,getArticleDataWithRelatedArticles,} from "../../../utilities/articles-functions.js";
 import ArticleContentPageComponent from "../../../components/article-components/single-article-page/article-content-page.js";
-import {
-  getArticleFiles,
-  getArticleDataWithRelatedArticles,
-} from "../../../utilities/articles-functions.js";
 import PageTitle from "../../../components/general-compenents/page-title.js";
 
 function WordDetailPage(props) {

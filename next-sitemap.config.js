@@ -19,6 +19,7 @@ module.exports = {
         "logic",
         "objections",
         "publications",
+        "studies",
         "tags",
         "gospel",
         "our-faith",

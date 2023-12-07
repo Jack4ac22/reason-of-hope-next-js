@@ -7,9 +7,9 @@ export default function UiFooter() {
     <>
       {/* TODO: add visit CMI */}
       <footer className="py-5 border-top">
-        <div className="row">
+        <div className="row justify-content-between">
           <div className="col-6 col-md-2 mb-3">
-            <h5>قضية الخلق</h5>
+            {/* <h5>قضية الخلق</h5> */}
             <ul className="nav flex-column">
               <li className="nav-item mb-2">
                 <Link
@@ -63,37 +63,47 @@ export default function UiFooter() {
           </div>
 
           <div className="col-6 col-md-2 mb-3">
-            <h5>plcae_holder</h5>
+            {/* <h5>plcae_holder</h5> */}
             <ul className="nav flex-column">
               <li className="nav-item mb-2">
-                <Link href="#" className="nav-link p-0 text-body-secondary">
-                  plcae_holder
+                <Link
+                  href="/gospel"
+                  className="nav-link p-0 text-body-secondary"
+                >
+                  الإنجيل
                 </Link>
               </li>
               <li className="nav-item mb-2">
-                <Link href="#" className="nav-link p-0 text-body-secondary">
-                  plcae_holder
+                <Link
+                  href="/objections"
+                  className="nav-link p-0 text-body-secondary"
+                >
+                  الإعتراضات
                 </Link>
               </li>
               <li className="nav-item mb-2">
-                <Link href="#" className="nav-link p-0 text-body-secondary">
-                  plcae_holder
+                <Link
+                  href="/publications"
+                  className="nav-link p-0 text-body-secondary"
+                >
+                  إصدراتنا
+                </Link>
+              </li>
+
+              <li className="nav-item mb-2">
+                <Link href="/our-faith" className="nav-link p-0 text-body-secondary">
+                  إيماننا
                 </Link>
               </li>
               <li className="nav-item mb-2">
-                <Link href="#" className="nav-link p-0 text-body-secondary">
-                  plcae_holder
-                </Link>
-              </li>
-              <li className="nav-item mb-2">
-                <Link href="#" className="nav-link p-0 text-body-secondary">
-                  plcae_holder
+                <Link href="/contact" className="nav-link p-0 text-body-secondary">
+                  اتصل بنا
                 </Link>
               </li>
             </ul>
           </div>
 
-          <div className="col-6 col-md-2 mb-3">
+          {/* <div className="col-6 col-md-2 mb-3">
             <h5>place_holder</h5>
             <ul className="nav flex-column">
               <li className="nav-item mb-2">
@@ -122,7 +132,7 @@ export default function UiFooter() {
                 </Link>
               </li>
             </ul>
-          </div>
+          </div> */}
 
           <div className="col-md-5 offset-md-1 mb-3">
             <form>

@@ -7,7 +7,8 @@ import YouTubeEmbed from "../../iframes/youtube-component";
 import RelatedArticles from "../related-articles/related-acticles";
 import ObjectionFallacies from "../objection-fallacies/objection-fallacies";
 export default function ArticleContentPageComponent(props) {
-  const { article } = props;
+  const article = props.article;
+  const isBook = props.isBook;
   const opts = {
     width: "100%",
     height: "250",

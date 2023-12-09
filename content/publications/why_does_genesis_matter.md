@@ -18,7 +18,12 @@ resources:
     link: "https://books.google.lu/books?id=CLWlDwAAQBAJ&printsec=frontcover&redir_esc=y#v=onepage&q&f=false"
   - title: "appleBooks"
     link: "https://books.apple.com/lu/book/%D8%A7-%D9%87%D9%85%D9%8A%D8%A9-%D8%B3%D9%81%D8%B1-%D8%A7%D9%84%D8%AA%D9%83%D9%88%D9%8A%D9%86/id6451097287"
-
+audio:
+  - applePodcasts: ""
+  - googlePodcasts: ""
+  - hearthisAt: ""
+  - spotify: ""
+  - anchorLink: ""
 externalLink: ""
 authors:
   - name: "د. جيسون لايل - Dr. Jason Lisle"

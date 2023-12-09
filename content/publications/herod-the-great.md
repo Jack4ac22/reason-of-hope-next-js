@@ -16,7 +16,12 @@ resources:
     link: "https://books.google.lu/books/about?id=bxMOEAAAQBAJ&redir_esc=y"
   - title: "appleBooks"
     link: "http://books.apple.com/us/book/id1564505480"
-
+audio:
+  - applePodcasts: ""
+  - googlePodcasts: ""
+  - hearthisAt: ""
+  - spotify: ""
+  - anchorLink: ""
 authors:
   - name: "جاك قازنجيان - Jack Kazanjyan"
     link: "/jack-kazanjyan"

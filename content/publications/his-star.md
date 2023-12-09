@@ -18,7 +18,12 @@ resources:
     link: "https://books.google.com/books?id=DGjoEAAAQBAJ"
   - title: "appleBooks"
     link: "http://books.apple.com/us/book/id6474076463"
-
+audio:
+  - applePodcasts: ""
+  - googlePodcasts: ""
+  - hearthisAt: ""
+  - spotify: ""
+  - anchorLink: ""
 externalLink: ""
 authors:
   - name: "Jason Lisle"

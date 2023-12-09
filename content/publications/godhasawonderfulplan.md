@@ -19,6 +19,11 @@ resources:
   - title: "appleBooks"
     link: "http://books.apple.com/us/book/id1602019113"
 audio:
+  - applePodcasts: ""
+  - googlePodcasts: ""
+  - hearthisAt: ""
+  - spotify: ""
+  - anchorLink: ""
 externalLink: ""
 authors:
   - name: "راي كومفورت - Ray Comfort"

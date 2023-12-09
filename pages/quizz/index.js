@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from "react";
+import CorrectAnswer from "../../components/quiz-components/correct-answer";
+import WrongAnswer from "../../components/quiz-components/wrong-answer";
 
 export default function QuizPage() {
   const questions = [
@@ -60,6 +62,7 @@ export default function QuizPage() {
 
   const [showNextQuestionButton, setShowNextQuestionButton] = useState(false);
   const [showResultsButton, setShowResultsButton] = useState(false);
+  const [showCheckButton, setShowCheckButton] = useState(false);
   const [showAnswer, setShowAnswer] = useState(true);
   const [chosenAnswerResult, setChosenAnswerResult] = useState(null);
   const [quizResults, setQuizResults] = useState(null);
@@ -73,6 +76,7 @@ export default function QuizPage() {
     answerId === selectedAnswer
       ? setSelectedAnswer(null)
       : setSelectedAnswer(answerId);
+    setShowCheckButton(true);
   };
 
   /**
@@ -91,8 +95,8 @@ export default function QuizPage() {
       setChosenAnswerResult(false);
     }
 
-    setSelectedAnswer(null);
     setShowAnswer(false);
+    setShowCheckButton(false);
 
     currentQuestionIndex === questions.length - 1
       ? setShowResultsButton(true)
@@ -172,34 +176,16 @@ export default function QuizPage() {
                         {showAnswer || (
                           <>
                             {chosenAnswerResult && (
-                              <div className="alert alert-success" role="alert">
-                                <h4 className="alert-heading">Well done!</h4>
-                                <p>
-                                  Your answer is correct. Aww yeah, you
-                                  successfully read this
-                                </p>
-                                <hr />
-                                <p className="mb-0">
-                                  The Bible verse is .... where you can find
-                                  hinst about this, the text is: "asdasdasd"
-                                </p>
-                              </div>
+                              <CorrectAnswer
+                                question={[questions[currentQuestionIndex]]}
+                                selectedAnswer={selectedAnswer}
+                              />
                             )}
                             {chosenAnswerResult || (
-                              <div className="alert alert-danger" role="alert">
-                                <h4 className="alert-heading">
-                                  Oh, Sorry Wrong Answer
-                                </h4>
-                                <p>
-                                  Your answer is wrong. Aww yeah, you
-                                  successfully read this
-                                </p>
-                                <hr />
-                                <p className="mb-0">
-                                  The Bible verse is .... where you can find
-                                  hinst about this, the text is: "asdasdasd"
-                                </p>
-                              </div>
+                              <WrongAnswer
+                                question={[questions[currentQuestionIndex]]}
+                                selectedAnswer={selectedAnswer}
+                              />
                             )}
                           </>
                         )}
@@ -213,7 +199,7 @@ export default function QuizPage() {
                             Next
                           </button>
                         )}
-                        {selectedAnswer && (
+                        {showCheckButton && selectedAnswer && (
                           <button
                             className="btn btn-primary mx-1"
                             onClick={handleCheckAnswer}

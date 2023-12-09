@@ -6,10 +6,10 @@ export default function CorrectAnswer(props) {
   return (
     <div className="alert alert-success" role="alert">
       <h4 className="alert-heading">Well done!</h4>
-      <p>The questions was:</p>
-      <p>{`${question["category"]}: ${question["question"]}`}</p>
+      <p>The questions was {question["category"]}:</p>
+      <p>{`${question["question"]}`}</p>
       <p>
-        Your answer was:{" "}
+        Your answer was:
         {
           question["answers"].filter(
             (answer) => answer["id"] === selectedAnswer

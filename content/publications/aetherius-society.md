@@ -8,11 +8,13 @@ tags:
   - "فضاء"
 coverImage: "sc06.jpg"
 youtube: "m17Ot4oQS1o"
-resouces:
-  - pdfFile: "sc06.pdf"
-  - internetArchiveLink: ""
-  - googleBooksLink: "https://books.google.lu/books/about?id=2PodEAAAQBAJ&redir_esc=y"
-  - appleBooksLink: "http://books.apple.com/us/book/id1564559737"
+resources:
+  - title: "pdf"
+    link: "sc06.pdf"
+  - title: "googleBooks"
+    link: "https://books.google.lu/books/about?id=2PodEAAAQBAJ&redir_esc=y"
+  - title: "appleBooks"
+    link: "http://books.apple.com/us/book/id1564559737"
 audio:
   - applePodcasts: "https://podcasts.apple.com/lu/podcast/سلسلة-الديانات-والطوائف-٦-المجتمع-الأيثيري-بعيون-مسيحية/id1562186290?i=1000516312767"
   - googlePodcasts: "https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy81MTVjMjljNC9wb2RjYXN0L3Jzcw==/episode/YjNkZTAzYjYtNDQwZi00MWVmLTgwNmQtMmUxMWViMmU3ZmRl"

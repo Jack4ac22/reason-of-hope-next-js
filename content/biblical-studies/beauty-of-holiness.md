@@ -13,7 +13,7 @@ youtube: "yzlSvS71yOw"
 spotify: "https://open.spotify.com/episode/788KkG8H50jEOI9SumFwct"
 authors:
   - name: "Jonathan Beazley"
-    link: ""
+    link: "Jonathan-Beazley"
 status: "published"
 ---
 

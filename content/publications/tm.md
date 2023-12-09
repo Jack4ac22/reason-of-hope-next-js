@@ -10,11 +10,13 @@ tags:
   - "التأمل-التجاوزي"
 coverImage: "sc04.jpg"
 youtube: ""
-resouces:
-  - pdfFile: "sc04.pdf"
-  - internetArchiveLink: ""
-  - googleBooksLink: "https://books.google.lu/books?id=r-IXEAAAQBAJ&lpg=PA1&hl=de&pg=PA1#v=onepage&q&f=false"
-  - appleBooksLink: "https://books.apple.com/lu/book/%D8%A7%D9%84%D8%AA%D8%A7-%D9%85%D9%84-%D8%A7%D9%84%D8%AA%D8%AC%D8%A7%D9%88%D8%B2%D9%8A/id1564559618"
+resources:
+  - title: "pdf"
+    link: "sc04.pdf"
+  - title: "googleBooks"
+    link: "https://books.google.lu/books?id=r-IXEAAAQBAJ&lpg=PA1&hl=de&pg=PA1#v=onepage&q&f=false"
+  - title: "appleBooks"
+    link: "https://books.apple.com/lu/book/%D8%A7%D9%84%D8%AA%D8%A7-%D9%85%D9%84-%D8%A7%D9%84%D8%AA%D8%AC%D8%A7%D9%88%D8%B2%D9%8A/id1564559618"
 audio:
   - applePodcasts: "https://podcasts.apple.com/lu/podcast/سلسلة-الديانات-والطوائف-4-التأمل-التجاوزي-بعيون-مسيحية/id1562186290?i=1000517096595"
   - googlePodcasts: "https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy81MTVjMjljNC9wb2RjYXN0L3Jzcw/episode/OGZjZTI4NzUtZTE3Ny00NjA0LWFiMjQtZjkyYjRjNGY2MWEx?sa=X&ved=0CA0QkfYCahcKEwiQzaufppzwAhUAAAAAHQAAAAAQAQ"

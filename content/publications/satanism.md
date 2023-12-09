@@ -8,11 +8,13 @@ tags:
   - "الشيطان"
 coverImage: "sc07.jpg"
 youtube: "jHy_yd1_fQw"
-resouces:
-  - pdfFile: "sc07.pdf"
-  - internetArchiveLink: ""
-  - googleBooksLink: "https://books.google.lu/books/about?id=ABsmEAAAQBAJ&redir_esc=y"
-  - appleBooksLink: "https://books.apple.com/lu/book/العبادة-الشيطانية/id1564559523"
+resources:
+  - title: "pdf"
+    link: "sc07.pdf"
+  - title: "googleBooks"
+    link: "https://books.google.lu/books/about?id=ABsmEAAAQBAJ&redir_esc=y"
+  - title: "appleBooks"
+    link: "https://books.apple.com/lu/book/العبادة-الشيطانية/id1564559523"
 audio:
   - applePodcasts: "https://podcasts.apple.com/lu/podcast/العبادة-الشيطانية/id1562186290?i=1000517093330"
   - googlePodcasts: "https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy81MTVjMjljNC9wb2RjYXN0L3Jzcw/episode/Mzc5YzA5ODktMzJjZS00YTc2LTg1OGQtMDYyNjJjOTI2ZTQy?sa=X&ved=0CA0QkfYCahcKEwj44sD9we_wAhUAAAAAHQAAAAAQAQ"

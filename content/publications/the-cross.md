@@ -8,17 +8,14 @@ tags:
   - "الصليب"
 coverImage: "TheCross.jpg"
 youtube: ""
-resouces:
-  - pdfFile: "TheCrossPDF.pdf"
-  - internetArchiveLink: ""
-  - googleBooksLink: "https://books.google.lu/books?id=nv1vEAAAQBAJ&printsec=frontcover&hl=de&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false"
-  - appleBooksLink: "http://books.apple.com/us/book/id6442816430"
-audio:
-  - applePodcasts: ""
-  - googlePodcasts: ""
-  - hearthisAt: ""
-  - spotify: ""
-  - anchorLink: ""
+resources:
+  - title: "pdf"
+    link: "TheCrossPDF.pdf"
+  - title: "googleBooks"
+    link: "https://books.google.lu/books?id=nv1vEAAAQBAJ&printsec=frontcover&hl=de&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false"
+  - title: "appleBooks"
+    link: "http://books.apple.com/us/book/id6442816430"
+
 externalLink: ""
 authors:
   - name: "جاك قازنجيان - Jack Kazanjyan"

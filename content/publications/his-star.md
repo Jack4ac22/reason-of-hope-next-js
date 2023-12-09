@@ -11,17 +11,14 @@ tags:
   - "بيت لحم"
 coverImage: "His-Star.jpg"
 youtube: "2MWVYNNMFlo"
-resouces:
-  - pdfFile: "His-Star-PDF.pdf"
-  - internetArchiveLink: ""
-  - googleBooksLink: ""
-  - appleBooksLink: ""
-audio:
-  - applePodcasts: ""
-  - googlePodcasts: ""
-  - hearthisAt: ""
-  - spotify: ""
-  - anchorLink: ""
+resources:
+  - title: "pdf"
+    link: "His-Star-PDF.pdf"
+  - title: "googleBooks"
+    link: "https://books.google.com/books?id=DGjoEAAAQBAJ"
+  - title: "appleBooks"
+    link: "http://books.apple.com/us/book/id6474076463"
+
 externalLink: ""
 authors:
   - name: "Jason Lisle"

@@ -10,11 +10,13 @@ tags:
   - "بطرس"
 coverImage: "gpet.jpg"
 youtube: "qFgRo3RAxgQ"
-resouces:
-  - pdfFile: "gpet_pdf.pdf"
-  - internetArchiveLink: ""
-  - googleBooksLink: "https://books.google.lu/books?id=1-wdEAAAQBAJ&lpg=PA3&pg=PP1#v=onepage&q&f=false"
-  - appleBooksLink: "https://books.apple.com/us/book/id1564243099"
+resources:
+  - title: "pdf"
+    link: "gpet_pdf.pdf"
+  - title: "googleBooks"
+    link: "https://books.google.lu/books?id=1-wdEAAAQBAJ&lpg=PA3&pg=PP1#v=onepage&q&f=false"
+  - title: "appleBooks"
+    link: "https://books.apple.com/us/book/id1564243099"
 audio:
   - applePodcasts: "https://podcasts.apple.com/lu/podcast/الكتابات-الغنوصية/id1562187072?i=1000516313433"
   - googlePodcasts: "https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy81MTVjMjljNC9wb2RjYXN0L3Jzcw/episode/NmNlNTUwY2EtMzRhNC00NGZmLWI5MmEtYWRjZTBjOGE0YWI3?sa=X&ved=0CA0QkfYCahcKEwiIlb3ziprwAhUAAAAAHQAAAAAQAQ"

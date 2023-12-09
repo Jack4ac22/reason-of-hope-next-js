@@ -10,11 +10,13 @@ tags:
   - "غنوصي"
 coverImage: "gmary.jpg"
 youtube: "Z5x-6U39rxQ"
-resouces:
-  - pdfFile: "gmary.pdf"
-  - internetArchiveLink: ""
-  - googleBooksLink: "https://books.google.lu/books?id=CYggEAAAQBAJ&lpg=PP1&pg=PP1#v=onepage&q&f=false"
-  - appleBooksLink: "http://books.apple.com/us/book/id1564245184"
+resources:
+  - title: "pdf"
+    link: "gmary.pdf"
+  - title: "googleBooks"
+    link: "https://books.google.lu/books?id=CYggEAAAQBAJ&lpg=PP1&pg=PP1#v=onepage&q&f=false"
+  - title: "appleBooks"
+    link: "http://books.apple.com/us/book/id1564245184"
 audio:
   - applePodcasts: "https://podcasts.apple.com/lu/podcast/الكتابات-الغنوصية-٣-رؤيا-مريم-المجدلية-نظرة-عامة-على/id1562187072?i=1000516313432"
   - googlePodcasts: "https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy81MTVjMjljNC9wb2RjYXN0L3Jzcw/episode/OTA3MDI2ODgtYzljYS00MzUyLTg0NjktOGI5NzIyNDA2N2M1?sa=X&ved=0CAUQkfYCahcKEwj4q5HJ9_DwAhUAAAAAHQAAAAAQCA"

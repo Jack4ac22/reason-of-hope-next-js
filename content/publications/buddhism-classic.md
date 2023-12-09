@@ -12,10 +12,12 @@ tags:
 coverImage: "sc12.jpg"
 youtube: "ccTAjpOKog0"
 resources:
-  - pdfFile: "sc12.pdf"
-  - internetArchiveLink: ""
-  - googleBooksLink: "https://books.google.lu/books/about?id=w_NjEAAAQBAJ&redir_esc=y"
-  - appleBooksLink: "http://books.apple.com/us/book/id1614123850"
+  - title: "pdf"
+    link: "sc12.pdf"
+  - title: "googleBooks"
+    link: "https://books.google.lu/books/about?id=w_NjEAAAQBAJ&redir_esc=y"
+  - title: "appleBooks"
+    link: "http://books.apple.com/us/book/id1614123850"
 audio:
   - applePodcasts: "https://podcasts.apple.com/lu/podcast/%D9%81%D9%8A-%D8%A7%D9%84%D8%A8%D8%AF%D8%A1/id1579034794?i=1000553890051"
   - googlePodcasts: "https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy81MTVjMjljNC9wb2RjYXN0L3Jzcw/episode/NjQ3ZTMxY2YtNWUzYS00NTRkLTk4YzItMmI5YjFjYmRjYzBk?sa=X&ved=0CAUQkfYCahcKEwjYzcvkjcr2AhUAAAAAHQAAAAAQAQ"

@@ -9,10 +9,12 @@ tags:
 coverImage: "sc01.jpg"
 youtube: "ccTAjpOKog0"
 resources:
-  - pdfFile: "sc01.pdf"
-  - internetArchiveLink: ""
-  - googleBooksLink: "https://books.google.lu/books/about?id=bK8HEAAAQBAJ"
-  - appleBooksLink: "http://books.apple.com/us/book/id1564559690"
+  - title: "pdf"
+    link: "sc01.pdf"
+  - title: "googleBooks"
+    link: "https://books.google.lu/books/about?id=bK8HEAAAQBAJ"
+  - title: "appleBooks"
+    link: "http://books.apple.com/us/book/id1564559690"
 audio:
   - applePodcasts: "https://podcasts.apple.com/lu/podcast/%D8%B3%D9%84%D8%B3%D9%84%D8%A9-%D8%A7%D9%84%D8%AF%D9%8A%D8%A7%D9%86%D8%A7%D8%AA-%D9%88%D8%A7%D9%84%D8%B7%D9%88%D8%A7%D8%A6%D9%81-%D9%A1-%D8%A7%D9%84%D9%87%D9%86%D8%AF%D9%88%D8%B3%D9%8A%D8%A9-%D8%A8%D8%B9%D9%8A%D9%88%D9%86-%D9%85%D8%B3%D9%8A%D8%AD%D9%8A%D8%A9-%D8%AF%D9%88%D9%86/id1562186290?i=1000516312765"
   - googlePodcasts: "https://podcasts.google.com?feed=aHR0cHM6Ly9wY3IuYXBwbGUuY29tL2lkMTU0NDU5NzIyOA%3D%3D&episode=NTA4Mjk4Mw%3D%3D"

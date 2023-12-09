@@ -8,11 +8,15 @@ tags:
   - "الكتاب-المقدس"
 coverImage: "how-did-we-get-our-bible.jpg"
 youtube: "jS9fCWHvnrc"
-resouces:
-  - pdfFile: "how-did-we-get-our-bible.pdf"
-  - internetArchiveLink: "https://archive.org/details/How-did-we-got-our-bible-arabic"
-  - googleBooksLink: "https://books.google.lu/books?id=s6TJDwAAQBAJ&lpg=PP1&pg=PP1#v=onepage&q&f=false"
-  - appleBooksLink: "http://books.apple.com/us/book/id1568902464"
+resources:
+  - title: "pdf"
+    link: "how-did-we-get-our-bible.pdf"
+  - title: "archive"
+    link: "https://archive.org/details/How-did-we-got-our-bible-arabic"
+  - title: "googleBooks"
+    link: "https://books.google.lu/books?id=s6TJDwAAQBAJ&lpg=PP1&pg=PP1#v=onepage&q&f=false"
+  - title: "appleBooks"
+    link: "http://books.apple.com/us/book/id1568902464"
 audio:
   - applePodcasts: "https://podcasts.apple.com/lu/podcast/%D9%81%D9%8A-%D8%A7%D9%84%D8%A8%D8%AF%D8%A1/id1544597228?i=1000502145575"
   - googlePodcasts: "https://podcasts.google.com?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy81MTVjMjljNC9wb2RjYXN0L3Jzcw%3D%3D&episode=MmViZDdlZTYtZTJkMS00YzFlLTgyNDMtY2IxZjAyNGFkMWEw"

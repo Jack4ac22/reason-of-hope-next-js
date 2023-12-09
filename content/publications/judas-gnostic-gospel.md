@@ -10,11 +10,13 @@ tags:
   - "غنوصي"
 coverImage: "gjudas.jpg"
 youtube: "oa4f1cTWYzg"
-resouces:
-  - pdfFile: "gjudas.pdf"
-  - internetArchiveLink: ""
-  - googleBooksLink: "https://books.google.lu/books?id=qfAlEAAAQBAJ&lpg=PP1&pg=PP1#v=onepage&q&f=false"
-  - appleBooksLink: "http://books.apple.com/us/book/id1564245596"
+resources:
+  - title: "pdf"
+    link: "gjudas.pdf"
+  - title: "googleBooks"
+    link: "https://books.google.lu/books?id=qfAlEAAAQBAJ&lpg=PP1&pg=PP1#v=onepage&q&f=false"
+  - title: "appleBooks"
+    link: "http://books.apple.com/us/book/id1564245596"
 audio:
   - applePodcasts: "https://podcasts.apple.com/lu/podcast/الكتابات-الغنوصية-٤-الخائن-أم-الضحية-نظرة-عامة-على/id1562187072?i=1000518055686"
   - googlePodcasts: "https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy81MTVjMjljNC9wb2RjYXN0L3Jzcw/episode/NzdjYWExODctMDMzNi00OWQzLThkMTUtY2Y5OTBiMjFkNGJl?sa=X&ved=0CAUQkfYCahcKEwiQ-OPF-vDwAhUAAAAAHQAAAAAQCA"

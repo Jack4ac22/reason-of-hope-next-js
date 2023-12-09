@@ -9,11 +9,13 @@ tags:
   - "مغالطات"
 coverImage: "discerning-truth.jpg"
 youtube: "20JXnSoyCFE"
-resouces:
-  - pdfFile: "discerning-truth.pdf"
-  - internetArchiveLink: ""
-  - googleBooksLink: "https://books.google.lu/books?id=z6vDDwAAQBAJ&lpg=PT9&hl=de&pg=PA1#v=onepage&q&f=false"
-  - appleBooksLink: "https://books.apple.com/lu/book/%D8%AA%D9%85%D9%8A%D9%8A%D8%B2-%D8%A7%D9%84%D8%AD%D9%82%D9%8A%D9%82%D8%A9/id1564240329"
+resources:
+  - title: "pdf"
+    link: "discerning-truth.pdf"
+  - title: "googleBooks"
+    link: "https://books.google.lu/books?id=z6vDDwAAQBAJ&lpg=PT9&hl=de&pg=PA1#v=onepage&q&f=false"
+  - title: "appleBooks"
+    link: "https://books.apple.com/lu/book/%D8%AA%D9%85%D9%8A%D9%8A%D8%B2-%D8%A7%D9%84%D8%AD%D9%82%D9%8A%D9%82%D8%A9/id1564240329"
 externalLink: ""
 authors:
   - name: "د. جيسون لايل - Dr. Jason Lisle"

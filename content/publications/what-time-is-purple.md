@@ -11,11 +11,13 @@ tags:
   - "الخلق"
 coverImage: "What_Time_Is_Purple.jpg"
 youtube: "https://www.youtube.com/playlist?list=PLlToIY3-KqMAf-fNVZinpEi7kAHaSUxkk"
-resouces:
-  - pdfFile: "What_Time_Is_Purple_PDF_full_1.2.pdf"
-  - internetArchiveLink: ""
-  - googleBooksLink: "https://books.google.lu/books/about?id=x5AvEAAAQBAJ&redir_esc=y&hl=de"
-  - appleBooksLink: "http://books.apple.com/us/book/id1568714370"
+resources:
+  - title: "pdf"
+    link: "What_Time_Is_Purple_PDF_full_1.2.pdf"
+  - title: "googleBooks"
+    link: "https://books.google.lu/books/about?id=x5AvEAAAQBAJ&redir_esc=y&hl=de"
+  - title: "appleBooks"
+    link: "http://books.apple.com/us/book/id1568714370"
 audio:
   - applePodcasts: "https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy81MTVjMjljNC9wb2RjYXN0L3Jzcw==/episode/YTNjZGMyNWMtZGQ4Yi00ZTU5LTgwN2MtZTNlZTIyNjJhZTY4"
   - googlePodcasts: ""

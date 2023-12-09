@@ -11,11 +11,13 @@ tags:
   - "تاريخ"
 coverImage: "Did-Nicaea-Choose- Our-Four-Gospels.jpg"
 youtube: ""
-resouces:
-  - pdfFile: "Did-Nicaea-Choose-Our-Four-Gospels.pdf"
-  - internetArchiveLink: ""
-  - googleBooksLink: "https://books.google.lu/books?id=mt4_EAAAQBAJ&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false"
-  - appleBooksLink: "http://books.apple.com/us/book/id1583424188"
+resources:
+  - title: "pdf"
+    link: "Did-Nicaea-Choose-Our-Four-Gospels.pdf"
+  - title: "googleBooks"
+    link: "https://books.google.lu/books?id=mt4_EAAAQBAJ&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false"
+  - title: "appleBooks"
+    link: "http://books.apple.com/us/book/id1583424188"
 audio:
   - applePodcasts: "https://podcasts.apple.com/lu/podcast/%D8%A7%D9%84%D9%83%D8%AA%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D8%BA%D9%86%D9%88%D8%B5%D9%8A%D8%A9/id1562187072?i=1000534839501"
   - googlePodcasts: "https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy81MTVjMjljNC9wb2RjYXN0L3Jzcw/episode/MjFmMWEzNTktMTBhOC00ZTQxLWFiMjYtZDZlNGI0NGEwNGEz?sa=X&ved=0CAUQkfYCahcKEwj43aGyze3yAhUAAAAAHQAAAAAQAQ"

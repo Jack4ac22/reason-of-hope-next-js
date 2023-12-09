@@ -9,11 +9,13 @@ tags:
   - "بيت-لحم"
 coverImage: "Herod-The-Great.jpg"
 youtube: ""
-resouces:
-  - pdfFile: "Herod-The-Great-PDF.pdf"
-  - internetArchiveLink: ""
-  - googleBooksLink: "https://books.google.lu/books/about?id=bxMOEAAAQBAJ&redir_esc=y"
-  - appleBooksLink: "http://books.apple.com/us/book/id1564505480"
+resources:
+  - title: "pdf"
+    link: "Herod-The-Great-PDF.pdf"
+  - title: "googleBooks"
+    link: "https://books.google.lu/books/about?id=bxMOEAAAQBAJ&redir_esc=y"
+  - title: "appleBooks"
+    link: "http://books.apple.com/us/book/id1564505480"
 audio:
   - applePodcasts: ""
   - googlePodcasts: ""

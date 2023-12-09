@@ -11,14 +11,11 @@ tags:
   - "ديناصورات"
   - "علوم"
 coverImage: "hqdefault.jpg"
-spotify: ""
-hearthis: ""
 youtube: "uzW5YEeiClk"
 status: "published"
-creationLink: ""
 authors:
   - name: "Jack Kazanjyan"
-    link: ""
+    link: "/jack-kazanjyan"
 description: "دراسة أكاديمية تتناول قضية الديناصورات ووجودها جنباً إلى جنب مع البشر، بالإضافة إلى قضية عدم ورود كلمة ديناصور في الكتاب المقدس."
 ---
 

@@ -83,20 +83,41 @@ export default function UiFooter() {
               </li>
               <li className="nav-item mb-2">
                 <Link
+                  href="/studies"
+                  className="nav-link p-0 text-body-secondary"
+                >
+                  دراسات كتابية
+                </Link>
+              </li>
+              <li className="nav-item mb-2">
+                <Link
                   href="/publications"
                   className="nav-link p-0 text-body-secondary"
                 >
                   إصدراتنا
                 </Link>
               </li>
-
               <li className="nav-item mb-2">
-                <Link href="/our-faith" className="nav-link p-0 text-body-secondary">
+                <Link
+                  href="/our-faith"
+                  className="nav-link p-0 text-body-secondary"
+                >
                   إيماننا
                 </Link>
               </li>
               <li className="nav-item mb-2">
-                <Link href="/contact" className="nav-link p-0 text-body-secondary">
+                <Link
+                  href="/quiz"
+                  className="nav-link p-0 text-body-secondary"
+                >
+                  مسابقات
+                </Link>
+              </li>
+              <li className="nav-item mb-2">
+                <Link
+                  href="/contact"
+                  className="nav-link p-0 text-body-secondary"
+                >
                   اتصل بنا
                 </Link>
               </li>

@@ -9,18 +9,19 @@ tags:
   - "الشرق الأدنى القديم"
 coverImage: "Magic_and_sorcery.jpg"
 youtube: ""
-resouces:
-  - pdfFile: "Magic_and_sorcery_pdf.pdf"
-  - internetArchiveLink: ""
-  - googleBooksLink: "https://books.google.lu/books?id=SJQMEAAAQBAJ&printsec=frontcover&hl=de&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false"
-  - appleBooksLink: "http://books.apple.com/us/book/id1564502660"
+resources:
+  - title: "pdf"
+    link: "Magic_and_sorcery_pdf.pdf"
+  - title: "googleBooks"
+    link: "https://books.google.lu/books?id=SJQMEAAAQBAJ&printsec=frontcover&hl=de&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false"
+  - title: "appleBooks"
+    link: "http://books.apple.com/us/book/id1564502660"
 audio:
   - applePodcasts: ""
   - googlePodcasts: ""
   - hearthisAt: ""
   - spotify: ""
   - anchorLink: ""
-externalLink: ""
 authors:
   - name: "جاك قازنجيان - Jack Kazanjyan"
     link: "/jack-kazanjyan"

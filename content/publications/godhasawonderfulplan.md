@@ -11,12 +11,19 @@ tags:
   - "الخلاص"
 coverImage: "God-Has-A-Wonderful-Plan-for-your-life.jpg"
 youtube: ""
-resouces:
-  - pdfFile: "god-has-a-Wonderful-plan-for-your-life.pdf"
-  - internetArchiveLink: ""
-  - googleBooksLink: "https://books.google.lu/books/about?id=3G5WEAAAQBAJ&redir_esc=y"
-  - appleBooksLink: "http://books.apple.com/us/book/id1602019113"
+resources:
+  - title: "pdf"
+    link: "god-has-a-Wonderful-plan-for-your-life.pdf"
+  - title: "googleBooks"
+    link: "https://books.google.lu/books/about?id=3G5WEAAAQBAJ&redir_esc=y"
+  - title: "appleBooks"
+    link: "http://books.apple.com/us/book/id1602019113"
 audio:
+  - applePodcasts: ""
+  - googlePodcasts: ""
+  - hearthisAt: ""
+  - spotify: ""
+  - anchorLink: ""
 externalLink: ""
 authors:
   - name: "راي كومفورت - Ray Comfort"

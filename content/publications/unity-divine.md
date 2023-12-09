@@ -13,11 +13,13 @@ tags:
   - "علوم"
 coverImage: "sc10.jpg"
 youtube: "iyQOkM0Jg8s"
-resouces:
-  - pdfFile: "sc10.pdf"
-  - internetArchiveLink: ""
-  - googleBooksLink: "https://books.google.lu/books/about?id=RVo-EAAAQBAJ&redir_esc=y"
-  - appleBooksLink: "https://books.apple.com/lu/book/مدرسة-الوحدة-المسيحية/id1581934934"
+resources:
+  - title: "pdf"
+    link: "sc10.pdf"
+  - title: "googleBooks"
+    link: "https://books.google.lu/books/about?id=RVo-EAAAQBAJ&redir_esc=y"
+  - title: "appleBooks"
+    link: "https://books.apple.com/lu/book/مدرسة-الوحدة-المسيحية/id1581934934"
 audio:
   - applePodcasts: "https://podcasts.apple.com/lu/podcast/%D8%A7%D9%84%D8%AF%D9%8A%D8%A7%D9%86%D8%A7%D8%AA-%D9%88%D8%A7%D9%84%D8%B7%D9%88%D8%A7%D8%A6%D9%81/id1562186290?i=1000533006785"
   - googlePodcasts: "https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy81MTVjMjljNC9wb2RjYXN0L3Jzcw/episode/MTdiMjNmZDMtYzA0ZC00MGUwLTg2ZjYtM2I4YzMxMTEyZDE0?sa=X&ved=0CAUQkfYCahcKEwiQ3dfM25v0AhUAAAAAHQAAAAAQCg"

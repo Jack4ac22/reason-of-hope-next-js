@@ -9,11 +9,15 @@ tags:
   - "العصر-الجديد"
 coverImage: "sc03.jpg"
 youtube: ""
-resouces:
-  - pdfFile: "sc03.pdf"
-  - internetArchiveLink: "PgcBrJvfViU"
-  - googleBooksLink: "https://books.google.lu/books/about?id=B-IXEAAAQBAJ&redir_esc=y"
-  - appleBooksLink: "http://books.apple.com/us/book/id1564559345"
+resources:
+  - title: "pdf"
+    link: "sc03.pdf"
+  - title: "archive"
+    link: "PgcBrJvfViU"
+  - title: "googleBooks"
+    link: "https://books.google.lu/books/about?id=B-IXEAAAQBAJ&redir_esc=y"
+  - title: "appleBooks"
+    link: "http://books.apple.com/us/book/id1564559345"
 audio:
   - applePodcasts: "https://podcasts.apple.com/lu/podcast/حركة-العصر-الجديد-م-ه/id1562186290?i=1000520703707"
   - googlePodcasts: "https://podcasts.google.com?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy81MTVjMjljNC9wb2RjYXN0L3Jzcw%3D%3D&episode=ODlhMzU3NDctY2YwNy00NzkzLWEzOGYtNjg0YWQyNWJmOWFj"

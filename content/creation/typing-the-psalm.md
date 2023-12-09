@@ -12,9 +12,7 @@ tags:
 coverImage: "7325huxley-wilberforce.jpg"
 spotify: "https://open.spotify.com/episode/7fahxNwdRIgK2w0ih5NL7a?si=EcbLcMbSTWOSRrSWMSdW-g"
 hearthis: "https://hearthis.at/5436052/"
-youtube: ""
 status: "published"
-creationLink: ""
 authors:
   - name: "Russell Grigg"
     link: "https://creation.com/russell-grigg"

@@ -11,11 +11,15 @@ tags:
   - "دفاعيات"
 coverImage: "The-Ultimate-Proof-of-Creation-Arabic.jpg"
 youtube: ""
-resouces:
-  - pdfFile: "ultimate-proof-of-creation-Arabic.pdf"
-  - internetArchiveLink: "https://archive.org/details/UltimateProofOfCreationArabic/ultimate%20proof%20of%20creation%20Arabic%20PDF"
-  - googleBooksLink: "https://books.google.lu/books?id=09zdDwAAQBAJ"
-  - appleBooksLink: "http://books.apple.com/us/book/id1564241827"
+resources:
+  - title: "pdf"
+    link: "ultimate-proof-of-creation-Arabic.pdf"
+  - title: "archive"
+    link: "https://archive.org/details/UltimateProofOfCreationArabic/ultimate%20proof%20of%20creation%20Arabic%20PDF"
+  - title: "googleBooks"
+    link: "https://books.google.lu/books?id=09zdDwAAQBAJ"
+  - title: "appleBooks"
+    link: "http://books.apple.com/us/book/id1564241827"
 audio:
   - applePodcasts: "https://podcasts.apple.com/us/podcast/الدليل-الحاسم-للخلق/id1547845596"
   - googlePodcasts: "https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy81MTVjMjljNC9wb2RjYXN0L3Jzcw/episode/ZTI2YWNjYzgtZGRkMi00YmIxLThiNmMtZGQ1NDNhZWUyMmZm?sa=X&ved=0CAIQuIEEahcKEwjoqKXIm57wAhUAAAAAHQAAAAAQCA"

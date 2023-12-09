@@ -10,11 +10,13 @@ tags:
   - "ماري-بيكر-إيدي"
 coverImage: "sc08.jpg"
 youtube: "x9gvYA019-M"
-resouces:
-  - pdfFile: "sc08.pdf"
-  - internetArchiveLink: ""
-  - googleBooksLink: "https://books.google.lu/books?id=07A2EAAAQBAJ&lpg=PP1&hl=de&pg=PP1#v=onepage&q&f=false"
-  - appleBooksLink: "http://books.apple.com/us/book/id1575071640"
+resources:
+  - title: "pdf"
+    link: "sc08.pdf"
+  - title: "googleBooks"
+    link: "https://books.google.lu/books?id=07A2EAAAQBAJ&lpg=PP1&hl=de&pg=PP1#v=onepage&q&f=false"
+  - title: "appleBooks"
+    link: "http://books.apple.com/us/book/id1575071640"
 audio:
   - applePodcasts: "https://podcasts.apple.com/lu/podcast/الديانات-والطوائف/id1562186290?i=1000528605362"
   - googlePodcasts: "https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy81MTVjMjljNC9wb2RjYXN0L3Jzcw/episode/NDcwMDY1MTAtZDk3MC00ZWRlLThlZjMtOGE1YmMzY2I0NTE0?sa=X&ved=0CAUQkfYCahcKEwjQ_JHG_N_xAhUAAAAAHQAAAAAQAQ"

@@ -11,11 +11,13 @@ tags:
   - "توما"
 coverImage: "gthomas.jpg"
 youtube: "Hg7c0ErdPLs"
-resouces:
-  - pdfFile: "gthomas_pdf.pdf"
-  - internetArchiveLink: ""
-  - googleBooksLink: "https://books.google.lu/books?id=YKAeEAAAQBAJ&lpg=PA2&hl=de&pg=PP1#v=onepage&q&f=false"
-  - appleBooksLink: "https://books.apple.com/us/book/ا-نجيل-توما/id1564244316"
+resources:
+  - title: "pdf"
+    link: "gthomas_pdf.pdf"
+  - title: "googleBooks"
+    link: "https://books.google.lu/books?id=YKAeEAAAQBAJ&lpg=PA2&hl=de&pg=PP1#v=onepage&q&f=false"
+  - title: "appleBooks"
+    link: "https://books.apple.com/us/book/ا-نجيل-توما/id1564244316"
 audio:
   - applePodcasts: "https://podcasts.apple.com/lu/podcast/%D8%A7%D9%84%D9%83%D8%AA%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D8%BA%D9%86%D9%88%D8%B5%D9%8A%D8%A9/id1562187072?i=1000516313431"
   - googlePodcasts: "https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy81MTVjMjljNC9wb2RjYXN0L3Jzcw==/episode/NzAxMzhjMDYtNGRiNi00Y2JiLWI2NDItZjYzYzEwYzk5NThm"

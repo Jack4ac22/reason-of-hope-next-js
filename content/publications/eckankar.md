@@ -9,10 +9,12 @@ tags:
 coverImage: "sc02.jpg"
 outube: "ccTAjpOKog0"
 resources:
-  - pdfFile: "sc02.pdf"
-  - internetArchiveLink: ""
-  - googleBooksLink: "https://books.google.lu/books?id=peEXEAAAQBAJ"
-  - appleBooksLink: "http://books.apple.com/us/book/id1564559580"
+  - title: "pdf"
+    link: "sc02.pdf"
+  - title: "googleBooks"
+    link: "https://books.google.lu/books?id=peEXEAAAQBAJ"
+  - title: "appleBooks"
+    link: "http://books.apple.com/us/book/id1564559580"
 audio:
   - applePodcasts: "https://podcasts.apple.com/lu/podcast/سلسلة-الديانات-والطوائف-٢-إيكانكار-بعيون-مسيحية-مع/id1562186290?i=1000516312766"
   - googlePodcasts: "https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy81MTVjMjljNC9wb2RjYXN0L3Jzcw/episode/ZTIxYTI5NGMtZTI5OC00NDRhLTk0YmEtY2I2MzgwODQ2NjAw?sa=X&ved=0CAIQuIEEahcKEwi4s7mZuurwAhUAAAAAHQAAAAAQAQ"

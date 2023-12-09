@@ -30,7 +30,24 @@ export default function PublicationLinks(props) {
         )
       : null;
 
-  console.log(archive);
+  const audio = props.article.audio;
+  const spotify = audio.filter((resource) =>
+    resource.hasOwnProperty("spotify")
+  )[[0]]["spotify"];
+  const applePodcasts = audio.filter((resource) =>
+    resource.hasOwnProperty("applePodcasts")
+  )[[0]]["applePodcasts"];
+  const googlePodcasts = audio.filter((resource) =>
+    resource.hasOwnProperty("googlePodcasts")
+  )[[0]]["googlePodcasts"];
+  const hearthisAt = audio.filter((resource) =>
+    resource.hasOwnProperty("hearthisAt")
+  )[[0]]["hearthisAt"];
+  const anchorLink = audio.filter((resource) =>
+    resource.hasOwnProperty("anchorLink")
+  )[[0]]["anchorLink"];
+  const youtube = props.article.youtube;
+
   return (
     <>
       <div className="container-md">
@@ -68,6 +85,74 @@ export default function PublicationLinks(props) {
           <Link href={archive[0].link} target="_blank">
             <Image
               src="/blog_images/internet-archive.png"
+              alt=""
+              width={75}
+              height={75}
+            />
+          </Link>
+        )}
+      </div>
+      <div className="container-md">
+        {/* Spotify */}
+        {spotify && (
+          <Link href={spotify} target="_blank">
+            <Image
+              src="/blog_images/spotify.png"
+              alt=""
+              width={75}
+              height={75}
+            />
+          </Link>
+        )}
+        {/* Apple Podcasts */}
+        {applePodcasts && (
+          <Link href={applePodcasts} target="_blank">
+            <Image
+              src="/blog_images/apple-podcasts.png"
+              alt=""
+              width={75}
+              height={75}
+            />
+          </Link>
+        )}
+        {/* Google Podcasts */}
+        {googlePodcasts && (
+          <Link href={googlePodcasts} target="_blank">
+            <Image
+              src="/blog_images/google-podcasts.png"
+              alt=""
+              width={75}
+              height={75}
+            />
+          </Link>
+        )}
+        {/* Hearthis.at */}
+        {hearthisAt && (
+          <Link href={hearthisAt} target="_blank">
+            <Image
+              src="/blog_images/hear-this.png"
+              alt=""
+              width={75}
+              height={75}
+            />
+          </Link>
+        )}
+        {/* Anchor.fm */}
+        {anchorLink && (
+          <Link href={anchorLink} target="_blank">
+            <Image
+              src="/blog_images/anchor.png"
+              alt=""
+              width={75}
+              height={75}
+            />
+          </Link>
+        )}
+        {/* Youtube */}
+        {youtube && (
+          <Link href={youtube} target="_blank">
+            <Image
+              src="/blog_images/youtube.png"
               alt=""
               width={75}
               height={75}

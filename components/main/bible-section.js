@@ -1,18 +1,27 @@
-import Link from "next/link";
 import AutoplayingCarousel from "../general-compenents/carousels/Autoplaying-carousels.js";
+import YouTube, { YouTubeProps } from "react-youtube";
 
-export default function CreationSectionMainPage(props) {
+export default function TheGospelSectionMainPage() {
+  const opts = {
+    width: "90%",
+    height: "250",
+    playerVars: {
+      autoplay: 0,
+      controls: 1,
+      light: 1,
+    },
+  };
   return (
     <>
-      <section key={"creation-section"}>
+      <section>
         <div class="container my-5">
           <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
             <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
               <h3 class="display-4 fw-bold lh-1 text-body-emphasis">
-Creation Section              </h3>
+                THe Gospel section
+              </h3>
               <p class="lead">
-                Creation Section description Creation Section description
-                Creation
+                Gospel section description Gospel section description Gospel
               </p>
               <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
                 <button
@@ -29,12 +38,8 @@ Creation Section              </h3>
                 </button>
               </div>
             </div>
-            <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
-              <AutoplayingCarousel
-                articles={props.articles}
-                id="category_gospel"
-                baseUrl="creation"
-              />
+            <div class="col-lg-4">
+              <YouTube videoId={"98IhK5V53ks"} opts={opts} />
             </div>
           </div>
         </div>

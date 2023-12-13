@@ -6,6 +6,7 @@ import HeroMain from "../components/main/hero-main.js";
 import ShareIt from "../components/ui/share-it.js";
 import BibleVerseHero from "../components/ui/bible-verse-hero";
 import CreationSectionMainPage from "../components/main/creation-section";
+import TheGospelSectionMainPage from "../components/main/bible-section.js";
 import HomepageHero from "../components/main/homepage-hero";
 
 export default function Home(props) {
@@ -13,9 +14,6 @@ export default function Home(props) {
   return (
     <>
       <div className={styles.container}>
-        {/* <HeroMain /> */}
-        <HomepageHero />
-
         <BibleVerseHero
           body={
             "وَتَعْلَمُ أَنَّكَ مُنْذُ حَدَاثَةِ سِنِّكَ تَعْرِفُ الْكُتُبَ الْمُقَدَّسَةَ، وَهِيَ الْقَادِرَةُ أَنْ تَجْعَلَكَ حَكِيماً لِبُلُوغِ الْخَلاصِ عَنْ طَرِيقِ الإِيمَانِ فِي الْمَسِيحِ يَسُوعَ. إِنَّ الْكِتَابَ بِكُلِّ مَا فِيهِ، قَدْ أَوْحَى بِهِ اللهُ؛ وَهُوَ مُفِيدٌ لِلتَّعْلِيمِ وَالتَّوْبِيخِ وَالتَّقْوِيمِ وَتَهْذِيبِ الإِنْسَانِ فِي الْبِرِّ،"
@@ -24,17 +22,18 @@ export default function Home(props) {
           translation={"ترجمة كتاب الحياة"}
         />
 
-        <CreationSectionMainPage articles={props.creationArticles} />
-
         <ShareIt url="reasonofhope.org" title="سبب الرجاء" tags={tags} />
 
-        <h3 className="mt-5">من نحن</h3>
-        <p className="h5 text-justified">
-          نحن مسيحيّون مؤمنون بأنَّ كُلَّ الكتاب المقدس هو كلمة الله وقادر على
-          أن يجعل الإنسان حكيماً لبلوغ الخلاص عن طريق الإيمان في المسيح يسوع.
-          كُلُّ الكتاب هو مُوحى به من الله وهو مصدر السلطان المعصوم عن الخطأ
-          لجميع التعاليم المُلزمة على كلّ مؤمن.
-        </p>
+        <HomepageHero />
+        <div className="container col-xxl-8 px-4 py-1">
+          <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <h2 className="display-5 fw-bold text-body-emphasis lh-1 mb-3">
+              المواضيع الرئيسية
+            </h2>
+          </div>
+        </div>
+        <TheGospelSectionMainPage />
+        <CreationSectionMainPage articles={props.creationArticles} />
       </div>
     </>
   );

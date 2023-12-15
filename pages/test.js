@@ -1,32 +1,25 @@
-import SpotifyPlayer from "react-spotify-player";
-import { Spotify } from "react-spotify-embed";
-import ReactPlayer from "react-player/lazy";
+import { useState } from "react";
+import OverlayToast from "../components/general-compenents/toast/overlay-toast";
 
 export default function TestPage() {
-  // size may also be a plain string using the presets 'large' or 'compact'
-  const size = {
-    width: "100%",
-    height: 300,
-  };
-  const view = "list"; // or 'coverart'
-  const theme = "black"; // or 'white'
+  const [showOverlay, setShowOverlay] = useState(false);
+  const [url, setUrl] = useState("");
+function handleClick(e) {
+    e.preventDefault();
+    setShowOverlay(true);
+    setUrl(e.target.href);
+  }
+
   return (
     <>
-      <ReactPlayer url="https://youtu.be/v82TTQZGJcQ" />
-      <SpotifyPlayer
-        uri="spotify:album:1TIUsv8qmYLpBEhvmBmyBk"
-        size={size}
-        view={view}
-        theme={theme}
-      />
-      <div className="flex flex-row gap-8">
-        <Spotify link="https://open.spotify.com/track/1CPSRRXGTQVgc1DIRWmLcg?si=b63f02bac318404d" />
-        <Spotify link="https://open.spotify.com/album/527y5zpqdZc446EbgWPd6c?si=J9Ubk3bvT-arFUpp2pMxxw" />
-      </div>
-      <Spotify
-        wide
-        link="https://open.spotify.com/track/0mpTtYiDqkcOjNZqJLmjsO?si=e116707491c24ffc"
-      />
+      <a href="https://www.bible.com/en-GB/bible/101/DEU.2.9" onClick={handleClick}>Show Overlay</a>
+
+      {showOverlay && (
+        <OverlayToast
+          url={url}
+          onClose={() => setShowOverlay(false)}
+        />
+      )}
     </>
   );
 }

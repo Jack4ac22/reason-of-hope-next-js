@@ -14,7 +14,7 @@ function WordDetailPage(props) {
         description={article.description}
         image={`/blog_images/${article.coverImage}`}
       />
-      <ArticleContentPageComponent article={article} />{" "}
+      <ArticleContentPageComponent article={article} urlBase={'/words'}/>
     </>
   );
 }

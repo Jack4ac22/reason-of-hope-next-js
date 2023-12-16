@@ -14,7 +14,7 @@ export default function LogicArtilePage(props) {
         description={article.description}
         image={`/blog_images/${article.coverImage}`}
       />
-      <ArticleContentPageComponent article={article} />
+      <ArticleContentPageComponent article={article} urlBase={'/logic'} />
     </>
   );
 }

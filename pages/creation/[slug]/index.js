@@ -9,7 +9,7 @@ export default function CreationsArtilePage(props) {
 
   return (
     <>
-      <ArticleContentPageComponent article={article} />
+      <ArticleContentPageComponent article={article} urlBase={'/creation'}/>
     </>
   );
 }

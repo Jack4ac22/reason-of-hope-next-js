@@ -1,10 +1,20 @@
+import { useState } from "react";
+import OverlayComponent from "../components/general-compenents/toast/overlay-component";
 export default function OverlayPage() {
+  const [linkClicked, setLinkClicked] = useState(false);
+  const [href, setHref] = useState("");
+  function handlieLinkClick(e) {
+    e.preventDefault();
+    setLinkClicked(true);
+    setHref(e.target.href);
+  }
   return (
     <>
       <div id="overlay-item">
-        <div className="spinner-border m-5" role="status">
-          <span className="visually-hidden">Loading...</span>
-        </div>
+        <a href="localhost:3000/" onClick={handlieLinkClick}>
+          link
+        </a>
+        {linkClicked && <OverlayComponent url={href} />}
       </div>
     </>
   );

@@ -2,7 +2,6 @@ import PublicationsCults from "../../components/pulications-components/publicati
 import PublicationsBooks from "../../components/pulications-components/publications-main-page-sections/books";
 import PublicationsStudies from "../../components/pulications-components/publications-main-page-sections/studies";
 import { getArticlesByCategory } from "../../utilities/articles-functions";
-import ArticleCardsList from "../../components/general-compenents/cards-list/acrticles-cards-list";
 import PageTitle from "../../components/general-compenents/page-title";
 import BibleVerseHero from "../../components/ui/bible-verse-hero";
 import PublicationsPagesList from "../../components/pulications-components/publications-pages-list/publications-pages-list";

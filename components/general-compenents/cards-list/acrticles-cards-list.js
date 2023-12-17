@@ -18,3 +18,4 @@ export default function ArticleCardsList(props) {
     </>
   );
 }
+// TODO: add show more button and make it work based on the number of article passed in the props, the default will be 8 articles. check if 8 is higher thatn the available articles.

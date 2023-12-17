@@ -1,5 +1,5 @@
-import ArticleContentPageComponent from "../components/article-components/single-article-page/article-content-page";
-import { getArticleData } from "../utilities/articles-functions";
+import ArticleContentPageComponent from "../../components/article-components/single-article-page/article-content-page";
+import { getArticleData } from "../../utilities/articles-functions";
 
 export default function objectionArtilePage(props) {
   const article = props.article;

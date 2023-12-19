@@ -81,7 +81,7 @@ export function getAllArticles(articlesDirectoryPath, orderedBy = "date") {
 
 /**
  * Retrieves all blog articles from different content directories.
- * 
+ *
  * @returns {Array} An array of all blog articles.
  */
 export function getAllBlogArticles() {
@@ -104,7 +104,7 @@ export function getAllBlogArticles() {
     return { ...article, slug: "publications/" + article.slug };
   });
   const adjustedWordArticles = wordArticles.map((article) => {
-    return { ...article, slug: "word/" + article.slug };
+    return { ...article, slug: "words/" + article.slug };
   });
 
   const allArticles = [

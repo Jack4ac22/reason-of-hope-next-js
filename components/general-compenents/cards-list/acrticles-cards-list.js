@@ -3,9 +3,11 @@ import ArticleCard from "./article-card";
 export default function ArticleCardsList(props) {
   const articles = props.articles;
   const baseUrl = props.baseUrl;
+  const numberToShow = props.numberToShow ? props.numberToShow : 8;
 
   const [showMore, setShowMore] = useState(false);
-  const [numberOfArticlesToShow, setNumberOfArticlesToShow] = useState(8);
+  const [numberOfArticlesToShow, setNumberOfArticlesToShow] =
+    useState(numberToShow);
 
   function showMoreArticles() {
     setNumberOfArticlesToShow(numberOfArticlesToShow + 8);

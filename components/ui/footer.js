@@ -16,12 +16,12 @@ export default function UiFooter() {
                   href="/creation"
                   className="nav-link p-0 text-body-secondary"
                 >
-                  الصفحة الرئيسية لقضية الخلق
+                  قضية الخلق
                 </Link>
               </li>
               <li className="nav-item mb-2">
                 <Link
-                  href="creation/creation-gospel"
+                  href="/creation/creation-gospel"
                   className="nav-link p-0 text-body-secondary"
                 >
                   الكتاب المُقدَّس والإنجيل
@@ -107,7 +107,7 @@ export default function UiFooter() {
               </li>
               <li className="nav-item mb-2">
                 <Link
-                  href="/quiz"
+                  href="/quizz"
                   className="nav-link p-0 text-body-secondary"
                 >
                   مسابقات

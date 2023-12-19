@@ -12,6 +12,7 @@ import PublicationLinks from "../publications-links/publication-links";
 export default function ArticleContentPageComponent(props) {
   const article = props.article;
   const isBook = props.isBook;
+  const urlBase = props.urlBase;
   const opts = {
     width: "90%",
     height: "250",
@@ -26,7 +27,7 @@ export default function ArticleContentPageComponent(props) {
     <>
       <ArticleHeader article={article} />
       <article>
-        <ArticleContentHeader article={article} />
+        <ArticleContentHeader article={article} urlBase={urlBase} />
         <div className="container-md">
           {isBook || (
             <div className="row justify-content-center">

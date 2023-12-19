@@ -15,7 +15,7 @@ export default function ObjectionsSectionTwoPage(props) {
       />
       <ObjectionsPagesList />
       <ObjectionsPageSectionTwo />
-      <ArticleCardsList articles={articles} baseUrl="objections" />
+      <ArticleCardsList articles={articles} baseUrl="/objections" />
     </>
   );
 }

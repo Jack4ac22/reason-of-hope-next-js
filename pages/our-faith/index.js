@@ -1,4 +1,4 @@
-import PageTitle from "../components/general-compenents/page-title";
+import PageTitle from "../../components/general-compenents/page-title";
 
 export default function OurFaithPage() {
   return (

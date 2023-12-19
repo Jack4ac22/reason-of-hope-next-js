@@ -10,7 +10,7 @@ export default function objectionArtilePage(props) {
   // console.log(article.related.length);
   return (
     <>
-      <ArticleContentPageComponent article={article} />
+      <ArticleContentPageComponent article={article} urlBase={'/objections'} />
     </>
   );
 }

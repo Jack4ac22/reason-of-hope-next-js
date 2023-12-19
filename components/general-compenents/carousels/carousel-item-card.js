@@ -18,6 +18,7 @@ export default function CarouselItemCard(props) {
             <div
               className={`carousel-item ${index == 0 ? "active" : ""} `}
               key={key}
+              //TODO:  ratio="16/9"
             >
               <div className="card text-bg-dark">
                 <Image

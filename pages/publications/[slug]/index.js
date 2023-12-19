@@ -10,7 +10,7 @@ export default function PublicationsArtilePage(props) {
   return (
     <>
       {article.status === "published" && (
-        <ArticleContentPageComponent article={article} isBook={true} />
+        <ArticleContentPageComponent article={article} isBook={true}  urlBase={'/publications'}/>
       )}
       {article.status !== "published" && <HeroMain />}
     </>

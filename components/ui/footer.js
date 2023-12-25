@@ -105,6 +105,25 @@ export default function UiFooter() {
                   إيماننا
                 </Link>
               </li>
+            </ul>
+          </div>
+
+          <div className="col-6 col-md-2 mb-3">
+            {/* <h5>المزيد</h5> */}
+            <ul className="nav flex-column">
+              <li className="nav-item mb-2">
+                <Link
+                  href="/categories"
+                  className="nav-link p-0 text-body-secondary"
+                >
+                  الفئات
+                </Link>
+              </li>
+              <li className="nav-item mb-2">
+                <Link href="tags" className="nav-link p-0 text-body-secondary">
+                  الوسوم
+                </Link>
+              </li>
               <li className="nav-item mb-2">
                 <Link
                   href="/quizz"
@@ -123,37 +142,6 @@ export default function UiFooter() {
               </li>
             </ul>
           </div>
-
-          {/* <div className="col-6 col-md-2 mb-3">
-            <h5>place_holder</h5>
-            <ul className="nav flex-column">
-              <li className="nav-item mb-2">
-                <Link href="#" className="nav-link p-0 text-body-secondary">
-                  place_holder
-                </Link>
-              </li>
-              <li className="nav-item mb-2">
-                <Link href="#" className="nav-link p-0 text-body-secondary">
-                  place_holder
-                </Link>
-              </li>
-              <li className="nav-item mb-2">
-                <Link href="#" className="nav-link p-0 text-body-secondary">
-                  place_holder
-                </Link>
-              </li>
-              <li className="nav-item mb-2">
-                <Link href="#" className="nav-link p-0 text-body-secondary">
-                  place_holder
-                </Link>
-              </li>
-              <li className="nav-item mb-2">
-                <Link href="#" className="nav-link p-0 text-body-secondary">
-                  place_holder
-                </Link>
-              </li>
-            </ul>
-          </div> */}
 
           <div className="col-md-5 offset-md-1 mb-3">
             <form>

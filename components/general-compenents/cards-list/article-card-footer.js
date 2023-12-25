@@ -1,3 +1,4 @@
+import { replaceDashed } from "../../../utilities/general-functions";
 import Link from "next/link";
 
 export default function ArticleCardFooter(props) {
@@ -14,7 +15,7 @@ export default function ArticleCardFooter(props) {
               className="btn btn-secondary btn-sm m-1"
               href={`/tags/${tag}`}
             >
-              {tag.replace("-", " ")}
+              {replaceDashed(tag)}
             </Link>
           );
         })}
@@ -28,7 +29,7 @@ export default function ArticleCardFooter(props) {
               className="btn btn-secondary btn-sm m-1"
               href={`/categories/${category}`}
             >
-              {category.replace("-", " ")}
+              {replaceDashed(category)}
             </Link>
           );
         })}

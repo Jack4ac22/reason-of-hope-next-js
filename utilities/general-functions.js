@@ -11,3 +11,11 @@ export function randomArticlesFromArray(articlesList = [], number = 1) {
   }
   return randomArticles;
 }
+
+export function replaceDashed(text) {
+  if (text.includes("-")) {
+    return replaceDashed(text.replace("-", " "));
+  } else {
+    return text;
+  }
+}

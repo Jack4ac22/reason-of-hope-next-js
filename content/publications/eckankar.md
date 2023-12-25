@@ -2,7 +2,6 @@
 title: "إيكانكار - Eckankar"
 date: "2020-09-18"
 categories:
-  - "podcast"
   - "الديانات-والطوائف"
 tags:
   - "إيكانكار"

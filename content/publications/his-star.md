@@ -8,7 +8,7 @@ tags:
   - "الكتاب-المقدس"
   - "الميلاد"
   - "المجوس"
-  - "بيت لحم"
+  - "بيت-لحم"
 coverImage: "His-Star.jpg"
 youtube: "2MWVYNNMFlo"
 resources:

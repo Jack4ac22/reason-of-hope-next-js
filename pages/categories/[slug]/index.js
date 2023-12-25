@@ -15,13 +15,10 @@ export default function AllCategoriesPage(props) {
     slug
   )}`;
   const [displayedArticles, setDisplayedArticles] = useState(articles);
-  // console.log(displayedArticles);
   function handleTyping(e) {
     const typedText = e.target.value;
-    const filteredArticles = articles.filter(
-      (article) =>
-        article.title.includes(typedText) ||
-        article.description.includes(typedText)
+    const filteredArticles = articles.filter((article) =>
+      article.title.includes(typedText)
     );
     setDisplayedArticles(filteredArticles);
   }
@@ -56,6 +53,7 @@ export default function AllCategoriesPage(props) {
                     height={200}
                     className="card-img-top rounded-3 fluid"
                     style={{ objectFit: "fit" }}
+                    alt={`cover image for ${article.title}`}
                   />
                   <h5 className="card-title">{article.title}</h5>
                   <p className="card-text">{article.description}</p>

@@ -30,58 +30,58 @@ export default function UiHeader() {
             </li>
 
             <li className="nav-item">
-              <Link className="nav-link" href="/objections">
+              <a className="nav-link" href="/objections">
                 اعتراضات
-              </Link>
+              </a>
             </li>
 
             <li className="nav-item">
-              <Link className="nav-link" href="/gospel">
+              <a className="nav-link" href="/gospel">
                 الإنجيل
-              </Link>
+              </a>
             </li>
 
             <li className="nav-item">
-              <Link className="nav-link" href="/creation">
+              <a className="nav-link" href="/creation">
                 قضيّة الخلق
-              </Link>
+              </a>
             </li>
 
             <li className="nav-item">
-              <Link className="nav-link" href="/logic">
+              <a className="nav-link" href="/logic">
                 المنطق
-              </Link>
+              </a>
             </li>
 
             <li className="nav-item">
-              <Link className="nav-link" href="/words">
+              <a className="nav-link" href="/words">
                 كلمة ورسالة
-              </Link>
+              </a>
             </li>
 
             <li className="nav-item">
-              <Link className="nav-link" href="/studies">
+              <a className="nav-link" href="/studies">
                 دراسات
-              </Link>
+              </a>
             </li>
 
             <li className="nav-item">
-              <Link className="nav-link" href="/publications">
+              <a className="nav-link" href="/publications">
                 منشورات
-              </Link>
+              </a>
             </li>
 
             <li className="nav-item">
-              <Link className="nav-link" href="/our-faith">
+              <a className="nav-link" href="/our-faith">
                 إيماننا
-              </Link>
+              </a>
             </li>
-
+            {/* 
             <li className="nav-item">
-              <Link className="nav-link" href="/contact">
+              <a className="nav-link" href="/contact">
                 اتصل بنا
-              </Link>
-            </li>
+              </a>
+            </li> */}
           </ul>
         </div>
       </div>

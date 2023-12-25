@@ -18,7 +18,7 @@ export default function HomepageHero(props) {
             </div>
             <div className="col-lg-6">
               <h1 className="display-5 fw-bold text-body-emphasis lh-1 mb-3">
-                من نحن
+                أهلا بكم
               </h1>
               <p className="lead mb-4">
                 نحن مسيحيّون مؤمنون بأنَّ كُلَّ الكتاب المقدس هو كلمة الله وقادر
@@ -38,13 +38,13 @@ export default function HomepageHero(props) {
                 >
                   اقرأ بيان إيماننا الموجز
                 </Link>
-                <Link
+                {/* <Link
                   href="/contact"
                   type="button"
                   className="btn btn-outline-secondary btn-lg px-4"
                 >
                   اتصل بنا
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>

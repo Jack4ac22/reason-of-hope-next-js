@@ -15,7 +15,7 @@ export default function AllCategoriesPage(props) {
     slug
   )}`;
   const [displayedArticles, setDisplayedArticles] = useState(articles);
-  console.log(displayedArticles);
+  // console.log(displayedArticles);
   function handleTyping(e) {
     const typedText = e.target.value;
     const filteredArticles = articles.filter(

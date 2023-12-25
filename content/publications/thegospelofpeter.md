@@ -26,11 +26,11 @@ audio:
 externalLink: ""
 authors:
   - name: "د. ستيڤن بويس - Dr. Stephen Boyce"
-    link: "/people/Stephen Boyce"
+    link: ""
 translators:
   - name: "جاك قازنجيان - Jack Kazanjyan"
-    link: "/jack-kazanjyan"
-description: ""
+    link: ""
+description: "ظهر بين الفينة والأُخرى ادعاءات بالعثور على انجيل بطرس المفقود، ما هي حقيقة هذه الإدعاءات، وما هو هذا الإنجيل؟"
 status: "published"
 ---
 

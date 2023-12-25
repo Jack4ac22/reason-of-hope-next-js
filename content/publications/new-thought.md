@@ -26,7 +26,7 @@ audio:
 externalLink: ""
 authors:
   - name: "جاك قازنجيان - Jack Kazanjyan"
-    link: "/jack-kazanjyan"
+    link: ""
 description: "دراسة تتناول تاريخ حركة الفكر الجديد التي بنيت على أفكار كويمبي، وهو الذي قدَّم الأساس الفكري واللاهوتي للعديد من الحركات المعاصرة."
 status: "published"
 ---

@@ -24,7 +24,7 @@ audio:
 externalLink: ""
 authors:
   - name: "جاك قازنجيان - Jack Kazanjyan"
-    link: "/jack-kazanjyan"
+    link: ""
 description: "تعتبر الديانة الهندوسية من أقدم الديانات العالمية، وهي التي قدَّمت الأساس اللاهوتيّ للكثير من الشِيَع والفِرَق الدينيّة."
 status: "published"
 ---

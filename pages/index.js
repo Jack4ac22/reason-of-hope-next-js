@@ -3,14 +3,13 @@ import {
   getAllBlogArticles,
 } from "../utilities/articles-functions";
 import { randomArticlesFromArray } from "../utilities/general-functions";
-import AutoplayingCarousel from "../components/general-compenents/carousels/Autoplaying-carousels.js";
-import styles from "../styles/Home.module.css";
 import HeroMain from "../components/main/hero-main.js";
 import ShareIt from "../components/ui/share-it.js";
 import BibleVerseHero from "../components/ui/bible-verse-hero";
 import CreationSectionMainPage from "../components/main/creation-section";
 import PublicationSectionMainPage from "../components/main/publicationsSection.js";
 import TheGospelSectionMainPage from "../components/main/gospel-section.js";
+import ObjectionsSectionMainPage from "../components/main/objectionssSection.js";
 import HomepageHero from "../components/main/homepage-hero";
 import ArticleCardsList from "../components/general-compenents/cards-list/acrticles-cards-list";
 
@@ -18,7 +17,7 @@ export default function Home(props) {
   const tags = ["الإنجيل", "الكتاب المقدس", "دفاعيات", "تبشير", "يسوع المسيح"];
   return (
     <>
-      <div className={styles.container}>
+      <div className="container">
         <BibleVerseHero
           body={
             "وَتَعْلَمُ أَنَّكَ مُنْذُ حَدَاثَةِ سِنِّكَ تَعْرِفُ الْكُتُبَ الْمُقَدَّسَةَ، وَهِيَ الْقَادِرَةُ أَنْ تَجْعَلَكَ حَكِيماً لِبُلُوغِ الْخَلاصِ عَنْ طَرِيقِ الإِيمَانِ فِي الْمَسِيحِ يَسُوعَ. إِنَّ الْكِتَابَ بِكُلِّ مَا فِيهِ، قَدْ أَوْحَى بِهِ اللهُ؛ وَهُوَ مُفِيدٌ لِلتَّعْلِيمِ وَالتَّوْبِيخِ وَالتَّقْوِيمِ وَتَهْذِيبِ الإِنْسَانِ فِي الْبِرِّ،"
@@ -40,16 +39,19 @@ export default function Home(props) {
         <TheGospelSectionMainPage />
         <CreationSectionMainPage articles={props.creationArticles} />
         <PublicationSectionMainPage articles={props.publicationsArticles} />
+        <ObjectionsSectionMainPage articles={props.objectionsArticles} />
       </div>
-      <div className="container my-5">
-        <div className="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
-          <ArticleCardsList
-            articles={props.allArticles}
-            numberToShow={5}
-            baseUrl=""
-          />
+      <section className="rounded-4 border border-5 mt-3">
+        <div>
+          <div className="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+            <ArticleCardsList
+              articles={props.allArticles}
+              numberToShow={5}
+              baseUrl=""
+            />
+          </div>
         </div>
-      </div>
+      </section>
     </>
   );
 }

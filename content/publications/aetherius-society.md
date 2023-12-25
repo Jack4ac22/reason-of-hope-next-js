@@ -24,7 +24,7 @@ audio:
 externalLink: ""
 authors:
   - name: "جاك قازنجيان - Jack Kazanjyan"
-    link: "/jack-kazanjyan"
+    link: ""
 description: "مجموعة دينية معاصرة تتبنى أفكار مختلطة من مختلف المعتقدات مع إضافات تتعلق بالكائنات الفضائية والأطباق الطائرة."
 status: "published"
 ---

@@ -24,7 +24,7 @@ audio:
 externalLink: ""
 authors:
   - name: "جاك قازنجيان - Jack Kazanjyan"
-    link: "/jack-kazanjyan"
+    link: ""
 description: "دراسة مُختصرة تبحث من خلال عدد من المراجع الموسوعيه عن تاريخ الصلب واستخداماته بين الأمم وعبر العصور المُختلفة."
 status: "published"
 ---

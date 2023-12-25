@@ -8,7 +8,9 @@ export function getAllCategoriesCount() {
   const creationCategories = getAllArticleCategories("/content/creation");
   const logicCategories = getAllArticleCategories("/content/logic");
   const objectionCategories = getAllArticleCategories("/content/objections");
-  const publicationCategories = getAllArticleCategories("/content/publications");
+  const publicationCategories = getAllArticleCategories(
+    "/content/publications"
+  );
   const wordCategories = getAllArticleCategories("/content/word");
 
   const allCategories = [];
@@ -71,11 +73,26 @@ export function getAllCategoriesarticles() {
   const allCategories = getAllCategoriesCount();
 
   allCategories.forEach((category) => {
-    const creationArticlesByCategory = getArticlesByCategory(category.category,"/content/creation");
-    const logicsArticlesByCategory = getArticlesByCategory(category.category,"/content/logic");
-    const objectionsArticlesByCategory = getArticlesByCategory(category.category,"/content/objections");
-    const publicationsArticlesByCategory = getArticlesByCategory(category.category,"/content/publications");
-    const wordsArticlesByCategory = getArticlesByCategory(category.category,"/content/word");
+    const creationArticlesByCategory = getArticlesByCategory(
+      category.category,
+      "/content/creation"
+    );
+    const logicsArticlesByCategory = getArticlesByCategory(
+      category.category,
+      "/content/logic"
+    );
+    const objectionsArticlesByCategory = getArticlesByCategory(
+      category.category,
+      "/content/objections"
+    );
+    const publicationsArticlesByCategory = getArticlesByCategory(
+      category.category,
+      "/content/publications"
+    );
+    const wordsArticlesByCategory = getArticlesByCategory(
+      category.category,
+      "/content/word"
+    );
 
     const newCategoryObject = {
       category: category.category,
@@ -95,33 +112,78 @@ export function getAllCategoriesarticles() {
 }
 
 export function getAllArticlesByCategory(category) {
-  const creationArticlesByCategory = getArticlesByCategory(category,"/content/creation");
-  const logicsArticlesByCategory = getArticlesByCategory(category,"/content/logic");
-  const objectionsArticlesByCategory = getArticlesByCategory(category,"/content/objections");
-  const publicationsArticlesByCategory = getArticlesByCategory(category,"/content/publications");
-  const wordsArticlesByCategory = getArticlesByCategory(category,"/content/word");
-  const allArticles = {
-    creation: {
-      count: creationArticlesByCategory.length,
-      articles: [...creationArticlesByCategory],
-    },
-    objection: {
-      count: objectionsArticlesByCategory.length,
-      articles: [...objectionsArticlesByCategory],
-    },
-    logic: {
-      count: logicsArticlesByCategory.length,
-      articles: [...logicsArticlesByCategory],
-    },
-    publication: {
-      count: publicationsArticlesByCategory.length,
-      articles: [...publicationsArticlesByCategory],
-    },
-    word: {
-      count: wordsArticlesByCategory.length,
-      articles: [...wordsArticlesByCategory],
-    },
-  };
+  const creationArticlesByCategory = getArticlesByCategory(
+    category,
+    "/content/creation"
+  );
+  const logicsArticlesByCategory = getArticlesByCategory(
+    category,
+    "/content/logic"
+  );
+  const objectionsArticlesByCategory = getArticlesByCategory(
+    category,
+    "/content/objections"
+  );
+  const publicationsArticlesByCategory = getArticlesByCategory(
+    category,
+    "/content/publications"
+  );
+  const wordsArticlesByCategory = getArticlesByCategory(
+    category,
+    "/content/word"
+  );
+  const studiesArticlesByCategory = getArticlesByCategory(
+    category,
+    "/content/biblical-studies"
+  );
 
+  const creationArticlesAdjusted = creationArticlesByCategory.map((article) => {
+    return {
+      ...article,
+      slug: `creation/${article.slug}`,
+    };
+  });
+  const objectionsArticlesAdjusted = objectionsArticlesByCategory.map(
+    (article) => {
+      return {
+        ...article,
+        slug: `objections/${article.slug}`,
+      };
+    }
+  );
+  const logicsArticlesAdjusted = logicsArticlesByCategory.map((article) => {
+    return {
+      ...article,
+      slug: `logic/${article.slug}`,
+    };
+  });
+  const publicationsArticlesAdjusted = publicationsArticlesByCategory.map(
+    (article) => {
+      return {
+        ...article,
+        slug: `publications/${article.slug}`,
+      };
+    }
+  );
+  const wordsArticlesAdjusted = wordsArticlesByCategory.map((article) => {
+    return {
+      ...article,
+      slug: `words/${article.slug}`,
+    };
+  });
+  const studiesArticlesAdjusted = studiesArticlesByCategory.map((article) => {
+    return {
+      ...article,
+      slug: `studies/${article.slug}`,
+    };
+  });
+  const allArticles = [
+    ...creationArticlesAdjusted,
+    ...objectionsArticlesAdjusted,
+    ...logicsArticlesAdjusted,
+    ...publicationsArticlesAdjusted,
+    ...wordsArticlesAdjusted,
+    ...studiesArticlesAdjusted,
+  ];
   return allArticles;
 }

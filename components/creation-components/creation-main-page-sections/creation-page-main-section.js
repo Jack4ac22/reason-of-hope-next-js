@@ -11,7 +11,7 @@ export default function CreationPageMainSection() {
           <div className="row justify-content-center">
             <div className="col-md-6 mt-5 mb-5">
               <Image
-                className="rounded mx-auto d-block"
+                className="rounded mx-auto d-block img-fluid"
                 src="/creation-pages-images/pexels-photo-5199754.jpeg"
                 alt={`Image for a girl holding a Bible.`}
                 width={300}

@@ -10,6 +10,7 @@ export function getAllTagsCount() {
   const objectionTags = getAllArticleTags("/content/objections");
   const publicationTags = getAllArticleTags("/content/publications");
   const wordTags = getAllArticleTags("/content/word");
+  const studiesTags = getAllArticleTags("/content/biblical-studies");
 
   const allTags = [];
 
@@ -53,6 +54,14 @@ export function getAllTagsCount() {
       allTags.push(wordTag);
     }
   });
+  studiesTags.forEach((studiesTag) => {
+    const foundTag = allTags.find((tag) => tag.tag === studiesTag.tag);
+    if (foundTag) {
+      foundTag.count += studiesTag.count;
+    } else {
+      allTags.push(studiesTag);
+    }
+  });
   return allTags;
 }
 
@@ -75,6 +84,32 @@ export function getAllTagsarticles() {
       "/content/publications"
     );
     const wordsArticlesByTag = getArticlesByTag(tag.tag, "/content/word");
+
+    const StudiesArticlesByTag = getArticlesByTag(
+      tag.tag,
+      "/content/biblical-studies"
+    );
+
+    const adjustedCreationArticles = creationArticlesByTag.map((article) => {
+      return { ...article, slug: "creation/" + article.slug };
+    });
+    const adjustedLogicArticles = logicsArticlesByTag.map((article) => {
+      return { ...article, slug: "logic/" + article.slug };
+    });
+    const adjustedObjectionArticles = objectionsArticlesByTag.map((article) => {
+      return { ...article, slug: "objections/" + article.slug };
+    });
+    const adjustedPublicationArticles = publicationsArticlesByTag.map(
+      (article) => {
+        return { ...article, slug: "publications/" + article.slug };
+      }
+    );
+    const adjustedWordArticles = wordsArticlesByTag.map((article) => {
+      return { ...article, slug: "words/" + article.slug };
+    });
+    const adjustedStudiesArticles = StudiesArticlesByTag.map((article) => {
+      return { ...article, slug: "studies/" + article.slug };
+    });
 
     const newTagObject = {
       tag: tag.tag,
@@ -102,29 +137,57 @@ export function getAllArticlesByTag(tag) {
     "/content/publications"
   );
   const wordsArticlesByTag = getArticlesByTag(tag, "/content/word");
-  const allArticles = {
-    creation: {
-      count: creationArticlesByTag.length,
-      articles: [...creationArticlesByTag],
-    },
-    objection: {
-      count: objectionsArticlesByTag.length,
-      articles: [...objectionsArticlesByTag],
-    },
-    logic: {
-      count: logicsArticlesByTag.length,
-      articles: [...logicsArticlesByTag],
-    },
-    publication: {
-      count: publicationsArticlesByTag.length,
-      articles: [...publicationsArticlesByTag],
-    },
-    word: {
-      count: wordsArticlesByTag.length,
-      articles: [...wordsArticlesByTag],
-    },
-  };
+  const studiesArticlesByTag = getArticlesByTag(
+    tag,
+    "/content/biblical-studies"
+  );
 
+  const creationArticlesAdjusted = creationArticlesByTag.map((article) => {
+    return {
+      ...article,
+      slug: `creation/${article.slug}`,
+    };
+  });
+  const objectionsArticlesAdjusted = objectionsArticlesByTag.map((article) => {
+    return {
+      ...article,
+      slug: `objections/${article.slug}`,
+    };
+  });
+  const logicsArticlesAdjusted = logicsArticlesByTag.map((article) => {
+    return {
+      ...article,
+      slug: `logic/${article.slug}`,
+    };
+  });
+  const publicationsArticlesAdjusted = publicationsArticlesByTag.map(
+    (article) => {
+      return {
+        ...article,
+        slug: `publications/${article.slug}`,
+      };
+    }
+  );
+  const wordsArticlesAdjusted = wordsArticlesByTag.map((article) => {
+    return {
+      ...article,
+      slug: `words/${article.slug}`,
+    };
+  });
+  const studiesArticlesAdjusted = studiesArticlesByTag.map((article) => {
+    return {
+      ...article,
+      slug: `studies/${article.slug}`,
+    };
+  });
+  const allArticles = [
+    ...creationArticlesAdjusted,
+    ...objectionsArticlesAdjusted,
+    ...logicsArticlesAdjusted,
+    ...publicationsArticlesAdjusted,
+    ...wordsArticlesAdjusted,
+    ...studiesArticlesAdjusted,
+  ];
   return allArticles;
 }
 

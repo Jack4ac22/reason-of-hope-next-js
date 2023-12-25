@@ -30,7 +30,7 @@ authors:
     link: "https://whattimeispurple.com/"
 translators:
   - name: "جاك قازنجيان - Jack Kazanjyan"
-    link: "/jack-kazanjyan"
+    link: ""
 description: "بين الإلحاد والربوبية يضيع الكثير من الأشخاص معتقدين أنَّه لا يوجد سبيل لإنهاء هذه المعضلة أو الوصول إلى نتائج مقنعة، لكن هذا هروب من الواقع ومن تحمل المسؤولية. إن الطريق ليس صعب ولكن يوجد عواقب حقيقية لمعرفة الحقيقة.
 "
 status: "published"

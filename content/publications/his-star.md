@@ -8,7 +8,7 @@ tags:
   - "الكتاب-المقدس"
   - "الميلاد"
   - "المجوس"
-  - "بيت لحم"
+  - "بيت-لحم"
 coverImage: "His-Star.jpg"
 youtube: "2MWVYNNMFlo"
 resources:
@@ -30,7 +30,7 @@ authors:
     link: "www.biblicalscienceinstitute.com"
 translators:
   - name: "جاك قازنجيان - Jack Kazanjyan"
-    link: "/jack-kazanjyan"
+    link: ""
 description: "هذه الدراسة هي دراسة تأمّلية مبنية على النص الإنجيلي، وستعمل على تحدي بعض المُعتقدات الخاطئة وتعزيز المُعتقدات السليمة. "
 status: "published"
 ---

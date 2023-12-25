@@ -27,10 +27,10 @@ audio:
 externalLink: ""
 authors:
   - name: "د. ستيڤن بويس - Dr. Stephen Boyce"
-    link: "/people/Stephen Boyce"
+    link: ""
 translators:
   - name: "جاك قازنجيان - Jack Kazanjyan"
-    link: "/jack-kazanjyan"
+    link: ""
 description: "دراسة تتعامل مع أسطورة تدور في الكثير من الأوساط عن الدَّور المُفتَرض لمجمع نيقية في إختيار الأناجيل الأربعة وقونَنَتِها."
 status: "published"
 ---

@@ -27,7 +27,7 @@ audio:
 externalLink: ""
 authors:
   - name: "جاك قازنجيان - Jack Kazanjyan"
-    link: "/jack-kazanjyan"
+    link: ""
 description: "مجموعة دينية تأسست على يد ماري بيكر إيدي التي كانت كانت واحدةً من الشخصيات التي تركت بصمتها على الحركات الدينية التي تُسوِّق للشفاء الروحي وتنكر الوجود الحقيقيّ للمادة."
 status: "published"
 ---

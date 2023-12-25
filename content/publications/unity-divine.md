@@ -29,7 +29,7 @@ audio:
 externalLink: ""
 authors:
   - name: "جاك قازنجيان - Jack Kazanjyan"
-    link: "/jack-kazanjyan"
+    link: ""
 description: "من المجموعات الدينية التي تُصنَّف على أنها من مجموعات علوم الذهن، والتي تمتلك تأثيراً كبيراً على تطور الحركات الدينية المعاصرة."
 status: "published"
 ---

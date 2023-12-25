@@ -60,7 +60,11 @@ export function getArticleDataWithRelatedArticles(
   );
   const fileContent = fs.readFileSync(filePath, "utf-8");
   const { data, content } = matter(fileContent);
-  const relatedArticles = getRelatedArticles(data.tags, related);
+  const relatedArticles = getRelatedArticles(
+    data.tags,
+    related,
+    articleIdentifier
+  );
   const articleData = {
     slug: articleSlug,
     related: relatedArticles,
@@ -90,6 +94,7 @@ export function getAllBlogArticles() {
   const objectionArticles = getAllArticles("/content/objections");
   const publicationArticles = getAllArticles("/content/publications");
   const wordArticles = getAllArticles("/content/word");
+  const studiesArticles = getAllArticles("/content/biblical-studies");
 
   const adjustedCreationArticles = creationArticles.map((article) => {
     return { ...article, slug: "creation/" + article.slug };
@@ -106,6 +111,9 @@ export function getAllBlogArticles() {
   const adjustedWordArticles = wordArticles.map((article) => {
     return { ...article, slug: "words/" + article.slug };
   });
+  const adjustedStudiesArticles = studiesArticles.map((article) => {
+    return { ...article, slug: "studies/" + article.slug };
+  });
 
   const allArticles = [
     ...adjustedCreationArticles,
@@ -113,6 +121,7 @@ export function getAllBlogArticles() {
     ...adjustedObjectionArticles,
     ...adjustedPublicationArticles,
     ...adjustedWordArticles,
+    ...adjustedStudiesArticles,
   ];
 
   return allArticles;
@@ -227,12 +236,15 @@ export function getAllArticleCategories(articlesDirectoryPath) {
   );
 }
 
-export function getRelatedArticles(tags, number = 3) {
+export function getRelatedArticles(tags, number = 3, articleSlug = "") {
   const relatedArticles = [];
   const allArticles = getAllBlogArticles();
   tags.forEach((tag) => {
     const filteredArticles = allArticles.filter(
-      (article) => article.tags && article.tags.includes(tag)
+      (article) =>
+        article.tags &&
+        article.tags.includes(tag) &&
+        article.slug !== articleSlug
     );
     relatedArticles.push(...filteredArticles);
   });

@@ -60,6 +60,12 @@ export default function UiHeader() {
             </li>
 
             <li className="nav-item">
+              <Link className="nav-link" href="/studies">
+                دراسات
+              </Link>
+            </li>
+
+            <li className="nav-item">
               <Link className="nav-link" href="/publications">
                 منشورات
               </Link>

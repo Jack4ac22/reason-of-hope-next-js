@@ -27,7 +27,7 @@ audio:
 externalLink: ""
 authors:
   - name: "جاك قازنجيان - Jack Kazanjyan"
-    link: "/jack-kazanjyan"
+    link: ""
 description: "لمحة مُختصرة عن تاريخ ونشأة البوذية الكلاسيكية بالإضافة إلى نظرة عامة تُظهر التباين بين تعاليمها وبين التعاليم المسيحية المبنية على الكتاب المقدس."
 status: "published"
 ---

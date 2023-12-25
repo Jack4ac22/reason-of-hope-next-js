@@ -24,7 +24,7 @@ audio:
 externalLink: ""
 authors:
   - name: "جاك قازنجيان - Jack Kazanjyan"
-    link: "/jack-kazanjyan"
+    link: ""
 description: "واحدة من الديانات المُعاصرة التي تستخدم منصات التوصل الاجتماعي والعالم الإفتراضي لتسويق ذاتها."
 status: "published"
 ---

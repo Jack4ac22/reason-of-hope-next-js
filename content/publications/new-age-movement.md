@@ -27,7 +27,7 @@ audio:
 externalLink: ""
 authors:
   - name: "جاك قازنجيان - Jack Kazanjyan"
-    link: "/jack-kazanjyan"
+    link: ""
 translators:
 description: "إنَّ حركة العصر الجديد تُشكل واحدةً من أعقد الأنظمة الدينية وأكثرها تأثيراً في عالمنا المعاصر."
 status: "published"

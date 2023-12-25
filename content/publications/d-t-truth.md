@@ -28,7 +28,7 @@ authors:
     link: "https://biblicalscienceinstitute.com/"
 translators:
   - name: "جاك قازنجيان - Jack Kazanjyan"
-    link: "/jack-kazanjyan"
+    link: ""
 description: "كتاب يتعامل مع الأخطاء المنطقية الشائعة في الحوارات والجدالات بين المؤمنين بالخلق التوراتي ومناهضيهم."
 status: "published"
 ---

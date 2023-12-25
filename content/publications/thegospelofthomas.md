@@ -27,10 +27,10 @@ audio:
 externalLink: ""
 authors:
   - name: "د. ستيڤن بويس - Dr. Stephen Boyce"
-    link: "/people/Stephen Boyce"
+    link: ""
 translators:
   - name: "جاك قازنجيان - Jack Kazanjyan"
-    link: "/jack-kazanjyan"
+    link: ""
 description: "يتساءل العديد من الأشخاص عن السبب الذي يقف وراء عدم وضع إنجيل توما بين أسفار العهد الجديد. إليكم إجابة من الدكتور ستيڤن بويس."
 status: "published"
 ---

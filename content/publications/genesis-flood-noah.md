@@ -35,7 +35,7 @@ authors:
     link: "https://creation.com/dr-tas-walker-speaker"
 translators:
   - name: "جاك قازنجيان - Jack Kazanjyan"
-    link: "/jack-kazanjyan"
+    link: ""
 description: "إن سفر التكوين والسرد الذي يقدمه عن الطوفان يتعرضان إلى أعتى الهجمات التي تتشكك بمصداقيتهما. يقدم هذا الكُتيّب نظرة عامةً على الإعتراضات الرئيسية ويتعامل معها."
 status: "published"
 ---

@@ -26,10 +26,10 @@ audio:
 externalLink: ""
 authors:
   - name: "د. ستيڤن بويس - Dr. Stephen Boyce"
-    link: "/people/Stephen Boyce"
+    link: ""
 translators:
   - name: "جاك قازنجيان - Jack Kazanjyan"
-    link: "/jack-kazanjyan"
+    link: ""
 description: "ما هي القصة التي تقف وراء إنجيل مريم المجدلية، وما هي الأسباب التي جعلت الكنيسة ترفضة كواحد من السرديات الأصلية؟"
 status: "published"
 ---

@@ -31,7 +31,7 @@ authors:
     link: "https://answersingenesis.org/"
 translators:
   - name: "جاك قازنجيان - Jack Kazanjyan"
-    link: "/jack-kazanjyan"
+    link: ""
 description: "كتاب مهم وضروري لجميع الآباء والمعلمين والمرشدين في الكنائس، يقدم من خلاله الدكتور كين هام خبرته التي تتجاوز ربع قرن في عالم الدفاعيات. يقوم بتوصيف للصراع الدائر بين الخلق التوراتي والمساومة المتفشية في الكنيسة."
 status: "published"
 ---

@@ -31,9 +31,9 @@ authors:
     link: "https://creation.com/lita-sanders"
 translators:
   - name: "جاك قازنجيان - Jack Kazanjyan"
-    link: "/jack-kazanjyan"
+    link: ""
   - name: "ميشيل مسعود - Michel Massoud"
-    link: "/michel-massoud"
+    link: ""
 description: "يُقدم هذا الكُتيب لكم نظرة عامة على كيفية وصول الكتاب المقدس بطريقة مبسطة يعالج من خلالها بعض المواضيع الحيوية.
 يوجد تسعة عشر باب مبسط تضيء على جوانب هامة وتساعد على بدء البحث في الإعلان الإلهي للجنس البشري. "
 status: "published"

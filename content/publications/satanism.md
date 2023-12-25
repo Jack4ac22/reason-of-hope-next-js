@@ -24,7 +24,7 @@ audio:
 externalLink: ""
 authors:
   - name: "جاك قازنجيان - Jack Kazanjyan"
-    link: "/jack-kazanjyan"
+    link: ""
 description: "دراسة تتناول العبادة الشيطانية المعاصرة وتاريخها."
 status: "published"
 ---

@@ -24,7 +24,7 @@ audio:
   - anchorLink: ""
 authors:
   - name: "جاك قازنجيان - Jack Kazanjyan"
-    link: "/jack-kazanjyan"
+    link: ""
 description: ""
 status: "published"
 ---

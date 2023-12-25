@@ -26,7 +26,7 @@ audio:
 externalLink: ""
 authors:
   - name: "جاك قازنجيان - Jack Kazanjyan"
-    link: "/jack-kazanjyan"
+    link: ""
 description: "دراسة تتناول تاريخ حركة العلم الديني التي تشكل واحدة من بين الفرق الدينية التي مهَّدت الطريق أمام العديد من الحركات الدينية المعاصرة."
 status: "published"
 ---

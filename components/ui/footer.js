@@ -120,7 +120,7 @@ export default function UiFooter() {
                 </Link>
               </li>
               <li className="nav-item mb-2">
-                <Link href="tags" className="nav-link p-0 text-body-secondary">
+                <Link href="/tags" className="nav-link p-0 text-body-secondary">
                   الوسوم
                 </Link>
               </li>

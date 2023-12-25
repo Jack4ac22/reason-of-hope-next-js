@@ -15,13 +15,10 @@ export default function TagArtilePage(props) {
     slug
   )}`;
   const [displayedArticles, setDisplayedArticles] = useState(articles);
-  // console.log(displayedArticles);
   function handleTyping(e) {
     const typedText = e.target.value;
-    const filteredArticles = articles.filter(
-      (article) =>
-        article.title.includes(typedText) ||
-        article.description.includes(typedText)
+    const filteredArticles = articles.filter((article) =>
+      article.title.includes(typedText)
     );
     setDisplayedArticles(filteredArticles);
   }
@@ -57,13 +54,11 @@ export default function TagArtilePage(props) {
                     height={200}
                     className="card-img-top rounded-3 fluid"
                     style={{ objectFit: "fit" }}
+                    alt={`cover image for ${article.title}`}
                   />
                   <h3 className="card-title">{replaceDashed(article.title)}</h3>
                   <p className="card-text">{article.description}</p>
-                  <Link
-                    href={`/tags/${article.slug}`}
-                    className="btn btn-primary"
-                  >
+                  <Link href={`/${article.slug}`} className="btn btn-primary">
                     اقرأ هذا المنشور
                   </Link>
                 </div>

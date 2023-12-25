@@ -1,4 +1,4 @@
-import { useState, useEffect, use } from "react";
+import { useState } from "react";
 import PageTitle from "../../components/general-compenents/page-title";
 import Link from "next/link";
 import { getAllTagsCount } from "../../utilities/tags-functions";
@@ -13,7 +13,6 @@ export default function AllTagsPage(props) {
     );
     setDisplayedTags(filteredTags);
   }
-
   return (
     <>
       <PageTitle

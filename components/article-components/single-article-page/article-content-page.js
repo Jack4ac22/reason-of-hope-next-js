@@ -8,6 +8,7 @@ import RelatedArticles from "../related-articles/related-acticles";
 import YouTube, { YouTubeProps } from "react-youtube";
 import YouTubeEmbed from "../../iframes/youtube-component";
 import PublicationLinks from "../publications-links/publication-links";
+import ArticlePageFooter from "../article-page-footer/article-footer";
 
 export default function ArticleContentPageComponent(props) {
   const article = props.article;
@@ -61,8 +62,13 @@ export default function ArticleContentPageComponent(props) {
       {article.fallacies && article.fallacies.length > 0 && (
         <ObjectionFallacies article={article} />
       )}
+
       {/* Read Books epub */}
       {isBook && <BooksReader />}
+
+      {/* Tags and Categories */}
+      <ArticlePageFooter article={article} />
+
       {/* Related Articles: */}
       {article.related && <RelatedArticles article={article} />}
     </>

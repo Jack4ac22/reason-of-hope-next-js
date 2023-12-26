@@ -1,5 +1,6 @@
 import { useState } from "react";
 import OverlayComponent from "../components/general-compenents/toast/overlay-component";
+import OverlayToast from "../components/general-compenents/toast/overlay-toast";
 export default function OverlayPage() {
   const [linkClicked, setLinkClicked] = useState(false);
   const [href, setHref] = useState("");
@@ -8,13 +9,21 @@ export default function OverlayPage() {
     setLinkClicked(true);
     setHref(e.target.href);
   }
+  function onCloseButtonClick() {
+    setLinkClicked(false);
+  }
   return (
     <>
       <div id="overlay-item">
-        <a href="localhost:3000/" onClick={handlieLinkClick}>
+        <a
+          href="https://biblia.com/books/ar-vandyke/mk16.17"
+          onClick={handlieLinkClick}
+        >
           link
         </a>
-        {linkClicked && <OverlayComponent url={href} />}
+        {linkClicked && (
+          <OverlayToast url={href} onClose={onCloseButtonClick} />
+        )}
       </div>
     </>
   );

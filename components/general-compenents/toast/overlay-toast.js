@@ -6,7 +6,7 @@ const OverlayToast = ({ url, onClose }) => {
     // Simulating loading delay
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 2000);
+    }, 3000);
 
     return () => clearTimeout(timer);
   }, []);
@@ -14,12 +14,19 @@ const OverlayToast = ({ url, onClose }) => {
   return (
     <div className="overlay-toast">
       {isLoading ? (
-        <p>Loading...</p>
+        <div className="spinner-border m-5" role="status">
+          <span className="visually-hidden">Loading...</span>
+        </div>
       ) : (
         <>
           <button onClick={onClose}>Close</button>
           <button onClick={() => window.open(url, "_blank")}>Visit URL</button>
-          <iframe src={url} style={{ width: "80vw", height: "80vh" }}></iframe>
+          <div>
+            <iframe
+              src={url}
+              style={{ width: "80vw", height: "80vh" }}
+            ></iframe>
+          </div>
         </>
       )}
     </div>

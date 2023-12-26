@@ -39,19 +39,6 @@ export default function CarouselItemCard(props) {
                       } `}
                     >
                       <div className="col align-self-end">
-                        {isBook || (
-                          <h5 className="card-title m-5 text-white bg-dark text-center">
-                            {article.title}
-                          </h5>
-                        )}
-                        {isBook || (
-                          <p className="card-text mt-3 text-white bg-dark text-center">
-                            {article.description &&
-                            article.description.split(" ").length > 20
-                              ? short_description + "..."
-                              : article.description}
-                          </p>
-                        )}
                         <Link
                           href={`${baseUrl}/${article.slug}`}
                           className={`${
@@ -62,6 +49,20 @@ export default function CarouselItemCard(props) {
                         >
                           {isBook ? "احصل على هذا الكتاب" : "اقرأ هذا المنشور"}
                         </Link>
+
+                        {isBook || (
+                          <h5 className="card-title m-5 text-white bg-dark text-center">
+                            {article.title}
+                          </h5>
+                        )}
+                        {isBook || (
+                          <p className="card-text mt-3 text-white bg-dark text-center d-none d-sm-block">
+                            {article.description &&
+                            article.description.split(" ").length > 20
+                              ? short_description + "..."
+                              : article.description}
+                          </p>
+                        )}
                       </div>
                     </div>
                   </div>

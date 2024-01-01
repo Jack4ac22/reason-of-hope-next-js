@@ -10,7 +10,7 @@ tags:
   - "لوقا"
   - "متى"
   - "مرقس"
-coverImage: "objections127.jpg"
+coverImage: "objection127.jpg"
 fallacies:
   - "قراءة-غير-دقيقة"
   - "تحليل-النقل-النصّي"

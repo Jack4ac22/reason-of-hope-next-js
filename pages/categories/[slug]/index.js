@@ -8,6 +8,7 @@ import Image from "next/image";
 import Link from "next/link";
 import PageTitle from "../../../components/general-compenents/page-title";
 import ArticleCard from "../../../components/general-compenents/cards-list/article-card";
+import ArticleCardsList from "../../../components/general-compenents/cards-list/acrticles-cards-list";
 
 export default function AllCategoriesPage(props) {
   const { articles, slug } = props;
@@ -41,9 +42,10 @@ export default function AllCategoriesPage(props) {
       </section>
       <section className="py-3">
         <div className="row border border-rounded-3 py-3">
-          {displayedArticles.map((article) => (
+          <ArticleCardsList articles={displayedArticles} />
+          {/* {displayedArticles.map((article) => (
             <ArticleCard article={article} baseUrl="" />
-          ))}
+          ))} */}
         </div>
       </section>
     </>

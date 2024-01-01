@@ -10,9 +10,11 @@ export default function AllArticlesPage(props) {
   const pagedescription = `جميع المقالات التي تمَّ نشرها`;
   const [displayedArticles, setDisplayedArticles] = useState(articles);
   const [orderBy, setOrderBy] = useState("default");
+  const [searchText, setSearchText] = useState("");
 
   function handleTyping(e) {
     const typedText = e.target.value;
+    setSearchText(typedText);
     const filteredArticles = articles.filter(
       (article) =>
         article.title.includes(typedText) ||
@@ -26,7 +28,7 @@ export default function AllArticlesPage(props) {
     let sortedArticles = [...displayedArticles];
 
     if (selectedOrder === "default") {
-      // No sorting
+      sortedArticles = articles;
     } else if (selectedOrder === "titleAsc") {
       sortedArticles.sort((a, b) => a.title.localeCompare(b.title));
     } else if (selectedOrder === "titleDesc") {
@@ -71,9 +73,15 @@ export default function AllArticlesPage(props) {
         </select>
 
         <div className="row border border-rounded-3 py-3">
-          {displayedArticles.map((article) => (
-            <ArticleCard article={article} baseUrl="" />
-          ))}
+          {displayedArticles.length > 0 &&
+            displayedArticles.map((article) => (
+              <ArticleCard article={article} baseUrl="" />
+            ))}
+          {displayedArticles.length == 0 && (
+            <h3 className="text-center">
+              لا يوجد مقالات مرتبطة ببحثك عن: {searchText}
+            </h3>
+          )}
         </div>
       </section>
     </>

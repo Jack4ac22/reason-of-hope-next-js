@@ -15,11 +15,21 @@ export default function AllArticlesPage(props) {
   function handleTyping(e) {
     const typedText = e.target.value;
     setSearchText(typedText);
-    const filteredArticles = articles.filter(
-      (article) =>
-        article.title.includes(typedText) ||
-        (article.description && article.description.includes(typedText))
+    const filteredArticlesOnTitleSearch = articles.filter((article) =>
+      article.title.includes(typedText)
     );
+    const filteredArticlesOnDescriptionSearch = articles.filter(
+      (article) =>
+        article.description && article.description.includes(typedText)
+    );
+    // const filteredArticlesOnContentSearch = articles.filter((article) =>
+    //   article.content.includes(typedText)
+    // );
+    const filteredArticles = [
+      ...filteredArticlesOnTitleSearch,
+      ...filteredArticlesOnDescriptionSearch,
+      // ...filteredArticlesOnContentSearch,
+    ];
     setDisplayedArticles(filteredArticles);
   }
 
@@ -75,7 +85,11 @@ export default function AllArticlesPage(props) {
         <div className="row border border-rounded-3 py-3">
           {displayedArticles.length > 0 &&
             displayedArticles.map((article) => (
-              <ArticleCard article={article} baseUrl="" />
+              <ArticleCard
+                article={article}
+                baseUrl=""
+                key={article.slug + article.date}
+              />
             ))}
           {displayedArticles.length == 0 && (
             <h3 className="text-center">

@@ -2,6 +2,7 @@ import { getAllBlogArticles } from "../../utilities/articles-functions";
 import { useState } from "react";
 import ArticleCard from "../../components/general-compenents/cards-list/article-card";
 import PageTitle from "../../components/general-compenents/page-title";
+import ArticleCardsList from "../../components/general-compenents/cards-list/acrticles-cards-list";
 
 export default function AllArticlesPage(props) {
   const { articles, slug } = props;
@@ -68,9 +69,7 @@ export default function AllArticlesPage(props) {
         </select>
 
         <div className="row border border-rounded-3 py-3">
-          {displayedArticles.map((article) => (
-            <ArticleCard article={article} baseUrl="" />
-          ))}
+          <ArticleCardsList articles={displayedArticles} />
         </div>
       </section>
     </>

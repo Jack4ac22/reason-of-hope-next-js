@@ -8,6 +8,7 @@ import Image from "next/image";
 import Link from "next/link";
 import PageTitle from "../../../components/general-compenents/page-title";
 import ArticleCard from "../../../components/general-compenents/cards-list/article-card";
+import ArticleCardsList from "../../../components/general-compenents/cards-list/acrticles-cards-list";
 
 export default function TagArtilePage(props) {
   const { articles, slug } = props;
@@ -42,31 +43,10 @@ export default function TagArtilePage(props) {
       </section>
       <section className="py-3">
         <div className="row border border-rounded-3 py-3">
-          {displayedArticles.map((article) => (
+          <ArticleCardsList articles={displayedArticles} />
+          {/* {displayedArticles.map((article) => (
             <ArticleCard article={article} baseUrl="" />
-            // <div
-            //   className="col-sm-6 col-md-6 col-lg-4 mb-3 mb-sm-0"
-            //   key={article.title}
-            // >
-            //   <div className="card">
-            //     <div className="card-body">
-            //       <Image
-            //         src={`/blog_images/${article.coverImage}`}
-            //         width={300}
-            //         height={200}
-            //         className="card-img-top rounded-3 fluid"
-            //         style={{ objectFit: "fit" }}
-            //         alt={`cover image for ${article.title}`}
-            //       />
-            //       <h3 className="card-title">{replaceDashed(article.title)}</h3>
-            //       <p className="card-text">{article.description}</p>
-            //       <Link href={`/${article.slug}`} className="btn btn-primary">
-            //         اقرأ هذا المنشور
-            //       </Link>
-            //     </div>
-            //   </div>
-            // </div>
-          ))}
+          ))} */}
         </div>
       </section>
     </>

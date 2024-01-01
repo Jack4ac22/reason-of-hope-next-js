@@ -13,8 +13,10 @@ export default function AllArticlesPage(props) {
 
   function handleTyping(e) {
     const typedText = e.target.value;
-    const filteredArticles = articles.filter((article) =>
-      article.title.includes(typedText)
+    const filteredArticles = articles.filter(
+      (article) =>
+        article.title.includes(typedText) ||
+        (article.description && article.description.includes(typedText))
     );
     setDisplayedArticles(filteredArticles);
   }
@@ -69,7 +71,9 @@ export default function AllArticlesPage(props) {
         </select>
 
         <div className="row border border-rounded-3 py-3">
-          <ArticleCardsList articles={displayedArticles} />
+          {displayedArticles.map((article) => (
+            <ArticleCard article={article} baseUrl="" />
+          ))}
         </div>
       </section>
     </>

@@ -43,10 +43,10 @@ export default function TagArtilePage(props) {
       </section>
       <section className="py-3">
         <div className="row border border-rounded-3 py-3">
-          <ArticleCardsList articles={displayedArticles} />
-          {/* {displayedArticles.map((article) => (
+          {/* <ArticleCardsList articles={displayedArticles} /> */}
+          {displayedArticles.map((article) => (
             <ArticleCard article={article} baseUrl="" />
-          ))} */}
+          ))}
         </div>
       </section>
     </>

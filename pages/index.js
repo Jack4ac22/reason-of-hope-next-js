@@ -41,16 +41,12 @@ export default function Home(props) {
         <PublicationSectionMainPage articles={props.publicationsArticles} />
         <ObjectionsSectionMainPage articles={props.objectionsArticles} />
       </div>
-      <section className="rounded-4 border border-5 mt-3">
-        <div>
-          <div className="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
-            <ArticleCardsList
-              articles={props.allArticles}
-              numberToShow={5}
-              baseUrl=""
-            />
-          </div>
-        </div>
+      <section className="rounded-4 border border-5 mt-3 p-3 m-2">
+        <ArticleCardsList
+          articles={props.allArticles}
+          numberToShow={5}
+          baseUrl=""
+        />
       </section>
     </>
   );

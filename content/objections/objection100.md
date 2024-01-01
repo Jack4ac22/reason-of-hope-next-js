@@ -13,7 +13,7 @@ tags:
   - "الملوك"
   - "التشعب-التقليص-الخاطئ"
   - "الخروج"
-coverImage: "bible-christianity-cross-161034.jpg"
+coverImage: "100.jpeg"
 fallacies:
   - "مغالطة التشعُّب"
 ---

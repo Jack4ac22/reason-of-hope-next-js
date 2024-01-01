@@ -12,7 +12,7 @@ export default function TestPage() {
   const theme = "black"; // or 'white'
   return (
     <>
-      <ReactPlayer url="https://youtu.be/v82TTQZGJcQ" />
+      {/* <ReactPlayer url="https://youtu.be/v82TTQZGJcQ" />
       <SpotifyPlayer
         uri="spotify:album:1TIUsv8qmYLpBEhvmBmyBk"
         size={size}
@@ -26,7 +26,7 @@ export default function TestPage() {
       <Spotify
         wide
         link="https://open.spotify.com/track/0mpTtYiDqkcOjNZqJLmjsO?si=e116707491c24ffc"
-      />
+      /> */}
     </>
   );
 }

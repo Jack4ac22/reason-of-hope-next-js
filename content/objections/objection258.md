@@ -12,7 +12,7 @@ tags:
   - "النطاق-الدلالي"
   - "التكوين"
   - "تيموثاوس"
-coverImage: "d9a2d9a5d9a8.jpg"
+coverImage: "258.jpeg"
 fallacies:
   - "قراءة-غير-دقيقة"
 ---

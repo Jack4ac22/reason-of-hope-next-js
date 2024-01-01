@@ -15,6 +15,10 @@ function MyApp({ Component, pageProps }) {
           name="description"
           content="صفحة دفاعية تبشيريّة بالإيمان المسيحي القويم المبني على الكتاب المقدس بوصفه المصدر الوحيد المعصوم عن الخطأ ليقود إيماننا ويُقَوِّم علاقتنا مع الله."
         />
+        <meta
+          name="google-site-verification"
+          content="JSpSPZGAeKQP9PecG1zUle4R_lEnUsC63pAMrZuDCzc"
+        />
       </Head>
       <UiHeader />
       <main className="container">

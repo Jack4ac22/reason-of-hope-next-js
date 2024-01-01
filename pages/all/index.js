@@ -18,16 +18,15 @@ export default function AllArticlesPage(props) {
     const filteredArticlesOnTitleSearch = articles.filter((article) =>
       article.title.includes(typedText)
     );
-    const filteredArticlesOnDescriptionSearch = articles.filter(
-      (article) =>
-        article.description && article.description.includes(typedText)
-    );
+    // const filteredArticlesOnDescriptionSearch = articles.filter((article) =>
+    //   article.description.includes(typedText)
+    // );
     // const filteredArticlesOnContentSearch = articles.filter((article) =>
     //   article.content.includes(typedText)
     // );
     const filteredArticles = [
       ...filteredArticlesOnTitleSearch,
-      ...filteredArticlesOnDescriptionSearch,
+      // ...filteredArticlesOnDescriptionSearch,
       // ...filteredArticlesOnContentSearch,
     ];
     setDisplayedArticles(filteredArticles);
@@ -61,26 +60,26 @@ export default function AllArticlesPage(props) {
         image={"/blog_images/diary-968592_640.jpg"}
       />
       <section className="py-3">
-        {/* search bar for the Articles */}
-        <input
-          type="text"
-          className="form-control"
-          placeholder="ابحث عن منشور"
-          onChange={handleTyping}
-        />
-
-        {/* dropdown list for ordering */}
-        <select
-          className="form-select my-3"
-          value={orderBy}
-          onChange={handleOrderByChange}
-        >
-          <option value="default">الترتيب الافتراضي</option>
-          <option value="titleAsc">العنوان (تصاعدي)</option>
-          <option value="titleDesc">العنوان (تنازلي)</option>
-          <option value="dateAsc">التاريخ (تصاعدي)</option>
-          <option value="dateDesc">التاريخ (تنازلي)</option>
-        </select>
+        <div class="input-group mb-3">
+          {/* search bar for the Articles */}
+          <input
+            type="search"
+            className="form-control"
+            placeholder="ابحث عن منشور"
+            onChange={handleTyping}
+          />
+          {/* dropdown list for ordering */}
+          <select
+            className="form-select"
+            value={orderBy}
+            onChange={handleOrderByChange}
+          >
+            <option value="dateDesc">التاريخ (تنازلي)</option>
+            <option value="dateAsc">التاريخ (تصاعدي)</option>
+            <option value="titleAsc">العنوان (تصاعدي)</option>
+            <option value="titleDesc">العنوان (تنازلي)</option>
+          </select>
+        </div>
 
         <div className="row border border-rounded-3 py-3">
           {displayedArticles.length > 0 &&

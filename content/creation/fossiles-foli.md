@@ -10,7 +10,7 @@ tags:
   - "تاريخ"
   - "ديناصورات"
   - "علوم"
-coverImage: "dinosaur-3149580_640.png"
+coverImage: "dinosaur-3149580_640.jpeg"
 spotify: "https://open.spotify.com/episode/3HwM7cM5PZldzhAOhwgqvZ?si=yaKnNKnyQWG6U8LwZ9ACnw"
 hearthis: "https://hearthis.at/5380433/"
 youtube: ""

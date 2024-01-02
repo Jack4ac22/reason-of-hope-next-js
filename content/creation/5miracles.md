@@ -11,7 +11,7 @@ tags:
   - "تاريخ"
   - "تطور"
   - "علوم"
-coverImage: "screenshot-2020-02-14-at-18.14.39.png"
+coverImage: "screenshot-2020-02-14-at-18.14.39.jpeg"
 spotify: "http://open.spotify.com/episode/5nPq3hzce0NWxo29XhoaVg?si=29o7wZIJTf2wCWBegbgtuw"
 youtube: "b4FwBdeW_Zg"
 status: "published"

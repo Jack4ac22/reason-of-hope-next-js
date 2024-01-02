@@ -8,7 +8,7 @@ export default function UiFooter() {
       {/* TODO: add visit CMI */}
       <footer className="py-5 border-top">
         <div className="row justify-content-between">
-          <div className="col-6 col-md-2 mb-3">
+          <div className="col-6 col-md-2 mb-3 d-none d-md-block">
             {/* <h5>قضية الخلق</h5> */}
             <ul className="nav flex-column">
               <li className="nav-item mb-2">

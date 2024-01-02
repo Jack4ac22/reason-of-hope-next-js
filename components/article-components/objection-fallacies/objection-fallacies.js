@@ -127,7 +127,7 @@ export default function ObjectionFallacies(props) {
           <div className="accordion-item">
             <h2 className="accordion-header">
               <button
-                className="btn collapsed"
+                className="btn collapsed accordion-button"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target={`#flush-collapseOne${index}`}

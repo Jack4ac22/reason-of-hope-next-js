@@ -47,7 +47,7 @@ export default function DinoAndDating(props) {
           </div>
         </section>
         <section className="rounded-4 border border-5 mt-3 p-3 mb-2">
-          <ArticleCardsList articles={articles} baseUrl="creation" />
+          <ArticleCardsList articles={articles} baseUrl="/creation" />
         </section>
       </>
     </>

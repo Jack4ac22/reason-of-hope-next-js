@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://reasonofhope.org
+Host: https://www.reasonofhope.org
 
 # Sitemaps
-Sitemap: https://reasonofhope.org/sitemap.xml
+Sitemap: https://www.reasonofhope.org/sitemap.xml

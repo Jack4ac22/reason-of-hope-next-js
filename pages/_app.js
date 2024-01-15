@@ -4,6 +4,7 @@ import Head from "next/head";
 import UiHeader from "../components/ui/header";
 import UiFooter from "../components/ui/footer";
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -23,6 +24,7 @@ function MyApp({ Component, pageProps }) {
       <UiHeader />
       <main className="container">
         <Component {...pageProps} />
+        <SpeedInsights />
       </main>
       <UiFooter />
       <Analytics />

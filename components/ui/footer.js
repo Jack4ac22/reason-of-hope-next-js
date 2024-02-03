@@ -143,7 +143,7 @@ export default function UiFooter() {
             </ul>
           </div>
 
-          <div className="col-md-5 offset-md-1 mb-3">
+          {/* <div className="col-md-5 offset-md-1 mb-3">
             <form>
               <h5 className="rtl">اشترك للحصول على نشرتنا الإخبارية</h5>
               <p className="rtl">
@@ -151,7 +151,7 @@ export default function UiFooter() {
                 الإستثنائية عند نشر دراسات كتابية خاصّة.
               </p>
               <div className="d-flex flex-column flex-sm-row w-100 gap-2">
-                <label for="newsletter1" className="visually-hidden">
+                <label htmlFor="newsletter1" className="visually-hidden">
                   البريد الإلكتروني
                 </label>
                 <input
@@ -165,7 +165,7 @@ export default function UiFooter() {
                 </button>
               </div>
             </form>
-          </div>
+          </div> */}
         </div>
 
         <div className="d-flex flex-column flex-sm-row justify-content-center py-4 my-4 border-top">

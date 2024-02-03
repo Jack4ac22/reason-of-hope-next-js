@@ -1,7 +1,14 @@
+import Link from "next/link";
 import { useState } from "react";
+import { useRouter } from 'next/router';
+
+
 export default function ContactUsForm() {
-  const url = "https://detacontact-3-k1032287.deta.app";
+  const router = useRouter();
+
+  const url = "https://detacontact-4-k1032287.deta.app";
   const key = "y1juH2pUek7efzZb5zN1mRu8YvFkYZJ9";
+
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [title, setTitle] = useState("بدون عنوان");
@@ -41,42 +48,50 @@ export default function ContactUsForm() {
       console.error("Error submitting the form", error);
     }
   };
-  {
-    status === "resolved" && (
+  if (status === "resolved") {
+    setTimeout(() => {
+      router.push('/');
+    }, 5000);
+    return (
       <div
         className="alert alert-success alert-dismissible fade show"
         role="alert"
       >
-        <h1>تم إرسال رسالتكم بنجاح</h1>
+        <h1>شكراً لكم</h1>
         <p>
-          <strong>شكراً لتواصلكم معنا </strong> لم يتم إرسال رسالتكم، جميع
-          الحقول مطلوبة، الرجاء وضع بيانات سليمة قبل المتابعة.
+          <strong>تم إرسال رسالتكم بنجاح</strong>، سنقوم بالرد عليكم في أقرب وقت
+          ممكن.
         </p>
+        <p>سيتم تحويلكم إلى <Link href="/" className="btn btn-success">الصفحة الرئيسية</Link> في غضون 5 ثوانٍ.</p>
         <hr />
+        <h1 dir="ltr">Thank you</h1>
         <p dir="ltr">
-          <strong>Oops! </strong>Your message was not processed, please fill all
-          the fields to continue.
+        Your message has been sent <strong>successfully</strong>,
+          we will reply to you as soon as possible.
         </p>
+        <p dir="ltr">You will be redirected to the <Link href='/' className="btn btn-success">home page</Link> in 5 seconds.</p>
       </div>
     );
   }
   {
-    status === "server-error" && (
-      <div
-        className="alert alert-danger alert-dismissible fade show"
-        role="alert"
-      >
-        <h1>خطأ في المُخدِّم</h1>
-        <p>
-          <strong>عذراً! </strong>حدث خطأ في الخادم، الرجاء المحاولة مرة أخرى.
-        </p>
-        <hr />
-        <p dir="ltr">
-          <strong>Oops! </strong>There was an error in the server, please try
-          again.
-        </p>
-      </div>
-    );///
+    if (status === "server-error") {
+      return (
+        <div
+          className="alert alert-danger alert-dismissible fade show"
+          role="alert"
+        >
+          <h1>خطأ في المُخدِّم</h1>
+          <p>
+            <strong>عذراً! </strong>حدث خطأ في الخادم، الرجاء المحاولة مرة أخرى.
+          </p>
+          <hr />
+          <p dir="ltr">
+            <strong>Oops! </strong>There was an error in the server, please try
+            again.
+          </p>
+        </div>
+      );
+    }
   }
   return (
     <>

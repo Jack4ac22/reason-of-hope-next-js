@@ -10,12 +10,12 @@ export default function ContactUsForm() {
     setStatus("pending");
     try {
       const response = await fetch(
-        `${process.env.API_URL_BASE}/contact`,
+        `${process.env.NEXT_PUBLIC_API_URL_BASE}/contact`,
         {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
-            "X-Space-App-Key": process.env.API_KEY,
+            "X-Space-App-Key": process.env.NEXT_PUBLIC_API_KEY,
           },
           body: JSON.stringify({ name, email, title, message }),
         }
@@ -28,11 +28,11 @@ export default function ContactUsForm() {
         throw new Error("Error submitting the form");
       } else if (response.status === 500) {
         setStatus("server-error");
-        fetch(`${process.env.API_URL_BASE}/alert/server-error`, {
+        fetch(`${process.env.NEXT_PUBLIC_API_URL_BASE}/alert/server-error`, {
           method: "GET",
           headers: {
             "Content-Type": "application/json",
-            "X-Space-App-Key": process.env.API_KEY,
+            "X-Space-App-Key": process.env.NEXT_PUBLIC_API_KEY,
           },
         });
         throw new Error("Error submitting the form");

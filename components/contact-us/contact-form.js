@@ -1,13 +1,12 @@
 import Link from "next/link";
 import { useState } from "react";
-import { useRouter } from 'next/router';
+import { useRouter } from "next/router";
 
-
-export default function ContactUsForm() {
+export default function ContactUsForm(props) {
   const router = useRouter();
 
-  const url = "https://detacontact-4-k1032287.deta.app";
-  const key = "y1juH2pUek7efzZb5zN1mRu8YvFkYZJ9";
+  const url = props.url;
+  const key = props.key;
 
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -50,7 +49,7 @@ export default function ContactUsForm() {
   };
   if (status === "resolved") {
     setTimeout(() => {
-      router.push('/');
+      router.push("/");
     }, 5000);
     return (
       <div
@@ -62,14 +61,26 @@ export default function ContactUsForm() {
           <strong>تم إرسال رسالتكم بنجاح</strong>، سنقوم بالرد عليكم في أقرب وقت
           ممكن.
         </p>
-        <p>سيتم تحويلكم إلى <Link href="/" className="btn btn-success">الصفحة الرئيسية</Link> في غضون 5 ثوانٍ.</p>
+        <p>
+          سيتم تحويلكم إلى{" "}
+          <Link href="/" className="btn btn-success">
+            الصفحة الرئيسية
+          </Link>{" "}
+          في غضون 5 ثوانٍ.
+        </p>
         <hr />
         <h1 dir="ltr">Thank you</h1>
         <p dir="ltr">
-        Your message has been sent <strong>successfully</strong>,
-          we will reply to you as soon as possible.
+          Your message has been sent <strong>successfully</strong>, we will
+          reply to you as soon as possible.
         </p>
-        <p dir="ltr">You will be redirected to the <Link href='/' className="btn btn-success">home page</Link> in 5 seconds.</p>
+        <p dir="ltr">
+          You will be redirected to the{" "}
+          <Link href="/" className="btn btn-success">
+            home page
+          </Link>{" "}
+          in 5 seconds.
+        </p>
       </div>
     );
   }
@@ -172,4 +183,17 @@ export default function ContactUsForm() {
       </section>
     </>
   );
+}
+export async function getStaticProps() {
+  const url = process.env.API_KEY;
+  const key = process.env.API_URL_BASE;
+  console.log("url", url);
+  console.log("key", key);
+  return {
+    props: {
+      url,
+      key,
+    },
+    revalidate: 30000,
+  };
 }

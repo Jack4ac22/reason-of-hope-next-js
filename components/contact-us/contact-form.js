@@ -1,7 +1,7 @@
 import { useState } from "react";
 export default function ContactUsForm() {
-  const url = process.env.NEXT_PUBLIC_API_URL_BASE;
-  const key = process.env.NEXT_PUBLIC_API_KEY;
+  const url = "https://detacontact-3-k1032287.deta.app";
+  const key = "y1juH2pUek7efzZb5zN1mRu8YvFkYZJ9";
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [title, setTitle] = useState("بدون عنوان");
@@ -76,7 +76,7 @@ export default function ContactUsForm() {
           again.
         </p>
       </div>
-    );
+    );///
   }
   return (
     <>
@@ -150,7 +150,7 @@ export default function ContactUsForm() {
               onChange={(e) => setMessage(e.target.value)}
             ></textarea>
           </div>
-          <button type="submit" className="btn btn-primary">
+          <button type="submit" className="btn btn-primary mb-3">
             Send / إرسال
           </button>
         </form>

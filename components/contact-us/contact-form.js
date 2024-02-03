@@ -1,5 +1,7 @@
 import { useState } from "react";
 export default function ContactUsForm() {
+  const url = process.env.NEXT_PUBLIC_API_URL_BASE;
+  const key = process.env.NEXT_PUBLIC_API_KEY;
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [title, setTitle] = useState("بدون عنوان");
@@ -9,17 +11,14 @@ export default function ContactUsForm() {
     e.preventDefault();
     setStatus("pending");
     try {
-      const response = await fetch(
-        `${process.env.NEXT_PUBLIC_API_URL_BASE}/contact`,
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-            "X-Space-App-Key": process.env.NEXT_PUBLIC_API_KEY,
-          },
-          body: JSON.stringify({ name, email, title, message }),
-        }
-      );
+      const response = await fetch(`${url}/contact`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "X-Space-App-Key": key,
+        },
+        body: JSON.stringify({ name, email, title, message }),
+      });
 
       if (response.status === 200) {
         setStatus("resolved");
@@ -28,7 +27,7 @@ export default function ContactUsForm() {
         throw new Error("Error submitting the form");
       } else if (response.status === 500) {
         setStatus("server-error");
-        fetch(`${process.env.NEXT_PUBLIC_API_URL_BASE}/alert/server-error`, {
+        fetch(`${url}/alert/server-error`, {
           method: "GET",
           headers: {
             "Content-Type": "application/json",

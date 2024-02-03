@@ -2,11 +2,11 @@ import Link from "next/link";
 import { useState } from "react";
 import { useRouter } from "next/router";
 
-export default function ContactUsForm(props) {
-  const router = useRouter();
+export default function ContactUsForm(data) {
+  const api_key = data.data.api_key;
+  const api_url = data.data.api_url;
 
-  const url = props.url;
-  const key = props.key;
+  const router = useRouter();
 
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -17,11 +17,11 @@ export default function ContactUsForm(props) {
     e.preventDefault();
     setStatus("pending");
     try {
-      const response = await fetch(`${url}/contact`, {
+      const response = await fetch(`${api_url}/contact`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          "X-Space-App-Key": key,
+          "X-Space-App-Key": api_key,
         },
         body: JSON.stringify({ name, email, title, message }),
       });
@@ -33,11 +33,11 @@ export default function ContactUsForm(props) {
         throw new Error("Error submitting the form");
       } else if (response.status === 500) {
         setStatus("server-error");
-        fetch(`${url}/alert/server-error`, {
+        fetch(`${api_url}/alert/server-error`, {
           method: "GET",
           headers: {
             "Content-Type": "application/json",
-            "X-Space-App-Key": process.env.NEXT_PUBLIC_API_KEY,
+            "X-Space-App-Key": api_key,
           },
         });
         throw new Error("Error submitting the form");
@@ -183,17 +183,4 @@ export default function ContactUsForm(props) {
       </section>
     </>
   );
-}
-export async function getStaticProps() {
-  const url = process.env.API_KEY;
-  const key = process.env.API_URL_BASE;
-  console.log("url", url);
-  console.log("key", key);
-  return {
-    props: {
-      url,
-      key,
-    },
-    revalidate: 30000,
-  };
 }

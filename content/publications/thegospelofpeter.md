@@ -13,6 +13,8 @@ youtube: "qFgRo3RAxgQ"
 resources:
   - title: "pdf"
     link: "gpet_pdf.pdf"
+  - title: "epub"
+    link: "gpet_epub.epub"
   - title: "googleBooks"
     link: "https://books.google.lu/books?id=1-wdEAAAQBAJ&lpg=PA3&pg=PP1#v=onepage&q&f=false"
   - title: "appleBooks"

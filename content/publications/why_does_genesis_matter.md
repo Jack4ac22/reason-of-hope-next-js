@@ -12,6 +12,8 @@ youtube: ""
 resources:
   - title: "pdf"
     link: "wgm_pdf.pdf"
+  - title: "epub"
+    link: "wgm_epub.epub"
   - title: "archive"
     link: "https://archive.org/details/whygenesismatter"
   - title: "googleBooks"

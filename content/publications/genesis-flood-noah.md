@@ -19,6 +19,8 @@ youtube: ""
 resources:
   - title: "pdf"
     link: "Genesis-Flood.pdf"
+  - title: "epub"
+    link: "Genesis-Flood.epub"
   - title: "googleBooks"
     link: "https://books.google.lu/books/about?id=FlkuEAAAQBAJ&redir_esc=y&hl=de"
   - title: "appleBooks"

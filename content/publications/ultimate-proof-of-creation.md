@@ -14,6 +14,8 @@ youtube: ""
 resources:
   - title: "pdf"
     link: "ultimate-proof-of-creation-Arabic.pdf"
+  - title: "epub"
+    link: "ultimate-proof-of-creation-Arabic.epub"
   - title: "archive"
     link: "https://archive.org/details/UltimateProofOfCreationArabic/ultimate%20proof%20of%20creation%20Arabic%20PDF"
   - title: "googleBooks"

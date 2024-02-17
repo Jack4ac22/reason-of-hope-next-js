@@ -14,6 +14,8 @@ youtube: "2MWVYNNMFlo"
 resources:
   - title: "pdf"
     link: "His-Star-PDF.pdf"
+  - title: "epub"
+    link: "His-Star-E.epub"
   - title: "googleBooks"
     link: "https://books.google.com/books?id=DGjoEAAAQBAJ"
   - title: "appleBooks"

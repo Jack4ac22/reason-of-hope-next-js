@@ -6,6 +6,11 @@ export default function PublicationLinks(props) {
       .length > 0
       ? props.article.resources.filter((resource) => resource.title === "pdf")
       : null;
+  const epub =
+    props.article.resources.filter((resource) => resource.title === "epub")
+      .length > 0
+      ? props.article.resources.filter((resource) => resource.title === "epub")
+      : null;
   const archive =
     props.article.resources.filter((resource) => resource.title === "archive")
       .length > 0
@@ -29,7 +34,6 @@ export default function PublicationLinks(props) {
           (resource) => resource.title === "appleBooks"
         )
       : null;
-
   const audio = props.article.audio;
   const spotify = audio.filter((resource) =>
     resource.hasOwnProperty("spotify")
@@ -51,6 +55,9 @@ export default function PublicationLinks(props) {
   return (
     <>
       <div className="container-md">
+        يُمكنكم الحصول على هذا الكتاب من خلال إحدى المنصات التالية:
+      </div>
+      <div className="container-md">
         {/* APPLE Books */}
         {appleBooks && (
           <Link href={appleBooks[0].link} target="_blank">
@@ -69,8 +76,7 @@ export default function PublicationLinks(props) {
           </Link>
         )}
         {/* PDF */}
-
-        {/* {pdf && (
+        {pdf && (
           <Link
             href={`/publications/${pdf[0].link}`}
             download={true}
@@ -78,8 +84,17 @@ export default function PublicationLinks(props) {
           >
             <Image src="/blog_images/pdf.png" alt="" width={75} height={75} />
           </Link>
-        )} */}
-
+        )}
+        {/* EPUB */}
+        {epub && (
+          <Link
+            href={`/publications/${epub[0].link}`}
+            download={true}
+            target="_blank"
+          >
+            <Image src="/blog_images/epub.png" alt="" width={75} height={75} />
+          </Link>
+        )}
         {/* Archive */}
         {archive && (
           <Link href={archive[0].link} target="_blank">
@@ -92,6 +107,7 @@ export default function PublicationLinks(props) {
           </Link>
         )}
       </div>
+
       <div className="container-md">
         {/* Spotify */}
         {spotify && (

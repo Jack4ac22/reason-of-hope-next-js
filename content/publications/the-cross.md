@@ -11,6 +11,8 @@ youtube: ""
 resources:
   - title: "pdf"
     link: "TheCrossPDF.pdf"
+  - title: "epub"
+    link: "TheCrossEPUB.epub"
   - title: "googleBooks"
     link: "https://books.google.lu/books?id=nv1vEAAAQBAJ&printsec=frontcover&hl=de&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false"
   - title: "appleBooks"

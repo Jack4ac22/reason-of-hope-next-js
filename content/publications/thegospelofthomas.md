@@ -14,6 +14,8 @@ youtube: "Hg7c0ErdPLs"
 resources:
   - title: "pdf"
     link: "gthomas_pdf.pdf"
+  - title: "epub"
+  - link: "gthomas_epub.epub"
   - title: "googleBooks"
     link: "https://books.google.lu/books?id=YKAeEAAAQBAJ&lpg=PA2&hl=de&pg=PP1#v=onepage&q&f=false"
   - title: "appleBooks"

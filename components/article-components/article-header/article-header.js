@@ -13,7 +13,7 @@ export default function ArticleHeader(props) {
         />
         <meta
           property="og:image"
-          content={`https://reasonofhope.org/blog_images/${
+          content={`PROT_URL_BASE/blog_images/${
             article.coverImage ? article.coverImage : 'ROH.png'
           }`}
         />

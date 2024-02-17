@@ -17,7 +17,7 @@ export default function CreationContentHeader(props) {
             <h1>{article.title}</h1>
             <ShareIt
               title={article.title}
-              url={`https://reasonofhope.org${urlBase}/${article.slug}`}
+              url={`PROT_URL_BASE${urlBase}/${article.slug}`}
               tags={article.tags}
               description={article.description}
             />

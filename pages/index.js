@@ -26,7 +26,7 @@ export default function Home(props) {
           translation={"ترجمة كتاب الحياة"}
         />
 
-        <ShareIt url="reasonofhope.org" title="سبب الرجاء" tags={tags} />
+        <ShareIt url="NON_PROT_URL_BASE" title="سبب الرجاء" tags={tags} />
 
         <HomepageHero />
         <div className="container col-xxl-8 px-4 py-1">

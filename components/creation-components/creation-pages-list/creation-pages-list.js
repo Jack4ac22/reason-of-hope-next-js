@@ -78,7 +78,7 @@ export default function CreationPagesList() {
         </nav>
         <ShareIt
           title="سبب الرجاء"
-          url={`https://reasonofhope.org${asPath}`}
+          url={`PROT_URL_BASE${asPath}`}
           description={`قضية الخلق وارتباطتها بالحياة المسيحية والتعاليم الكتابية`}
         />
       </div>

@@ -5,7 +5,7 @@
 // }
 
 module.exports = {
-  siteUrl: "https://www.reasonofhope.org",
+  siteUrl: "https://www.NON_PROT_URL_BASE",
   generateRobotsTxt: true,
   sitemap: {
     // This assumes your pages are in the "pages" directory

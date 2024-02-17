@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import CorrectAnswer from "../../components/quiz-components/correct-answer";
 import WrongAnswer from "../../components/quiz-components/wrong-answer";
+import HeroMain from "../../components/main/hero-main";
 
 export default function QuizPage() {
   const questions = [
@@ -125,6 +126,7 @@ export default function QuizPage() {
 
   return (
     <>
+      <HeroMain />
       {quizResults || (
         <>
           <div className="container text-center">

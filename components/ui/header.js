@@ -83,12 +83,12 @@ export default function UiHeader() {
               </a>
             </li>
 
-            {/* 
+            
             <li className="nav-item">
               <a className="nav-link" href="/contact">
                 اتصل بنا
               </a>
-            </li> */}
+            </li>
           </ul>
         </div>
       </div>

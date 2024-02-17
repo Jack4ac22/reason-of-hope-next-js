@@ -44,7 +44,7 @@ export default function ShareIt({
     <>
       <button
         onClick={toggleSharing}
-        className="btn btn-outline-info mt-3 mb-3"
+        className="btn btn-outline-info mt-3 mb-3 "
       >
         شارك المنفعة مع الآخرين
       </button>

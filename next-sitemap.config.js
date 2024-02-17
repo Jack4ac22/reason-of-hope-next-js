@@ -5,7 +5,7 @@
 // }
 
 module.exports = {
-  siteUrl: "http://reasonofhope.org",
+  siteUrl: "https://www.reasonofhope.org",
   generateRobotsTxt: true,
   sitemap: {
     // This assumes your pages are in the "pages" directory

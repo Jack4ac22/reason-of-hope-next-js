@@ -13,6 +13,8 @@ youtube: "Z5x-6U39rxQ"
 resources:
   - title: "pdf"
     link: "gmary.pdf"
+  - title: "epub"
+    link: "gmary.epub"
   - title: "googleBooks"
     link: "https://books.google.lu/books?id=CYggEAAAQBAJ&lpg=PP1&pg=PP1#v=onepage&q&f=false"
   - title: "appleBooks"

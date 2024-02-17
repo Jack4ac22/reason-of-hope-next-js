@@ -11,6 +11,8 @@ youtube: "jS9fCWHvnrc"
 resources:
   - title: "pdf"
     link: "how-did-we-get-our-bible.pdf"
+  - title: "epub"
+    link: "how-did-we-get-our-bible.epub"
   - title: "archive"
     link: "https://archive.org/details/How-did-we-got-our-bible-arabic"
   - title: "googleBooks"

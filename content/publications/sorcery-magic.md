@@ -12,6 +12,8 @@ youtube: ""
 resources:
   - title: "pdf"
     link: "Magic_and_sorcery_pdf.pdf"
+  - title: "epub"
+    link: "Magic_and_sorcery_epub.epub"
   - title: "googleBooks"
     link: "https://books.google.lu/books?id=SJQMEAAAQBAJ&printsec=frontcover&hl=de&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false"
   - title: "appleBooks"

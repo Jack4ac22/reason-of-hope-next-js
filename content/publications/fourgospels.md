@@ -14,6 +14,8 @@ youtube: ""
 resources:
   - title: "pdf"
     link: "Did-Nicaea-Choose-Our-Four-Gospels.pdf"
+  - title: "epub"
+    link: "Did-Nicaea-Choose-Our-Four-Gospels.epub"
   - title: "googleBooks"
     link: "https://books.google.lu/books?id=mt4_EAAAQBAJ&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false"
   - title: "appleBooks"

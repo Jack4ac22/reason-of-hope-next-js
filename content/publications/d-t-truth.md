@@ -12,6 +12,8 @@ youtube: "20JXnSoyCFE"
 resources:
   - title: "pdf"
     link: "discerning-truth.pdf"
+  - title: "epub"
+    link: "discerning-truth.epub"
   - title: "googleBooks"
     link: "https://books.google.lu/books?id=z6vDDwAAQBAJ&lpg=PT9&hl=de&pg=PA1#v=onepage&q&f=false"
   - title: "appleBooks"

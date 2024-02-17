@@ -14,6 +14,8 @@ youtube: "https://www.youtube.com/playlist?list=PLlToIY3-KqMAf-fNVZinpEi7kAHaSUx
 resources:
   - title: "pdf"
     link: "What_Time_Is_Purple_PDF_full_1.2.pdf"
+  - title: "epub"
+    link: "What_Time_Is_Purple_ePUB_1.2.epub"
   - title: "googleBooks"
     link: "https://books.google.lu/books/about?id=x5AvEAAAQBAJ&redir_esc=y&hl=de"
   - title: "appleBooks"

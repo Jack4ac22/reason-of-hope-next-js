@@ -13,6 +13,8 @@ youtube: "oa4f1cTWYzg"
 resources:
   - title: "pdf"
     link: "gjudas.pdf"
+  - title: "epub"
+    link: "gjudas.epub"
   - title: "googleBooks"
     link: "https://books.google.lu/books?id=qfAlEAAAQBAJ&lpg=PP1&pg=PP1#v=onepage&q&f=false"
   - title: "appleBooks"

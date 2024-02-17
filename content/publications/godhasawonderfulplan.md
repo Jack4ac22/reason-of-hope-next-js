@@ -14,6 +14,8 @@ youtube: ""
 resources:
   - title: "pdf"
     link: "god-has-a-Wonderful-plan-for-your-life.pdf"
+  - title: "epub"
+    link: "god-has-a-Wonderful-plan-for-your-life.epub"
   - title: "googleBooks"
     link: "https://books.google.lu/books/about?id=3G5WEAAAQBAJ&redir_esc=y"
   - title: "appleBooks"

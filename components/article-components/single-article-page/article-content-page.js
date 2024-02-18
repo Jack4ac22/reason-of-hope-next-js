@@ -64,7 +64,7 @@ export default function ArticleContentPageComponent(props) {
       )}
 
       {/* Read Books epub */}
-      {isBook && <BooksReader />}
+      {/* {isBook && <BooksReader />} */}
 
       {/* Tags and Categories */}
       <ArticlePageFooter article={article} />

@@ -8,9 +8,9 @@ export default function ArticlePageFooter(props) {
       <div className="container mt-2">
         <div className="row justify-content-center">
           <div className="col-md-4">
-            <div class="list-group">
+            <div className="list-group">
               <p
-                class="list-group-item list-group-item-action active text-center h5"
+                className="list-group-item list-group-item-action active text-center h5"
                 aria-current="true"
               >
                 الفئات
@@ -19,22 +19,21 @@ export default function ArticlePageFooter(props) {
                 article.categories.length > 0 &&
                 article.categories.map((category) => {
                   return (
-                    <>
-                      <Link
-                        href={`/categories/${category}`}
-                        class="list-group-item list-group-item-action btn btn-primary text-center"
-                      >
-                        {replaceDashed(category)}
-                      </Link>
-                    </>
+                    <Link
+                      href={`/categories/${category}`}
+                      className="list-group-item list-group-item-action btn btn-primary text-center"
+                      key={category}
+                    >
+                      {replaceDashed(category)}
+                    </Link>
                   );
                 })}
             </div>
           </div>
           <div className="col-md-4">
-            <div class="list-group">
+            <div className="list-group">
               <p
-                class="list-group-item list-group-item-action active text-center h5"
+                className="list-group-item list-group-item-action active text-center h5"
                 aria-current="true"
               >
                 الوسوم
@@ -43,14 +42,13 @@ export default function ArticlePageFooter(props) {
                 article.tags.length > 0 &&
                 article.tags.map((tag) => {
                   return (
-                    <>
-                      <Link
-                        href={`/tags/${tag}`}
-                        class="list-group-item list-group-item-action btn btn-primary text-center"
-                      >
-                        {replaceDashed(tag)}
-                      </Link>
-                    </>
+                    <Link
+                      href={`/tags/${tag}`}
+                      className="list-group-item list-group-item-action btn btn-primary text-center"
+                      key={tag}
+                    >
+                      {replaceDashed(tag)}
+                    </Link>
                   );
                 })}
             </div>

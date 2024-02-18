@@ -60,7 +60,7 @@ export default function AllArticlesPage(props) {
         image={"/blog_images/diary-968592_640.jpg"}
       />
       <section className="py-3">
-        <div class="input-group mb-3">
+        <div className="input-group mb-3">
           {/* search bar for the Articles */}
           <input
             type="search"

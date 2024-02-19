@@ -60,7 +60,7 @@ export default function ArticleCardsList(props) {
                 onClick={showAllArticles}
               >
                 عرض الكل{" "}
-                <span class="badge text-bg-secondary">{`${articles.length}`}</span>
+                <span className="badge text-bg-secondary">{`${articles.length}`}</span>
               </button>
             </div>
           </div>

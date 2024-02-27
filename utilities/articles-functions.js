@@ -13,6 +13,14 @@ function consoleLog(message) {
   console.log("****************************************");
 }
 
+/**
+ * Orders the articles array by the specified property.
+ *
+ * @param {Array} articles - The array of articles to be ordered.
+ * @param {string} orderBy - The property to order the articles by.
+ * @returns {Array} - The ordered array of articles.
+ */
+
 function orderArticlesBy(articles, orderBy) {
   try {
     return articles.sort((articleA, articleB) =>
@@ -25,12 +33,49 @@ function orderArticlesBy(articles, orderBy) {
   }
 }
 
+/**
+ * Retrieves the list of article files from the specified directory path.
+ *
+ * @param {string} articlesDirectoryPath - The path to the directory containing the article files.
+ * @returns {string[]} - An array of article file names.
+ */
 export function getArticleFiles(articlesDirectoryPath) {
   const articlesDirectory = path.join(process.cwd(), articlesDirectoryPath);
   return fs.readdirSync(articlesDirectory);
 }
 
+/**
+ * Retrieves the data of an article based on its identifier.
+ * @param {string} articleIdentifier - The identifier of the article.
+ * @param {string} articlesDirectoryPath - The path to the directory containing the articles.
+ * @returns {Object} - The article data, including the slug and other metadata.
+ */
 export function getArticleData(articleIdentifier, articlesDirectoryPath) {
+  const articleSlug = articleIdentifier.replace(/\.md$/, "");
+  const filePath = path.join(
+    process.cwd(),
+    articlesDirectoryPath,
+    `${articleSlug}.md`
+  );
+  const fileContent = fs.readFileSync(filePath, "utf-8");
+  const { data } = matter(fileContent);
+  const articleData = {
+    slug: articleSlug,
+    ...data,
+  };
+  return articleData;
+}
+
+/**
+ * Retrieves article data with body content.
+ * @param {string} articleIdentifier - The identifier of the article.
+ * @param {string} articlesDirectoryPath - The path to the directory containing the articles.
+ * @returns {Object} - The article data including slug, metadata, and content.
+ */
+export function getArticleDataWithBody(
+  articleIdentifier,
+  articlesDirectoryPath
+) {
   const articleSlug = articleIdentifier.replace(/\.md$/, "");
   const filePath = path.join(
     process.cwd(),
@@ -47,6 +92,14 @@ export function getArticleData(articleIdentifier, articlesDirectoryPath) {
   return articleData;
 }
 
+/**
+ * Retrieves article data along with related articles.
+ *
+ * @param {string} articleIdentifier - The identifier of the article.
+ * @param {string} articlesDirectoryPath - The path to the directory containing the articles.
+ * @param {number} [related=3] - The number of related articles to retrieve.
+ * @returns {Object} - The article data along with related articles.
+ */
 export function getArticleDataWithRelatedArticles(
   articleIdentifier,
   articlesDirectoryPath,
@@ -167,10 +220,7 @@ export function getArticlesBySearchTerm(
   return orderArticlesBy(
     getAllArticles(articlesDirectoryPath).filter((article) => {
       if (article && article.title) {
-        return (
-          article.title.includes(searchTerm) ||
-          article.content.includes(searchTerm)
-        );
+        return article.title.includes(searchTerm);
       }
       return false;
     }),

@@ -26,8 +26,7 @@ import {
 } from "react-share";
 
 export default function ShareIt({
-  baseUrl = "PROT_URL_BASE",
-  url = "PROT_URL_BASE",
+  url = NEXT_PUBLIC_PROT_URL_BASE,
   title = "سبب الرجاء",
   description = "يُقدِّم موقع سبب الرجاء الكثير من الدراسات المجانية التي تهدف إلى مساعدة المؤمنين في التعرف على الكتاب المقدس والدفاع عنه.\n ",
   tags = [],

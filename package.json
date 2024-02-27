@@ -5,11 +5,30 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build:sitemap": "next-sitemap",
     "start": "next start"
   },
   "dependencies": {
+    "@vercel/analytics": "^1.0.2",
+    "@vercel/speed-insights": "^1.0.3",
+    "bootstrap": "^5.3.1",
+    "gray-matter": "^4.0.3",
+    "marked": "^7.0.3",
     "next": "^13.0.7",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-markdown": "^8.0.7",
+    "react-player": "^2.12.0",
+    "react-share": "^4.4.1",
+    "react-spotify-embed": "^2.0.3",
+    "react-spotify-player": "^1.0.4",
+    "react-youtube": "^10.1.0",
+    "remark": "^14.0.3",
+    "remark-gfm": "^3.0.1",
+    "remark-html": "^15.0.2",
+    "remark-rehype": "^10.1.0"
+  },
+  "devDependencies": {
+    "next-sitemap": "^4.2.3"
   }
 }

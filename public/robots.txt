@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.NON_PROT_URL_BASE
+
+# Sitemaps
+Sitemap: https://www.NON_PROT_URL_BASE/sitemap.xml

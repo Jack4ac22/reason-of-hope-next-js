@@ -1,6 +1,6 @@
 import {
   getArticleFiles,
-  getArticleData,
+  getArticleDataWithBody,
 } from "../../../utilities/articles-functions.js";
 import ArticleContentPageComponent from "../../../components/article-components/single-article-page/article-content-page";
 import HeroMain from "../../../components/main/hero-main";
@@ -19,7 +19,7 @@ export default function PublicationsArtilePage(props) {
 export function getStaticProps(context) {
   const { params } = context;
   const { slug } = params;
-  const publicationsArticleData = getArticleData(slug, "/content/publications");
+  const publicationsArticleData = getArticleDataWithBody(slug, "/content/publications");
   return {
     props: {
       article: publicationsArticleData,

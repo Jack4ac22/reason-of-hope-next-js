@@ -58,7 +58,7 @@ export default function NotFoundPage(props) {
         <Link className="btn btn-primary" href="/contact">
           اتصل بنا
         </Link>
-        {possibleRelatedArticles.length > 0 && <h2>المقالات المشابهة</h2>}
+        {possibleRelatedArticles.length > 0 && <h2 className="mt-2">المقالات المشابهة</h2>}
         {possibleRelatedArticles.map((article) => (
           <ArticleCard
             article={article}
@@ -68,7 +68,7 @@ export default function NotFoundPage(props) {
         ))}
       </div>
 
-      <h2>المقالات مقترحة للقراءة</h2>
+      <h2 className="mt-2">مقالات مقترحة للقراءة</h2>
       <div className="row border border-rounded-3 py-3">
         {randomArticles.map((article) => (
           <ArticleCard

@@ -6,9 +6,9 @@ import styles from "./page.module.css";
 export default function Home() {
   return (
     <main>
-      <div class="container text-center">
-        <div class="row">
-          <div class="col align-self-center">
+      <div className="container text-center">
+        <div className="row">
+          <div className="col align-self-center">
             <h1 className="text-danger">Reason Of Hope</h1>
           </div>
         </div>

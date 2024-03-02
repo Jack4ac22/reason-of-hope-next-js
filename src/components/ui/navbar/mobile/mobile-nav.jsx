@@ -1,7 +1,13 @@
+import LogoIcon from "../nav-elements/logo-icon";
+
+
 export default function MobileNav(props) {
   return (
     <>
-      <h1 className="d-sm-block d-md-none">Mobile Nav</h1>
+      <nav className="navbar d-sm-block d-md-none">
+        <LogoIcon />
+        MOB
+      </nav>
     </>
   )
 }

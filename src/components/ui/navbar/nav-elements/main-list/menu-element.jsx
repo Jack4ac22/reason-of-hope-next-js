@@ -10,7 +10,7 @@ export default function MenuElement(props) {
   // TODO: check the path if it matches the current page then assigne the active class to the link
   // TODO:
   const [itemClicked, setItemClicked] = useState(false)
-  console.log(itemClicked)
+  // console.log(itemClicked)
   return (
     <>
       <li className={`nav-item ${itemClicked ? "active-sub-element" : ""}`} key={`${props.element_key ?? props.link + props.text}`} >

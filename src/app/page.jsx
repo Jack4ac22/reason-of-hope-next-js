@@ -6,13 +6,11 @@ import styles from "./page.module.css";
 export default function Home() {
   return (
     <main>
-      <div className="container text-center">
-        <div className="row">
-          <div className="col align-self-center">
-            <h1 className="text-danger">Reason Of Hope</h1>
-          </div>
-        </div>
-      </div>
-    </main>
+       <div class="row align-items-center">
+      <div class="col">One of three columns</div>
+      <div class="col">One of three columns</div>
+      <div class="col">One of three columns</div>
+    </div>
+    </main >
   );
 }

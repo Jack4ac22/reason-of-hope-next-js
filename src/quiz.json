@@ -1,0 +1,108 @@
+[
+  {
+    "_id": 2,
+    "category": "Multiple choice",
+    "question": "Who was hovering over the face of the waters when God began His creative acts?",
+    "question_ar": "من كان يحوم فوق وجه المياه عندما بدأ الله أعماله الإبداعية؟",
+    "verses": ["Gen.1.2"],
+    "tags": ["History", "People and Places"],
+    "answers": [
+      {
+        "id": 1,
+        "answer": "The Spirit of God",
+        "answer_ar": "روح الله",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "Lucifer",
+        "answer_ar": "لوسيفر",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Michael the archangel",
+        "answer_ar": "ميكائيل الملاك",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "_id": 3,
+    "category": "Fill in the blanks",
+    "question": "Then God said, ‘Let ______ make man in ______ image, according to ______ likeness.",
+    "question_ar": "ثم قال الله، 'دعونا ______ نصنع الإنسان على صورتنا، حسب شبهنا ______.",
+    "verses": ["Gen.1.26"],
+    "tags": ["History", "People and Places"],
+    "answers": [
+      {
+        "id": 1,
+        "answer": "Us",
+        "answer_ar": "نحن",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "Our",
+        "answer_ar": "لنا",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "answer": "Our",
+        "answer_ar": "لنا",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "_id": 4,
+    "category": "Multiple choice",
+    "question": "To whom did God say, “I have given you every herb that yields seed … and every tree whose fruit yields seed; to you it shall be for food”?",
+    "question_ar": "لمن قال الله، 'لقد أعطيتك كل عشب يعطي بذرة ... وكل شجرة تثمر بذرة؛ يكون لك غذاءً'؟",
+    "verses": ["Gen.1.27-29"],
+    "tags": ["History", "People and Places"],
+    "answers": [
+      {
+        "id": 1,
+        "answer": "All living creatures",
+        "answer_ar": "كل الكائنات الحية",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "man only",
+        "answer_ar": "الإنسان فقط",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "answer": "cattle only",
+        "answer_ar": "الماشية فقط",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "_id": 5,
+    "category": "Multiple choice",
+    "question": "A river went out of Eden to water the garden. Is it true or false?",
+    "question_ar": "خرج نهر من عدن لسقي الحديقة. هل هذا صحيح أم خطأ؟",
+    "verses": ["Gen.2.10"],
+    "tags": ["History", "People and Places"],
+    "answers": [
+      {
+        "id": 1,
+        "answer": "True",
+        "answer_ar": "صحيح",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "False",
+        "answer_ar": "خاطئ",
+        "isCorrect": false
+      }
+    ]
+  }
+]

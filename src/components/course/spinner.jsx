@@ -5,7 +5,7 @@ const override = {
   margin: "0 auto",
   borderColor: "red",
 };
-export default function Loading({ loading }) {
+export default async function Spinner({ loading }) {
   return (
     <><ClipLoader
       color='#3B82F6'

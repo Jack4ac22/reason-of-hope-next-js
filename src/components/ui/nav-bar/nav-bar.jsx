@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image"
 import Link from 'next/link'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { usePathname } from "next/navigation";
 
 import { FaComment, FaGoogle, FaLanguage } from "react-icons/fa";
@@ -10,7 +10,15 @@ import { FaComment, FaGoogle, FaLanguage } from "react-icons/fa";
 import logoImage from '@/assets/images/logo-white.png'
 import profileImage from '@/assets/images/profile.png'
 
+import { signIn, signOut, useSession, getProviders } from 'next-auth/react';
+import { set } from "mongoose";
+
 export default function NavBar() {
+  // handle the session
+  const { data: session } = useSession();
+
+  // profile image
+  const profilePicture = session ? session.user.image : null;
 
   // menue open and close state for mobile and profile menu
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
@@ -32,8 +40,18 @@ export default function NavBar() {
   // get the current path
   const path = usePathname();
 
-  // handle Logging in state
-  const [isLoggedIn, setIsLoggedIn] = useState(true)
+  // set the providers
+  const [providers, setProviders] = useState(null);
+  useEffect(() => {
+    const setAuthProviders = async () => {
+      const response = await getProviders();
+      setProviders(response);
+    }
+    setAuthProviders();
+  }, [])
+
+
+  // console.log(session)
 
   return (
     <nav className="bg-blue-700 border-b border-blue-500">
@@ -96,7 +114,7 @@ export default function NavBar() {
                   className={`text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2 ${path === '/translations' ? 'bg-gray-700' : ''}`}
                 >Translation</Link>
                 {
-                  isLoggedIn && (
+                  session && (
                     <Link
                       href="/translations/add"
                       className={`text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2 ${path === '/translations/add' ? 'bg-gray-700' : ''}`}
@@ -107,21 +125,29 @@ export default function NavBar() {
             </div>
           </div>
           {/* <!-- Right Side Menu (Logged Out) --> */}
-          {!isLoggedIn && (
+          {!session && (
             <div className="hidden md:block md:ml-6">
               <div className="flex items-center">
-                <button
-                  className="flex items-center text-white bg-gray-700 hover:bg-gray-900 hover:text-white rounded-md px-3 py-2"
-                >
-                  <FaGoogle className="mr-2" />
-                  <span>Login or Register</span>
-                </button>
+                {providers && Object.values(providers).map((provider, index) => {
+                  return (
+                    <>
+                      <button
+                        onClick={() => signIn(provider.id)}
+                        className="flex items-center text-white bg-gray-700 hover:bg-gray-900 hover:text-white rounded-md px-3 py-2" key={`${index}_${provider.name}`}
+                      >
+                        <FaGoogle className="mr-2" />
+                        <span>Login or Register</span>
+                      </button>
+                    </>
+                  )
+                })}
+
               </div>
             </div>
           )}
 
           {/* <!-- Right Side Menu (Logged In) --> */}
-          {isLoggedIn && (
+          {session && (
             <div
               className="absolute inset-y-0 right-0 flex items-center pr-2 md:static md:inset-auto md:ml-6 md:pr-0"
             >
@@ -169,8 +195,11 @@ export default function NavBar() {
                     <span className="sr-only">Open user menu</span>
                     <Image
                       className="h-8 w-8 rounded-full"
-                      src={profileImage}
-                      alt=""
+                      src={profilePicture || profileImage}
+                      alt="profile picture"
+                      priority={true}
+                      width={40}
+                      height={40}
                     />
                   </button>
                 </div>
@@ -190,6 +219,7 @@ export default function NavBar() {
                     role="menuitem"
                     tabIndex="-1"
                     id="user-menu-item-0"
+                    onClick={() => setIsProfileMenuOpen(false)}
                   >Your Profile</Link>
                   <Link
                     href="/translations/saved"
@@ -198,13 +228,16 @@ export default function NavBar() {
                     tabIndex="-1"
                     id="user-menu-item-2"
                   >Saved transltions</Link>
-                  <Link
-                    href="/translations/saved"
+                  <button
+                    onClick={() => {
+                      setIsProfileMenuOpen(false);
+                      signOut()
+                    }}
                     className="block px-4 py-2 text-sm text-gray-700"
                     role="menuitem"
                     tabIndex="-1"
                     id="user-menu-item-2"
-                  >Sign Out</Link                >
+                  >Sign Out</button                >
                 </div>)}
               </div>
             </div>
@@ -225,7 +258,7 @@ export default function NavBar() {
             onClick={handleMobileMenuLinkClick}
           >Translations</Link>
           {
-            isLoggedIn && (
+            session && (
               <Link
                 href="/translations/add"
                 className={`text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium ${path === '/translations/add' ? 'bg-gray-700' : ''}`}
@@ -234,13 +267,22 @@ export default function NavBar() {
             )
           }
           {
-            !isLoggedIn && (
-              <button
-                className="flex items-center text-white bg-gray-700 hover:bg-gray-900 hover:text-white rounded-md px-3 py-2 my-4"
-              >
-                < FaGoogle className="mr-2" />
-                <span>Login or Register</span>
-              </button>
+            !session && (
+              <>
+                {providers && Object.values(providers).map((provider, index) => {
+                  return (
+                    <>
+                      <button
+                        onClick={() => signIn(provider.id)}
+                        className="flex items-center text-white bg-gray-700 hover:bg-gray-900 hover:text-white rounded-md px-3 py-2" key={`${index}_${provider.name}`}
+                      >
+                        <FaGoogle className="mr-2" />
+                        <span>Login or Register</span>
+                      </button>
+                    </>
+                  )
+                })}
+              </>
             )
           }
         </div>

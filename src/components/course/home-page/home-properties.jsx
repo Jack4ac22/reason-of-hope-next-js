@@ -1,9 +1,10 @@
-import properties_list from '@/properties.json'
 import SinglePropertyCard from '@/components/course/single-property'
-import link from 'next/link'
 import Link from 'next/link'
+import { fetchProperties } from '@/util/properties-requests'
 
-export default function HomePageProperties() {
+
+export default async function HomePageProperties() {
+  const properties_list = await fetchProperties();
   const recentProperties = properties_list.sort(() => Math.random() - Math.random()).slice(0, 3)
   return (
     <>
@@ -12,7 +13,7 @@ export default function HomePageProperties() {
           <h2 className="text-3xl font-bold text-blue-500 mb-6 text-center">
             Recent Properties
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {
               recentProperties.length === 0 ?
                 <p>No properties found</p> :

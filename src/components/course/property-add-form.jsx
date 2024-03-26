@@ -23,7 +23,8 @@ export default function PropertyAddForm() {
     square_feet: 1500,
     rates: {
       weekly: 1100,
-      monthly: 4200
+      monthly: 4200,
+      nightly: 150
     },
     images: [],
     amenities: [],
@@ -35,9 +36,52 @@ export default function PropertyAddForm() {
   });
 
 
-  const handleChange = () => { }
-  const handleAmmenitiesChange = () => { }
-  const handleImageChange = () => { }
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    if (name.includes('.')) {
+      const [outerKey, innerKey] = name.split('.');
+
+      setFields((prevFields) => ({
+        ...prevFields,
+        [outerKey]: {
+          ...prevFields[outerKey],
+          [innerKey]: value
+        }
+      }))
+    }
+    else setFields((prevFields) => ({ ...prevFields, [name]: value }
+    )
+    )
+  }
+
+  const handleAmmenitiesChange = (e) => {
+    const { value, checked } = e.target;
+    const updatedAmenities = [...fields.amenities];
+    if (checked) {
+      // add value to the array
+      updatedAmenities.push(value);
+    } else {
+      // remove value from the array
+      const index = updatedAmenities.indexOf(value);
+      if (index > -1) {
+        updatedAmenities.splice(index, 1);
+      }
+    }
+    // update the state
+    setFields((prevFields) => ({ ...prevFields, amenities: updatedAmenities }))
+  }
+
+  const handleImageChange = (e) => {
+    const { files } = e.target;
+    // clone the array
+    const updatedImages = [...fields.images];
+    // add the new images to the array
+    for (const file of files) {
+      updatedImages.push(file);
+    }
+    // update the state
+    setFields((prevFields) => ({ ...prevFields, images: updatedImages }))
+  }
 
   return mounted && (
     <form>
@@ -319,14 +363,14 @@ export default function PropertyAddForm() {
           <div>
             <input
               type="checkbox"
-              id="amenity_gym_fitness_center"
+              id="amenity_gymnastic_center"
               name="amenities"
-              value="Gym/Fitness Center"
+              value="GYM/Fitness Center"
               className="mr-2"
-              checked={fields.amenities.includes('Gym/Fitness Center')}
+              checked={fields.amenities.includes('GYM/Fitness Center')}
+              onChange={handleAmmenitiesChange}
             />
-            <label htmlFor="amenity_gym_fitness_center"
-            >Gym/Fitness Center</label>
+            <label htmlFor="amenity_gymnastic_center">GYM/Fitness Center</label>
           </div>
           <div>
             <input
@@ -393,7 +437,7 @@ export default function PropertyAddForm() {
               id="weekly_rate"
               name="rates.weekly"
               className="border rounded w-full py-2 px-3"
-              checked={fields.rates.weekly}
+              value={fields.rates.weekly}
               onChange={handleChange}
             />
           </div>
@@ -404,7 +448,7 @@ export default function PropertyAddForm() {
               id="monthly_rate"
               name="rates.monthly"
               className="border rounded w-full py-2 px-3"
-              checked={fields.rates.monthly}
+              value={fields.rates.monthly}
               onChange={handleChange}
             />
           </div>
@@ -415,7 +459,7 @@ export default function PropertyAddForm() {
               id="nightly_rate"
               name="rates.nightly"
               className="border rounded w-full py-2 px-3"
-              checked={fields.rates.nightly}
+              value={fields.rates.nightly}
               onChange={handleChange}
             />
           </div>

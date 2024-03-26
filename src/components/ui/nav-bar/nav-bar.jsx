@@ -113,12 +113,17 @@ export default function NavBar() {
                   href="/translations"
                   className={`text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2 ${path === '/translations' ? 'bg-gray-700' : ''}`}
                 >Translation</Link>
+                <Link
+                  href="/properties"
+                  className={`text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2 ${path === '/translations' ? 'bg-gray-700' : ''}`}
+                >properties</Link>
                 {
                   session && (
                     <Link
                       href="/translations/add"
                       className={`text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2 ${path === '/translations/add' ? 'bg-gray-700' : ''}`}
                     >Add Translation</Link>
+                    
                   )
                 }
               </div>

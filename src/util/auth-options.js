@@ -40,10 +40,10 @@ export const authOptions = {
       // 4. return true if user exists to allow sign in else return false
       return true;
     },
-    // modify the sessio
+    // modify the session
     async session({ session }) {
       // steps:
-      // 1. get iser from database
+      // 1. get user from database
       const user = await User.findOne({ email: session.user.email });
       // console.log("user", user);
       // 2. assign the user id to the session maybe other items to the session as well

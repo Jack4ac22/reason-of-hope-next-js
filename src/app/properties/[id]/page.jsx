@@ -7,6 +7,7 @@ import { FaArrowLeft } from 'react-icons/fa'
 import PropertyHeaderImage from '@/components/course/property-header-image'
 import PropertyDetails from '@/components/course/property-details'
 import Spinner from '@/components/course/spinner'
+import PropertyImagesComponent from '@/components/course/property-images'
 
 export default async function PropertiesPage() {
   const { id } = useParams();
@@ -146,7 +147,7 @@ export default async function PropertiesPage() {
               </div>
             </div >
           </section >
-
+          <PropertyImagesComponent images={property.images} />
 
         </>
       )

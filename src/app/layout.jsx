@@ -4,6 +4,10 @@ import NavBar from '@/components/ui/nav-bar/nav-bar'
 import Footer from '@/components/ui/footer/footer'
 import AuthProviderComponent from '@/components/course/auth-provider'
 
+// toasters
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -23,6 +27,7 @@ export default function RootLayout({ children }) {
           <NavBar />
           {children}
           <Footer />
+          <ToastContainer />
         </body>
       </html>
     </AuthProviderComponent>

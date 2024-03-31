@@ -1,11 +1,48 @@
 'use client'
 import { useState, useEffect } from 'react'
+import { useParams, useRouter } from 'next/navigation';
+import { toast } from 'react-toastify';
+import { fetchSingleProperty } from '@/util/properties-requests';
 
 
-export default function PropertyAddForm() {
+
+
+
+export default function PropertyEditForm() {
+  const { id } = useParams();
+  const router = useRouter();
   const [mounted, setMounted] = useState(false);
   useEffect(() => {
     setMounted(true);
+    // fetch property data from the form
+    const fetchPropertyData = async () => {
+      try {
+        const propertyData = await fetchSingleProperty(id);
+        // check if there is a null value to make it an empty string
+        if (propertyData.rates) {
+          const defaultRates = { ...propertyData.rates };
+          for (const key in defaultRates) {
+            if (defaultRates[key] === null) {
+              defaultRates[key] = '';
+            }
+          }
+          propertyData.rates = defaultRates;
+        }
+
+        if (propertyData) {
+          setFields(propertyData);
+        }
+        else {
+          // toast.error('Property not found');
+        }
+      } catch (error) {
+        console.log(error);
+        // toast.error('Something went wrong');
+      } finally {
+        setLoading(false);
+      }
+    }
+    fetchPropertyData();
   }, [])
 
   const [fields, setFields] = useState({
@@ -26,7 +63,6 @@ export default function PropertyAddForm() {
       monthly: '',
       nightly: ''
     },
-    images: [],
     amenities: [],
     seller_info: {
       name: "",
@@ -35,6 +71,7 @@ export default function PropertyAddForm() {
     }
   });
 
+  const [loading, setLoading] = useState(true);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -71,22 +108,32 @@ export default function PropertyAddForm() {
     setFields((prevFields) => ({ ...prevFields, amenities: updatedAmenities }))
   }
 
-  const handleImageChange = (e) => {
-    const { files } = e.target;
-    // clone the array
-    const updatedImages = [...fields.images];
-    // add the new images to the array
-    for (const file of files) {
-      updatedImages.push(file);
+  const handleSubmit = () => async (e) => {
+    e.preventDefault();
+    try {
+      const formData = new FormData(e.target);
+      const response = await fetch(`/api/properties/${id}`, { method: "PUT", body: formData });
+      if (response.ok) {
+        router.push(`/properties/${id}`);
+      }
+      else if (response.status === 401 || response.status === 403) {
+        toast.error('Permission denied');
+      }
+      else if (response.status === 404) {
+        toast.error('Property not found.');
+      }
+      else {
+        toast.error('Something went wrong.');
+      }
+    } catch (error) {
+      toast.error('Something went wrong.');
+      console.log(error);
     }
-    // update the state
-    setFields((prevFields) => ({ ...prevFields, images: updatedImages }))
   }
-
-  return mounted && (
-    <form action='/api/properties' method='POST' encType='multipart/form-data'>
+  return mounted && !loading && (
+    <form onSubmit={handleSubmit()}>
       <h2 className="text-3xl text-center font-semibold mb-6">
-        Add Property
+        Edit Property
       </h2>
 
       <div className="mb-4">
@@ -514,27 +561,12 @@ export default function PropertyAddForm() {
         />
       </div>
 
-      <div className="mb-4">
-        <label htmlFor="images" className="block text-gray-700 font-bold mb-2"
-        >Images (Select up to 4 images)</label
-        >
-        <input
-          type="file"
-          id="images"
-          name="images"
-          className="border rounded w-full py-2 px-3"
-          accept="image/*"
-          multiple
-          onChange={handleImageChange}
-        />
-      </div>
-
       <div>
         <button
           className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full w-full focus:outline-none focus:shadow-outline"
           type="submit"
         >
-          Add Property
+          Update Property
         </button>
       </div>
     </form>

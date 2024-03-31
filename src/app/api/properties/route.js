@@ -1,5 +1,6 @@
 import Property from "@/models/Property";
 import connectDb from "@/config/database";
+import cloudinary from "@/config/cloudinary";
 import { getSessionUser } from "@/util/get-session-user";
 
 // GET /api/properties
@@ -16,6 +17,8 @@ export const GET = async () => {
   }
 };
 
+// POST /api/properties
+// create a new property
 export const POST = async (request) => {
   try {
     // 1- connect to the database
@@ -64,8 +67,33 @@ export const POST = async (request) => {
         phone: formData.get("seller_info.phone"),
       },
       owner: userId,
-      images: images.map((image) => image.name),
     };
+
+    // check if the user chose images then start uploading them
+    if (images.length > 0) {
+      // upload images to cloudinary
+      const imageUploadromise = [];
+      for (const image of images) {
+        const imageBuffer = await image.arrayBuffer();
+        const imageArray = new Uint8Array(imageBuffer);
+        const imageData = Buffer.from(imageArray);
+        // convert the image data to base 64
+        const imageBase64 = imageData.toString("base64");
+        // upload the image to cloudinary to a specific folder
+        const resault = await cloudinary.uploader.upload(
+          `data:image/png;base64,${imageBase64}`,
+          { folder: "workwithus" }
+        );
+        
+        imageUploadromise.push(resault.secure_url);
+      }
+
+      // wait for all images to be uploaded
+      const imagesUrls = await Promise.all(imageUploadromise);
+
+      // add the images to the property data
+      propertyData.images = imagesUrls;
+    }
 
     // create a new property
     const newProperty = new Property(propertyData);

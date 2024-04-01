@@ -1,6 +1,8 @@
 import SinglePropertyCard from '@/components/course/single-property';
 import { fetchProperties } from '@/util/properties-requests'
 import Link from 'next/link';
+import PropertySearchForm from '@/components/course/property-search-form';
+
 
 export default async function PropertiesPage() {
   const properties_list = await fetchProperties();
@@ -11,6 +13,11 @@ export default async function PropertiesPage() {
   );
   return (
     <>
+      <section className="bg-blue-700 py-4">
+        <div className="max-w-7xl mx-auto px4 flex flex-col item-start sm:px-6 sm:mx-5 lg:px-8">
+          <PropertySearchForm />
+        </div>
+      </section>
       <section className="px-4 py-6">
         <Link href="/properties/add" className='rounded-md px-3 py-2 hover:bg-gray-900 hover:text-white'> Add Property</Link>
         <Link href="/properties-home" className='rounded-md px-3 py-2 hover:bg-gray-900 hover:text-white'> Property</Link>

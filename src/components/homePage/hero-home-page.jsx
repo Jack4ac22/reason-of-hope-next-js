@@ -1,3 +1,5 @@
+import PropertySearchForm from "@/components/course/property-search-form";
+
 export default function HeroHomePage() {
   return (
     <>
@@ -15,40 +17,7 @@ export default function HeroHomePage() {
               Let Us work together to bring the Gospel message closer to those who never heard it, and to those who need to hear it again.
             </p>
           </div>
-          <form
-            className="mt-3 mx-auto max-w-2xl w-full flex flex-col md:flex-row items-center"
-          >
-            <div className="w-full md:w-3/5 md:pr-2 mb-4 md:mb-0">
-              <label htmlFor="Translation" className="sr-only">Translation</label>
-              <input
-                type="text"
-                id="Translation"
-                placeholder="Enter your .... "
-                className="w-full px-4 py-3 rounded-lg bg-white text-gray-800 focus:outline-none focus:ring focus:ring-blue-500"
-              />
-            </div>
-            <div className="w-full md:w-2/5 md:pl-2">
-              <label htmlFor="property-type" className="sr-only">Property Type</label>
-              <select
-                id="property-type"
-                className="w-full px-4 py-3 rounded-lg bg-white text-gray-800 focus:outline-none focus:ring focus:ring-blue-500"
-              >
-                <option value="All">All</option>
-                <option value="Quiz">Quiz</option>
-                <option value="People">People</option>
-                <option value="Places">Places</option>
-                <option value="events">events</option>
-                <option value="Systematic Theology">Systematic Theology</option>
-                <option value="Other">Other</option>
-              </select>
-            </div>
-            <button
-              type="submit"
-              className="md:ml-4 mt-4 md:mt-0 w-full md:w-auto px-6 py-3 rounded-lg bg-blue-500 text-white hover:bg-blue-600 focus:outline-none focus:ring focus:ring-blue-500"
-            >
-              Search
-            </button>
-          </form>
+          <PropertySearchForm />
         </div>
       </section>
     </>

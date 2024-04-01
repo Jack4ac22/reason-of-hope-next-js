@@ -480,6 +480,7 @@ export default function PropertyAddForm() {
           placeholder="Name"
           value={fields.seller_info.name}
           onChange={handleChange}
+          required
         />
       </div>
       <div className="mb-4">
@@ -509,6 +510,7 @@ export default function PropertyAddForm() {
           name="seller_info.phone"
           className="border rounded w-full py-2 px-3"
           placeholder="Phone"
+          required
           value={fields.seller_info.phone}
           onChange={handleChange}
         />
@@ -526,6 +528,7 @@ export default function PropertyAddForm() {
           accept="image/*"
           multiple
           onChange={handleImageChange}
+          required
         />
       </div>
 

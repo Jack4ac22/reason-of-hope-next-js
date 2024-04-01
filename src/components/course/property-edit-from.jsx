@@ -115,6 +115,7 @@ export default function PropertyEditForm() {
       const response = await fetch(`/api/properties/${id}`, { method: "PUT", body: formData });
       if (response.ok) {
         router.push(`/properties/${id}`);
+        toast.success('Property updated successfully');
       }
       else if (response.status === 401 || response.status === 403) {
         toast.error('Permission denied');
@@ -525,6 +526,7 @@ export default function PropertyEditForm() {
           name="seller_info.name"
           className="border rounded w-full py-2 px-3"
           placeholder="Name"
+          required
           value={fields.seller_info.name}
           onChange={handleChange}
         />
@@ -556,6 +558,7 @@ export default function PropertyEditForm() {
           name="seller_info.phone"
           className="border rounded w-full py-2 px-3"
           placeholder="Phone"
+          required
           value={fields.seller_info.phone}
           onChange={handleChange}
         />

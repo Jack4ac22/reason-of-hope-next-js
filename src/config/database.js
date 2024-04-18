@@ -3,7 +3,7 @@ let conntected = false;
 const connectDb = async () => {
   mongoose.set("strictQuery", true);
   if (conntected) {
-    console.log("Database already connected");
+    // console.log("Database already connected");
     return;
   }
 
@@ -13,7 +13,7 @@ const connectDb = async () => {
       // useUnifiedTopology: true,
     });
     conntected = true;
-    console.log("Database connected");
+    // console.log("Database connected");
   } catch (error) {
     console.error("Database connection failed", error);
   }

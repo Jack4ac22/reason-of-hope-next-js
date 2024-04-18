@@ -27,6 +27,7 @@ export default function Message({ message }) {
       const response = await fetch(`/api/messages/${message._id}`, { method: 'DELETE' });
       if (response.status === 200) {
         setIsDeleted(!isDeleted);
+        setUnreadMessages((prev) => (prev - 1))
         toast.success('Message deleted.');
       }
     } catch (error) {

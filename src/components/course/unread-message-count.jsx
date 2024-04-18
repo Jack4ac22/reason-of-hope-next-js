@@ -1,8 +1,9 @@
 "use client";
 import { useState, useEffect } from "react";
+import { useMessagesGlobal } from "@/context/messages-context/MessagesGlobalContext";
 
 export default function UnreadMessageCount({ session }) {
-  const [unreadMessages, setUnreadMessages] = useState(0);
+  const { unreadMessages, setUnreadMessages } = useMessagesGlobal();
   useEffect(() => {
     if (!session) return;
     const fetchUnreadMessages = async () => {

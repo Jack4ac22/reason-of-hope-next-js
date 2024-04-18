@@ -3,6 +3,7 @@ import "@/assets/styles/globals.css";
 import NavBar from '@/components/ui/nav-bar/nav-bar'
 import Footer from '@/components/ui/footer/footer'
 import AuthProviderComponent from '@/components/course/auth-provider'
+import { MessagesGlobalProvider } from "@/context/messages-context/MessagesGlobalContext";
 
 // toasters
 import { ToastContainer } from 'react-toastify';
@@ -21,15 +22,17 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <AuthProviderComponent>
-      <html lang="en">
-        <body className={inter.className}>
-          <NavBar />
-          {children}
-          <Footer />
-          <ToastContainer />
-        </body>
-      </html>
-    </AuthProviderComponent>
+    <MessagesGlobalProvider>
+      <AuthProviderComponent>
+        <html lang="en">
+          <body className={inter.className}>
+            <NavBar />
+            {children}
+            <Footer />
+            <ToastContainer />
+          </body>
+        </html>
+      </AuthProviderComponent>
+    </MessagesGlobalProvider>
   );
 }

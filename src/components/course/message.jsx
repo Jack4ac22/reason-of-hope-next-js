@@ -1,15 +1,18 @@
 'use client';
 import { useState, useEffect } from "react";
 import { toast } from "react-toastify";
+import { useMessagesGlobal } from "@/context/messages-context/MessagesGlobalContext";
 export default function Message({ message }) {
   const [isRead, setIsRead] = useState(message.read);
   const [isDeleted, setIsDeleted] = useState(false);
+  const { setUnreadMessages } = useMessagesGlobal();
 
   const handleReadClick = async () => {
     try {
       const response = await fetch(`/api/messages/${message._id}`, { method: 'PUT' });
       if (response.status === 200) {
         setIsRead(!isRead);
+        setUnreadMessages((prev) => (isRead ? prev + 1 : prev - 1))
         const toastMessage = isRead ? 'Message marked as unread.' : 'Message marked as read.';
         toast.success(toastMessage);
       }

@@ -4,7 +4,8 @@ import { fetchProperties } from '@/util/properties-requests'
 
 
 export default async function HomePageProperties() {
-  const properties_list = await fetchProperties();
+  const data = await fetchProperties();
+  const properties_list = data.properties;
   const recentProperties = properties_list.sort(() => Math.random() - Math.random()).slice(0, 3)
   return (
     <>

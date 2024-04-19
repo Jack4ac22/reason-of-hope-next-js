@@ -5,12 +5,25 @@ import { getSessionUser } from "@/util/get-session-user";
 
 // GET /api/properties
 // return all properties
-export const GET = async () => {
+export const GET = async (request) => {
   try {
     await connectDb();
-    const properties = await Property.find({});
+    const page = request.nextUrl.searchParams.get("page") || 1;
+    const pageSize = request.nextUrl.searchParams.get("pageSize") || 6;
+    const skip = (page - 1) * pageSize;
+
+    const total = await Property.countDocuments();
+    // console.log(totalProperties);
+
+    // console.log(totalPages);
+
+    const properties = await Property.find({}).skip(skip).limit(pageSize);
     // console.log(properties)
-    return new Response(JSON.stringify(properties), { status: 200 });
+    const results = {
+      total,
+      properties,
+    };
+    return new Response(JSON.stringify(results), { status: 200 });
   } catch (error) {
     console.log(error);
     return new Response("something went wrong", { status: 500 });
@@ -84,7 +97,7 @@ export const POST = async (request) => {
           `data:image/png;base64,${imageBase64}`,
           { folder: "workwithus" }
         );
-        
+
         imageUploadromise.push(resault.secure_url);
       }
 

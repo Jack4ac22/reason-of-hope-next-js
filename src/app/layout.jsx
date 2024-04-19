@@ -4,6 +4,7 @@ import NavBar from '@/components/ui/nav-bar/nav-bar'
 import Footer from '@/components/ui/footer/footer'
 import AuthProviderComponent from '@/components/course/auth-provider'
 import { MessagesGlobalProvider } from "@/context/messages-context/MessagesGlobalContext";
+import 'photoswipe/dist/photoswipe.css';
 
 // toasters
 import { ToastContainer } from 'react-toastify';

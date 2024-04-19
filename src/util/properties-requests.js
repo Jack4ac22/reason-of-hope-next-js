@@ -1,13 +1,16 @@
 const apiDomain = process.env.NEXT_PUBLIC_API_DOMAIN || null;
 
 // fetch all properties
-async function fetchProperties() {
+async function fetchProperties({ showFeatured = false } = {}) {
   try {
     // hanndle if domain is not available yet for deployment
     if (!apiDomain) {
       return [];
     }
-    const res = await fetch(`${apiDomain}/properties`, { Cache: "no-store" });
+    const res = await fetch(
+      `${apiDomain}/properties${showFeatured ? "/featured" : ""}`,
+      { Cache: "no-store" }
+    );
     if (!res.ok) {
       throw new Error("Faild to fetch the data from the database");
     }

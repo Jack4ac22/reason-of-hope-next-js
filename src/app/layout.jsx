@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
   return (
     <MessagesGlobalProvider>
       <AuthProviderComponent>
-        <html lang="en">
+        <html lang="en" className="scroll-smooth">
           <body className={inter.className}>
             <NavBar />
             {children}

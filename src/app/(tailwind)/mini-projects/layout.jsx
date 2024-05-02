@@ -39,8 +39,8 @@ export default function DesignPageLayout({ children }) {
       </nav >
       <div className={`${darkMode && "dark"}`}>
         <div className="relative" onClick={toggleDarkMode}>
-          <div className="block border-[1px] dark:border-lightAccent border-darkAccent w-14 h-8 rounded-full"></div>
-          <div className={`dot absolute left-1 dark:left-7 top-1 dark:bg-lightAccent bg-darkAccent w-6 h-6 rounded-full transition duration-200`}></div>
+          <div className="block border-[1px] dark:border-darkShade-500 border-darkAccent-200 w-14 h-8 rounded-full"></div>
+          <div className={`dot absolute left-1 dark:left-7 top-1 dark:bg-darkShade-500 bg-darkAccent-200 w-6 h-6 rounded-full transition duration-200`}></div>
         </div>
         {children}
       </div>

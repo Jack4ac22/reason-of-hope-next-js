@@ -5,7 +5,7 @@
 // }
 
 module.exports = {
-  siteUrl: "https://www.NON_https://reasonofhope.com",
+  siteUrl: "https://reasonofhope.com",
   generateRobotsTxt: true,
   sitemap: {
     // This assumes your pages are in the "pages" directory
@@ -26,7 +26,7 @@ module.exports = {
       ];
       return data.map((page) => ({
         url: `/${page}`,
-        changefreq: "daily",
+        changefreq: "yearly",
         priority: 1,
         lastmod: page.updatedAt,
       }));

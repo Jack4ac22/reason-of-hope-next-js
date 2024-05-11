@@ -124,7 +124,7 @@ export default function ObjectionFallacies(props) {
       <h3>الأخطاء المنطقية المُستخدمة في هذا الإعتراض:</h3>
       <div className="accordion accordion-flush" id="accordionFlushObjections">
         {article.fallacies.map((fallacy, index) => (
-          <div className="accordion-item">
+          <div className="accordion-item" key={`${fallacy}-${index}`}>
             <h2 className="accordion-header">
               <button
                 className="btn collapsed accordion-button"

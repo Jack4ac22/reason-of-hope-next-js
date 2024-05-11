@@ -16,7 +16,6 @@ export default function RelatedArticles(props) {
                   id={article.slug}
                   baseUrl={""}
                 />
-                {/* <ArticleCardsList articles={article.related} baseUrl={""} /> */}
               </div>
             </div>
           </div>

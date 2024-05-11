@@ -1,7 +1,5 @@
 import ArticleContentPageComponent from "../../components/article-components/single-article-page/article-content-page";
-// import { allArticlesData } from "../../utilities/updated-functions";
 import allArticles from "../../assets/articles.json";
-import { randomArticlesFromArray } from "../../utilities/general-functions";
 export default function objectionArtilePage(props) {
   const { article } = props;
   // console.log("article: ", article);
@@ -15,21 +13,24 @@ export default function objectionArtilePage(props) {
 
 export async function getStaticProps(context) {
   const blogArticles = allArticles;
-  // get five random articles from the blogArticles
-  const randomArticles = randomArticlesFromArray(blogArticles, 3);
-  const { params } = context;
-  const { slug } = params;
+  const { params } = await context;
+  let slug;
+  if (params) {
+    slug = params.slug;
+  } else {
+    slug = ["/404"];
+  }
 
   const article = blogArticles.find(
-    (article) => article.fullSlug === slug.join("/")
+    (article) =>
+      slug.join("/") === article.fullSlug ||
+      `${article.year}/${article.month}/${article.day}/${article.slug}`
   );
-
 
   if (article.length === 0) {
     console.log("article not found", slug.join("/"));
     redirect("/404");
   }
-  article.related = randomArticles;
   const articleInformation = article;
 
   return {

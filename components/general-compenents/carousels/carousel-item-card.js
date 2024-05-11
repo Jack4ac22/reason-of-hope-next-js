@@ -9,10 +9,7 @@ export default function CarouselItemCard(props) {
     <>
       {articles.map((article, index) => {
         const randomIdentifier = Math.random().toString(36).substring(7);
-        const key = article.slug + index + randomIdentifier ?? "";
-        const short_description = article.description
-          ? article.description.substring(0, 100)
-          : "";
+        const key = index + randomIdentifier ?? "a ";
         return (
           <>
             <div
@@ -55,14 +52,19 @@ export default function CarouselItemCard(props) {
                             {article.title}
                           </h5>
                         )}
-                        {isBook || (
+                        {/* {isBook || (
                           <p className="card-text mt-3 text-white bg-dark text-center d-none d-sm-block">
-                            {article.description &&
-                            article.description.split(" ").length > 20
-                              ? short_description + "..."
-                              : article.description}
+                            {article.description !== undefined &&
+                            article.description !== null
+                              ? article.description &&
+                                article.description.split(" ").length > 20
+                                ? article.description
+                                    .split(" ")
+                                    [(0, 20)].join(" ") + "..."
+                                : article.description ?? ""
+                              : ""}
                           </p>
-                        )}
+                        )} */}
                       </div>
                     </div>
                   </div>

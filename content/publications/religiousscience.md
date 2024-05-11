@@ -18,11 +18,11 @@ resources:
   - title: "appleBooks"
     link: "http://books.apple.com/us/book/id1578434803"
 audio:
-  - applePodcasts: "* https://podcasts.apple.com/lu/podcast/%D8%A7%D9%84%D8%AF%D9%8A%D8%A7%D9%86%D8%A7%D8%AA-%D9%88%D8%A7%D9%84%D8%B7%D9%88%D8%A7%D8%A6%D9%81/id1562186290?i=1000530684477"
-  - googlePodcasts: "* https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy81MTVjMjljNC9wb2RjYXN0L3Jzcw/episode/YWVmMzNlOGQtZDEzOC00NDVlLWEyYTctYzRmNDUyM2RjOGM4?sa=X&ved=0CA0QkfYCahcKEwjYmtCLuajyAhUAAAAAHQAAAAAQAQ"
+  - applePodcasts: "https:\/\/podcasts.apple.com/lu/podcast/%D8%A7%D9%84%D8%AF%D9%8A%D8%A7%D9%86%D8%A7%D8%AA-%D9%88%D8%A7%D9%84%D8%B7%D9%88%D8%A7%D8%A6%D9%81/id1562186290"
+  - googlePodcasts: "https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy81MTVjMjljNC9wb2RjYXN0L3Jzcw/episode/YWVmMzNlOGQtZDEzOC00NDVlLWEyYTctYzRmNDUyM2RjOGM4"
   - hearthisAt: "https://hearthis.at/reasonofope/religious-science-/"
   - spotify: "https://open.spotify.com/episode/2GzRrNKf1XCnrZa7idGfxf?si=nXJtqNI1SZGvlE8eHM5TcA&dl_branch=1"
-  - anchorLink: "* https://anchor.fm/reason-of-hope4/episodes/--e152sp3"
+  - anchorLink: "https://anchor.fm/reason-of-hope4/episodes/--e152sp3"
 externalLink: ""
 authors:
   - name: "جاك قازنجيان - Jack Kazanjyan"

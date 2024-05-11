@@ -9,7 +9,7 @@ export default function CarouselItemCard(props) {
     <>
       {articles.map((article, index) => {
         const randomIdentifier = Math.random().toString(36).substring(7);
-        const key = randomIdentifier;
+        const key = article.slug + index + randomIdentifier ?? "";
         const short_description = article.description
           ? article.description.substring(0, 100)
           : "";

@@ -36,7 +36,7 @@ export default function ModalImage(props) {
           data-bs-toggle="modal"
           data-bs-target={`#modal${identifier}`}
         >
-          <figure calssName="figure">
+          <figure className="figure">
             <Image
               src={`/blog_images/${image.src}`}
               alt={image.alt ? image.alt : "صورة"}
@@ -50,7 +50,7 @@ export default function ModalImage(props) {
             className={"w-100 img-fluid"}
           /> */}
 
-            <figcaption calssName="figure-caption text-break">
+            <figcaption className="figure-caption text-break">
               {image.alt ? image.alt : ""}
             </figcaption>
           </figure>
@@ -59,7 +59,7 @@ export default function ModalImage(props) {
       <div
         className="modal fade"
         id={`modal${identifier}`}
-        tabindex="-1"
+        tabIndex="-1"
         aria-labelledby={`modal${identifier}Label`}
         aria-hidden="true"
       >
@@ -79,7 +79,7 @@ export default function ModalImage(props) {
               </h5>
             </div>
             <div className="modal-body">
-              <figure calssName="figure">
+              <figure className="figure">
                 <Image
                   src={`/blog_images/${image.src}`}
                   alt={image.alt}
@@ -93,7 +93,7 @@ export default function ModalImage(props) {
                   src={`/blog_images/${image.src}`}
                   className="img-fluid w-100"
                 /> */}
-                <figcaption calssName="figure-caption">{image.alt}</figcaption>
+                <figcaption className="figure-caption">{image.alt}</figcaption>
               </figure>
             </div>
             <div className="modal-footer">

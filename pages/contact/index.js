@@ -15,8 +15,8 @@ export default function ContactPage(props) {
 }
 
 export async function getStaticProps() {
-  const api_key = process.env.API_KEY;
-  const api_url = process.env.API_URL_BASE;
+  const api_key = process.env.API_KEY ?? "no api key";
+  const api_url = process.env.API_URL_BASE ?? "no api key";
   const data = { api_url, api_key };
   return {
     props: {

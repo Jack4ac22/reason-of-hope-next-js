@@ -70,7 +70,7 @@ export default function ArticleContentPageComponent(props) {
       <ArticlePageFooter article={article} />
 
       {/* Related Articles: */}
-      {article.related && <RelatedArticles article={article} />}
+      {/* {article.related && <RelatedArticles article={article} />} */}
     </>
   );
 }

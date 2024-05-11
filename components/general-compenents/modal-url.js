@@ -24,7 +24,7 @@ export default function ModalURL(props) {
       <div
         className="modal fade"
         id={`modal${identifier}`}
-        tabindex="-1"
+        tabIndex="-1"
         aria-labelledby={`modal${identifier}Label`}
         aria-hidden="true"
       >

@@ -78,7 +78,7 @@ export default function PublicationLinks(props) {
         {/* PDF */}
         {pdf && (
           <Link
-            href={`/publications/${pdf[0].link}`}
+            href={`/publications-links/${pdf[0].link}`}
             download={true}
             target="_blank"
           >
@@ -88,7 +88,7 @@ export default function PublicationLinks(props) {
         {/* EPUB */}
         {epub && (
           <Link
-            href={`/publications/${epub[0].link}`}
+            href={`/publications-links/${epub[0].link}`}
             download={true}
             target="_blank"
           >

@@ -1,5 +1,5 @@
 {
-  "name": "reason-of-hope-next-js",
+  "name": "wwu-reasonofhope",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,10 +9,25 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "bootstrap": "^5.3.3",
-    "next": "14.1.0",
+    "@mdx-js/loader": "^3.0.1",
+    "@mdx-js/react": "^3.0.1",
+    "@next/mdx": "^14.2.5",
+    "@types/mdx": "^2.0.13",
+    "gray-matter": "^4.0.3",
+    "next": "14.2.3",
     "react": "^18",
     "react-dom": "^18",
-    "react-icons": "^5.0.1"
+    "react-icons": "^5.2.1",
+    "react-iframe": "^1.8.5",
+    "react-markdown": "^9.0.1",
+    "rehype-raw": "^7.0.0",
+    "remark-gfm": "^4.0.0",
+    "remark-rehype": "^11.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
   }
 }

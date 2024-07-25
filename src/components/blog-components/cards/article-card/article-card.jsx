@@ -1,8 +1,9 @@
-import { CiCircleMore } from "react-icons/ci";
 import Image from 'next/image';
 import Link from "next/link";
+import ShowInformation from '@/components/blog-components/cards/article-card/card-items/show-information';
+import ArticleInformation from '@/components/blog-components/cards/article-card/card-items/article-information';
+
 export default function RegularArticleCard({ article }) {
-  // check if the description is available, if not and if the directory is objections then the description will be the first paragraph of the article
   if (!article.description && article.directory === 'objections') {
     if (article?.fallacies.length > 0) { article.description = "الأخطاء المنطقية التي ارتكبت في هذا الاعتراض هي: " + article.fallacies.map(fallacy => fallacy.split('-').join(' ')).join(', ') } else { "" }
   }
@@ -11,7 +12,7 @@ export default function RegularArticleCard({ article }) {
     const isLongDescription = article.description.split(' ').length > descriptionLength
     if (!isLongDescription) {
       return (
-        <div className="relative ">
+        <div className="">
           <p className='text-md text-justify text-darkAccent-400 dark:text-white'>
             {description}
           </p>
@@ -55,8 +56,12 @@ export default function RegularArticleCard({ article }) {
           {article.description ? < ArticleDescription description={article.description} /> : null}
         </div>
         {/* Card Footer container */}
-        <div className="absolute bottom-2 left-2 hover:translate-y-0.5 transform transition duration-300 ease-in-out">
-          {/* Read more link */}
+        {/* show information icon */}
+        <ShowInformation article={article}>
+        <ArticleInformation article={article} />
+        </ShowInformation>
+        {/* Read more link */}
+        <div className="absolute bottom-2 left-2 flex justify-between hover:translate-y-0.5 transform transition duration-300 ease-in-out">
           <Link href={`/articles/${article.slug}`}
             className="px-3 py-1 
             bg-mainBrand-100 dark:bg-mainBrand-800 hover:bg-mainBrand-200 dark:hover:bg-mainBrand-700 

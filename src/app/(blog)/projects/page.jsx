@@ -9,7 +9,7 @@ export default function Page() {
   const article4 = getSingleArticleData('word', 'abomination')
   return (
     <>
-      <div className="flex flex-row flex-wrap justify-around items-center pt-10 bg-lightShade-500">
+      <div className="flex flex-row flex-wrap justify-around items-center pt-10 bg-lightShade-500 dark:bg-lightShade-700">
         <RegularArticleCard article={article} />
         <RegularArticleCard article={article1} />
         <RegularArticleCard article={article2} />

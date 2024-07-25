@@ -56,8 +56,8 @@ export default function NavBar() {
     return (
       <Link
         href={menueElement.href}
-        className={`text-white hover:outline hover:brightness-90 hover:text-white rounded-md px-3 py-2 dark:bg-lightAccent dark:lightAccent
-          ${path === menueElement.href ? 'underline underline-offset-4 decoration-lightAccent decoration-wavy dark:decoration-darkAccent'
+        className={`text-white hover:outline hover:brightness-90 hover:text-white rounded-md px-3 py-2 dark:bg-lightAccent-500 dark:lightAccent-500
+          ${path === menueElement.href ? 'underline underline-offset-4 decoration-lightAccent-500 decoration-wavy dark:decoration-darkAccent-500'
             : ''}`}
       >{menueElement.title}
       </Link>
@@ -69,8 +69,8 @@ export default function NavBar() {
     return (
       <Link
         href={menueElement.href}
-        className={`text-white hover:outline hover:brightness-90 hover:text-white rounded-md px-3 py-2 dark:bg-lightAccent dark:lightAccent
-          ${path === menueElement.href ? 'underline underline-offset-4 decoration-lightAccent decoration-wavy dark:decoration-darkAccent'
+        className={`text-white hover:outline hover:brightness-90 hover:text-white rounded-md px-3 py-2 dark:bg-lightAccent-500 dark:lightAccent-500
+          ${path === menueElement.href ? 'underline underline-offset-4 decoration-lightAccent-500 decoration-wavy dark:decoration-darkAccent-500'
             : ''}`}
         onClick={handleMobileMenuLinkClick}
       >{menueElement.title}</Link>
@@ -88,7 +88,7 @@ export default function NavBar() {
     setIsMobileMenuOpen(false);
   }
   return (
-    <nav className="bg-darkAccent border-darkAccent dark:bg-lightAccent dark:lightAccent border-b">
+    <nav className="bg-darkAccent-500 border-darkAccent-500 dark:bg-lightAccent-500 dark:lightAccent-500 border-b">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="relative flex h-20 items-center justify-between">
           <div className="absolute inset-y-0 right-0 flex items-center md:hidden">

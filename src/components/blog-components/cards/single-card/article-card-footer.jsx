@@ -25,7 +25,7 @@ export default function ArticleCardFooter({ article }) {
             return (
               <Link href={item.link} key={`${index}_${item.title}`} className="">
                 <span className="inline-flex items-center m-2 px-3 py-1 text-nowrap text-sm
-              bg-darkAccent text-darkShade
+              bg-darkAccent-500 text-darkShade
               rounded-full">
                   <span className="ml-1">
                     {item.title.replace(/-/g, ' ')}

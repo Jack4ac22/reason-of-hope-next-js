@@ -1,7 +1,7 @@
 import Image from 'next/image';
-import Link from "next/link";
-import ShowInformation from '@/components/blog-components/cards/article-card/card-items/show-information';
+import ShowInformation from '@/components/blog-components/ui/buttons/show-information';
 import ArticleInformation from '@/components/blog-components/cards/article-card/card-items/article-information';
+import ReadMoreButton from '@/components/blog-components/ui/buttons/read-more-button';
 
 export default function RegularArticleCard({ article }) {
   if (!article.description && article.directory === 'objections') {
@@ -43,8 +43,7 @@ export default function RegularArticleCard({ article }) {
         <div className='flex-col items-center justify-center h-40 m-2'>
           {/* header including the title and the time */}
           <div>
-
-            <h2 className='my-2 text-lg text-center font-bold text-mainBrand-600 dark:text-mainBrand-200'>{article.title}</h2>
+            <h2 className='my-2 text-lg text-center font-bold text-mainBrand-600 dark:text-mainBrand-100'>{article.title}</h2>
             <p className='text-xs text-left text-darkAccent-400 dark:text-white '>
               <span >تاريخ النشر: </span>
               <span>
@@ -57,17 +56,12 @@ export default function RegularArticleCard({ article }) {
         </div>
         {/* Card Footer container */}
         {/* show information icon */}
-        <ShowInformation article={article}>
-        <ArticleInformation article={article} />
+        <ShowInformation inlineText={"إضغط  للحصول على المزيد من المعلومات المرتبطة بهذا المنشور."}>
+          <ArticleInformation article={article} />
         </ShowInformation>
         {/* Read more link */}
         <div className="absolute bottom-2 left-2 flex justify-between hover:translate-y-0.5 transform transition duration-300 ease-in-out">
-          <Link href={`/articles/${article.slug}`}
-            className="px-3 py-1 
-            bg-mainBrand-100 dark:bg-mainBrand-800 hover:bg-mainBrand-200 dark:hover:bg-mainBrand-700 
-            text-mainBrand-600 dark:text-mainBrand-200
-            border-2 border-mainBrand-500 dark:border-mainBrand-200 rounded"> اقرأ المزيد </Link>
-          {/* hidden tags and categories to be displayed on click  */}
+          <ReadMoreButton link={`/articles/${article.slug}`} buttonColor='mainBrand' ariaDescription={`Read more about ${article.title}`}>اقرأ المزيد</ReadMoreButton>
         </div>
       </div>
     </div>

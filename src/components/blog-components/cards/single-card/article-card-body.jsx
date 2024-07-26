@@ -46,7 +46,7 @@ export default function ArticleCardBody({ article }) {
         <p className="p-2 text-sm text-justify">
           {article.description}
         </p>
-        <Link href={`/articles/${article.slug}`} className="inline-flex my-1 text-white bg-mainBrand border-0 py-1 px-6 focus:outline-none hover:brightness-90 rounded text-center mx-auto">اقرأ المزيد</Link>
+        <Link href={`/articles/${article.slug}`} className="inline-flex my-1 text-white bg-mainBrand-500 border-0 py-1 px-6 focus:outline-none hover:brightness-90 rounded text-center mx-auto">اقرأ المزيد</Link>
       </>
     )
   }

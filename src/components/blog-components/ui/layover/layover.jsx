@@ -1,6 +1,7 @@
 "use client";
 import { useLayoverGlobal } from "@/context/layover/LayoverGlobalContext";
 import LinkLayover from "@/components/blog-components/ui/layover/link-layover";
+import ImageLayover from "@/components/blog-components/ui/layover/image-layover";
 import { FaRegWindowClose } from "react-icons/fa";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import Link from "next/link";
@@ -30,9 +31,10 @@ export default function LayOverSection() {
               <span className="sr-only">Close Layover</span>
             </button>
           </header>
-          {layoverObject.type === "link" && <LinkLayover layoverObject={layoverObject} />}
           {/* {layoverObject.link} */}
-
+          {layoverObject.type === "link" && <LinkLayover layoverObject={layoverObject} />}
+          {/* layover image */}
+          {layoverObject.type === "image" && <ImageLayover layoverObject={layoverObject} />}
         </div>
       </section>
     )

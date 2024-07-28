@@ -7,7 +7,10 @@ export default function ImageMappingComponent({ objectElement }) {
     e.preventDefault();
     setLayoverObject({
       type: "image",
-      link: objectElement.src + objectElement.alt,
+      imageDetails: {
+        src: objectElement.src,
+        alt: objectElement.alt
+      }
     });
   }
   return (

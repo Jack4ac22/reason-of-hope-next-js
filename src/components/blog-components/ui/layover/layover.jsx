@@ -34,7 +34,10 @@ export default function LayOverSection() {
           {/* {layoverObject.link} */}
           {layoverObject.type === "link" && <LinkLayover layoverObject={layoverObject} />}
           {/* layover image */}
-          {layoverObject.type === "image" && <ImageLayover layoverObject={layoverObject} />}
+          {layoverObject.type === "image" && <>
+            <ImageLayover layoverObject={layoverObject} />
+          </>
+          }
         </div>
       </section>
     )

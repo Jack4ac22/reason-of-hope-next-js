@@ -2,6 +2,12 @@ import path from "path";
 import fs from "fs";
 import matter from "gray-matter";
 
+/**
+ * ##########################
+ * ### Articles functions ###
+ * ##########################
+ */
+
 const articlesFolder = "/src/assets/blog/blog-articles";
 const pagesFolder = "/src/assets/blog/blog-pages";
 
@@ -117,4 +123,70 @@ export function getAllArticlesData() {
     allArticles.push(articleData);
   });
   return allArticles;
+}
+
+/**
+ * ############################
+ * ### Categories functions ###
+ * ############################
+ */
+
+/**
+ * Retrieves all categories with their respective count from the articles data.
+ * @returns {Array} An array of objects containing the category and its count.
+ */
+export function getAllCategoriesWithCount() {
+  const articles = getAllArticlesData();
+  let allCategories = [];
+  articles.map((article) => {
+    const { category } = article;
+    allCategories.push(category);
+  });
+  const uniqueCategories = allCategories.filter(onlyUnique);
+  let categoriesWithCount = [];
+  uniqueCategories.map((category) => {
+    const categoryCount = allCategories.filter(
+      (cat) => cat === category
+    ).length;
+    categoriesWithCount.push({ category: category, count: categoryCount });
+  });
+  return categoriesWithCount;
+}
+
+/**
+ * Retrieves a list of articles by category.
+ * @param {string} category - The category of the articles.
+ * @returns {Array} An array of article objects.
+ */
+/**
+ */ export function getArticlesByCategory(category) {
+  const articles = getAllArticlesData();
+  const articlesByCategory = articles.filter((article) => {
+    return article.category === category;
+  });
+  return articlesByCategory;
+}
+
+/**
+ * ######################
+ * ### Tags functions ###
+ * ######################
+ */
+
+export function getAllTagsWithCount() {
+  const allArticles = getAllArticlesData();
+  let allTags = [];
+  allArticles.map((article) => {
+    const { tags } = article;
+    tags.map((tag) => {
+      allTags.push(tag);
+    });
+  });
+  const uniqueTags = allTags.filter(onlyUnique);
+  let tagsWithCount = [];
+  uniqueTags.map((tag) => {
+    const tagCount = allTags.filter((t) => t === tag).length;
+    tagsWithCount.push({ tag: tag, count: tagCount });
+  });
+  return tagsWithCount;
 }

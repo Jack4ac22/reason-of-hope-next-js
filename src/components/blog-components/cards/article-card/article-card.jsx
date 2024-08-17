@@ -2,6 +2,8 @@ import Image from 'next/image';
 import ShowInformation from '@/components/blog-components/ui/buttons/show-information';
 import ArticleInformation from '@/components/blog-components/cards/article-card/card-items/article-information';
 import ReadMoreButton from '@/components/blog-components/ui/buttons/read-more-button';
+import { FaCross } from "react-icons/fa";
+
 
 export default function ArticleCard({ article }) {
   if (!article.description && article.directory === 'objections') {
@@ -29,11 +31,28 @@ export default function ArticleCard({ article }) {
     )
   }
 
+  function FeaturedArticle({ article }) {
+    // get the featured articles from the enviroment variables and consider it an empty array if not avaulable
+    const featuredArticles = process.env.NEXT_PUBLIC_FEATURED_ARTICLES ? process.env.NEXT_PUBLIC_FEATURED_ARTICLES.split(',').map((article)=> article.trim()) : [];
+    
+    if (article.slug && featuredArticles.includes(article.slug)) {
+      return (
+        <div className='absolute top-2 right-2 flex text-sm text-white bg-mainBrand-500 dark:bg-mainBrand-200
+      border-0 p-1 rounded-md'>
+          <FaCross />
+          <span className='px-2' >{article.isBook ? "كتاب مُمَيَّز" : " موضوع مُمَيَّز"}</span>
+        </div>
+      )
+    }
+    return null;
+  }
   return (
     // card container
     <div className='w-72 h-96 border rounded-md relative flex-col items-center bg-lightShade-200 dark:bg-lightShade-800'>
       {/* Card Header container */}
       <div className='w-full h-full p-1'>
+        {/* Featured banner */}
+        <FeaturedArticle article={article} />
         {/* image when hover will zoom in */}
         <Image src={`/blog_images/${article.coverImage}`} alt={`صورة الغلاف لموضوع ${article.title}`} width={0}
           height={0}

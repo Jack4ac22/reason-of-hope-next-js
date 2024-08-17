@@ -158,8 +158,9 @@ export function getAllCategoriesWithCount() {
  * @param {string} category - The category of the articles.
  * @returns {Array} An array of article objects.
  */
-/**
- */ export function getArticlesByCategory(category) {
+/** 
+ */
+export function getArticlesByCategory(category) {
   const articles = getAllArticlesData();
   const articlesByCategory = articles.filter((article) => {
     return article.category === category;

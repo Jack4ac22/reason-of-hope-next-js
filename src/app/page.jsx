@@ -1,6 +1,5 @@
 import { getAllArticlesData } from "@/utils/blog/articles-functions";
-import Link from "next/link";
-import ArticleCard from "@/components/blog-components/cards/single-card/article-card";
+import ArticleCard from "@/components/blog-components/cards/article-card/article-card";
 export default function Home() {
   const articles = getAllArticlesData().slice(1, 45);
   return (

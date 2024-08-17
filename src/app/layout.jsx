@@ -3,7 +3,7 @@ import "@/assets/styles/globals.css";
 import NavBar from "@/components/blog-components/ui/navigation/navbar";
 import LayOverSection from "@/components/blog-components/ui/layover/layover";
 import { LayoverGlobalProvider } from "@/context/layover/LayoverGlobalContext";
-// import DarkModeSwitch from "@/components/blog-components/ui/dark-mode/dark-mode-switch";
+import DarkModeSwitch from "@/components/blog-components/ui/dark-mode/dark-mode-switch";
 
 const markazi_text = Markazi_Text(
   {
@@ -31,11 +31,11 @@ export default function RootLayout({ children }) {
     <html lang="ar" dir="rtl" className={`"scroll-smooth" ${markazi_text.className}`}>
       <body className="transition-all duration-200">
         <LayoverGlobalProvider>
-          {/* <DarkModeSwitch > */}
+          <DarkModeSwitch >
           <NavBar />
           <LayOverSection />
           {children}
-          {/* </DarkModeSwitch> */}
+          </DarkModeSwitch>
         </LayoverGlobalProvider>
       </body>
     </html>

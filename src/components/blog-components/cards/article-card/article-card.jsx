@@ -3,7 +3,7 @@ import ShowInformation from '@/components/blog-components/ui/buttons/show-inform
 import ArticleInformation from '@/components/blog-components/cards/article-card/card-items/article-information';
 import ReadMoreButton from '@/components/blog-components/ui/buttons/read-more-button';
 
-export default function RegularArticleCard({ article }) {
+export default function ArticleCard({ article }) {
   if (!article.description && article.directory === 'objections') {
     if (article?.fallacies.length > 0) { article.description = "الأخطاء المنطقية التي ارتكبت في هذا الاعتراض هي: " + article.fallacies.map(fallacy => fallacy.split('-').join(' ')).join(', ') } else { "" }
   }

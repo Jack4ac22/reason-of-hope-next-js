@@ -1,4 +1,6 @@
 import Image from 'next/image';
+
+import ArticleDescription from '@/components/blog-components/cards/article-card/card-items/regular/article-description';
 import ShowInformation from '@/components/blog-components/ui/buttons/show-information';
 import ArticleInformation from '@/components/blog-components/cards/article-card/card-items/article-information';
 import ReadMoreButton from '@/components/blog-components/ui/buttons/read-more-button';
@@ -6,35 +8,13 @@ import { FaCross } from "react-icons/fa";
 
 
 export default function ArticleCard({ article }) {
-  if (!article.description && article.directory === 'objections') {
-    if (article?.fallacies?.length > 0) { article.description = "الأخطاء المنطقية التي ارتكبت في هذا الاعتراض هي: " + article.fallacies.map(fallacy => fallacy.split('-').join(' ')).join(', ') } else { "" }
-  }
-  function ArticleDescription({ description }) {
-    const descriptionLength = 25;
-    const isLongDescription = article.description.split(' ').length > descriptionLength
-    if (!isLongDescription) {
-      return (
-        <div className="">
-          <p className='text-md text-justify text-darkAccent-400 dark:text-white'>
-            {description}
-          </p>
-        </div>
-      )
-    }
-    return (
-      <>
-        <p className='my-2 text-md text-justify text-darkAccent-400 dark:text-white'>
-          {description.split(' ').slice(0, descriptionLength).join(' ')}
-          <span> ...</span>
-        </p>
-      </>
-    )
-  }
+
+
 
   function FeaturedArticle({ article }) {
     // get the featured articles from the enviroment variables and consider it an empty array if not avaulable
-    const featuredArticles = process.env.NEXT_PUBLIC_FEATURED_ARTICLES ? process.env.NEXT_PUBLIC_FEATURED_ARTICLES.split(',').map((article)=> article.trim()) : [];
-    
+    const featuredArticles = process.env.NEXT_PUBLIC_FEATURED_ARTICLES ? process.env.NEXT_PUBLIC_FEATURED_ARTICLES.split(',').map((article) => article.trim()) : [];
+
     if (article.slug && featuredArticles.includes(article.slug)) {
       return (
         <div className='absolute top-2 right-2 flex text-sm text-white bg-mainBrand-500 dark:bg-mainBrand-200 opacity-70 hover:opacity-100
@@ -62,7 +42,7 @@ export default function ArticleCard({ article }) {
         <div className='flex-col items-center justify-center h-40 m-2'>
           {/* header including the title and the time */}
           <div>
-            <h2 className='h-12 mbF-2 text-lg  text-center font-bold text-mainBrand-600 dark:text-mainBrand-100'>{article.title.length > 44 ? article.title.slice(0,44) + "..." : article.title}</h2>
+            <h2 className='h-12 mbF-2 text-lg  text-center font-bold text-mainBrand-600 dark:text-mainBrand-100'>{article.title.length > 44 ? article.title.slice(0, 44) + "..." : article.title}</h2>
             <p className='text-xs text-left text-darkAccent-400 dark:text-white '>
               <span >تاريخ النشر: </span>
               <span>
@@ -71,7 +51,7 @@ export default function ArticleCard({ article }) {
             </p>
           </div>
           {/* the article description if exsist */}
-          {article.description ? < ArticleDescription description={article.description} /> : null}
+          < ArticleDescription article={article} />
         </div>
         {/* Card Footer container */}
         {/* show information icon */}

@@ -1,7 +1,7 @@
 import { getAllArticlesData } from "@/utils/blog/articles-functions";
 import ArticleCard from "@/components/blog-components/cards/article-card/article-card";
 export default function Home() {
-  const articles = getAllArticlesData().slice(1, 45);
+  const articles = getAllArticlesData();
   return (
     <>
       <h1>Home Page</h1>

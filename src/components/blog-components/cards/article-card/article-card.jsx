@@ -7,7 +7,7 @@ import { FaCross } from "react-icons/fa";
 
 export default function ArticleCard({ article }) {
   if (!article.description && article.directory === 'objections') {
-    if (article?.fallacies.length > 0) { article.description = "الأخطاء المنطقية التي ارتكبت في هذا الاعتراض هي: " + article.fallacies.map(fallacy => fallacy.split('-').join(' ')).join(', ') } else { "" }
+    if (article?.fallacies?.length > 0) { article.description = "الأخطاء المنطقية التي ارتكبت في هذا الاعتراض هي: " + article.fallacies.map(fallacy => fallacy.split('-').join(' ')).join(', ') } else { "" }
   }
   function ArticleDescription({ description }) {
     const descriptionLength = 25;

@@ -3,9 +3,6 @@ export default function ArticleDescription({ article }) {
   if (!article.description && article.directory === 'objections') {
     if (article?.fallacies?.length > 0) { article.description = "الأخطاء المنطقية التي ارتكبت في هذا الاعتراض هي: " + article.fallacies.map(fallacy => fallacy.split('-').join(' ')).join(', ') } else { "" }
   }
-
-
-
   const descriptionLength = 25;
   const isLongDescription = article?.description?.split(' ').length > descriptionLength
   if (!isLongDescription) {

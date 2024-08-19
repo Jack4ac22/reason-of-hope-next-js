@@ -32,12 +32,10 @@ export default function ArticleBody({ article }) {
     img: (para = { node, ...props }) => <ImageMappingComponent objectElement={para} />,
   }
   return (
-    <main className="m-4">
-      <ReactMarkdown
-        components={customRenderers}
-        // rehypePlugins={[rehypeRaw]} 
-        remarkPlugins={[remarkGfm]}>
-        {article?.content}</ReactMarkdown>
-    </main>
+    <ReactMarkdown
+      components={customRenderers}
+      // rehypePlugins={[rehypeRaw]} 
+      remarkPlugins={[remarkGfm]}>
+      {article?.content}</ReactMarkdown>
   )
 }

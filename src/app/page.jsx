@@ -5,8 +5,7 @@ export default function Home() {
   return (
     <>
       <h1>Home Page</h1>
-      <div className="flex flex-3 flex-wrap justify-center items-center content-center
-      p-2 m-2 gap-2 md:gap-3 lg:gap-4">
+      <div className="flex flex-3 flex-wrap justify-center items-center content-center gap-2 md:gap-3 lg:gap-4">
         {articles.map((article) => (
           <ArticleCard key={article.slug} article={article} />
         ))}

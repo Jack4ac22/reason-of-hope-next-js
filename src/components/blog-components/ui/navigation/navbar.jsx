@@ -10,16 +10,16 @@ import Link from 'next/link';
 export default function NavBar() {
   const path = usePathname();
   const menue = [
-    { title: "Home", href: "/", active: true, smallScreen: true },
-    { title: "About", href: "/about", active: true, smallScreen: true },
-    { title: "articles", href: "/articles", active: true, smallScreen: true },
-    {
-      title: "Projects", href: "/projects", active: true, smallScreen: true, subElements: [
-        { title: "Project 1", href: "/projects/project-1", active: true, smallScreen: true },
-        { title: "Project 2", href: "/projects/project-2", active: true, smallScreen: true },
-        { title: "Project 3", href: "/projects/project-3", active: true, smallScreen: true },
-      ]
-    },
+    { title: "البداية", href: "/", active: true, smallScreen: true },
+    { title: "الإنجيل", href: "/gospel", active: true, smallScreen: true },
+    { title: "قضية الخلق", href: "/creation", active: true, smallScreen: true },
+    { title: "الإعتراضات", href: "/objections", active: true, smallScreen: true },
+    { title: "المنطق", href: "/logic", active: true, smallScreen: true },
+    { title: "كلمة ورسالة", href: "/words", active: true, smallScreen: true },
+    { title: "دراسات", href: "/studies", active: true, smallScreen: true },
+    { title: "منشورات", href: "/publications", active: true, smallScreen: true },
+    { title: "إيماننا", href: "/our-faith", active: true, smallScreen: true },
+    { title: "اتصل بنا", href: "/contact", active: true, smallScreen: true },
   ];
 
 
@@ -56,29 +56,25 @@ export default function NavBar() {
     return (
       <Link
         href={menueElement.href}
-        className={`text-white hover:outline hover:brightness-90 hover:text-white rounded-md px-3 py-2 dark:bg-lightAccent-500 dark:lightAccent-500
+        className={`text-white text-nowrap text-sm hover:outline hover:brightness-90 hover:text-white rounded-md px-2 py-2 dark:bg-darkAcentS-900
           ${path === menueElement.href ? 'underline underline-offset-4 decoration-lightAccent-500 decoration-wavy dark:decoration-darkAccent-500'
             : ''}`}
       >{menueElement.title}
       </Link>
     );
   }
-
   function SmNavItem({ menueElement }) {
     if (menueElement.smallScreen === false || menueElement.active === false) return null;
     return (
       <Link
         href={menueElement.href}
-        className={`text-white hover:outline hover:brightness-90 hover:text-white rounded-md px-3 py-2 dark:bg-lightAccent-500 dark:lightAccent-500
+        className={`text-white text-nowrap hover:outline hover:brightness-90 hover:text-white rounded-md px-3 py-2 dark:bg-darkAcentS-900 
           ${path === menueElement.href ? 'underline underline-offset-4 decoration-lightAccent-500 decoration-wavy dark:decoration-darkAccent-500'
             : ''}`}
         onClick={handleMobileMenuLinkClick}
       >{menueElement.title}</Link>
     );
   }
-
-
-
   // menue open and close state for mobile and profile menu
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const handleMobileMenuOpen = () => {
@@ -88,7 +84,7 @@ export default function NavBar() {
     setIsMobileMenuOpen(false);
   }
   return (
-    <nav className="bg-darkAccent-500 border-darkAccent-500 dark:bg-lightAccent-500 dark:lightAccent-500 border-b">
+    <nav className="bg-darkAccent-500 border-darkAccent-500 dark:bg-darkAccent-900">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="relative flex h-20 items-center justify-between">
           <div className="absolute inset-y-0 right-0 flex items-center md:hidden">

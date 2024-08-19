@@ -1,4 +1,4 @@
-import {Markazi_Text, Roboto } from "next/font/google";
+import { Markazi_Text, Roboto } from "next/font/google";
 import "@/assets/styles/globals.css";
 import NavBar from "@/components/blog-components/ui/navigation/navbar";
 import LayOverSection from "@/components/blog-components/ui/layover/layover";
@@ -26,13 +26,15 @@ export const metadata = homepageMetadata;
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="ar" dir="rtl" className={`"scroll-smooth" ${markazi_text.className}`}>
-      <body className="transition-all duration-200">
+    <html lang="ar" dir="rtl" className={`"uni-background scroll-smooth" ${markazi_text.className}`}>
+      <body className="2xl:max-w-6xl uni-background transition-all duration-200">
         <LayoverGlobalProvider>
           <DarkModeSwitch >
-          <NavBar />
-          <LayOverSection />
-          {children}
+            <NavBar />
+            <LayOverSection />
+            <div className="uni-background">
+              {children}
+            </div>
           </DarkModeSwitch>
         </LayoverGlobalProvider>
       </body>

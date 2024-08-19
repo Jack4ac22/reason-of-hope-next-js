@@ -8,7 +8,7 @@ export default function Page() {
   const book2 = articles[382];
   return (
     <>
-      <div className="mb-20 flex justify-center">
+      <div className="flex justify-center">
         <div className="columns-1 sm:columns-2 lg:columns-4">
           <ArticleCard article={article} />
           <ArticleCard article={book} />

@@ -18,8 +18,16 @@
   @apply text-sm text-darkAccent-400 dark:text-white select-none;
 }
 
-/* @layer base {
-  h3 {
-    @apply mb-8 text-4xl font-bold text-darkAccent-600 md:text-5xl;
+.uni-background{
+  @apply bg-lightShade-200 dark:bg-darkAccent-800;
+}
+
+.uni-text-color{
+  @apply text-darkAccent-800 dark:text-darkAccent-100;
+}
+
+@layer base {
+  body {
+    @apply text-darkAccent-800 dark:text-darkAccent-100;
   }
-} */
+}

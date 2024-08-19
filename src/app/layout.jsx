@@ -4,6 +4,7 @@ import NavBar from "@/components/blog-components/ui/navigation/navbar";
 import LayOverSection from "@/components/blog-components/ui/layover/layover";
 import { LayoverGlobalProvider } from "@/context/layover/LayoverGlobalContext";
 import DarkModeSwitch from "@/components/blog-components/ui/dark-mode/dark-mode-switch";
+import homepageMetadata from "@/assets/blog/metadata/homepage";
 
 const markazi_text = Markazi_Text(
   {
@@ -21,10 +22,7 @@ const roboto = Roboto(
   }
 );
 
-export const metadata = {
-  title: "Reson Of Hope |  سبب الرجاء",
-  description: "Reson of Hope is a Reformed Christian blog ",
-};
+export const metadata = homepageMetadata;
 
 export default function RootLayout({ children }) {
   return (

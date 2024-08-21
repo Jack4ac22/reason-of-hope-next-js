@@ -5,12 +5,14 @@ import ourFaithMetadata from "@/assets/blog/metadata/our-faith";
 
 export const metadata = ourFaithMetadata
 
-export default function OurFaithPage({ params }) {
-  const page = getSingleArticleData('static-pages', 'our-faith',"pagesFolder")
-  console.log(params)
+export default function OurFaithPage() {
+  const page = getSingleArticleData('static-pages', 'our-faith', "pagesFolder")
   return (
-    <main className="max-w-2xl h-full mx-4 text-center">
-      <ArticleBody article={page} />
+    <main className="flex flex-col flex-wrap justify-center items-center content-center" aria-label="Our Faith Page">
+      <section className="max-w-2xl h-full mx-4 text-center" aria-labelledby="article-heading">
+        <h1 id="article-heading" className="sr-only">Our Faith Page</h1>
+        <ArticleBody article={page} />
+      </section>
     </main>
   )
 }

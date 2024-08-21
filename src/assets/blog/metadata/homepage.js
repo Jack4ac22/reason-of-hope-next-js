@@ -1,3 +1,4 @@
+import metadataHost from "@/assets/blog/metadata/metadata-variables";
 export default function homepageMetadata() {
   return {
     title: "Reson of Hope - A Reformed Christian Blog",
@@ -5,13 +6,13 @@ export default function homepageMetadata() {
     openGraph: {
       title: "Reson of Hope - A Reformed Christian Blog",
       description: "Reson of Hope is a Reformed Christian blog",
-      url: "https://www.resonofhope.com",
+      url: metadataHost,
       images: [
         {
-          url: "https://www.resonofhope.com/blog_images/ROH.png",
+          url: `${metadataHost}/blog_images/ROH.png`,
           width: 800,
           height: 600,
-          alt: "Og Image Alt",
+          alt: "Cover Image for Reson of Hope",
         },
       ],
       type: "website",

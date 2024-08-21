@@ -1,6 +1,6 @@
 import { getSingleArticleData } from "@/utils/blog/articles-functions";
-const page = getSingleArticleData('static-pages', 'our-faith',"pagesFolder")
-
+const page = getSingleArticleData("static-pages", "our-faith", "pagesFolder");
+import metadataHost from "@/assets/blog/metadata/metadata-variables";
 
 export default function ourFaithMetadata() {
   return {
@@ -9,14 +9,20 @@ export default function ourFaithMetadata() {
     openGraph: {
       title: page.title,
       description: page.description,
-      url: "https://www.resonofhope.com/our-faith",
+      url: `${metadataHost}/our-faith`,
       images: [
         {
-          url: `/blog_pages_covers/${page.coverImage}`,
+          url: `${metadataHost}/blog_pages_covers/${page.coverImage}`,
           alt: `Image for ${page.title}`,
         },
       ],
-      type: "website",
+      type: "article",
+      article: {
+        publishedTime: page.date,
+        authors: ["Jack Kazanjyan"],
+        section: "Statement Of Faith",
+        tags: page.tags,
+      },
     },
   };
 }

@@ -13,16 +13,22 @@ export async function contactUs(prevState, formData) {
   };
   let errors = [];
   if (!name || name.trim() === "") {
-    errors.push("Name is required - الإسم مطلوب");
+    errors.push({ name: "name", message: "Name is required - الإسم مطلوب" });
   }
   if (!email || email.trim() === "" || !email.includes("@")) {
-    errors.push("Email is required - البريد الإلكتروني مطلوب");
+    errors.push({
+      name: "email",
+      message: "Email is required - البريد الإلكتروني مطلوب",
+    });
   }
   if (!message || message.trim() === "") {
-    errors.push("Message is required - الرسالة مطلوبة");
+    errors.push({
+      name: "message",
+      message: "Message is required - الرسالة مطلوبة",
+    });
   }
   if (errors.length > 0) {
-    return { errors };
+    return { prevState, errors };
   }
   await contact(data);
 }

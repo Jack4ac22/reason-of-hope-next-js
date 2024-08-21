@@ -86,7 +86,7 @@ export function getSingleArticleData(
   const articleSlug = articleFileName.replace(/\.md$/, "");
   const fileContent = fs.readFileSync(articlePath, "utf-8");
   const { data, content } = matter(fileContent);
-  const dateInformations = data.date.split("-");
+  const dateInformations = data?.date?.split("-");
   const articleDateInformations = {
     year: dateInformations[0],
     month: dateInformations[1],
@@ -158,7 +158,7 @@ export function getAllCategoriesWithCount() {
  * @param {string} category - The category of the articles.
  * @returns {Array} An array of article objects.
  */
-/** 
+/**
  */
 export function getArticlesByCategory(category) {
   const articles = getAllArticlesData();

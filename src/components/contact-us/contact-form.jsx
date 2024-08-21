@@ -5,8 +5,15 @@ export default function ContactForm({ action }) {
   const [state, formAction] = useFormState(action, {});
   return (
     <>
-      <div className="uni-background p-6 rounded-lg w-full m-2">
+      <div className={`uni-background p-6 rounded-lg w-full max-w-xl m-2 ${state.errors? 'border border-spacing-1 border-red-500 ' : ''}`}>
         <form action={formAction}>
+          {/* {state.errors && (
+            <ul className="form-errors">
+              {state.errors.map((error) => (
+                <li key={error}>{error}</li>
+              ))}
+            </ul>
+          )} */}
           <div className='mb-4'>
             <label
               className='block uni-text-color text-sm font-bold mb-2'
@@ -15,12 +22,12 @@ export default function ContactForm({ action }) {
               الإسم:
             </label>
             <input
-              className='shadow appearance-none border rounded w-full py-2 px-3 uni-text-color leading-tight focus:outline-none focus:shadow-outline'
+              className='shadow border rounded w-full py-2 px-3 uni-text-color leading-tight focus:outline-none focus:shadow-outline'
               id='name'
               name="name"
               type='text'
               placeholder='الرجاء إدخال الإسم'
-              required
+              aria-invalid={false}
             />
           </div>
           <div className="mb-4">
@@ -36,7 +43,6 @@ export default function ContactForm({ action }) {
               type="email"
               name="email"
               placeholder="الرجاء إدخال البريد الإلكتروني"
-              required
             />
           </div>
           <div className="mb-4">
@@ -51,9 +57,7 @@ export default function ContactForm({ action }) {
               id="title"
               type="title"
               name="title"
-              placeholder="الرجاء إدخال موضوع الرسالة"
-              required
-            />
+              placeholder="الرجاء إدخال موضوع الرسالة" />
           </div>
           <div className="mb-4">
             <label
@@ -67,7 +71,6 @@ export default function ContactForm({ action }) {
               id="message"
               name="message"
               placeholder="الرجاء إدخال رسالتكم"
-              required
             ></textarea>
           </div>
           <div>

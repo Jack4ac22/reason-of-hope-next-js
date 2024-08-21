@@ -9,8 +9,8 @@ export default function OurFaithPage({ params }) {
   const page = getSingleArticleData('static-pages', 'our-faith',"pagesFolder")
   console.log(params)
   return (
-    <>
+    <main className="max-w-2xl h-full mx-4 text-center">
       <ArticleBody article={page} />
-    </>
+    </main>
   )
 }

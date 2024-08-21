@@ -2,10 +2,12 @@ import metadataHost from "@/assets/blog/metadata/metadata-variables";
 export default function contactUsMetadata() {
   return {
     title: "اتصل بنا | سبب الرجاء",
-    description: "يمكنكم التواصل معنا وطرح تساؤلاتكم واستفساراتكم فيما يتعلق بمنشوراتنا، كما يمكنكم وضع اقتراحاتكم لتحسين الخدمة المقدمة.",
+    description:
+      "يمكنكم التواصل معنا وطرح تساؤلاتكم واستفساراتكم فيما يتعلق بمنشوراتنا، كما يمكنكم وضع اقتراحاتكم لتحسين الخدمة المقدمة.",
     openGraph: {
       title: "اتصل بنا | سبب الرجاء",
-      description: "يمكنكم التواصل معنا وطرح تساؤلاتكم واستفساراتكم فيما يتعلق بمنشوراتنا، كما يمكنكم وضع اقتراحاتكم لتحسين الخدمة المقدمة.",
+      description:
+        "يمكنكم التواصل معنا وطرح تساؤلاتكم واستفساراتكم فيما يتعلق بمنشوراتنا، كما يمكنكم وضع اقتراحاتكم لتحسين الخدمة المقدمة.",
       url: `${metadataHost}/contact-us`,
       images: [
         {
@@ -17,6 +19,6 @@ export default function contactUsMetadata() {
       ],
       type: "website",
       site_name: "Reason of Hope",
-        },
+    },
   };
 }

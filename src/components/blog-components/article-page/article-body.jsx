@@ -11,6 +11,10 @@ import ParapgraphMappingComponent from "@/components/blog-components/mdx/paragra
 import LinkMappingComponent from "@/components/blog-components/mdx/link-mapping-component";
 import ImageMappingComponent from "@/components/blog-components/mdx/image-component";
 
+
+import ArticleHeader from '@/components/blog-components/article-page/article-header'
+
+
 import ReactMarkdown from 'react-markdown'
 import rehypeRaw from 'rehype-raw'
 import remarkGfm from 'remark-gfm'
@@ -32,10 +36,13 @@ export default function ArticleBody({ article }) {
     img: (para = { node, ...props }) => <ImageMappingComponent objectElement={para} />,
   }
   return (
-    <ReactMarkdown
-      components={customRenderers}
-      // rehypePlugins={[rehypeRaw]} 
-      remarkPlugins={[remarkGfm]}>
-      {article?.content}</ReactMarkdown>
+    <div className="flex-col">
+      <ArticleHeader article={article} />
+      <ReactMarkdown
+        components={customRenderers}
+        // rehypePlugins={[rehypeRaw]} 
+        remarkPlugins={[remarkGfm]}>
+        {article?.content}</ReactMarkdown>
+    </div>
   )
 }

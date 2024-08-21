@@ -13,10 +13,11 @@ export default function ImageMappingComponent({ objectElement }) {
       }
     });
   }
+  console.log(objectElement.src)
   return (
     <>
       <Image src={`/blog_images/${objectElement.src}`} alt={objectElement.alt}
-        className="object-cover rounded-t-xl md:rounded-tr-none md:rounded-l-xl w-full md:max-w-xl lg:max-w-4xl mx-auto"
+        className={`object-cover rounded-t-xl md:rounded-tr-none md:rounded-l-xl w-full md:max-w-xl lg:max-w-4xl mx-auto`}
         sizes="100vw"
         height={0}
         width={0}

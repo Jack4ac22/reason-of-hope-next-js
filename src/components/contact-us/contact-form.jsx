@@ -5,15 +5,15 @@ export default function ContactForm({ action }) {
   const [state, formAction] = useFormState(action, {});
   return (
     <>
-      <div className={`uni-background p-6 rounded-lg w-full max-w-xl m-2 ${state.errors? 'border border-spacing-1 border-red-500 ' : ''}`}>
+      <div className={`uni-background p-6 rounded-lg w-full 2max-w-xl m-2 ${state.errors ? 'border border-spacing-1 border-red-500 ' : ''}`}>
         <form action={formAction}>
-          {/* {state.errors && (
+          {state.errors && (
             <ul className="form-errors">
               {state.errors.map((error) => (
-                <li key={error}>{error}</li>
+                <li key={error}>{error.message}</li>
               ))}
             </ul>
-          )} */}
+          )}
           <div className='mb-4'>
             <label
               className='block uni-text-color text-sm font-bold mb-2'

@@ -10,9 +10,7 @@ import ListItem from "@/components/blog-components/mdx/list-item";
 import ParapgraphMappingComponent from "@/components/blog-components/mdx/paragraph";
 import LinkMappingComponent from "@/components/blog-components/mdx/link-mapping-component";
 import ImageMappingComponent from "@/components/blog-components/mdx/image-component";
-
-
-import ArticleHeader from '@/components/blog-components/article-page/article-header'
+import HorivontalRule from "@/components/blog-components/mdx/horizental-rule";
 
 
 import ReactMarkdown from 'react-markdown'
@@ -34,15 +32,13 @@ export default function ArticleBody({ article }) {
     p: (para = { node, ...props }) => <ParapgraphMappingComponent objectElement={para} />,
     a: (para = { node, ...props }) => <LinkMappingComponent objectElement={para} />,
     img: (para = { node, ...props }) => <ImageMappingComponent objectElement={para} />,
+    hr: (para = { node, ...props }) => <HorivontalRule objectElement={para} />,
   }
   return (
-    <div className="flex-col">
-      <ArticleHeader article={article} />
-      <ReactMarkdown
-        components={customRenderers}
-        // rehypePlugins={[rehypeRaw]} 
-        remarkPlugins={[remarkGfm]}>
-        {article?.content}</ReactMarkdown>
-    </div>
+    <ReactMarkdown
+      components={customRenderers}
+      rehypePlugins={[rehypeRaw]}
+      remarkPlugins={[remarkGfm]}>
+      {article?.content}</ReactMarkdown>
   )
 }

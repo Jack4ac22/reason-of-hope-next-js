@@ -19,6 +19,7 @@ export default function ImageMappingComponent({ objectElement }) {
   const isFloatRight = objectElement.src.toLowerCase().includes("position=right");
   const isFloatLeft = objectElement.src.toLowerCase().includes("position=left");
   const isFloatCenter = objectElement.src.toLowerCase().includes("position=center");
+  const hiddenDescription = objectElement.src.toLowerCase().includes("description=hidden");
   return (
     <figure className={`container-fluid my-2
       ${isFullWidth ? "w-100 md:max-w-xl lg:max-w-2xl" : ""}
@@ -27,18 +28,23 @@ export default function ImageMappingComponent({ objectElement }) {
       ${isFloatRight ? "float-right" : ""}
       ${isFloatLeft ? "float-left" : ""}
       ${isFloatCenter ? "mx-auto block" : ""}
-      ${!isFloatCenter && !isFloatLeft && !isFloatRight ? "float-start" : ""}
+      ${!isFloatCenter && !isFloatLeft && !isFloatRight ? "float-right" : ""}
   `}>
       <Image src={`/blog_images/${objectElement.src}`} alt={objectElement.alt}
-        className={`object-cover w-full `}
+        className={`object-cover w-full
+        ${isSmallWidth && isFloatLeft && "rounded-l-lg pr-3"}
+        ${isSmallWidth && isFloatRight && "rounded-r-lg pl-3"}
+        ${isSmallWidth && !isFloatRight && !isFloatLeft && "rounded-r-lg pl-3"}
+        ${isSmallWidth && isFloatCenter && "rounded-lg"}}
+        ${isFullWidth && "rounded-lg"}
+        `}
         sizes="100vw"
         height={0}
         width={0}
         onClick={handleLinkClick} />
-      <figcaption className="figure-caption text-break">
-        {objectElement.alt ? objectElement.alt : ""}
-        {objectElement.src ? objectElement.src : ""}
-      </figcaption>
+      {hiddenDescription || (<figcaption className="figure-caption text-break uni-text-color">
+        {objectElement.alt}
+      </figcaption>)}
     </figure>)
 }
 

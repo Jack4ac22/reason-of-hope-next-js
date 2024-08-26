@@ -1,10 +1,4 @@
-'use client';
-
-import { usePathname } from "next/navigation";
-
-
-import Image from 'next/image';
-import Link from 'next/link';
+import PageNavigationItem from "@/components/blog-components/ui/navigation/pages-navigation-item";
 
 import biblicalWorldLogo from '@/assets/images/blog/creation-navbar-images/biblical-world.png';
 import creationGospleLogo from '@/assets/images/blog/creation-navbar-images/creation-gospel.png';
@@ -52,25 +46,10 @@ export default function CreationNavbar() {
     },
   ]
 
-  const path = usePathname();
-  console.log(path);
-
-
-  function CreationNavigationItem({ item }) {
-    return (
-      <div className='flex flex-col items-center justify-center' >
-        <Link href={item.href} >
-          <Image src={item.logo} alt={item.title} className="w-20 h-20 md:w-24 md:h-24" />
-          <span className="sr-only">{item.title}</span>
-        </Link>
-      </div>
-    )
-  }
   return (
     <nav className='flex flex-wrap items-center justify-center'>
       {menue.map((item, index) => (
-        path === item.href ?
-          null : <CreationNavigationItem key={`${index}-${item.title}`} item={item} />
+        <PageNavigationItem key={`${index}-${item.title}`} item={item} />
       ))}
     </nav>
   );

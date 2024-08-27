@@ -14,10 +14,8 @@ export default function NavBar() {
     { title: "الإنجيل", href: "/gospel", active: true, smallScreen: true },
     { title: "قضية الخلق", href: "/creation", active: true, smallScreen: true },
     { title: "الإعتراضات", href: "/objections", active: true, smallScreen: true },
-    { title: "المنطق", href: "/logic", active: true, smallScreen: true },
-    { title: "كلمة ورسالة", href: "/words", active: true, smallScreen: true },
-    { title: "دراسات", href: "/studies", active: true, smallScreen: true },
     { title: "منشورات", href: "/publications", active: true, smallScreen: true },
+    { title: "متفرقات", href: "/diverse", active: true, smallScreen: true },
     { title: "إيماننا", href: "/our-faith", active: true, smallScreen: true },
     { title: "اتصل بنا", href: "/contact", active: true, smallScreen: true },
   ];

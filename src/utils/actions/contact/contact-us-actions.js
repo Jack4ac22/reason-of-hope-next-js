@@ -30,5 +30,6 @@ export async function contactUs(prevState, formData) {
   if (errors.length > 0) {
     return { prevState, errors };
   }
-  await contact(data);
+  const response = await contact(data);
+  return { prevState, response };
 }

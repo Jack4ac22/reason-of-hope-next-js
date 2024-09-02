@@ -1,7 +1,7 @@
 'use client'
 import { useFormState } from "react-dom";
-import { redirect } from "next/navigation";
-
+import Link from "next/link";
+import SuccessfullyContacted from "@/components/contact-us/successfully-contacted";
 export default function ContactForm({ action }) {
   const [state, formAction] = useFormState(action, {});
   return (
@@ -9,16 +9,9 @@ export default function ContactForm({ action }) {
       {/* TODO: make the success as a component and style it. */}
       {/* TODO: seperate the inputs into compoentnts and introduce the error message to it beased on the name. */}
       {state?.response ? (
-        <div className="uni-background p-6 rounded-lg w-full h-full 2max-w-xl m-2 border border-spacing-1 border-green-500 uni-text-color">
-          <p>تم إرسال رسالتكم بنجاح</p>
-          <p>سنقوم بالرد عليكم في أقرب وقت ممكن</p>
-          <button
-            className={`py-2 px-8 flex mx-auto focus:outline-1 hover:bg-mainBrand-600 bg-mainBrand-500 dark:bg-mainBrand-200 dark:hover:bg-mainBrand-100 border-0 rounded text-white dark:text-black`}
-            onClick={() => redirect("/")}
-          >
-            العودة للصفحة الرئيسية
-          </button>
-        </div>
+        <>
+        <SuccessfullyContacted />
+        </>
 
       ) : (
         <div className={`uni-background p-6 rounded-lg w-full h-full 2max-w-xl m-2 ${state?.errors ? 'border border-spacing-1 border-red-500 ' : ''}`}>

@@ -8,7 +8,7 @@ import {
 
 export const sendMail = async (data) => {
   const template_string = await readFile(
-    "src/utils/libraries/email-templates/template-contact-us.html",
+    "@/utils/libraries/email-templates/template-contact-us.html",
     "utf8"
   );
   const { name, email, title, message } = data;

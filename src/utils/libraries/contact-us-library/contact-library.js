@@ -1,24 +1,31 @@
 "use server";
-import path from "path";
-import fs from "fs";
-const templates_folder_path = "/src/utils/libraries/email-templates";
-
 import {
   transporter,
   getMailOptions,
+  getMailHtmlTemplate,
+  getMailTextTemplate,
 } from "@/utils/libraries/mailing/nodemailer";
 import { cwd } from "process";
 
+const templates_folder_path = "/src/utils/libraries/email-templates";
+
 export const sendContactMail = async (data) => {
-  const template_path = path.join(
-    cwd(),
-    templates_folder_path,
-    "template-contact-us.html"
+  const template_html_string = getMailHtmlTemplate(
+    "contact-us",
+    templates_folder_path
   );
-  const template_string = fs.readFileSync(template_path, "utf-8");
+  const template_text_string = getMailTextTemplate(
+    "contact-us",
+    templates_folder_path
+  );
   const { name, email, title, message } = data;
   const mailOptions = getMailOptions(email);
-  const html = template_string
+  const html = template_html_string
+    .replaceAll("${name}", name)
+    .replaceAll("${email}", email)
+    .replaceAll("${title}", title)
+    .replaceAll("${message}", message.trim());
+  const text = template_text_string
     .replaceAll("${name}", name)
     .replaceAll("${email}", email)
     .replaceAll("${title}", title)
@@ -27,7 +34,7 @@ export const sendContactMail = async (data) => {
     const info = await transporter.sendMail({
       ...mailOptions,
       subject: title || "No subject",
-      text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`,
+      text: text,
       html: html,
     });
     return info;

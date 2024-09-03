@@ -1,4 +1,7 @@
 import nodemailer from "nodemailer";
+import fs from "fs";
+import path from "path";
+import { cwd } from "process";
 
 const email = process.env.EMAIL_ADDRESS;
 const pass = process.env.EMAIL_PASSWORD || "";
@@ -26,3 +29,43 @@ export const getMailOptions = (to) => {
     bcc: bcc,
   };
 };
+
+/**
+ * Retrieves the HTML template for a given mail template.
+ *
+ * @param {string} template_name - The name of the template.
+ * @param {string} [template_folder_path="/src/utils/libraries/email-templates"] - The folder path where the templates are located.
+ * @returns {string} The HTML template string.
+ */
+export function getMailHtmlTemplate(
+  template_name,
+  template_folder_path = "/src/utils/libraries/email-templates"
+) {
+  const template_path = path.join(
+    cwd(),
+    template_folder_path,
+    `${template_name}.html`
+  );
+  const template_string = fs.readFileSync(template_path, "utf-8");
+  return template_string;
+}
+
+/**
+ * Retrieves the text template for a given mail.
+ *
+ * @param {string} template_name - The name of the template.
+ * @param {string} [template_folder_path="/src/utils/libraries/email-templates"] - The folder path where the templates are located.
+ * @returns {string} The template string.
+ */
+export function getMailTextTemplate(
+  template_name,
+  template_folder_path = "/src/utils/libraries/email-templates"
+) {
+  const template_path = path.join(
+    cwd(),
+    template_folder_path,
+    `${template_name}.txt`
+  );
+  const template_string = fs.readFileSync(template_path, "utf-8");
+  return template_string;
+}

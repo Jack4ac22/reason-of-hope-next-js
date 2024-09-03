@@ -1,16 +1,21 @@
-// read the template from the file ./templates-contact-us.html. then replace the placeholders with the data. this should be in a function that takes the data and returns the html as a string.
+'use server'
+import path from "path";
+import fs from "fs";
+const templates_folder_path = "/src/utils/libraries/email-templates";
 
-import { readFile } from "fs/promises";
 import {
   transporter,
   getMailOptions,
 } from "@/utils/libraries/mailing/nodemailer";
+import { cwd } from "process";
 
 export const sendMail = async (data) => {
-  const template_string = await readFile(
-    "@/utils/libraries/email-templates/template-contact-us.html",
-    "utf8"
+  const template_path = path.join(
+    cwd(),
+    templates_folder_path,
+    "template-contact-us.html"
   );
+  const template_string = fs.readFileSync(template_path, "utf-8");
   const { name, email, title, message } = data;
   const mailOptions = getMailOptions(email);
   const html = template_string

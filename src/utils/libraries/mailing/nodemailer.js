@@ -26,9 +26,3 @@ export const getMailOptions = (to) => {
     bcc: bcc,
   };
 };
-
-export const mailOptions = {
-  from: email,
-  to: email,
-  bcc: bcc,
-};

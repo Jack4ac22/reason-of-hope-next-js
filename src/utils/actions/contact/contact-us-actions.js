@@ -1,5 +1,5 @@
 "use server";
-import { sendMail } from "@/utils/libraries/email-templates/templates-contact-us";
+import { sendContactMail } from "@/utils/libraries/contact-us-library/contact-library";
 export async function contactUs(prevState, formData) {
   const name = formData.get("name");
   const email = formData.get("email");
@@ -30,6 +30,6 @@ export async function contactUs(prevState, formData) {
   if (errors.length > 0) {
     return { prevState, errors };
   }
-  const response = await sendMail(data);
+  const response = await sendContactMail(data);
   return { prevState, response };
 }

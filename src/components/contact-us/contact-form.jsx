@@ -6,11 +6,10 @@ export default function ContactForm({ action }) {
   const [state, formAction] = useFormState(action, {});
   return (
     <>
-      {/* TODO: make the success as a component and style it. */}
       {/* TODO: seperate the inputs into compoentnts and introduce the error message to it beased on the name. */}
       {state?.response ? (
         <>
-        <SuccessfullyContacted />
+          <SuccessfullyContacted />
         </>
 
       ) : (

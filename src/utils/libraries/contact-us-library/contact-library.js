@@ -1,3 +1,4 @@
+'use server'
 export async function contact(data) {
   const api_key = process.env.API_KEY ?? "no api key";
   const api_url = process.env.API_URL_BASE ?? "no api key";

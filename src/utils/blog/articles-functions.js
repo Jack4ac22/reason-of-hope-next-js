@@ -163,7 +163,7 @@ export function getAllCategoriesWithCount() {
 export function getArticlesByCategory(category) {
   const articles = getAllArticlesData();
   const articlesByCategory = articles.filter((article) => {
-    return article.category === category;
+    return article.categories && article.categories.includes(category);
   });
   return articlesByCategory;
 }
@@ -174,6 +174,10 @@ export function getArticlesByCategory(category) {
  * ######################
  */
 
+/**
+ * Retrieves all tags with their respective count from all articles.
+ * @returns {Array<{tag: string, count: number}>} An array of objects containing the tag name and its count.
+ */
 export function getAllTagsWithCount() {
   const allArticles = getAllArticlesData();
   let allTags = [];
@@ -190,4 +194,17 @@ export function getAllTagsWithCount() {
     tagsWithCount.push({ tag: tag, count: tagCount });
   });
   return tagsWithCount;
+}
+
+/**
+ * Retrieves a list of articles by tag.
+ * @param {string} tag - The tag of the articles.
+ * @returns {Array} An array of article objects.
+ */
+export function getArticlesByTag(tag) {
+  const articles = getAllArticlesData();
+  const articlesByTag = articles.filter((article) => {
+    return article.tags.includes(tag);
+  });
+  return articlesByTag;
 }

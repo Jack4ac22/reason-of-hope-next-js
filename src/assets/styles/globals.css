@@ -18,16 +18,19 @@
   @apply text-sm text-darkAccent-400 dark:text-white select-none;
 }
 
-.uni-background{
+.uni-background {
   @apply bg-lightShade-200 dark:bg-darkAccent-800;
 }
 
-.uni-text-color{
+.uni-text-color {
   @apply text-darkAccent-800 dark:text-darkAccent-100;
 }
 
 @layer base {
-  body {
-    @apply text-darkAccent-800 dark:text-darkAccent-100;
+  body footer {
+    @apply text-darkAccent-800 dark:text-darkAccent-100 bg-lightShade-200 dark:bg-darkAccent-800;
+  }
+  h1 {
+    @apply my-6 text-4xl font-bold text-darkAccent-800 dark:text-darkAccent-100;
   }
 }

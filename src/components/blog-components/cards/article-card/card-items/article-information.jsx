@@ -1,4 +1,9 @@
 import Link from "next/link";
+
+
+// TODO: enhanse the design of the information card
+// TODO: add the icons of the media links
+// TODO: add the icons for the published items
 export default function ArticleInformation({ article }) {
   return (
     <>

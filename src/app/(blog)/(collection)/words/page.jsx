@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import WordsPageMetadata from "@/assets/blog/metadata/words";
 import CardList from "@/components/blog-components/cards/cards-list/cards-list";
 import { getArticlesByCategory } from "@/utils/blog/articles-functions";
@@ -19,7 +20,9 @@ export default function WordsPage() {
           <p>مجموعة من الدراسات التي تتناول عدداً من الكلمات العبرية أو اليونانية من الكتاب المقدس في محاولة إلى التعرف على معناها. وهذه الدراسات تهدف إلى توضيح السياق التاريخي والثقافي واللغوي لهذه الكلمات، وكذلك تفسيرها في ضوء المخطوطات والترجمات والتعليقات القديمة. وبذلك، تساهم هذه الدراسات في فهم أعمق للرسالة الإلهية التي يحملها الكتاب المقدس، وفي تقريبها من قلوب وعقول المؤمنين في عصرنا الحاضر.</p>
         </section>
         <section>
-          <CardList articles={articles}/>
+          <Suspense fallback={<div>Loading...</div>}>
+            <CardList articles={articles} />
+          </Suspense>
         </section>
       </div>
     </main>)

@@ -35,10 +35,9 @@ export default function CardList({ articles }) {
 
   return (
     <section className="mt-6 uni-text-color">
-      <h2 className="text-2xl">مقالات هذه الفئة: </h2>
       <p className="sr-only">Articles</p>
       <Suspense fallback={<div>Loading...</div>}>
-        <div className="border">
+        <div className="mx-4 border-4 rounded-xl">
           {/* order articles */}
           <div className="flex justify-center items-center">
             <label htmlFor="order" className="mx-2">ترتيب حسب:</label>

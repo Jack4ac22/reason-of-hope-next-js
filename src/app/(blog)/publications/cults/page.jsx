@@ -1,5 +1,14 @@
+import { Suspense } from "react";
+import { getArticlesByCategory } from "@/utils/blog/articles-functions";
+import CardList from "@/components/blog-components/cards/cards-list/cards-list";
 export default function CultssPage() {
+  const articles = getArticlesByCategory("الديانات-والطوائف");
   return (
-    <div>Cults page (WIP)</div>
+    <>
+      <h1>Cults page (WIP)</h1>
+      <Suspense fallback={<div>Loading...</div>}>
+        <CardList articles={articles} />
+      </Suspense>
+    </>
   );
 }

@@ -1,5 +1,14 @@
+import { Suspense } from "react";
+import { getArticlesByCategory } from "@/utils/blog/articles-functions";
+import CardList from "@/components/blog-components/cards/cards-list/cards-list";
 export default function CreationPage() {
+  const articles = getArticlesByCategory("قضيّة-الخلق");
   return (
-    <div>Creation</div>
+    <>
+      <h1>Creation</h1>
+      <Suspense fallback={<div>Loading...</div>}>
+        <CardList articles={articles} />
+      </Suspense>
+    </>
   );
 }

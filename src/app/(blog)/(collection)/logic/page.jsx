@@ -1,15 +1,33 @@
 import { Suspense } from "react";
 import { getArticlesByCategory } from "@/utils/blog/articles-functions";
 import CardList from "@/components/blog-components/cards/cards-list/cards-list";
+
+
 export default function LogicPage() {
-  const articles = getArticlesByCategory("دراسات-كتابية");
+  const articles = getArticlesByCategory("المنطق");
 
   return (
     <>
-      <h1>logic page (WIP)</h1>
-      <Suspense fallback={<div>Loading...</div>}>
-        <CardList articles={articles} />
-      </Suspense>
+      <main className="flex flex-col flex-wrap justify-center items-center content-center" aria-label="Logic Studies">
+        <div className="page-main-container">
+          <section aria-labelledby="article-heading">
+            <header>
+              <p id="page-heading" className="sr-only">Logic Study</p>
+            </header>
+          </section>
+          <section className="uni-text-color">
+            <h1>علم المنطق والأخطاء المنطقية</h1>
+            <p>
+              مجموعة من الدراسات في علم المنطق بالإضافة إلى تقديم أشهر المعالطات والأخطاء المنطقية مع أمثلة تطبيقية عن استخدامها في سياق الجدلات التي يتم تقديمها ضد الكتاب المقدس والسرد التوراتي عن الخلق.
+            </p>
+          </section>
+          <section>
+            <Suspense fallback={<div>Loading...</div>}>
+              <CardList articles={articles} />
+            </Suspense>
+          </section>
+        </div>
+      </main>
     </>
   );
 }

@@ -34,12 +34,12 @@ export const getMailOptions = (to) => {
  * Retrieves the HTML template for a given mail template.
  *
  * @param {string} template_name - The name of the template.
- * @param {string} [template_folder_path="/src/utils/libraries/email-templates"] - The folder path where the templates are located.
+ * @param {string} [template_folder_path="/src/assets/email-templates"] - The folder path where the templates are located.
  * @returns {string} The HTML template string.
  */
 export function getMailHtmlTemplate(
   template_name,
-  template_folder_path = "/src/utils/libraries/email-templates"
+  template_folder_path = "/src/assets/email-templates"
 ) {
   const template_path = path.join(
     cwd(),
@@ -54,12 +54,12 @@ export function getMailHtmlTemplate(
  * Retrieves the text template for a given mail.
  *
  * @param {string} template_name - The name of the template.
- * @param {string} [template_folder_path="/src/utils/libraries/email-templates"] - The folder path where the templates are located.
+ * @param {string} [template_folder_path="/src/assets/email-templates"] - The folder path where the templates are located.
  * @returns {string} The template string.
  */
 export function getMailTextTemplate(
   template_name,
-  template_folder_path = "/src/utils/libraries/email-templates"
+  template_folder_path = "/src/assets/email-templates"
 ) {
   const template_path = path.join(
     cwd(),

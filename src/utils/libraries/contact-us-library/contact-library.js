@@ -5,9 +5,8 @@ import {
   getMailHtmlTemplate,
   getMailTextTemplate,
 } from "@/utils/libraries/mailing/nodemailer";
-import { cwd } from "process";
 
-const templates_folder_path = "/src/utils/libraries/email-templates";
+const templates_folder_path = "/src/assets/email-templates";
 
 export const sendContactMail = async (data) => {
   const template_html_string = getMailHtmlTemplate(

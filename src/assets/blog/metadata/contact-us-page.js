@@ -1,13 +1,14 @@
 import metadataHost from "@/assets/blog/metadata/metadata-variables";
 export default function contactUsMetadata() {
+  const title = "اتصل بنا | سبب الرجاء";
+  const description =
+    "يمكنكم التواصل معنا وطرح تساؤلاتكم واستفساراتكم فيما يتعلق بمنشوراتنا، كما يمكنكم وضع اقتراحاتكم لتحسين الخدمة المقدمة.";
   return {
-    title: "اتصل بنا | سبب الرجاء",
-    description:
-      "يمكنكم التواصل معنا وطرح تساؤلاتكم واستفساراتكم فيما يتعلق بمنشوراتنا، كما يمكنكم وضع اقتراحاتكم لتحسين الخدمة المقدمة.",
+    title: title,
+    description: description,
     openGraph: {
-      title: "اتصل بنا | سبب الرجاء",
-      description:
-        "يمكنكم التواصل معنا وطرح تساؤلاتكم واستفساراتكم فيما يتعلق بمنشوراتنا، كما يمكنكم وضع اقتراحاتكم لتحسين الخدمة المقدمة.",
+      title: title,
+      description: description,
       url: `${metadataHost}/contact-us`,
       images: [
         {

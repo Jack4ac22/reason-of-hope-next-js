@@ -1,5 +1,7 @@
 "use client";
 import { useState } from "react";
+import { CgDarkMode } from "react-icons/cg";
+import { HiSun } from "react-icons/hi";
 export default function DarkModeSwitch({ children }) {
   const [darkMode, setDarkMode] = useState(false);
   const toggleDarkMode = () => {
@@ -7,16 +9,12 @@ export default function DarkModeSwitch({ children }) {
   };
   return (
     <>
-      <div className={`${darkMode && "dark"}`}>
+      <div className={`${darkMode && "dark"} relative`}>
         {children}
-        <div className="m-3 mx-auto">
-          <div className="relative" onClick={toggleDarkMode}>
-            <div className="block border-[1px] dark:border-lightAccent-500 border-darkAccent-500 w-14 h-8 rounded-full"></div>
-            <div
-              className={`dot absolute right-1 dark:right-7 top-1 dark:bg-lightAccent-500 bg-darkAccent-500 w-6 h-6 rounded-full transition duration-200`}
-            ></div>
-          </div>
-        </div>
+        
+        <button onClick={toggleDarkMode} className="absolute left-3 bottom-0">
+        {darkMode ? <HiSun className="text-3xl text-yellow-500" /> : <CgDarkMode className="text-3xl text-gray-500" />}
+        </button>
       </div>
     </>
   );

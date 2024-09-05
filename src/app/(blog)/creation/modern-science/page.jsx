@@ -6,9 +6,9 @@ export default function ModernScincePage() {
   return (
     <>
       <h1>Modern SCince Page (WIP)</h1>
-<Suspense fallback={<div>Loading...</div>}>
-            <CardList articles={articles} />
-          </Suspense>
+      <Suspense fallback={<div>Loading...</div>}>
+        <CardList articles={articles} />
+      </Suspense>
     </>
   );
 }

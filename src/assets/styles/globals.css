@@ -6,6 +6,10 @@
   @apply max-w-6xl mx-auto text-center px-10;
 }
 
+.page-main-container {
+  @apply max-w-4xl h-full mx-4 text-center;
+}
+
 .button-container {
   @apply flex flex-col justify-center w-full space-y-6 text-xl text-white md:flex-row md:space-y-0 md:space-x-4;
 }

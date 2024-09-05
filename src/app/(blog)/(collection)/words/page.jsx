@@ -7,7 +7,7 @@ export default function WordsPage() {
   const articles = getArticlesByCategory("كلمة-ورسالة");
   return (
     <main className="flex flex-col flex-wrap justify-center items-center content-center" aria-label="Words Study">
-      <div className="max-w-2xl h-full mx-4 text-center">
+      <div className="page-main-container">
         <section aria-labelledby="article-heading">
           <header>
             <p id="page-heading" className="sr-only">Words Study</p>

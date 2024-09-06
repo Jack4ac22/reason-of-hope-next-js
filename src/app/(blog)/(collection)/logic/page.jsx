@@ -8,7 +8,7 @@ export default function LogicPage() {
 
   return (
     <>
-      <main className="flex flex-col flex-wrap justify-center items-center content-center" aria-label="Logic Studies">
+      <main className="flex flex-col flex-wrap justify-center items-center content-center page-main-container" aria-label="Logic Studies">
         <div className="page-main-container">
           <section aria-labelledby="article-heading">
             <header>

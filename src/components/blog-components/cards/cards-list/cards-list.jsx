@@ -41,7 +41,7 @@ export default function CardList({ articles }) {
           {/* order articles */}
           <div className="flex justify-center items-center">
             <label htmlFor="order" className="mx-2">ترتيب حسب:</label>
-            <select id="order" name="order" value={order} onChange={(e) => handleOrderChange(e.target.value)} className="mx-2">
+            <select className="card-list-select uni-background uni-text-color" id="order" name="order" value={order} onChange={(e) => handleOrderChange(e.target.value)}>
               <option value="latest" defaultValue={order === "latest"}>الأحدث</option>
               <option value="oldest" defaultValue={order === "oldest"}>الأقدم</option>
               <option value="title" defaultValue={order === "title"}>العنوان</option>
@@ -50,14 +50,14 @@ export default function CardList({ articles }) {
           {/* number of articles per page */}
           <div className="flex justify-center items-center">
             <label htmlFor="per-page" className="mx-2">عدد المقالات في الصفحة:</label>
-            <select id="per-page" name="per-page" value={articles_per_page} onChange={(e) => handlePerPageChange(e.target.value)} className="mx-2">
+            <select className="card-list-select" id="per-page" name="per-page" value={articles_per_page} onChange={(e) => handlePerPageChange(e.target.value)} >
               {per_page_options.map((option, index) => (
                 <option key={index} value={option} defaultValue={articles_per_page === option}>{option}</option>
               ))}
             </select>
           </div>
           {/* articles cards */}
-          <div className="flex flex-wrap justify-around items-center">
+          <div className="flex flex-wrap justify-around items-center w-full">
             {current_articles.map((article, index) => (
               <ArticleCard key={`${index}_${article.slug}`} article={article} />
             ))}

@@ -83,6 +83,7 @@ module.exports = {
         slideUp: "slideUp 1s ease-in-out",
         appearAndWiggle:
           "wigle 1s ease-in-out, slideDownAndAppear 1s ease-in-out",
+          smoothlyAppear: "smoothlyAppear 1s ease-in-out",
       },
       keyframes: {
         wigle: {
@@ -104,6 +105,10 @@ module.exports = {
         slideUp: {
           "0%": { transform: "translateY(100%)" },
           "100%": { transform: "translateY(0)" },
+        },
+        smoothlyAppear: {
+          "0%": { opacity: 0 },
+          "100%": { opacity: 1 },
         },
       },
       spacing: {

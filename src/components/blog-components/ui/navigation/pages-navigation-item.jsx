@@ -9,7 +9,7 @@ export default function PageNavigationItem({ item }) {
   const path = usePathname();
 
   return (
-    <div className={`flex flex-col items-center justify-center ${path === item.href ? ' hidden ' : ''}`} >
+    <div className={`flex flex-col items-center justify-center ${path === item.href ? '  ' : ''}`} >
       <Link href={item.href} >
         <Image src={item.logo} alt={item.title} className="w-20 h-20 md:w-24 md:h-24" />
         <span className="sr-only">{item.title}</span>

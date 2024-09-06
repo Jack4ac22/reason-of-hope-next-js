@@ -2,12 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+.page-width {
+  @apply 2xl:max-w-6xl ;
+}
+
 .section-container {
   @apply max-w-6xl mx-auto text-center px-10;
 }
 
 .page-main-container {
-  @apply max-w-4xl h-full mx-4 text-center;
+  @apply max-w-6xl h-full mx-4 text-center;
 }
 
 .button-container {
@@ -29,6 +33,19 @@
 .uni-text-color {
   @apply text-darkAccent-800 dark:text-darkAccent-100;
 }
+
+.card-list-select {
+  @apply block px-4 py-2 mt-2 rounded-md mx-2 uni-background;
+}
+
+.card-list-select option {
+  @apply uni-text-color;
+}
+
+.page-navigation {
+  @apply flex flex-wrap items-center justify-center page-width
+}
+
 
 @layer base {
   body footer {

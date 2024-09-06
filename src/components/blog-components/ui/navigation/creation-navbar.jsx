@@ -47,7 +47,7 @@ export default function CreationNavbar() {
   ]
 
   return (
-    <nav className='flex flex-wrap items-center justify-center'>
+    <nav className='page-navigation'>
       {menue.map((item, index) => (
         <PageNavigationItem key={`${index}-${item.title}`} item={item} />
       ))}

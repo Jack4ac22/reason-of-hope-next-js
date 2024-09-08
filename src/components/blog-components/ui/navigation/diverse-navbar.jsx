@@ -2,7 +2,10 @@
 import { usePathname } from "next/navigation";
 import PageNavigationItem from "@/components/blog-components/ui/navigation/pages-navigation-item";
 
-import placeholderLogo from "@/assets/images/blog/icons/www.png"
+import diverse from "@/assets/images/blog/icons/diverse.png"
+import logic from "@/assets/images/blog/icons/logic.png"
+import studies from "@/assets/images/blog/icons/studies.png"
+import words from "@/assets/images/blog/icons/words.png"
 export default function DiverseNavbar() {
   const path = usePathname();
   const menue = [
@@ -10,25 +13,25 @@ export default function DiverseNavbar() {
       title: "diverse",
       arabic_title: "متفرقات",
       href: "/diverse",
-      logo: placeholderLogo
+      logo: diverse
     },
     {
       title: "logic",
       arabic_title: "المنطق",
       href: "/logic",
-      logo: placeholderLogo
+      logo: logic
     },
     {
       title: "studies",
       arabic_title: "الدراسات",
       href: "/studies",
-      logo: placeholderLogo
+      logo: studies
     },
     {
       title: "words",
       arabic_title: "الكلمة والرسالة",
       href: "/words",
-      logo: placeholderLogo
+      logo: words
     },
   ]
   return (

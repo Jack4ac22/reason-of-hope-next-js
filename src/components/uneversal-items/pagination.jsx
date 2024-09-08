@@ -26,7 +26,7 @@ export default function ListPagination({ articles, perPage, page }) {
         {/* all the pages, mapping the total pages */}
         <div className="flex justify-center items-cente flex-wrap">
           {Array.from({ length: total_pages }, (_, i) => i + 1).map((item, index) => (
-            <button key={index} className={`pagination-item ${current_page === item ? ' underline ' : ''}`} onClick={() => handlePageChange(item)} >{item}</button>
+            <button key={index} className={`pagination-item ${current_page === item ? ' underline ' : ''}`} onClick={() => handlePageChange(item)} disabled={current_page === total_pages}>{item}</button>
           ))}
         </div>
 

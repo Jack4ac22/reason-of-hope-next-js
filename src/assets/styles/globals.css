@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .page-width {
-  @apply 2xl:max-w-6xl ;
+  @apply 2xl:max-w-7xl;
 }
 
 .section-container {
@@ -43,9 +43,12 @@
 }
 
 .page-navigation {
-  @apply flex flex-wrap items-center justify-center page-width
+  @apply flex flex-wrap items-center justify-center page-width;
 }
 
+.pagination-item {
+  @apply px-4 py-2 mx-2 rounded-md uni-background uni-text-color disabled:text-gray-700 dark:disabled:text-gray-500;   
+}
 
 @layer base {
   body footer {

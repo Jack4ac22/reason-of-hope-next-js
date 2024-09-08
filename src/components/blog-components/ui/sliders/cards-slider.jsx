@@ -36,7 +36,7 @@ export default function CardSlider({ articles }) {
           </button>
           <button
             className="absolute top-48 left-1 hover:animate-pulse hover:text-darkAccent-500 z-50"
-            onClick={handlePrevSlide}
+            onClick={handleNextSlide}
             aria-label="Previous slide"
           >
             <FaArrowAltCircleLeft />

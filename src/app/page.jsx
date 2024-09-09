@@ -5,7 +5,7 @@ export default function Home() {
   const articles = getAllArticlesData().slice(0, 4);
   return (
     <>
-    <CardSlider articles={articles} />
+      <CardSlider articles={articles} />
       <div className="flex flex-3 flex-wrap justify-center items-center content-center gap-2 md:gap-3 lg:gap-4">
         {articles.map((article) => (
           <ArticleCard key={article.slug} article={article} />

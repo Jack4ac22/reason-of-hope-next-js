@@ -1,15 +1,16 @@
-import { Suspense } from "react";
 import { getArticlesByCategory } from "@/utils/blog/articles-functions";
-import CardList from "@/components/blog-components/cards/cards-list/cards-list";
 import BiblicalWorldPageMetadata from "@/assets/blog/metadata/biblical-world";
+import CardList from "@/components/blog-components/cards/cards-list/cards-list";
+import CardsListSkeleton from "@/components/blog-components/skeltons/card-list-skelton";
+import{Suspense}from"react";
 
 export const metadata = BiblicalWorldPageMetadata;
 export default function BiblicalWorldPage() {
   const articles = getArticlesByCategory("العالم-التوراتي");
   return (
     <>
-      <main className="flex flex-col flex-wrap justify-center items-center content-center" aria-label="Biblical World">
-        <div className="page-main-container">
+      <main className="page-main" aria-label="Biblical World">
+        <div className="page-layer-container">
           <section aria-labelledby="article-heading">
             <header>
               <p id="page-heading" className="sr-only">Biblical World</p>
@@ -26,7 +27,7 @@ export default function BiblicalWorldPage() {
               تتضمن هذه الفئة مجموعة المقالات والدراسات المرتبطة بالتاريخ المسجل في الكتاب المقدس، بالإضافة إلى الدراسات المرتبطة بقضية طوفان سفر التكوين وفلك نوح. سيتم إرفاق الموضوعات المرتبطة بالمواقع الجغرافية وسواها مع هذه المجموعة.</p>
           </section>
           <section>
-            <Suspense fallback={<div>Loading...</div>}>
+            <Suspense fallback={<CardsListSkeleton />}>
               <CardList articles={articles} />
             </Suspense>
           </section>

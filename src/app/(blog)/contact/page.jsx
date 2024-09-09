@@ -1,12 +1,12 @@
-import ContactUsForm from "@/components/contact-us/contact-form"
 import { contactUs } from "@/utils/actions/contact/contact-us-actions";
+import ContactUsForm from "@/components/contact-us/contact-form"
 import contactUsMetadata from "@/assets/blog/metadata/contact-us-page";
 
 export const metadata = contactUsMetadata
 export default function ContactPage() {
   return (
     <>
-      <main className="flex flex-col flex-wrap justify-center items-center content-center" aria-label="Contact Us Page">
+      <main className="page-main" aria-label="Contact Us Page">
         <section className="w-full max-w-xl h-full mx-4" aria-labelledby="article-heading">
           <h1 id="article-heading" className="sr-only">Contact Us Page</h1>
           <header className="flex flex-col items-center justify-center uni-text-color">

@@ -36,7 +36,7 @@ export default function CardSlider({ articles }) {
   return (
     <>
       {/* slider container */}
-      <div className="w-72 h-96 m-2 border-2 relative" aria-live="polite">
+      <div className="w-72 h-96 m-2 relative" aria-live="polite">
         {/* Slider navigation */}
         <div className="flex justify-between items-center uni-text-color text-2xl">
           <button

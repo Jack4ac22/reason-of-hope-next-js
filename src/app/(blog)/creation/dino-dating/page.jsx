@@ -1,6 +1,7 @@
-import { Suspense } from "react";
 import { getArticlesByCategory } from "@/utils/blog/articles-functions";
+import { Suspense } from "react";
 import CardList from "@/components/blog-components/cards/cards-list/cards-list";
+import CardsListSkeleton from "@/components/blog-components/skeltons/card-list-skelton";
 import DinoDatingPageMetadata from "@/assets/blog/metadata/dino-dating";
 
 export const metadata = DinoDatingPageMetadata;
@@ -8,8 +9,8 @@ export const metadata = DinoDatingPageMetadata;
 export default function DinoDatingPage() {
   const articles = getArticlesByCategory("الديناصورات-والتأريخ");
   return (
-    <main className="flex flex-col flex-wrap justify-center items-center content-center" aria-label="The Dinosaurs and Dating methods">
-      <div className="page-main-container">
+    <main className="page-main" aria-label="The Dinosaurs and Dating methods">
+      <div className="page-layer-container">
         <section aria-labelledby="article-heading">
           <header>
             <p id="page-heading" className="sr-only">The Dinosaurs and Dating method</p>
@@ -30,7 +31,7 @@ export default function DinoDatingPage() {
           </p>
         </section>
         <section>
-          <Suspense fallback={<div>Loading...</div>}>
+          <Suspense fallback={<CardsListSkeleton />}>
             <CardList articles={articles} />
           </Suspense>
         </section>

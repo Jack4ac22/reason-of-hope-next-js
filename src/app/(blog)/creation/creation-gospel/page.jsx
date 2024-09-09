@@ -1,6 +1,7 @@
-import { Suspense } from "react";
 import { getArticlesByCategory } from "@/utils/blog/articles-functions";
+import { Suspense } from "react";
 import CardList from "@/components/blog-components/cards/cards-list/cards-list";
+import CardsListSkeleton from "@/components/blog-components/skeltons/card-list-skelton";
 import CreationGospelPageMetadata from "@/assets/blog/metadata/creation-gospel";
 
 export const metadata = CreationGospelPageMetadata;
@@ -8,8 +9,8 @@ export default function CreationGospelPage() {
   const articles = getArticlesByCategory("الكتاب-المقدس-والإنجيل");
   return (
     <>
-      <main className="flex flex-col flex-wrap justify-center items-center content-center" aria-label="The Gospel and the Bibel">
-        <div className="page-main-container">
+      <main className="page-main" aria-label="The Gospel and the Bibel">
+        <div className="page-layer-container">
           <section aria-labelledby="article-heading">
             <header>
               <p id="page-heading" className="sr-only">The Gospel and the Bible</p>
@@ -27,7 +28,7 @@ export default function CreationGospelPage() {
             </p>
           </section>
           <section>
-            <Suspense fallback={<div>Loading...</div>}>
+            <Suspense fallback={<CardsListSkeleton />}>
               <CardList articles={articles} />
             </Suspense>
           </section>

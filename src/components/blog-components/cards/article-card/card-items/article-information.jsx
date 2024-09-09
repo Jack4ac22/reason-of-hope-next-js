@@ -15,8 +15,8 @@ export default function ArticleInformation({ article }) {
         </div>
 
         {/* publication date */}
-        <div className="flex items-start justify-start">
-          <p className="information-card-text">
+        <div className="flex items-start justify-start information-card-text">
+          <p className="">
             <span>تاريخ النشر: </span>
             <span>{new Date(article.date).toLocaleDateString('ar-SY')}</span>
           </p>
@@ -25,7 +25,7 @@ export default function ArticleInformation({ article }) {
         {/* authors */}
         {article.authors && article.authors.length > 0 &&
           (<div className="flex items-center justify-center">
-            <p className="information-card-text">
+            <p className="">
               <span> {(article.authors.length == 1) ? 'المؤَلِّف: ' : 'المؤلِّفون: '
               } </span>
               {article.authors.map((author, index) => (
@@ -40,7 +40,7 @@ export default function ArticleInformation({ article }) {
         {/* categories */}
         {article.categories && article.categories.length > 0 &&
           (<div className="flex items-center justify-center">
-            <p className="information-card-text">
+            <p className="">
               <span>{article.categories.length == 1 ? "القسم: " : "الأقسام: "}</span>
               {article.categories.map((category, index) => (
                 <span key={category + index}>
@@ -55,7 +55,7 @@ export default function ArticleInformation({ article }) {
         {/* tags */}
         {article.tags && article.tags.length > 0 &&
           (<div className="flex items-center justify-center">
-            <p className="information-card-text">
+            <p className="">
               <span>الوسوم: </span>
               {article.tags.map((tag, index) => (
                 <span key={tag + index}>
@@ -77,7 +77,8 @@ export default function ArticleInformation({ article }) {
           </div>)
         }
 
-
+        {/* TODO: add the links to download, listen and watch */}
+        
       </div>
     </>
   );

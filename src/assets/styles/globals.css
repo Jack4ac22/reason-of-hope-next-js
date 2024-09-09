@@ -6,20 +6,12 @@
   @apply 2xl:max-w-7xl;
 }
 
-.section-container {
-  @apply max-w-6xl mx-auto text-center px-10;
+.page-main {
+  @apply flex flex-col flex-wrap justify-start items-center content-center;
 }
 
-.page-main-container {
-  @apply max-w-6xl h-full mx-4 text-center;
-}
-
-.button-container {
-  @apply flex flex-col justify-center w-full space-y-6 text-xl text-white md:flex-row md:space-y-0 md:space-x-4;
-}
-
-.resource-link {
-  @apply text-mainBrand-500 bg-lightShade-800 inline-flex py-2 px-1 rounded-lg items-center hover:bg-lightShade-500/80 focus:outline-none;
+.page-layer-container {
+  @apply max-w-7xl h-full mx-4 text-center;
 }
 
 .information-card-text {
@@ -47,7 +39,7 @@
 }
 
 .pagination-item {
-  @apply px-4 py-2 mx-2 rounded-md uni-background uni-text-color disabled:text-gray-700 dark:disabled:text-gray-500;   
+  @apply px-4 py-2 mx-2 rounded-md uni-background uni-text-color disabled:text-gray-700 dark:disabled:text-gray-500;
 }
 
 @layer base {

@@ -4,6 +4,7 @@ import { useRouter, usePathname, useSearchParams } from "next/navigation";
 import DisplayedCards from "@/components/blog-components/cards/cards-list/list-components/cards";
 import DropDownOption from "@/components/uneversal-items/dropdown-option";
 import ListPagination from "@/components/uneversal-items/pagination";
+import CardsListSkeleton from "@/components/blog-components/skeltons/card-list-skelton";
 
 export default function CardList({ articles }) {
   const orderOptions = ["latest", "oldest", "title"];
@@ -34,7 +35,8 @@ export default function CardList({ articles }) {
   return (
     <section className="mt-6 uni-text-color">
       <p className="sr-only">Articles</p>
-      <Suspense fallback={<div>Loading...</div>}>
+      <Suspense fallback={<CardsListSkeleton />
+      }>
         <div className="mx-4 border-4 rounded-xl">
           {/* order articles */}
           <DropDownOption option_name="order" option_lable="ترتيب حسب:" options={[{ "value": "latest", "label": "الأحدث" }, { "value": "oldest", "label": "الأقدم" }, { "value": "title_asc", "label": "العنوان تصاعدي" }, { "value": "title_dsc", "label": "العنوان تنازلي" }]} />

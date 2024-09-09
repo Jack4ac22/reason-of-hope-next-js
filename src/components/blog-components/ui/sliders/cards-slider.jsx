@@ -1,26 +1,38 @@
 'use client';
 import { useState, useEffect } from "react";
+import { randomArticlesFromArray } from "@/utils/blog/general-functions";
 import ArticleCard from "@/components/blog-components/cards/article-card/article-card";
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft, FaDotCircle } from "react-icons/fa";
 
+/**
+ * Renders a card slider component.
+ *
+ * @component
+ * @param {Object[]} articles - The array of articles to display in the slider.
+ * @returns {JSX.Element} The card slider component.
+ */
 export default function CardSlider({ articles }) {
-  const slicedArticles = articles.slice(0, 5);
+
+  const slicedArticles = articles?.length > 5 ? randomArticlesFromArray(articles, 5) : articles;
+
   function handleNextSlide() {
-    setCurrentIndex((currentIndex + 1) % articles.length);
+    setCurrentIndex((currentIndex + 1) % slicedArticles.length);
   }
 
   function handlePrevSlide() {
-    setCurrentIndex((currentIndex - 1 + articles.length) % articles.length);
+    setCurrentIndex((currentIndex - 1 + slicedArticles.length) % slicedArticles.length);
   }
 
   let [currentIndex, setCurrentIndex] = useState(1);
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentIndex((currentIndex + 1) % articles.length);
+      setCurrentIndex((currentIndex + 1) % slicedArticles.length);
     }, 5000);
     return () => clearInterval(interval);
-  }, [currentIndex, articles.length]);
+  }, [currentIndex, slicedArticles.length]);
+
+
   return (
     <>
       {/* slider container */}
@@ -29,7 +41,7 @@ export default function CardSlider({ articles }) {
         <div className="flex justify-between items-center uni-text-color text-2xl">
           <button
             className="absolute top-48 right-1 hover:animate-pulse hover:text-darkAccent-500 z-50"
-            onClick={handleNextSlide}
+            onClick={handlePrevSlide}
             aria-label="Next slide"
           >
             <FaArrowAltCircleRight />
@@ -46,7 +58,7 @@ export default function CardSlider({ articles }) {
         {/* lower navigation container */}
         <div className="absolute bottom-0 mx-auto w-full z-50">
           <div className="flex justify-center items-center p-1 mx-auto">
-            {articles.map((article, index) => (
+            {slicedArticles.map((article, index) => (
               <button
                 key={index}
                 onClick={() => setCurrentIndex(index)}
@@ -65,7 +77,7 @@ export default function CardSlider({ articles }) {
 
         {/* Slider */}
         <div className="flex justify-center items-center -z-50">
-          {articles.map((article, index) => (
+          {slicedArticles.map((article, index) => (
             index === currentIndex && (
               <div key={`${index}-${article?.title}`} className="animate-smoothlyAppear">
                 <ArticleCard article={article} />

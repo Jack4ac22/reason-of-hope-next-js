@@ -1,15 +1,15 @@
-import { getArticlesByCategory } from "@/utils/blog/articles-functions";
 import { Suspense } from "react";
+import { getArticlesByCategory } from "@/utils/blog/articles-functions";
 import CardList from "@/components/blog-components/cards/cards-list/cards-list";
-import CardsListSkeleton from "@/components/blog-components/skeltons/card-list-skelton";
+
 
 export default function LogicPage() {
   const articles = getArticlesByCategory("المنطق");
 
   return (
     <>
-      <main className="page-main" aria-label="Logic Studies">
-        <div className="page-layer-container">
+      <main className="flex flex-col flex-wrap justify-center items-center content-center page-main-container" aria-label="Logic Studies">
+        <div className="page-main-container">
           <section aria-labelledby="article-heading">
             <header>
               <p id="page-heading" className="sr-only">Logic Study</p>
@@ -22,8 +22,7 @@ export default function LogicPage() {
             </p>
           </section>
           <section>
-            <Suspense fallback={<CardsListSkeleton />
-            }>
+            <Suspense fallback={<div>Loading...</div>}>
               <CardList articles={articles} />
             </Suspense>
           </section>

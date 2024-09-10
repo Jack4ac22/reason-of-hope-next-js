@@ -6,6 +6,7 @@ import diverse from "@/assets/images/blog/icons/diverse.png"
 import logic from "@/assets/images/blog/icons/logic.png"
 import studies from "@/assets/images/blog/icons/studies.png"
 import words from "@/assets/images/blog/icons/words.png"
+import devotions from "@/assets/images/blog/icons/devotions.png"
 export default function DiverseNavbar() {
   const path = usePathname();
   const menue = [
@@ -33,6 +34,12 @@ export default function DiverseNavbar() {
       href: "/words",
       logo: words
     },
+    {
+      title: "devotions",
+      arabic_title: "التأملات",
+      href: "/devotions",
+      logo: devotions
+    }
   ]
   return (
     <nav className='page-navigation'>

@@ -1,9 +1,33 @@
-export default function DevotionsPage() {
+import { getArticlesByCategory } from "@/utils/blog/articles-functions";
+import { Suspense } from "react";
+import CardList from "@/components/blog-components/cards/cards-list/cards-list";
+import CardsListSkeleton from "@/components/blog-components/skeltons/card-list-skelton";
+
+export default function LogicPage() {
+  const articles = getArticlesByCategory("تأملات");
   return (
-    <main className="page-main" aria-label="diverse Page">
-      <section className="w-full max-w-xl h-full mx-4" aria-labelledby="article-heading">
-        <div>DEVOTIONS PAGE WIP</div>
-      </section>
-    </main>
+    <>
+      <main className="page-main" aria-label="Devotions">
+        <div className="page-layer-container">
+          <section aria-labelledby="article-heading">
+            <header>
+              <p id="page-heading" className="sr-only">Devotions</p>
+            </header>
+          </section>
+          <section className="uni-text-color">
+            <h1>تأملات</h1>
+            <p>
+              مجموعة من التأملات في بعض النصوص والمواضيع الكتابية لاستخلاص العِبر والبحث في تطبيقاتها على حياتنا اليومية.
+            </p>
+          </section>
+          <section>
+            <Suspense fallback={<CardsListSkeleton />
+            }>
+              <CardList articles={articles} />
+            </Suspense>
+          </section>
+        </div>
+      </main>
+    </>
   );
 }

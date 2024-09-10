@@ -30,6 +30,7 @@ export function getArticlesDirectories(contentFolder = articlesFolder) {
       "publications",
       "word",
       "biblical-studies",
+      "devotions",
     ];
   }
 }

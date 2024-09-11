@@ -2,6 +2,7 @@ import { Suspense } from "react";
 import { getArticlesByCategory } from "@/utils/blog/articles-functions";
 import CardList from "@/components/blog-components/cards/cards-list/cards-list";
 import LogicPageMetadata from "@/assets/blog/metadata/logic";
+import CardsListSkeleton from "@/components/blog-components/skeltons/card-list-skelton";
 
 export const metadata = LogicPageMetadata;
 
@@ -24,7 +25,7 @@ export default function LogicPage() {
             </p>
           </section>
           <section>
-            <Suspense fallback={<div>Loading...</div>}>
+          <Suspense fallback={<CardsListSkeleton />}>
               <CardList articles={articles} />
             </Suspense>
           </section>

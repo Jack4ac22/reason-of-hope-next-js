@@ -9,28 +9,25 @@ export default function ChristianStudiesPage() {
   const articles = getArticlesByCategory("دراسات-كتابية");
 
   return (
-    <>
-      <main className="page-main" aria-label="Biblical Studies">
-        <div className="page-layer-container">
-          <section aria-labelledby="article-heading">
-            <header>
-              <p id="page-heading" className="sr-only">Biblical Study</p>
-            </header>
-          </section>
-          <section className="uni-text-color">
-            <h1 >
-              دراسات كتابية
-            </h1>
-            <p>مجموعة من الدراسات التي تتناول عدداً من المواضيع المرتبطة بالكتاب المقدس. وتهدف هذه الدراسات إلى مناقشة عدد من المواضيع الحياتية الإيمانية من خلال النظر إليها باستخدام عدسة الكتاب المقدس، والهدف: تحفيز القارئ لإعادة النظر في بعض الممارسات أو تقييم بعض المعتقدات لرفض الخاطئ منها والتيقن من السليم.</p>
-          </section>
-          <section>
-            <Suspense fallback={<CardsListSkeleton />}>
-              <CardList articles={articles} />
-            </Suspense>
-          </section>
-        </div>
-      </main>
-    </>
-
+    <main className="page-main" aria-label="Biblical Studies">
+      <div className="page-layer-container">
+        <section aria-labelledby="article-heading">
+          <header>
+            <p id="page-heading" className="sr-only">Biblical Study</p>
+          </header>
+        </section>
+        <section className="uni-text-color">
+          <h1 >
+            دراسات كتابية
+          </h1>
+          <p>مجموعة من الدراسات التي تتناول عدداً من المواضيع المرتبطة بالكتاب المقدس. وتهدف هذه الدراسات إلى مناقشة عدد من المواضيع الحياتية الإيمانية من خلال النظر إليها باستخدام عدسة الكتاب المقدس، والهدف: تحفيز القارئ لإعادة النظر في بعض الممارسات أو تقييم بعض المعتقدات لرفض الخاطئ منها والتيقن من السليم.</p>
+        </section>
+        <section>
+          <Suspense fallback={<CardsListSkeleton />}>
+            <CardList articles={articles} />
+          </Suspense>
+        </section>
+      </div>
+    </main>
   );
 }

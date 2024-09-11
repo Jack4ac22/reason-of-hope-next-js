@@ -4,6 +4,8 @@ import { randomArticlesFromArray } from "@/utils/blog/general-functions";
 import ArticleCard from "@/components/blog-components/cards/article-card/article-card";
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft, FaDotCircle } from "react-icons/fa";
 
+
+
 /**
  * Renders a card slider component.
  *

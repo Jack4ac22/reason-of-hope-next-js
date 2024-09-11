@@ -42,6 +42,10 @@
   @apply px-4 py-2 mx-2 rounded-md uni-background uni-text-color disabled:text-gray-700 dark:disabled:text-gray-500;
 }
 
+.section-link {
+  @apply text-mainBrand-600 dark:text-mainBrand-200 border-b-2 hover:text-mainBrand-800 hover:dark:text-mainBrand-100 duration-200;
+}
+
 @layer base {
   body footer {
     @apply text-darkAccent-800 dark:text-darkAccent-100 bg-lightShade-200 dark:bg-darkAccent-800;

@@ -1,20 +1,20 @@
 import metadataHost from "@/assets/blog/metadata/metadata-variables";
-export default function BiblicalStudiesPageMetadata() {
-  const title = "دراسات كتابية";
-  const description = `مجموعة من الدراسات التي تتناول عدداً من المواضيع المرتبطة بالكتاب المقدس. وتهدف هذه الدراسات إلى مناقشة عدد من المواضيع الحياتية الإيمانية من خلال النظر إليها باستخدام عدسة الكتاب المقدس، والهدف: تحفيز القارئ لإعادة النظر في بعض الممارسات أو تقييم بعض المعتقدات لرفض الخاطئ منها والتيقن من السليم.`;
+export default function LogicPageMetadata() {
+  const title = "المنطق";
+  const description = `مجموعة من الدراسات في علم المنطق بالإضافة إلى تقديم أشهر المعالطات والأخطاء المنطقية مع أمثلة تطبيقية عن استخدامها في سياق الجدلات التي يتم تقديمها ضد الكتاب المقدس والسرد التوراتي عن الخلق.`;
   return {
     title: title,
     description: description,
     openGraph: {
       title: title,
       description: description,
-      url: `${metadataHost}/studies`,
+      url: `${metadataHost}/logic`,
       images: [
         {
-          url: `${metadataHost}/blog_pages_covers/biblical-studies-cover-image.webp`,
+          url: `${metadataHost}/blog_pages_covers/logic-cover-image.webp`,
           width: 1024,
           height: 1024,
-          alt: "Cover Image for studies page.",
+          alt: "Cover Image for logic page.",
         },
       ],
       type: "website",

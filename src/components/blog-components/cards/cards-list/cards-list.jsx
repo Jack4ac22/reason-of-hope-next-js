@@ -1,5 +1,5 @@
 'use client';
-import { Suspense, useCallback, useEffect, useState } from 'react'
+import { Suspense } from 'react'
 import { useRouter, usePathname, useSearchParams } from "next/navigation";
 import DisplayedCards from "@/components/blog-components/cards/cards-list/list-components/cards";
 import DropDownOption from "@/components/uneversal-items/dropdown-option";
@@ -37,7 +37,7 @@ export default function CardList({ articles }) {
       <p className="sr-only">Articles</p>
       <Suspense fallback={<CardsListSkeleton />
       }>
-        <div className="mx-4 border-4 rounded-xl">
+        <div className="mx-4 border-4 rounded-xl page-layer-container">
           {/* order articles */}
           <DropDownOption option_name="order" option_lable="ترتيب حسب:" options={[{ "value": "latest", "label": "الأحدث" }, { "value": "oldest", "label": "الأقدم" }, { "value": "title_asc", "label": "العنوان تصاعدي" }, { "value": "title_dsc", "label": "العنوان تنازلي" }]} />
           {/* number of articles per page */}

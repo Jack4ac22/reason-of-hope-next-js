@@ -19,12 +19,6 @@ RUN npm run build
 # Use a lighter image to run the app
 FROM node:18-alpine AS runner
 
-# Set environment variables
-ENV NODE_ENV production
-
-# Set the working directory
-WORKDIR /app
-
 # Copy the build from the builder
 COPY --from=builder /app/public ./public
 COPY --from=builder /app/.next ./.next

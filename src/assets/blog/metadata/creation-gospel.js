@@ -9,13 +9,13 @@ export default function CreationGospelPageMetadata() {
     openGraph: {
       title: title,
       description: description,
-      url: `${metadataHost}/words`,
+      url: `${metadataHost}/creation/creation-gospel`,
       images: [
         {
           url: `${metadataHost}/blog_pages_covers/creation-gospel-cover-image.webp`,
           width: 1024,
           height: 1024,
-          alt: "Cover Image for",
+          alt: "Cover Image for Creation Gospel Page",
         },
       ],
       type: "website",

@@ -9,13 +9,13 @@ export default function BiblicalWorldPageMetadata() {
     openGraph: {
       title: title,
       description: description,
-      url: `${metadataHost}/words`,
+      url: `${metadataHost}/creation/biblical-world`,
       images: [
         {
           url: `${metadataHost}/blog_pages_covers/biblical-world-cover-image.webp`,
           width: 1024,
           height: 1024,
-          alt: "Cover Image for",
+          alt: "Cover Image for Biblical World Page",
         },
       ],
       type: "website",

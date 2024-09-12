@@ -4,7 +4,7 @@ import metadataHost from "@/assets/blog/metadata/metadata-variables";
 export default function gospelMetadata() {
   return {
     title: page.title,
-    description: "page.description",
+    description: page.description,
     openGraph: {
       title: page.title,
       description: page.description,

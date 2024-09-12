@@ -14,7 +14,7 @@ export default function DevotionsPageMetadata() {
           url: `${metadataHost}/blog_pages_covers/devotions-cover-image.webp`,
           width: 1024,
           height: 1024,
-          alt: "Cover Image for diverse page.",
+          alt: "Cover Image for devotions page.",
         },
       ],
       type: "website",

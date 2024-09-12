@@ -12,7 +12,7 @@ export default function contactUsMetadata() {
       url: `${metadataHost}/contact-us`,
       images: [
         {
-          url: `${metadataHost}/blog-pages-covers/contact-us-cover-image.webp`,
+          url: `${metadataHost}/blog_pages_covers/contact-us-cover-image.webp`,
           width: 800,
           height: 600,
           alt: "Cover Image for",

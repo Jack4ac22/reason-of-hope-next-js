@@ -5,7 +5,6 @@ import CardsListSkeleton from "@/components/blog-components/skeltons/card-list-s
 import DevotionsPageMetadata from "@/assets/blog/metadata/devotions";
 
 export const metadata = DevotionsPageMetadata;
-
 export default function DevotionsPage() {
   const articles = getArticlesByCategory("تأملات");
   return (
@@ -23,8 +22,7 @@ export default function DevotionsPage() {
           </p>
         </section>
         <section>
-          <Suspense fallback={<CardsListSkeleton />
-          }>
+          <Suspense fallback={<CardsListSkeleton />}>
             <CardList articles={articles} />
           </Suspense>
         </section>

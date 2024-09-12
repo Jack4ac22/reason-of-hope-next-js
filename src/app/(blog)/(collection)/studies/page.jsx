@@ -7,7 +7,6 @@ import CardsListSkeleton from "@/components/blog-components/skeltons/card-list-s
 export const metadata = BiblicalStudiesPageMetadata;
 export default function ChristianStudiesPage() {
   const articles = getArticlesByCategory("دراسات-كتابية");
-
   return (
     <main className="page-main" aria-label="Biblical Studies">
       <div className="page-layer-container">

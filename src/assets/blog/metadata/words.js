@@ -12,7 +12,7 @@ export default function WordsPageMetadata() {
       url: `${metadataHost}/words`,
       images: [
         {
-          url: `${metadataHost}/blog-pages-covers/words-cover-image.webp`,
+          url: `${metadataHost}/blog_pages_covers/words-cover-image.webp`,
           width: 1024,
           height: 1024,
           alt: "Cover Image for",

@@ -8,7 +8,7 @@ import BookArticleBody from '@/components/blog-components/cards/article-card/car
 export default function ArticleCard({ article }) {
   return (
     // card container
-    <div className='w-72 h-96 border rounded-md relative flex-col items-center bg-lightShade-200 dark:bg-lightShade-800'>
+    <div className='m-2 w-72 h-96 border rounded-md relative flex-col items-center bg-lightShade-200 dark:bg-lightShade-800'>
       {/* Card Header container */}
       <div className='w-full h-full p-1'>
         {/* Featured banner */}

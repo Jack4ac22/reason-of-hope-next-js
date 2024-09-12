@@ -12,7 +12,7 @@ export default function DinoDatingPageMetadata() {
       url: `${metadataHost}/words`,
       images: [
         {
-          url: `${metadataHost}/blog-pages-covers/dino-dating-cover-image.webp`,
+          url: `${metadataHost}/blog_pages_covers/dino-dating-cover-image.webp`,
           width: 1024,
           height: 1024,
           alt: "Cover Image for",

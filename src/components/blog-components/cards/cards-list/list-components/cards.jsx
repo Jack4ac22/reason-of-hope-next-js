@@ -16,7 +16,7 @@ export default function DisplayedCards({ articles, order, perPage, page }) {
   articles = articles.slice((page - 1) * perPage, page * perPage);
   
   return (
-    <div className="flex flex-wrap justify-around items-center w-full">
+    <div className="flex flex-wrap justify-center md:justify-evenly items-center content-center w-full m-2">
       {articles.map((article, index) => (
         <ArticleCard key={`${index}_${article.slug}`} article={article} />
       ))}

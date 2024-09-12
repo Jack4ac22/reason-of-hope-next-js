@@ -12,7 +12,7 @@ export default function CreationGospelPageMetadata() {
       url: `${metadataHost}/words`,
       images: [
         {
-          url: `${metadataHost}/blog-pages-covers/creation-gospel-cover-image.webp`,
+          url: `${metadataHost}/blog_pages_covers/creation-gospel-cover-image.webp`,
           width: 1024,
           height: 1024,
           alt: "Cover Image for",

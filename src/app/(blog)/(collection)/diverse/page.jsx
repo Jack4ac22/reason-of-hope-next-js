@@ -9,14 +9,14 @@ export default function DiversesPage() {
   const logic_articles = getArticlesByCategory("المنطق");
   const studies_articles = getArticlesByCategory("دراسات-كتابية");
   const logic_section_object = {
-    title: "أولاً - المنطق:",
+    title: "المنطق:",
     description: "مجموعة من الدراسات في علم المنطق بالإضافة إلى تقديم أشهر المعالطات والأخطاء المنطقية مع أمثلة تطبيقية عن استخدامها في سياق الجدلات التي يتم تقديمها ضد الكتاب المقدس والسرد التوراتي عن الخلق.",
     link: "/logic",
     articles: logic_articles,
     reversed: false,
   }
   const studies_section_object = {
-    title: "ثانياً - دراسات كتابية:",
+    title: "دراسات كتابية:",
     description: "مجموعة من الدراسات التي تتناول عدداً من المواضيع المرتبطة بالكتاب المقدس. وتهدف هذه الدراسات إلى مناقشة عدد من المواضيع الحياتية الإيمانية من خلال النظر إليها باستخدام عدسة الكتاب المقدس، والهدف: تحفيز القارئ لإعادة النظر في بعض الممارسات أو تقييم بعض المعتقدات لرفض الخاطئ منها والتيقن من السليم.",
     link: "/studies",
     articles: studies_articles,
@@ -51,10 +51,10 @@ export default function DiversesPage() {
             </p>
           </header>
         </section>
+        <SectionWithSlider sectionObject={devotions_section_object} />
         <SectionWithSlider sectionObject={logic_section_object} />
         <SectionWithSlider sectionObject={studies_section_object} />
         <SectionWithSlider sectionObject={words_section_object} />
-        <SectionWithSlider sectionObject={devotions_section_object} />
       </div>
     </main>
   );

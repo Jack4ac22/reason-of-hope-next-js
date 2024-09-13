@@ -11,8 +11,8 @@ export default function DevotionsPage() {
     <main className="page-main" aria-label="Devotions">
       <div className="page-layer-container">
         <section aria-labelledby="article-heading">
-          <header>
-            <p id="page-heading" className="sr-only">Devotions</p>
+        <header className="page-header">
+        <p id="page-heading" className="sr-only">Devotions</p>
           </header>
         </section>
         <section className="uni-text-color">

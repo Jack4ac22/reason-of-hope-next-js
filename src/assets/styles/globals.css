@@ -23,7 +23,7 @@
 }
 
 .uni-text-color {
-  @apply text-darkAccent-800 dark:text-darkAccent-100 text-xl;
+  @apply text-darkAccent-800 dark:text-darkAccent-100 text-sm;
 }
 
 .card-list-select {

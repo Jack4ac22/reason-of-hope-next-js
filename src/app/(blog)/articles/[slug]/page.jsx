@@ -6,7 +6,11 @@ export default function Page({ params }) {
   const article = getAllArticlesData().filter(article => article.slug === params.slug)[0];
   return (
     <>
-    <ArticleBody article={article} />
+      <main className="page-main uni-text-color" aria-label="Devotions">
+        <div className="page-layer-container">
+          <ArticleBody article={article} />
+        </div>
+      </main>
     </>
   )
 }

@@ -12,7 +12,7 @@ export default function ObjectionSectionTwoPageMetadata() {
       url: `${metadataHost}/objections/section-2`,
       images: [
         {
-          url: `${metadataHost}/blog_pages_covers/objections-section-2-cover-image.webpp`,
+          url: `${metadataHost}/blog_pages_covers/objections-section-2-cover-image.webp`,
           width: 1024,
           height: 1024,
           alt: "Cover Image for objections-section-2",

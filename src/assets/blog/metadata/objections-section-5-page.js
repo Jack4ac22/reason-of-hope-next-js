@@ -1,18 +1,18 @@
 import metadataHost from "@/assets/blog/metadata/metadata-variables";
-export default function CreationMainPagePageMetadata() {
-  const title = "قضية الخلق";
+export default function ObjectionSectoinFivemePageMetadata() {
+  const title = "القسم الخامس: الإختلافات في التفاصيل";
   const description =
-"إن قضيّة الخلق هي من القضايا المهمة التي تُشكل حجر عثرة أمام الكثير من المؤمنين. لا تُبقي على تساؤلاتك دون إجابات! تعرف على الحقائق العلمية واللاهوتية التي تُفند الشبهات المُثارة حول قضية الخلق.";
+    "نجد في البعض من آيات الكتاب المقدس بعض التفاصيل التي تعطي الانطباع بأنها غير متوافقة مع التفاصيل التي تقدمها آيات آُخرى تتعامل مع ذات الموضوع. ويكون الأمر الغالب هو أن النُّقاد يشيرون إلى الاختلافات في الطرق التي يقوم بها كُتَّاب الأناجيل بتسجيل الأحداث، والأمر الأكيد أنَّه يوجد اختلافات من هذا النوع. لكن السؤال هو: هل هي تناقضات أم أنها اختلافات متوافقة؟ \n لا يوجد أي خطأ في أن يقوم أحد الأشخاص بتدوين أن الحادثة قد وقعت بعد شروق الشمس في الوقت الذي يقوم شخص آخر بتسجيل الحادثة على أنها وقعت في الصباح. على الرغم من أن الصياغة مختلفة بين السردين السابقين إلا أنهما ليسا متناقضين، والطبيعة البشرية تلعب دوراً هاماً في مثل هذا النوع من الإدعاءات، ذلك أنها تدفع القارئ إلى أن يقوم باستخدام مخيلته في استحضار المعلومات التي لا يقدمها النص، مثل الأماكن التي كان يقف فيها الأشخاص، عدد الأشخاص الذين كانوا حاضرين دون أن يذكرهم النص، أو الوقت الدقيق لوقوع الأحداث وذلك على الرغم من عدم وجود هذه التفاصيل في النص. الأمر الغالب هو أن التناقضات ستكون في مخيلة القارئ وليس لها وجود في الآيات التي يقوم بنقدها.";
   return {
     title: title,
     description: description,
     openGraph: {
       title: title,
       description: description,
-      url: `${metadataHost}/creation`,
+      url: `${metadataHost}/objections/section-5`,
       images: [
         {
-          url: `${metadataHost}/blog_pages_covers/creation-main-page-cover-image.webp`,
+          url: `${metadataHost}/blog_pages_covers/objections-section-5-cover-image.webp`,
           width: 1024,
           height: 1024,
           alt: "Cover Image for Modern Science",

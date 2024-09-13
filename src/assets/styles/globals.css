@@ -11,7 +11,7 @@
 }
 
 .page-layer-container {
-  @apply max-w-7xl h-full mx-4 text-center;
+  @apply max-w-7xl h-full mx-10 text-center;
 }
 
 .information-card-text {
@@ -23,7 +23,7 @@
 }
 
 .uni-text-color {
-  @apply text-darkAccent-800 dark:text-darkAccent-100;
+  @apply text-darkAccent-800 dark:text-darkAccent-100 text-xl;
 }
 
 .card-list-select {
@@ -51,6 +51,6 @@
     @apply text-darkAccent-800 dark:text-darkAccent-100 bg-lightShade-200 dark:bg-darkAccent-800;
   }
   h1 {
-    @apply my-6 text-4xl font-bold text-darkAccent-800 dark:text-darkAccent-100;
+    @apply my-6 text-6xl font-bold text-darkAccent-800 dark:text-darkAccent-100;
   }
 }

@@ -14,7 +14,7 @@
   @apply max-w-7xl h-full mx-10 text-center;
 }
 
-.page-layer-container > section > header > p {
+.page-layer-container > section > header > p , .page-layer-container > section > p {
   @apply text-xl text-justify text-pretty;
 }
 .information-card-text {

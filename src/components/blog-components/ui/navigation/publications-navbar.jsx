@@ -14,6 +14,12 @@ export default function PublicationsNavbar() {
       logo: publicationsLogo
     },
     {
+      title: "translated-books",
+      arabic_title: "الكتب المترجمة",
+      href: "/publications/books",
+      logo: translatedBooksLogo
+    },
+    {
       title: "cults-sects",
       arabic_title: "الديانات والطوائف",
       href: "/publications/cults",
@@ -24,12 +30,6 @@ export default function PublicationsNavbar() {
       arabic_title: "دراسات كتابية",
       href: "/publications/studies",
       logo: studiesLogo
-    },
-    {
-      title: "translated-books",
-      arabic_title: "الكتب المترجمة",
-      href: "/publications/books",
-      logo: translatedBooksLogo
     }
   ]
 

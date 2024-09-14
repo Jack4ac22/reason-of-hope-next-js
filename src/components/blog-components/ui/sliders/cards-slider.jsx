@@ -66,7 +66,7 @@ export default function CardSlider({ articles }) {
             index === currentIndex && (
               <div key={`${index}-${article?.title}`} className="animate-smoothlyAppear">
                 <Suspense fallback={<CardsListSkeleton />} >
-                  <ArticleCard article={article} simple={true} />
+                  <ArticleCard article={article} simple={false} />
                 </Suspense>
               </div>
             )

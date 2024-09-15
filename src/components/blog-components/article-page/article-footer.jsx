@@ -1,5 +1,5 @@
 export default function ArticleFooter({article}) {
   return (
-    <div>footer</div>
+    <div>Article footer</div>
   );
 }

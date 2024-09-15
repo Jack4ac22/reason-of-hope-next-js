@@ -13,9 +13,10 @@ export default function ObjectionsSectionOnePage() {
       <main className="page-main uni-text-color" aria-label="Devotions">
         <div className="page-layer-container">
           <section aria-labelledby="article-heading">
-            <header >              <h1>القسم الأول: الإختلافات الكمية أو العددية
-
-            </h1>
+            <header >
+              <h1>
+                القسم الأول: الإختلافات الكمية أو العددية
+              </h1>
               <p id="page-heading" className="sr-only">القسم الأول: الإختلافات الكمية أو العددية
               </p>
               <p>
@@ -32,7 +33,7 @@ export default function ObjectionsSectionOnePage() {
               </p>
             </header>
           </section>
-          <section aria-description="Articles Card of the Subject">
+          <section>
             <Suspense fallback={<CardsListSkeleton />}>
               <CardList articles={articles} />
             </Suspense>

@@ -25,7 +25,7 @@ export default function ObjectionsSectionTwoPage() {
               <p>
                 هذا هو ما سوف تتم الإجابة عليه في هذا القسم.
               </p>
-              <section aria-description="Articles Card of the Subject">
+              <section>
                 <Suspense fallback={<CardsListSkeleton />}>
                   <CardList articles={articles} />
                 </Suspense>

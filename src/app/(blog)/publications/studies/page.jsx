@@ -24,7 +24,7 @@ export default function studiesPage() {
               </p>
             </header>
           </section>
-          <section aria-description="Articles Card of the Subject">
+          <section>
             <Suspense fallback={<CardsListSkeleton />}>
               <CardList articles={articles} />
             </Suspense>

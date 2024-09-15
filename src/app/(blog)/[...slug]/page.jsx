@@ -13,13 +13,13 @@ export async function generateStaticParams() {
 export default function Page({ params }) {
   const article = getAllArticlesData().filter(article => (article.slug === params?.slug[1]) && (article.directory === params?.slug[0]))
   if (article.length === 0) notFound()
-    return (
+  return (
     <>
-      <main className="page-main uni-text-color" aria-label="Devotions">
-        <div className="page-layer-container">
+      <main className="flex justify-center mx-auto uni-text-color">
+        <div className="m-8 md:max-w-2xl ">
           <ArticleBody article={article[0]} />
         </div>
-      </main>
+      </main >
     </>
   )
 }

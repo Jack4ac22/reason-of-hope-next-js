@@ -18,7 +18,7 @@ export default function LinkLayover({ layoverObject }) {
         url={layoverObject.link}
         width={`${loading ? ' 0px ' : '100%'}`}
         height={`${loading ? ' 0px ' : '100%'}`}
-        className={`rounded-2xl ${loading ? ' opacity-0 ' : ' opacity-100 '} duration-500`}
+        className={` ${loading ? ' opacity-0 ' : ' opacity-100 h-[80vh]'} duration-100 `}
         loading='eager'
         scrolling='yes'
       />

@@ -14,7 +14,8 @@ export default function ImageMappingComponent({ objectElement }) {
     });
   }
   const isFullWidth = objectElement.alt.toLowerCase().includes("full") || objectElement.src.toLowerCase().includes("width=full");
-  const isLargeWidth = objectElement.alt.toLowerCase().includes("large") || objectElement.src.toLowerCase().includes("width=large");
+  const isLargeWidth = objectElement.alt.toLowerCase().includes("large") || objectElement.src.toLowerCase().includes("width=large" || (!isFullWidth
+    && isLargeWidth));
   const isSmallWidth = objectElement.alt.toLowerCase().includes("small") || objectElement.src.toLowerCase().includes("width=small");
   const isFloatRight = objectElement.src.toLowerCase().includes("position=right");
   const isFloatLeft = objectElement.src.toLowerCase().includes("position=left");
@@ -25,13 +26,14 @@ export default function ImageMappingComponent({ objectElement }) {
       ${isFullWidth ? "w-100 md:max-w-xl lg:max-w-2xl" : ""}
       ${isLargeWidth ? "lg:w-3/4 max-w-2xl" : ""}
       ${!isFullWidth && !isLargeWidth ? "w-full md:w-1/2 lg:w-1/3" : ""}
-      ${isFloatRight ? "float-right" : ""}
-      ${isFloatLeft ? "float-left" : ""}
+      ${isFloatRight || (!isFloatCenter && !isFloatLeft) ? "float-right md:ml-2" : ""}
+      ${isFloatLeft ? "float-left md:mr-2" : ""}
       ${isFloatCenter ? "mx-auto block" : ""}
       ${!isFloatCenter && !isFloatLeft && !isFloatRight ? "float-right" : ""}
   `}>
       <Image src={`/blog_images/${objectElement.src}`} alt={objectElement.alt}
         className={`object-cover w-full
+        ${isSmallWidth && " max-h-144 "}
         ${isSmallWidth && isFloatLeft && "rounded-l-lg pr-3"}
         ${isSmallWidth && isFloatRight && "rounded-r-lg pl-3"}
         ${isSmallWidth && !isFloatRight && !isFloatLeft && "rounded-r-lg pl-3"}
@@ -42,7 +44,7 @@ export default function ImageMappingComponent({ objectElement }) {
         height={0}
         width={0}
         onClick={handleLinkClick} />
-      {hiddenDescription || (<figcaption className="figure-caption text-break uni-text-color">
+      {hiddenDescription || (<figcaption className="figure-caption text-break uni-text-color text-center border-b border-double p-2">
         {objectElement.alt}
       </figcaption>)}
     </figure>)

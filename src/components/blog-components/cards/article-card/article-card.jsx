@@ -24,7 +24,7 @@ export default function ArticleCard({ article, simple = false }) {
         }
         {/* Read more link */}
         <div className="absolute bottom-2 left-2 flex justify-between hover:translate-y-0.5 transform transition duration-300 ease-in-out">
-          <ReadMoreButton link={`/articles/${article.slug}`} buttonColor='mainBrand' ariaDescription={`Read more about ${article.title}`}>اقرأ المزيد</ReadMoreButton>
+          <ReadMoreButton link={`/${article.directory}/${article.slug}`} buttonColor='mainBrand' ariaDescription={`Read more about ${article.title}`}>اقرأ المزيد</ReadMoreButton>
         </div>
       </div>
     </div>

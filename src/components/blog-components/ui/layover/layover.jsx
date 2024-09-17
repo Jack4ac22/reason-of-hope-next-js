@@ -11,9 +11,6 @@ export default function LayOverSection() {
   function handleCloseLayover() {
     setLayoverObject(null);
   }
-  function handleimageClick() {
-    redirect(`blog_images/${layoverObject.imageDetails.src}`);
-  }
 
   const { layoverObject, setLayoverObject } = useLayoverGlobal();
   return (

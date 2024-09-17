@@ -22,14 +22,14 @@ export default function LinkLayover({ layoverObject }) {
         loading='eager'
         scrolling='yes'
       />
-      <div className={`${loading ? ' opacity-100 ' : ' opacity-0 h-0 w-0'} flex space-x-2 justify-center items-center bg-white h-screen dark:invert duration-200`}>
+      <div className={`${loading ? ' opacity-100 ' : ' opacity-0 h-0 w-0'} flex space-x-2 justify-center items-center bg-lightShade-500 h-screen dark:invert duration-200`}>
         <span className='sr-only'>
           Loading...
         </span>
         <span className="sr-only">...جاري التحميل</span>
-        <div className='h-8 w-8 bg-black rounded-full animate-bounce [animation-delay:-0.3s]'></div>
-        <div className='h-8 w-8 bg-black rounded-full animate-bounce [animation-delay:-0.15s]'></div>
-        <div className='h-8 w-8 bg-black rounded-full animate-bounce'></div>
+        <div className='h-8 w-8 bg-darkShade-500 rounded-full animate-bounce [animation-delay:-0.3s]'></div>
+        <div className='h-8 w-8 bg-darkShade-500 rounded-full animate-bounce [animation-delay:-0.15s]'></div>
+        <div className='h-8 w-8 bg-darkShade-500 rounded-full animate-bounce'></div>
       </div>
     </>
 

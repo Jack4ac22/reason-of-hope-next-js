@@ -1,7 +1,6 @@
 import { getAllArticlesData } from "@/utils/blog/articles-functions";
 import ArticleBody from "@/components/blog-components/article-page/article-body";
-import { notFound, redirect } from "next/navigation";
-
+import { notFound} from "next/navigation";
 export async function generateStaticParams() {
   const articles = getAllArticlesData();
   const static_params = articles.map((article) => ({

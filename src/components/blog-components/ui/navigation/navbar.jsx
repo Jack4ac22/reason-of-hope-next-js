@@ -1,5 +1,5 @@
 "use client";
-import { useState } from 'react'
+import { act, useState } from 'react'
 import { FaBars } from "react-icons/fa";
 import logoImage from "@/assets/images/blog/ROH.png"
 import Image from 'next/image'
@@ -16,10 +16,11 @@ export default function NavBar() {
     { title: "الإعتراضات", href: "/objections", active: true, smallScreen: true },
     { title: "منشورات", href: "/publications", active: true, smallScreen: true },
     { title: "متفرقات", href: "/diverse", active: true, smallScreen: true },
-    { title: "إيماننا", href: "/our-faith", active: true, smallScreen: true },
-    { title: "اتصل بنا", href: "/contact", active: true, smallScreen: true },
+    { title: "دراسات", href: "/studies", active: true, smallScreen: true },
+    { title: "المنطق", href: "/logic", active: true, smallScreen: false },
+    { title: "تأملات", href: "/devotions", active: true, smallScreen: true },
+    { title: "كلمة ورسالة", href: "/words", active: true, smallScreen: false },
   ];
-
 
   function MenueLogo() {
     return (

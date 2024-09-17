@@ -1,6 +1,6 @@
 import { getAllArticlesData } from "@/utils/blog/articles-functions";
-import ArticleBody from "@/components/blog-components/article-page/article-body";
 import { notFound} from "next/navigation";
+import ArticleContent from "@/components/blog-components/article-page/article-content";
 export async function generateStaticParams() {
   const articles = getAllArticlesData();
   const static_params = articles.map((article) => ({
@@ -16,7 +16,7 @@ export default function Page({ params }) {
     <>
       <main className="flex justify-center mx-auto uni-text-color">
         <div className="m-8 md:max-w-2xl ">
-          <ArticleBody article={article[0]} />
+          <ArticleContent article={article[0]} />
         </div>
       </main >
     </>

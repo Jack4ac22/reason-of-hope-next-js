@@ -2,21 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-.page-width {
-  @apply 2xl:max-w-7xl;
-}
-
 .page-main {
   @apply flex flex-col flex-wrap justify-start items-center content-center;
 }
 
 .page-layer-container {
-  @apply max-w-7xl h-full mx-10 text-center;
+  @apply max-w-7xl text-center;
 }
 
-.page-layer-container > section > header > p , .page-layer-container > section > p {
-  @apply text-xl text-justify text-pretty;
+.page-layer-container > section > header > p,
+.page-layer-container > section > p {
+  @apply text-xl text-wrap mx-2;
 }
+
 .information-card-text {
   @apply text-sm text-darkAccent-400 dark:text-white select-none;
 }
@@ -38,7 +36,7 @@
 }
 
 .page-navigation {
-  @apply flex flex-wrap items-center justify-center page-width;
+  @apply flex flex-wrap items-center justify-center;
 }
 
 .pagination-item {
@@ -50,10 +48,22 @@
 }
 
 @layer base {
-  body footer {
+  html {
+    @apply bg-lightShade-100 dark:bg-darkAccent-900 w-[100vw] h-[100vh];
+  }
+  
+  body footer main {
     @apply text-darkAccent-800 dark:text-darkAccent-100 bg-lightShade-200 dark:bg-darkAccent-800;
   }
+  
+  body {
+    @apply uni-background;
+  }
+
+  main {
+    @apply p-3;
+  }
   h1 {
-    @apply my-6 text-6xl font-bold text-darkAccent-800 dark:text-darkAccent-100;
+    @apply my-6 text-6xl text-wrap font-bold text-darkAccent-800 dark:text-darkAccent-100;
   }
 }

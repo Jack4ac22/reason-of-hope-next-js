@@ -27,15 +27,13 @@ export const metadata = homepageMetadata;
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="ar" dir="rtl" className={` scroll-smooth ${markazi_text.className} bg-darkAccent-700 `}>
-      <body className="page-width uni-background transition-all duration-200 mx-auto">
+    <html lang="ar" dir="rtl" className={` scroll-smooth ${markazi_text.className} `}>
+      <body className="uni-background transition-all duration-200">
         <LayoverGlobalProvider>
           <DarkModeSwitch >
             <NavBar />
             <LayOverSection />
-            <div className="uni-background min-h-screen">
               {children}
-            </div>
             <MainFooter />
           </DarkModeSwitch>
         </LayoverGlobalProvider>

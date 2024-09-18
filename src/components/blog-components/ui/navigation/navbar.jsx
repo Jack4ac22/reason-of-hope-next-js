@@ -15,7 +15,6 @@ export default function NavBar() {
     { title: "قضية الخلق", href: "/creation", active: true, smallScreen: true },
     { title: "الإعتراضات", href: "/objections", active: true, smallScreen: true },
     { title: "منشورات", href: "/publications", active: true, smallScreen: true },
-    { title: "متفرقات", href: "/diverse", active: true, smallScreen: true },
     { title: "دراسات", href: "/studies", active: true, smallScreen: true },
     { title: "المنطق", href: "/logic", active: true, smallScreen: false },
     { title: "تأملات", href: "/devotions", active: true, smallScreen: true },

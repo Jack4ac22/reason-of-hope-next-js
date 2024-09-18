@@ -31,7 +31,7 @@ export default function PublicationsMainPage() {
       <main className="page-main uni-text-color" aria-label="Devotions">
         <div className="page-layer-container">
           <section aria-labelledby="article-heading">
-            <header className="page-header">
+            <header >
               <h1>منشورات
 
               </h1>

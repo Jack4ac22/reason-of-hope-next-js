@@ -16,7 +16,7 @@ export default function NavBar() {
     { title: "الإعتراضات", href: "/objections", active: true, smallScreen: true },
     { title: "منشورات", href: "/publications", active: true, smallScreen: true },
     { title: "دراسات", href: "/studies", active: true, smallScreen: true },
-    { title: "المنطق", href: "/logic", active: true, smallScreen: false },
+    { title: "المنطق", href: "/logic", active: true, smallScreen: true },
     { title: "تأملات", href: "/devotions", active: true, smallScreen: true },
     { title: "كلمة ورسالة", href: "/words", active: true, smallScreen: false },
   ];

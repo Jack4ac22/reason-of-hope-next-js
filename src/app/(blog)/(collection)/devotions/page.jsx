@@ -5,13 +5,14 @@ import CardsListSkeleton from "@/components/blog-components/skeltons/card-list-s
 import DevotionsPageMetadata from "@/assets/blog/metadata/devotions";
 
 export const metadata = DevotionsPageMetadata;
+
 export default function DevotionsPage() {
   const articles = getArticlesByCategory("تأملات");
   return (
     <main className="page-main" aria-label="Devotions">
       <div className="page-layer-container">
         <section aria-labelledby="article-heading">
-        <header className="page-header">
+        <header >
         <p id="page-heading" className="sr-only">Devotions</p>
           </header>
         </section>

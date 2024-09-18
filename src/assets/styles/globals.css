@@ -12,7 +12,7 @@
 
 .page-layer-container > section > header > p,
 .page-layer-container > section > p {
-  @apply text-xl text-wrap mx-2;
+  @apply text-xl text-wrap mx-4;
 }
 
 .information-card-text {
@@ -51,12 +51,11 @@
   html {
     @apply bg-lightShade-100 dark:bg-darkAccent-900 w-[100vw] h-[100vh];
   }
-  
-  body footer main {
-    @apply text-darkAccent-800 dark:text-darkAccent-100 bg-lightShade-200 dark:bg-darkAccent-800;
-  }
-  
-  body {
+
+
+  body,
+  footer,
+  main {
     @apply uni-background;
   }
 
@@ -64,6 +63,6 @@
     @apply p-3;
   }
   h1 {
-    @apply my-6 text-6xl text-wrap font-bold text-darkAccent-800 dark:text-darkAccent-100;
+    @apply px-2 my-6 text-6xl text-wrap font-bold text-darkAccent-800 dark:text-darkAccent-100;
   }
 }

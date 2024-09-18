@@ -45,7 +45,7 @@ export default function ObjectionsMainPage() {
     <main className="page-main uni-text-color" aria-label="Devotions">
       <div className="page-layer-container">
         <section aria-labelledby="article-heading">
-        <header className="page-header">
+        <header >
         <h1>التناقضات المفترضة في الكتاب المقدس
             </h1>
             <p id="page-heading" className="sr-only">التناقضات المفترضة في الكتاب المقدس

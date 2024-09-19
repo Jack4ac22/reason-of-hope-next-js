@@ -5,9 +5,9 @@ export default function DisplayedCards({ articles, order, perPage, page }) {
     perPage = 6;
   }
   if (order === "latest") {
-    articles.sort((a, b) => new Date(b.published_at) - new Date(a.published_at));
+    articles.sort((a, b) => new Date(b.date) - new Date(a.date));
   } else if (order === "oldest") {
-    articles.sort((a, b) => new Date(a.published_at) - new Date(b.published_at));
+    articles.sort((a, b) => new Date(a.date) - new Date(b.date));
   } else if (order === "title_asc") {
     articles.sort((a, b) => a.title.localeCompare(b.title));
   } else if (order === "title_dsc") {

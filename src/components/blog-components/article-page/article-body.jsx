@@ -11,6 +11,7 @@ import ParapgraphMappingComponent from "@/components/blog-components/mdx/paragra
 import LinkMappingComponent from "@/components/blog-components/mdx/link-mapping-component";
 import ImageMappingComponent from "@/components/blog-components/mdx/image-component";
 import HorivontalRule from "@/components/blog-components/mdx/horizental-rule";
+import BQuoteComponent from "@/components/blog-components/mdx/black-quote-component";
 
 
 import ReactMarkdown from 'react-markdown'
@@ -33,6 +34,7 @@ export default function ArticleBody({ article }) {
     a: (para = { node, ...props }) => <LinkMappingComponent objectElement={para} />,
     img: (para = { node, ...props }) => <ImageMappingComponent objectElement={para} />,
     hr: (para = { node, ...props }) => <HorivontalRule objectElement={para} />,
+    q: (para = { node, ...props }) => <BQuoteComponent objectElement={para} />,
   }
   return (
     <ReactMarkdown

@@ -65,4 +65,7 @@
   h1 {
     @apply px-2 my-6 text-6xl text-wrap font-bold text-darkAccent-800 dark:text-darkAccent-100;
   }
+  p {
+    @apply text-wrap 
+  }
 }

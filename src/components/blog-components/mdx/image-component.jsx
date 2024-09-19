@@ -21,9 +21,13 @@ export default function ImageMappingComponent({ objectElement }) {
   const isFloatLeft = objectElement.src.toLowerCase().includes("position=left");
   const isFloatCenter = objectElement.src.toLowerCase().includes("position=center");
   const hiddenDescription = objectElement.src.toLowerCase().includes("description=hidden");
+
+  function sanitizestring(string){
+    const response = string.replaceAll("small", "").replaceAll("full", "")
+  }
   return (
     <figure className={`container-fluid my-2
-      ${isFullWidth ? "w-100 md:max-w-xl lg:max-w-2xl" : ""}
+      ${isFullWidth ? "w-100 md:max-w-2xl block " : ""}
       ${isLargeWidth ? "lg:w-3/4 max-w-2xl" : ""}
       ${!isFullWidth && !isLargeWidth ? "w-full md:w-1/2 lg:w-1/3" : ""}
       ${isFloatRight || (!isFloatCenter && !isFloatLeft) ? "float-right md:ml-2" : ""}
@@ -34,9 +38,9 @@ export default function ImageMappingComponent({ objectElement }) {
       <Image src={`/blog_images/${objectElement.src}`} alt={objectElement.alt}
         className={`object-cover w-full
         ${isSmallWidth && " max-h-144 "}
-        ${isSmallWidth && isFloatLeft && "rounded-l-lg pr-3"}
-        ${isSmallWidth && isFloatRight && "rounded-r-lg pl-3"}
-        ${isSmallWidth && !isFloatRight && !isFloatLeft && "rounded-r-lg pl-3"}
+        ${isSmallWidth && isFloatLeft && "md:rounded-l-lg pr-3"}
+        ${isSmallWidth && isFloatRight && "md:rounded-r-lg pl-3"}
+        ${isSmallWidth && !isFloatRight && !isFloatLeft && "md:rounded-r-lg pl-3"}
         ${isSmallWidth && isFloatCenter && "rounded-lg"}}
         ${isFullWidth && "rounded-lg"}
         `}

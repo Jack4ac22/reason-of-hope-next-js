@@ -31,7 +31,7 @@ export default function MainFooter() {
     )
   }
   return (
-    <footer className="">
+    <footer className="uni-text-color">
       <section className="flex justify-center items-center h-full">
         <div className="container mx-auto px-4">
 
@@ -52,19 +52,22 @@ export default function MainFooter() {
               <div className="flex flex-wrap items-top mb-6">
 
                 {/* usefull links  */}
-                <div className="w-full lg:w-4/12 px-4 ml-auto">
-                  <span className="block uppercase text-blueGray-500 text-sm font-semibold mb-2">روابط سريعة</span>
-                  <ul className="list-unstyled">
-                    {usefullLinks.map((item) => FooterLinks(item.title, item.href))}
-                  </ul>
-                </div>
+                {usefullLinks.length > 0 &&
+                  (<div className="w-full lg:w-4/12 px-4 ml-auto">
+                    <span className="block uppercase text-blueGray-500 text-sm font-semibold mb-2">روابط سريعة</span>
+                    <ul className="list-unstyled">
+                      {usefullLinks.map((item) => FooterLinks(item.title, item.href))}
+                    </ul>
+                  </div>
+                  )}
                 {/* other resources */}
-                <div className="w-full lg:w-4/12 px-4">
-                  <span className="block uppercase text-blueGray-500 text-sm font-semibold mb-2">روابط أٌخرى</span>
-                  <ul className="list-unstyled">
+                {otherResources.length > 0 &&
+                  (<div className="w-full lg:w-4/12 px-4">
+                    <span className="block uppercase text-blueGray-500 text-sm font-semibold mb-2">روابط أٌخرى</span>
+                    <ul className="list-unstyled">
 
-                  </ul>
-                </div>
+                    </ul>
+                  </div>)}
               </div>
             </div>
           </div>

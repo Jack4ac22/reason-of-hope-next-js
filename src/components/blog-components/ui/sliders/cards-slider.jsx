@@ -7,7 +7,7 @@ import { Suspense } from 'react'
 import CardsListSkeleton from "@/components/blog-components/skeltons/card-list-skelton";
 
 
-
+// TODO: fix layout issue with the width on md screens
 
 /**
  * Renders a card slider component.
@@ -45,14 +45,14 @@ export default function CardSlider({ articles }) {
         {/* Slider navigation */}
         <div className="flex justify-between items-center uni-text-color text-2xl">
           <button
-            className="absolute top-48 right-1 hover:animate-pulse hover:text-darkAccent-500 z-50"
+            className="absolute top-48 right-1 text-2xl hover:animate-pulse hover:text-darkAccent-500 z-50"
             onClick={handlePrevSlide}
             aria-label="Next slide"
           >
             <FaArrowAltCircleRight />
           </button>
           <button
-            className="absolute top-48 left-1 hover:animate-pulse hover:text-darkAccent-500 z-50"
+            className="absolute top-48 left-1 text-2xl hover:animate-pulse hover:text-darkAccent-500 z-50"
             onClick={handleNextSlide}
             aria-label="Previous slide"
           >

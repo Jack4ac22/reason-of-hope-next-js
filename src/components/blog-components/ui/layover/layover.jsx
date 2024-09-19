@@ -17,7 +17,7 @@ export default function LayOverSection() {
     layoverObject && (
       <section className="fixed top-0 left-0 w-screen h-screen bg-black bg-opacity-50 z-50 flex justify-center items-center content-center overflow-auto " onClick={handleCloseLayover}>
         <div className="max-w-[80vw] max-h-[80vh] border rounded-xl bg-lightShade">
-          <header className="flex justify-between text-mainBrand uni-background rounded-t-xl">
+          <header className="flex justify-between text-mainBrand uni-background uni-text-color rounded-t-xl">
             {
               layoverObject.type === "link" && <Link href={layoverObject.link} target='_blank' className="m-2 flex space-x-3">
                 <span >

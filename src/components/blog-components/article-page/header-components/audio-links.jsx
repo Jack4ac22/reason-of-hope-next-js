@@ -1,7 +1,5 @@
 import { FaSpotify, FaPodcast, FaYoutube } from "react-icons/fa6";
 import { SiGooglepodcasts, SiHearthisdotat } from "react-icons/si";
-
-
 import { filterByKeyValue } from "@/utils/blog/general-functions";
 
 

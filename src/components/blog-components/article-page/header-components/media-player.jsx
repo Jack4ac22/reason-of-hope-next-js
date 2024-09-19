@@ -27,23 +27,23 @@ export default function MediaPlayersHeader({ article }) {
           {!spotify_link && youtube_link && "شاهد الآن"}
         </p>
       </div>
-      <div className='flex justify-between items-center'>
+
+      <div className='flex justify-center content-center items-center md:justify-between flex-wrap'>
         {spotify_link && (
-          <div className='w-full md:w-1/2'>
+          <div className='md:w-1/2 mb-2 md:mb-0'>
             <Spotify wide link={spotify_link} />
           </div>
         )}
         {youtube_link && (
-          <Suspense fallback={<YoutubeSkelton />}>
-            <div className='w-full md:w-1/3'>
-              <YouTube
-                videoId={youtube_link}
-                opts={opts}
-              />
-            </div>
-          </Suspense>
+          <div className='md:w-1/3'>
+            <YouTube
+              videoId={youtube_link}
+              opts={opts}
+            />
+          </div>
         )}
       </div>
+
       <hr className="my-6 h-0.5 border-t-0 invert uni-background" />
     </sections>
   )

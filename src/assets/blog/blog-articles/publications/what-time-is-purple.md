@@ -10,7 +10,7 @@ tags:
   - "التطور"
   - "الخلق"
 coverImage: "What_Time_Is_Purple.jpg"
-youtube: "https://www.youtube.com/playlist?list=PLlToIY3-KqMAf-fNVZinpEi7kAHaSUxkk"
+youtube: "kq55l-Vv4Cs"
 resources:
   - title: "pdf"
     link: "What_Time_Is_Purple_PDF_full_1.2.pdf"
@@ -24,8 +24,8 @@ audio:
   - applePodcasts: "https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy81MTVjMjljNC9wb2RjYXN0L3Jzcw==/episode/YTNjZGMyNWMtZGQ4Yi00ZTU5LTgwN2MtZTNlZTIyNjJhZTY4"
   - googlePodcasts: ""
   - hearthisAt: ""
-  - spotify: "- https://open.spotify.com/episode/2S9P6IQ7SazHm75FZ04w5i?si=PADQch8HSDKNj_LZz7AmVQ"
-  - anchorLink: "- https://anchor.fm/reason-of-hope4/episodes/ep-e11ac7j"
+  - spotify: "https://open.spotify.com/episode/2S9P6IQ7SazHm75FZ04w5i?si=PADQch8HSDKNj_LZz7AmVQ"
+  - anchorLink: "https://anchor.fm/reason-of-hope4/episodes/ep-e11ac7j"
 externalLink: ""
 authors:
   - name: "توم هاموند - Tom HAMMOND"

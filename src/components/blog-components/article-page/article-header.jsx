@@ -3,8 +3,12 @@ import ArticleDate from '@/components/blog-components/article-page/header-compon
 import ArticleAuthors from '@/components/blog-components/article-page/header-components/article-authors'
 import CreationLink from '@/components/blog-components/article-page/header-components/creation-link'
 import AudioLinks from '@/components/blog-components/article-page/header-components/audio-links'
+import MediaPlayersHeader from "@/components/blog-components/article-page/header-components/media-player";
+import { Suspense } from 'react'
+import MediaPlayersHeaderSkeleton from "@/components/blog-components/skeltons/media-player-header-skelton";
 
 export default function ArticleHeader({ article }) {
+  if (article.directory === "static-pages") return null
   return (
     <header>
       <div className="flex flex-col items-center">
@@ -14,10 +18,11 @@ export default function ArticleHeader({ article }) {
         <ArticleDate article={article} />
         <ArticleAuthors article={article} />
       </div>
-      <hr className="my-6 h-0.5 border-t-0 invert uni-background" />
+      <Suspense fallback={<MediaPlayersHeaderSkeleton />}>
+        <MediaPlayersHeader article={article} />
+      </Suspense>
       <CreationLink article={article} />
       <AudioLinks article={article} />
-      <hr className="my-6 h-0.5 border-t-0 invert uni-background" />
     </header>
   );
 }

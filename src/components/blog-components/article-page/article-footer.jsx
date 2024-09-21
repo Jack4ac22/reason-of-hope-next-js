@@ -1,5 +1,10 @@
-export default function ArticleFooter({article}) {
+import RelatedArticles from '@/components/blog-components/article-page/article-footer-components/related-articles';
+export default function ArticleFooter({ article }) {
   return (
-    <div>Article footer</div>
+    <>
+      <RelatedArticles article={article} />
+      Article footer
+
+    </>
   );
 }

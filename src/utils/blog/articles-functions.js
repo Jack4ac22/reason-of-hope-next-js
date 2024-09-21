@@ -127,6 +127,41 @@ export function getAllArticlesData() {
 }
 
 /**
+ * Retrieves a list of related articles based on the categories and tags of the given article.
+ *
+ * @param {Object} article - The article object containing categories and tags.
+ * @param {number} [number=5] - The number of related articles to retrieve. Defaults to 5.
+ * @returns {Array} - An array of related articles.
+ */
+
+export function getRelatedArticles({ article }, number = 5) {
+  let relatedArticles = [];
+  // loop throgh the categories and retrieve the articles that has the same categories
+  article.categories ??
+    article.categories.map((category) => {
+      const articlesByCategory = getArticlesByCategory(category);
+      relatedArticles.push(...articlesByCategory);
+    });
+  // loog throgh the tags and retrieve the articles that has the same tags
+
+  article.tags.map((tag) => {
+    const articlesByTag = getArticlesByTag(tag);
+    relatedArticles.push(...articlesByTag);
+  });
+
+  // remove the duplicate articles
+  const unique_list = [...new Set(relatedArticles)];
+  const random_order_list = unique_list.sort(() => Math.random() - 0.5);
+  const related_articles =
+    random_order_list.length < number
+      ? random_order_list
+      : random_order_list.slice(0, number);
+  return related_articles;
+}
+
+// remove the duplicate articles
+
+/**
  * ############################
  * ### Categories functions ###
  * ############################

@@ -28,7 +28,7 @@ export default function MediaPlayersHeader({ article }) {
         </p>
       </div>
 
-      <div className='flex justify-center content-center items-center md:justify-between flex-wrap'>
+      <div className={`flex flex-wrap justify-center content-center items-center ${spotify_link && youtube_link && 'md:justify-between'} md:place-conten`}>
         {spotify_link && (
           <div className='md:w-1/2 mb-2 md:mb-0'>
             <Spotify wide link={spotify_link} />

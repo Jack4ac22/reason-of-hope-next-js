@@ -1,9 +1,8 @@
 'use client';
 import { filterByKeyValue } from "@/utils/blog/general-functions";
 import { Spotify } from 'react-spotify-embed';
-import { Suspense } from 'react';
 import YouTube from "react-youtube";
-import YoutubeSkelton from '../../skeltons/youtube-skelton';
+
 export default function MediaPlayersHeader({ article }) {
   const spotify_link = article.spotify || filterByKeyValue(article?.audio, 'spotify');
   const youtube_link = article.youtube || filterByKeyValue(article?.audio, 'youtube');

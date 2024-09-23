@@ -52,13 +52,23 @@
   @apply break-words whitespace-normal overflow-hidden truncate;
 }
 
+
 .local-table {
-  @apply my-2 p-2 table-auto w-full max-w-[80vw] border-2 rounded mx-auto border-collapse;
-}
-.local-table th {
-  @apply bg-lightShade-600 dark:bg-darkAccent-800 font-bold text-start;
+  @apply my-2 p-2 table-auto w-full max-w-[80vw] border-2 rounded border-collapse;
 }
 
+.local-table th {
+  @apply bg-lightAccent-600 dark:bg-darkAccent-900 font-bold text-start;
+}
+
+.local-table > tbody > *:nth-child(even) {
+  @apply bg-lightAccent-600 dark:bg-darkAccent-600;
+}
+
+.local-table > tbody > *:nth-child(odd) {
+  @apply border-b-2 border-lightAccent-400 dark:border-darkAccent-400;
+}
+,
 @layer base {
   html {
     @apply bg-lightShade-100 dark:bg-darkAccent-900 m-0 p-0;

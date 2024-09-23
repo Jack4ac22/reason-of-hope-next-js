@@ -22,33 +22,32 @@ export default function ImageMappingComponent({ objectElement }) {
   const isFloatCenter = objectElement.src.toLowerCase().includes("position=center");
   const hiddenDescription = objectElement.src.toLowerCase().includes("description=hidden");
 
-  function sanitizestring(string){
+  function sanitizestring(string) {
     const response = string.replaceAll("small", "").replaceAll("full", "")
   }
   return (
     <figure className={`container-fluid my-2
       ${isFullWidth ? "w-100 md:max-w-2xl block " : ""}
-      ${isLargeWidth ? "lg:w-3/4 max-w-2xl" : ""}
-      ${!isFullWidth && !isLargeWidth ? "w-full md:w-1/2 lg:w-1/3" : ""}
-      ${isFloatRight || (!isFloatCenter && !isFloatLeft) ? "float-right md:ml-2" : ""}
-      ${isFloatLeft ? "float-left md:mr-2" : ""}
+      ${isLargeWidth ? "lg:w-3/4  max-w-2xl" : ""}
+      ${(!isFullWidth & !isLargeWidth) ? "w-full md:w-1/2 lg:w-1/3" : ""}
+      ${isFloatRight || (!isFloatCenter & !isFloatLeft) ? "md:float-right md:ml-2" : ""}
+      ${isFloatLeft ? "md:float-left md:mr-2" : ""}
       ${isFloatCenter ? "mx-auto block" : ""}
-      ${!isFloatCenter && !isFloatLeft && !isFloatRight ? "float-right" : ""}
+      ${!isFloatCenter & !isFloatLeft & !isFloatRight ? "md:float-right" : ""}
   `}>
       <Image src={`/blog_images/${objectElement.src}`} alt={objectElement.alt}
-        className={`object-cover w-full
-        ${isSmallWidth && " max-h-144 "}
-        ${isSmallWidth && isFloatLeft && "md:rounded-l-lg pr-3"}
-        ${isSmallWidth && isFloatRight && "md:rounded-r-lg pl-3"}
-        ${isSmallWidth && !isFloatRight && !isFloatLeft && "md:rounded-r-lg pl-3"}
-        ${isSmallWidth && isFloatCenter && "rounded-lg"}}
-        ${isFullWidth && "rounded-lg"}
-        `}
+        className={` object-cover w-full
+        ${isSmallWidth ? " max-h-144 " : ""}
+        ${isSmallWidth & isFloatLeft ? "md:rounded-l-lg pr-3" : ""}
+        ${isSmallWidth & isFloatRight ? "md:rounded-r-lg pl-3" : ""}
+        ${isSmallWidth & !isFloatRight & !isFloatLeft ? "md:rounded-r-lg pl-3" : ""}
+        ${isSmallWidth & isFloatCenter ? "rounded-lg" : ''}}
+        ${isFullWidth ? "rounded-lg" : ""}`}
         sizes="100vw"
         height={0}
         width={0}
         onClick={handleLinkClick} />
-      {hiddenDescription || (<figcaption className="figure-caption text-break uni-text-color text-center border-b border-double p-2">
+      {hiddenDescription || (<figcaption className="figure-caption text-break uni-text-color text-center border-b border-double">
         {objectElement.alt}
       </figcaption>)}
     </figure>)

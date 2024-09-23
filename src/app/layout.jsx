@@ -29,14 +29,16 @@ export default function RootLayout({ children }) {
   return (
     <html lang="ar" dir="rtl" className={` scroll-smooth ${markazi_text.className} relative`}>
       <body className="uni-background transition-all duration-200">
-        <LayoverGlobalProvider>
-          <DarkModeSwitch >
-            <LayOverSection />
-            <NavBar />
+        <DarkModeSwitch >
+          <div className="uni-background">
+            <LayoverGlobalProvider>
+              <LayOverSection />
+              <NavBar />
               {children}
-            <MainFooter />
-          </DarkModeSwitch>
-        </LayoverGlobalProvider>
+              <MainFooter />
+            </LayoverGlobalProvider>
+          </div>
+        </DarkModeSwitch>
       </body>
     </html>
   );

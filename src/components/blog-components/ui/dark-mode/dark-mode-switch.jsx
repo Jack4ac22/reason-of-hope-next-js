@@ -11,7 +11,7 @@ export default function DarkModeSwitch({ children }) {
   };
   return (
     <>
-      <div className={`${darkMode && "dark"} relative`}>
+      <div className={`${darkMode && "dark"}`}>
         {children}
         <button onClick={toggleDarkMode} className="absolute left-3 bottom-0" title="dark mode button switch">
           {darkMode ? <HiSun className="text-3xl text-yellow-500" /> : <CgDarkMode className="text-3xl text-gray-500" />}

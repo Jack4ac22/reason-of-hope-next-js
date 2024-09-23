@@ -6,7 +6,9 @@ export default function ArticleContent({ article }) {
   return (
     <>
       <ArticleHeader article={article} />
-      <ArticleBody article={article} />
+      <div className="px-2">
+        <ArticleBody article={article} />
+      </div>
       <ArticleFooter article={article} />
     </>
   );

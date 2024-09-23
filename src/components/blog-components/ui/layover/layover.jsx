@@ -5,7 +5,6 @@ import ImageLayover from "@/components/blog-components/ui/layover/image-layover"
 import { FaRegWindowClose } from "react-icons/fa";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import Link from "next/link";
-import { redirect } from "next/navigation";
 
 export default function LayOverSection() {
   function handleCloseLayover() {
@@ -15,8 +14,9 @@ export default function LayOverSection() {
   const { layoverObject, setLayoverObject } = useLayoverGlobal();
   return (
     layoverObject && (
-      <section className="fixed top-0 left-0 w-screen h-screen bg-black bg-opacity-50 z-50 flex justify-center items-center content-center overflow-auto " onClick={handleCloseLayover}>
-        <div className="max-w-[80vw] max-h-[80vh] border rounded-xl bg-lightShade">
+      <section className="m-0 p-0 fixed top-0 right-0 w-full h-full bg-black bg-opacity-50 z-50 flex justify-center items-center content-center" onClick={handleCloseLayover}>
+
+        <div className="w-[80vw] h-[80vh] border rounded-xl bg-lightShade">
           <header className="flex justify-between text-mainBrand uni-background uni-text-color rounded-t-xl">
             {
               layoverObject.type === "link" && <Link href={layoverObject.link} target='_blank' className="m-2 flex space-x-3">

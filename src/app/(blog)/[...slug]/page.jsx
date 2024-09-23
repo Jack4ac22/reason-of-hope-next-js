@@ -14,8 +14,8 @@ export default function Page({ params }) {
   if (article.length === 0) notFound()
   return (
     <>
-      <main className="flex justify-center mx-auto uni-text-color">
-        <div className="m-8 md:max-w-2xl ">
+      <main className="flex justify-center uni-text-color">
+        <div className="m-8 w-full md:max-w-2xl ">
           <ArticleContent article={article[0]} />
         </div>
       </main >

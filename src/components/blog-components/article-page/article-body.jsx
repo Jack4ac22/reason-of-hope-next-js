@@ -12,6 +12,7 @@ import LinkMappingComponent from "@/components/blog-components/mdx/link-mapping-
 import ImageMappingComponent from "@/components/blog-components/mdx/image-component";
 import HorivontalRule from "@/components/blog-components/mdx/horizental-rule";
 import BQuoteComponent from "@/components/blog-components/mdx/black-quote-component";
+import TableMappingComponent from "@/components/blog-components/mdx/table-mapping-component";
 
 
 import ReactMarkdown from 'react-markdown'
@@ -35,12 +36,15 @@ export default function ArticleBody({ article }) {
     img: (para = { node, ...props }) => <ImageMappingComponent objectElement={para} />,
     hr: (para = { node, ...props }) => <HorivontalRule objectElement={para} />,
     q: (para = { node, ...props }) => <BQuoteComponent objectElement={para} />,
+    table: (para = { node, ...props }) => <TableMappingComponent objectElement={para} />,
   }
   return (
-    <ReactMarkdown
-      components={customRenderers}
-      rehypePlugins={[rehypeRaw]}
-      remarkPlugins={[remarkGfm]}>
-      {article?.content}</ReactMarkdown>
+    <div className="article-body">
+      <ReactMarkdown
+        components={customRenderers}
+        rehypePlugins={[rehypeRaw]}
+        remarkPlugins={[remarkGfm]}>
+        {article?.content}</ReactMarkdown>
+    </div>
   )
 }

@@ -1,6 +1,6 @@
 'use client';
 import { Suspense } from 'react'
-import { useRouter, usePathname, useSearchParams } from "next/navigation";
+import { useSearchParams } from "next/navigation";
 import DisplayedCards from "@/components/blog-components/cards/cards-list/list-components/cards";
 import DropDownOption from "@/components/uneversal-items/dropdown-option";
 import ListPagination from "@/components/uneversal-items/pagination";
@@ -10,8 +10,6 @@ export default function CardList({ articles }) {
   const orderOptions = ["latest", "oldest", "title"];
   const perPageOptions = [6, 12, 24];
 
-  const pathname = usePathname()
-  const { replace } = useRouter();
   const searchParams = useSearchParams();
 
   let order = searchParams.get("order")?.toString();
@@ -27,7 +25,6 @@ export default function CardList({ articles }) {
   let page = searchParams.get("page");
   if (!page || isNaN(parseInt(page)) || parseInt(page) < 1 || parseInt(page) > Math.ceil(articles.length / perPage)) {
     page = 1;
-
   }
 
   return (

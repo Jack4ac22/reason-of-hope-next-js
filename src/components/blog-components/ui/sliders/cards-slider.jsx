@@ -33,7 +33,7 @@ export default function CardSlider({ articles }) {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((currentIndex + 1) % slicedArticles.length);
-    }, 10000);
+    }, 20000);
     return () => clearInterval(interval);
   }, [currentIndex, slicedArticles.length]);
 
@@ -45,14 +45,14 @@ export default function CardSlider({ articles }) {
         {/* Slider navigation */}
         <div className="flex justify-between items-center uni-text-color text-2xl">
           <button
-            className="absolute top-48 right-1 text-2xl hover:animate-pulse hover:text-darkAccent-500 z-50"
+            className="absolute top-48 right-1 text-2xl hover:animate-pulse hover:text-darkAccent-500 z-10"
             onClick={handlePrevSlide}
             aria-label="Next slide"
           >
             <FaArrowAltCircleRight />
           </button>
           <button
-            className="absolute top-48 left-1 text-2xl hover:animate-pulse hover:text-darkAccent-500 z-50"
+            className="absolute top-48 left-1 text-2xl hover:animate-pulse hover:text-darkAccent-500 z-10"
             onClick={handleNextSlide}
             aria-label="Previous slide"
           >

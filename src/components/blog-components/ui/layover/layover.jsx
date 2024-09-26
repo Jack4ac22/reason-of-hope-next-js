@@ -16,8 +16,8 @@ export default function LayOverSection() {
     layoverObject && (
       <section className="m-0 p-0 fixed top-0 right-0 w-full h-full bg-black bg-opacity-50 z-50 flex justify-center items-center content-center" onClick={handleCloseLayover}>
 
-        <div className="w-[80vw] h-[80vh] border rounded-xl bg-lightShade">
-          <header className="flex justify-between text-mainBrand uni-background uni-text-color rounded-t-xl">
+        <div className="w-[80vw] h-min max-h-[80vh] border rounded-xl bg-lightShade">
+          <header className="flex justify-between text-mainBrand uni-background uni-text-color rounded-t-xl h-min">
             {
               layoverObject.type === "link" && <Link href={layoverObject.link} target='_blank' className="m-2 flex space-x-3">
                 <span >
@@ -34,13 +34,15 @@ export default function LayOverSection() {
               <span className="sr-only">Close Layover</span>
             </button>
           </header>
-          {/* {layoverObject.link} */}
-          {layoverObject.type === "link" && <LinkLayover layoverObject={layoverObject} />}
-          {/* layover image */}
-          {layoverObject.type === "image" && <>
-            <ImageLayover layoverObject={layoverObject} />
-          </>
-          }
+          <div className="h-[70vh] bg-lightShade-500 dark:invert">
+            {/* {layoverObject.link} */}
+            {layoverObject.type === "link" && <LinkLayover layoverObject={layoverObject} />}
+            {/* layover image */}
+            {layoverObject.type === "image" && <>
+              <ImageLayover layoverObject={layoverObject} />
+            </>
+            }
+          </div>
         </div>
       </section>
     )

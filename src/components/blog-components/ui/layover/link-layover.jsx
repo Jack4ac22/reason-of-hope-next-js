@@ -18,20 +18,17 @@ export default function LinkLayover({ layoverObject }) {
         url={layoverObject.link}
         width={`${loading ? ' 0px ' : '100%'}`}
         height={`${loading ? ' 0px ' : '100%'}`}
-        className={` ${loading ? ' opacity-0 ' : ' opacity-100 h-[80vh]'} duration-100 `}
+        className={` ${loading ? ' hidden ' : ' block h-fill'} duration-100  rounded-b-xl`}
         loading='eager'
         scrolling='yes'
       />
-      <div className={`${loading ? ' opacity-100 ' : ' opacity-0 h-0 w-0'} flex space-x-2 justify-center items-center bg-lightShade-500 h-screen dark:invert duration-200`}>
-        <span className='sr-only'>
-          Loading...
-        </span>
+      {/* loading animation */}
+      <div className={`${loading ? ' block ' : ' hidden '} flex space-x-5 justify-center items-center  duration-300 h-full`}>
         <span className="sr-only">...جاري التحميل</span>
         <div className='h-8 w-8 bg-darkShade-500 rounded-full animate-bounce [animation-delay:-0.3s]'></div>
         <div className='h-8 w-8 bg-darkShade-500 rounded-full animate-bounce [animation-delay:-0.15s]'></div>
         <div className='h-8 w-8 bg-darkShade-500 rounded-full animate-bounce'></div>
       </div>
     </>
-
   );
 }

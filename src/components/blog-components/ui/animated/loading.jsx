@@ -1,6 +1,6 @@
 export default function LoadingComponent() {
   return (
-    <div className='flex space-x-2 justify-center items-center bg-white h-screen dark:invert'>
+    <div className='flex space-x-2 justify-center items-center bg-white h-[80vh] dark:invert mt-0'>
       <span className='sr-only'>
         Loading...
       </span>

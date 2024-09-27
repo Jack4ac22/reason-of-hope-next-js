@@ -4,7 +4,7 @@ import { Suspense } from 'react'
 import CardsListSkeleton from "@/components/blog-components/skeltons/card-list-skelton";
 export default function SectionWithSlider({ sectionObject }) {
   return (
-    <section className="uni-text-color mt-6" id={sectionObject.title}>
+    <section className="uni-text-color mt-6" id={sectionObject.title.replace(/\s+/g, '')}>
       <div className={`mx-2 flex flex-col ${sectionObject.reversed ? " md:flex-row-reverse " : " md:flex-row "}  md:justify-between`}>
 
         <div className="flex-col md:w-1/2 w-full px-8 md:h-fill">

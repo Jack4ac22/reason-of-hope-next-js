@@ -4,8 +4,6 @@ export default function ArticleFooter({ article }) {
   return (
     <>
       <RelatedArticles article={article} />
-      Article footer
-
     </>
   );
 }

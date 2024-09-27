@@ -3,10 +3,10 @@ import { FaXTwitter, FaFacebook, FaYoutube, FaInstagram, FaLinkedin, FaWhatsapp 
 import Link from 'next/link';
 export default function MainFooter() {
   const socialLinks = [
-    { title: 'X', icon: <FaXTwitter />, link: '#' },
-    { title: 'facebook', icon: <FaFacebook />, link: '#' },
-    { title: 'youtube', icon: <FaYoutube />, link: '#' },
-    { title: "whatsapp", icon: <FaWhatsapp />, link: "#" },
+    // { title: 'X', icon: <FaXTwitter />, link: '#' },
+    { title: 'facebook', icon: <FaFacebook />, link: 'https://www.facebook.com/ReasonOfHope/' },
+    { title: 'youtube', icon: <FaYoutube />, link: 'https://www.youtube.com/@ReasonOfHope' },
+    { title: "whatsapp", icon: <FaWhatsapp />, link: "https://whatsapp.com/channel/0029Va9m2Tw7IUYVEc3rjU0X" },
   ];
 
   const usefullLinks = [
@@ -16,7 +16,7 @@ export default function MainFooter() {
 
   function SocialLink(title, link, icon) {
     return (
-      <Link className="m-2 p-3 shadow-lg items-center justify-center align-center rounded-full text-center" href={link} target='_blank' rel='noopener nor eferrer' key={link}>
+      <Link className="m-2 p-3 shadow-lg items-center justify-center align-center rounded-full text-center hover:text-mainBrand-500 animate-all duration-200" href={link} target='_blank' rel='noopener nor eferrer' key={link}>
         {icon}
         <span className="sr-only">Visit our {title}</span>
       </Link>
@@ -26,7 +26,7 @@ export default function MainFooter() {
   function FooterLinks(title, href) {
     return (
       <li key={title + href}>
-        <Link className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href={href}>{title}</Link>
+        <Link className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm hover:text-mainBrand-500 animate-all duration-200" href={href}>{title}</Link>
       </li>
     )
   }
@@ -35,10 +35,10 @@ export default function MainFooter() {
       <section className="flex justify-center items-center h-full">
         <div className="container mx-auto px-4">
 
-          <div className="flex flex-wrap">
+          <div className="flex flex-wrap mt-12">
             {/* contact/social media section */}
             <div className="w-full lg:w-6/12 px-4">
-              <h4 className="text-3xl font-semibold">فلنبقى على تواصل!</h4>
+              <h3 className="text-3xl font-semibold">فلنبقى على تواصل!</h3>
               <div className="mt-6 lg:mb-0 mb-6 flex">
                 {/* social media links */}
                 {socialLinks.map((item, index) => (
@@ -54,7 +54,7 @@ export default function MainFooter() {
                 {/* usefull links  */}
                 {usefullLinks.length > 0 &&
                   (<div className="w-full lg:w-4/12 px-4 ml-auto">
-                    <span className="block uppercase text-blueGray-500 text-sm font-semibold mb-2">روابط سريعة</span>
+                    <h3 className="block text-blueGray-500 text-xl font-semibold mb-2">روابط سريعة</h3>
                     <ul className="list-unstyled">
                       {usefullLinks.map((item) => FooterLinks(item.title, item.href))}
                     </ul>

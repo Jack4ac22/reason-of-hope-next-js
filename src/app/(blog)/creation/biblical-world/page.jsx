@@ -17,7 +17,7 @@ export default function BiblicalWorldPage() {
             </header>
           </section>
           <section className="uni-text-color">
-            <h1 >
+            <h1>
               العالم التوراتي
             </h1>
             <p>

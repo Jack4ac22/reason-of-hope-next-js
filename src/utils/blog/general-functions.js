@@ -7,7 +7,7 @@ export function randomArticlesFromArray(articlesList = [], number = 1) {
   while (randomArticles.length < number) {
     const randomIndex = Math.floor(Math.random() * articlesList.length);
     randomArticles.push(articlesList[randomIndex]);
-    randomArticles = randomArticles.filter(onlyUnique);
+    randomArticles = [...new Set(randomArticles)]
   }
   return randomArticles;
 }

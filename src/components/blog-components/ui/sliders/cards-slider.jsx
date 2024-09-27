@@ -17,7 +17,7 @@ import CardsListSkeleton from "@/components/blog-components/skeltons/card-list-s
  * @returns {JSX.Element} The card slider component.
  */
 export default function CardSlider({ articles }) {
-
+  const unique_key_prefix = articles.map((article) => article?.title?.slice(2, 3)).join("-");
   const slicedArticles = articles?.length > 5 ? randomArticlesFromArray(articles, 5) : articles;
 
   function handleNextSlide() {
@@ -64,7 +64,7 @@ export default function CardSlider({ articles }) {
         <div className="flex justify-center items-center -z-50">
           {slicedArticles.map((article, index) => (
             index === currentIndex && (
-              <div key={`${index}-${article?.title}`} className="animate-smoothlyAppear">
+              <div key={`${unique_key_prefix}-${index}-${article?.title}`} className="animate-smoothlyAppear">
                 <Suspense fallback={<CardsListSkeleton />} >
                   <ArticleCard article={article} simple={false} />
                 </Suspense>

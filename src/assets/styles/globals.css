@@ -24,7 +24,7 @@
 }
 
 .uni-text-color {
-  @apply text-darkAccent-800 dark:text-darkAccent-100 text-sm;
+  @apply text-darkAccent-800 dark:text-darkAccent-100;
 }
 
 .card-list-select {
@@ -52,7 +52,6 @@
   @apply break-words whitespace-normal overflow-hidden truncate;
 }
 
-
 .local-table {
   @apply my-2 p-2 table-auto w-full max-w-[80vw] border-2 rounded border-collapse;
 }
@@ -61,13 +60,18 @@
   @apply bg-lightAccent-600 dark:bg-darkAccent-900 font-bold text-start;
 }
 
-.local-table > tbody > *:nth-child(even) {
-  @apply bg-lightAccent-600 dark:bg-darkAccent-600;
+.local-table td {
+  @apply border-x-2 border-lightAccent-400 dark:border-darkAccent-400 text-center;
 }
 
-.local-table > tbody > *:nth-child(odd) {
-  @apply border-b-2 border-lightAccent-400 dark:border-darkAccent-400;
+.local-table > tbody > *:nth-child(even) {
+  @apply bg-lightAccent-200 dark:bg-darkAccent-600;
 }
+
+.local-table > tbody > * {
+  @apply border-b-2 border-lightAccent-400 dark:border-darkAccent-400 text-center;
+}
+
 ,
 @layer base {
   html {
@@ -81,7 +85,7 @@
   }
 
   h1 {
-    @apply px-2 my-6 text-6xl text-wrap font-bold text-darkAccent-800 dark:text-darkAccent-100;
+    @apply px-2 my-6 text-4xl text-wrap font-bold text-darkAccent-800 dark:text-darkAccent-100;
   }
   p {
     @apply text-wrap whitespace-pre-wrap;

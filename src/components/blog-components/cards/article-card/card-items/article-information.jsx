@@ -7,10 +7,10 @@ import Link from "next/link";
 export default function ArticleInformation({ article }) {
   return (
     <>
-      <div className="flex flex-col items-start justify-center overflow-y-scroll" aria-readonly>
+      <div className="flex flex-col items-start justify-center overflow-y-scroll" role="banner">
 
         {/* title */}
-        <div className="flex items-center justify-center" aria-label="title" aria-readonly>
+        <div className="flex items-center justify-center">
           <h3 className="text-lg font-bold text-center text-mainBrand-600 dark:text-mainBrand-200">{article.title}</h3>
         </div>
 

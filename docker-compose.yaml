@@ -1,0 +1,16 @@
+services:
+  nextjs:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: reasonofhope
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/app                      # Mount the entire project directory to /app
+      - /app/node_modules            # Prevent overwriting node_modules with host
+      - ./src:/app/src               # Mount the src folder for live updates
+      - ./public:/app/public         # Mount the public folder for live updates
+    environment:
+      NODE_ENV: development
+    command: npm run dev             # Use the development command

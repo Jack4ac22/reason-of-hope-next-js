@@ -15,16 +15,21 @@
   @apply text-xl text-wrap mx-4;
 }
 
-.information-card-text {
-  @apply text-sm text-darkAccent-400 dark:text-white select-none;
-}
-
 .uni-background {
   @apply bg-lightShade-200 dark:bg-darkAccent-800;
 }
 
 .uni-text-color {
   @apply text-darkAccent-800 dark:text-darkAccent-100;
+}
+
+.section-link {
+  @apply text-mainBrand-600 dark:text-mainBrand-200 border-b-2 hover:text-mainBrand-800 hover:dark:text-mainBrand-100 duration-200;
+}
+
+/* Card classes */
+.information-card-text {
+  @apply text-sm text-darkAccent-400 dark:text-white select-none;
 }
 
 .card-list-select {
@@ -35,16 +40,17 @@
   @apply uni-text-color;
 }
 
+.info-link-button {
+  @apply information-card-text mb-1 p-0.5 border-b-2 rounded-lg border-info-500  hover:bg-info-500 hover:text-white duration-200;
+}
+
+/* Navigation classes */
 .page-navigation {
   @apply flex flex-wrap items-center justify-center uni-background;
 }
 
 .pagination-item {
   @apply px-4 py-2 mx-2 rounded-md uni-background uni-text-color disabled:text-gray-700 dark:disabled:text-gray-500;
-}
-
-.section-link {
-  @apply text-mainBrand-600 dark:text-mainBrand-200 border-b-2 hover:text-mainBrand-800 hover:dark:text-mainBrand-100 duration-200;
 }
 
 /* MDX MAPPIN */

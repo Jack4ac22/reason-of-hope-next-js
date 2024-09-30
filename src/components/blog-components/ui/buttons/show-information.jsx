@@ -9,8 +9,7 @@ export default function ShowInformation({ inlineText, children }) {
       {/* section container */}
       <div className="group animate duration-200 focuse:outline-2">
         {/* show the full details of the article */}
-        <button className=" absolute bottom-3 right-2 flex items-center text-mainBrand-500 cursor-pointer hover:text-mainBrand-600 dark:text-mainBrand-300 dark:hover:bg-mainBrand-200
-        focus:text-xl focus:drop-shadow-2xl focus:outline-2"
+        <button className="absolute bottom-3 right-2 flex items-center text-mainBrand-500 cursor-pointer hover:text-mainBrand-600 dark:text-mainBrand-300 dark:hover:bg-mainBrand-200 focus:text-xl focus:drop-shadow-2xl focus:outline-2"
           onClick={() => { setShowInformation(true) }}>
           <FaInfoCircle className="absolute hover:translate-y-0.5 hover:animate-ping" />
           <span className=" right-0 sr-only">إظهار المعلومات</span>
@@ -23,14 +22,27 @@ export default function ShowInformation({ inlineText, children }) {
             </span>
           </span>
         </button>
+
+
         {/* article informations section */}
-        <div className={` w-72 h-96 border rounded-md absolute top-0 left-0 p-4 flex-col items-center bg-lightShade-500 dark:bg-lightShade-800 ${showInformation ? 'opacity-90' : 'hidden'}`} onClick={() => { setShowInformation(false) }}>
-          <button className="m-2 text-mainBrand-500" onClick={() => { setShowInformation(false) }
-          }>
-            <span className="sr-only">Close the information card.</span>
-            <FaRegWindowClose />
-          </button>
-          {children}
+        <div className={`absolute top-0 left-0 bg-lightShade-500 dark:bg-lightShade-800 ${showInformation ? 'opacity-90' : 'hidden'}`}>
+
+          <div className="w-72 h-96 flex-col justify-start content-start items-start border rounded-md">
+
+            {/* close button */}
+            <div className="flex justify-start">
+              <button className="m-2 text-mainBrand-500 dark:text-mainBrand-200" onClick={() => { setShowInformation(false) }} aria-label="close">
+                <FaRegWindowClose />
+              </button>
+            </div>
+
+            {/* information content */}
+            <div className="max-h-72 mb-12 overflow-y-scroll">
+              {children}
+            </div>
+
+          </div>
+
         </div>
 
       </div>

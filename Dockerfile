@@ -1,32 +1,38 @@
-# Use an official Node.js runtime as a parent image
-FROM node:18-alpine AS builder
+# Stage 1: Build the application
+FROM node:18 AS builder
 
-# Set the working directory
+# Set working directory
 WORKDIR /app
 
-# Copy package.json and package-lock.json
+# Copy package.json and package-lock.json (or yarn.lock)
 COPY package*.json ./
 
 # Install dependencies
 RUN npm install
 
-# Copy the rest of the application code
+# Copy all files
 COPY . .
 
 # Build the application
 RUN npm run build
 
-# Use a lighter image to run the app
-FROM node:18-alpine AS runner
+# Stage 2: Run the application
+FROM node:18 AS runner
 
-# Copy the build from the builder
-COPY --from=builder /app/public ./public
+# Set environment variable to use production mode
+ENV NODE_ENV=production
+
+# Set working directory
+WORKDIR /app
+
+# Copy necessary files from builder stage
+COPY --from=builder /app/package.json ./
 COPY --from=builder /app/.next ./.next
+COPY --from=builder /app/public ./public
 COPY --from=builder /app/node_modules ./node_modules
-COPY --from=builder /app/package.json ./package.json
 
-# Expose the port that Next.js runs on
+# Expose port 3000
 EXPOSE 3000
 
-# Run the application
-CMD ["npm", "start"]
+# Start the application
+CMD ["npm", "run", "start"]

@@ -2,9 +2,6 @@ import CreationLink from "@/components/blog-components/article-page/header-compo
 import Link from "next/link";
 
 
-// TODO: enhanse the design of the information card
-// TODO: add the icons of the media links
-// TODO: add the icons for the published items
 export default function ArticleInformation({ article }) {
 
   function PersonInfoLink({ author }) {
@@ -121,7 +118,7 @@ export default function ArticleInformation({ article }) {
               <span className="block text-left" dir="ltr">
                 {article.resources.map((link, index) => (
                   <span key={link + index}>
-                    <Link href={link.link} aria-label="Download Link" className="info-link-button">{link.title}</Link>
+                    <Link href={link?.link || '#'} aria-label="Download Link" className="info-link-button">{link.title}</Link>
                     <span>{index < article.resources.length - 1 ? ' - ' : '.'}</span>
                   </span>
                 ))

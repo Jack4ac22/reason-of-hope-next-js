@@ -11,7 +11,12 @@ export default function MainFooter() {
 
   const usefullLinks = [
     { title: "إيماننا", href: "/our-faith", active: true, smallScreen: true },
-    { title: "اتصل بنا", href: "/contact", active: true, smallScreen: true },];
+    { title: "اتصل بنا", href: "/contact", active: true, smallScreen: true },
+    { title: "من نحن", href: "/about", active: true, smallScreen: true },
+    { title: "الأقسام", href: "/categories", active: true, smallScreen: true },
+    { title: "الوسوم", href: "/tags", active: true, smallScreen: true },
+    
+  ];
   const otherResources = [];
 
   function SocialLink(title, link, icon) {

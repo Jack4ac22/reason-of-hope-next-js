@@ -1,6 +1,6 @@
 import CreationLink from "@/components/blog-components/article-page/header-components/creation-link";
 import Link from "next/link";
-
+import { getAudioLinksFromArticle } from "@/utils/blog/general-functions";
 
 export default function ArticleInformation({ article }) {
 
@@ -9,15 +9,8 @@ export default function ArticleInformation({ article }) {
       <Link href={author.link} aria-label={`Author: ${author.name}`} className="info-link-button">{author.name}</Link>
     )
   }
-  function AudioLink({ audio }) {
-    const [key, value] = Object.entries(audio)[0];
-    return (
-      <span key={key + value}>
-        <Link href={value} aria-label={`Media Link: ${key}`} className="info-link-button">{key}</Link>
-      </span>)
-  }
 
-
+  const audioLinks = getAudioLinksFromArticle(article);
 
   return (
     <>
@@ -88,18 +81,15 @@ export default function ArticleInformation({ article }) {
         </span>)}
 
         {/* multimedia Links */}
-        {article?.audio && article?.audio.length > 0 &&
+        {audioLinks && audioLinks.length > 0 &&
           (<section className="mb-1 text-right">
             <p>
               <span>روابط الوسائط: </span>
               <span className="block text-left" dir="ltr" >
-                {article.youtube && article.youtube.trim() !== "" && (
-                  <span><Link href={article.youtube} aria-label="Youtube Link" className="info-link-button">يوتيوب</Link></span>
-                )}
-                {article.audio.map((link, index) => (
-                  <span key={Object.entries(link)[0][0] + Object.entries(link)[0][1]}>
-                    <AudioLink audio={link} key={link + index} />
-                    <span>{index < article.audio.length - 1 ? ' - ' : '.'}</span>
+                {audioLinks.map((link, index) => (
+                  <span key={link + index}>
+                    <Link href={link?.link || '#'} aria-label="Download Link" className="info-link-button">{link.title}</Link>
+                    <span>{index < article.resources.length - 1 ? ' - ' : '.'}</span>
                   </span>
                 ))
                 }
@@ -127,8 +117,6 @@ export default function ArticleInformation({ article }) {
             </p>
           </section>)
         }
-
-        {/* published */}
 
         {/* categories */}
         {article.categories && article.categories.length > 0 &&
@@ -161,9 +149,6 @@ export default function ArticleInformation({ article }) {
             </p>
           </section>)}
 
-        {/* LINKS TO MWDIA */}
-
-        {/* DOWNLOADING LINK */}
       </div>
     </>
   );

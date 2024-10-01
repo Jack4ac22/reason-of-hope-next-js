@@ -142,7 +142,7 @@ export function getRelatedArticles({ article }, number = 5) {
       const articlesByCategory = getArticlesByCategory(category);
       relatedArticles.push(...articlesByCategory);
     });
-  // loog throgh the tags and retrieve the articles that has the same tags
+  // loop throgh the tags and retrieve the articles that has the same tags
 
   article.tags.map((tag) => {
     const articlesByTag = getArticlesByTag(tag);
@@ -151,15 +151,39 @@ export function getRelatedArticles({ article }, number = 5) {
 
   // remove the duplicate articles
   const unique_list = [...new Set(relatedArticles)];
-  const random_order_list = unique_list.sort(() => Math.random() - 0.5);
-  const related_articles =
-    random_order_list.length < number
-      ? random_order_list
-      : random_order_list.slice(0, number);
-  return related_articles;
-}
 
-// remove the duplicate articles
+  // remove the current article from the list
+  const index = unique_list.findIndex(
+    (relatedArticle) => relatedArticle.slug === article.slug
+  );
+  if (index > -1) {
+    unique_list.splice(index, 1);
+  }
+
+  // if there are no related articles, return five random articles else return the related articles
+  if (unique_list.length < 3) {
+    const randomArticles = getAllArticlesData();
+    // remove current article from the list
+    const index = randomArticles.findIndex(
+      (relatedArticle) => relatedArticle.slug === article.slug
+    );
+    if (index > -1) {
+      randomArticles.splice(index, 1);
+    }
+    // shuffle the list
+    randomArticles.sort(() => Math.random() - 0.5);
+    // return the first five articles
+    return randomArticles.slice(0, number);
+  } else {
+    const random_order_list = unique_list.sort(() => Math.random() - 0.5);
+
+    const related_articles =
+      random_order_list.length < number
+        ? random_order_list
+        : random_order_list.slice(0, number);
+    return related_articles;
+  }
+}
 
 /**
  * ############################

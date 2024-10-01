@@ -51,11 +51,12 @@ export default function NavBar() {
 
   function DeskTopNavItem({ menueElement }) {
     if (menueElement.active === false) return null;
+    const menueElementChosen = path.length > 1 ? path.includes(menueElement.href) : path === menueElement.href;
     return (
       <Link
         href={menueElement.href}
         className={`text-white text-nowrap text-sm hover:outline hover:brightness-90 hover:text-white rounded-md px-2 py-2 dark:bg-darkAcentS-900
-          ${path === menueElement.href ? 'underline underline-offset-4 decoration-lightAccent-500 decoration-wavy dark:decoration-darkAccent-500'
+          ${menueElementChosen ? 'underline underline-offset-4 decoration-lightAccent-500 decoration-wavy dark:decoration-darkAccent-500'
             : ''}`}
       >{menueElement.title}
       </Link>

@@ -1,6 +1,6 @@
 import ListCard from "@/components/blog-components/cards/article-card/list-card"
 
-export default function SliderWithTitleCards({ list, order, perPage, page }) {
+export default function SliderWithTitleCards({ list, order, perPage, page, linkPrefix }) {
   // check if the perpage exist and a number else use 6 as default
   if (!perPage || isNaN(perPage)) {
     perPage = 6;
@@ -22,7 +22,7 @@ export default function SliderWithTitleCards({ list, order, perPage, page }) {
   return (
     <div className="flex flex-wrap justify-center md:justify-evenly items-center content-center w-full m-2">
       {list.map((item, index) => (
-        <ListCard key={`${index}_${item}`} list_item={item} />
+        <ListCard key={`${index}_${item}`} list_item={item} linkPrefix={linkPrefix} />
       ))}
     </div>
   );

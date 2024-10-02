@@ -22,7 +22,7 @@ export default function CategoriesPage() {
           </section>
           <section className="flex-col justify-center items-center content-center">
             <Suspense fallback={<CardsListSkeleton />}>
-              <CardSliderCardList list={categories} />
+              <CardSliderCardList list={categories} linkPrefix={'/categories/'} />
             </Suspense>
           </section>
         </div>

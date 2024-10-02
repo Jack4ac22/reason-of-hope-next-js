@@ -20,7 +20,7 @@ export default function TagsPage() {
         </section>
         <section className="flex-col justify-center items-center content-center">
           <Suspense fallback={<CardsListSkeleton />}>
-            <CardSliderCardList list={tags} />
+            <CardSliderCardList list={tags} linkPrefix='/tags/' />
           </Suspense>
         </section>
       </div>

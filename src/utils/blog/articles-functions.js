@@ -197,6 +197,15 @@ export function getRelatedArticles({ article }, number = 5) {
  * ############################
  */
 
+export function getCategoriesList() {
+  const articles = getAllArticlesData(true);
+  const categoriesSet = new Set();
+  articles.forEach((article) => {
+    article.categories.forEach((category) => categoriesSet.add(category));
+  });
+  return Array.from(categoriesSet);
+}
+
 /**
  * Retrieves all categories with their respective article counts and associated articles.
  *
@@ -237,17 +246,23 @@ export function getAllCategoriesWithCount() {
 }
 
 /**
- * Retrieves a list of articles by category.
- * @param {string} category - The category of the articles.
- * @returns {Array} An array of article objects.
- */
-/**
+ * Retrieves articles that belong to a specific category.
+ *
+ * @param {string} category - The category to filter articles by.
+ * @returns {Object[]} An array of articles that belong to the specified category.
  */
 export function getArticlesByCategory(category) {
   const articles = getAllArticlesData(true);
-  const articlesByCategory = articles.filter((article) => {
-    return article.categories && article.categories.includes(category);
+  const decodedCategory = decodeURIComponent(category);
+  let articlesByCategory = [];
+  articles.forEach((article) => {
+    article.categories.forEach((cat) => {
+      if (cat === decodedCategory) {
+        articlesByCategory.push(article);
+      }
+    });
   });
+
   return articlesByCategory;
 }
 
@@ -258,9 +273,35 @@ export function getArticlesByCategory(category) {
  */
 
 /**
- * Retrieves all tags with their respective count from all articles.
- * @returns {Array<{tag: string, count: number}>} An array of objects containing the tag name and its count.
+ * Retrieves a list of unique tags from all articles.
+ *
+ * This function iterates through all the articles and extracts their tags.
+ * It uses a Set to store unique tags, ensuring that no duplicates are included.
+ * Finally, it converts the Set back to an array and returns it.
+ *
+ * @returns {string[]} An array of unique tags sorted alphabetically.
+ *
+ * @example
+ * // Sample usage:
+ * const uniqueTags = getTagsList();
+ * console.log(uniqueTags); // Output: ['JavaScript', 'Next.js', 'React', 'Web Development']
+ *
  */
+export function getTagsList() {
+  const articles = getAllArticlesData(true);
+
+  // Use a Set to store unique tags
+  const uniqueTagsSet = new Set();
+
+  // Traverse each article and add its tags to the Set
+  articles.forEach((article) => {
+    article.tags?.forEach((tag) => uniqueTagsSet.add(tag));
+  });
+
+  // Convert the Set back to an array and sort alphabetically
+  return Array.from(uniqueTagsSet).sort((a, b) => a.localeCompare(b));
+}
+
 export function getAllTagsWithCount() {
   const articles = getAllArticlesData(true);
 
@@ -298,9 +339,15 @@ export function getAllTagsWithCount() {
  * @returns {Array} An array of article objects.
  */
 export function getArticlesByTag(tag) {
-  const articles = getAllArticlesData();
-  const articlesByTag = articles.filter((article) => {
-    return article.tags.includes(tag);
+  const articles = getAllArticlesData(true);
+  const decodedTag = decodeURIComponent(tag);
+  let articlesByTag = [];
+  articles.forEach((article) => {
+    article.tags.forEach((t) => {
+      if (t === decodedTag) {
+        articlesByTag.push(article);
+      }
+    });
   });
   return articlesByTag;
 }

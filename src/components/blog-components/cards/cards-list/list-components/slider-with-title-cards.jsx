@@ -1,6 +1,6 @@
 import ListCard from "@/components/blog-components/cards/article-card/list-card"
 
-export default function NoImageDisplayedCards({ list, order, perPage, page }) {
+export default function SliderWithTitleCards({ list, order, perPage, page }) {
   // check if the perpage exist and a number else use 6 as default
   if (!perPage || isNaN(perPage)) {
     perPage = 6;

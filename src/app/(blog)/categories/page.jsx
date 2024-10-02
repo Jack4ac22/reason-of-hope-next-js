@@ -1,7 +1,7 @@
-import NoImagesCardList from "@/components/blog-components/cards/cards-list/no-image-cards-list";
 import { getAllCategoriesWithCount } from "@/utils/blog/articles-functions";
 import CardsListSkeleton from "@/components/blog-components/skeltons/card-list-skelton";
 import { Suspense } from "react";
+import CardSliderCardList from "@/components/blog-components/cards/cards-list/card-slider-cards-list";
 
 
 export default function CategoriesPage() {
@@ -22,7 +22,7 @@ export default function CategoriesPage() {
           </section>
           <section className="flex-col justify-center items-center content-center">
             <Suspense fallback={<CardsListSkeleton />}>
-              <NoImagesCardList list={categories} />
+              <CardSliderCardList list={categories} />
             </Suspense>
           </section>
         </div>

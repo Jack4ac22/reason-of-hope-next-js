@@ -1,5 +1,6 @@
 import Link from "next/link";
-import CardSlider from "../../ui/sliders/cards-slider";
+import CardSlider from "@/components/blog-components/ui/sliders/cards-slider";
+import ArticleCard from "@/components/blog-components/cards/article-card/article-card";
 
 export default function ListCard({ list_item }) {
   return (
@@ -11,7 +12,10 @@ export default function ListCard({ list_item }) {
           <p className="uni-text-color">
             {new Intl.NumberFormat('ar-EG').format(list_item.count)} منشور
           </p>
-          <CardSlider articles={list_item.articles} showNav={false} autoPlay={false}/>
+
+          {list_item.count === 1 && (<ArticleCard article={list_item.articles[0]} simple={false} />)}
+          {list_item.count > 1 && (<CardSlider articles={list_item.articles} showNav={false} autoPlay={false} />)}
+
         </div>
       </div>
     </>

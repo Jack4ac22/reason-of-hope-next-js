@@ -168,7 +168,7 @@ export function getRelatedArticles({ article }, number = 5) {
 
   // if there are no related articles, return five random articles else return the related articles
   if (unique_list.length < 3) {
-    const randomArticles = getAllArticlesData( true);
+    const randomArticles = getAllArticlesData(true);
     // remove current article from the list
     const index = randomArticles.findIndex(
       (relatedArticle) => relatedArticle.slug === article.slug
@@ -196,7 +196,6 @@ export function getRelatedArticles({ article }, number = 5) {
  * ### Categories functions ###
  * ############################
  */
-
 
 /**
  * Retrieves all categories with their respective article counts and associated articles.
@@ -237,7 +236,6 @@ export function getAllCategoriesWithCount() {
   return categoriesWithCount;
 }
 
-
 /**
  * Retrieves a list of articles by category.
  * @param {string} category - The category of the articles.
@@ -264,20 +262,33 @@ export function getArticlesByCategory(category) {
  * @returns {Array<{tag: string, count: number}>} An array of objects containing the tag name and its count.
  */
 export function getAllTagsWithCount() {
-  const allArticles = getAllArticlesData();
-  let allTags = [];
-  allArticles.map((article) => {
-    const { tags } = article;
-    tags.map((tag) => {
-      allTags.push(tag);
+  const articles = getAllArticlesData(true);
+
+  // Use a Map to store tag counts and associated articles
+  const tagMap = new Map();
+
+  // Traverse each article and update the tag count and articles in the Map
+  articles.forEach((article) => {
+    article.tags.forEach((tag) => {
+      // If tag exists in the map, update count and add the article
+      if (tagMap.has(tag)) {
+        const tagData = tagMap.get(tag);
+        tagData.count += 1;
+        tagData.articles.push(article);
+      } else {
+        // Initialize the tag with count 1 and current article
+        tagMap.set(tag, { count: 1, articles: [article] });
+      }
     });
   });
-  const uniqueTags = allTags.filter(onlyUnique);
-  let tagsWithCount = [];
-  uniqueTags.map((tag) => {
-    const tagCount = allTags.filter((t) => t === tag).length;
-    tagsWithCount.push({ tag: tag, count: tagCount });
-  });
+
+  // Convert the Map into an array of objects with tag title, count, and articles
+  const tagsWithCount = Array.from(tagMap, ([title, data]) => ({
+    title,
+    count: data.count,
+    articles: data.articles,
+  }));
+
   return tagsWithCount;
 }
 

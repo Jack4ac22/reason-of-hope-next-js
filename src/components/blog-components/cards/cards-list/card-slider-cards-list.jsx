@@ -30,7 +30,7 @@ export default function CardSliderCardList({ list }) {
       <p className="sr-only">List</p>
       <div className="mx-4 border-4 rounded-xl page-layer-container">
         {/* order articles */}
-        <DropDownOption option_name="order" option_lable="ترتيب حسب:" options={[{ "value": "title_asc", "label": "العنوان تنازلي" }, { "value": "title_dsc", "label": "العنوان تنازلي" }, { "value": "most", "label": "الأكثر عدداً" }, { "value": "least", "label": "الأقل عدداً" }]} />
+        <DropDownOption option_name="order" option_lable="ترتيب حسب:" options={[{ "value": "title_asc", "label": "العنوان تصاعدي" }, { "value": "title_dsc", "label": "العنوان تنازلي" }, { "value": "most", "label": "الأكثر عدداً" }, { "value": "least", "label": "الأقل عدداً" }]} />
         {/* number of articles per page */}
         <DropDownOption option_name="perPage" option_lable=" في الصفحة:" options={[{ "value": "12", "label": "12" }, { "value": "24", "label": "24" }]} />
         

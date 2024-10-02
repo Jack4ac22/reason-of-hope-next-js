@@ -6,7 +6,7 @@ export default function ArticleInformation({ article }) {
 
   function PersonInfoLink({ author }) {
     return (
-      <Link href={author.link} aria-label={`Author: ${author.name}`} className="info-link-button">{author.name}</Link>
+      <Link href={author.link} aria-label={`Author: ${author.name}`} className="info-link-button information-card-text">{author.name}</Link>
     )
   }
 
@@ -14,7 +14,7 @@ export default function ArticleInformation({ article }) {
 
   return (
     <>
-      <div className="p-4 flex-col items-start justify-center" role="banner">
+      <div className="p-4 flex-col items-start justify-center z-50" role="banner">
 
         {/* title */}
         <section className="mb-1 text-center w-full">
@@ -73,10 +73,8 @@ export default function ArticleInformation({ article }) {
           </section>)
         }
 
-        {/* TODO: add the links to download, listen and watch */}
-
         {/* creation link */}
-        {article?.creationLink && (<span className="info-link-button">
+        {article?.creationLink && (<span className="info-link-button information-card-text">
           <CreationLink article={article} />
         </span>)}
 
@@ -88,7 +86,7 @@ export default function ArticleInformation({ article }) {
               <span className="block text-left" dir="ltr" >
                 {audioLinks.map((link, index) => (
                   <span key={link + index}>
-                    <Link href={link?.link || '#'} aria-label="Download Link" className="info-link-button">{link.title}</Link>
+                    <Link href={link?.link || '#'} aria-label="Download Link" className="info-link-button information-card-text">{link.title}</Link>
                     <span>{index < article.resources.length - 1 ? ' - ' : '.'}</span>
                   </span>
                 ))
@@ -108,7 +106,7 @@ export default function ArticleInformation({ article }) {
               <span className="block text-left" dir="ltr">
                 {article.resources.map((link, index) => (
                   <span key={link + index}>
-                    <Link href={link?.link || '#'} aria-label="Download Link" className="info-link-button">{link.title}</Link>
+                    <Link href={link?.link || '#'} aria-label="Download Link" className="info-link-button information-card-text">{link.title}</Link>
                     <span>{index < article.resources.length - 1 ? ' - ' : '.'}</span>
                   </span>
                 ))
@@ -125,7 +123,7 @@ export default function ArticleInformation({ article }) {
               <span>{article.categories.length == 1 ? "القسم: " : "الأقسام: "}</span>
               {article.categories.map((category, index) => (
                 <span key={category + index}>
-                  <Link href={`/categories/${category}`} aria-label={`Category: ${category.replace(/-/g, ' ')}`} className="info-link-button">{category.replace(/-/g, ' ')}</Link>
+                  <Link href={`/categories/${category}`} aria-label={`Category: ${category.replace(/-/g, ' ')}`} className="info-link-button information-card-text">{category.replace(/-/g, ' ')}</Link>
                   <span>{index < article.categories.length - 1 ? ' - ' : '.'}</span>
                 </span>
               ))
@@ -141,7 +139,7 @@ export default function ArticleInformation({ article }) {
               <span>الوسوم: </span>
               {article.tags.map((tag, index) => (
                 <span key={tag + index}>
-                  <Link href={`/tags/${tag}`} className="info-link-button">{tag.replace(/-/g, ' ')}</Link>
+                  <Link href={`/tags/${tag}`} className="info-link-button information-card-text">{tag.replace(/-/g, ' ')}</Link>
                   <span>{index < article.tags.length - 1 ? ' - ' : '.'}</span>
                 </span>
               ))

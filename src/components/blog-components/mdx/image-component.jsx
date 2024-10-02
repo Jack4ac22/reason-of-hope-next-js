@@ -34,7 +34,6 @@ export default function ImageMappingComponent({ objectElement }) {
   const imageClass = `object-cover w-full ${isSmallWidth ? "max-h-144" : ""} ${(isSmallWidth & isFloatLeft) ? "md:rounded-l-lg pr-3" : ""} ${(isSmallWidth & isFloatRight) ? "md:rounded-r-lg pl-3" : ""} ${(isSmallWidth & !isFloatRight & !isFloatLeft) ? "md:rounded-r-lg pl-3" : ""} ${(isSmallWidth & isFloatCenter) ? "rounded-lg" : ""} ${isFullWidth ? "rounded-lg" : ""}`
 
   const captionClass = `figure-caption text-break uni-text-color text-center border-b border-double`
-  
   return (
     <figure className={figureClass}>
       <Image src={`/blog_images/${objectElement.src}`} alt={objectElement.alt}

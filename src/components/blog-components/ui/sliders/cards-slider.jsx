@@ -16,16 +16,20 @@ import CardsListSkeleton from "@/components/blog-components/skeltons/card-list-s
  * @param {Object[]} articles - The array of articles to display in the slider.
  * @returns {JSX.Element} The card slider component.
  */
-export default function CardSlider({ articles }) {
+export default function CardSlider({ articles, showNav = true }) {
   const unique_key_prefix = articles.map((article) => article?.title?.slice(2, 3)).join("-");
   const slicedArticles = articles?.length > 5 ? randomArticlesFromArray(articles, 5) : articles;
 
   function handleNextSlide() {
-    setCurrentIndex((currentIndex + 1) % slicedArticles.length);
+    if (articles?.length > 1) {
+      setCurrentIndex((currentIndex + 1) % slicedArticles.length);
+    }
   }
 
   function handlePrevSlide() {
-    setCurrentIndex((currentIndex - 1 + slicedArticles.length) % slicedArticles.length);
+    if (articles?.length > 1) {
+      setCurrentIndex((currentIndex - 1 + slicedArticles.length) % slicedArticles.length);
+    }
   }
 
   let [currentIndex, setCurrentIndex] = useState(1);
@@ -42,6 +46,7 @@ export default function CardSlider({ articles }) {
     <div className="flex-col w-72">
       {/* slider container */}
       <div className="w-72  m-2 relative" aria-live="polite">
+
         {/* Slider navigation */}
         <div className="flex justify-between items-center uni-text-color text-2xl">
           <button
@@ -75,7 +80,7 @@ export default function CardSlider({ articles }) {
 
       </div>
       {/* lower navigation container */}
-      <div className="mx-auto w-full z-50">
+      {!showNav || (<div className="mx-auto w-full z-50">
         <div className="flex justify-center items-center p-1 mx-auto">
           {slicedArticles.map((article, index) => (
             <button
@@ -92,7 +97,8 @@ export default function CardSlider({ articles }) {
             </button>
           ))}
         </div>
-      </div>
+      </div>)}
+
     </div>
   );
 }

@@ -45,7 +45,7 @@ main > h1, header > h1, section > h1 {
 }
 
 .info-link-button {
-  @apply information-card-text mb-1 p-0.5 border-b-2 rounded-lg border-info-500  hover:bg-info-500 hover:text-white duration-200;
+  @apply mb-1 p-0.5 border-b-2 rounded-lg border-info-500  hover:bg-info-500 hover:text-white duration-200;
 }
 
 /* Navigation classes */

@@ -1,6 +1,7 @@
 import path from "path";
 import fs from "fs";
 import matter from "gray-matter";
+import { randomArticlesFromArray } from "./general-functions";
 
 /**
  * ##########################
@@ -69,7 +70,8 @@ export const getArticlesList = () => {
 export function getSingleArticleData(
   articleDirectory,
   articleFileName,
-  assetsFolder = articlesFolder
+  assetsFolder = articlesFolder,
+  reduced = false
 ) {
   if (!articleFileName.endsWith(".md")) {
     articleFileName += ".md";
@@ -104,8 +106,10 @@ export function getSingleArticleData(
     isBook: isBook,
     featured: featured,
     ...data,
-    content: content,
   };
+  if (!reduced) {
+    articleData.content = content;
+  }
   return articleData;
 }
 
@@ -113,13 +117,15 @@ export function getSingleArticleData(
  * Retrieves data for all articles.
  * @returns {Array} An array containing data for all articles.
  */
-export function getAllArticlesData() {
+export function getAllArticlesData(reduced = false) {
   let allArticles = [];
   const articles = getArticlesList();
   articles.map((article) => {
     const articleData = getSingleArticleData(
       article.directory,
-      article.fileName
+      article.fileName,
+      articlesFolder,
+      reduced
     );
     allArticles.push(articleData);
   });
@@ -162,7 +168,7 @@ export function getRelatedArticles({ article }, number = 5) {
 
   // if there are no related articles, return five random articles else return the related articles
   if (unique_list.length < 3) {
-    const randomArticles = getAllArticlesData();
+    const randomArticles = getAllArticlesData( true);
     // remove current article from the list
     const index = randomArticles.findIndex(
       (relatedArticle) => relatedArticle.slug === article.slug
@@ -191,27 +197,46 @@ export function getRelatedArticles({ article }, number = 5) {
  * ############################
  */
 
+
 /**
- * Retrieves all categories with their respective count from the articles data.
- * @returns {Array} An array of objects containing the category and its count.
+ * Retrieves all categories with their respective article counts and associated articles.
+ *
+ * @returns {Array<Object>} An array of objects where each object represents a category
+ * with the following properties:
+ * - `title` {string}: The category title.
+ * - `count` {number}: The number of articles in the category.
+ * - `articles` {Array<Object>}: An array of articles belonging to the category.
  */
 export function getAllCategoriesWithCount() {
-  const articles = getAllArticlesData();
-  let allCategories = [];
-  articles.map((article) => {
-    const { category } = article;
-    allCategories.push(category);
+  const articles = getAllArticlesData(true);
+
+  // Use a Map to store category counts and associated articles
+  const categoryMap = new Map();
+
+  // Traverse each article and update the category count and articles in the Map
+  articles.forEach((article) => {
+    article.categories.forEach((category) => {
+      // If category exists in the map, update count and add the article
+      if (categoryMap.has(category)) {
+        const categoryData = categoryMap.get(category);
+        categoryData.count += 1;
+        categoryData.articles.push(article);
+      } else {
+        // Initialize the category with count 1 and current article
+        categoryMap.set(category, { count: 1, articles: [article] });
+      }
+    });
   });
-  const uniqueCategories = allCategories.filter(onlyUnique);
-  let categoriesWithCount = [];
-  uniqueCategories.map((category) => {
-    const categoryCount = allCategories.filter(
-      (cat) => cat === category
-    ).length;
-    categoriesWithCount.push({ category: category, count: categoryCount });
-  });
+
+  // Convert the Map into an array of objects with category title, count, and articles
+  const categoriesWithCount = Array.from(categoryMap, ([title, data]) => ({
+    title,
+    count: data.count,
+    articles: data.articles,
+  }));
   return categoriesWithCount;
 }
+
 
 /**
  * Retrieves a list of articles by category.
@@ -221,7 +246,7 @@ export function getAllCategoriesWithCount() {
 /**
  */
 export function getArticlesByCategory(category) {
-  const articles = getAllArticlesData();
+  const articles = getAllArticlesData(true);
   const articlesByCategory = articles.filter((article) => {
     return article.categories && article.categories.includes(category);
   });

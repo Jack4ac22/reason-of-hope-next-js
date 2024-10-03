@@ -21,6 +21,7 @@ export async function generateMetadata({ params, searchParams }, parent) {
 export default function TagPage({ params }) {
   const tag = params.tag
   const articles = getArticlesByTag(tag)
+  if (articles.length === 0) notFound();
   return (
     <>
       <main className="page-main" aria-label="Tags page">

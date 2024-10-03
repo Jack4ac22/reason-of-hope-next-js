@@ -4,6 +4,7 @@ import {
   getArticlesByTag,
 } from "@/utils/blog/articles-functions";
 import { language } from "gray-matter";
+import { notFound } from "next/navigation";
 export default function CatTagMetadata(type = "category", keyword = "") {
   const articles =
     type === "category"
@@ -20,6 +21,13 @@ export default function CatTagMetadata(type = "category", keyword = "") {
     articles && articles.map((article) => article.title).join(", ")
   }`;
   const cover_image_name = "generic-cover-image.webp";
+if (articles.length === 0){
+  return{
+    title: "صفحة غير موجودة",
+    description: "عذراً, الصفحة التي قُمتم بطلبها غير موجودة!",
+  }
+}
+
   return {
     title: title,
     description: description,

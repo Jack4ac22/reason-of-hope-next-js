@@ -3,6 +3,7 @@ import CardsListSkeleton from "@/components/blog-components/skeltons/card-list-s
 import { Suspense } from "react";
 import CardList from "@/components/blog-components/cards/cards-list/cards-list";
 import CatTagMetadata from "@/assets/blog/metadata/category-tag-page";
+import { notFound } from "next/navigation";
 
 export async function generateStaticParams() {
   const categories = getCategoriesList();
@@ -21,6 +22,7 @@ export async function generateMetadata({ params, searchParams }, parent) {
 export default function CategoryPage({ params }) {
   const category = params.category;
   const articles = getArticlesByCategory(category);
+  if (articles.length === 0) notFound();
   return (
     <>
       <main className="page-main" aria-label="Categories page">

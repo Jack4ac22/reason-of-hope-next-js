@@ -12,14 +12,19 @@ export async function generateStaticParams() {
 
 
 export async function generateMetadata({ params, searchParams }, parent) {
-  // read route params
-  const slug = params.slug
-  // get article data
-  const article = getAllArticlesData().filter(article => (article.slug === slug[1]) && (article.directory === slug[0]))[0]
-  const metadata = articleMetadata(article)
-  return metadata
-}
 
+  try {
+
+    const slug = params.slug
+    // get article data
+    const article = getAllArticlesData().filter(article => (article.slug === slug[1]) && (article.directory === slug[0]))[0]
+    const metadata = articleMetadata(article)
+    return metadata
+
+  } catch (error) {
+
+  }
+}
 
 export default function Page({ params }) {
   const article = getAllArticlesData().filter(article => (article.slug === params?.slug[1]) && (article.directory === params?.slug[0]))

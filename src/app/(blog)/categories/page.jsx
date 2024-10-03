@@ -2,6 +2,12 @@ import { getAllCategoriesWithCount } from "@/utils/blog/articles-functions";
 import CardsListSkeleton from "@/components/blog-components/skeltons/card-list-skelton";
 import { Suspense } from "react";
 import CardSliderCardList from "@/components/blog-components/cards/cards-list/card-slider-cards-list";
+import CatsTagsMetadata from "@/assets/blog/metadata/tags-categories-page";
+
+export async function generateMetadata() {
+  return CatsTagsMetadata('category');
+}
+
 
 
 export default function CategoriesPage() {

@@ -2,6 +2,7 @@ import { getArticlesByTag, getTagsList } from "@/utils/blog/articles-functions"
 import CardList from "@/components/blog-components/cards/cards-list/cards-list"
 import CardsListSkeleton from "@/components/blog-components/skeltons/card-list-skelton"
 import { Suspense } from "react"
+import CatTagMetadata from "@/assets/blog/metadata/category-tag-page"
 
 export async function generateStaticParams() {
   const tags = getTagsList()
@@ -9,6 +10,12 @@ export async function generateStaticParams() {
     tag: tag
   }))
   return static_params
+}
+
+export async function generateMetadata({ params, searchParams }, parent) {
+  const tag = params.tag
+  const metadata = CatTagMetadata("tag", tag)
+  return metadata
 }
 
 export default function TagPage({ params }) {

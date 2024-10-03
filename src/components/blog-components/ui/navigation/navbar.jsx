@@ -51,7 +51,7 @@ export default function NavBar() {
 
   function DeskTopNavItem({ menueElement }) {
     if (menueElement.active === false) return null;
-    const menueElementChosen = path.length > 1 ? path.includes(menueElement.href) : path === menueElement.href;
+    const menueElementChosen = path.length > 1 & menueElement.length > 1 ? path.includes(menueElement.href) : path === menueElement.href;
     return (
       <Link
         href={menueElement.href}

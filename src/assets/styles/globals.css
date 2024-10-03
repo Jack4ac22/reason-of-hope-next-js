@@ -20,7 +20,9 @@
 }
 
 /* all h1 in the main: */
-main > h1, header > h1, section > h1 {
+main > h1,
+header > h1,
+section > h1 {
   @apply px-2 my-6 text-4xl text-wrap font-bold text-darkAccent-800 dark:text-darkAccent-100;
 }
 .uni-text-color {
@@ -97,6 +99,8 @@ main > h1, header > h1, section > h1 {
   h1 {
     @apply px-2 my-6 text-4xl text-wrap font-bold text-darkAccent-800 dark:text-darkAccent-100;
   }
+
+
   p {
     @apply text-wrap whitespace-pre-wrap;
   }

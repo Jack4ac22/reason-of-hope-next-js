@@ -16,11 +16,6 @@ export async function generateMetadata({ params, searchParams }, parent) {
   const slug = params.slug
   // get article data
   const article = getAllArticlesData().filter(article => (article.slug === slug[1]) && (article.directory === slug[0]))[0]
-  if (!article) return {
-    title: "404 Not Found",
-    description: "The page you are looking for does not exist",
-  }
-  // generate metadata
   const metadata = articleMetadata(article)
   return metadata
 }

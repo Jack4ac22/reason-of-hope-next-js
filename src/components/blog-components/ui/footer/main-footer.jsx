@@ -4,9 +4,9 @@ import Link from 'next/link';
 export default function MainFooter() {
   const socialLinks = [
     // { title: 'X', icon: <FaXTwitter />, link: '#' },
-    { title: 'facebook', icon: <FaFacebook />, link: 'https://www.facebook.com/ReasonOfHope/' },
-    { title: 'youtube', icon: <FaYoutube />, link: 'https://www.youtube.com/@ReasonOfHope' },
-    { title: "whatsapp", icon: <FaWhatsapp />, link: "https://whatsapp.com/channel/0029Va9m2Tw7IUYVEc3rjU0X" },
+    { title: 'facebook', icon: <FaFacebook />, link: 'https://www.facebook.com/ReasonOfHope/', color: 'blue' },
+    { title: 'youtube', icon: <FaYoutube />, link: 'https://www.youtube.com/@ReasonOfHope', color: 'red' },
+    { title: "whatsapp", icon: <FaWhatsapp />, link: "https://whatsapp.com/channel/0029Va9m2Tw7IUYVEc3rjU0X", color: 'green' },
   ];
 
   const usefullLinks = [
@@ -15,13 +15,13 @@ export default function MainFooter() {
     { title: "من نحن", href: "/about", active: true, smallScreen: true },
     { title: "الأقسام", href: "/categories", active: true, smallScreen: true },
     { title: "الوسوم", href: "/tags", active: true, smallScreen: true },
-    
+
   ];
   const otherResources = [];
 
-  function SocialLink(title, link, icon) {
+  function SocialLink(title, link, icon, color) {
     return (
-      <Link className="m-2 p-3 shadow-lg items-center justify-center align-center rounded-full text-center hover:text-mainBrand-500 animate-all duration-200" href={link} target='_blank' rel='noopener nor eferrer' key={link}>
+      <Link className={`m-2 p-3 shadow-lg items-center justify-center align-center rounded-full text-center hover:text-${color}-500 animate-all duration-200`} href={link} target='_blank' rel='noopener nor eferrer' key={link}>
         {icon}
         <span className="sr-only">Visit our {title}</span>
       </Link>
@@ -37,17 +37,18 @@ export default function MainFooter() {
   }
   return (
     <footer className="uni-text-color">
+      <hr className=" border-blueGray-300" />
       <section className="flex justify-center items-center h-full">
         <div className="container mx-auto px-4">
 
-          <div className="flex flex-wrap mt-12">
+          <div className="flex flex-wrap mt-4">
             {/* contact/social media section */}
-            <div className="w-full lg:w-6/12 px-4">
-              <h3 className="text-3xl font-semibold">فلنبقى على تواصل!</h3>
-              <div className="mt-6 lg:mb-0 mb-6 flex">
+            <div className="w-full md:w-6/12 px-4">
+              <h3 className="text-xl font-semibold">فلنبقى على تواصل!</h3>
+              <div className="lg:mb-0 mb-6 flex">
                 {/* social media links */}
                 {socialLinks.map((item, index) => (
-                  SocialLink(item.title, item.link, item.icon)
+                  SocialLink(item.title, item.link, item.icon, item.color)
                 ))}
               </div>
             </div>

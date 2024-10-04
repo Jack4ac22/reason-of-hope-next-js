@@ -23,8 +23,11 @@ export default function CardList({ articles, linkPrefix }) {
   }
 
   let page = searchParams.get("page");
-  if (!page || isNaN(parseInt(page)) || parseInt(page) < 1 || parseInt(page) > Math.ceil(articles.length / perPage)) {
+  if (!page || isNaN(parseInt(page)) || parseInt(page) < 1) {
     page = 1;
+  }
+  if (page > Math.ceil(articles.length / perPage)) {
+    page = Math.ceil(articles.length / perPage);
   }
 
   return (
@@ -40,10 +43,10 @@ export default function CardList({ articles, linkPrefix }) {
           )}
           {/* number of articles per page */}
           {articles.length > 6 && (
-          <DropDownOption option_name="perPage" option_lable="عدد المقالات في الصفحة:" options={[{ "value": "6", "label": "6" }, { "value": "12", "label": "12" }, { "value": "24", "label": "24" }]} />
+            <DropDownOption option_name="perPage" option_lable="عدد المقالات في الصفحة:" options={[{ "value": "6", "label": "6" }, { "value": "12", "label": "12" }, { "value": "24", "label": "24" }]} />
           )}
           {/* articles cards */}
-          <DisplayedCards articles={articles} order={searchParams.get('order')?.toString()} perPage={parseInt(searchParams.get('perPage'))} page={parseInt(searchParams.get('page')) || 1} linkPrefix={linkPrefix}/>
+          <DisplayedCards articles={articles} order={searchParams.get('order')?.toString()} perPage={parseInt(searchParams.get('perPage'))} page={parseInt(searchParams.get('page')) || 1} linkPrefix={linkPrefix} />
           {/* pagination */}
           <ListPagination articles={articles} perPage={parseInt(perPage)} page={parseInt(page)} />
         </div>

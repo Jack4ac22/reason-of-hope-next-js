@@ -1,5 +1,4 @@
 import { useRouter, usePathname, useSearchParams } from "next/navigation";
-
 export default function ListPagination({ articles, perPage, page }) {
   const pathname = usePathname()
   const { replace } = useRouter();
@@ -15,30 +14,39 @@ export default function ListPagination({ articles, perPage, page }) {
   const total_pages = Math.ceil(articles.length / perPage);
   const current_page = page || searchParams.get('page') || 1;
 
-  function showPagePagination() {
-    // if current page is <= 3 show the first five pages and the last page
-    // if current page is >= total_pages - 2 show the last five pages and the first page
-    // if current page is > 3 and < total_pages - 2 show the current page and the two pages before and after it
-    // when pages are hidden show the dots on the side of hidden pages
+
+  function showPagePagination(current_page, page_number) {
+    page_number = parseInt(page_number);
+    if (current_page <= 3) { return page_number <= 3; }
+    else if (current_page >= total_pages - 2) { return page_number >= total_pages - 2; }
+    else {
+      return page_number === current_page || page_number === current_page - 1 || page_number === current_page + 1;
+    }
   }
+  console.log(current_page, total_pages)
   return (
     <div className={`flex justify-center items-cente my-3 ${total_pages === 1 && " hidden"}`}>
+
       {/* first item -> hidden it the current page is 1 */}
-      <button className={`pagination-item`} onClick={() => handlePageChange(1)} disabled={current_page === 1}>البداية</button>
+      {/* <button className={`pagination-item`} onClick={() => handlePageChange(1)} disabled={current_page === 1}>البداية</button> */}
+
       {/* previouse item -> inactive if the current page is 1*/}
-      {/* <button className={`pagination-item`} onClick={() => handlePageChange(current_page - 1)} disabled={current_page === 1}>السابق</button> */}
+      {current_page === 1 || (<button className={`pagination-item`} onClick={() => handlePageChange(current_page - 1)} disabled={current_page === 1}>السابق</button>)}
 
       {/* all the pages, mapping the total pages */}
       <div className="flex justify-center items-cente flex-wrap">
         {Array.from({ length: total_pages }, (_, i) => i + 1).map((item, index) => (
-          <button key={index} className={`pagination-item ${current_page === item ? ' underline ' : ''}`} onClick={() => handlePageChange(item)} disabled={current_page === item}>{item}</button>
+          showPagePagination(current_page, item) &&
+          (<button key={index} className={`pagination-item ${current_page === item ? ' underline ' : ''} $`} onClick={() => handlePageChange(item)} disabled={current_page === item}>{item}</button>)
         ))}
       </div>
 
       {/* next item -> inactive if the current page is the last*/}
-      {/* <button className={`pagination-item`} onClick={() => handlePageChange(current_page + 1)} disabled={current_page === total_pages}>التالي</button> */}
+      {current_page === total_pages || (<button className={`pagination-item`} onClick={() => handlePageChange(current_page + 1)} disabled={current_page === total_pages}>التالي</button>)}
+
       {/* last item -> hidden if it is the last page */}
-      <button className={`pagination-item`} onClick={() => handlePageChange(total_pages)} disabled={current_page === total_pages}>النهاية</button>
-    </div>
+      {/* <button className={`pagination-item`} onClick={() => handlePageChange(total_pages)} disabled={current_page === total_pages}>النهاية</button> */}
+
+    </div >
   )
 }

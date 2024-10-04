@@ -1,5 +1,9 @@
 import Image from 'next/image';
 export default function ImageLayover({ layoverObject }) {
+  function sanitizestring(string) {
+    const response = string.replaceAll("small", "").replaceAll("full", "")
+    return response;
+  }
   return (
     <figure>
       <Image src={`/blog_images/${layoverObject.imageDetails.src}`} alt={layoverObject.imageDetails.alt}
@@ -10,7 +14,7 @@ export default function ImageLayover({ layoverObject }) {
         height={0}
         width={0} />
       <figcaption className="figure-caption text-break uni-text-color text-center p-2 rounded-b-xl uni-background">
-        {layoverObject.imageDetails.alt}
+        {sanitizestring(layoverObject.imageDetails.alt)}
       </figcaption>
     </figure>
   );

@@ -7,6 +7,7 @@ import MediaPlayersHeader from "@/components/blog-components/article-page/header
 import { Suspense } from 'react'
 import MediaPlayersHeaderSkeleton from "@/components/blog-components/skeltons/media-player-header-skelton";
 import ResourcesLinks from '@/components/blog-components/article-page/header-components/resources-links'
+import ShareIt from '@/components/uneversal-items/share-it'
 
 export default function ArticleHeader({ article }) {
   if (article.directory === "static-pages") return null
@@ -28,6 +29,8 @@ export default function ArticleHeader({ article }) {
       <CreationLink article={article} />
       <AudioLinks article={article} />
       <ResourcesLinks article={article} />
+      <ShareIt />
+
     </header>
   );
 }

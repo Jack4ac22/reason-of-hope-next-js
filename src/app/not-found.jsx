@@ -7,9 +7,6 @@ export default function Custom404() {
     <div className="min-h-[70vh] flex flex-col items-center justify-center uni-background uni-text-color">
       <div className="text-center px-4">
         <h1 className="text-7xl md:text-9xl font-bold">404</h1>
-        <div className="w-full flex justify-center">
-        <Image src={image} alt='not found image' className='max-w-md rounded-xl'/>
-        </div>
         <h2 className="text-2xl md:text-4xl font-semibold mt-4 mx-auto">
           عذراً, الصفحة التي قُمتم بطلبها غير موجودة!
         </h2>
@@ -22,6 +19,9 @@ export default function Custom404() {
         <Link href="/" className="mt-6 inline-block bg-mainBrand hover:bg-lightAccent text-white dark:bg-lightAccent dark:hover:bg-mainBrand px-6 py-3 rounded-md text-lg transition duration-200">
           Go Back Home
         </Link>
+        <div className="w-full flex justify-center">
+          <Image src={image} alt='not found image' className='max-w-md rounded-xl' />
+        </div>
       </div>
     </div>
   );

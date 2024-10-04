@@ -15,6 +15,12 @@ export default function ListPagination({ articles, perPage, page }) {
   const total_pages = Math.ceil(articles.length / perPage);
   const current_page = page || searchParams.get('page') || 1;
 
+  function showPagePagination() {
+    // if current page is <= 3 show the first five pages and the last page
+    // if current page is >= total_pages - 2 show the last five pages and the first page
+    // if current page is > 3 and < total_pages - 2 show the current page and the two pages before and after it
+    // when pages are hidden show the dots on the side of hidden pages
+  }
   return (
     <div className={`flex justify-center items-cente my-3 ${total_pages === 1 && " hidden"}`}>
       {/* first item -> hidden it the current page is 1 */}

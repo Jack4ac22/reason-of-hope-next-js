@@ -83,7 +83,7 @@ export default function NavBar() {
     setIsMobileMenuOpen(false);
   }
   return (
-    <nav className="bg-darkAccent-500 border-darkAccent-500 dark:bg-darkAccent-900">
+    <nav className="bg-darkAccent-500 border-darkAccent-500 dark:bg-darkAccent-900 select-none">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="relative flex h-20 items-center justify-between">
           <div className="absolute inset-y-0 right-0 flex items-center md:hidden">

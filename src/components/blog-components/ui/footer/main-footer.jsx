@@ -15,9 +15,23 @@ export default function MainFooter() {
     { title: "من نحن", href: "/about", active: true, smallScreen: true },
     { title: "الأقسام", href: "/categories", active: true, smallScreen: true },
     { title: "الوسوم", href: "/tags", active: true, smallScreen: true },
+    { title: "جميع المنشورات", href: "/all", active: true, smallScreen: true },
 
   ];
-  const otherResources = [];
+  const otherResources = [
+    // {
+    //   title: "مواقع مفيدة", href: "/usefull", active: true, smallScreen: true
+    // },
+    // {
+    //   title: "مشاريعنا", href: "/soon", active: true, smallScreen: true
+    // },
+    // {
+    //   title: "كيف أساعد؟", href: "/support-us", active: true, smallScreen: true
+    // },
+    // {
+    //   title: "تقييم", href: "/feedback", active: true, smallScreen: true
+    // }
+  ];
 
   function SocialLink(title, link, icon, color) {
     return (
@@ -36,7 +50,7 @@ export default function MainFooter() {
     )
   }
   return (
-    <footer className="uni-text-color mt-3">
+    <footer className="uni-text-color mt-12 select-none">
       <hr className=" border-blueGray-300" />
       <section className="flex justify-center items-center h-full">
         <div className="container mx-auto px-4">
@@ -68,10 +82,12 @@ export default function MainFooter() {
                   )}
                 {/* other resources */}
                 {otherResources.length > 0 &&
-                  (<div className="w-full lg:w-4/12 px-4">
-                    <span className="block uppercase text-blueGray-500 text-sm font-semibold mb-2">روابط أٌخرى</span>
+                  (<div className="w-full lg:w-4/12 px-4 mt-4 md:mt-0">
+                    <span className="block text-blueGray-500 text-xl font-semibold mb-2 ">روابط إضافية</span>
                     <ul className="list-unstyled">
-
+                      <ul className="list-unstyled">
+                        {otherResources.map((item) => FooterLinks(item.title, item.href))}
+                      </ul>
                     </ul>
                   </div>)}
               </div>
@@ -79,6 +95,7 @@ export default function MainFooter() {
           </div>
 
           <hr className="my-6 border-blueGray-300" />
+
           {/* Copyright section */}
           <div className="flex flex-wrap items-center md:justify-between justify-center">
             <div className="w-full md:w-4/12 px-4 mx-auto text-center">

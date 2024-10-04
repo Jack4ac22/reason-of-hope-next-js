@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function AboutPage() {
   return (
-    <main className="flex justify-center uni-text-color">
+    <main className="flex justify-center uni-text-color select-none">
       <div className="m-8 w-full md:max-w-2xl ">
         <section id="introduction">
           <h1 className="text-center">من نحن</h1>

@@ -1,21 +1,29 @@
-import { getAllArticlesData } from "@/utils/blog/articles-functions";
-import ArticleCard from "@/components/blog-components/cards/article-card/article-card";
-import CardSlider from "@/components/blog-components/ui/sliders/cards-slider";
+
+import IntroductionSection from "@/components/blog-components/homepage/introduction-section";
+import FeaturedArticles from "@/components/blog-components/homepage/featured-articles";
+import SubjectsSection from "@/components/blog-components/homepage/subjects-section";
+import PublicationsSection from "@/components/blog-components/homepage/publications-section";
+import CreationSection from "@/components/blog-components/homepage/creation-section";
+import ObjectionsSection from "@/components/blog-components/homepage/objections-section";
 export default function Home() {
-  const articles = getAllArticlesData().slice(0, 4);
   return (
     <>
-      <main>
-        <h1>
-          Work In Progress
-        </h1>
+      <main className="page-main" aria-label="Our Faith Page">
+        <div className="page-layer-container">
+          <header className="page-header uni-text-color">
+            <h1>أهلاً بكم</h1>
+          </header>
+          <section className="max-w-2xl h-full mx-4" aria-labelledby="article-heading">
+            <h1 id="article-heading" className="sr-only">Welcome page</h1>
+          </section>
+          <IntroductionSection />
+          <FeaturedArticles />
+          <SubjectsSection />
+          <PublicationsSection />
+          <CreationSection />
+          <ObjectionsSection />
+        </div>
       </main>
-      {/* <CardSlider articles={articles} />
-      <div className="flex flex-3 flex-wrap justify-center items-center content-center gap-2 md:gap-3 lg:gap-4">
-        {articles.map((article) => (
-          <ArticleCard key={article.slug} article={article} />
-        ))}
-      </div > */}
     </>
   );
 }

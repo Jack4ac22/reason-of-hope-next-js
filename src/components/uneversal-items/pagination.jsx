@@ -25,28 +25,34 @@ export default function ListPagination({ articles, perPage, page }) {
   }
   console.log(current_page, total_pages)
   return (
-    <div className={`flex justify-center items-cente my-3 ${total_pages === 1 && " hidden"}`}>
+    <>
+      <div className={`flex justify-center items-cente my-3 ${total_pages === 1 && " hidden"}`}>
 
-      {/* first item -> hidden it the current page is 1 */}
-      {/* <button className={`pagination-item`} onClick={() => handlePageChange(1)} disabled={current_page === 1}>البداية</button> */}
+        {/* first item -> hidden it the current page is 1 */}
+        {/* <button className={`pagination-item`} onClick={() => handlePageChange(1)} disabled={current_page === 1}>البداية</button> */}
 
-      {/* previouse item -> inactive if the current page is 1*/}
-      {current_page === 1 || (<button className={`pagination-item`} onClick={() => handlePageChange(current_page - 1)} disabled={current_page === 1}>السابق</button>)}
+        {/* previouse item -> inactive if the current page is 1*/}
+        {current_page === 1 || (<button className={`pagination-item`} onClick={() => handlePageChange(current_page - 1)} disabled={current_page === 1}>السابق</button>)}
 
-      {/* all the pages, mapping the total pages */}
-      <div className="flex justify-center items-cente flex-wrap">
-        {Array.from({ length: total_pages }, (_, i) => i + 1).map((item, index) => (
-          showPagePagination(current_page, item) &&
-          (<button key={index} className={`pagination-item ${current_page === item ? ' underline ' : ''} $`} onClick={() => handlePageChange(item)} disabled={current_page === item}>{item}</button>)
-        ))}
+        {/* all the pages, mapping the total pages */}
+        <div className="flex justify-center items-cente flex-wrap">
+          {Array.from({ length: total_pages }, (_, i) => i + 1).map((item, index) => (
+            showPagePagination(current_page, item) &&
+            (<button key={index} className={`pagination-item ${current_page === item ? ' underline ' : ''} $`} onClick={() => handlePageChange(item)} disabled={current_page === item}>{item.toLocaleString('ar-SY')}</button>)
+          ))}
+        </div>
+
+        {/* next item -> inactive if the current page is the last*/}
+        {current_page === total_pages || (<button className={`pagination-item`} onClick={() => handlePageChange(current_page + 1)} disabled={current_page === total_pages}>التالي</button>)}
+
+        {/* last item -> hidden if it is the last page */}
+        {/* <button className={`pagination-item`} onClick={() => handlePageChange(total_pages)} disabled={current_page === total_pages}>النهاية</button> */}
+
+      </div >
+      <div className="flex-col justify-center space-y-4 my-4 " >
+        <p>إجمالي عدد الصفحات: {total_pages?.toLocaleString('ar-SY')}</p>
+        <p>إجمالي عدد المنشورات: {articles?.length.toLocaleString('ar-SY')}</p>
       </div>
-
-      {/* next item -> inactive if the current page is the last*/}
-      {current_page === total_pages || (<button className={`pagination-item`} onClick={() => handlePageChange(current_page + 1)} disabled={current_page === total_pages}>التالي</button>)}
-
-      {/* last item -> hidden if it is the last page */}
-      {/* <button className={`pagination-item`} onClick={() => handlePageChange(total_pages)} disabled={current_page === total_pages}>النهاية</button> */}
-
-    </div >
+    </>
   )
 }

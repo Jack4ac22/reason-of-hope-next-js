@@ -1,6 +1,6 @@
-import Link from 'next/link'
 import ArticleDate from '@/components/blog-components/article-page/header-components/article-date'
 import ArticleAuthors from '@/components/blog-components/article-page/header-components/article-authors'
+import ArticleTranslators from '@/components/blog-components/article-page/header-components/article-translators'
 import CreationLink from '@/components/blog-components/article-page/header-components/creation-link'
 import AudioLinks from '@/components/blog-components/article-page/header-components/audio-links'
 import MediaPlayersHeader from "@/components/blog-components/article-page/header-components/media-player";
@@ -17,7 +17,10 @@ export default function ArticleHeader({ article }) {
       </div>
       <div className="flex flex-col-reverse md:flex-row-reverse items-center md:justify-between">
         <ArticleDate article={article} />
-        <ArticleAuthors article={article} />
+        <div className='flex-col'>
+          <ArticleAuthors article={article} />
+          <ArticleTranslators article={article} />
+        </div>
       </div>
       <Suspense fallback={<MediaPlayersHeaderSkeleton />}>
         <MediaPlayersHeader article={article} />

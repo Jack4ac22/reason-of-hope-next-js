@@ -22,7 +22,7 @@ export default function ArticleAuthors({ article }) {
       <span>
         {authors.map((author, index) => {
           return (
-            <Link key={index + author.name} href={author.link} onClick={handleLinkClick}>
+            <Link key={index + author.name} href={author.link} onClick={handleLinkClick} className="info-link-button">
               {author.name} {index < authors.length - 1 ? "،" : ""}
             </Link>
           )

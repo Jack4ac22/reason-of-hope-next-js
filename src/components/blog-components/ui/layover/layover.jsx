@@ -19,17 +19,20 @@ export default function LayOverSection() {
         <div className="w-[80vw] h-min max-h-[80vh] border rounded-xl bg-lightShade">
           <header className="flex justify-between text-mainBrand uni-background uni-text-color rounded-t-xl h-min">
             {
-              layoverObject.type === "link" && <Link href={layoverObject.link} target='_blank' className="m-2 flex space-x-3">
+              layoverObject.type === "link" && <Link href={layoverObject.link} target='_blank' className="m-2 flex space-x-3 info-link-button">
                 <span >
                   قم بزيارة الرابط
                 </span>
                 <FaExternalLinkAlt />
               </Link>
             }
-            {layoverObject.type === "link" && (<span className="m-2">المعلومات الواردة في هذه النافذة من مصدر خارجي.</span>)}
+            {layoverObject.type === "link" && (<span className="m-2 hover:text-danger-500 hover:animate-pulse">المعلومات الواردة في هذه النافذة من مصدر خارجي.</span>)}
 
-            {layoverObject.type === "image" && <><span className="m-2">لعرض الصورة بحجمها الكامل</span><Link href={`/blog_images/${layoverObject.imageDetails.src}`} className="m-2">اضغط هنا</Link></>}
-            <button className="m-2" onClick={handleCloseLayover}>
+            {layoverObject.type === "image" && <p>
+              <span className="m-2">لعرض الصورة بحجمها الكامل</span>
+              <Link href={`/blog_images/${layoverObject.imageDetails.src}`} className="m-2 info-link-button">{" اضغط هنا "}</Link>
+            </p>}
+            <button className="m-2 text-danger-500" onClick={handleCloseLayover}>
               <FaRegWindowClose />
               <span className="sr-only">Close Layover</span>
             </button>

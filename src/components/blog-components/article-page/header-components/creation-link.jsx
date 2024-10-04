@@ -13,9 +13,11 @@ export default function CreationLink({ article }) {
   }
   if (article?.creationLink) {
     return (
-      <Link href={article.creationLink || '#'} onClick={handleLinkClick}>
-        هذا المقال من موقع Creation.com - اضغط هنا لزيارة الموقع
-      </Link>
+      <div className="flex justify-center mb-4">
+        <Link href={article.creationLink || '#'} onClick={handleLinkClick} className="info-link-button">
+          هذا المقال من موقع Creation.com
+        </Link>
+      </div>
     );
   }
 

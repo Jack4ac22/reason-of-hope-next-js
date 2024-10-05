@@ -17,7 +17,7 @@ export default function ListPagination({ articles, perPage, page }) {
 
   function showPagePagination(current_page, page_number) {
     page_number = parseInt(page_number);
-    if (current_page <= 3) { return page_number <= 3; }
+    if (current_page < 3) { return page_number <= 3; }
     else if (current_page >= total_pages - 2) { return page_number >= total_pages - 2; }
     else {
       return page_number === current_page || page_number === current_page - 1 || page_number === current_page + 1;

@@ -6,6 +6,14 @@
   @apply h-12 hidden space-x-0 group-hover:space-x-2 group-hover:flex group-hover:opacity-100 animate-slideUpAndAppear duration-1000;
 }
 
+.share-it-open {
+  @apply h-12 space-x-2 flex opacity-100 animate-slideUpAndAppear duration-1000;
+}
+
 .share-it-button {
-  @apply w-12 h-12 border-2 border-mainBrand-500 rounded-full flex items-center justify-center shadow-md group-hover:hidden ;
+  @apply w-12 h-12 border-2 border-mainBrand-500 rounded-full flex items-center justify-center shadow-md group-hover:hidden;
+}
+
+.share-it-button-open {
+  @apply w-12 h-12 border-2 border-mainBrand-500 rounded-full items-center justify-center shadow-md hidden;
 }

@@ -174,7 +174,7 @@ status: "published"
 
 لكن يوجد طرق بديلة معروفة مثل نظام ”القشرة الواحدة“ (monocoque) الذي يسمح بأن يتم تأمين القوة الرئيسية اللازمة من خلال الهيكل نفسه، أو باستخدام المفاصل المدمجة، أو الألواح الخشبية المتشابكة، مثل الخشب المصنوع من طبقات \[خشب الأبلكاس أو المعاكس\]. وبالتالي سيكون من الممكن أن يتم بناء هيكل وفق الأبعاد التوراتية ويكون \[متماسكاً\] وقادراً على التعامل مع الضغط.
 
-## كيف استطاع نوح أن يعتني بكل تلك الحيوانات.
+## كيف استطاع نوح أن يعتني بكل تلك الحيوانات
 
 > وخُذْ مِنْ كُلِّ طَعامٍ يُؤكَلُ، واجْمَعْه عِندَكَ، لِـيكونَ لكَ ولهُم غِذاءً». ([التكوين ٦: ٢١](https://www.bible.com/bible/67/gen.6.21))
 
@@ -328,5 +328,5 @@ status: "published"
 4. Nunn, W., Giant sea-going wooden vessels challenge Ark skeptics, *Creation* **37**(1):12–13, 2015.
 5. كُلُّ مَنْ في أنفِهِ نَسَمةُ حياةٍ ـ هذه العبارة تشير إلى الحيوانات الفقارية ([التكوين٧: ٢٢](https://www.bible.com/bible/67/gen.7.22))
 6. Woodmorappe, J., *Noah’s Ark: A Feasibility Study*, Institute for Creation Research, El Cajon, Calif.
-7. صورة ملحمة چلچامش : By BabelStone (Own work), CC0, https://commons.wikimedia.org/w/index.php?curid=10755114
-8. صورة بركان جبل القديسة هيلين: By Austin Post - Public Domain, https://commons.wikimedia.org/w/index.php?curid=3157525
+7. صورة ملحمة چلچامش : By BabelStone (Own work), CC0, https:\/\/commons.wikimedia.org/w/index.php?curid=10755114
+8. صورة بركان جبل القديسة هيلين: By Austin Post - Public Domain, https:\/\/commons.wikimedia.org/w/index.php?curid=3157525

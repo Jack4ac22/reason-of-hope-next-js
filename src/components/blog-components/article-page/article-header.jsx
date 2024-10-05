@@ -10,7 +10,10 @@ import ResourcesLinks from '@/components/blog-components/article-page/header-com
 import ShareIt from '@/components/uneversal-items/share-it'
 
 export default function ArticleHeader({ article }) {
-  if (article.directory === "static-pages") return null
+  if (article.directory === "static-pages") return <>
+    <MediaPlayersHeader article={article} />
+    <ShareIt article={article} />
+  </>
   return (
     <header>
       <div className="flex flex-col items-center">
@@ -29,7 +32,7 @@ export default function ArticleHeader({ article }) {
       <CreationLink article={article} />
       <AudioLinks article={article} />
       <ResourcesLinks article={article} />
-      <ShareIt />
+      <ShareIt article={article} />
 
     </header>
   );

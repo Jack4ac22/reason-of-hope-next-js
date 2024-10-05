@@ -34,7 +34,7 @@ export default function MediaPlayersHeader({ article }) {
           </div>
         )}
         {youtube_link && (
-          <div className='md:w-1/3'>
+          <div className='md:w-1/3 h-44'>
             <YouTube
               videoId={youtube_link}
               opts={opts}

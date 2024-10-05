@@ -19,7 +19,7 @@ import host from "@/assets/blog/metadata/metadata-variables";
 export default function ShareIt({
   url = host,
   title = "سبب الرجاء",
-  description = "يُقدِّم موقع سبب الرجاء الكثير من الدراسات المجانية التي تهدف إلى مساعدة المؤمنين في التعرف على الكتاب المقدس والدفاع عنه.\n ",
+  description = "يُقدِّم موقع سبب الرجاء الكثير من الدراسات التي تهدف إلى مساعدة المؤمنين في التعرف على الكتاب المقدس والدفاع عنه.\n ",
   tags = [],
   size = 32,
   round = true,
@@ -32,16 +32,16 @@ export default function ShareIt({
 
   return (
     <div className="flex justify-center text-center">
-      <div className="flex-col justify-center">
+      <div className="flex-col justify-center relative group">
         <button
           onClick={toggleSharing}
-          className="info-link-button mt-3 mb-3 "
+          className=" share-it-button"
         >
-          شارك المنفعة مع الآخرين
+          مشاركة
         </button>
 
-        {isSharingOpen && (
-          <div className="mb-3 flex space-x-3">
+        {(
+          <div className="share-it">
             <div className="mx-2 hover:animate-pulse">
               <FacebookShareButton
                 onClick={toggleSharing}

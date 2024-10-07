@@ -114,8 +114,10 @@ export function getSingleArticleData(
 }
 
 /**
- * Retrieves data for all articles.
- * @returns {Array} An array containing data for all articles.
+ * Retrieves the data for all articles.
+ *
+ * @param {boolean} [reduced=false] - Determines whether to retrieve reduced (summary) data for each article.
+ * @returns {Array<Object>} An array of article data objects.
  */
 export function getAllArticlesData(reduced = false) {
   let allArticles = [];

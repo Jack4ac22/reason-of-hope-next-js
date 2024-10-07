@@ -1,7 +1,6 @@
 import path from "path";
 import fs from "fs";
 import matter from "gray-matter";
-import { randomArticlesFromArray } from "./general-functions";
 
 /**
  * ##########################

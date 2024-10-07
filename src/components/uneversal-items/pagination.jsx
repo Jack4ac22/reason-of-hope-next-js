@@ -23,7 +23,6 @@ export default function ListPagination({ articles, perPage, page }) {
       return page_number === current_page || page_number === current_page - 1 || page_number === current_page + 1;
     }
   }
-  console.log(current_page, total_pages)
   return (
     <>
       <div className={`flex justify-center items-cente my-3 ${total_pages === 1 && " hidden"}`}>

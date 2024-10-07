@@ -26,12 +26,13 @@ export default function DropDownOption({ option_name, option_lable, options }) {
     }
   }
   return (
-    <div className="flex justify-center items-center">
-      <label htmlFor="order" className="mx-2">{option_lable}</label>
-      <select className="card-list-select uni-background uni-text-color" id="order" name="order" onChange={(e) => handleOptionChange(e.target.value)}
+    <div className="flex justify-center items-center content-center">
+
+      <label htmlFor={option_name} className="mx-2 card-list-select uni-background uni-text-color">{option_lable}</label>
+      <select className="card-list-select uni-background uni-text-color" id={option_name} name="order" onChange={(e) => handleOptionChange(e.target.value)}
         defaultValue={searchParams?.get(option_name)?.toString()}>
         {options.map((option, index) => (
-          <option key={index} value={option.value}>{option.label}</option>
+          <option key={index} value={option?.value}>{option?.label}</option>
         ))}
       </select>
     </div>);

@@ -1,6 +1,43 @@
+import SearchBar from "@/components/uneversal-items/search-bar"
+import { getAllCategoriesWithCount, getAllArticlesData } from "@/utils/blog/articles-functions";
+import CardsListSkeleton from "@/components/blog-components/skeltons/card-list-skelton";
+import { Suspense } from "react";
+
+
 export default function SearchPage() {
+  const categories = getAllCategoriesWithCount()
+  const articles = getAllArticlesData()
+
   return (
-    <div>Page under construction</div>
+    <>
+      <main className="page-main" aria-label="All Articles">
+        <div className="page-layer-container">
+          <section aria-labelledby="article-heading">
+            <header>
+              <p id="page-heading" className="sr-only">All Articles</p>
+            </header>
+          </section>
+          <section className="uni-text-color">
+            <h1>
+              جميع المقالات
+            </h1>
+            <p>
+              يمكنكم البحث عن مقالة معينة باستخدام كلمات مفتاحية في مربع البحث.
+            </p>
+          </section>
+          <section id="search-bar" >
+            <Suspense fallback={<CardsListSkeleton />}>
+
+              <SearchBar categories={categories} articles={articles} />
+            </Suspense>
+
+          </section>
+
+
+        </div>
+      </main>
+
+    </>
 
     // search componenet which will read searchParam named seach, it takes all articles and filter them based on the searchParam.
     //  if no searchParam is provided, it will show a message to enter a searchParam.

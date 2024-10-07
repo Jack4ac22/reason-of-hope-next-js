@@ -23,11 +23,8 @@ export default function CardList({ articles, linkPrefix }) {
   }
 
   let page = searchParams.get("page");
-  if (!page || isNaN(parseInt(page)) || parseInt(page) < 1) {
+  if (!page || isNaN(parseInt(page)) || parseInt(page) < 1 || parseInt(page) > Math.ceil(articles.length / perPage)) {
     page = 1;
-  }
-  if (page > Math.ceil(articles.length / perPage)) {
-    page = Math.ceil(articles.length / perPage);
   }
 
   return (

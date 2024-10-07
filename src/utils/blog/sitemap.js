@@ -50,17 +50,19 @@ export function updateSitemap() {
     ];
 
     const sitemapContent = `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-            ${foldered_pages.map(
-              (page) =>
-                `<url><loc>${host}/${
-                  page.path
-                }</loc><lastmod>${new Date().toISOString()}</lastmod><changefreq>${
-                  page.changefreq || never
-                }</changefreq><priority>${
-                  page?.priority || "0,7"
-                }</priority></url>`
-            )}
-            
+            ${foldered_pages
+              .map(
+                (page) =>
+                  `<url><loc>${host}/${
+                    page.path
+                  }</loc><lastmod>${new Date().toISOString()}</lastmod><changefreq>${
+                    page.changefreq || never
+                  }</changefreq><priority>${
+                    page?.priority || "0.7"
+                  }</priority></url>`
+              )
+              .join("\n")}}
+
   ${allArticles
     .map(
       (article) =>
@@ -69,7 +71,7 @@ export function updateSitemap() {
         }</loc><lastmod>${new Date(
           article.date
         ).toISOString()}</lastmod><changefreq>never</changefreq><priority>${
-          article?.priority || "0,7"
+          article?.priority || "0.7"
         }</priority></url>`
     )
     .join("\n")}

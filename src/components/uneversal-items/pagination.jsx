@@ -42,7 +42,7 @@ export default function ListPagination({ articles, perPage, page }) {
         </div>
 
         {/* next item -> inactive if the current page is the last*/}
-        {current_page === total_pages || (<button className={`pagination-item`} onClick={() => handlePageChange(current_page + 1)} disabled={current_page === total_pages}>التالي</button>)}
+        {current_page === total_pages || articles.length === 0 || (<button className={`pagination-item`} onClick={() => handlePageChange(current_page + 1)} disabled={current_page === total_pages}>التالي</button>)}
 
         {/* last item -> hidden if it is the last page */}
         {/* <button className={`pagination-item`} onClick={() => handlePageChange(total_pages)} disabled={current_page === total_pages}>النهاية</button> */}

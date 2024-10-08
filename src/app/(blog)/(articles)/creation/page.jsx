@@ -37,14 +37,14 @@ export default function CreationPage() {
   const modern_scince_section_object = {
     title: "علوم معاصرة",
     description: "يعتقد البعض من الأشخاص أن العلوم المعاصرة قد أثبتت بطلان الكتاب المقدس، إلا أن الدراسات التي سيتم عرضها ضمن هذه الفئة تُظهر بُطلان هذه الإدعاءات.  تشتمل هذه الفئة على مجموعة المقالات والدراسات التي تتعامل مع العلوم المعاصرة،كما هو الحال بالنسبة لأبحاث الفضاء، والأبحاث الخاصة بالكائنات الحية، وعلم الوراثة والجينات.",
-    link: "/creation/modern-scince",
+    link: "/creation/modern-science",
     articles: getArticlesByCategory("علوم-معاصرة"),
     reversed: false,
   }
   return (
     <main className="page-main uni-text-color" aria-label="Creation">
       <div className="page-layer-container">
-        <header>
+        <header className="mx-4">
           <h1>قضية الخلق</h1>
           <p id="page-heading" className="sr-only">قضية الخلق</p>
           <p>

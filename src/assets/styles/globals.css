@@ -60,6 +60,9 @@ section > h1 {
 }
 
 /* MDX MAPPIN */
+.article-body {
+  @apply sm:sm:px-4;
+}
 .article-body * {
   @apply break-words whitespace-normal overflow-hidden truncate;
 }
@@ -99,7 +102,6 @@ section > h1 {
   h1 {
     @apply px-2 my-6 text-4xl text-wrap font-bold text-darkAccent-800 dark:text-darkAccent-100;
   }
-
 
   p {
     @apply text-wrap whitespace-pre-wrap;

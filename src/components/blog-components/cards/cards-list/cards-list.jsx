@@ -7,7 +7,7 @@ import ListPagination from "@/components/uneversal-items/pagination";
 import CardsListSkeleton from "@/components/blog-components/skeltons/card-list-skelton";
 
 export default function CardList({ articles, linkPrefix }) {
-  const orderOptions = ["latest", "oldest", "title"];
+  const orderOptions = ["latest", "oldest", "title_asc", "title_dsc"];
   const perPageOptions = [6, 12, 24];
 
   const searchParams = useSearchParams();
@@ -36,7 +36,7 @@ export default function CardList({ articles, linkPrefix }) {
 
           {/* order articles */}
           {articles.length > 6 && (
-            <DropDownOption option_name="order" option_lable="ترتيب حسب:" options={[{ "value": "latest", "label": "الأحدث" }, { "value": "oldest", "label": "الأقدم" }, { "value": "title_asc", "label": "العنوان تصاعدي" }, { "value": "title_dsc", "label": "العنوان تنازلي" }]} />
+            <DropDownOption option_name="order" option_lable="ترتيب حسب:" options={[{ "value": "", "label": "" }, { "value": "latest", "label": "الأحدث" }, { "value": "oldest", "label": "الأقدم" }, { "value": "title_asc", "label": "العنوان تصاعدي" }, { "value": "title_dsc", "label": "العنوان تنازلي" }]} />
           )}
           {/* number of articles per page */}
           {articles.length > 6 && (

@@ -1,6 +1,7 @@
 import { Markazi_Text, Roboto } from "next/font/google";
 import "@/assets/styles/globals.css";
 import "@/assets/styles/share-it.css";
+import "@/assets/styles/article-footer.css";
 import NavBar from "@/components/blog-components/ui/navigation/navbar";
 import LayOverSection from "@/components/blog-components/ui/layover/layover";
 import { LayoverGlobalProvider } from "@/context/layover/LayoverGlobalContext";

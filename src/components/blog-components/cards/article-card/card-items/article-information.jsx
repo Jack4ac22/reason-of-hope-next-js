@@ -74,9 +74,9 @@ export default function ArticleInformation({ article }) {
         }
 
         {/* creation link */}
-        {article?.creationLink && (<span className="info-link-button information-card-text">
+        {article?.creationLink && (
           <CreationLink article={article} />
-        </span>)}
+        )}
 
         {/* multimedia Links */}
         {audioLinks && audioLinks.length > 0 &&

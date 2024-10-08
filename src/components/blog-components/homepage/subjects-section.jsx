@@ -25,7 +25,7 @@ export default function SubjectsSection() {
           />
         </Suspense>
         <p className="w-full text-center my-2">
-          <Link href="our-faith" className="section-link text-center"> رسالة الإنجيل </Link>
+          <Link href="/gospel" className="section-link text-center"> رسالة الإنجيل </Link>
         </p>
       </div>
 

@@ -7,7 +7,7 @@ export default function RelatedArticles(article) {
   return (
     <div className="flex justify-center">
       <div className="flex-col">
-        <h3 className="text-2xl text-center font-bold mt-4">
+        <h3 className="article-footer-headings">
           المقالات ذات الصلة
         </h3>
         <Suspense fallback={<CardsListSkeleton />} >

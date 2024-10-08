@@ -11,7 +11,6 @@ import { useRouter, usePathname, useSearchParams } from "next/navigation";
  * @returns {JSX.Element} The dropdown option component.
  */
 export default function DropDownOption({ option_name, option_lable, options }) {
-
   const pathname = usePathname()
   const { replace } = useRouter();
   const searchParams = useSearchParams();
@@ -29,7 +28,7 @@ export default function DropDownOption({ option_name, option_lable, options }) {
     <div className="flex justify-center items-center content-center">
 
       <label htmlFor={option_name} className="mx-2 card-list-select uni-background uni-text-color">{option_lable}</label>
-      <select className="card-list-select uni-background uni-text-color" id={option_name} name="order" onChange={(e) => handleOptionChange(e.target.value)}
+      <select className="card-list-select uni-background uni-text-color" id={option_name} name={option_name} onChange={(e) => handleOptionChange(e.target.value)}
         defaultValue={searchParams?.get(option_name)?.toString()}>
         {options.map((option, index) => (
           <option key={index} value={option?.value}>{option?.label}</option>

@@ -26,7 +26,7 @@ export default function ResourcesLinks({ article }) {
 
   return (
     <div className='flex-col my-3'>
-      <p className="text-lg font-bold">
+      <p className="text-lg font-bold sm:text-center">
         يُمكنكم الحصول على هذا المنشور من خلال المنصات التالية:
       </p>
       <div className="flex flex-wrap justify-center content-center items-center">

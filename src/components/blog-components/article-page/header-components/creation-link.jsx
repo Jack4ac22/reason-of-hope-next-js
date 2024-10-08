@@ -12,10 +12,11 @@ export default function CreationLink({ article }) {
     });
   }
   if (article?.creationLink) {
+    console.log(article.creationLink)
     return (
-      <div className="flex justify-center mb-4">
+      <div className="flex justify-center">
         <Link href={article.creationLink || '#'} onClick={handleLinkClick} className="info-link-button">
-          هذا المقال من موقع Creation.com
+          متوفر  أيضاً من موقع إرساليات الخلق الدولية
         </Link>
       </div>
     );

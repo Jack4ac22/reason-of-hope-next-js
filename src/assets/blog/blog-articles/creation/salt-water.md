@@ -91,16 +91,11 @@ description: "مالذي يمكننا أن نستخلصه من دراسة نسب
 
 ---
 
-مراجع
+### مراجع  
 
-1. قمر أوروبا، وهو أحد أقمار جوبيتر، يُعتقد أنه يحتوي على المياه تحت1قشرة جليديّة، لكن هذا الأمر ليس معروفاً على وجه اليقين حتى الآن.
-
-2. Halley, E., A short account of the cause of the saltness \[_sic_\] of the ocean, and of the several lakes that emit no rivers; with a proposal, by help thereof, to discover the age of the world, *Philos. Trans. R. Soc. Lond., B, Biol. Sci.*, 29:296–300, 1715; cited in Ref. 4.
-
-3. Joly,J., An estimate of the geological age of the earth, *Scientific Transactions of the Royal Dublin Society*, New Series 7(3), 1899; reprinted in *Annual Report of the Smithsonian Institution*, June 30, 1899, pp. 247–288; cited in Ref. 4.
-
-4. Austin S.A. and Humphreys, D.R., The sea’s missing salt: a dilemma for evolutionists, *Proceedings of the Second International Conference on Creationism*, Vol. II, pp. 17–33, 1990. This paper should be consulted for more detail than is possible in this article.
-
-5. Moore, W.S., Large groundwater inputs to coastal waters revealed by 226Ra enrichments, *Nature* 380(6575):612–614, April 1996 | doi:10.1038/380612a0; perspective by T.M. Church, An underground route for the water cycle, same issue, pp.579–580 | doi:10.1038/380579a0.
-
+1. قمر أوروبا، وهو أحد أقمار جوبيتر، يُعتقد أنه يحتوي على المياه تحت1قشرة جليديّة، لكن هذا الأمر ليس معروفاً على وجه اليقين حتى الآن.  
+2. Halley, E., A short account of the cause of the saltness \[_sic_\] of the ocean, and of the several lakes that emit no rivers; with a proposal, by help thereof, to discover the age of the world, *Philos. Trans. R. Soc. Lond., B, Biol. Sci.*, 29:296–300, 1715; cited in Ref. 4.  
+3. Joly,J., An estimate of the geological age of the earth, *Scientific Transactions of the Royal Dublin Society*, New Series 7(3), 1899; reprinted in *Annual Report of the Smithsonian Institution*, June 30, 1899, pp. 247–288; cited in Ref. 4.  
+4. Austin S.A. and Humphreys, D.R., The sea’s missing salt: a dilemma for evolutionists, *Proceedings of the Second International Conference on Creationism*, Vol. II, pp. 17–33, 1990. This paper should be consulted for more detail than is possible in this article.  
+5. Moore, W.S., Large groundwater inputs to coastal waters revealed by 226Ra enrichments, *Nature* 380(6575):612–614, April 1996 | doi:10.1038/380612a0; perspective by T.M. Church, An underground route for the water cycle, same issue, pp.579–580 | doi:10.1038/380579a0.  
 6. Church, YT.M., Ref. 5, p. 580, comments: “The conclusion that large quantities of SGWD are entering the coastal ocean has the potential to radically alter our understanding of oceanic chemical mass balance.”

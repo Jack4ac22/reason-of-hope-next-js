@@ -5,7 +5,7 @@ import { getRelatedArticles } from "@/utils/blog/articles-functions";
 export default function RelatedArticles(article) {
   const relatedArticlesData = getRelatedArticles(article, 5);
   return (
-    <div className="flex justify-center">
+    <div className="flex justify-center print:hidden">
       <div className="flex-col">
         <h3 className="article-footer-headings">
           المقالات ذات الصلة

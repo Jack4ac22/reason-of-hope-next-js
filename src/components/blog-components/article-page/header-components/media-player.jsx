@@ -17,7 +17,7 @@ export default function MediaPlayersHeader({ article }) {
   };
   if (!youtube_link & !spotify_link) { return null };
   return (
-    <sections >
+    <sections className="print:hidden">
       <hr className="my-6 h-0.5 border-t-0 invert uni-background" />
       <div className='mb-4 text-xl text-center font-bold underline underline-offset-8'>
         <p className='sr-only md:not-sr-only'>

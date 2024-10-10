@@ -47,7 +47,7 @@ export default function CreationNavbar() {
   ]
 
   return (
-    <nav className='page-navigation'>
+    <nav className='page-navigation print:hidden'>
       {menue.map((item, index) => (
         <PageNavigationItem key={`${index}-${item.title}`} item={item} />
       ))}

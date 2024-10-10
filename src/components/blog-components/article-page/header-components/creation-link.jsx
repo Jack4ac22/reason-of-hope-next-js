@@ -13,7 +13,7 @@ export default function CreationLink({ article }) {
   }
   if (article?.creationLink) {
     return (
-      <div className="flex justify-center">
+      <div className="flex justify-center  print:hidden">
         <Link href={article.creationLink || '#'} onClick={handleLinkClick} className="info-link-button">
           متوفر  أيضاً من موقع إرساليات الخلق الدولية
         </Link>

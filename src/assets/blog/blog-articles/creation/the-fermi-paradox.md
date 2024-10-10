@@ -69,4 +69,4 @@ description: "هل يوجد حياة خارج كوكب الأرض؟ وما هي 
 - The ET Quandary, _The Canadian National Post_, 8 December 2003, p. A13.
 - Aliens ‘Absolutely’ Exist, SETI Astronomer Believes, news.nationalgeographic.com, 6 March 2004.
 - Life on Mars Is a Siren Song in the Human Drive to Know, _The Australian (Features)_, 9 January 2004, p. 11.
-- Despite the huge size of the universe there are theological and Gospel implications with the idea that God may have created sentient life on other planets. See [creation.com/did-god-create-life-on-other-planets](/did-god-create-life-on-other-planets).
+- Despite the huge size of the universe there are theological and Gospel implications with the idea that God may have created sentient life on other planets. See [creation.com/did-god-create-life-on-other-planets](https://www.creation.com/did-god-create-life-on-other-planets).

@@ -10,18 +10,35 @@ tags:
   - "الفلك"
   - "التكوين"
   - "الطوفان"
-coverImage: "rainbow-5372892_1920-edited.jpg"
+coverImage: "Genesis-Flood.jpg"
 spotify: "https://open.spotify.com/episode/4V7k1jVmphjtjHr210nbQv?si=ZdSdn0XGRLGx85RdETBBTw&amp;dl_branch=1"
 hearthis: "https://hearthis.at/reasonofope/set/genesisflood/"
 youtube: ""
 status: "published"
 creationLink: "https://creation.com/a/15148"
+resources:
+  - title: "pdf"
+    link: "Genesis-Flood.pdf"
+  - title: "epub"
+    link: "Genesis-Flood.epub"
+  - title: "googleBooks"
+    link: "https://books.google.lu/books/about?id=FlkuEAAAQBAJ&redir_esc=y&hl=de"
+  - title: "appleBooks"
+    link: "http://books.apple.com/us/book/id1567552549"
+audio:
+  - applePodcasts: "https://podcasts.apple.com/lu/podcast/%D9%82%D8%B6%D9%8A%D8%A9-%D8%A7%D9%84%D8%AE%D9%84%D9%82/id1562186150?i=1000526323728"
+  - googlePodcasts: "https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy81MTVjMjljNC9wb2RjYXN0L3Jzcw==/episode/MWVhMTMzOWItMmU5MS00ZGI5LWJjZjctNWJjYmZjYmU1MDVm"
+  - hearthisAt: "https://hearthis.at/reasonofope/set/genesisflood/"
+  - spotify: "https://open.spotify.com/episode/4V7k1jVmphjtjHr210nbQv?si=ZdSdn0XGRLGx85RdETBBTw&dl\_branch=1"
+  - anchorLink: "https://anchor.fm/reason-of-hope4/episodes/ep-e12kt6n"
 authors:
   - name: "Tas Walker"
     link: "https://creation.com/dr-tas-walker"
 description: "إن سفر التكوين والسرد الذي يقدمه عن الطوفان يتعرضان إلى أعتى الهجمات التي تتشكك بمصداقيتهما. يقدم هذا الكُتيّب نظرة عامةً على الإعتراضات الرئيسية ويتعامل معها."
 ---
+
 <!-- TODO: add the link of the book -->
+
 يتشكك الكثير من الأشخاص بالسرد التوراتي عن الطوفان الذي حدث في أيام نوح. ينظر الكثيرون إلى هذه القصة كما لو أنها كانت مجرد مبالغة فاضحة أو نوع من أعمال الخيال. ولكن إن كان طوفان نوح غير قابل للتصديق، لماذا نثق بأي سرد تاريخي من الكتاب المقدس؟ لقد قدَّم الناس العديد من الإعتراضات على التفسير الواقعيّ لهذا الحدث وهذا المقال (بالإضافة إلى المقالات المرتبطة به) يجيب على العديد من الأسئلة الرئيسية التي يطرحها الناس عن الطوفان والفُلْك.
 
 ## ١. هل كان الفلك كبيراً بما فيه الكفاية؟

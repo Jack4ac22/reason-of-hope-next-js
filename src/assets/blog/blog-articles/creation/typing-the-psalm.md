@@ -17,6 +17,7 @@ authors:
   - name: "Russell Grigg"
     link: "https://creation.com/russell-grigg"
 description: "تعتبر جدلية هُكسلي من أقدم الجدليات التي يتم استخدامها في مواجهة الخلق التوراتي."
+creationLink: "https://creation.com/arabic/?page=6"
 ---
 
 ![توماس هُكسلي (على اليسار، والأسقف صموئيل ويلبِرفورس، نجما المناظرة الشهيرة التي تناولت موضوع التطور [التي دارت] في اجتماع أوكسفورد للجمعيّة البريطانية بتاريخ ٣٠ حزيران ١٨٦٠)](7325Huxley-Wilberforce.jpg)

@@ -25,7 +25,7 @@ export default function ResourcesLinks({ article }) {
   }
 
   return (
-    <div className='flex-col my-3'>
+    <div className='flex-col my-3  print:hidden'>
       <p className="text-lg font-bold sm:text-center">
         يُمكنكم الحصول على هذا المنشور من خلال المنصات التالية:
       </p>

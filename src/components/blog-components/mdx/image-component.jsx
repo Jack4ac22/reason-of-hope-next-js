@@ -29,7 +29,7 @@ export default function ImageMappingComponent({ objectElement }) {
     return response;
   }
   // The figure is either full width, large width, or small width, if not identifies then it is small width. float left, right, center, or none. if none it is float right unless the width is larg or full. If the width is large or full then it is centered.
-  const figureClass = `my-2 ${isFullWidth || isLargeWidth ? "mx-auto block" : "container-fluid"} ${isFullWidth ? "w-100 md:max-w-2xl" : ""} ${isLargeWidth ? "lg:w-3/4 max-w-2xl" : ""} ${(!isFullWidth & !isLargeWidth) ? "w-full md:w-1/2 lg:w-1/3" : ""} ${(isFloatRight || (!isFloatCenter & !isFloatLeft & !isFullWidth & !isLargeWidth)) ? "md:float-right md:ml-2" : ""} ${isFloatLeft ? "md:float-left md:mr-2" : ""} ${isFloatCenter ? "mx-auto block" : ""}`
+  const figureClass = `my-2 ${isFullWidth || isLargeWidth ? "mx-auto block" : "container-fluid"} ${isFullWidth ? "w-100 md:max-w-2xl" : ""} ${isLargeWidth ? "lg:w-3/4 max-w-2xl" : ""} ${(!isFullWidth & !isLargeWidth) ? "w-full md:w-1/2 lg:w-1/3" : ""} ${(isFloatRight || (!isFloatCenter & !isFloatRight & !isFullWidth & !isLargeWidth)) ? "md:float-left md:ml-2" : ""} ${isFloatLeft ? "md:float-left md:mr-2" : ""} ${isFloatCenter ? "mx-auto block" : ""}`
 
   const imageClass = `object-cover w-full ${isSmallWidth ? "max-h-144" : ""} ${(isSmallWidth & isFloatLeft) ? "md:rounded-l-lg pr-3" : ""} ${(isSmallWidth & isFloatRight) ? "md:rounded-r-lg pl-3" : ""} ${(isSmallWidth & !isFloatRight & !isFloatLeft) ? "md:rounded-r-lg pl-3" : ""} ${(isSmallWidth & isFloatCenter) ? "rounded-lg" : ""} ${isFullWidth ? "rounded-lg" : ""}`
 

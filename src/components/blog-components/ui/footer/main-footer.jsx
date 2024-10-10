@@ -4,9 +4,9 @@ import Link from 'next/link';
 export default function MainFooter() {
   const socialLinks = [
     // { title: 'X', icon: <FaXTwitter />, link: '#' },
-    { title: 'facebook', icon: <FaFacebook />, link: 'https://www.facebook.com/ReasonOfHope/', color: 'blue' },
-    { title: 'youtube', icon: <FaYoutube />, link: 'https://www.youtube.com/@ReasonOfHope', color: 'red' },
-    { title: "whatsapp", icon: <FaWhatsapp />, link: "https://whatsapp.com/channel/0029Va9m2Tw7IUYVEc3rjU0X", color: 'green' },
+    { title: 'facebook', icon: <FaFacebook />, link: 'https://www.facebook.com/ReasonOfHope/', color: 'hover:text-blue-500' },
+    { title: 'youtube', icon: <FaYoutube />, link: 'https://www.youtube.com/@ReasonOfHope', color: 'hover:text-red-500' },
+    { title: "whatsapp", icon: <FaWhatsapp />, link: "https://whatsapp.com/channel/0029Va9m2Tw7IUYVEc3rjU0X", color: 'hover:text-green-500' },
   ];
 
   const usefullLinks = [
@@ -35,7 +35,7 @@ export default function MainFooter() {
 
   function SocialLink(title, link, icon, color) {
     return (
-      <Link className={`m-2 p-3 shadow-lg items-center justify-center align-center rounded-full text-center hover:text-${color}-500 animate-all duration-200`} href={link} target='_blank' rel='noopener nor eferrer' key={link}>
+      <Link className={`m-2 p-3 shadow-lg items-center justify-center align-center rounded-full text-center ${color} animate-all duration-200`} href={link} target='_blank' rel='noopener nor eferrer' key={link}>
         {icon}
         <span className="sr-only">Visit our {title}</span>
       </Link>
@@ -57,7 +57,7 @@ export default function MainFooter() {
 
           <div className="flex flex-wrap mt-4">
             {/* contact/social media section */}
-            <div className="w-full md:w-6/12 px-4">
+            <div className="w-full md:w-6/12 px-4 print:hidden">
               <h3 className="text-xl font-semibold">فلنبقى على تواصل!</h3>
               <div className="lg:mb-0 mb-6 flex">
                 {/* social media links */}
@@ -73,7 +73,7 @@ export default function MainFooter() {
 
                 {/* usefull links  */}
                 {usefullLinks.length > 0 &&
-                  (<div className="w-full lg:w-4/12 px-4 ml-auto">
+                  (<div className="w-full lg:w-4/12 px-4 ml-auto print:hidden">
                     <h3 className="block text-blueGray-500 text-xl font-semibold mb-2">روابط سريعة</h3>
                     <ul className="list-unstyled">
                       {usefullLinks.map((item) => FooterLinks(item.title, item.href))}
@@ -82,7 +82,7 @@ export default function MainFooter() {
                   )}
                 {/* other resources */}
                 {otherResources.length > 0 &&
-                  (<div className="w-full lg:w-4/12 px-4 mt-4 md:mt-0">
+                  (<div className="w-full lg:w-4/12 px-4 mt-4 md:mt-0 print:hidden">
                     <span className="block text-blueGray-500 text-xl font-semibold mb-2 ">روابط إضافية</span>
                     <ul className="list-unstyled">
                       <ul className="list-unstyled">

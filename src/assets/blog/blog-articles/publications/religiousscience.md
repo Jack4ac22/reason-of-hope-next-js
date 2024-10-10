@@ -61,9 +61,9 @@ status: "published"
 
 إن الدور الذي يلعبه **التفكير الإيجابي** يُعتبر مركزياً في فكر العلم الديني، ويتم ممارسة الصلاة الإيجابية8، ويُشار بذلك إلى التركيز على الجوانب الإيجابية للإتحاد بين الذهن وبين اللامحدود. يتم الإشارة إلى هذا النوع من الصلوات التي تؤدي إلى الشفاء الذهني أو الجسدي على أساس أنها تعرّض للمعالجة الروحية للذهن. إن نتائج هذا النوع من الصلوات تُعرف بإسم البرهان  أو الشهادة (demonstration).
 
-![إيما كورتيز هوبكنز](ReligiousScience/Emma_Curtis_Hopkins.jpg)
-
 ### **الله**
+
+![إيما كورتيز هوبكنز](ReligiousScience/Emma_Curtis_Hopkins.jpg?position=left)
 
 إن الله هو ذهن غير شخصاني متغلغل في كل شيء وكوني. بالنسبة للمسيحيّة التقليدية المستقيمة الرأي، إن الله هو بالفعل متغلغل في كلّ شيء وكونيّ إلا أنَّه شخصاني أي أنَّه يمتلك شخصيّة. إن الله هو متسامٍ9 وكُليّ الحضور10، وقد كشف عن ذاته لأمّة اسرائيل من خلال أصوات الأنبياء في العهد القديم، ومن خلال رسل يسوع المسيح في العهد الجديد. إضافةً إلى ما سبق، إن حركة العلم الديني 11تتمسك بمفهوم وحدة الوجود (Pantheism) حيال الله، حيث أنها تعتقد بأنَّ ”كُل شيء هو الله“.
 
@@ -99,7 +99,7 @@ status: "published"
 
 تُشكل عقيدة الثالوث التناقض الأكثر وضوحاً بين العلم الديني وبين الفكر المسيحي التقليدي؛ الثالوث بحسب الفكر المسيحي التقليدي هو إشارة إلى الله وحده سواء كان في ذاته أو في تدبيره الإلهي. أما بالنسبة للعلم الديني فإن الثالوث هو مجرّد اختزال لله من خلال الجوانب المختلفة الثلاثة للذات البشرية.
 
-![روبرت ستاك](ReligiousScience/Robert_Stack_-_still.jpg)
+![روبرت ستاك](ReligiousScience/Robert_Stack_-_still.jpg?position=left)
 
 ### **الكنيسة**
 
@@ -157,15 +157,14 @@ status: "published"
 
 ### **المراجع**
 
-- Barry, J.D. et al. eds., 2016. Pantheism. _The Lexham Bible Dictionary_.
-- Chisholm, R.B., Jr., 2006. _Interpreting the Historical Books: An Exegetical Handbook_ D. M. Howard Jr., ed., Grand Rapids, MI: Kregel Academic & Professional.
-- Cross, F.L. & Livingstone, E.A. eds., 2005. _The Oxford dictionary of the Christian Church_, pp.1111, 1223.
-- DeMar, G. ed., 2007. _Pushing the Antithesis: The Apologetic Methodology of Greg L. Bahnsen_, Powder Springs, GA: American Vision.
-- Eucken, B., 1908–1926. Monism J. Hastings, J. A. Selbie, & L. H. Gray, eds. _Encyclopædia of Religion and Ethics_, 8, pp.808–810.
-- Evans, C.S., 2002. _Pocket dictionary of apologetics & philosophy of religion_, pp.77, 88.
-- Ferguson, S.B. & Packer, J.I., 2000. _New dictionary of theology_, p.442.
-- Garvie, A.E., Thilly, F. & Geden, A.S., 1908–1926. PANTHEISM J. Hastings, J. A. Selbie, & L. H. Gray, eds. _Encyclopædia of Religion and Ethics_, 9, pp.609–613.
-
+- Barry, J.D. et al. eds., 2016. Pantheism. _The Lexham Bible Dictionary_.  
+- Chisholm, R.B., Jr., 2006. _Interpreting the Historical Books: An Exegetical Handbook_ D. M. Howard Jr., ed., Grand Rapids, MI: Kregel Academic & Professional.  
+- Cross, F.L. & Livingstone, E.A. eds., 2005. _The Oxford dictionary of the Christian Church_, pp.1111, 1223.  
+- DeMar, G. ed., 2007. _Pushing the Antithesis: The Apologetic Methodology of Greg L. Bahnsen_, Powder Springs, GA: American Vision.  
+- Eucken, B., 1908–1926. Monism J. Hastings, J. A. Selbie, & L. H. Gray, eds. _Encyclopædia of Religion and Ethics_, 8, pp.808–810.  
+- Evans, C.S., 2002. _Pocket dictionary of apologetics & philosophy of religion_, pp.77, 88.  
+- Ferguson, S.B. & Packer, J.I., 2000. _New dictionary of theology_, p.442.  
+- Garvie, A.E., Thilly, F. & Geden, A.S., 1908–1926. PANTHEISM J. Hastings, J. A. Selbie, & L. H. Gray, eds. _Encyclopædia of Religion and Ethics_, 9, pp.609–613.  
 - Grenz, S., Guretzki, D. & Nordling, C.F., 1999. _Pocket dictionary of theological terms_, pp. 63, 80, 88, 95.
 - Mangum, D., 2014. _The Lexham Glossary of Theology_, Bellingham, WA: Lexham Press.
 - McGiffert, A.C., 1908–1926. IMMANENCE J. Hastings, J. A. Selbie, & L. H. Gray, eds. _Encyclopædia of Religion and Ethics_, 7, pp.167–172.

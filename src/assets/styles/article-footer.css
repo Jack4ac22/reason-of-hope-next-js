@@ -12,5 +12,5 @@
   @apply mb-3 text-sm;
 }
 .objection-video {
-  @apply my-4 w-full flex justify-center;
+  @apply my-4 w-full flex justify-center print:hidden;
 }

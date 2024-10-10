@@ -139,7 +139,7 @@ export default function FallaciesList({ article }) {
             {fallaciesData[fallacy].fallacy_article && (
               <Link
                 href={`/${fallaciesData[fallacy].fallacy_article}`}
-                className="info-link-button ">
+                className="info-link-button print:hidden">
                 اقرأ المزيد عن {fallaciesData[fallacy].title}
               </Link>
             )}

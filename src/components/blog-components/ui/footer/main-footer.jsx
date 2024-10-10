@@ -51,7 +51,7 @@ export default function MainFooter() {
   }
   return (
     <footer className="uni-text-color mt-12 select-none">
-      <hr className=" border-blueGray-300" />
+      <hr className=" border-blueGray-300 print:hidden" />
       <section className="flex justify-center items-center h-full">
         <div className="container mx-auto px-4">
 

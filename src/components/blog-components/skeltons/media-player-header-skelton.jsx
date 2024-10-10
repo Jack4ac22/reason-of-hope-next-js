@@ -1,7 +1,7 @@
 export default function MediaPlayersHeaderSkeleton() {
   return (
     <>
-      <hr className="my-6 h-0.5 border-t-0 invert uni-background" />
+      <hr className="my-6 h-0.5 border-t-0 invert uni-background print:hidden" />
       <div className='mb-4 text-xl text-center font-bold underline underline-offset-8'>
         <div className='w-1/3 h-6 bg-gray-300 dark:bg-gray-700 rounded-md mx-auto'></div>
       </div>

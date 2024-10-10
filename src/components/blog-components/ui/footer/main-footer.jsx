@@ -94,7 +94,7 @@ export default function MainFooter() {
             </div>
           </div>
 
-          <hr className="my-6 border-blueGray-300" />
+          <hr className="my-6 border-blueGray-300 print:hidden" />
 
           {/* Copyright section */}
           <div className="flex flex-wrap items-center md:justify-between justify-center">

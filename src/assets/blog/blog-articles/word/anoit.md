@@ -7,8 +7,7 @@ tags:
   - "يسوع-المسيح"
   - "عبري"
 coverImage: "anoit.jpg"
-description: "
-كانت طقوس المسحة بالزيت العَطِر في الشرق الأدنى القديم طقساً احتفالياً يرمز إلى انتقال القداسة من إحدى الآلهة إلى ذلك الشخص أو الشيء الذي يتم مسحه بالزيت، وبالتالي فإنَّه كان يعتبر نوعاً من أعمال التكريس."
+description: "كانت طقوس المسحة بالزيت العَطِر في الشرق الأدنى القديم طقساً احتفالياً يرمز إلى انتقال القداسة من إحدى الآلهة إلى ذلك الشخص أو الشيء الذي يتم مسحه بالزيت، وبالتالي فإنَّه كان يعتبر نوعاً من أعمال التكريس."
 ---
 
 كانت طقوس المسحة بالزيت العَطِر في الشرق الأدنى القديم طقساً احتفالياً يرمز إلى انتقال القداسة من إحدى الآلهة إلى ذلك الشخص أو الشيء الذي يتم مسحه بالزيت، وبالتالي فإنَّه كان يعتبر نوعاً من أعمال التكريس. إلا أنَّ الشعوب القديمة قامت أيضاً بممارسة المسح بالزيت خارج نطاق الاحتفالات الطقسية الشعائرية حيث كانوا يدهنون دروعهم وأجسادهم بالزيوت وذلك لأغراض تجميليّة أو علاجيّة.
@@ -30,7 +29,7 @@ description: "
 
 ---
 
-### الآيات المفتاحية:
+### __الآيات المفتاحية:__
 
 > الخروج ٢٩: ٧ ”وَتَأْخُذُ دُهْنَ الْمَسْحَةِ وَتَسْكُبُهُ عَلَى رَأْسِهِ **وَتَمْسَحُهُ**.“  
 
@@ -47,17 +46,10 @@ description: "
 ### مراجع:
 
 - Nyberg, M. F. (2016). [Anointing](https://ref.ly/logosres/lbd?hw=Anointing&off=1242). In J. D. Barry, D. Bomar, D. R. Brown, R. Klippenstein, D. Mangum, C. Sinclair Wolcott, … W. Widder (Eds.), _The Lexham Bible Dictionary_. Bellingham, WA: Lexham Press.
-
 - Carpenter, E. E., & Comfort, P. W. (2000). In [_Holman treasury of key Bible words: 200 Greek and 200 Hebrew words defined and explained_](https://ref.ly/logosres/hlmnkybblwds?ref=Page.p+11&off=83&ctx=unciation:+maw+SHAH%0a~Strong%E2%80%99s+Number:+488) (p. 11). Nashville, TN: Broadman & Holman Publishers.
-
 - Easton, M. G. (1893). In [_Easton’s Bible dictionary_](https://ref.ly/logosres/eastons?hw=Anoint&off=1720). New York: Harper & Brothers.
-
 - Torrey, R. A. (1897). [_The New Topical Text Book: A Scripture Text Book for the Use of Ministers, Teachers, and All Christian Workers_](https://ref.ly/logosres/torreys2012?ref=Page.p+16&off=579) (New, revised and enlarged edition, p. 16). Chicago; New York; Toronto: Fleming H. Revell.
-
 - Culver, R. D. (1988). [Anoint, Anointed](https://ref.ly/logosres/bkrencbib?ref=Page.p+116&off=5095). In _Baker encyclopedia of the Bible_ (Vol. 1, pp. 116–117). Grand Rapids, MI: Baker Book House.
-
 - Eager, G. B. (1915). [Anointing](https://ref.ly/logosres/intlbbldict1915?ref=Page.p+138&off=4420). In J. Orr, J. L. Nuelsen, E. Y. Mullins, & M. O. Evans (Eds.), _The International Standard Bible Encyclopaedia_ (Vol. 1–5, p. 138). Chicago: The Howard-Severance Company.
-
 - Mitchell, M. (2003). [Anoint, Anointed](https://ref.ly/logosres/hlmnillbbldict?hw=Anoint&off=931). In C. Brand, C. Draper, A. England, S. Bond, E. R. Clendenen, & T. C. Butler (Eds.), _Holman Illustrated Bible Dictionary_ (p. 70). Nashville, TN: Holman Bible Publishers.
-
 - Strong, J. (2009). [_A Concise Dictionary of the Words in the Greek Testament and The Hebrew Bible_](https://ref.ly/logosres/strngdichebgrk?ref=GreekStrongs.5624&off=642508) (Vol. 2, p. 73). Bellingham, WA: Logos Bible Software.

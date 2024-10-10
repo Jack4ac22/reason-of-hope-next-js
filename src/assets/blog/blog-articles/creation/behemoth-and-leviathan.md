@@ -161,88 +161,47 @@ description: "حيوانان غامضان مذكوران في سفر أيوب، 
 ### مراجع
 
 1. This article is based on Paul, M-J., van den Brink, G. and Bette, J.C. (Eds.), *Bijbelcommentaar Ezra – Job* \[Bible commentary of Ezra–Job\]; in: Studiebijbel Oude Testament \[Study Bible of the Old Testament\], vol. 6. Veenendaal: Centrum voor Bijbelonderzoek, the Netherlands, 2009; studiebijbel.nl, translated by Naomi Verboom. In this **article**, the verses are numbered in accordance with the English translations. The Hebrew numbers in chapter 41 differ: Eng. 41:1–34 = [Heb. 40:25–32](https://biblia.com/bible/esv/Heb.%2040.25%E2%80%9332) and [41:1–26](https://biblia.com/bible/esv/Heb%2041.1%E2%80%9326).
-
 2. يحتوي سفر أيوب على عدد من السمات التي تشير إلى الألفية الثانية \[قبل الميلاد\] وذلك بعد وقت قصير من زمن الآباء البطاركة \[في اسرائيل\]. وقد عاش أيوب أكثر من ١٤٠ سنة ([أيوب ٤٢: ١٦](https://biblia.com/bible/ar-vandyke/Job42.16)). وتلقى أمواله بشكل قَسِيطَةً، وهي مقياس من الفضة ورد ذكره فقط فيما يتعلق بيعقوب ([تكوين ٣٣: ١٩](https://biblia.com/bible/ar-vandyke/Gen33.19)؛ [يشوع ٢٤: ٣٢](https://biblia.com/bible/ar-vandyke/Joshua24.32)). كما أن ثروته قد قِيست بعدد الماشية \[التي يمتلكها\]. وقد شَغَل منصب كاهن لعائلته. ويشير الأشخاص المذكورين في سفر أيوب إلى تلك الفترة الزمنية. أيوب عاش في أرض عَوص ([أيوب ١: ١](https://biblia.com/bible/ar-vandyke/Job1.1))، ونجد في سفر المراثي أن هذه الأرض تقع في أَدُوم ([مراثي ارميا ٤: ٢١](https://biblia.com/bible/ar-vandyke/Lam4.21)). حيث تمت تسميتها، على ما يبدو، على اسم عوص، ابن دِيشَانَ، الذي من سلالة عيسو ([تكوين ٣٦: ٢٨](https://biblia.com/bible/ar-vandyke/Gen36.28)). أضافت الترجمة السبعينية معلومات عن أيوب في نهاية الكتاب حيث حدَّدَته \[بأنه عاصر\] يُوبَابُ الأدوميّ، المذكور في [تكوين ٣٦: ٣٣](https://biblia.com/bible/ar-vandyke/Gen36.33).
-
 3. Whitney, K.W., Two Strange Beasts: Leviathan and Behemoth in Second Temple and Early Rabbinic Judaism, Eisenbrauns, Winona Lake, IN, 2006.
-
 4. الكلمة ترد في صيغة الجمع؛ المفرد غالباً ما يتم ترجمته كـ ”داجن، أحد المواشي“. ويتضح من خلال السياق أن المقصود هو حيوان مميز وبالتالي فقد تم استخدام صيغة الجمع المكثّف \[الجمع باللغة العبرية يخدم العدد والنوعية\]. فيمكن تقديم الكلمة على أنها ”حيوان عِملاق“ أو ”حيوان بهيميّ“. راجع:  
 Lang, W., Job and Science, Genesis Institute, Richfield, UT, 1991; creationism.org, accessed March 29, 2010
-
 5. The verb ch-p-ts I means ‘to long for, to desire’. From the context it is translated as ‘to hold/make stiff, to bend, to slacken’ here, but this is not the only text where this translation is fitting. LXX and Syr. support ‘to make stiff’, but the Arabic rendering ‘to bend’ is also possible. The meaning should be derived from the analogy: like a cedar. For the cedar compare [Eze. 31:3–9](https://biblia.com/bible/esv/Ezek.%2031.3%E2%80%939); [Psalm 92:12](https://biblia.com/bible/esv/Ps%2092.12) and Ellwanger, W., The Cedars of Lebanon, Bible & Spade 15:114–116, 2002. Based on the Vulgate ‘tail’ it is sometimes taken to mean penis. However, this is unlikely, because this is not a special characteristic of this specific animal. Furthermore, mating takes place in the water and is not visible from the shore. For further details, see Steel, A.K., [Could Behemoth have been a dinosaur?](https://creation.com/could-behemoth-have-been-a-dinosaur) *Journal of Creation* (formerly *TJ*) **15**(2):42–45, 2001.
-
 6. Pritchard, J.B., *ANET* nos. 351–354.
-
 7. Compare Thimes, J.L., The Lotus in Ancient Egypt and the Bible, *Bible & Spade* **18**:10–13, 2005.
-
 8. يعتقد بعض المترجمون أن الأردن هنا ليس أكثر من مثال لنهر ذة تيّار قوي ويعتقدون أن المقصود هو نهر النيل عند الفيضان، لكن إن كانت أرض عَوص تقع قرب البحر الميتـ فمن الممكن أن يكون الأردن هو المقصود.
-
 9. For the myth, see Pritchard, J.B., *ANET* nos. 15b–16a. Compare Ruprecht, E., Das Nilpferd im Hiobbuch, *VT* **21**:209–231, 1971.
-
 10. Keel, O., *Jahwes Entgegnung an Ijob. Eine Deutung von Ijob 38–41 vor dem Hintergrund der zeitgenössischen Bildkunst* (Yahweh’s answer to Job. An explanation of [Job 38–41](https://biblia.com/bible/esv/Job%2038%E2%80%9341) against the background of the contemporary pictures) Vandenhoeck & Ruprecht, Göttingen, Germany, p. 134, 1978. This book references depictions of hippopotamus hunts.
-
 11. Raban-Gerstel, N., Bar-Oz, G., Zohar, I., Sharon, I. and Gilboa, A., Early Iron Age Dor (Israel): a faunal perspective, *BASOR* **349**:25–59, 2008; pp. 43, 45, 48.
 يعتقد المؤلفون أن وجود فرس النهر يمثل حدثاً طبيعياً في المناطق المحيطة بالقرى في تل دور في العصر الحديدي المبكر (حوالي ١٣٠٠ قبل الميلاد). لابد وأن سكان تل دور قد اصطادوا هذا الحيوان بهدف الاستهلاك. وقد وُجِدَت أفراس النهر في منطقة سارون وفي السهول الساحلية في جنوب بلاد الشام (الجزء الشرقي من الشرق الأدنى) حتى العصر الحديدي المبكر. وفقاً ل م.برايت، فقد عاش فرس النهر في الأهوار الواقعة شمال بحر الجليل.  
 Bright, M., *Beasts of the Field: The Revealing Natural History of Animals in the Bible*, Robson, London, p. 29, 2006.
-
 12. كان الباحث اليوناني والراوي هيرودوتس (القرن الخامس قبل الميلاد) إوَّل مؤرخٍ في العالم. وفي كتابه ”تاريخ هيرودوتس“ يصف توسُّع الإمبراطورية الأخمينية. هيرودوتس لم يكن دقيقاً إلى حدٍّ ما في الوصف الذي قدَّمه لفرس النهر (تاريخ هيروتودتس، المجلد الثاني، ص٧١). ومن المعروف حالياً أنه استعار هذا الوصف من هكتيوس. ومن المحتمل أن تكون أفراس النهر قد انقرضت من مصر في الوقت الذي سافرا فيه إليها؛ livius.org، ٢٠١٠.
-
 13. عاش النيجرصور في مناخ أكثر دفئاً من المناخ المُقَدَّر لمنطقة أدّوم.
-
 14. تم تحديد هذا الحيوان على أنه الحوت في وقت سابق. ونجد الترجمة السبعينية تورد اللفظ *drakonta*. ليس في اللغة العبرية كلمة مرادفة للتمساح، على الرغم من تواجد هذه الحيوانات في كنعان، وذلك واضح من الأسماء اللاتينية واليونانية للأماكن.
-
 15. Cf. Paul, M-J., Leviathan, *NIDOTTE* **2**:778–780, 1997.
-
 16. Histories, **II**, p. 68.
-
 17. Damsté, O., in the Dutch translation of Herodotus, Historiën, Fibula-van Dishoek, Bussum, The Netherlands, 1983.
-
 18. Keel, O., Zwei kleine Beiträge zum Verständnis des Gottesreden im Buch Ijob (xxxviii 36f, xl 25), *VT* **31**:223–225, 1981.
-
 19. Herodotus, *Histories*, **II**, ref. 12, p. 69.
-
 20. بعد كِيل(Keel) المرجع ١٠، ص. ١٥٢، الذي يقدم معلومات أكثر عن الوصف. يكتب هيرودوتس بأن الصيّاد يضع الطين على عينيّ التمساح الذي التهم الطُعم الموضوع، وذلك لسحبه ”وعندما يقوم الصياد بذلك تصبح السيطرة على التمساح أمراً سهلاً“(_Histories_, **II**, ref.12, p.70).
-
 21. Herodotus, *Histories*, **II**, ref. 12, pp. 69–70.
-
 22. E.g. Delitzsch F., *Job*. English translation, repr. Eerdmans, Grand Rapids, MI, p. 372, 1973.
-
 23. Bright, ref. 11, p. 36.
-
 24. إن خنفساء بومباردييه تقذف غازاً باتجاه مهاجميها حيث تصل درجة حرارته إلى ١٠٠ درجة مئوية؛ كل من الأنقليس الرعّاد \[الكهربائي\] وأسماك الرّعاد \[السلّور الكهربائي\] ينتجان تياراً كهربائياً، وينتج الأخير تيارات كهربائياً يصل إلى ٦٠٠ فولت من خلال ما يُعرف ب، ”عُضو الصيد“. كما أن أسماك الطوربيد أو الرَّعاد المذكورة هي أيضاً مشهورة بسبب التيّار الكهربائي الذي تُنتجه. كما وتشتهر اليراعات والديدان المتوهجة بقدرتها على إصدار الضوء. وتدعى هذه الظاهرة بالتألق البيولوجي.
-
 25. نجد في بعض الترجمات (هل تنتفخ الرقبة؟) وهذه نقاط لامعة تشير إلى حيوان وَرَل النيل (_Varanus niloticus_) الذي – على النقيض من التمساح – يمتلك عُنقاً طويلاً. وأيضاً يمتلك هذا الحيوان لساناً طويلاً يندفع من فمه باستمرار ويَظهر في بعض الأحيان بشكل يشبه اللهب المتلألئ (ص ٣٧-٣٨).
-
 26. الترجمة الحرفية هي: ”الأشياء التي تتساقط، تدلّى“. مترافقة مع ”اللحم“ وهي تشير إلى طيَّات اللحم. وتورد بعض الترجمات ”عضلات“ أو أنها تتجاوز تلك الكلمة فلا تُتَرجمها على الإطلاق. اللحم المُتَدَلّي لا يهتزّ على الإطلاق إذ أنّه ثابت بإحكام. ماذا يعني هذا. هل هي إشارة إلى الأطراف أو الأعضاء التناسلية؟ هذا لا يتناسب مع كلمة ”مُتَلاصِق“. فإن كان هذا يشير إلى طيّات اللحم التي تلتصق بالبدن أو ببعضها البعض، يجب أن نستنتج أن هذا لا يوافق حالة التمساح.
-
 27. E.g. Delitzsch, ref. 21, p. 379.
-
 28. من الممكن التفكير في البحر الأبيض المتوسط أو خليج العقبة.
-
 29. تحدث ظاهرة التلألؤ البيولوجي في بعض الأحيان في المياه الإستوائية وشبه الإستوائية: حيث أنّ الطحالب أحادية الخلية تنتج الضوء عندما تبدأ بالحركة. فإذا كان \[المُسبّب\] حيوانا كبير أو دلفين أو تمساح يسبح في المياه التي تتواجد فيها هذه الكائنات، فإنَّه يترك أثراً مُضاءً، لأن هذه الطحالب تستمر بإصدار الضوء لعدّة دقائق (Bright, ref. 11, p. 39).
-
 30. Bright, ref. 11, p.38.
-
 31. Up until sometime in the 19th century there was a ‘Crocodile River’ north of Caesarea and a ‘Crocodile city’ south of the Carmel, that are already mentioned by Strabo and Plinius. In the19th century, crocodiles were still sighted in the Kison and Jarkon Rivers in the north of Israel. Strauss, H., *Hiob. 2. Teilband 19,1–42,17*, Biblischer Kommentar Altes Testaments, Neukirchener Verlag, Neukirchen-Vluyn, Germany, p. 381, 2000; Bright, ref. 11, pp. 35–36.
-
 32. E.g. scholars as M. Pope and G. Fohrer. See Hartley J.E., *The Book of Job*. NICOT. Eerdmans, Grand Rapids, LMI, pp. 521–522, 1988.
-
 33. Armitage, M.H. and Mullisen, L., “[Preliminary observations of the pygidial gland of the Bombardier Beetle, *Brachinus sp.*](https://creation.com/preliminary-observations-of-the-pygidial-gland-of-the-bombardier-beetle-brachinus-sp)”, *Journal of Creation* (formerly *TJ*) **17**(1):95–102, 2003.
-
 34. See Brooker, P., [A new candidate for Leviathan?](https://creation.com/images/pdfs/tj/j19_2/j19_2_14-16.pdf), *Journal of Creation* **19**(2):14–16, 2005, and Wieland, C., [_Dragons of the Deep_](https://creation.com/s/10-1-218), Master Books, Green Forest, AR, pp. 44–47, 2005.
-
 35. See Avnimelech, M.A., *Dinosaur Tracks in the Judean Hills*, The Israel Academy of Sciences and Humanities, Jerusalem, 1966, and dailymail.co.uk, accessed 29 March 2010.
-
 36. See Pritchard, J.B., *ANET*, nos. 78–83.
-
 37. See Pritchard, J.B. *ANEP*, nos. 671, 691.
-
 38. See Cooper, B., [_After the Flood_](https://creation.com/s/10-2-055), New Wine Press, Chicester, UK, chs. 10 and 11, 1995; ldolphin.org, accessed 29 March 2010.
-
 39. من الضروري القيام بالفحص الدقيق لهذه الإدعاءات؛ حيث أنه تم استخدام العديد من الأمثلة غير الدقيقة في الماضي. للحصول على أمثلة مهمة عن ذلك، راجع (Darek Isaacs, *Dragons or Dinosaurs? Creation or Evolution?* Bridge Logos, Alachua, FL, 2010.)
-
 40. Bright، المذكور في المَرجع. ١١، في الصفحات ٢٧، ٣٨**، يعترف** بذلك، لكنه لا يقبل هذا الاحتمال، لأنه يفترض أن الديناصورات قد انقرضت قبل ظهور البشر على الأرض بملايين السنين.
-
 41. J.E. Hartley indicates that behemoth possibly symbolizes natural powers that can cause destruction in specific regions (earthquakes, floods), while leviathan represents the cosmic evil powers that, from time to time, can disrupt life on Earth. See Hartley, J.E., Theology of Job, *NIDOTTE* **4**:780–796, 1997; p. 791.
-
 42. Morris, H.M., *The Remarkable Record of Job*, Baker, Grand Rapids, MI, 1988.

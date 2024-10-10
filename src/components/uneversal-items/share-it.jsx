@@ -91,14 +91,14 @@ export default function ShareIt({
     { Component: TwitterShareButton, Icon: TwitterIcon, props: { title, url: link, hashtags: tags } },
     { Component: WhatsappShareButton, Icon: WhatsappIcon, props: { url: link, title, separator: ":: " } },
     { Component: TelegramShareButton, Icon: TelegramIcon, props: { url: link, title } },
-    {
-      Component: EmailShareButton,
-      Icon: EmailIcon,
-      props: {
-        subject: `موضوع يستحق القراءة: ${title}`,
-        body: `يُقدِّم موقع سبب الرجاء الكثير من الدراسات المجانية التي تهدف إلى مساعدة المؤمنين في التعرف على الكتاب المقدس والدفاع عنه.\n ${title}: ${link} \n المجد لله دائماً.`,
-      },
-    },
+    // {
+    //   Component: EmailShareButton,
+    //   Icon: EmailIcon,
+    //   props: {
+    //     subject: `موضوع يستحق القراءة: ${title}`,
+    //     body: `يُقدِّم موقع سبب الرجاء الكثير من الدراسات المجانية التي تهدف إلى مساعدة المؤمنين في التعرف على الكتاب المقدس والدفاع عنه.\n ${title}: ${link} \n المجد لله دائماً.`,
+    //   },
+    // },
   ];
 
   const [isSharingOpen, setIsSharingOpen] = useState(false);

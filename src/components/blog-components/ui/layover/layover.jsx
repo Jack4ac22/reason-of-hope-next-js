@@ -37,7 +37,7 @@ export default function LayOverSection() {
               <span className="sr-only">Close Layover</span>
             </button>
           </header>
-          <div className="h-[70vh] bg-lightShade-500 dark:invert">
+          <div className="h-[70vh] bg-lightShade-500 dark:bg-lightShade-800">
             {/* {layoverObject.link} */}
             {layoverObject.type === "link" && <LinkLayover layoverObject={layoverObject} />}
             {/* layover image */}

@@ -1,0 +1,20 @@
+شكراً لتواصلكم معنا
+الرجاء عدم الرد على هذه الرسالة، هذا البريد الإلكتروني هو بريد تلقائي. إن أردتم التواصل معنا الرجاء استخدام نموذج الإتصال الخاص بموقعنا من خلال الرابط التالي: reasonofhope.com/contact
+
+هذه نسخة من رسالتكم التي تفضلتم بإرسالها من خلال نموذج التواصل الخاص بموقعنا الإكتروني سبب الرجاء.
+
+التفاصيل
+الاسم: ${name}
+البريد الإلكتروني: ${email}
+الموضوع: ${title}
+الرسالة: ${message}
+Thank you for contacting us
+Please do not reply to this email, this is an automated email. If you would like to contact us, please use our website contact form by following this link: reasonofhope.com/contact
+
+This is a copy of your message that you have sent through the contact form on our website Reason of Hope.
+
+Details
+Name: ${name}
+Email: ${email}
+Subject: ${title}
+Message: ${message}

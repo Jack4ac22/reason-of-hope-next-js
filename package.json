@@ -1,34 +1,43 @@
 {
-  "name": "nextjs-course",
+  "name": "wwu-reasonofhope",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "build:sitemap": "next-sitemap",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
-    "@vercel/analytics": "^1.0.2",
-    "@vercel/speed-insights": "^1.0.3",
-    "bootstrap": "^5.3.1",
+    "@eslint/config-array": "^0.18.0",
+    "@eslint/object-schema": "^2.1.4",
+    "@mdx-js/loader": "^3.0.1",
+    "@mdx-js/react": "^3.0.1",
+    "@next/mdx": "^14.2.5",
+    "@types/mdx": "^2.0.13",
+    "glob": "^11.0.0",
     "gray-matter": "^4.0.3",
-    "marked": "^7.0.3",
-    "next": "^13.0.7",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-markdown": "^8.0.7",
-    "react-player": "^2.12.0",
-    "react-share": "^4.4.1",
-    "react-spotify-embed": "^2.0.3",
-    "react-spotify-player": "^1.0.4",
+    "lru-cache": "^11.0.0",
+    "next": "14.2.3",
+    "nodemailer": "^6.9.14",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-icons": "^5.2.1",
+    "react-iframe": "^1.8.5",
+    "react-markdown": "^9.0.1",
+    "react-share": "^5.1.0",
+    "react-spotify-embed": "^2.0.4",
     "react-youtube": "^10.1.0",
-    "remark": "^14.0.3",
-    "remark-gfm": "^3.0.1",
-    "remark-html": "^15.0.2",
-    "remark-rehype": "^10.1.0"
+    "rehype-raw": "^7.0.0",
+    "remark-gfm": "^4.0.0",
+    "remark-rehype": "^11.1.0",
+    "rimraf": "^6.0.1",
+    "sharp": "^0.33.5"
   },
   "devDependencies": {
-    "next-sitemap": "^4.2.3"
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
   }
 }

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="bg-gray-100 p-4">
+      <!-- Arabic Version section -->
+      <section dir="rtl" class="bg-white p-4 rounded-lg shadow-lg">
+        <h1 class="text-2xl font-bold text-gray-800">شكراً لتواصلكم معنا</h1>
+        <p class="text-gray-600 my-2">
+          الرجاء عدم الرد على هذه الرسالة، هذا البريد الإلكتروني هو بريد تلقائي.
+          إن أردتم التواصل معنا الرجاء استخدام نموذج الإتصال الخاص بموقعنا من
+          خلال الرابط التالي:
+          <a
+            href="http://www.reasonofhope.com/contact"
+            class="underline underline-offset-4 text-blue-500 font-semibold"
+            >reasonofhope.com/contact</a
+          >
+        </p>
+        <p class="text-gray-600 my-2">
+          هذه نسخة من رسالتكم التي تفضلتم بإرسالها من خلال نموذج التواصل الخاص
+          بموقعنا الإكتروني
+          <a
+            href="http://www.reasonofhope.com"
+            class="underline underline-offset-4 text-blue-500 font-semibold"
+            >سبب الرجاء</a
+          >.
+        </p>
+        <hr class="my-4" />
+        <div class="mt-4">
+          <h2 class="text-lg font-semibold text-gray-800">التفاصيل</h2>
+          <ul class="list-disc list-inside mt-2">
+            <li><strong>الاسم:</strong> ${name}</li>
+            <li><strong>البريد الإلكتروني:</strong> ${email}</li>
+            <li><strong>الموضوع:</strong> ${title}</li>
+            <li><strong>الرسالة:</strong> ${message}</li>
+          </ul>
+        </div>
+      </section>
+      <hr class="my-4" />
+      <!-- English Version section -->
+      <section class="bg-white p-4 rounded-lg shadow-lg">
+        <h1 class="text-2xl font-bold text-gray-800">
+          Thank you for contacting us
+        </h1>
+        <p class="text-gray-600 my-2">
+          Please do not reply to this email, this is an automated email. If you
+          would like to contact us, please use our website contact form by
+          following this link:
+          <a
+            href="http://www.reasonofhope.com/contact"
+            class="underline underline-offset-4 text-blue-500 font-semibold"
+            >reasonofhope.com/contact</a
+          >
+        </p>
+        <p class="text-gray-600 my-2">
+          This is a copy of your message that you have sent through the contact
+          form on our website
+          <a
+            href="http://www.reasonofhope.com"
+            class="underline underline-offset-4 text-blue-500 font-semibold"
+            >Reason of Hope</a
+          >.
+        </p>
+        <hr class="my-4" />
+        <div class="mt-4">
+          <h2 class="text-lg font-semibold text-gray-800">Details</h2>
+          <ul class="list-disc list-inside mt-2">
+            <li><strong>Name:</strong> ${name}</li>
+            <li><strong>Email:</strong> ${email}</li>
+            <li><strong>Subject:</strong> ${title}</li>
+            <li><strong>Message:</strong> ${message}</li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

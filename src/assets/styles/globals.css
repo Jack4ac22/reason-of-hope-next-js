@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.page-main {
+  @apply flex flex-col flex-wrap justify-start items-center content-center hyphens-manual break-words;
+}
+
+.page-layer-container {
+  @apply max-w-7xl text-center;
+}
+
+.page-layer-container > section > header > p,
+.page-layer-container > section > p {
+  @apply text-xl text-wrap mx-4;
+}
+
+.uni-background {
+  @apply bg-lightShade-200 dark:bg-darkAccent-800;
+}
+
+/* all h1 in the main: */
+main > h1,
+header > h1,
+section > h1 {
+  @apply px-2 my-6 text-4xl text-wrap font-bold text-darkAccent-800 dark:text-darkAccent-100;
+}
+.uni-text-color {
+  @apply text-darkAccent-800 dark:text-darkAccent-100;
+}
+
+.section-link {
+  @apply text-mainBrand-600 dark:text-mainBrand-200 border-b-2 hover:text-mainBrand-800 hover:dark:text-mainBrand-100 duration-200;
+}
+
+/* Card classes */
+.information-card-text {
+  @apply text-sm text-darkAccent-400 dark:text-white select-none;
+}
+
+.card-list-select {
+  @apply block px-4 py-2 mt-2 rounded-md mx-2 uni-background;
+}
+
+.card-list-select option {
+  @apply uni-text-color;
+}
+
+.info-link-button {
+  @apply mb-1 p-0.5 border-b-2 rounded-lg border-info-500  hover:bg-info-500 hover:text-white duration-200;
+}
+
+/* Navigation classes */
+.page-navigation {
+  @apply flex flex-wrap items-center justify-center uni-background;
+}
+
+.pagination-item {
+  @apply px-4 py-2 mx-2 rounded-md uni-background uni-text-color disabled:text-gray-700 dark:disabled:text-gray-500;
+}
+
+/* MDX MAPPIN */
+.article-body {
+  @apply sm:sm:px-4;
+}
+.article-body * {
+  @apply break-words whitespace-normal overflow-hidden truncate;
+}
+
+.local-table {
+  @apply my-2 p-2 table-auto w-full max-w-[80vw] border-2 rounded border-collapse;
+}
+
+.local-table th {
+  @apply bg-lightAccent-600 dark:bg-darkAccent-900 font-bold text-start;
+}
+
+.local-table td {
+  @apply border-x-2 border-lightAccent-400 dark:border-darkAccent-400 text-center;
+}
+
+.local-table > tbody > *:nth-child(even) {
+  @apply bg-lightAccent-200 dark:bg-darkAccent-600;
+}
+
+.local-table > tbody > * {
+  @apply border-b-2 border-lightAccent-400 dark:border-darkAccent-400 text-center;
+}
+
+,
+@layer base {
+  html {
+    @apply bg-lightShade-100 dark:bg-darkAccent-900 m-0 p-0;
+  }
+
+  body,
+  footer,
+  main {
+    @apply uni-background m-0 p-0;
+  }
+
+  h1 {
+    @apply px-2 my-6 text-4xl text-wrap font-bold text-darkAccent-800 dark:text-darkAccent-100;
+  }
+
+  p {
+    @apply text-wrap whitespace-pre-wrap;
+  }
+}

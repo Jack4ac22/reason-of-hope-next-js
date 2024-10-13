@@ -21,9 +21,14 @@ export default function LinkLayover({ layoverObject }) {
         className={` ${loading ? ' hidden ' : ' block h-fill'} duration-100  rounded-b-xl`}
         loading='eager'
         scrolling='yes'
+        name='layover frame'
+        credentialless
+        title='Layover frame to diplay ecternal links and images'
+        aria-hidden={loading ? 'true' : 'false'}
+        aria-live="polite"
       />
       {/* loading animation */}
-      <div className={`${loading ? ' block ' : ' hidden '} flex space-x-5 justify-center items-center  duration-300 h-full`}>
+      <div className={`${loading ? ' block ' : ' hidden '} flex space-x-5 justify-center items-center  duration-300 h-full`} role="alert" aria-busy="true">
         <span className="sr-only">...جاري التحميل</span>
         <div className='h-8 w-8 bg-darkShade-500 rounded-full animate-bounce [animation-delay:-0.3s]'></div>
         <div className='h-8 w-8 bg-darkShade-500 rounded-full animate-bounce [animation-delay:-0.15s]'></div>

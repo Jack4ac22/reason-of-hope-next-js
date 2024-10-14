@@ -3,6 +3,20 @@ import Link from "next/link";
 import { getAudioLinksFromArticle } from "@/utils/blog/general-functions";
 
 export default function ArticleInformation({ article }) {
+  const options = {
+    weekday: 'long',
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+  }
+  function readableDate(article) {
+    try {
+      return new Date(article.date).toLocaleDateString('ar-SY', options)
+    } catch (error) {
+      console.log(error)
+    }
+  }
+
 
   function PersonInfoLink({ author }) {
     return (
@@ -25,7 +39,7 @@ export default function ArticleInformation({ article }) {
         <section className="mb-1 information-card-text w-full text-left">
           <p>
             <span>تاريخ النشر: </span>
-            <span>{new Date(article.date).toLocaleDateString('ar-SY')}</span>
+            <span>{readableDate(article)}</span>
           </p>
         </section>
 

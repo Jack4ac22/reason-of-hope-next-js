@@ -140,56 +140,64 @@ export function getAllArticlesData(reduced = false) {
  * @param {number} [number=5] - The number of related articles to retrieve. Defaults to 5.
  * @returns {Array} - An array of related articles.
  */
-
-export function getRelatedArticles({ article }, number = 5) {
+export function getRelatedArticles(article, number = 5) {
   let relatedArticles = [];
-  // loop throgh the categories and retrieve the articles that has the same categories
-  article.categories ??
-    article.categories.map((category) => {
+
+  // Collect articles by categories
+  if (Array.isArray(article.categories)) {
+    article.categories.forEach((category) => {
       const articlesByCategory = getArticlesByCategory(category);
       relatedArticles.push(...articlesByCategory);
     });
-  // loop throgh the tags and retrieve the articles that has the same tags
-
-  article.tags.map((tag) => {
-    const articlesByTag = getArticlesByTag(tag);
-    relatedArticles.push(...articlesByTag);
-  });
-
-  // remove the duplicate articles
-  const unique_list = [...new Set(relatedArticles)];
-
-  // remove the current article from the list
-  const index = unique_list.findIndex(
-    (relatedArticle) => relatedArticle.slug === article.slug
-  );
-  if (index > -1) {
-    unique_list.splice(index, 1);
   }
 
-  // if there are no related articles, return five random articles else return the related articles
-  if (unique_list.length < 3) {
-    const randomArticles = getAllArticlesData(true);
-    // remove current article from the list
-    const index = randomArticles.findIndex(
-      (relatedArticle) => relatedArticle.slug === article.slug
+  // Collect articles by tags
+  if (Array.isArray(article.tags)) {
+    article.tags.forEach((tag) => {
+      const articlesByTag = getArticlesByTag(tag);
+      relatedArticles.push(...articlesByTag);
+    });
+  }
+
+  // Remove duplicates based on slug
+  const uniqueArticlesMap = {};
+  relatedArticles.forEach((relatedArticle) => {
+    uniqueArticlesMap[relatedArticle.slug] = relatedArticle;
+  });
+  let uniqueArticles = Object.values(uniqueArticlesMap);
+
+  // Remove the current article from the list
+  uniqueArticles = uniqueArticles.filter(
+    (relatedArticle) => relatedArticle.slug !== article.slug
+  );
+
+  // Check if we have enough related articles
+  if (uniqueArticles.length < 3) {
+    let randomArticles = getAllArticlesData(true).filter(
+      (relatedArticle) => relatedArticle.slug !== article.slug
     );
-    if (index > -1) {
-      randomArticles.splice(index, 1);
-    }
-    // shuffle the list
-    randomArticles.sort(() => Math.random() - 0.5);
-    // return the first five articles
+    randomArticles = shuffleArray(randomArticles);
     return randomArticles.slice(0, number);
   } else {
-    const random_order_list = unique_list.sort(() => Math.random() - 0.5);
-
-    const related_articles =
-      random_order_list.length < number
-        ? random_order_list
-        : random_order_list.slice(0, number);
-    return related_articles;
+    const shuffledArticles = shuffleArray(uniqueArticles);
+    return shuffledArticles.slice(0, number);
   }
+}
+
+// Fisher-Yates shuffle algorithm
+function shuffleArray(array) {
+  let currentIndex = array.length,
+    randomIndex;
+  while (currentIndex !== 0) {
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex--;
+    // Swap elements
+    [array[currentIndex], array[randomIndex]] = [
+      array[randomIndex],
+      array[currentIndex],
+    ];
+  }
+  return array;
 }
 
 /**

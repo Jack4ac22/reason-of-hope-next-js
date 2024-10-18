@@ -1,3 +1,5 @@
+import { ThemeProvider } from 'next-themes'
+
 import { Markazi_Text, Roboto } from "next/font/google";
 import "@/assets/styles/globals.css";
 import "@/assets/styles/share-it.css";
@@ -31,7 +33,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="ar" dir="rtl" className={` scroll-smooth ${markazi_text.className} relative`}>
       <body className="uni-background transition-all duration-200">
-        <DarkModeSwitch >
+        {/* <DarkModeSwitch > */}
+        <ThemeProvider attribute="class" defaultTheme='system' enableSystem>
           <div className="uni-background">
             <LayoverGlobalProvider>
               <LayOverSection />
@@ -40,7 +43,9 @@ export default function RootLayout({ children }) {
               <MainFooter />
             </LayoverGlobalProvider>
           </div>
-        </DarkModeSwitch>
+
+        </ThemeProvider>
+        {/* </DarkModeSwitch> */}
       </body>
     </html>
   );

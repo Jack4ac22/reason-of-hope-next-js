@@ -5,6 +5,7 @@ import logoImage from "@/assets/images/blog/ROH.png"
 import Image from 'next/image'
 import { usePathname } from "next/navigation";
 import Link from 'next/link';
+import ThemeSwitch from '@/components/blog-components/ui/dark-mode/dark-light-system';
 
 
 export default function NavBar() {
@@ -103,6 +104,7 @@ export default function NavBar() {
                     <DeskTopNavItem key={index} menueElement={menueElement} />
                   ))
                 }
+                <ThemeSwitch />
               </div>
             </div>
           </div>
@@ -116,6 +118,7 @@ export default function NavBar() {
               <SmNavItem key={index} menueElement={menueElement} />
             ))
           }
+          <ThemeSwitch />
         </div>
       </div>)}
     </nav>

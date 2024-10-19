@@ -1,9 +1,6 @@
 ---
 title: "العطاء بسخاءٍ للرَّب"
-created by: Michel Massoud
-created time: September 4, 2024 6:01 PM
-last edited time: September 11, 2024 12:49 AM
-categories: 
+categories:
   - "تأملات"
 tags:
   - "أعمال"
@@ -18,10 +15,13 @@ sharingImage: "devotions/458184617_2278081765858061_7139835815271543865_n.jpg"
 coverImage: "devotions/Christian_Generosity_Treasure_in_Heaven_2024.webp"
 description: "استثمر في السماء حيث الأمان الأبدي والكنوز التي لا تفنى. تعاليم المسيح في متى ٦: ٢٠ تشجع على العطاء والكرم بدلاً من اكتناز الثروات الأرضية. تعلم كيف تكون كريمًا في عطائك وتخزن كنوزًا في السماء لتنال المكافآت الأبدية."
 date: "2024-09-05"
+authors:
+  - name: "ميشيل مسعود"
+    link: ""
 status: "published"
 ---
 
-# العطاء بسخاءٍ للرَّب
+## العطاء بسخاءٍ للرَّب
 
 > "اكْنِزُوا لَكُمْ كُنُوزًا فِي السَّمَاءِ، حَيْثُ لاَ يُفْسِدُ سُوسٌ وَلاَ صَدَأٌ، وَحَيْثُ لاَ يَنْقُبُ سَارِقُونَ وَلاَ يَسْرِقُونَ،" ([متَّى ٦: ٢٠](https://www.bible.com/bible/67/JHN.1.avd?parallel=13))
 

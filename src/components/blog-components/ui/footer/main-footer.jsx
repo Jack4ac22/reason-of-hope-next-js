@@ -1,4 +1,5 @@
 import { FaXTwitter, FaFacebook, FaYoutube, FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa6";
+import ThemeSwitch from '@/components/blog-components/ui/dark-mode/dark-light-system';
 
 import Link from 'next/link';
 export default function MainFooter() {
@@ -10,15 +11,16 @@ export default function MainFooter() {
   ];
 
   const usefullLinks = [
-    { title: "إيماننا", href: "/our-faith", active: true, smallScreen: true },
-    { title: "اتصل بنا", href: "/contact", active: true, smallScreen: true },
-    { title: "من نحن", href: "/about", active: true, smallScreen: true },
+
     { title: "الأقسام", href: "/categories", active: true, smallScreen: true },
     { title: "الوسوم", href: "/tags", active: true, smallScreen: true },
     { title: "جميع المنشورات", href: "/all", active: true, smallScreen: true },
 
   ];
   const otherResources = [
+    { title: "إيماننا", href: "/our-faith", active: true, smallScreen: true },
+    { title: "اتصل بنا", href: "/contact", active: true, smallScreen: true },
+    { title: "من نحن", href: "/about", active: true, smallScreen: true },
     // {
     //   title: "مواقع مفيدة", href: "/usefull", active: true, smallScreen: true
     // },
@@ -64,6 +66,8 @@ export default function MainFooter() {
                 {socialLinks.map((item, index) => (
                   SocialLink(item.title, item.link, item.icon, item.color)
                 ))}
+                {/* <ThemeSwitch /> */}
+
               </div>
             </div>
 

@@ -52,27 +52,24 @@ export default function MainFooter() {
     )
   }
   return (
-    <footer className="uni-text-color mt-12 select-none">
+    <footer className="uni-text-color mt-12 select-none w-full">
       <hr className=" border-blueGray-300 print:hidden" />
       <section className="flex justify-center items-center h-full">
         <div className="container mx-auto px-4">
-
           <div className="flex flex-wrap mt-4">
             {/* contact/social media section */}
-            <div className="w-full md:w-6/12 px-4 print:hidden">
+            <div className="flex-col justify-center w-full md:w-6/12 px-4 print:hidden">
               <h3 className="text-xl font-semibold">فلنبقى على تواصل!</h3>
               <div className="lg:mb-0 mb-6 flex">
                 {/* social media links */}
                 {socialLinks.map((item, index) => (
                   SocialLink(item.title, item.link, item.icon, item.color)
                 ))}
-                {/* <ThemeSwitch /> */}
-
               </div>
             </div>
 
 
-            <div className="w-full lg:w-6/12 px-4">
+            <div className="w-full lg:w-6/12 px-4 print:hidden">
               <div className="flex flex-wrap items-top mb-6">
 
                 {/* usefull links  */}
@@ -97,11 +94,11 @@ export default function MainFooter() {
               </div>
             </div>
           </div>
-
+          <ThemeSwitch button={true}/>
           <hr className="my-6 border-blueGray-300 print:hidden" />
 
           {/* Copyright section */}
-          <div className="flex flex-wrap items-center md:justify-between justify-center">
+          <div className="mb-3 flex flex-wrap items-center md:justify-between justify-center">
             <div className="w-full md:w-4/12 px-4 mx-auto text-center">
               <div className="text-sm text-blueGray-500 font-semibold py-1">
                 Copyright <Link href="https://www.linkedin.com/in/kazanjyan/">ReasonOfHope</Link> © 2024

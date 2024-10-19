@@ -1,11 +1,12 @@
 'use client'
+import { FaMoon, FaRegSun } from "react-icons/fa6";
 
 import { FiSun, FiMoon } from "react-icons/fi"
 import { useState, useEffect } from 'react'
 import { useTheme } from 'next-themes'
 import Image from "next/image"
 
-export default function ThemeSwitch() {
+export default function ThemeSwitch({ button = false }) {
   const [mounted, setMounted] = useState(false)
   const { setTheme, resolvedTheme } = useTheme()
 
@@ -24,10 +25,13 @@ export default function ThemeSwitch() {
   )
   return (
     resolvedTheme === 'dark' ? (
-      <FiSun onClick={() => setTheme('light')} className="text-white mx-3 my-2 md:m-auto"/>
+      <span className={`${button ? "text-white" : "text-white mx-3 my-2 md:m-auto"} `} onClick={() => setTheme('light')}>
+        <FaRegSun />
+      </span>
     ) : (
-      <FiMoon onClick={() => setTheme('dark')}  className="text-white mx-3 my-2 md:m-auto"/>
+      <span className={`${button ? "text-black" : "text-white mx-3 my-2 md:m-auto"} `} onClick={() => setTheme('dark')}>
+        <FaMoon />
+      </span>
     )
   )
-
 }

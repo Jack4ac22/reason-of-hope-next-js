@@ -20,7 +20,7 @@ export default function Custom404() {
           Go Back Home
         </Link>
         <div className="w-full flex justify-center">
-          <Image src={image} alt='not found image' className='max-w-md rounded-xl' />
+          <Image src={image} alt='not found image' className='max-w-xs md:max-w-md rounded-xl' />
         </div>
       </div>
     </div>

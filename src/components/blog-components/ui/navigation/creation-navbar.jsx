@@ -47,7 +47,7 @@ export default function CreationNavbar() {
   ]
 
   return (
-    <nav className='page-navigation print:hidden'>
+    <nav className='page-navigation print:hidden' aria-label="creation articles navbar">
       {menue.map((item, index) => (
         <PageNavigationItem key={`${index}-${item.title}`} item={item} />
       ))}

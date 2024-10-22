@@ -10,12 +10,16 @@ export default function LinkMappingComponent({ objectElement }) {
       link: objectElement.href,
     });
   }
-  return (
-    // TODO: create a component to fetch the link content and display it on the top of the page, maybe using context.
-    <>
+  console.log(objectElement.href)
+  if (objectElement.href.startsWith("#")) {
+    return (
+      <Link href={objectElement.href} className="text-mainBrand-600 dark:text-mainBrand-200 hover:underline px-2" aria-label={objectElement.children}>{objectElement.children}</Link>
+    )
+  } else {
+    return (
       <Link href={objectElement.href} className="text-mainBrand-600 dark:text-mainBrand-200 hover:underline px-2" onClick={handleLinkClick} aria-label={objectElement.children}>{objectElement.children}</Link>
-    </>
-  )
+    )
+  }
 }
 
 

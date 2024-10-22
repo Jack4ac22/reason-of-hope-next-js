@@ -21,6 +21,9 @@ export default function MainFooter() {
     { title: "إيماننا", href: "/our-faith", active: true, smallScreen: true },
     { title: "اتصل بنا", href: "/contact", active: true, smallScreen: true },
     { title: "من نحن", href: "/about", active: true, smallScreen: true },
+    { title: "إيماننا", href: "/our-faith", active: true, smallScreen: true },
+    { title: "اتصل بنا", href: "/contact", active: true, smallScreen: true },
+    { title: "من نحن", href: "/about", active: true, smallScreen: true },
     // {
     //   title: "مواقع مفيدة", href: "/usefull", active: true, smallScreen: true
     // },
@@ -88,15 +91,13 @@ export default function MainFooter() {
                   (<div className="w-full lg:w-4/12 px-4 mt-4 md:mt-0 print:hidden">
                     <span className="block text-blueGray-500 text-xl font-semibold mb-2 ">روابط إضافية</span>
                     <ul className="list-unstyled">
-                      <ul className="list-unstyled">
-                        {otherResources.map((item) => FooterLinks(item.title, item.href))}
-                      </ul>
+                      {otherResources.map((item) => FooterLinks(item.title, item.href))}
                     </ul>
                   </div>)}
               </div>
             </div>
           </div>
-          <ThemeSwitch button={true}/>
+
           <hr className="my-6 border-blueGray-300 print:hidden" />
 
           {/* Copyright section */}

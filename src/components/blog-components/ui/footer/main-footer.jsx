@@ -21,6 +21,9 @@ export default function MainFooter() {
     { title: "إيماننا", href: "/our-faith", active: true, smallScreen: true },
     { title: "اتصل بنا", href: "/contact", active: true, smallScreen: true },
     { title: "من نحن", href: "/about", active: true, smallScreen: true },
+    { title: "إيماننا", href: "/our-faith", active: true, smallScreen: true },
+    { title: "اتصل بنا", href: "/contact", active: true, smallScreen: true },
+    { title: "من نحن", href: "/about", active: true, smallScreen: true },
     // {
     //   title: "مواقع مفيدة", href: "/usefull", active: true, smallScreen: true
     // },
@@ -65,6 +68,8 @@ export default function MainFooter() {
                 {socialLinks.map((item, index) => (
                   SocialLink(item.title, item.link, item.icon, item.color)
                 ))}
+                {/* <ThemeSwitch /> */}
+
               </div>
             </div>
 
@@ -92,7 +97,7 @@ export default function MainFooter() {
               </div>
             </div>
           </div>
-          <ThemeSwitch button={true} />
+
           <hr className="my-6 border-blueGray-300 print:hidden" />
 
           {/* Copyright section */}

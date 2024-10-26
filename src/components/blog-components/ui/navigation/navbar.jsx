@@ -45,7 +45,7 @@ export default function NavBar() {
         onClick={handleMobileMenuOpen}
       >
         <span className="absolute -inset-0.5"></span>
-        <span className="sr-only">Open main menu</span>  <FaBars className="h-6 w-6 " aria-hidden="true" />
+        <span className="sr-only">Open main menu</span>  <FaBars className="h-6 w-6 focus-none" aria-hidden="true" />
       </button>
     );
   }

@@ -18,7 +18,7 @@ export default function LinkLayover({ layoverObject }) {
         url={layoverObject.link}
         width={`${loading ? ' 0px ' : '100%'}`}
         height={`${loading ? ' 0px ' : '100%'}`}
-        className={` ${loading ? ' hidden ' : ' block h-fill'} duration-100  rounded-b-xl`}
+        className={` ${loading ? ' hidden focus-none ' : ' block h-fill'} duration-100  rounded-b-xl`}
         loading='eager'
         scrolling='yes'
         name='layover frame'
@@ -26,6 +26,7 @@ export default function LinkLayover({ layoverObject }) {
         title='Layover frame to diplay ecternal links and images'
         aria-hidden={loading ? 'true' : 'false'}
         aria-live="polite"
+        
       />
       {/* loading animation */}
       <div className={`${loading ? ' block ' : ' hidden '} flex space-x-5 justify-center items-center  duration-300 h-full`} role="alert" aria-busy="true">

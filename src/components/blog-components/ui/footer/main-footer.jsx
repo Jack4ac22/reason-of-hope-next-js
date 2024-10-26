@@ -21,9 +21,6 @@ export default function MainFooter() {
     { title: "إيماننا", href: "/our-faith", active: true, smallScreen: true },
     { title: "اتصل بنا", href: "/contact", active: true, smallScreen: true },
     { title: "من نحن", href: "/about", active: true, smallScreen: true },
-    { title: "إيماننا", href: "/our-faith", active: true, smallScreen: true },
-    { title: "اتصل بنا", href: "/contact", active: true, smallScreen: true },
-    { title: "من نحن", href: "/about", active: true, smallScreen: true },
     // {
     //   title: "مواقع مفيدة", href: "/usefull", active: true, smallScreen: true
     // },

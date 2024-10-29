@@ -10,6 +10,8 @@ import { LayoverGlobalProvider } from "@/context/layover/LayoverGlobalContext";
 import DarkModeSwitch from "@/components/blog-components/ui/dark-mode/dark-mode-switch";
 import homepageMetadata from "@/assets/blog/metadata/homepage";
 import MainFooter from "@/components/blog-components/ui/footer/main-footer";
+import { Analytics } from '@vercel/analytics/react';
+
 
 const markazi_text = Markazi_Text(
   {
@@ -46,6 +48,7 @@ export default function RootLayout({ children }) {
 
         </ThemeProvider>
         {/* </DarkModeSwitch> */}
+        <Analytics />
       </body>
     </html>
   );

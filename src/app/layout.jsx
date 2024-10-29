@@ -1,5 +1,4 @@
 import { ThemeProvider } from 'next-themes'
-
 import { Markazi_Text, Roboto } from "next/font/google";
 import "@/assets/styles/globals.css";
 import "@/assets/styles/share-it.css";
@@ -11,6 +10,8 @@ import DarkModeSwitch from "@/components/blog-components/ui/dark-mode/dark-mode-
 import homepageMetadata from "@/assets/blog/metadata/homepage";
 import MainFooter from "@/components/blog-components/ui/footer/main-footer";
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/next';
+
 
 
 const markazi_text = Markazi_Text(
@@ -45,10 +46,10 @@ export default function RootLayout({ children }) {
               <MainFooter />
             </LayoverGlobalProvider>
           </div>
-
         </ThemeProvider>
         {/* </DarkModeSwitch> */}
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );

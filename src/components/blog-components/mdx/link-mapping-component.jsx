@@ -10,7 +10,7 @@ export default function LinkMappingComponent({ objectElement }) {
       link: objectElement.href,
     });
   }
-  console.log(objectElement.href)
+  // console.log(objectElement.href)
   if (objectElement.href.startsWith("#")) {
     return (
       <Link href={objectElement.href} className="text-mainBrand-600 dark:text-mainBrand-200 hover:underline px-2" aria-label={objectElement.children}>{objectElement.children}</Link>

@@ -70,7 +70,7 @@ export function updateSitemap() {
           article.slug
         }</loc><lastmod>${new Date(
           article.date
-        ).toISOString()}</lastmod><changefreq>never</changefreq><priority>${
+        ).toISOString()}</lastmod><changefreq>monthly</changefreq><priority>${
           article?.priority || "0.7"
         }</priority></url>`
     )

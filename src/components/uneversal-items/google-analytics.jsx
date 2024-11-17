@@ -1,5 +1,31 @@
+"use client"
 import Script from 'next/script'
-// import TrackPageViews from '@/components/uneversal-items/track-page-views'
+import { usePathname, useSearchParams } from 'next/navigation';
+import { Suspense, useEffect } from 'react';
+
+function NavigationEventsImplementation() {
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
+
+  useEffect(() => {
+    if (process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID) {
+      // Call gtag if it exists
+      if (window.gtag) {
+        window.gtag('event', 'page_view');
+      }
+    }
+  }, [pathname, searchParams]);
+
+  return null;
+}
+function TrackPageViews() {
+  return (
+    <Suspense fallback={null}>
+      <NavigationEventsImplementation />
+    </Suspense>
+  );
+}
+
 
 export default function GoogleAnalytics() {
   const gaMeasurementID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID
@@ -23,8 +49,8 @@ export default function GoogleAnalytics() {
           gtag('config', '${gaMeasurementID}', { send_page_view: false });
         `}
       </Script>
-      
-      {/* <TrackPageViews /> */}
+
+      <TrackPageViews />
     </>
   )
 }

@@ -23,6 +23,7 @@ export default function GoogleAnalytics() {
           gtag('config', '${gaMeasurementID}', { send_page_view: false });
         `}
       </Script>
+      
       {/* <TrackPageViews /> */}
     </>
   )

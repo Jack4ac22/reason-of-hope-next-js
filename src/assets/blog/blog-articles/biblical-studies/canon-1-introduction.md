@@ -63,12 +63,28 @@ status: "published"
 
 ---
 
-## الهوامش
+### مراجع
 
-1. <span id="fn1">White, James R. *Scripture Alone*, p. 45.</span> [عودة](#ftr1)
-2. <span id="fn2">*علم اللاهوت وسلطانه*, p. 25.</span> [عودة](#ftr2)
-3. <span id="fn3">مدني، بسام. *وحي الكتاب المقدس*, p. 37.</span> [عودة](#ftr3)
-4. <span id="fn4">White, James R. *Scripture Alone*, p. 62.</span> [عودة](#ftr4)
-5. <span id="fn5">Bavinck, Herman. *بين العقل والإيمان*, p. 84.</span> [عودة](#ftr5)
-6. <span id="fn6">مدني، بسام. *وحي الكتاب المقدس*, p. 27.</span> [عودة](#ftr6)
-7. <span id="fn7">White, James R. *Scripture Alone*, p. 87.</span> [عودة](#ftr7)
+<div dir='ltr'>
+
+- T. Desmond Alexander and Brian S. Rosner, Eds., New Dictionary of Biblical Theology, electronic ed. (Downers Grove, IL: InterVarsity Press, 2000).
+- Walter A. Elwell and Philip Wesley Comfort, Tyndale Bible dictionary, 2001.
+- David Noel Freedman, Gary A. Herion, David F. Graf, John David Pleins, and Astrid B. Beck, Eds., The Anchor Yale Bible Dictionary, 1992.
+- Charles F. Pfeiffer, Howard Frederic Vos, and John Rea, The Wycliffe Bible Encyclopedia, 1975.
+- Philip Schaff and Henry Wace, Eds., St. Athanasius: Select Works and Letters, A Select Library of the Nicene and Post-Nicene Fathers of the Christian Church, Second Series. (New York: Christian Literature Company, 1892), 4.
+- Philip Schaff and Henry Wace, Eds., The Seven Ecumenical Councils, A Select Library of the Nicene and Post-Nicene Fathers of the Christian Church, Second Series. (New York: Charles Scribner’s Sons, 1900), 14.
+- Donald K. McKim and David F. Wright, Encyclopedia of the Reformed faith, 1992.
+- New Arabic Version (Ketab El Hayat). (Biblica, 2012).
+- James Orr, John L. Nuelsen, Edgar Y. Mullins, and Morris O. Evans, Eds., The International Standard Bible Encyclopaedia, 1915, 1–5.
+- Isidore Singer, Ed., The Jewish Encyclopedia: A Descriptive Record of the History, Religion, Literature, and Customs of the Jewish People from the Earliest Times to the Present Day, 12 Volumes, 1901–1906.
+- John D. Barry, David Bomar, Derek R. Brown, Rachel Klippenstein, Douglas Mangum, Carrie Sinclair Wolcott, Lazarus Wentz, Elliot Ritzema, and Wendy Widder, Eds., The Lexham Bible Dictionary, 2016.
+- Legacy Standard Bible. (Three Sixteen Publishing, 2022).
+- Samuel Macauley Jackson, Ed., The new Schaff-Herzog encyclopedia of religious knowledge, 1908–1914.
+- F. L. Cross and Elizabeth A. Livingstone, Eds., The Oxford dictionary of the Christian Church, 2005.
+
+</div>
+
+- ج. و. كروكن، علم اللاهوت: الكتاب المقدس وسلطانه.. الجزء الثالث، الجزء الخامس. (الخدمة العربية للكرازة بالإنجيل، مركز المطبوعات المسيحية، 2008–2018).
+- د. هيرمان بافينك، *بين العقل والإيمان: كيف نفهم إعلان الله؟* الجزء الأول. ترجمة د. عبد المسيح أسطفانوس. (الخدمة العربية للكرازة بالإنجيل، مركز المطبوعات المسيحية، 2008–2018).
+- بماذا يُفكر الإنجيليون في أساسيات الإيمان المسيحي، واين جرودم. مطبوعات إيجلز، ٢٠٠٢.
+- القس بسام مدني، وحي الكتاب المقدس. (الخدمة العربية للكرازة بالإنجيل، مطبوعات ساعة الإصلاح، مركز المطبوعات المسيحية، ١٩٨٠).

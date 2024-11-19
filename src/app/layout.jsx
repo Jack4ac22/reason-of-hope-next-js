@@ -11,7 +11,7 @@ import homepageMetadata from "@/assets/blog/metadata/homepage";
 import MainFooter from "@/components/blog-components/ui/footer/main-footer";
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/next';
-
+import GoogleAnalytics from '@/components/uneversal-items/google-analytics';
 
 
 const markazi_text = Markazi_Text(
@@ -36,6 +36,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="ar" dir="rtl" className={` scroll-smooth ${markazi_text.className} relative`}>
       <body className="uni-background transition-all duration-200">
+        <GoogleAnalytics />
         {/* <DarkModeSwitch > */}
         <ThemeProvider attribute="class" defaultTheme='system' enableSystem>
           <div className="uni-background">

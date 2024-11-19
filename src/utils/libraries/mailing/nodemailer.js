@@ -13,6 +13,9 @@ export const transporter = nodemailer.createTransport({
     user: email,
     pass,
   },
+  tls: {
+    rejectUnauthorized: false, // Allows self-signed certificates
+  },
 });
 
 // Function to get mail options

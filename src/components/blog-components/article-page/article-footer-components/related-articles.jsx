@@ -2,7 +2,7 @@ import { Suspense } from "react";
 import CardsListSkeleton from "@/components/blog-components/skeltons/card-list-skelton";
 import CardSlider from "@/components/blog-components/ui/sliders/cards-slider";
 import { getRelatedArticles } from "@/utils/blog/articles-functions";
-export default function RelatedArticles(article) {
+export default function RelatedArticles({article}) {
   const relatedArticlesData = getRelatedArticles(article, 5);
   return (
     <div className="flex justify-center print:hidden">

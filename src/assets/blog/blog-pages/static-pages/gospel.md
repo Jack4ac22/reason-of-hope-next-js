@@ -9,7 +9,7 @@ tags:
   - "الإنجيل"
   - "الخلاص"
   - "المسيح"
-coverImage: "holy-bible-5274594_640.jpg"
+coverImage: "gospel-cover.webp"
 spotify: ""
 youtube: "98IhK5V53ks"
 ---

@@ -3,11 +3,10 @@ import fs from "fs";
 import path from "path";
 import host from "@/assets/blog/metadata/metadata-variables";
 
-export function updateSitemap() {
+export function updateSitemap(filename = "sitemap-1.xml") {
   try {
     const allArticles = getAllArticlesData(true);
     const folderPath = "public";
-    const filename = "sitemap-1.xml";
     const filePath = path.join(folderPath, filename);
     const foldered_pages = [
       { path: "devotions", priority: "0.8", changefreq: "weekly" },

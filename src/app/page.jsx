@@ -5,6 +5,10 @@ import SubjectsSection from "@/components/blog-components/homepage/subjects-sect
 import PublicationsSection from "@/components/blog-components/homepage/publications-section";
 import CreationSection from "@/components/blog-components/homepage/creation-section";
 import ObjectionsSection from "@/components/blog-components/homepage/objections-section";
+
+// ToCheck the revalidation in nextjs 13
+export const revalidate = 60
+
 export default function Home() {
   return (
     <>

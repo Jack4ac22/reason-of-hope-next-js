@@ -17,7 +17,7 @@ spotify: ""
 authors:
   - name: "جاك قازنجيان"
     link: ""
-status: "draft"
+status: "published"
 ---
 ## **مقدمة**
 

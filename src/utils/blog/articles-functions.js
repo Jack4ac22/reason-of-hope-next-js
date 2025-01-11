@@ -271,7 +271,8 @@ export function getArticlesByCategory(category) {
       }
     });
   });
-
+  // oder by date
+  articlesByCategory.sort((a, b) => new Date(b.date) - new Date(a.date));
   return articlesByCategory;
 }
 
@@ -358,5 +359,8 @@ export function getArticlesByTag(tag) {
       }
     });
   });
+
+  // order by date
+  articlesByTag.sort((a, b) => new Date(b.date) - new Date(a.date));
   return articlesByTag;
 }

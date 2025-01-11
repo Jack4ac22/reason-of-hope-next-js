@@ -11,7 +11,7 @@ export default function ContactPage() {
           <h1 id="article-heading" className="sr-only">Contact Us Page</h1>
           <header className="flex flex-col items-center justify-center uni-text-color">
             <h1 className="text-3xl font-bold">اتصل بنا</h1>
-            <p className="text-lg">لا تترد  بالإتصال بنا وطرح تساؤلات أو تقديم طلباتك.</p>
+            <h2 className="text-lg">لا تترد  بالإتصال بنا وطرح تساؤلات أو تقديم طلباتك.</h2>
           </header>
           <div className="flex flex-col items-center justify-center w-full">
             <ContactUsForm action={contactUs} />

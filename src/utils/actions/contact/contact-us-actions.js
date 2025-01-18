@@ -5,6 +5,20 @@ import { sendContactMail } from "@/utils/libraries/contact-us-library/contact-li
 const blockedDomains = (process.env.BLOCKED_DOMAINS || "getmoreopportunities.info,growthmarketingnow.info,increasetraffic.shop").split(",");
 const blockedWords = (process.env.BLOCKED_WORDS || "growth,marketing,formula,opportunity,profit,eco,crowdfunding").split(",");
 
+// Helper function to serialize links and check for spam words
+function checkLinksForSpam(message, blockedWords) {
+  const urlRegex = /https?:\/\/[^\s]+/gi;
+  const links = message.match(urlRegex) || [];
+  const spamWordsRegex = new RegExp(blockedWords.join("|"), "i");
+
+  for (const link of links) {
+    const decodedLink = decodeURIComponent(link); // Decode any encoded URL components
+    if (spamWordsRegex.test(decodedLink)) {
+      return true; // Found spam word in the link
+    }
+  }
+  return false; // No spam words in links
+}
 
 export async function contactUs(prevState, formData) {
   const name = formData.get("name");
@@ -71,7 +85,7 @@ export async function contactUs(prevState, formData) {
     }
   }
 
-  // General spam detection
+  // General spam detection and link validation
   const shortenedURLRegex = /(bit\.ly|t\.co|tinyurl\.com|goo\.gl)/i;
   const urgencyRegex = /\b(time is running out|act fast|don’t miss your chance)\b/i;
 
@@ -96,11 +110,12 @@ export async function contactUs(prevState, formData) {
   } else if (
     englishSpamPhrases.some((phrase) => message.includes(phrase)) ||
     shortenedURLRegex.test(message) ||
-    urgencyRegex.test(message)
+    urgencyRegex.test(message) ||
+    checkLinksForSpam(message, blockedWords)
   ) {
     errors.push({
       name: "message",
-      message: "Message contains spam-like content - الرسالة تحتوي على محتوى مشابه للبريد العشوائي",
+      message: "Message contains spam-like content or links - الرسالة تحتوي على محتوى مشابه للبريد العشوائي أو روابط غير مقبولة",
     });
   }
 

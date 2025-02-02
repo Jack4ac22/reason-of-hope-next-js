@@ -53,4 +53,21 @@ status: "published"
 ---
 
 ## مراجع:
+<div dir="ltr">
 
+- Royce Gordon Gruenler, Evangelical Commentary on the Bible, 1995, 3, 786.
+- Matthew Henry, Matthew Henry’s Commentary on the Whole Bible: Complete and Unabridged in One Volume. (Peabody: Hendrickson, 1994), 1799–1800.
+- Warren W. Wiersbe, The Bible Exposition Commentary. (Wheaton, IL: Victor Books, 1996), 1:145.
+- James A. Brooks, Mark, The New American Commentary. (Nashville: Broadman & Holman Publishers, 1991), 23:160.
+- Bruce B. Barton, Mark, Life Application Bible Commentary. (Wheaton, IL: Tyndale House Publishers, 1994), 286–287.
+- Craig A. Evans, The Bible Knowledge Background Commentary: Matthew–Luke, eds. Craig A. Evans and Craig A. Bubeck, First Edition. (Colorado Springs, CO: David C Cook, 2003), 351–353.
+- Morna D. Hooker, The Gospel according to Saint Mark, Black’s New Testament Commentary. (London: Continuum, 1991), 239.
+- Walter W. Wessel, The Expositor’s Bible Commentary: Matthew, Mark, Luke, 1984, 8, 713–714.
+- Ronald J. Kernaghan, Mark, The IVP New Testament Commentary Series. (Downers Grove, IL: InterVarsity Press, 2007), 193–195.
+- William Barclay, The New Daily Study Bible: The Gospel of Mark, The New Daily Study Bible. (Edinburgh: Saint Andrew Press, 2001), 280–282.
+- Kim Huat Tan, Mark: A New Covenant Commentary, eds. Michael F. Bird and Craig Keener, New Covenant Commentary Series. (Eugene, OR: Cascade Books, 2015), 135–136.
+- Sharyn Echols Dowd, Reading Mark: A Literary and Theological Commentary on the Second Gospel, Reading the New Testament Series. (Macon, GA: Smyth & Helwys Publishing, 2000), 96–98.
+- Ben Witherington III, The Gospel of Mark: A Socio-Rhetorical Commentary. (Grand Rapids, MI: Wm. B. Eerdmans Publishing Co., 2001), 278–282.
+- Eckhard J. Schnabel, Mark: An Introduction and Commentary, ed. Eckhard J. Schnabel, Tyndale New Testament Commentaries. (London: Inter-Varsity Press, 2017), 2:237–238.
+
+</div>

@@ -51,22 +51,20 @@ function getBookDiv(bibleData, book) {
   if (!osisText || osisText.length === 0) return null;
   const divs = osisText[0].div;
   if (!divs) return null;
-  const div = divs.find(div => div?.osisID && div.osisID._value === book) || null;
-  return div;
+  return divs.find(div => div?.osisID && div.osisID._value === book) || null;
 }
 
 /**
  * Retrieves a single verse text from the Bible data.
  *
- * @param {Object} params - Parameters for verse retrieval.
- * @param {string} [params.version="AVD"] - The Bible version to use.
- * @param {string} params.book - The book identifier (e.g., "Gen").
- * @param {number} params.chapter - The chapter number.
- * @param {number} params.verse - The verse number.
+ * @param {string} version - The Bible version to use.
+ * @param {string} book - The book identifier (e.g., "Gen").
+ * @param {number} chapter - The chapter number.
+ * @param {number} verse - The verse number.
  * @returns {string|null} The verse text, or null if not found.
  * @throws Will throw an error if the specified version is not available.
  */
-function getVerse( version = 'AVD', book, chapter, verse ) {
+function getVerse(version = 'AVD', book, chapter, verse) {
   const availableVersions = getAvailableVersions();
   if (!availableVersions.includes(version)) {
     throw new Error(
@@ -85,16 +83,12 @@ function getVerse( version = 'AVD', book, chapter, verse ) {
 /**
  * Retrieves all verses from a specified chapter.
  *
- * @param {Object} params - Parameters for chapter retrieval.
- * @param {string} [params.version="AVD"] - The Bible version to use.
- * @param {string} params.book - The book identifier (e.g., "Gen").
- * @param {number} params.chapter - The chapter number.
+ * @param {string} version - The Bible version to use.
+ * @param {string} book - The book identifier (e.g., "Gen").
+ * @param {number} chapter - The chapter number.
  * @returns {Object[]|null} Array of verse objects from the chapter, or null if not found.
- * Each verse object typically contains properties like vnumber and _text.
- * @throws Will throw an error if the specified version is not available.
  */
-function getChapter( version = 'AVD', book, chapter ) {
-
+function getChapter(version = 'AVD', book, chapter) {
   const availableVersions = getAvailableVersions();
   if (!availableVersions.includes(version)) {
     throw new Error(
@@ -104,7 +98,7 @@ function getChapter( version = 'AVD', book, chapter ) {
   const bibleData = loadBibleData(version);
   const bookDiv = getBookDiv(bibleData, book);
   if (!bookDiv) return null;
-  const chapterData = bookDiv.chapter.find(ch => ch.cnumber == chapter);
+  const chapterData = bookDiv.chapter.find(ch => ch.cnumber === chapter);
   if (!chapterData) return null;
   return chapterData.verse;
 }
@@ -112,19 +106,17 @@ function getChapter( version = 'AVD', book, chapter ) {
 /**
  * Retrieves multiple verses from a single chapter.
  *
- * @param {Object} params - Parameters for retrieving verses.
- * @param {string} [params.version="AVD"] - The Bible version to use.
- * @param {string} params.book - The book identifier (e.g., "Gen").
- * @param {number} params.chapter - The chapter number.
- * @param {number[]} [params.verses=[]] - An array of verse numbers to retrieve.
- * If empty, returns all verses in the chapter.
+ * @param {string} version - The Bible version to use.
+ * @param {string} book - The book identifier (e.g., "Gen").
+ * @param {number} chapter - The chapter number.
+ * @param {number[]} verses - An array of verse numbers to retrieve.
+ *                           If empty, returns all verses in the chapter.
  * @returns {Object[]|null} Array of verse objects or null if chapter not found.
- * @throws Will throw an error if the specified version is not available.
  */
-function getVersesFromChapter( version = 'AVD', book, chapter, verses = [] ) {
-  const chapterData = getChapter({ version, book, chapter });
+function getVersesFromChapter(version = 'AVD', book, chapter, verses = []) {
+  const chapterData = getChapter(version, book, chapter);
   if (!chapterData) return null;
-  if (!Array.isArray(verses) || verses.length == 0) {
+  if (!Array.isArray(verses) || verses.length === 0) {
     return chapterData;
   }
   return chapterData.filter(v => verses.includes(v.vnumber));
@@ -133,19 +125,18 @@ function getVersesFromChapter( version = 'AVD', book, chapter, verses = [] ) {
 /**
  * Retrieves verses from multiple chapters.
  *
- * @param {Object} params - Parameters for retrieving verses.
- * @param {string} [params.version="AVD"] - The Bible version to use.
- * @param {string} params.book - The book identifier (e.g., "Gen").
- * @param {Object} params.versesByChapter - An object where keys are chapter numbers (as strings)
- * and values are arrays of verse numbers to retrieve. If an array is empty, the entire chapter is returned.
+ * @param {string} version - The Bible version to use.
+ * @param {string} book - The book identifier (e.g., "Gen").
+ * @param {Object} versesByChapter - An object where keys are chapter numbers (as strings)
+ *                                   and values are arrays of verse numbers to retrieve.
+ *                                   If an array is empty, the entire chapter is returned.
  * @returns {Object} An object mapping chapter numbers to arrays of verse objects.
- * @throws Will throw an error if the specified version is not available.
  */
-function getVersesFromMultipleChapters( version = 'AVD', book, versesByChapter = {} ) {
+function getVersesFromMultipleChapters(version = 'AVD', book, versesByChapter = {}) {
   const result = {};
   for (const [chapterKey, verses] of Object.entries(versesByChapter)) {
     const chapterNumber = parseInt(chapterKey, 10);
-    const chapterData = getChapter({ version, book, chapter: chapterNumber });
+    const chapterData = getChapter(version, book, chapterNumber);
     if (!chapterData) continue;
     result[chapterNumber] = (!Array.isArray(verses) || verses.length === 0)
       ? chapterData
@@ -157,12 +148,10 @@ function getVersesFromMultipleChapters( version = 'AVD', book, versesByChapter =
 /**
  * Lists the available books in the Bible data for the specified version.
  *
- * @param {Object} params - Parameters for listing books.
- * @param {string} [params.version="AVD"] - The Bible version to use.
+ * @param {string} version - The Bible version to use.
  * @returns {string[]} Array of book identifiers (e.g., ["Gen", "Exod", ...]).
- * @throws Will throw an error if the specified version is not available.
  */
-function listBooks(version = 'AVD' ) {
+function listBooks(version = 'AVD') {
   const availableVersions = getAvailableVersions();
   if (!availableVersions.includes(version)) {
     throw new Error(
@@ -182,12 +171,10 @@ function listBooks(version = 'AVD' ) {
 /**
  * Retrieves header metadata from the Bible file, if available.
  *
- * @param {Object} params - Parameters for retrieving header.
- * @param {string} [params.version="AVD"] - The Bible version to use.
+ * @param {string} version - The Bible version to use.
  * @returns {Object|null} Header metadata object or null if not available.
- * @throws Will throw an error if the specified version is not available.
  */
-function getHeader(version = 'AVD' ) {
+function getHeader(version = 'AVD') {
   const availableVersions = getAvailableVersions();
   if (!availableVersions.includes(version)) {
     throw new Error(
@@ -205,13 +192,11 @@ function getHeader(version = 'AVD' ) {
 /**
  * Lists the chapter numbers available in a specified book.
  *
- * @param {Object} params - Parameters for listing chapters.
- * @param {string} [params.version="AVD"] - The Bible version to use.
- * @param {string} params.book - The book identifier (e.g., "Gen").
+ * @param {string} version - The Bible version to use.
+ * @param {string} book - The book identifier (e.g., "Gen").
  * @returns {number[]} Array of chapter numbers available in the book.
- * @throws Will throw an error if the specified version is not available.
  */
-function listChapters(version = 'AVD', book ) {
+function listChapters(version = 'AVD', book) {
   const availableVersions = getAvailableVersions();
   if (!availableVersions.includes(version)) {
     throw new Error(
@@ -224,13 +209,112 @@ function listChapters(version = 'AVD', book ) {
   return bookDiv.chapter.map(ch => ch.cnumber);
 }
 
+/**
+ * Retrieves verses based on a parsed Bible reference range.
+ * The parsed object should be generated by the parseBibleReferenceRange function.
+ *
+ * Supported parsed types:
+ *   - "single": a single verse reference.
+ *   - "verse-range": verses within one chapter.
+ *   - "verse-range-across-chapters": verses spanning multiple chapters.
+ *   - "chapter-range": all verses in a range of chapters.
+ *   - "chapter": a single chapter reference.
+ *   - "book": a book-only reference (all verses from all chapters).
+ *
+ * @param {Object} parsed - The parsed Bible reference object.
+ * @param {string} [version="AVD"] - The Bible version to use.
+ * @returns {Object[]} An array of verse objects. Each object typically contains:
+ *                       - chapter: {number} Chapter number.
+ *                       - vnumber: {number} Verse number.
+ *                       - _text: {string} Verse text.
+ * @throws {Error} If an unknown parsed type is encountered.
+ */
+function getVersesFromParsedReference(parsed, version = "AVD") {
+  let verses = [];
+  switch (parsed.type) {
+    case "single": {
+      const text = getVerse(version, parsed.book, parsed.chapter, parsed.verse);
+      if (text) {
+        verses.push({ chapter: parsed.chapter, vnumber: parsed.verse, _text: text });
+      }
+      break;
+    }
+    case "verse-range": {
+      const chapterData = getChapter(version, parsed.book, parsed.chapter);
+      if (chapterData) {
+        verses = chapterData.filter(v => v.vnumber >= parsed.startVerse && v.vnumber <= parsed.endVerse)
+          .map(v => ({ chapter: parsed.chapter, ...v }));
+      }
+      break;
+    }
+    case "verse-range-across-chapters": {
+      for (let chap = parsed.startChapter; chap <= parsed.endChapter; chap++) {
+        const chapterData = getChapter(version, parsed.book, chap);
+        if (!chapterData) continue;
+        if (chap === parsed.startChapter && chap === parsed.endChapter) {
+          verses = verses.concat(
+            chapterData.filter(v => v.vnumber >= parsed.startVerse && v.vnumber <= parsed.endVerse)
+              .map(v => ({ chapter: chap, ...v }))
+          );
+        } else if (chap === parsed.startChapter) {
+          verses = verses.concat(
+            chapterData.filter(v => v.vnumber >= parsed.startVerse)
+              .map(v => ({ chapter: chap, ...v }))
+          );
+        } else if (chap === parsed.endChapter) {
+          verses = verses.concat(
+            chapterData.filter(v => v.vnumber <= parsed.endVerse)
+              .map(v => ({ chapter: chap, ...v }))
+          );
+        } else {
+          verses = verses.concat(
+            chapterData.map(v => ({ chapter: chap, ...v }))
+          );
+        }
+      }
+      break;
+    }
+    case "chapter-range": {
+      for (let chap = parsed.startChapter; chap <= parsed.endChapter; chap++) {
+        const chapterData = getChapter(version, parsed.book, chap);
+        if (chapterData) {
+          verses = verses.concat(chapterData.map(v => ({ chapter: chap, ...v })));
+        }
+      }
+      break;
+    }
+    case "chapter": {
+      verses = getChapter(version, parsed.book, parsed.chapter) || [];
+      verses = verses.map(v => ({ chapter: parsed.chapter, ...v }));
+      break;
+    }
+    case "book": {
+      // For a book-only reference, retrieve all chapters in the book.
+      const chapters = listChapters(version, parsed.book);
+      for (const chap of chapters) {
+        const chapterData = getChapter(version, parsed.book, chap);
+        if (chapterData) {
+          verses = verses.concat(chapterData.map(v => ({ chapter: chap, ...v })));
+        }
+      }
+      break;
+    }
+    default:
+      throw new Error(`Unknown parsed reference type: "${parsed.type}"`);
+  }
+  return verses;
+}
+
 export {
   getAvailableVersions,
+  loadBibleData,
+  getBookDiv,
   getVerse,
   getChapter,
   getVersesFromChapter,
   getVersesFromMultipleChapters,
   listBooks,
   listChapters,
-  getHeader
+  getHeader,
+  getVersesFromParsedReference
 };

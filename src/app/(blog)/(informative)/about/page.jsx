@@ -34,7 +34,7 @@ export default function AboutPage() {
           <h3 className="my-2 text-xl font-bold uni-text-color">الفريق:</h3>
           <ul>
             <li>
-              جاك قازنجيان: مُحرِّر، مُترجم ومُبرمج.
+              جاك قازنجيان - Jack Kazanjyan: مُحرِّر، مُترجم ومُبرمج.
             </li>
             <li>
               ميشيل مسعود: مُحرِّر ومُترجم ومُقَدِّم مُحتوى.

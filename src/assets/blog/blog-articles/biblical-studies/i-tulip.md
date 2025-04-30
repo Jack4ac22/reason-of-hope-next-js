@@ -19,7 +19,7 @@ description: "تعرف على  كيف يعمل الروح القدس  ليُغي
 youtube: ""
 spotify: ""
 authors:
-  - name: "جاك قازنجيان"
+  - name: "جاك قازنجيان - Jack Kazanjyan"
     link: ""
 status: "published"
 ---

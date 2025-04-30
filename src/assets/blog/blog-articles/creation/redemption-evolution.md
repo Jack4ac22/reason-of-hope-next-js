@@ -15,7 +15,7 @@ youtube: ""
 status: "published"
 creationLink: "https://creation.com/a/13327"
 authors:
-  - name: "Lit Cosner"
+  - name: "Lita Cosner"
     link: "https://creation.com/lita-cosner"
 description: "إن الفداء الذي تمَّ من خلال الموت الكَفَّاري للمسيح على الصليب هو سبب رجاءنا ومحور إيماننا المسيحي، لكن هل هو أمر ممكن أن يتم التوفيق بين الفداء والتطور؟"
 ---

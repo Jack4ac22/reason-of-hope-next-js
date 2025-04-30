@@ -13,7 +13,7 @@ description: "الفروق الأساسية بين المذهبين الأرمي
 youtube: ""
 spotify: ""
 authors:
-  - name: "جاك قازنجيان"
+  - name: "جاك قازنجيان - Jack Kazanjyan"
     link: ""
 status: "published"
 ---

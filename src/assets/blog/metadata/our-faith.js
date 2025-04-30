@@ -18,7 +18,7 @@ export default function ourFaithMetadata() {
       type: "article",
       article: {
         publishedTime: page.date,
-        authors: ["Jack Kazanjyan"],
+        authors: ["جاك قازنجيان - Jack Kazanjyan"],
         section: "Statement Of Faith",
         tags: page.tags,
       },

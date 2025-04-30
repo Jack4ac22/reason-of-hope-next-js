@@ -18,7 +18,7 @@ export default function gospelMetadata() {
       type: "article",
       article: {
         publishedTime: page.date,
-        authors: ["Jack Kazanjyan", "Justin Peters"],
+        authors: ["جاك قازنجيان - Jack Kazanjyan", "Justin Peters"],
         section: "Gospel",
         tags: page.tags,
       },

@@ -12,7 +12,7 @@ description: "دراسة مختصرة عن تاريخ نشأة النظام ال
 youtube: ""
 spotify: ""
 authors:
-  - name: "جاك قازنجيان"
+  - name: "جاك قازنجيان - Jack Kazanjyan"
     link: ""
 status: "published"
 ---

@@ -14,7 +14,7 @@ description: "تعلم كيفية استخدام الممتلكات بلا أن�
 date: "2024-09-06"
 status: "published"
 authors:
-  - name: "ميشيل مسعود"
+  - name: "ميشيل مسعود - Michel Massoud"
     link: ""
 ---
 

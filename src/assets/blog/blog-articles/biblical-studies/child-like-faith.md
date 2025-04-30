@@ -11,7 +11,7 @@ description: "ما بين الإيمان الطفولي والإيمان كال�
 youtube: ""
 spotify: ""
 authors:
-  - name: "جاك قازنجيان"
+  - name: "جاك قازنجيان - Jack Kazanjyan"
     link: ""
 status: "published"
 ---

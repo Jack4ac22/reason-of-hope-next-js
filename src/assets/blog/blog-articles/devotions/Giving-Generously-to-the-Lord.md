@@ -16,7 +16,7 @@ coverImage: "devotions/Christian_Generosity_Treasure_in_Heaven_2024.webp"
 description: "استثمر في السماء حيث الأمان الأبدي والكنوز التي لا تفنى. تعاليم المسيح في متى ٦: ٢٠ تشجع على العطاء والكرم بدلاً من اكتناز الثروات الأرضية. تعلم كيف تكون كريمًا في عطائك وتخزن كنوزًا في السماء لتنال المكافآت الأبدية."
 date: "2024-09-05"
 authors:
-  - name: "ميشيل مسعود"
+  - name: "ميشيل مسعود - Michel Massoud"
     link: ""
 status: "published"
 ---

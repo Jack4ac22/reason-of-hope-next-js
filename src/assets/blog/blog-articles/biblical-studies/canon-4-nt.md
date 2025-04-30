@@ -14,7 +14,7 @@ description: "يناقش هذا المقال كيفية الاعتراف بقا�
 youtube: ""
 spotify: ""
 authors:
-  - name: "جاك قازنجيان"
+  - name: "جاك قازنجيان - Jack Kazanjyan"
     link: ""
 status: "published"
 ---

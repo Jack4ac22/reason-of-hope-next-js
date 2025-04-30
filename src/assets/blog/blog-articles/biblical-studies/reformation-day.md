@@ -18,7 +18,7 @@ description: "في ذكرى يوم الإصلاح، نستعرض تاريخ حر
 youtube: ""
 spotify: ""
 authors:
-  - name: "جاك قازنجيان"
+  - name: "جاك قازنجيان - Jack Kazanjyan"
     link: ""
 status: "published"
 ---

@@ -19,7 +19,7 @@ description: "تعمق في قلب العقيدة الكالفينية، هذه 
 youtube: ""
 spotify: ""
 authors:
-  - name: "جاك قازنجيان"
+  - name: "جاك قازنجيان - Jack Kazanjyan"
     link: ""
 status: "published"
 ---

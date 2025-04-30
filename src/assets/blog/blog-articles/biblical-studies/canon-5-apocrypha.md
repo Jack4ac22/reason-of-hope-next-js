@@ -15,7 +15,7 @@ description: "يتناول هذا المقال مكانة الأبوكريفا �
 youtube: ""
 spotify: ""
 authors:
-  - name: "جاك قازنجيان"
+  - name: "جاك قازنجيان - Jack Kazanjyan"
     link: ""
 status: "published"
 ---

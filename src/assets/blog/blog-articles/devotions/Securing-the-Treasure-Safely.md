@@ -13,7 +13,7 @@ coverImage: "devotions/Serene_Christian_Treasure_in_Heaven_Sky_2024-09-04.webp"
 description: "السماء: الملاذ الآمن للكنوز الأبدية - تعلم كيف تكون السماء المكان الآمن لحفظ ثرواتك للأبد، بعيدًا عن التلف والسرقة، وفق تعاليم الرب يسوع في متى ٦: ٢٠. استثمر في الأبدية وكنوز السماء حيث لا يفسدها السوس ولا يسرقها اللصوص."
 date: "2024-09-04"
 authors:
-  - name: "ميشيل مسعود"
+  - name: "ميشيل مسعود - Michel Massoud"
     link: ""
 status: "published"
 ---

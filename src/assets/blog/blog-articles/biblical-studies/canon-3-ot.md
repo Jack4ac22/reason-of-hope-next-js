@@ -13,7 +13,7 @@ description: "يتناول هذا المقال تكوين قانون العهد 
 youtube: ""
 spotify: ""
 authors:
-  - name: "جاك قازنجيان"
+  - name: "جاك قازنجيان - Jack Kazanjyan"
     link: ""
 status: "published"
 ---

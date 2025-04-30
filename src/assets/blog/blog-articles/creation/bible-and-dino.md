@@ -14,7 +14,7 @@ coverImage: "hqdefault.jpg"
 youtube: "uzW5YEeiClk"
 status: "published"
 authors:
-  - name: "Jack Kazanjyan"
+  - name: "جاك قازنجيان - Jack Kazanjyan"
     link: ""
 description: "دراسة أكاديمية تتناول قضية الديناصورات ووجودها جنباً إلى جنب مع البشر، بالإضافة إلى قضية عدم ورود كلمة ديناصور في الكتاب المقدس."
 ---

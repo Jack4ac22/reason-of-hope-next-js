@@ -14,7 +14,7 @@ description: "يستعرض هذا المقال الجدل اللاهوتي بي�
 youtube: ""
 spotify: ""
 authors:
-  - name: "جاك قازنجيان"
+  - name: "جاك قازنجيان - Jack Kazanjyan"
     link: ""
 status: "published"
 ---

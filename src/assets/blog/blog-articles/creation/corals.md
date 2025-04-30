@@ -17,7 +17,7 @@ youtube: ""
 status: "published"
 creationLink: "https://creation.com/a/13425"
 authors:
-  - name: "Rob Carter"
+  - name: "ٌRobert Carter"
     link: "https://creation.com/dr-robert-carter"
 description: "في المرة المقبلة التي تعاين صورة أو مقطعاً مصوّراً يظهر الشعاب المرجانية سوف تنظر إليها بعين أُخرى بعد أن تتعرف على المرجان وشهادته عن الخلق"
 ---

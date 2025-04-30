@@ -90,7 +90,7 @@ export async function createTagIfNotExists(databaseId, field, tagName, retry = f
 }
 
 
-export async function CreateContributerIfNotExists(databaseId, name, link, role="Author", retry = false) {
+export async function CreateContributerIfNotExists(databaseId, name, link, role = "Author", retry = false) {
   try {
     // Check if tag already exists
     const existing = await notion.databases.query({
@@ -153,7 +153,170 @@ export async function CreateContributerIfNotExists(databaseId, name, link, role=
 }
 
 
-export async function articlesProperties() {
+////////////////////////////
+//// NEW ARTICLE PAGE //////
+////////////////////////////
+/**
+ * Creates a page in the ReasonOFHope Notion database with all supported fields.
+ * 
+ * @param {string} databaseId
+ * @param {Object} data - Full page content
+ */
+export async function createArticlePage(databaseId, data) {
+  try {
+    const response = await notion.pages.create({
+      parent: { database_id: databaseId },
+      properties: {
+        // 1. Title (required)
+        Title: {
+          title: [{ text: { content: data.title } }],
+        },
+
+        // 2. Slug (rich_text)
+        ...(data.slug && {
+          Slug: {
+            rich_text: [{ text: { content: data.slug } }],
+          },
+        }),
+
+        // 3. Date (Notion date)
+        ...(data.date && {
+          Date: {
+            date: { start: data.date },
+          },
+        }),
+
+        // 4. Archive URL
+        ...(data.archive && {
+          Archive: {
+            url: data.archive,
+          },
+        }),
+
+        // 5. Authors (relation)
+        ...(data.authorIds?.length && {
+          Authors: {
+            relation: data.authorIds.map(id => ({ id })),
+          },
+        }),
+
+        // 6. PDF URL
+        ...(data.pdf && {
+          PDF: {
+            url: data.pdf,
+          },
+        }),
+
+        // 7. AppleBooks URL
+        ...(data.appleBooks && {
+          AppleBooks: {
+            url: data.appleBooks,
+          },
+        }),
+
+        // 8. CMI URL
+        ...(data.cmi && {
+          CMI: {
+            url: data.cmi,
+          },
+        }),
+
+        // 9. Spotify URL
+        ...(data.spotify && {
+          spotify: {
+            url: data.spotify,
+          },
+        }),
+
+        // 10. Description (rich_text)
+        ...(data.description && {
+          Description: {
+            rich_text: [{ text: { content: data.description } }],
+          },
+        }),
+
+        // 11. EPUB URL
+        ...(data.epub && {
+          EPUB: {
+            url: data.epub,
+          },
+        }),
+
+        // 12. GoogleBooks URL
+        ...(data.googleBooks && {
+          GoogleBooks: {
+            url: data.googleBooks,
+          },
+        }),
+
+        // 13. MainCategory (select)
+        ...(data.mainCategory && {
+          MainCategory: {
+            select: { name: data.mainCategory },
+          },
+        }),
+
+        // 14. Featured (checkbox)
+        ...(data.featured !== undefined && {
+          Featured: {
+            checkbox: data.featured,
+          },
+        }),
+
+        // 15. Published (checkbox)
+        ...(data.published !== undefined && {
+          Published: {
+            checkbox: data.published,
+          },
+        }),
+
+        // 16. IsBook (checkbox)
+        ...(data.isBook !== undefined && {
+          IsBook: {
+            checkbox: data.isBook,
+          },
+        }),
+
+        // 17. Translators (relation)
+        ...(data.translatorIds?.length && {
+          Translators: {
+            relation: data.translatorIds.map(id => ({ id })),
+          },
+        }),
+
+        // 18. Tags (relation)
+        ...(data.tagIds?.length && {
+          Tags: {
+            relation: data.tagIds.map(id => ({ id })),
+          },
+        }),
+      },
+
+      // 19. CoverImage (files via external URL)
+      ...(data.coverImage && {
+        cover: {
+          external: {
+            url: data.coverImage,
+          },
+        },
+      }),
+    });
+
+    return response;
+  } catch (error) {
+    console.error('[Notion] Failed to create page:', error.message);
+    throw error;
+  }
+}
+
+
+
+
+//////////////////////////
+// ARTICLES PROPERTIES///
+////////////////////////
+
+export async function getArticlesPropertiesFromMD() {
   const articles = await getAllArticlesData();
   // map the articles to remove data field from each article
   const articlesWithoutData = articles.map(article => {
@@ -165,7 +328,7 @@ export async function articlesProperties() {
 }
 
 // get authors and translators from articles
-export async function getContributers() {
+export async function getContributersFromMD() {
   const articlesHeadingList = getAllArticlesData();
   const contributers = [];
   for (const article of articlesHeadingList) {
@@ -177,7 +340,7 @@ export async function getContributers() {
         if (!authorExists) {
           contributers.push({
             Name: author.name,
-            URL: author.link == " " || "/"
+            URL: author.link ?? "/"
           });
         }
       });
@@ -189,7 +352,7 @@ export async function getContributers() {
         if (!translatorExists) {
           contributers.push({
             Name: translator.name,
-            URL: translator.link =="" || "/"
+            URL: translator.link ?? "/"
           });
         }
       });
@@ -208,3 +371,99 @@ export async function getContributers() {
   return uniqueContributers;
 }
 
+
+
+
+//////////////////
+//////Mapping/////
+//////////////////
+
+/**
+ * Maps a Notion tag page or array of pages to extract id and plain text tag title.
+ *
+ * @param {object|object[]} input - Single page object or array of page objects
+ * @returns {object|object[]} Mapped object(s) with { id, tag }
+ */
+export function mapTagPages(input) {
+  const mapSingle = (page) => ({
+    id: page.id,
+    tag: page.properties?.Tag?.title?.[0]?.plain_text || '',
+  });
+
+  if (Array.isArray(input)) {
+    return input.map(mapSingle);
+  }
+
+  return mapSingle(input);
+}
+
+/**
+ * Maps a Notion category page or array of pages to extract id and plain text category title.
+ *
+ * @param {object|object[]} input - A Notion page object or array of page objects
+ * @returns {object|object[]} Mapped object(s) with { id, category }
+ */
+export function mapCategoryPages(input) {
+  const mapSingle = (page) => ({
+    id: page.id,
+    category: page.properties?.Category?.title?.[0]?.plain_text || '',
+  });
+
+  if (Array.isArray(input)) {
+    return input.map(mapSingle);
+  }
+
+  return mapSingle(input);
+}
+
+/**
+ * Maps one or more Notion contributor pages to extract:
+ * - id: page ID
+ * - name: plain text from Name (title)
+ * - roles: array of role names from multi_select
+ * - url: value from URL field (if provided)
+ *
+ * @param {object|object[]} input - A Notion page or array of pages
+ * @returns {object|object[]} Mapped contributor object(s)
+ */
+export function mapContributorPages(input) {
+  const mapSingle = (page) => ({
+    id: page.id,
+    name: page.properties?.Name?.title?.[0]?.plain_text || '',
+    bio: page.properties?.Bio?.rich_text?.[0]?.plain_text || '',
+    roles: (page.properties?.Role?.multi_select || []).map(role => role.name),
+    url: page.properties?.URL?.url || '',
+  });
+
+  if (Array.isArray(input)) {
+    return input.map(mapSingle);
+  }
+
+  return mapSingle(input);
+}
+
+
+/**
+ * Maps a Notion page or array of pages representing a fallacy or article
+ * extracting title, description, and video fields.
+ *
+ * @param {object|object[]} input - A Notion page object or array of pages
+ * @returns {{ id: string, title: string, description: string, video: string }[]|object}
+ */
+export function mapFallacyPage(input) {
+  const mapSingle = (page) => ({
+    id: page.id,
+    title:
+      page.properties?.Fallacy?.title?.[0]?.plain_text ||
+      page.properties?.Title?.rich_text?.[0]?.plain_text ||
+      page.properties?.title?.title?.[0]?.plain_text ||
+      '',
+    description: (page.properties?.Description?.rich_text || [])
+      .map(rt => rt.plain_text || '')
+      .join(' ')
+      .trim(),
+    video: (page.properties?.Video?.rich_text?.[0]?.plain_text || '').trim(),
+  });
+
+  return Array.isArray(input) ? input.map(mapSingle) : mapSingle(input);
+}

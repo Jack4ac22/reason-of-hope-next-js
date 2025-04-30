@@ -99,3 +99,105 @@ export const getBlocks = cache(async (blockID) => {
     return acc;
   }, []));
 });
+
+
+export const getTags = cache(async () => {
+  let startCursor = undefined;
+  let allResults = [];
+
+  do {
+    const { results, nextCursor, hasMore } = await queryDatabasePaginated(process.env.NOTION_TAGS_DATABASE_ID, { startCursor });
+    nextCursor ? startCursor = nextCursor : startCursor = null;
+    allResults = [...allResults, ...results];
+    startCursor = nextCursor;
+  } while (startCursor);
+
+  return allResults;
+});
+
+
+export const getCategories = cache(async () => {
+  let startCursor = undefined;
+  let allResults = [];
+
+  do {
+    const { results, nextCursor, hasMore } = await queryDatabasePaginated(process.env.NOTION_CATEGORIES_DATABASE_ID, { startCursor });
+    nextCursor ? startCursor = nextCursor : startCursor = null;
+    allResults = [...allResults, ...results];
+    startCursor = nextCursor;
+  } while (startCursor);
+
+  return allResults;
+});
+
+
+export const getContributersList = cache(async () => {
+  let startCursor = undefined;
+  let allResults = [];
+
+  do {
+    const { results, nextCursor, hasMore } = await queryDatabasePaginated(process.env.NOTION_CONTRIBUTERS_DATABASE_ID, { startCursor });
+    nextCursor ? startCursor = nextCursor : startCursor = null;
+    allResults = [...allResults, ...results];
+    startCursor = nextCursor;
+  } while (startCursor);
+
+  return allResults;
+});
+
+export const getFallaciesList = cache(async () => {
+  let startCursor = undefined;
+  let allResults = [];
+
+  do {
+    const { results, nextCursor, hasMore } = await queryDatabasePaginated(process.env.NOTION_FALLACIES_DATABASE_ID, { startCursor });
+    nextCursor ? startCursor = nextCursor : startCursor = null;
+    allResults = [...allResults, ...results];
+    startCursor = nextCursor;
+  } while (startCursor);
+
+  return allResults;
+});
+
+
+
+/////////////////////////
+////////////////////////
+///////////////////////
+
+/**
+ * Query a Notion database with optional filters, sorts, and pagination support.
+ *
+ * @param {string} databaseId - The Notion database ID
+ * @param {object} options
+ * @param {object} [options.filter] - Optional Notion filter
+ * @param {object[]} [options.sorts] - Optional sort rules
+ * @param {string} [options.startCursor] - For pagination
+ * @param {number} [options.pageSize] - Number of results per page (max 100)
+ * @returns {Promise<{ results: any[], nextCursor: string | null, hasMore: boolean }>}
+ */
+export async function queryDatabasePaginated(databaseId, {
+  filter,
+  sorts,
+  startCursor,
+  pageSize = 100
+} = {}) {
+  try {
+    const response = await notion.databases.query({
+      database_id: databaseId,
+      page_size: pageSize,
+      ...(filter && { filter }),
+      ...(sorts && { sorts }),
+      ...(startCursor && { start_cursor: startCursor })
+    });
+
+    return {
+      results: response.results,
+      nextCursor: response.next_cursor,
+      hasMore: response.has_more
+    };
+  } catch (error) {
+    console.error('[Notion] Failed to query database:', error.message);
+    throw error;
+  }
+}

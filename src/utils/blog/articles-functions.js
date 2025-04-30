@@ -19,7 +19,7 @@ const pagesFolder = "/src/assets/blog/blog-pages";
 export function getArticlesDirectories(contentFolder = articlesFolder) {
   try {
     const articlesDirectory = path.join(process.cwd(), contentFolder);
-    const articlesDirectoryPaths = fs.readdirSync(articlesDirectory);
+    const articlesDirectoryPaths = fs.readdirSync(articlesDirectory).filter(name => !name.startsWith('.'));;
     return articlesDirectoryPaths;
   } catch (error) {
     console.error("Error in getArticlesDirectories function: ", error.stack);
@@ -43,12 +43,18 @@ export const getArticlesList = () => {
   const articlesDirectoryPaths = getArticlesDirectories();
   let articles = [];
   articlesDirectoryPaths.map((directory) => {
-    const articlePath = path.join(process.cwd(), articlesFolder, directory);
-    const fileNames = fs.readdirSync(articlePath);
-    fileNames.map((fileName) => {
-      articles.push({ directory: directory, fileName: fileName });
-    });
-    articles = [...articles];
+    try {
+
+      const articlePath = path.join(process.cwd(), articlesFolder, directory);
+      const fileNames = fs.readdirSync(articlePath);
+      fileNames.map((fileName) => {
+        articles.push({ directory: directory, fileName: fileName });
+      });
+      articles = [...articles];
+    }
+    catch (e) {
+      console.log(e)
+    }
   });
   articles = articles.map((article) => {
     const { directory, fileName } = article;

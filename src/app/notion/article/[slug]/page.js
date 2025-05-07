@@ -10,6 +10,8 @@ import Text from '@/components/notion/text';
 import { renderBlock } from '@/components/notion/renderer';
 import styles from '@/assets/styles/post.module.css';
 
+const revalidate = 10000; // revalidate the data at most every hour
+
 // Return a list of `params` to populate the [slug] dynamic segment
 export async function generateStaticParams() {
   const tags = getAllTagsWithCount();

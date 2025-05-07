@@ -19,6 +19,10 @@ function getRandomInt(minimum, maximum) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
+/**
+ * @type {import('@notionhq/client').Client}
+ * @description Notion client instance
+ */
 const notion = new Client({
   auth: process.env.NOTION_TOKEN,
 });
@@ -101,6 +105,11 @@ export const getBlocks = cache(async (blockID) => {
 });
 
 
+
+//  //////////  //
+///// GETERS /////
+//  //////////  //
+
 export const getTags = cache(async () => {
   let startCursor = undefined;
   let allResults = [];
@@ -175,6 +184,26 @@ export const getFallaciesList = cache(async () => {
  * @param {string} [options.startCursor] - For pagination
  * @param {number} [options.pageSize] - Number of results per page (max 100)
  * @returns {Promise<{ results: any[], nextCursor: string | null, hasMore: boolean }>}
+ * @example const { results, nextCursor, hasMore } = await queryDatabasePaginated('your-database-id', {
+ *   filter: {
+ *     property: 'status',
+ *     select: {
+  *       equals: 'published',
+  *     },
+  *   },
+  *   sorts: [
+  *     {
+  *       property: 'date',
+  *       direction: 'descending',
+  *     },
+  *   ],
+  *  startCursor: 'your-start-cursor',
+  * pageSize: 50,
+  * });
+  * 
+  ]
+ }
+ }
  */
 export async function queryDatabasePaginated(databaseId, {
   filter,

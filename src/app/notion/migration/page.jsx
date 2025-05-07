@@ -1,6 +1,7 @@
 import { queryDatabasePaginated, getTags, getCategories, getContributersList, getFallaciesList } from "@/utils/blog/notion";
 import { getTagsList, getCategoriesList, getArticlesList, } from "@/utils/blog/articles-functions";
 import { createTagIfNotExists, getArticlesPropertiesFromMD, getContributersFromMD, CreateContributerIfNotExists, mapTagPages, mapCategoryPages, mapContributorPages, mapFallacyPage } from "@/utils/blog/migration-helper";
+import { getArticles } from "@/utils/blog/updated-notion-helper";
 export default async function MigrationPage() {
   // const tags = getTagsList();
   // tags.map(tag => (createTagIfNotExists("1e3ea021d67780d0b68ed805e1667063", "Tag", tag)))
@@ -12,8 +13,9 @@ export default async function MigrationPage() {
   // const contributers = mapContributorPages (await getContributersList());
   // const tags = mapTagPages(await getTags());
   // const categories = mapCategoryPages(await getCategories());
-  const fallacies = mapFallacyPage(await getFallaciesList());
-
+  // const fallacies = mapFallacyPage(await getFallaciesList());
+const allArticles =await getArticles();
+console.log(allArticles[0].properties.Tags)
   return (
     <div>
 
@@ -53,9 +55,9 @@ export default async function MigrationPage() {
 
 
       {/* Fallacies */}
-      <div dir="ltr">{JSON.stringify(fallacies.length)}</div>
+      {/* <div dir="ltr">{JSON.stringify(fallacies.length)}</div> */}
 
-      <div >
+      {/* <div >
         {fallacies.map(fallacy => (
           <div dir="ltr" key={fallacy.id}>
             <p>{fallacy.id}</p>
@@ -65,7 +67,7 @@ export default async function MigrationPage() {
 
           </div>
         ))}
-      </div>
+      </div> */}
     </div>
 
   );

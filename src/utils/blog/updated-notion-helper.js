@@ -1,6 +1,5 @@
 import { v4 as uuid } from 'uuid';
 import { Client } from '@notionhq/client';
-import { cache } from 'react';
 
 
 /**
@@ -89,8 +88,8 @@ export const getAllPages = async function (databaseId) {
 }
 
 
-export const getTags = cache(() => getAllPages(process.env.NOTION_TAGS_DATABASE_ID || "NOTION_KEY"));
-export const getCategories = cache(() => getAllPages(process.env.NOTION_CATEGORIES_DATABASE_ID || "NOTION_KEY"));
-export const getContributors = cache(() => getAllPages(process.env.NOTION_CONTRIBUTERS_DATABASE_ID || "NOTION_KEY"));
-export const getFallacies = cache(() => getAllPages(process.env.NOTION_FALLACIES_DATABASE_ID || "NOTION_KEY"));
-export const getArticles = cache(() => getAllPages(process.env.NOTION_DATABASE_ID || "NOTION_KEY"));
+export const getTags = (async () => await getAllPages(process.env.NOTION_TAGS_DATABASE_ID || "NOTION_KEY"));
+export const getCategories = (async () => await getAllPages(process.env.NOTION_CATEGORIES_DATABASE_ID || "NOTION_KEY"));
+export const getContributors = (async () => await getAllPages(process.env.NOTION_CONTRIBUTERS_DATABASE_ID || "NOTION_KEY"));
+export const getFallacies = (async () => await getAllPages(process.env.NOTION_FALLACIES_DATABASE_ID || "NOTION_KEY"));
+export const getArticles = (async () => await getAllPages(process.env.NOTION_DATABASE_ID || "NOTION_KEY"));

@@ -2,29 +2,30 @@ import { getAllArticlesData } from "@/utils/blog/articles-functions";
 import { notFound } from "next/navigation";
 import ArticleContent from "@/components/blog-components/article-page/article-content";
 import articleMetadata from "@/assets/blog/metadata/single_article";
-export async function generateStaticParams() {
-  const articles = getAllArticlesData();
-  const static_params = articles.map((article) => ({
-    slug: [article.directory, article.slug],
-  }))
-  return static_params
-}
+
+// export async function generateStaticParams() {
+//   const articles = getAllArticlesData();
+//   const static_params = articles.map((article) => ({
+//     slug: [article.directory, article.slug],
+//   }))
+//   return static_params
+// }
 
 
-export async function generateMetadata({ params, searchParams }, parent) {
+// export async function generateMetadata({ params, searchParams }, parent) {
 
-  try {
+//   try {
 
-    const slug = params.slug
-    // get article data
-    const article = getAllArticlesData().filter(article => (article.slug === slug[1]) && (article.directory === slug[0]))[0]
-    const metadata = articleMetadata(article)
-    return metadata
+//     const slug = params.slug
+//     // get article data
+//     const article = getAllArticlesData().filter(article => (article.slug === slug[1]) && (article.directory === slug[0]))[0]
+//     const metadata = articleMetadata(article)
+//     return metadata
 
-  } catch (error) {
+//   } catch (error) {
 
-  }
-}
+//   }
+// }
 
 export default function Page({ params }) {
   const article = getAllArticlesData().filter(article => (article.slug === params?.slug[1]) && (article.directory === params?.slug[0]))

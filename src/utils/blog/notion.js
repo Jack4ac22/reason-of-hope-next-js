@@ -24,7 +24,7 @@ function getRandomInt(minimum, maximum) {
  * @description Notion client instance
  */
 const notion = new Client({
-  auth: process.env.NOTION_TOKEN,
+  auth: process.env.NOTION_WRITE_TOKEN,
 });
 
 export const getDatabase = cache(async () => {
@@ -40,26 +40,30 @@ export const getPage = cache(async (pageId) => {
 });
 
 export const getPageFromSlug = cache(async (slug) => {
-  const response = await notion.databases.query({
-    database_id: databaseId,
-    filter: {
-      property: 'Slug',
-      formula: {
-        string: {
-          equals: slug,
+  try {
+
+    const response = await notion.databases.query({
+      database_id: databaseId,
+      filter: {
+        property: 'Slug',
+        formula: {
+          string: {
+            equals: slug,
+          },
         },
       },
-    },
-  });
-  if (response?.results?.length) {
-    return response?.results?.[0];
+    });
+    if (response?.results?.length) {
+      return response?.results?.[0];
+    }
+  } catch (error) {
+    console.error('[Notion] Failed to get page from slug:', error.message);
   }
-  return {};
+  return null;
 });
 
 export const getBlocks = cache(async (blockID) => {
-  const blockId = blockID.replaceAll('-', '');
-
+  const blockId = blockID?.replaceAll('-', '');
   const { results } = await notion.blocks.children.list({
     block_id: blockId,
     page_size: 100,
@@ -107,7 +111,7 @@ export const getBlocks = cache(async (blockID) => {
 
 
 //  //////////  //
-///// GETERS /////
+///// GETERS ///// 
 //  //////////  //
 
 export const getTags = cache(async () => {

@@ -1,29 +1,35 @@
-import { Fragment } from 'react';
-import Head from 'next/head';
-import Link from 'next/link';
-import { getAllTagsWithCount } from "@/utils/blog/articles-functions"
-
 import {
   getDatabase, getBlocks, getPageFromSlug,
 } from '@/utils/blog/notion';
 import Text from '@/components/notion/text';
 import { renderBlock } from '@/components/notion/renderer';
 import styles from '@/assets/styles/post.module.css';
+import { notFound } from 'next/navigation';
+import { Fragment } from 'react';
 
-const revalidate = 10000; // revalidate the data at most every hour
 
 // Return a list of `params` to populate the [slug] dynamic segment
-export async function generateStaticParams() {
-  const tags = getAllTagsWithCount();
-  const database = await getDatabase();
-  return database?.map((page) => {
-    const slug = page.properties.Slug?.formula?.string;
-    return ({ id: page.id, slug });
-  });
-}
+// export async function generateStaticParams() {
+//   const database = await getDatabase();
+//   try {
+//     return database?.map((page) => {
+//       const slug = page.properties.Slug?.formula?.string;
+//       return ({ id: page.id, slug });
+//     });
+//   } catch (error) {
+//     console.error('Error generating static params:', error);
+//     return [];
+//   }
+// };
+
+
 
 export default async function Page({ params }) {
   const page = await getPageFromSlug(params?.slug);
+  if (!page) {
+    console.error('Page not found:', params?.slug);
+    notFound();
+  }
   const blocks = await getBlocks(page?.id);
 
   if (!page || !blocks) {
@@ -32,11 +38,6 @@ export default async function Page({ params }) {
 
   return (
     <div>
-      <Head>
-        <title>{page.properties.Title?.title[0].plain_text}</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
       <article className={styles.container}>
         <h1 className={styles.name}>
           <Text title={page.properties.Title?.title} />
@@ -45,9 +46,6 @@ export default async function Page({ params }) {
           {blocks.map((block) => (
             <Fragment key={block.id}>{renderBlock(block)}</Fragment>
           ))}
-          {/* <Link href="/" className={styles.back}>
-            ← Go home
-          </Link> */}
         </section>
       </article>
     </div>

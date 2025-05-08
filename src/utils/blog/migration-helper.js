@@ -1,7 +1,7 @@
 import { getAllArticlesData } from '@/utils/blog/articles-functions';
 import { Client } from '@notionhq/client';
 
-const notion = new Client({ auth: process.env.NOTION_TOKEN });
+const notion = new Client({ auth: process.env.NOTION_WRITE_TOKEN });
 
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));

@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic';
+
 import { mapAllContributors, mapAllFallacies } from "@/utils/blog/notion-mapper";
 import { Suspense, use } from "react";
 export const revalidate = 10;

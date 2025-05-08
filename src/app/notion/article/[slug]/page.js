@@ -1,3 +1,4 @@
+export const dynamic = 'force-dynamic';
 import {
   getDatabase, getBlocks, getPageFromSlug,
 } from '@/utils/blog/notion';

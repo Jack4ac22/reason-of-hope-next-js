@@ -12,7 +12,7 @@ import styles from '@/assets/styles/index.module.css';
 // }
 
 export default async function Page() {
-  const posts = await getPosts() || [];
+  // const posts = await getPosts() || [];
   return (
     <div>
       <main className={styles.container}>

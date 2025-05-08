@@ -5,13 +5,13 @@ import CardList from "@/components/blog-components/cards/cards-list/cards-list";
 import CatTagMetadata from "@/assets/blog/metadata/category-tag-page";
 import { notFound } from "next/navigation";
 
-export async function generateStaticParams() {
-  const categories = getCategoriesList();
-  const static_params = categories.map((category) => ({
-    category: category,
-  }));
-  return static_params;
-}
+// export async function generateStaticParams() {
+//   const categories = getCategoriesList();
+//   const static_params = categories.map((category) => ({
+//     category: category,
+//   }));
+//   return static_params;
+// }
 
 export async function generateMetadata({ params, searchParams }, parent) {
   const category = params.category

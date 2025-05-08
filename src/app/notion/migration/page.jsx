@@ -1,4 +1,3 @@
-"use client";
 import { mapAllContributors, mapAllFallacies } from "@/utils/blog/notion-mapper";
 import { Suspense, use } from "react";
 export default async function Migration() {

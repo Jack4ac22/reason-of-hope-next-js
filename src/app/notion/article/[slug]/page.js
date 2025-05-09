@@ -9,7 +9,8 @@ import { notFound } from 'next/navigation';
 import { Fragment } from 'react';
 import { revalidate } from '@/app/page';
 
-revalidate(3600);
+export const revalidate = 3600 
+
 // Return a list of `params` to populate the [slug] dynamic segment
 // export async function generateStaticParams() {
 //   const database = await getDatabase();

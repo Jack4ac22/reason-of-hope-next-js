@@ -17,7 +17,7 @@ import Text from '@/components/notion/text';
 import { renderBlock } from '@/components/notion/renderer';
 import { revalidate } from "@/app/page";
 
-revalidate(3600); 
+export const revalidate = 3600 
 
 export default async function MigrationPage() {
   const page = await getPageFromSlug("test");

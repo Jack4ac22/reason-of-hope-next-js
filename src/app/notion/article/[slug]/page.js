@@ -8,21 +8,7 @@ import styles from '@/assets/styles/post.module.css';
 import { notFound } from 'next/navigation';
 import { Fragment } from 'react';
 
-export const revalidate = 3600 
-
-// Return a list of `params` to populate the [slug] dynamic segment
-// export async function generateStaticParams() {
-//   const database = await getDatabase();
-//   try {
-//     return database?.map((page) => {
-//       const slug = page.properties.Slug?.formula?.string;
-//       return ({ id: page.id, slug });
-//     });
-//   } catch (error) {
-//     console.error('Error generating static params:', error);
-//     return [];
-//   }
-// };
+export const revalidate = process.env.REVALIDATION_TIME || 1;
 
 
 

@@ -1,4 +1,3 @@
-export const dynamic = 'force-dynamic';
 
 import { Fragment } from "react";
 import { notFound } from "next/navigation";

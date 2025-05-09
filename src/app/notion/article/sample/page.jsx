@@ -15,7 +15,6 @@ import {
 
 import Text from '@/components/notion/text';
 import { renderBlock } from '@/components/notion/renderer';
-import { revalidate } from "@/app/page";
 
 export const revalidate = 3600 
 

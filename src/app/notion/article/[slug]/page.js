@@ -7,7 +7,6 @@ import { renderBlock } from '@/components/notion/renderer';
 import styles from '@/assets/styles/post.module.css';
 import { notFound } from 'next/navigation';
 import { Fragment } from 'react';
-import { revalidate } from '@/app/page';
 
 export const revalidate = 3600 
 

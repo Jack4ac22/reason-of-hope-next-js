@@ -10,7 +10,7 @@ export default function LoadingPage() {
         <p className="text-lg md:text-xl mt-4">
           الصفحة قيد التحميل، الرجاء الانتظار.
         </p>
-        <div className="w-full flex justify-center mt-6">
+        <div className="w-full flex justify-center mt-6 sm:max-w-fit">
           <Image src={loadingImage} alt='Loading' className='max-w-md rounded-xl' />
         </div>
       </div>

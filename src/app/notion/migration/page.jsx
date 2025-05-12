@@ -1,21 +1,28 @@
-import { mapAllContributors, mapAllFallacies } from "@/utils/blog/notion-mapper";
+import { getSingleArticleData } from "@/utils/blog/articles-functions";
+import { createArticlePage } from "@/utils/blog/migration-helper";
+import { getAllArticles, getPageFromSlug } from "@/utils/blog/updated-notion-helper";
 import { Suspense, use } from "react";
-export const revalidate = 10;
-
+import { getAllArticlesData } from "@/utils/blog/articles-functions";
+import { mapContentMetaToArticleProps } from "@/utils/blog/notion-mapper";
 export default async function Migration() {
-  const list = await mapAllFallacies();
+  const articles = await getAllArticlesData(true); // make sure this is awaited
+
+  for (const article of articles) {
+    const new_page_data = await mapContentMetaToArticleProps(article);
+    const existing_page = await getPageFromSlug(article.slug);
+
+    if (!existing_page) {
+      const new_page = await createArticlePage(process.env.NOTION_ARTICLES_DATABASE_ID, new_page_data);
+      console.log("✅ New page created:", new_page?.properties?.Title?.title?.[0]?.plain_text);
+    } else {
+      console.log("⚠️ Page already exists:", existing_page?.properties?.Title?.title?.[0]?.plain_text);
+    }
+  }
+
   return (
     <div dir="ltr">
       <div className="flex flex-col gap-4 mt-4">
-        <Suspense fallback={<div>Loading...</div>}>
-          {list.map((item) => (
-            <div key={item.id}>
-              <h2 className="text-2xl font-bold">{item.title}</h2>
-              <p className="text-gray-700">{item.description}</p>
-              <p className="text-gray-700">{item.video}</p>
-            </div>
-          ))}
-        </Suspense>
+        ✅ DONE - All articles processed with rate-limiting
       </div>
     </div>
   );

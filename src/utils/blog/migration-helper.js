@@ -30,7 +30,7 @@ export async function createTagIfNotExists(databaseId, field, tagName, retry = f
     // handle 500 response
     if (existing.status === 502) {
       console.error('[Notion] 502 Bad Gateway error. Retrying...');
-      await sleep(2000);
+      await sleep(20);
       if (!retry) {
         console.error('[Notion] Retrying failed request...');
         return createTagIfNotExists(databaseId, field, tagName, false);
@@ -42,7 +42,7 @@ export async function createTagIfNotExists(databaseId, field, tagName, retry = f
       console.log(`[Notion] ${field} "${tagName}" already exists.`);
       return { alreadyExists: true, page: existing.results[0] };
     }
-    sleep(200);
+    sleep(20);
 
     const response = field == "Tag" ?
       // Create new tag page
@@ -81,7 +81,7 @@ export async function createTagIfNotExists(databaseId, field, tagName, retry = f
 
 
     console.log(`[Notion] Created new ${field} "${tagName}".`);
-    sleep(200);
+    sleep(20);
     return { created: true, page: response };
   } catch (error) {
     console.error('[Notion] Failed to create:', error.message);
@@ -105,7 +105,7 @@ export async function CreateContributerIfNotExists(databaseId, name, link, role 
     // handle 500 response
     if (existing.status === 502) {
       console.error('[Notion] 502 Bad Gateway error. Retrying...');
-      await sleep(2000);
+      await sleep(200);
       if (!retry) {
         console.error('[Notion] Retrying failed request...');
         return CreateContributerIfNotExists(databaseId, name, link, role, false);
@@ -162,144 +162,123 @@ export async function CreateContributerIfNotExists(databaseId, name, link, role 
  * @param {string} databaseId
  * @param {Object} data - Full page content
  */
+export function buildArticleProperties(data) {
+  return {
+    // 1. Title (required)
+    Title: {
+      title: [{ text: { content: data.title } }],
+    },
+
+    // 2. Slug
+    ...(data.slug && {
+      Slug: { rich_text: [{ text: { content: data.slug } }] },
+    }),
+
+    // 3. Date
+    ...(data.date && {
+      Date: { date: { start: data.date } },
+    }),
+
+    // 4. Archive
+    ...(data.archive && {
+      Archive: { url: data.archive },
+    }),
+
+    // 5. Authors
+    ...(data.authors?.length && {
+      Authors: { relation: data.authors.map(id => ({ id })) },
+    }),
+
+    // 6. PDF
+    ...(data.pdf && {
+      PDF: { url: data.pdf },
+    }),
+
+    // 7. AppleBooks
+    ...(data.appleBooks && {
+      AppleBooks: { url: data.appleBooks },
+    }),
+
+    // 8. CMI
+    ...(data.cmi && {
+      CMI: { url: data.cmi },
+    }),
+
+    // 9. Spotify
+    ...(data.spotify && {
+      spotify: { url: data.spotify },
+    }),
+
+    // 10. Description
+    ...(data.description && {
+      Description: { rich_text: [{ text: { content: data.description } }] },
+    }),
+
+    // 11. EPUB
+    ...(data.epub && {
+      EPUB: { url: data.epub },
+    }),
+
+    // 12. GoogleBooks
+    ...(data.googleBooks && {
+      GoogleBooks: { url: data.googleBooks },
+    }),
+
+    // 13. MainCategory
+    ...(data.mainCategory && {
+      MainCategory: { select: { name: data.mainCategory } },
+    }),
+
+    // 14. Featured
+    ...(data.featured !== undefined && {
+      Featured: { checkbox: data.featured },
+    }),
+
+    // 15. Published
+    ...(data.published !== undefined && {
+      Published: { checkbox: data.published },
+    }),
+
+    // 16. IsBook
+    ...(data.isBook !== undefined && {
+      IsBook: { checkbox: data.isBook },
+    }),
+
+    // 17. Translators
+    ...(data.translators?.length && {
+      Translators: { relation: data.translators.map(id => ({ id })) },
+    }),
+
+    // 18. Tags
+    ...(data.tags?.length && {
+      Tags: { relation: data.tags.map(id => ({ id })) },
+    }),
+
+    // 19. Fallacies
+    ...(data.fallacies?.length && {
+      Fallacies: { relation: data.fallacies.map(id => ({ id })) },
+    }),
+
+    // 20. Categories
+    ...(data.categories?.length && {
+      Subcategories: { relation: data.categories.map(id => ({ id })) },
+    }),
+
+    // 21. Cover image — custom URL property
+    ...(data.coverImage && {
+      Cover: { url: data.coverImage },
+    }),
+  };
+}
+
 export async function createArticlePage(databaseId, data) {
   try {
+    const properties = buildArticleProperties(data);
+    console.log('[Notion] Creating page with properties:', properties);
+
     const response = await notion.pages.create({
       parent: { database_id: databaseId },
-      properties: {
-        // 1. Title (required)
-        Title: {
-          title: [{ text: { content: data.title } }],
-        },
-
-        // 2. Slug (rich_text)
-        ...(data.slug && {
-          Slug: {
-            rich_text: [{ text: { content: data.slug } }],
-          },
-        }),
-
-        // 3. Date (Notion date)
-        ...(data.date && {
-          Date: {
-            date: { start: data.date },
-          },
-        }),
-
-        // 4. Archive URL
-        ...(data.archive && {
-          Archive: {
-            url: data.archive,
-          },
-        }),
-
-        // 5. Authors (relation)
-        ...(data.authorIds?.length && {
-          Authors: {
-            relation: data.authorIds.map(id => ({ id })),
-          },
-        }),
-
-        // 6. PDF URL
-        ...(data.pdf && {
-          PDF: {
-            url: data.pdf,
-          },
-        }),
-
-        // 7. AppleBooks URL
-        ...(data.appleBooks && {
-          AppleBooks: {
-            url: data.appleBooks,
-          },
-        }),
-
-        // 8. CMI URL
-        ...(data.cmi && {
-          CMI: {
-            url: data.cmi,
-          },
-        }),
-
-        // 9. Spotify URL
-        ...(data.spotify && {
-          spotify: {
-            url: data.spotify,
-          },
-        }),
-
-        // 10. Description (rich_text)
-        ...(data.description && {
-          Description: {
-            rich_text: [{ text: { content: data.description } }],
-          },
-        }),
-
-        // 11. EPUB URL
-        ...(data.epub && {
-          EPUB: {
-            url: data.epub,
-          },
-        }),
-
-        // 12. GoogleBooks URL
-        ...(data.googleBooks && {
-          GoogleBooks: {
-            url: data.googleBooks,
-          },
-        }),
-
-        // 13. MainCategory (select)
-        ...(data.mainCategory && {
-          MainCategory: {
-            select: { name: data.mainCategory },
-          },
-        }),
-
-        // 14. Featured (checkbox)
-        ...(data.featured !== undefined && {
-          Featured: {
-            checkbox: data.featured,
-          },
-        }),
-
-        // 15. Published (checkbox)
-        ...(data.published !== undefined && {
-          Published: {
-            checkbox: data.published,
-          },
-        }),
-
-        // 16. IsBook (checkbox)
-        ...(data.isBook !== undefined && {
-          IsBook: {
-            checkbox: data.isBook,
-          },
-        }),
-
-        // 17. Translators (relation)
-        ...(data.translatorIds?.length && {
-          Translators: {
-            relation: data.translatorIds.map(id => ({ id })),
-          },
-        }),
-
-        // 18. Tags (relation)
-        ...(data.tagIds?.length && {
-          Tags: {
-            relation: data.tagIds.map(id => ({ id })),
-          },
-        }),
-      },
-
-      // 19. CoverImage (files via external URL)
-      ...(data.coverImage && {
-        cover: {
-          external: {
-            url: data.coverImage,
-          },
-        },
-      }),
+      properties,
     });
 
     return response;
@@ -308,6 +287,7 @@ export async function createArticlePage(databaseId, data) {
     throw error;
   }
 }
+
 
 
 

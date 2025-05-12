@@ -182,7 +182,7 @@ export async function getPageFromSlug(slug) {
 ///////////GET PAGE BY ID//////////
 /////////////////////////////////
 
-export async function getPage(pageId) {
+export async function getPageById(pageId) {
   try {
     const response = await read_notion.pages.retrieve({ page_id: pageId });
     return response;

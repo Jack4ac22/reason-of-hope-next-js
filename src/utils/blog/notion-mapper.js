@@ -1,5 +1,5 @@
 'use server';
-import { getAllTags, getAllCategories, queryDatabasePaginated, getPage, getAllContributors, getAllFallacies } from "@/utils/blog/updated-notion-helper";
+import { getAllTags, getAllCategories, queryDatabasePaginated, getPageById, getAllContributors, getAllFallacies } from "@/utils/blog/updated-notion-helper";
 
 
 
@@ -39,7 +39,7 @@ export async function mapSingleTag({ id, tagName }) {
   if (id) {
     // Direct page retrieval by ID
     try {
-      const page = await getPage(id);
+      const page = await getPageById(id);
       if (page) {
         return {
           id: page.id,
@@ -97,7 +97,7 @@ export async function mapSingleCategory({ id, categoryName }) {
   if (id) {
     // Direct page retrieval by ID
     try {
-      const page = await getPage(id);
+      const page = await getPageById(id);
       if (page) {
         return {
           id: page.id,
@@ -157,7 +157,7 @@ export async function mapSingleContributor({ id, contributorName }) {
   if (id) {
     // Direct page retrieval by ID
     try {
-      const page = await getPage(id);
+      const page = await getPageById(id);
       if (page) {
         return {
           id: page.id,
@@ -230,7 +230,7 @@ export async function mapSingleFallacy({ id, fallacyName }) {
   if (id) {
     // Direct page retrieval by ID
     try {
-      const page = await getPage(id);
+      const page = await getPageById(id);
       if (page) {
         return {
           id: page.id,
@@ -281,3 +281,113 @@ export async function mapSingleFallacy({ id, fallacyName }) {
   };
 }
 
+
+
+
+
+//////////////////////// //
+// MAP MD TO NOTION PAGE //
+//////////////////////// //
+
+// helper function for debuggining purposes, // check if there is any undefined values and filter out undefined values and print the number of filtered values
+
+function filterUndefinedValues(array) {
+  const filtered = array.filter(Boolean);
+  console.log(`Filtered ${array.length - filtered.length} undefined values`);
+  return filtered;
+}
+
+
+// helper function to reduce arrays of objects to array of ids of objects
+function reduceToIds(array) {
+  return array.map(item => item.id);
+}
+
+// helper function to reduce array of objects to an object with key values 
+function reduceResources(array) {
+  const reduced = array.reduce((acc, item) => {
+    const { title, link } = item;
+    if (title && link) {
+      acc[title] = link;
+    }
+    return acc;
+  }, {});
+  return reduced;
+}
+
+
+export async function mapContentMetaToArticleProps(data) {
+  const allTags = await mapAllTags();
+  const allCategories = await mapAllCategories();
+  const allContributors = await mapAllContributors();
+  const allFallacies = await mapAllFallacies();
+
+  let tagPages = [];
+  let categoryPages = [];
+  let authorPages = [];
+  let translatorPages = [];
+  let fallacyPages = [];
+
+  if (data.tags && data?.tags?.length !== 0) {
+    tagPages = data?.tags.map(tag => allTags.find(t => t.tag === tag));
+    tagPages = filterUndefinedValues(tagPages);
+  }
+  if (data.categories && data?.categories?.length !== 0) {
+    categoryPages = data?.categories.map(category => allCategories.find(c => c.category === category));
+    categoryPages = filterUndefinedValues(categoryPages);
+  }
+  if (data.authors && data?.authors?.length !== 0) {
+    authorPages = data?.authors.map(author =>
+      allContributors.find(a => a.name === author.name));
+    authorPages = filterUndefinedValues(authorPages);
+  }
+  if (data.translators && data?.translators?.length !== 0) {
+    translatorPages = data?.translators.map(translator => allContributors.find(t => t.name === translator.name));
+    translatorPages = filterUndefinedValues(translatorPages);
+  }
+  if (data.fallacies && data?.fallacies?.length !== 0) {
+    fallacyPages = data?.fallacies.map(fallacy => allFallacies.find(f => f.title === fallacy));
+    fallacyPages = filterUndefinedValues(fallacyPages);
+  }
+  const relationship = {
+    tags: reduceToIds(tagPages),
+    categories: reduceToIds(categoryPages),
+    authors: reduceToIds(authorPages),
+    translators: reduceToIds(translatorPages),
+    fallacies: reduceToIds(fallacyPages),
+  }
+
+  const resources = data.resources ? reduceResources(data.resources) : {};
+
+  const audio = data?.audio?.reduce((acc, item) => {
+    return { ...acc, ...item };
+  }, {}) || {} || {};
+  return {
+    title: data.title,
+
+    slug: data.slug,
+    description: data.description || '',
+    date: data.date,
+    published: data.status === 'published',
+    featured: data.featured ?? false,
+    isBook: data.isBook ?? false,
+
+    mainCategory: data.directory || '',
+
+    coverImage: `${data.coverImage}` || '',
+
+    pdf: resources.pdf || '',
+    archive: resources.archive || '',
+    googleBooks: resources.googleBooks || '',
+    appleBooks: resources.appleBooks || '',
+    epub: resources.epub || '',
+
+    spotify: audio.spotify || data.spotify || '',
+
+
+    cmi: data.cmi || '',
+    youtube: data.youtube || '',
+
+    ...relationship
+  };
+}

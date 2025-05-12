@@ -1,14 +1,14 @@
-export const dynamic = 'force-dynamic';
 import {
   getDatabase, getBlocks, getPageFromSlug,
-} from '@/utils/blog/notion';
+} from '@/utils/blog/updated-notion-helper';
 import Text from '@/components/notion/text';
 import { renderBlock } from '@/components/notion/renderer';
 import styles from '@/assets/styles/post.module.css';
 import { notFound } from 'next/navigation';
 import { Fragment } from 'react';
+// import {renderBlock} from '@/components/notion/renderer';
 
-export const revalidate = process.env.REVALIDATION_TIME || 1;
+export const revalidate = 3600;
 
 
 

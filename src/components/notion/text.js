@@ -8,9 +8,9 @@ function urlValidationForLocalId(url) {
   }
   // if it starts with / and has only one / and contains # get the # abd what follows as it will be a local reference get the id and return it
   if (url.startsWith('/') && url.split('/').length === 2 && url.includes('#')) {
-    return "#" +url.split('#')[1];
+    return "#" + url.split('#')[1];
   }
-  
+
 }
 export default function Text({ title }) {
   if (!title) {
@@ -35,7 +35,7 @@ export default function Text({ title }) {
         style={color !== 'default' ? { color } : {}}
         key={text.content}
       >
-        {text.link ? <Link href={urlValidationForLocalId(text.link.url)?? text.link.url}>{text.content}</Link> : text.content}
+        {text.link ? <Link href={urlValidationForLocalId(text.link.url) ?? text.link.url}>{text.content}</Link> : text.content}
       </span>
     );
   });

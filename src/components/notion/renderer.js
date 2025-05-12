@@ -63,6 +63,12 @@ export function renderBlock(block, index) {
       return <ol key={id} id={id_no_dashes} className="list-decimal list-inside md:m-5" style={{ listStyleType: 'arabic-indic' }}>{value.children.map((child, index) => renderBlock(child, index))}</ol>;
     }
     case 'bulleted_list_item':
+      return (
+        <li key={block.id} id={id_no_dashes} className="list-disc">
+          <Text title={value.rich_text} />
+          {/* eslint-disable-next-line no-use-before-define */}
+          {!!value.children && renderNestedList(block)}
+        </li>);
     case 'numbered_list_item':
       return (
         <li key={block.id} id={id_no_dashes} className="oldstyle-nums">
@@ -95,7 +101,7 @@ export function renderBlock(block, index) {
     case 'child_page':
       return (
         <div className={styles.childPage}>
-          <strong>{value?.title}</strong>
+          {/* <strong>{value?.title}</strong> */}
           {block.children.map((child) => renderBlock(child))}
         </div>
       );
@@ -104,8 +110,8 @@ export function renderBlock(block, index) {
       const caption = value.caption ? value.caption[0]?.plain_text : '';
       return (
         <>
-        <ImageMappingComponent objectElement={{ src, alt: caption }} />
-        {/* <figure>
+          <ImageMappingComponent objectElement={{ src, alt: caption }} />
+          {/* <figure>
           <img src={src} alt={caption} />
           {caption && <figcaption>{caption}</figcaption>}
         </figure> */}
@@ -113,7 +119,7 @@ export function renderBlock(block, index) {
       );
     }
     case 'divider':
-      return <hr key={id} id={id_no_dashes}/>;
+      return <hr key={id} id={id_no_dashes} />;
     case 'quote':
       return <blockquote key={id} id={id_no_dashes}>{value.rich_text[0].plain_text}</blockquote>;
     case 'code':
@@ -182,9 +188,8 @@ export function renderBlock(block, index) {
       return <div id={id_no_dashes}>{block.children.map((child) => renderBlock(child))}</div>;
     }
     default:
-      return `❌ Unsupported block (${
-        type === 'unsupported' ? 'unsupported by Notion API' : type
-      })`;
+      return `❌ Unsupported block (${type === 'unsupported' ? 'unsupported by Notion API' : type
+        })`;
   }
 }
 
@@ -196,7 +201,7 @@ export function renderNestedList(blocks) {
   const isNumberedList = value.children[0].type === 'numbered_list_item';
 
   if (isNumberedList) {
-    return <ol id={id_no_dashes}>{value.children.map((block) => renderBlock(block))}</ol>;
+    return <ol id={id_no_dashes} className='list-decimal'>{value.children.map((block) => renderBlock(block))}</ol>;
   }
-  return <ul id={id_no_dashes}>{value.children.map((block) => renderBlock(block))}</ul>;
+  return <ul id={id_no_dashes} className='list-disc'>{value.children.map((block) => renderBlock(block))}</ul>;
 }

@@ -14,7 +14,6 @@ import OrderedList from "@/components/blog-components/mdx/ordered-list";
 import UnOrderedList from "@/components/blog-components/mdx/unordered-list";
 import ListItem from "@/components/blog-components/mdx/list-item";
 import ParapgraphMappingComponent from "@/components/blog-components/mdx/paragraph";
-import LinkMappingComponent from "@/components/blog-components/mdx/link-mapping-component";
 import ImageMappingComponent from "@/components/blog-components/mdx/image-component";
 import HorivontalRule from "@/components/blog-components/mdx/horizental-rule";
 import BQuoteComponent from "@/components/blog-components/mdx/black-quote-component";
@@ -34,13 +33,13 @@ export function renderBlock(block, index) {
       );
     case 'heading_1':
       return (
-        <h1 id={id_no_dashes} className="mt-2 mb-4 mx-2 text-mainBrand-500 text-4xl">
+        <h1 id={id_no_dashes} className="mt-2 mb-4 mx-2 text-mainBrand-500 text-4xl" key={id}>
           <Text title={value.rich_text} />
         </h1>
       );
     case 'heading_2':
       return (
-        <h2 id={id_no_dashes} className="mt-2 mb-4 mx-2 text-mainBrand-600 text-2xl">
+        <h2 id={id_no_dashes} className="mt-2 mb-4 mx-2 text-mainBrand-600 text-2xl" key={id}>
           <Text title={value.rich_text} />
         </h2>
       );

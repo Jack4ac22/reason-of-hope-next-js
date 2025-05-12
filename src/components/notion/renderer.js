@@ -55,6 +55,12 @@ export function renderBlock(block, index) {
           <Text title={value.rich_text} />
         </h4>
       )
+    case 'heading_5':
+      return (
+        <h5 id={id_no_dashes} className="mt-1 mb-2 mx-5 text-mainBrand-600 text-lg">
+          <Text title={value.rich_text} />
+        </h5>
+      )
     case 'bulleted_list': {
       return <ul key={id} id={id_no_dashes}>{value.children.map((child) => renderBlock(child))}</ul>;
     }

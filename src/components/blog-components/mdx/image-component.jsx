@@ -24,9 +24,9 @@ export default function ImageMappingComponent({ objectElement }) {
     && isLargeWidth));
   const isSmallWidth = objectElement?.alt?.toLowerCase().includes("small") || objectElement?.src.toLowerCase().includes("width=small");
 
-  const isFloatLeft = objectElement?.src?.toLowerCase().includes("left") || objectElement?.alt.toLowerCase().includes("left");
+  const isFloatLeft = objectElement?.src?.toLowerCase().includes("left") || objectElement?.alt?.toLowerCase().includes("left");
   const isFloatCenter = objectElement?.src?.toLowerCase().includes("position=center");
-  const isFloatRight = objectElement?.src?.toLowerCase().includes("position=right") || objectElement?.src.toLowerCase().includes("right");
+  const isFloatRight = objectElement?.src?.toLowerCase().includes("position=right") || objectElement?.src?.toLowerCase().includes("right");
 
   const hiddenDescription = objectElement?.src?.toLowerCase().includes("description=hidden");
 

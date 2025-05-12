@@ -1,12 +1,12 @@
 import Image from 'next/image';
 export default function ImageLayover({ layoverObject }) {
   function sanitizestring(string) {
-    const response = string.replaceAll("small", "").replaceAll("full", "")
+    const response = string.replaceAll("small", "").replaceAll("full", "").replaceAll("large", "").replaceAll("left", "").replaceAll("right", "").replaceAll("center", "");
     return response;
   }
   return (
     <figure>
-      <Image src={`/blog_images/${layoverObject.imageDetails.src}`} alt={layoverObject.imageDetails.alt}
+      <Image src={`${layoverObject.imageDetails.src}`} alt={layoverObject.imageDetails.alt}
         className="mx-auto object-contain rounded-t-xl w-full
         md:rounded-tr-none md:rounded-l-xl md:max-w-lg
         lg:max-w-4xl lg:max-h-[70vh] "

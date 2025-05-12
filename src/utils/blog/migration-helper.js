@@ -267,6 +267,18 @@ export function buildArticleProperties(data) {
     // 21. Cover image — custom URL property
     ...(data.coverImage && {
       Cover: { url: data.coverImage },
+
+      //  22. Youtube - rich text
+      Youtube: {
+        rich_text: [
+          {
+            type: 'text',
+            text: {
+              content: data.youtube,
+            },
+          },
+        ],
+      },
     }),
   };
 }
@@ -288,8 +300,32 @@ export async function createArticlePage(databaseId, data) {
   }
 }
 
+// update page properties of Youtube with a value
+export async function updateYoutubeField(pageId, youtubeUrl) {
+  try {
+    const response = await notion.pages.update({
+      page_id: pageId,
+      properties: {
+        youtube: {
+          rich_text: [
+            {
+              type: 'text',
+              text: {
+                content: youtubeUrl,
+              },
+            },
+          ],
+        },
+      },
+    });
 
-
+    console.log('✅ YouTube property updated successfully.');
+    return response;
+  } catch (error) {
+    console.error('❌ Failed to update YouTube field:', error.message);
+    throw error;
+  }
+}
 
 
 //////////////////////////

@@ -293,7 +293,7 @@ export async function mapSingleFallacy({ id, fallacyName }) {
 
 function filterUndefinedValues(array) {
   const filtered = array.filter(Boolean);
-  console.log(`Filtered ${array.length - filtered.length} undefined values`);
+  // console.log(`Filtered ${array.length - filtered.length} undefined values`);
   return filtered;
 }
 
@@ -375,6 +375,8 @@ export async function mapContentMetaToArticleProps(data) {
     mainCategory: data.directory || '',
 
     coverImage: `${data.coverImage}` || '',
+    
+    youtube: data.youtube || '',
 
     pdf: resources.pdf || '',
     archive: resources.archive || '',

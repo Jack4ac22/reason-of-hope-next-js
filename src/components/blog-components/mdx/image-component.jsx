@@ -17,27 +17,31 @@ export default function ImageMappingComponent({ objectElement }) {
       }
     });
   }
-
-  const isFullWidth = objectElement?.alt?.toLowerCase().includes("full") || objectElement?.src.toLowerCase().includes("width=full");
-  const isLargeWidth = objectElement?.alt?.toLowerCase().includes("large") || objectElement?.src.toLowerCase().includes("width=large" || (!isFullWidth
+  let isFullWidth = objectElement?.alt?.toLowerCase().includes("full") || objectElement?.src?.toLowerCase().includes("width=full");
+  let isLargeWidth = objectElement?.alt?.toLowerCase().includes("large") || objectElement?.src.toLowerCase().includes("width=large" || (!isFullWidth
     && isLargeWidth));
-  const isSmallWidth = objectElement?.alt?.toLowerCase().includes("small") || objectElement?.src.toLowerCase().includes("width=small");
+  let isSmallWidth = objectElement?.alt?.toLowerCase().includes("small") || objectElement?.src.toLowerCase().includes("width=small");
 
-  const isFloatLeft = objectElement?.src?.toLowerCase().includes("left") || objectElement?.alt?.toLowerCase().includes("left") || objectElement?.src?.toLowerCase().includes("position=left");
-  const isFloatCenter = objectElement?.src?.toLowerCase().includes("position=center") || objectElement?.src?.toLowerCase().includes("center") || objectElement?.alt?.toLowerCase().includes("center");
-  const isFloatRight = objectElement?.src?.toLowerCase().includes("position=right") || objectElement?.src?.toLowerCase().includes("right") || objectElement?.alt?.toLowerCase().includes("right") || objectElement?.src?.toLowerCase().includes("position=right");
+  let isFloatLeft = objectElement?.src?.toLowerCase().includes("left") || objectElement?.alt?.toLowerCase().includes("left") || objectElement?.src?.toLowerCase().includes("position=left");
+  let isFloatCenter = objectElement?.src?.toLowerCase().includes("position=center") || objectElement?.src?.toLowerCase().includes("center") || objectElement?.alt?.toLowerCase().includes("center");
+  let isFloatRight = objectElement?.src?.toLowerCase().includes("position=right") || objectElement?.src?.toLowerCase().includes("right") || objectElement?.alt?.toLowerCase().includes("right") || objectElement?.src?.toLowerCase().includes("position=right");
 
-  const hiddenDescription = objectElement?.src?.toLowerCase().includes("description=hidden");
+  let hiddenDescription = objectElement?.src?.toLowerCase().includes("description=hidden");
+
+  isFloatRight = !isFloatCenter && !isFloatLeft
+
+  isSmallWidth = !isFullWidth && !isLargeWidth
 
   function sanitizestring(string) {
     return !string ? "" : string?.replaceAll("small", "")?.replaceAll("full", "").replaceAll("large", "").replaceAll("left", "").replaceAll("right", "").replaceAll("center", "").replaceAll("position=", "").replaceAll("width=", "").replaceAll("description=hidden", "");
   }
   // The figure is either full width, large width, or small width, if not identifies then it is small width. float left, right, center, or none. if none it is float right unless the width is larg or full. If the width is large or full then it is centered.
-  const figureClass = `my-2 ${isFullWidth || isLargeWidth ? "mx-auto block" : "container-fluid"} ${isFullWidth ? "w-100 md:max-w-2xl" : ""} ${isLargeWidth ? "lg:w-3/4 max-w-2xl" : ""} ${(!isFullWidth & !isLargeWidth) ? "w-full md:w-1/2 lg:w-1/3" : ""} ${(isFloatRight || (!isFloatCenter & !isFloatRight & !isFullWidth & !isLargeWidth)) ? "md:float-right md:ml-2" : ""} ${isFloatLeft ? "md:float-left md:mr-2" : ""} ${isFloatCenter ? "mx-auto block" : ""}`
+  const figureClass = `my-2 ${isFullWidth || isLargeWidth ? "mx-auto block" : "container-fluid"} ${isFullWidth ? "w-100 md:max-w-2xl" : ""} ${isLargeWidth ? "lg:w-3/4 max-w-2xl" : ""} ${(!isFullWidth & !isLargeWidth) ? "w-full md:w-1/2 lg:w-1/3" : ""} ${(isFloatRight || (!isFloatCenter & !isFloatLeft & !isFullWidth & !isLargeWidth)) ? "md:float-right md:ml-2" : ""} ${isFloatLeft ? "md:float-left md:mr-2" : ""} ${isFloatCenter ? "mx-auto block" : ""}`
 
   const imageClass = `object-cover w-full ${isSmallWidth ? "max-h-144" : ""} ${(isSmallWidth & isFloatLeft) ? "md:rounded-l-lg pr-3" : ""} ${(isSmallWidth & isFloatRight) ? "md:rounded-r-lg pl-3 " : ""} ${(isSmallWidth & !isFloatRight & !isFloatLeft) ? "md:rounded-r-lg pl-3 " : ""} ${(isSmallWidth & isFloatCenter) ? "rounded-lg" : ""} ${isFullWidth ? "rounded-lg" : ""}`
 
   const captionClass = `figure-caption text-break uni-text-color text-center border-b border-double`
+
   return (
     <figure className={figureClass}>
       <Image src={imageSource} alt={objectElement.alt}

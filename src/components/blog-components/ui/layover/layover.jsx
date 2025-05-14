@@ -30,7 +30,7 @@ export default function LayOverSection() {
 
             {layoverObject.type === "image" && <p>
               <span className="m-2">لعرض الصورة بحجمها الكامل</span>
-              <Link href={`/blog_images/${layoverObject.imageDetails.src}`} className="m-2 info-link-button">{" اضغط هنا "}</Link>
+              <Link target="_blank" href={layoverObject.imageDetails.src.startsWith("http") ? layoverObject.imageDetails.src : `/blog_images/${layoverObject.imageDetails.src}`} className="m-2 info-link-button">{" اضغط هنا "}</Link>
             </p>}
             <button className="m-2 text-danger-500" onClick={handleCloseLayover}>
               <FaRegWindowClose />

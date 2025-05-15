@@ -1,5 +1,10 @@
 import { Fragment } from 'react';
+import { Suspense } from 'react';
 import Link from 'next/link';
+
+import Iframe from 'react-iframe'
+import YoutubeListEmbeded from "@/components/notion/notion-components/notion-mapping/youtube-list";
+import YoutubeListSkeleton from "@/components/notion/notion-components/notion-mapping/YoutubeListSkeleton";
 
 import Text from './text';
 import styles from '@/assets/styles/post.module.css';
@@ -191,6 +196,37 @@ export function renderBlock(block, index) {
     }
     case 'column': {
       return <div id={id_no_dashes}>{block.children.map((child) => renderBlock(child))}</div>;
+    }
+    case 'embed': {
+      const embeded_src = value.url;
+      return <>
+        <div>EMBEDED</div>
+        <Iframe
+          key={id}
+          url={value.url}
+          width={`${'100%'}`}
+          height={`${'100%'}`}
+          className={` ${' block h-fill'} duration-100  rounded-b-xl`}
+          loading='eager'
+          scrolling='yes'
+          name='layover frame'
+          credentialless
+          title='Layover frame to diplay ecternal links and images'
+          aria-hidden={'false'}
+          aria-live="polite" />
+      </>
+    }
+    case 'video': {
+      const videoUrl = value?.external?.url;
+      const videoCaption = value?.caption[0]?.plain_text;
+      const videoType = value?.type;
+      return (
+        <Suspense fallback={<YoutubeListSkeleton />}>
+          <div key={id} id={id_no_dashes}>
+            <YoutubeListEmbeded videoUrl={videoUrl} videoCaption={videoCaption} videoType={videoType} />
+          </div>
+        </Suspense>
+      );
     }
     default:
       return `❌ Unsupported block (${type === 'unsupported' ? 'unsupported by Notion API' : type

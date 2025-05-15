@@ -23,6 +23,7 @@ import ImageMappingComponent from "@/components/blog-components/mdx/image-compon
 import HorivontalRule from "@/components/blog-components/mdx/horizental-rule";
 import BQuoteComponent from "@/components/blog-components/mdx/black-quote-component";
 import TableMappingComponent from "@/components/blog-components/mdx/table-mapping-component";
+import PdfViewer from './notion-components/notion-mapping/pdf-viewer';
 
 export function renderBlock(block, index) {
   const { type, id } = block;
@@ -158,6 +159,13 @@ export function renderBlock(block, index) {
         </figure>
       );
     }
+    case 'pdf': {
+      const srcFile = value.type === 'external' ? value?.external?.url : value?.file?.url;
+      const captionFile = value.caption ? value.caption[0]?.plain_text : '';
+      return (
+        PdfViewer({ url: srcFile, title: captionFile })
+      );
+    }
     case 'bookmark': {
       const href = value.url;
       return (
@@ -199,22 +207,8 @@ export function renderBlock(block, index) {
     }
     case 'embed': {
       const embeded_src = value.url;
-      return <>
-        <div>EMBEDED</div>
-        <Iframe
-          key={id}
-          url={value.url}
-          width={`${'100%'}`}
-          height={`${'100%'}`}
-          className={` ${' block h-fill'} duration-100  rounded-b-xl`}
-          loading='eager'
-          scrolling='yes'
-          name='layover frame'
-          credentialless
-          title='Layover frame to diplay ecternal links and images'
-          aria-hidden={'false'}
-          aria-live="polite" />
-      </>
+      return (
+        <div>EMBEDED</div>)
     }
     case 'video': {
       const videoUrl = value?.external?.url;

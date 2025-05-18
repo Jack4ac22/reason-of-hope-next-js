@@ -19,10 +19,8 @@ export default function YoutubeListEmbeded({ videoUrl, videoCaption, videoType }
   if (!videoId && !listId || videoType !== 'external' || !videoUrl) {
     return null;
   }
-
-
   return (
-    <div className="my-4">
+    <div className="my-4 print:hidden">
       <div className="w-full h-40 overflow-hidden">
         {videoId && !listId && (
           <Iframe

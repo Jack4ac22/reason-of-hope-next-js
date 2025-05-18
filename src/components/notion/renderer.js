@@ -68,7 +68,7 @@ export function renderBlock(block, index) {
         </h5>
       )
     case 'bulleted_list': {
-      return <ul key={id} id={id_no_dashes}>{value.children.map((child) => renderBlock(child))}</ul>;
+      return <ul key={id} id={id_no_dashes} className='list-disc list-inside mr-3'>{value.children.map((child) => renderBlock(child))}</ul>;
     }
     case 'numbered_list': {
       return <ol key={id} id={id_no_dashes} className="list-decimal list-inside md:m-5" style={{ listStyleType: 'arabic-indic' }}>{value.children.map((child, index) => renderBlock(child, index))}</ol>;
@@ -163,7 +163,9 @@ export function renderBlock(block, index) {
       const srcFile = value.type === 'external' ? value?.external?.url : value?.file?.url;
       const captionFile = value.caption ? value.caption[0]?.plain_text : '';
       return (
-        PdfViewer({ url: srcFile, title: captionFile })
+        <Suspense fallback={<p>Loading PDF...</p >}>
+          <PdfViewer key={id} url={srcFile} title={captionFile} />
+        </Suspense>
       );
     }
     case 'bookmark': {
@@ -236,7 +238,7 @@ export function renderNestedList(blocks) {
   const isNumberedList = value.children[0].type === 'numbered_list_item';
 
   if (isNumberedList) {
-    return <ol id={id_no_dashes} className='list-decimal'>{value.children.map((block) => renderBlock(block))}</ol>;
+    return <ol id={id_no_dashes} className='list-decimal list-inside '>{value.children.map((block) => renderBlock(block))}</ol>;
   }
-  return <ul id={id_no_dashes} className='list-disc'>{value.children.map((block) => renderBlock(block))}</ul>;
+  return <ul id={id_no_dashes} className='list-disc list-inside mr-5'>{value.children.map((block) => renderBlock(block))}</ul>;
 }

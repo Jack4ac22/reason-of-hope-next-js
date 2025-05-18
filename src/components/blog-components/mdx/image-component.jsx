@@ -50,7 +50,7 @@ export default function ImageMappingComponent({ objectElement }) {
         height={0}
         width={0}
         onClick={handleLinkClick} />
-      {hiddenDescription || (<figcaption className={captionClass}>
+      {sanitizestring(objectElement.alt).trim() && !hiddenDescription && (<figcaption className={captionClass}>
         {sanitizestring(objectElement.alt)}
       </figcaption>)}
     </figure>)

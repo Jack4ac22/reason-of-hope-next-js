@@ -10,9 +10,9 @@ export default function ArticleContent({ article }) {
       <Suspense fallback={<ArticlePageSkelton />}>
         <ArticleHeader article={article} />
         <div className="px-2">
-          <ArticleBody article={article} />
+          {/* <ArticleBody article={article} /> */}
         </div>
-        <ArticleFooter article={article} />
+        {/* <ArticleFooter article={article} /> */}
       </Suspense>
     </>
   );

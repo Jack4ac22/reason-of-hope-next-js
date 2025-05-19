@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 import Iframe from 'react-iframe'
 import YoutubeListEmbeded from "@/components/notion/notion-components/notion-mapping/youtube-list";
-import YoutubeListSkeleton from "@/components/notion/notion-components/notion-mapping/YoutubeListSkeleton";
+import YoutubeListSkeleton from "@/components/blog-components/skeltons/YoutubeListSkeleton";
 
 import Text from './text';
 import styles from '@/assets/styles/post.module.css';

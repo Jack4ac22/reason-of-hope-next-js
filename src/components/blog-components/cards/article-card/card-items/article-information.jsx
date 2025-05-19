@@ -44,7 +44,7 @@ export default function ArticleInformation({ article }) {
         </section>
 
         {/* authors */}
-        {article.authors && article.authors.length > 0 &&
+        {/* {article.authors && article.authors.length > 0 &&
           (<section className="mb-1">
             <p className="text-right">
               <span> {(article.authors.length == 1) ? 'المؤَلِّف: ' : 'المؤلِّفون: '
@@ -58,9 +58,9 @@ export default function ArticleInformation({ article }) {
             </p>
           </section>
           )
-        }
-        {/*TODO: translators */}
-        {
+        } */}
+        {/*translators */}
+        {/* {
           article.translators && article.translators.length > 0 &&
           (<section className="mb-1 ">
             <p className="text-right">
@@ -75,7 +75,7 @@ export default function ArticleInformation({ article }) {
             </p>
           </section>
           )
-        }
+        } */}
 
         {/* full description */}
         {article.description &&
@@ -93,7 +93,7 @@ export default function ArticleInformation({ article }) {
         )}
 
         {/* multimedia Links */}
-        {audioLinks && audioLinks.length > 0 &&
+        {/* {audioLinks && audioLinks.length > 0 &&
           (<section className="mb-1 text-right">
             <p>
               <span>روابط الوسائط: </span>
@@ -108,12 +108,12 @@ export default function ArticleInformation({ article }) {
               </span>
             </p>
           </section>)
-        }
+        } */}
 
         {/* published items */}
 
         {/* downloadable */}
-        {article.resources && article.resources.length > 0 &&
+        {/* {article.resources && article.resources.length > 0 &&
           (<section className="mb-1 text-right">
             <p>
               <span>الملفات: </span>
@@ -128,10 +128,10 @@ export default function ArticleInformation({ article }) {
               </span>
             </p>
           </section>)
-        }
+        } */}
 
         {/* categories */}
-        {article.categories && article.categories.length > 0 &&
+        {/* {article.categories && article.categories.length > 0 &&
           (<section className="mb-1 text-right">
             <p>
               <span>{article.categories.length == 1 ? "القسم: " : "الأقسام: "}</span>
@@ -144,10 +144,10 @@ export default function ArticleInformation({ article }) {
               }
             </p>
           </section>)
-        }
+        } */}
 
         {/* tags */}
-        {article.tags && article.tags.length > 0 &&
+        {/* {article.tags && article.tags.length > 0 &&
           (<section className="mb-1 text-right">
             <p className="">
               <span>الوسوم: </span>
@@ -159,7 +159,7 @@ export default function ArticleInformation({ article }) {
               ))
               }
             </p>
-          </section>)}
+          </section>)} */}
 
       </div>
     </>

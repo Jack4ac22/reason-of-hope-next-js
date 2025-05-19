@@ -157,26 +157,29 @@ export async function getAllFallacies() {
 /////////////////////////////////////
 
 export async function getPageFromSlug(slug) {
+  if (!slug || typeof slug !== 'string') {
+    console.warn('[Notion] getPageFromSlug was called with invalid slug:', slug);
+    return null;
+  }
+
   try {
     const response = await read_notion.databases.query({
-      database_id: process.env.NOTION_ARTICLES_DATABASE_ID || "NOTION_KEY",
+      database_id: process.env.NOTION_ARTICLES_DATABASE_ID,
       filter: {
         property: 'Slug',
-        formula: {
-          string: {
-            equals: slug,
-          },
+        rich_text: {
+          equals: slug,
         },
       },
     });
-    if (response?.results?.length) {
-      return response?.results?.[0];
-    }
+
+    return response.results?.[0] || null;
   } catch (error) {
     console.error('[Notion] Failed to get page from slug:', error.message);
+    return null;
   }
-  return null;
-};
+}
+
 
 /////////////////////////////////
 ///////////GET PAGE BY ID//////////
@@ -241,3 +244,29 @@ export async function getBlocks(blockID) {
     return acc;
   }, []));
 };
+
+
+
+//////////////////////////////////////////////////////////
+///////////GET X RANDOM PAGES BY mainCategory field //////
+//////////////////////////////////////////////////////////
+
+export async function getRelatedPages(mainCategory, count) {
+  try {
+    const response = await read_notion.databases.query({
+      database_id: process.env.NOTION_ARTICLES_DATABASE_ID,
+      filter: {
+        property: 'MainCategory',
+        select: {
+          equals: mainCategory,
+        },
+      },
+    });
+    const articlesByCategory = response.results;
+    const randomX = articlesByCategory.sort(() => Math.random() - 0.5).slice(0, count);
+    return randomX;
+  } catch (error) {
+    console.error('[Notion] Failed to get related pages:', error.message);
+    return [];
+  }
+}

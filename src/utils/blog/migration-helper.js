@@ -1,4 +1,5 @@
 import { getAllArticlesData } from '@/utils/blog/articles-functions';
+import { getPageFromSlug } from '@/utils/blog/updated-notion-helper'
 import { Client } from '@notionhq/client';
 
 const notion = new Client({ auth: process.env.NOTION_WRITE_TOKEN });
@@ -482,4 +483,37 @@ export function mapFallacyPage(input) {
   });
 
   return Array.isArray(input) ? input.map(mapSingle) : mapSingle(input);
+}
+
+
+
+
+//  update CMI field on the properties using creationLink from md files
+export async function updateCMIFieldOnProperties() {
+  const properties = getAllArticlesData(true).filter(property => property.creationLink);
+  for (const property of properties) {
+    const { creationLink, slug } = property;
+    if (creationLink) {
+      console.log(`Updating CMI field for ${slug}`);
+      const page = await getPageFromSlug(slug);
+      if (page) {
+        try {
+          const pageId = page.id
+          await notion.pages.update({
+            page_id: pageId,
+            properties: {
+              CMI: {
+                url: creationLink,
+              },
+            },
+          });
+          console.log(`Updated CMI field for ${slug}`);
+        }
+        catch (error) {
+          console.error(`Error updating CMI field for ${slug}:`, error);
+        }
+      }
+      // await updateCMIField(slug, creationLink);
+    }
+  }
 }

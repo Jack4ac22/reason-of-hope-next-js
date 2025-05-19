@@ -4,8 +4,7 @@ import { randomArticlesFromArray } from "@/utils/blog/general-functions";
 import ArticleCard from "@/components/blog-components/cards/article-card/article-card";
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft, FaDotCircle } from "react-icons/fa";
 import { Suspense } from 'react'
-import CardsListSkeleton from "@/components/blog-components/skeltons/card-list-skelton";
-
+import ArticleCardSkeleton from "@/components/blog-components/skeltons/article-card-skelton";
 
 // TODO: fix layout issue with the width on md screens
 
@@ -16,7 +15,7 @@ import CardsListSkeleton from "@/components/blog-components/skeltons/card-list-s
  * @param {Object[]} articles - The array of articles to display in the slider.
  * @returns {JSX.Element} The card slider component.
  */
-export default function CardSlider({ articles, showNav = true }) {
+export default async function CardSlider({ articles, showNav = true }) {
   const unique_key_prefix = articles.map((article) => article?.title?.slice(2, 3)).join("-");
   const slicedArticles = articles?.length > 5 ? randomArticlesFromArray(articles, 5) : articles;
 
@@ -69,8 +68,8 @@ export default function CardSlider({ articles, showNav = true }) {
         <div className="flex justify-center items-center -z-50">
           {slicedArticles.map((article, index) => (
             index === currentIndex && (
-              <div key={`${unique_key_prefix}-${index}-${article?.title}`} className="animate-smoothlyAppear">
-                <Suspense fallback={<CardsListSkeleton />} >
+              <div key={`${'article'}-${index}-${article?.title}`} className="animate-smoothlyAppear">
+                <Suspense fallback={<ArticleCardSkeleton />} >
                   <ArticleCard article={article} simple={false} />
                 </Suspense>
               </div>

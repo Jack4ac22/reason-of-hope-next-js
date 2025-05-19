@@ -9,16 +9,19 @@ export default function YoutubeListEmbeded({ videoUrl, videoCaption, videoType }
       return parsed.searchParams.get(key); // returns the video ID
     } catch (err) {
       console.error('Invalid URL:', err.message);
+      if (key === 'v') {
+        return url
+      }
       return null;
     }
   }
-
   const videoId = extractYouTubeVideoKey(videoUrl, 'v');
   const listId = extractYouTubeVideoKey(videoUrl, 'list');
 
   if (!videoId && !listId || videoType !== 'external' || !videoUrl) {
     return null;
   }
+
   return (
     <div className="my-4 print:hidden">
       <div className="w-full h-40 overflow-hidden">
@@ -27,8 +30,8 @@ export default function YoutubeListEmbeded({ videoUrl, videoCaption, videoType }
             url={`https://www.youtube.com/embed/${videoId}`}
             width="100%"
             height="100%"
-            id="myId"
-            className="myClassname"
+            // id="myId"
+            // className="myClassname"
             display="initial"
             position="relative"
           />

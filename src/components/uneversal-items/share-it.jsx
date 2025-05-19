@@ -71,7 +71,6 @@ export default function ShareIt({
   const query = searchParams.toString() ? `?${searchParams.toString()}` : "";
   const link = `${url}${currentPath}${query}`;
   // console.log("Constructed share link: ", link);
-
   // use the article content and default to the props
   try {
     if (article?.title) title = article.title;

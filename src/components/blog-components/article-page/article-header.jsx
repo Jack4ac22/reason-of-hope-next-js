@@ -22,17 +22,17 @@ export default function ArticleHeader({ article }) {
       <div className="flex flex-col-reverse md:flex-row-reverse items-center md:justify-between">
         <ArticleDate article={article} />
         <div className='flex-col'>
-          <ArticleAuthors article={article} />
-          <ArticleTranslators article={article} />
+          {/* <ArticleAuthors article={article} /> */}
+          {/* <ArticleTranslators article={article} /> */}
         </div>
       </div>
       <Suspense fallback={<MediaPlayersHeaderSkeleton />}>
         <MediaPlayersHeader article={article} />
       </Suspense>
       <CreationLink article={article} />
-      <AudioLinks article={article} />
-      <ResourcesLinks article={article} />
-      <ShareIt article={article} />
+      {/* <AudioLinks article={article} /> */}
+      {/* <ResourcesLinks article={article} /> */}
+      {/* <ShareIt article={article} /> */}
     </header>
   );
 }

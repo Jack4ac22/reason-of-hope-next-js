@@ -214,6 +214,7 @@ export async function mapAllFallacies() {
         .join(' ')
         .trim(),
       video: (page.properties?.Video?.rich_text?.[0]?.plain_text || '').trim(),
+      article: (page.properties?.Article?.rich_text?.[0]?.plain_text || '').trim(),
     };
   });
   return mappedFallacies;
@@ -281,6 +282,47 @@ export async function mapSingleFallacy({ id, fallacyName }) {
   };
 }
 
+
+
+/////////////////////////////////
+// MAP Article/Page properties //
+/////////////////////////////////
+
+export async function getPagePropertiesInFlatObject(properties) {
+  return {
+    id: properties.id,
+    slug: properties?.Slug?.rich_text?.[0]?.plain_text || '',
+    date: properties?.Date?.date?.start || '',
+    archive: properties?.Archive?.url || '',
+    pdf: properties?.PDF?.url || '',
+    youtube: properties?.youtube?.rich_text?.[0]?.plain_text || '',
+    appleBooks: properties?.AppleBooks?.url || '',
+    cmi: properties?.CMI?.url || '',
+    spotify: properties?.spotify?.url || '',
+    description: (properties?.Description?.rich_text || [])
+      .map(rt => rt.plain_text)
+      .join(' ')
+      .trim(),
+    epub: properties?.EPUB?.url || '',
+    googleBooks: properties?.GoogleBooks?.url || '',
+    mainCategory: properties?.MainCategory?.select?.name || '',
+    featured: properties?.Featured?.checkbox || false,
+    published: properties?.Published?.checkbox || false,
+    isBook: properties?.IsBook?.checkbox || false,
+    coverImage: properties?.Cover?.url || '',
+
+    tags: properties?.Tags?.relation?.map(rel => rel.id) || [],
+    authors: properties?.Authors?.relation?.map(rel => rel.id) || [],
+    translators: properties?.Translators?.relation?.map(rel => rel.id) || [],
+    fallacies: properties?.Fallacies?.relation?.map(rel => rel.id) || [],
+    subcategories: properties?.Subcategories?.relation?.map(rel => rel.id) || [],
+
+    title:
+      properties?.Title?.title?.[0]?.plain_text ||
+      properties?.title?.title?.[0]?.plain_text ||
+      '',
+  };
+}
 
 
 
@@ -375,7 +417,7 @@ export async function mapContentMetaToArticleProps(data) {
     mainCategory: data.directory || '',
 
     coverImage: `${data.coverImage}` || '',
-    
+
     youtube: data.youtube || '',
 
     pdf: resources.pdf || '',

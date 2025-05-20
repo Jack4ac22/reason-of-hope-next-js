@@ -81,14 +81,14 @@ export function renderBlock(block, index) {
           {/* eslint-disable-next-line no-use-before-define */}
           {!!value.children && renderNestedList(block)}
         </li>);
-    case 'numbered_list_item':
-      return (
-        <li key={block.id} id={id_no_dashes} className="oldstyle-nums">
-          <Text title={value.rich_text} />
-          {/* eslint-disable-next-line no-use-before-define */}
-          {!!value.children && renderNestedList(block)}
-        </li>
-      );
+        
+    case 'numbered_list_item': return (
+      <li key={block.id} id={id_no_dashes} className="oldstyle-nums">
+        <Text title={value.rich_text} />
+        {/* eslint-disable-next-line no-use-before-define */}
+        {!!value.children && renderNestedList(block)}
+      </li>
+    );
     case 'to_do':
       return (
         <div key={id}>

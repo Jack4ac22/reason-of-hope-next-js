@@ -33,7 +33,6 @@ export default function NotionImage({ imageData }) {
   let hiddenDescription = src?.toLowerCase().includes("description=hidden");
 
   isFloatRight = !isFloatCenter && !isFloatLeft
-
   isSmallWidth = !isFullWidth && !isLargeWidth
 
   function sanitizestring(string) {
@@ -51,11 +50,13 @@ export default function NotionImage({ imageData }) {
   ].filter(Boolean).join(' ');
 
   const imageClass = [
-    "object-cover w-full",
+    "object-cover w-full sm:rounded-xl",
     isSmallWidth ? "max-h-144" : "",
     (isSmallWidth && isFloatLeft) ? "md:rounded-l-lg pr-3" : "",
     (isSmallWidth && isFloatRight) ? "md:rounded-r-lg pl-3" : "",
-    (isSmallWidth && !isFloatRight && !isFloatLeft) ? "md:rounded-r-lg pl-3" : "",
+    (isFloatRight && !isFullWidth && !isLargeWidth ) ? "md:rounded-r-lg pl-3" : "",
+    (isFloatLeft ) ? "md:rounded-l-lg pr-3" : "",
+    (isFloatCenter ) ? "rounded-lg" : "",
     (isSmallWidth && isFloatCenter) ? "rounded-lg" : "",
     isFullWidth ? "rounded-lg" : ""
   ].filter(Boolean).join(' ');

@@ -1,7 +1,7 @@
 import CardSlider from "@/components/blog-components/ui/sliders/cards-slider";
 import Link from "next/link";
 import { Suspense } from 'react'
-import CardsListSkeleton from "@/components/blog-components/skeltons/card-list-skelton";
+import ArticleCardSkeleton from "@/components/blog-components/skeltons/article-card-skelton";
 export default function SectionWithSlider({ sectionObject }) {
   return (
     <section className="uni-text-color mt-6" id={sectionObject?.title?.replace(/\s+/g, '')}>
@@ -14,7 +14,7 @@ export default function SectionWithSlider({ sectionObject }) {
         </div>
 
         <div className="mt-4 md:mt-0 md:w-1/2 w-full flex justify-center">
-          <Suspense fallback={<CardsListSkeleton />} >
+          <Suspense fallback={<ArticleCardSkeleton />} >
             <CardSlider articles={sectionObject.articles} />
           </Suspense>
         </div>

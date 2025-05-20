@@ -1,8 +1,8 @@
-import { Suspense } from "react";
-import CardsListSkeleton from "@/components/blog-components/skeltons/card-list-skelton";
 import CardSlider from "@/components/blog-components/ui/sliders/cards-slider";
 import { getRelatedPages } from "@/utils/blog/updated-notion-helper";
 import { getPagePropertiesInFlatObject } from "@/utils/blog/notion-mapper";
+import { Suspense } from "react";
+import CardSliderSkeleton from "@/components/blog-components/skeltons/card-slider-skelton";
 
 export default async function NotionRelatedArticles({ article }) {
   const relatedArticlesData = await getRelatedPages(article.mainCategory, 5);
@@ -18,7 +18,7 @@ export default async function NotionRelatedArticles({ article }) {
           <h3 className="article-footer-headings">
             المقالات ذات الصلة
           </h3>
-          <Suspense fallback={<CardsListSkeleton />} >
+          <Suspense fallback={<CardSliderSkeleton />} >
             <CardSlider articles={mappedRelatedArticles} />
           </Suspense>
         </div>

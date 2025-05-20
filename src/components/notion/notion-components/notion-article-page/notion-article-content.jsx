@@ -9,9 +9,9 @@ export default async function NotionArticleContent({ article }) {
     <>
       <Suspense fallback={<ArticlePageSkelton />}>
         <NotionArticleHeader article={article} />
-        <div className="px-2">
+        <section className="px-2">
           <NotionArticleBody article={article} />
-        </div>
+        </section>
         <NotionArticleFooter article={article} />
       </Suspense>
     </>

@@ -290,7 +290,7 @@ export async function mapSingleFallacy({ id, fallacyName }) {
 
 export async function getPagePropertiesInFlatObject(properties) {
   return {
-    id: properties.id,
+    id: properties?.id,
     slug: properties?.Slug?.rich_text?.[0]?.plain_text || '',
     date: properties?.Date?.date?.start || '',
     archive: properties?.Archive?.url || '',

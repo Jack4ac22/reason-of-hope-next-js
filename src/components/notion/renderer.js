@@ -23,7 +23,8 @@ import ImageMappingComponent from "@/components/blog-components/mdx/image-compon
 import HorivontalRule from "@/components/blog-components/mdx/horizental-rule";
 import BQuoteComponent from "@/components/blog-components/mdx/black-quote-component";
 import TableMappingComponent from "@/components/blog-components/mdx/table-mapping-component";
-import PdfViewer from './notion-components/notion-mapping/pdf-viewer';
+import NotionImage from '@/components/notion/notion-components/notion-mapping/notion-image';
+import PdfViewer from '@/components/notion/notion-components/notion-mapping/pdf-viewer';
 
 export function renderBlock(block, index) {
   const { type, id } = block;
@@ -117,17 +118,7 @@ export function renderBlock(block, index) {
         </div>
       );
     case 'image': {
-      const src = value.type === 'external' ? value.external.url : value.file.url;
-      const caption = value.caption ? value.caption[0]?.plain_text : '';
-      return (
-        <>
-          <ImageMappingComponent objectElement={{ src, alt: caption }} />
-          {/* <figure>
-          <img src={src} alt={caption} />
-          {caption && <figcaption>{caption}</figcaption>}
-        </figure> */}
-        </>
-      );
+      return (<NotionImage imageData={value} />);
     }
     case 'divider':
       return <hr key={id} id={id_no_dashes} />;
@@ -135,7 +126,7 @@ export function renderBlock(block, index) {
       return <blockquote key={id} id={id_no_dashes}>{value.rich_text[0].plain_text}</blockquote>;
     case 'code':
       return (
-        <pre className={styles.pre} id={id_no_dashes}>
+        <pre className={styles.pre} id={id_no_dashes} dir='ltr'>
           <code className={styles.code_block} key={id}>
             {value.rich_text[0].plain_text}
           </code>

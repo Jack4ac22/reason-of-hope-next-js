@@ -12,15 +12,17 @@ export default async function NotionRelatedArticles({ article }) {
     mappedRelatedArticles.push(await getPagePropertiesInFlatObject(relatedArticlesData[article].properties));
   }
   return (
-    <div className="flex justify-center print:hidden">
-      <div className="flex-col">
-        <h3 className="article-footer-headings">
-          المقالات ذات الصلة
-        </h3>
-        <Suspense fallback={<CardsListSkeleton />} >
-          <CardSlider articles={mappedRelatedArticles} />
-        </Suspense>
+    <section className="block mt-4">
+      <div className="flex justify-center print:hidden">
+        <div className="flex-col">
+          <h3 className="article-footer-headings">
+            المقالات ذات الصلة
+          </h3>
+          <Suspense fallback={<CardsListSkeleton />} >
+            <CardSlider articles={mappedRelatedArticles} />
+          </Suspense>
+        </div>
       </div>
-    </div>
+    </section>
   );
 }

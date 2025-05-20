@@ -201,49 +201,53 @@ export async function getPageById(pageId) {
 
 export async function getBlocks(blockID) {
   const blockId = blockID?.replaceAll('-', '');
-  const { results } = await read_notion.blocks.children.list({
-    block_id: blockId,
-    page_size: 100,
-  });
+  let blocks = [];
+  let cursor = undefined;
 
-  // Fetches all child blocks recursively
-  // be mindful of rate limits if you have large amounts of nested blocks
-  // See https://developers.notion.com/docs/working-with-page-content#reading-nested-blocks
-  const childBlocks = results.map(async (block) => {
-    if (block.has_children) {
-      const children = await getBlocks(block.id);
-      return { ...block, children };
-    }
-    return block;
-  });
+  do {
+    const response = await read_notion.blocks.children.list({
+      block_id: blockId,
+      page_size: 100,
+      start_cursor: cursor,
+    });
 
-  return Promise.all(childBlocks).then((blocks) => blocks.reduce((acc, curr) => {
+    blocks.push(...response.results);
+    cursor = response.has_more ? response.next_cursor : null;
+  } while (cursor);
+
+  // Fetch nested children if needed
+  const childBlocks = await Promise.all(
+    blocks.map(async (block) => {
+      if (block.has_children) {
+        const children = await getBlocks(block.id);
+        return { ...block, children };
+      }
+      return block;
+    })
+  );
+
+  // Merge consecutive list items into bulleted or numbered lists
+  return childBlocks.reduce((acc, curr) => {
+    const prev = acc[acc.length - 1];
     if (curr.type === 'bulleted_list_item') {
-      if (acc[acc.length - 1]?.type === 'bulleted_list') {
-        acc[acc.length - 1][acc[acc.length - 1].type].children?.push(curr);
+      if (prev?.type === 'bulleted_list') {
+        prev.bulleted_list.children.push(curr);
       } else {
-        acc.push({
-          id: uuid(),
-          type: 'bulleted_list',
-          bulleted_list: { children: [curr] },
-        });
+        acc.push({ id: uuid(), type: 'bulleted_list', bulleted_list: { children: [curr] } });
       }
     } else if (curr.type === 'numbered_list_item') {
-      if (acc[acc.length - 1]?.type === 'numbered_list') {
-        acc[acc.length - 1][acc[acc.length - 1].type].children?.push(curr);
+      if (prev?.type === 'numbered_list') {
+        prev.numbered_list.children.push(curr);
       } else {
-        acc.push({
-          id: uuid(),
-          type: 'numbered_list',
-          numbered_list: { children: [curr] },
-        });
+        acc.push({ id: uuid(), type: 'numbered_list', numbered_list: { children: [curr] } });
       }
     } else {
       acc.push(curr);
     }
     return acc;
-  }, []));
-};
+  }, []);
+}
+
 
 
 

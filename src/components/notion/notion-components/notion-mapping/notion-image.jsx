@@ -7,7 +7,7 @@ function sanitizeImageSource(src) {
 export default function NotionImage({ imageData }) {
   const { layoverObject, setLayoverObject } = useLayoverGlobal();
 
-  const src = imageData.type === "external" ? imageData.external.url : imageData.file.url;
+  const src = imageData.type === "external" ? sanitizeImageSource(imageData.external.url) : sanitizeImageSource(imageData.file.url);
   const alt = imageData.caption?.[0]?.plain_text || '';
 
   function handleLinkClick(e) {

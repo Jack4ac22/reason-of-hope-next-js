@@ -5,7 +5,7 @@ import { Suspense } from "react";
 import CardSliderSkeleton from "@/components/blog-components/skeltons/card-slider-skelton";
 
 export default async function NotionRelatedArticles({ article }) {
-  const relatedArticlesData = await getRelatedPages(article.mainCategory, 5);
+  const relatedArticlesData = await getRelatedPages({ tagIds: article.tags, subcategoryIds: article.subcategories }, 5);
   if (relatedArticlesData.length === 0) return null
   let mappedRelatedArticles = [];
   for (article in relatedArticlesData) {

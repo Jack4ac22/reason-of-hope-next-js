@@ -13,7 +13,7 @@ export default function RegularArticleBody({article}) {
       <div className='flex-col items-center justify-center h-40 m-2'>
         {/* header including the title and the time */}
         <div>
-          <h2 className='h-12 mbF-2 text-lg  text-center font-bold text-mainBrand-600 dark:text-mainBrand-100'>{article.title.length > 44 ? article.title.slice(0, 44) + "..." : article.title}</h2>
+          <h2 className='h-12 mbF-2 text-lg  text-center font-bold text-mainBrand-600 dark:text-mainBrand-100'>{article?.title?.length > 44 ? article?.title?.slice(0, 44) + "..." : article.title}</h2>
           <p className='text-xs text-left text-darkAccent-400 dark:text-white '>
             <span >تاريخ النشر: </span>
             <span>

@@ -1,9 +1,15 @@
+"use client";
+import { useLayoverGlobal } from "@/context/layover/LayoverGlobalContext";
+
 import { FaFilePdf, FaGoogle, FaArchive, FaApple } from "react-icons/fa";
 import { FcKindle } from "react-icons/fc";
 
 import Link from "next/link";
 
+
 export default function ResourcesLinks({ article }) {
+  const { layoverObject, setLayoverObject } = useLayoverGlobal();
+
   if (!article.resources) return null;
   let filteredResources = []
   filteredResources = article?.resources?.filter((resource) => {
@@ -11,7 +17,9 @@ export default function ResourcesLinks({ article }) {
     return link !== '';
   });
 
+
   function ResourceLinkIcon({ title, link, children }) {
+
     return (
       <div className="relative group w-min h-min pt-5 group-hover:shadow-xl flex flex-col items-center my-2 rounded-full p-1 duration-200">
         <Link href={link} target="_blank" rel="noopener noreferrer">
@@ -24,6 +32,16 @@ export default function ResourcesLinks({ article }) {
     );
   }
 
+  function handlePDFLinkClick(e) {
+    e.preventDefault();
+    setLayoverObject({
+      type: "pdf",
+      pdfDetails: {
+        title: article.title,
+        link: article.resources.find((resource) => resource.title === "pdf").link,
+      }
+    });
+  }
   return (
     <div className='flex-col my-3  print:hidden'>
       <p className="text-lg font-bold sm:text-center">
@@ -34,7 +52,7 @@ export default function ResourcesLinks({ article }) {
           const { title, link } = resource;
           if (title === "pdf") {
             return (
-              <div key={`${title}-${index}`}>
+              <div key={`${title}-${index}`} onClick={handlePDFLinkClick}>
                 <ResourceLinkIcon title={title} link={`/publications/${link}`}>
                   <FaFilePdf className="text-4xl mx-2" />
                 </ResourceLinkIcon>

@@ -25,7 +25,7 @@ audio:
   - anchorLink: "https://anchor.fm/reason-of-hope4/episodes/--e12r9q8"
 externalLink: ""
 authors:
-  - name: "جاك قازنجيان - Jack Kazanjyan"
+  - name: "جاك قازنجيان"
     link: ""
 description: "دراسة تتناول تاريخ حركة الفكر الجديد التي بنيت على أفكار كويمبي، وهو الذي قدَّم الأساس الفكري واللاهوتي للعديد من الحركات المعاصرة."
 status: "published"

@@ -30,7 +30,7 @@ authors:
   - name: "د. ستيڤن بويس - Dr. Stephen Boyce"
     link: ""
 translators:
-  - name: "جاك قازنجيان - Jack Kazanjyan"
+  - name: "جاك قازنجيان"
     link: ""
 description: "ظهر بين الفينة والأُخرى ادعاءات بالعثور على انجيل بطرس المفقود، ما هي حقيقة هذه الإدعاءات، وما هو هذا الإنجيل؟"
 status: "published"

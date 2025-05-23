@@ -1,4 +1,5 @@
 'use client';
+import YoutubeIframe from "@/components/uneversal-items/youtube-iframe";
 import { filterByKeyValue } from "@/utils/blog/general-functions";
 import { Spotify } from 'react-spotify-embed';
 import YouTube from "react-youtube";
@@ -35,10 +36,11 @@ export default function MediaPlayersHeader({ article }) {
         )}
         {youtube_link && (
           <div className='md:w-1/3 h-44'>
-            <YouTube
+            {/* <YouTube
               videoId={youtube_link}
               opts={opts}
-            />
+            /> */}
+            <YoutubeIframe videoUrl={youtube_link} videoType="external" />
           </div>
         )}
       </div>

@@ -5,7 +5,7 @@ import { getAllArticles } from "@/utils/blog/updated-notion-helper";
 
 
 export default async function Page() {
-  const posts = (await getAllArticles()).slice(0, 3);
+  // const posts = (await getAllArticles()).slice(0, 3);
 
   return (
     <div className="flex place-content-center">

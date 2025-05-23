@@ -31,7 +31,7 @@ export default function CardSliderSkeleton() {
 
 
       {/* lower navigation container */}
-      <div className="mx-auto w-full z-50 mt-5">
+      <div className="mx-auto w-full z-50 mt-3">
         <div className="flex justify-center items-center p-1 mx-auto">
           {Array.from({ length: 3 }).map((_, index) => (
             <FaDotCircle

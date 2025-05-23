@@ -13,6 +13,8 @@ const read_notion = new Client({
   auth: process.env.NOTION_READ_TOKEN || "NOTION_KEY",
 });
 
+const current_enviroment = process.env.NODE_ENV || "development";
+
 /**
  * Query a Notion database with optional filters, sorts, and pagination support.
  *
@@ -96,7 +98,6 @@ export async function queryDatabasePaginated(databaseId, {
 export async function getAllPages(databaseId) {
   let startCursor = undefined;
   const all = [];
-
   try {
     do {
       let attempt = 0;
@@ -104,7 +105,19 @@ export async function getAllPages(databaseId) {
       // Retry logic: attempt up to 2 times
       while (attempt < 2) {
         try {
-          pageResult = await queryDatabasePaginated(databaseId, { startCursor });
+          // Query the database if environment is production get only published pages which is a checkbox
+          if (current_enviroment === "production") {
+            pageResult = await queryDatabasePaginated(databaseId, {
+              filter: {
+                property: "Published",
+                checkbox: {
+                  equals: true,
+                },
+              },
+            }, { startCursor });
+          } else {
+            pageResult = await queryDatabasePaginated(databaseId, { startCursor });
+          }
           break;
         } catch (err) {
           attempt++;
@@ -170,6 +183,7 @@ export async function getPageFromSlug(slug) {
         rich_text: {
           equals: slug,
         },
+        ...process.env.NODE_ENV === 'production' && { property: 'Published', checkbox: { equals: true } },
       },
     });
 
@@ -255,22 +269,66 @@ export async function getBlocks(blockID) {
 ///////////GET X RANDOM PAGES BY mainCategory field //////
 //////////////////////////////////////////////////////////
 
-export async function getRelatedPages(mainCategory, count) {
-  try {
-    const response = await read_notion.databases.query({
-      database_id: process.env.NOTION_ARTICLES_DATABASE_ID,
-      filter: {
-        property: 'MainCategory',
-        select: {
-          equals: mainCategory,
-        },
-      },
-    });
-    const articlesByCategory = response.results;
-    const randomX = articlesByCategory.sort(() => Math.random() - 0.5).slice(0, count);
-    return randomX;
-  } catch (error) {
-    console.error('[Notion] Failed to get related pages:', error.message);
-    return [];
+export async function getRelatedPages({ tagIds = [], subcategoryIds = [], count = 5 }) {
+  /**
+   * Retrieves related Notion pages that match any of the provided tag or subcategory relation IDs.
+   *
+   * This function:
+   * - Searches pages in the articles database.
+   * - Matches pages that have ANY of the specified Tags OR Subcategories (via relation fields).
+   * - Filters by 'Published' status in production.
+   * - Shuffles and returns a limited number of pages.
+   * - Retries up to two times on failure.
+   *
+   * @param {Object} params
+   * @param {string[]} params.tagIds - Array of tag page IDs to match in the Tags relation field.
+   * @param {string[]} params.subcategoryIds - Array of subcategory page IDs to match in the Subcategories relation field.
+   * @param {number} [params.count=5] - Number of pages to return.
+   * @returns {Promise<object[]>} - Array of matching Notion page objects.
+   */
+
+  const buildFilter = () => {
+    const baseFilter = {
+      or: [
+        ...tagIds.map((id) => ({
+          property: 'Tags',
+          relation: { contains: id },
+        })),
+        ...subcategoryIds.map((id) => ({
+          property: 'Subcategories',
+          relation: { contains: id },
+        })),
+      ],
+    };
+
+    if (process.env.NODE_ENV === 'production') {
+      return {
+        and: [
+          baseFilter,
+          { property: 'Published', checkbox: { equals: true } },
+        ],
+      };
+    }
+
+    return baseFilter;
+  };
+
+  let attempt = 0;
+  while (attempt < 2) {
+    try {
+      const response = await read_notion.databases.query({
+        database_id: process.env.NOTION_ARTICLES_DATABASE_ID,
+        filter: buildFilter(),
+      });
+
+      const shuffled = response.results.sort(() => Math.random() - 0.5).slice(0, count);
+      return shuffled;
+    } catch (error) {
+      console.error(`[Notion] Attempt ${attempt + 1} failed:`, error.message);
+      attempt++;
+    }
   }
+
+  console.error('[Notion] Failed to get related pages after 2 attempts.');
+  return [];
 }

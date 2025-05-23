@@ -1,33 +1,46 @@
+import { FaDotCircle, FaArrowAltCircleRight, FaArrowAltCircleLeft } from "react-icons/fa";
+import { v4 as uuidv4 } from "uuid";
+import ArticleCardSkeleton from "./article-card-skelton";
 export default function CardSliderSkeleton() {
   return (<>
-    <div className='w-72 h-96 border rounded-md relative flex-col items-center bg-lightShade-200 dark:bg-lightShade-800 animate-pulse pb-5'>
-      {/* Card Header container */}
-      <div className='w-full h-full p-1'>
-        {/* Featured banner */}
-        {/* Body */}
-        <div className='w-full h-40 bg-gray-300 dark:bg-gray-700 rounded-md mb-2'></div>
-        {/* date area on the end of the line*/}
-        <div className="relativ w-24 h-6 mb-4">
-          <div className='w-5/12 h-6 bg-gray-300 dark:bg-gray-700 rounded-md mb-2 absolute left-2'></div>
-        </div>
-        {/* text area */}
-        <div className='w-11/12 h-6 bg-gray-300 dark:bg-gray-700 rounded-md mb-2'></div>
-        <div className='w-11/12 h-6 bg-gray-300 dark:bg-gray-700 rounded-md mb-2'></div>
-        <div className='w-11/12 h-6 bg-gray-300 dark:bg-gray-700 rounded-md mb-2'></div>
-        {/* Read more link */}
-        <div className="absolute bottom-2 left-2 flex justify-between">
-          <div className='w-24 h-8 bg-gray-300 dark:bg-gray-700 rounded-md'></div>
+    <div className="flex-col w-72">
+      {/* slider container */}
+      <div className="w-72  m-2 relative" aria-live="polite">
+        {/* Slider navigation */}
+        <div className="flex justify-between items-center uni-text-color text-2xl">
+          <button
+            className="absolute top-48 right-1 text-2xl hover:animate-pulse hover:text-darkAccent-500 z-10"
+            aria-label="Next slide"
+          >
+            <FaArrowAltCircleRight />
+          </button>
+          <button
+            className="absolute top-48 left-1 text-2xl hover:animate-pulse hover:text-darkAccent-500 z-10"
+            aria-label="Previous slide"
+          >
+            <FaArrowAltCircleLeft />
+          </button>
         </div>
       </div>
-    </div>
-    {/* Simulated navigation dots */}
-    <div className="flex justify-center items-center gap-2">
-      {[...Array(5)].map((_, i) => (
-        <div
-          key={i}
-          className="h-3 w-3 bg-gray-400 rounded-full"
-        />
-      ))}
+
+
+      {/* Slider */}
+      <div className="flex justify-center items-center -z-50">
+        <ArticleCardSkeleton />
+      </div>
+
+
+      {/* lower navigation container */}
+      <div className="mx-auto w-full z-50 mt-5">
+        <div className="flex justify-center items-center p-1 mx-auto">
+          {Array.from({ length: 3 }).map((_, index) => (
+            <FaDotCircle
+              key={index + uuidv4()}
+              className={`mx-1 uni-text-color hover:text-blue-500`}
+            />
+          ))}
+        </div>
+      </div>
     </div>
   </>
   );

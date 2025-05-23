@@ -11,7 +11,7 @@ export default function CreationSection() {
   }
   return (
     <section id="creation-section">
-<SectionWithSlider sectionObject={creation_section_object} />
+      <SectionWithSlider sectionObject={creation_section_object} />
     </section>
   );
 }

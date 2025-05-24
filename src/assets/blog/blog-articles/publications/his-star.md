@@ -31,7 +31,7 @@ authors:
   - name: "Jason Lisle"
     link: "www.biblicalscienceinstitute.com"
 translators:
-  - name: "جاك قازنجيان - Jack Kazanjyan"
+  - name: "جاك قازنجيان"
     link: ""
 description: "هذه الدراسة هي دراسة تأمّلية مبنية على النص الإنجيلي، وستعمل على تحدي بعض المُعتقدات الخاطئة وتعزيز المُعتقدات السليمة. "
 status: "published"

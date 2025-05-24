@@ -25,7 +25,7 @@ audio:
   - anchorLink: "https://anchor.fm/reason-of-hope4/episodes/--e152sp3"
 externalLink: ""
 authors:
-  - name: "جاك قازنجيان - Jack Kazanjyan"
+  - name: "جاك قازنجيان"
     link: ""
 description: "دراسة تتناول تاريخ حركة العلم الديني التي تشكل واحدة من بين الفرق الدينية التي مهَّدت الطريق أمام العديد من الحركات الدينية المعاصرة."
 status: "published"

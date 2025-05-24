@@ -3,6 +3,7 @@ import YouTube from "react-youtube";
 import { Suspense } from "react";
 import Link from "next/link";
 import YoutubeSkelton from "@/components/blog-components/skeltons/youtube-skelton";
+import YoutubeIframe from "@/components/uneversal-items/youtube-iframe";
 export default function SubjectsSection() {
   const opts = {
     width: "100%",
@@ -17,13 +18,14 @@ export default function SubjectsSection() {
     <section id="subjects" className="flex flex-wrap text-right justify-around content-center items-center mt-6 px-8 text-lg md:text-xl lg:text-2xl">
 
       <div className='md:w-1/3 my-2'>
-        <Suspense fallback={<YoutubeSkelton />}>
-          <YouTube
+        {/* <Suspense fallback={<YoutubeSkelton />}> */}
+          {/* <YouTube
             videoId={"98IhK5V53ks"}
             opts={opts}
             className="rounded-xl"
-          />
-        </Suspense>
+          /> */}
+          <YoutubeIframe videoUrl={"98IhK5V53ks"} videoCaption={"رسالة الإنجيل"} videoType={"external"} />
+        {/* </Suspense> */}
         <p className="w-full text-center my-2">
           <Link href="/gospel" className="section-link text-center"> رسالة الإنجيل </Link>
         </p>

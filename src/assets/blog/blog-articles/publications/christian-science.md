@@ -26,7 +26,7 @@ audio:
   - anchorLink: "https://anchor.fm/reason-of-hope4/episodes/--e1aa2ej"
 externalLink: ""
 authors:
-  - name: "جاك قازنجيان - Jack Kazanjyan"
+  - name: "جاك قازنجيان"
     link: ""
 description: "مجموعة دينية تأسست على يد ماري بيكر إيدي التي كانت كانت واحدةً من الشخصيات التي تركت بصمتها على الحركات الدينية التي تُسوِّق للشفاء الروحي وتنكر الوجود الحقيقيّ للمادة."
 status: "published"

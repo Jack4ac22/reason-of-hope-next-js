@@ -22,7 +22,7 @@ audio:
   - anchorLink: "https://anchor.fm/reason-of-hope4/episodes/-------euskfg"
 externalLink: ""
 authors:
-  - name: "جاك قازنجيان - Jack Kazanjyan"
+  - name: "جاك قازنجيان"
     link: ""
 description: "واحدة من الديانات المُعاصرة التي تستخدم منصات التوصل الاجتماعي والعالم الإفتراضي لتسويق ذاتها."
 status: "published"

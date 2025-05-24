@@ -30,7 +30,7 @@ authors:
   - name: "د. ستيڤن بويس - Dr. Stephen Boyce"
     link: ""
 translators:
-  - name: "جاك قازنجيان - Jack Kazanjyan"
+  - name: "جاك قازنجيان"
     link: ""
 description: "ما هي القصة التي تقف وراء إنجيل يهوذا، وما هي الأسباب التي جعلت الكنيسة ترفضة كواحد من السرديات الأصلية؟"
 status: "published"

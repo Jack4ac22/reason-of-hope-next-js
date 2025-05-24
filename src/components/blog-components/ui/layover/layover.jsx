@@ -2,6 +2,7 @@
 import { useLayoverGlobal } from "@/context/layover/LayoverGlobalContext";
 import LinkLayover from "@/components/blog-components/ui/layover/link-layover";
 import ImageLayover from "@/components/blog-components/ui/layover/image-layover";
+import PdfLayover from "@/components/blog-components/ui/layover/pdf-layover";
 import { FaRegWindowClose } from "react-icons/fa";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import Link from "next/link";
@@ -27,11 +28,8 @@ export default function LayOverSection() {
               </Link>
             }
             {layoverObject.type === "link" && (<span className="m-2 hover:text-danger-500 hover:animate-pulse">المعلومات الواردة في هذه النافذة من مصدر خارجي.</span>)}
-
-            {layoverObject.type === "image" && <p>
-              <span className="m-2">لعرض الصورة بحجمها الكامل</span>
-              <Link href={`/blog_images/${layoverObject.imageDetails.src}`} className="m-2 info-link-button">{" اضغط هنا "}</Link>
-            </p>}
+            {layoverObject.type === "image" && <p><span className="m-2">لعرض الصورة بحجمها الكامل</span><Link href={`/blog_images/${layoverObject.imageDetails.src}`} className="m-2 info-link-button">{" اضغط هنا "}</Link></p>}
+            {layoverObject.type === "pdf" && <p><span className="m-2">يمكنكم الحصول على الملف بحجمه الكامل</span><Link href={`/publications/${layoverObject.pdfDetails.link}`} className="m-2 info-link-button">{" اضغط هنا "}</Link></p>}
             <button className="m-2 text-danger-500" onClick={handleCloseLayover}>
               <FaRegWindowClose />
               <span className="sr-only">Close Layover</span>
@@ -41,10 +39,9 @@ export default function LayOverSection() {
             {/* {layoverObject.link} */}
             {layoverObject.type === "link" && <LinkLayover layoverObject={layoverObject} />}
             {/* layover image */}
-            {layoverObject.type === "image" && <>
-              <ImageLayover layoverObject={layoverObject} />
-            </>
-            }
+            {layoverObject.type === "image" && <ImageLayover layoverObject={layoverObject} />}
+            {/* layover pdf */}
+            {layoverObject.type === "pdf" && <PdfLayover layoverObject={layoverObject} />}
           </div>
         </div>
       </section>

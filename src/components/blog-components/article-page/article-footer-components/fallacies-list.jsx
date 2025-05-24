@@ -1,6 +1,7 @@
 "use client"
 import Link from "next/link";
 import YouTube from "react-youtube";
+import YoutubeIframe from "@/components/uneversal-items/youtube-iframe";
 export default function FallaciesList({ article }) {
   const opts = {
     width: "100%",
@@ -146,10 +147,11 @@ export default function FallaciesList({ article }) {
             {fallaciesData[fallacy].video && (
               <div className="objection-video">
                 <div className="w-96">
-                  <YouTube
+                  {/* <YouTube
                     videoId={fallaciesData[fallacy].video}
                     opts={opts}
-                  />
+                  /> */}
+                  <YoutubeIframe videoUrl={fallaciesData[fallacy].video } videoType="external" />
                 </div>
               </div>)}
           </li>

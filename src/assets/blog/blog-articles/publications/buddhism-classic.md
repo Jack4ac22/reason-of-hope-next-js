@@ -26,7 +26,7 @@ audio:
   - anchorLink: "https://anchor.fm/reason-of-hope4/episodes/--e1fkit8"
 externalLink: ""
 authors:
-  - name: "جاك قازنجيان - Jack Kazanjyan"
+  - name: "جاك قازنجيان"
     link: ""
 description: "لمحة مُختصرة عن تاريخ ونشأة البوذية الكلاسيكية بالإضافة إلى نظرة عامة تُظهر التباين بين تعاليمها وبين التعاليم المسيحية المبنية على الكتاب المقدس."
 status: "published"

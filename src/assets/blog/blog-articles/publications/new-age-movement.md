@@ -26,7 +26,7 @@ audio:
   - anchorLink: "https://anchor.fm/reason-of-hope4/episodes/--euskhs/a-a58ai8o"
 externalLink: ""
 authors:
-  - name: "جاك قازنجيان - Jack Kazanjyan"
+  - name: "جاك قازنجيان"
     link: ""
 translators:
 description: "إنَّ حركة العصر الجديد تُشكل واحدةً من أعقد الأنظمة الدينية وأكثرها تأثيراً في عالمنا المعاصر."

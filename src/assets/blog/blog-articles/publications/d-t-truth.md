@@ -22,7 +22,7 @@ authors:
   - name: "د. جيسون لايل - Dr. Jason Lisle"
     link: "https://biblicalscienceinstitute.com/"
 translators:
-  - name: "جاك قازنجيان - Jack Kazanjyan"
+  - name: "جاك قازنجيان"
     link: ""
 description: "كتاب يتعامل مع الأخطاء المنطقية الشائعة في الحوارات والجدالات بين المؤمنين بالخلق التوراتي ومناهضيهم."
 status: "published"

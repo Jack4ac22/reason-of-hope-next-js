@@ -2,10 +2,21 @@
 import { useState, useEffect } from "react";
 import Iframe from "react-iframe";
 export default function PdfViewer({ url, height = "400px", title = "PDF Viewer" }) {
+  function getDeviceType() {
+    const userAgent = navigator.userAgent.toLowerCase();
+    const isMobile = /iphone|ipod|android|windows phone|blackberry|iemobile|opera mini|mobile/i.test(userAgent);
+    const isTablet = /ipad|android|tablet|kindle|silk/i.test(userAgent) && !isMobile;
+
+    if (isMobile) return "Mobile";
+    if (isTablet) return "Tablet";
+    return "Desktop";
+  }
+
   const [showFallback, setShowFallback] = useState(false);
   useEffect(() => {
     const ua = navigator.userAgent.toLowerCase();
-    if (ua.includes('android') && ua.includes('mobile')) {
+    const device = getDeviceType();
+    if (device === "Mobile") {
       setShowFallback(true);
     }
   }, []);

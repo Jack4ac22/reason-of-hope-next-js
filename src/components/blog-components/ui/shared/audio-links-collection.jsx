@@ -21,11 +21,11 @@ export default function AudioLinksCollection({ article }, size = '4xl', hoverEff
           )
         }
         if (title == 'applePodcasts') {
-          return (<AudioLinkIcon hoverEffect={hoverEffect} title="Apple Podcasts" link={link} key={title + index}>
+          return (<AudioLinkIcon hoverEffect={hoverEffect} title="Apple" link={link} key={title + index}>
             <FaPodcast className={`text-${size} mx-2`} />
           </AudioLinkIcon>)
         }
-        if (title == "googlePodcasts") {
+        if (title == "google") {
           return (<AudioLinkIcon hoverEffect={hoverEffect} title="Google Podcasts" link={link} key={title + index}>
             <SiGooglepodcasts className={`text-${size} mx-2`} />
           </AudioLinkIcon>)
@@ -40,8 +40,9 @@ export default function AudioLinksCollection({ article }, size = '4xl', hoverEff
             <SiAudiomack className={`text-${size} mx-2`} />
           </AudioLinkIcon>)
         }
+        // TODO: check the link to adjust it in case it does not start with http???? 
         if (title == 'youtube') {
-          return (<AudioLinkIcon hoverEffect={hoverEffect} title="YouTube" link={link} key={title + index}>
+          return (<AudioLinkIcon hoverEffect={hoverEffect} title="YouTube" link={link.contains('www.') ? link : `https://www.youyube.com?v=${link}`} key={title + index}>
             <FaYoutube className={`text-${size} mx-2`} />
           </AudioLinkIcon>)
         }

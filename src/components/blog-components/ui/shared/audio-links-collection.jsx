@@ -21,12 +21,12 @@ export default function AudioLinksCollection({ article }, size = '4xl', hoverEff
           )
         }
         if (title == 'applePodcasts') {
-          return (<AudioLinkIcon hoverEffect={hoverEffect} title="Apple Podcasts" link={link} key={title + index}>
+          return (<AudioLinkIcon hoverEffect={hoverEffect} title="Apple" link={link} key={title + index}>
             <FaPodcast className={`text-${size} mx-2`} />
           </AudioLinkIcon>)
         }
         if (title == "googlePodcasts") {
-          return (<AudioLinkIcon hoverEffect={hoverEffect} title="Google Podcasts" link={link} key={title + index}>
+          return (<AudioLinkIcon hoverEffect={hoverEffect} title="Google" link={link} key={title + index}>
             <SiGooglepodcasts className={`text-${size} mx-2`} />
           </AudioLinkIcon>)
         }

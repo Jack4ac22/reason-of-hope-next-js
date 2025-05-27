@@ -23,7 +23,7 @@ audio:
   - anchorLink: "https://anchor.fm/reason-of-hope4/episodes/--eusm85/a-a589vmt"
 externalLink: ""
 authors:
-  - name: "جاك قازنجيان - Jack Kazanjyan"
+  - name: "Jack Kazanjyan"
     link: ""
 description: "مجموعة دينية معاصرة تتبنى أفكار مختلطة من مختلف المعتقدات مع إضافات تتعلق بالكائنات الفضائية والأطباق الطائرة."
 status: "published"

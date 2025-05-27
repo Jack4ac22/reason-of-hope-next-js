@@ -33,7 +33,7 @@ authors:
   - name: "د. جيسون لايل - Dr. Jason Lisle"
     link: "https://biblicalscienceinstitute.com/"
 translators:
-  - name: "جاك قازنجيان - Jack Kazanjyan"
+  - name: "Jack Kazanjyan"
     link: ""
 description: "في الجدل الدائر حول قضية الأصول (الخلق في مواجهة التطور)، يوجد الكثير من المقاربات التي تستخدم للوصول إلى حلٍّ إلى هذه المشكلة. إلا أن الدكتور لايل في كتابه هذا، يقوم بتقديم الدفاعيات الفعّالة المبنية على الإفتراضات المسبقة."
 status: "published"

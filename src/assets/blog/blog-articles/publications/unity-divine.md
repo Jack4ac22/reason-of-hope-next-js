@@ -28,7 +28,7 @@ audio:
   - anchorLink: "https://anchor.fm/reason-of-hope4/episodes/--e165kfj"
 externalLink: ""
 authors:
-  - name: "جاك قازنجيان - Jack Kazanjyan"
+  - name: "Jack Kazanjyan"
     link: ""
 description: "من المجموعات الدينية التي تُصنَّف على أنها من مجموعات علوم الذهن، والتي تمتلك تأثيراً كبيراً على تطور الحركات الدينية المعاصرة."
 status: "published"

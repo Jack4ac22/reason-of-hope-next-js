@@ -31,7 +31,7 @@ authors:
   - name: "د. جيسون لايل - Dr. Jason Lisle"
     link: "https://biblicalscienceinstitute.com/"
 translators:
-  - name: "جاك قازنجيان - Jack Kazanjyan"
+  - name: "Jack Kazanjyan"
     link: ""
 description: "إنَّ أول أسفار الكتاب المقدس هو سفر التكوين، وهذا السفر يقدم لنا حقيقة الخلق الذي أتمَّه إلهنا الفائق القداسة في ستة أيام. إلا أن هذه الحقيقة قد تمَّ تهميشها ورفضها في عصرنا الراهن، والسبب هو التعليم التطوريّ الذي ينادي بملايين ومليارات من السنوات التي استغرقها التطور."
 status: "published"

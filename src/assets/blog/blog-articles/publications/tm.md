@@ -25,7 +25,7 @@ audio:
   - anchorLink: "https://anchor.fm/reason-of-hope4/episodes/--euskl0/a-a58ajic"
 externalLink: ""
 authors:
-  - name: "جاك قازنجيان - Jack Kazanjyan"
+  - name: "Jack Kazanjyan"
     link: ""
 description: "تنتشر ممارسة التأمل التجاوزي في الكثير من البلدان وبين مختلف الديانات على أساس أنها ممارسة غير مؤذية، ولكن بعد أن نتعرف على أبعادها الدينية والروحية سيكون من الواجب علينا أن نحتاط منها ونساعد الآخرين على التنبه لها. "
 status: "published"

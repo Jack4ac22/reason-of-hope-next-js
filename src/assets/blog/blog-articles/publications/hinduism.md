@@ -23,7 +23,7 @@ audio:
   - anchorLink: "https://anchor.fm/reason-of-hope4/episodes/-------eusjta"
 externalLink: ""
 authors:
-  - name: "جاك قازنجيان - Jack Kazanjyan"
+  - name: "Jack Kazanjyan"
     link: ""
 description: "تعتبر الديانة الهندوسية من أقدم الديانات العالمية، وهي التي قدَّمت الأساس اللاهوتيّ للكثير من الشِيَع والفِرَق الدينيّة."
 status: "published"

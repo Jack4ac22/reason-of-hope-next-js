@@ -31,7 +31,7 @@ authors:
   - name: "توم هاموند - Tom HAMMOND"
     link: "https://whattimeispurple.com/"
 translators:
-  - name: "جاك قازنجيان - Jack Kazanjyan"
+  - name: "Jack Kazanjyan"
     link: ""
 description: "بين الإلحاد والربوبية يضيع الكثير من الأشخاص معتقدين أنَّه لا يوجد سبيل لإنهاء هذه المعضلة أو الوصول إلى نتائج مقنعة، لكن هذا هروب من الواقع ومن تحمل المسؤولية. إن الطريق ليس صعب ولكن يوجد عواقب حقيقية لمعرفة الحقيقة.
 "

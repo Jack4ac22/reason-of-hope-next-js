@@ -7,7 +7,7 @@ export default function AudioLinkIcon({ title, link, hoverEffect = true, childre
       </Link>
       {hoverEffect &&
         (<span className="absolute p-0 top-0 bg-lightShade-700 text-center bg-opacity-70 rounded-xl text-mainBrand-500 font-bold group-hover:p-1">
-          <span className="top-0-0 sr-only group-hover:not-sr-only">{title}</span>
+          <span className="top-0-0 sr-only group-hover:not-sr-only select-none">{title}</span>
         </span>)
       }
     </div>

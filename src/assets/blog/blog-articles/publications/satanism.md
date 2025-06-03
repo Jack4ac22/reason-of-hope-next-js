@@ -23,7 +23,7 @@ audio:
   - anchorLink: "https://anchor.fm/reason-of-hope4/episodes/--eusmei/a-a5892d8"
 externalLink: ""
 authors:
-  - name: "جاك قازنجيان - Jack Kazanjyan"
+  - name: "Jack Kazanjyan"
     link: ""
 description: "دراسة تتناول العبادة الشيطانية المعاصرة وتاريخها."
 status: "published"

@@ -24,7 +24,7 @@ audio:
   - anchorLink: ""
 externalLink: ""
 authors:
-  - name: "جاك قازنجيان - Jack Kazanjyan"
+  - name: "Jack Kazanjyan"
     link: ""
 description: ""
 status: "deaft"

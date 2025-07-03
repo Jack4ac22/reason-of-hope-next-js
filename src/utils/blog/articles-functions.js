@@ -364,3 +364,61 @@ export function getArticlesByTag(tag) {
   articlesByTag.sort((a, b) => new Date(b.date) - new Date(a.date));
   return articlesByTag;
 }
+
+
+////////////////////////////////////////////////
+////////use JSON file to compare params/////////
+////////////////////////////////////////////////
+
+
+import wpPosts from "@/assets/json-data-sets/wp.json"; // adjust path if needed
+
+/**
+ * Compares incoming params (slug or query) to legacy wp.json and returns matching article.
+ * Supports formats:
+ * - /2019/01/02/تناقضات-الكتاب-المقدس/
+ * - ?p=147
+ * @param {object} params - Can be { slug: [...] } or { searchParams: { p: "147" } }
+ * @returns {object|null} - Matched article object or null
+ */
+export function getArticleFromParams(params) {
+  const allArticles = getAllArticlesData();
+
+  // Case 1: Matching by WordPress numeric ID (?p=147)
+  if (params?.searchParams?.p) {
+    const wpMatch = wpPosts.find(post => {
+      const guid = post.guid || "";
+      return guid.includes(`?p=${params.searchParams.p}`);
+    });
+
+    if (wpMatch) {
+      const year = wpMatch.pubDate.substring(0, 4);
+      const month = wpMatch.pubDate.substring(5, 7);
+      const day = wpMatch.pubDate.substring(8, 10);
+      return allArticles.find(
+        a =>
+          // a.slug === wpMatch.slug &&
+          a.year === year &&
+          a.month === month &&
+          a.day === day);
+    }
+  }
+
+  // Case 2: Matching by legacy path slug like /2019/01/02/تناقضات-الكتاب-المقدس/
+  if (params?.slug?.length >= 4) {
+    const year = params.slug[0];
+    const month = params.slug[1];
+    const day = params.slug[2];
+    const slug = decodeURIComponent(params.slug[3]);
+
+    return allArticles.find(
+      a =>
+        // a.slug === slug &&
+        a.year === year &&
+        a.month === month &&
+        a.day === day
+    );
+  }
+
+  return null;
+}

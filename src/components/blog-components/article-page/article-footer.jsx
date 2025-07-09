@@ -2,7 +2,7 @@ import RelatedArticles from '@/components/blog-components/article-page/article-f
 import FallaciesList from "@/components/blog-components/article-page/article-footer-components/fallacies-list"
 import CatTagFooter from '@/components/blog-components/article-page/article-footer-components/categories-tags-footer';
 export default function ArticleFooter({ article }) {
-  if (article.directory === "static-pages") return null
+  if (article?.directory === "static-pages") return null
   return (
     <>
       <FallaciesList article={article} />

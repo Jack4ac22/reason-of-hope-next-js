@@ -25,12 +25,12 @@ export default function MainFooter() {
     // {
     //   title: "مواقع مفيدة", href: "/usefull", active: true, smallScreen: true
     // },
-    // {
-    //   title: "مشاريعنا", href: "/soon", active: true, smallScreen: true
-    // },
-    // {
-    //   title: "كيف أساعد؟", href: "/support-us", active: true, smallScreen: true
-    // },
+    {
+      title: "مشاريعنا", href: "/projects", active: true, smallScreen: true
+    },
+    {
+      title: "دعم", href: "/support", active: true, smallScreen: true
+    },
     // {
     //   title: "تقييم", href: "/feedback", active: true, smallScreen: true
     // }
@@ -46,7 +46,7 @@ export default function MainFooter() {
   }
 
   return (
-    <footer className="uni-text-color mt-12 select-none w-full">
+    <footer className="uni-text-color mt-12 select-none w-full mb-10">
       <hr className=" border-blueGray-300 print:hidden" />
       <section className="flex justify-center items-center h-full">
         <div className="container mx-auto px-4">

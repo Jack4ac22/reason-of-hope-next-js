@@ -4,7 +4,7 @@ import { FcKindle } from "react-icons/fc";
 import Link from "next/link";
 
 export default function ResourcesLinks({ article }) {
-  if (!article.resources) return null;
+  if (!article?.resources) return null;
   let filteredResources = []
   filteredResources = article?.resources?.filter((resource) => {
     const [title, link] = Object.entries(resource)[0];

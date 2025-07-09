@@ -65,12 +65,12 @@ export default function MainFooter() {
             </div>
 
 
-            <div className="w-full lg:w-6/12 px-4 print:hidden">
+            <div className="w-full md:w-6/12 px-4 print:hidden">
               <div className="flex flex-wrap items-top mb-6">
 
                 {/* usefull links  */}
                 {usefullLinks.length > 0 &&
-                  (<div className="w-full lg:w-4/12 px-4 ml-auto print:hidden">
+                  (<div className="w-full md:w-4/12 px-4 ml-auto print:hidden">
                     <h3 className="block text-blueGray-500 text-xl font-semibold mb-2">روابط سريعة</h3>
                     <ul className="list-unstyled">
                       {usefullLinks.map((item) => FooterLinks(item.title, item.href))}
@@ -79,7 +79,7 @@ export default function MainFooter() {
                   )}
                 {/* other resources */}
                 {otherResources.length > 0 &&
-                  (<div className="w-full lg:w-4/12 px-4 mt-4 md:mt-0 print:hidden">
+                  (<div className="w-full md:w-4/12 px-4 mt-4 md:mt-0 print:hidden">
                     <span className="block text-blueGray-500 text-xl font-semibold mb-2 ">روابط إضافية</span>
                     <ul className="list-unstyled">
                       {otherResources.map((item) => FooterLinks(item.title, item.href))}

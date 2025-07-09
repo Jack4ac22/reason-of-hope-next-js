@@ -1,5 +1,6 @@
 import { FaXTwitter, FaFacebook, FaYoutube, FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa6";
 import ThemeSwitch from '@/components/blog-components/ui/dark-mode/dark-light-system';
+import FooterLinks from '@/components/blog-components/ui/footer/footer-link';
 
 import Link from 'next/link';
 export default function MainFooter() {
@@ -44,13 +45,6 @@ export default function MainFooter() {
     )
   }
 
-  function FooterLinks(title, href) {
-    return (
-      <li key={title + href}>
-        <Link className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm hover:text-mainBrand-500 animate-all duration-200" href={href}>{title}</Link>
-      </li>
-    )
-  }
   return (
     <footer className="uni-text-color mt-12 select-none w-full">
       <hr className=" border-blueGray-300 print:hidden" />

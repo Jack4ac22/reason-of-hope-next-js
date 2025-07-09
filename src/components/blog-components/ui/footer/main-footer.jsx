@@ -26,10 +26,10 @@ export default function MainFooter() {
     //   title: "مواقع مفيدة", href: "/usefull", active: true, smallScreen: true
     // },
     {
-      title: "مشاريعنا", href: "/projects", active: true, smallScreen: true
+      title: "المشاريع", href: "/projects", active: true, smallScreen: true
     },
     {
-      title: "دعم", href: "/support", active: true, smallScreen: true
+      title: "الدعم", href: "/support", active: true, smallScreen: true
     },
     // {
     //   title: "تقييم", href: "/feedback", active: true, smallScreen: true

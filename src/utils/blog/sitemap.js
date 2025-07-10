@@ -46,34 +46,31 @@ export function updateSitemap(filename = "sitemap-1.xml") {
       { path: "about", priority: "0.5", changefreq: "yearly" },
       { path: "contact", priority: "0.5", changefreq: "yearly" },
       { path: "ourfaith", priority: "1", changefreq: "yearly" },
+      { path: "support", priority: "0.5", changefreq: "yearly" },
+      { path: "projects", priority: "0.5", changefreq: "yearly" },
     ];
 
     const sitemapContent = `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
             ${foldered_pages
-              .map(
-                (page) =>
-                  `<url><loc>${host}/${
-                    page.path
-                  }</loc><lastmod>${new Date().toISOString()}</lastmod><changefreq>${
-                    page.changefreq || never
-                  }</changefreq><priority>${
-                    page?.priority || "0.7"
-                  }</priority></url>`
-              )
-              .join("\n")}}
+        .map(
+          (page) =>
+            `<url><loc>${host}/${page.path
+            }</loc><lastmod>${new Date().toISOString()}</lastmod><changefreq>${page.changefreq || never
+            }</changefreq><priority>${page?.priority || "0.7"
+            }</priority></url>`
+        )
+        .join("\n")}}
 
   ${allArticles
-    .map(
-      (article) =>
-        `<url><loc>${host}/${article.directory}/${
-          article.slug
-        }</loc><lastmod>${new Date(
-          article.date
-        ).toISOString()}</lastmod><changefreq>monthly</changefreq><priority>${
-          article?.priority || "0.7"
-        }</priority></url>`
-    )
-    .join("\n")}
+        .map(
+          (article) =>
+            `<url><loc>${host}/${article.directory}/${article.slug
+            }</loc><lastmod>${new Date(
+              article.date
+            ).toISOString()}</lastmod><changefreq>monthly</changefreq><priority>${article?.priority || "0.7"
+            }</priority></url>`
+        )
+        .join("\n")}
   </urlset>`;
 
     fs.writeFileSync(filePath, sitemapContent, "utf8");

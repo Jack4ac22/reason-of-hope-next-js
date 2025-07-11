@@ -9,6 +9,7 @@ import {
   FacebookIcon,
   TwitterShareButton,
   TwitterIcon,
+  XIcon,
   WhatsappShareButton,
   WhatsappIcon,
 } from "react-share";
@@ -88,7 +89,7 @@ export default function ShareIt({
       Icon: FacebookIcon,
       props: { url: link, quote: description, hashtag: `${tags.map((tag) => `#${tag}`).join(" ")}` },
     },
-    { Component: TwitterShareButton, Icon: TwitterIcon, props: { title, url: link, hashtags: tags } },
+    { Component: TwitterShareButton, Icon: XIcon, props: { title, url: link, hashtags: tags } },
     { Component: WhatsappShareButton, Icon: WhatsappIcon, props: { url: link, title, separator: ":: " } },
     { Component: TelegramShareButton, Icon: TelegramIcon, props: { url: link, title } },
     // {

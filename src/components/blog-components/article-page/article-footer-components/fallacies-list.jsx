@@ -126,7 +126,7 @@ export default function FallaciesList({ article }) {
 
   return (
     <section id="fallacies-section" className="uni-text-color border-y-2 border-spacing-2 m-4">
-      <h3 className="article-footer-headings">الأخطاء المنطقية المُستخدمة في هذا الإعتراض</h3>
+      <p className="article-footer-headings">الأخطاء المنطقية المُستخدمة في هذا الإعتراض</p>
       <ol className="list-decimal" >
         {article.fallacies.map((fallacy, index) => (
           <li key={`${fallacy}-${index}`}>

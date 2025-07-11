@@ -10,14 +10,14 @@ import ResourcesLinks from '@/components/blog-components/article-page/header-com
 import ShareIt from '@/components/uneversal-items/share-it'
 
 export default function ArticleHeader({ article }) {
-  if (article.directory === "static-pages") return <>
+  if (article?.directory === "static-pages") return <>
     <MediaPlayersHeader article={article} />
     <ShareIt article={article} />
   </>
   return (
     <header className='sm:px-4'>
       <div className="flex flex-col items-center">
-        <h1 className="my-3 text-4xl font-extrabold">{article.title}</h1>
+        <h1 className="my-3 text-4xl font-extrabold">{article?.title}</h1>
       </div>
       <div className="flex flex-col-reverse md:flex-row-reverse items-center md:justify-between">
         <ArticleDate article={article} />

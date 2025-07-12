@@ -84,3 +84,12 @@ export function getAudioLinksFromArticle(article) {
 
   return audioLinks;
 }
+
+export function getResourcesLinksFromArticle(article) {
+  if (!article?.resources || article?.resources?.length === 0) return {};
+
+  return article.resources.reduce((acc, resource) => {
+    acc[resource.title] = resource.link;
+    return acc;
+  }, {});
+}

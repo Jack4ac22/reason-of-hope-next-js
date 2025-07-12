@@ -7,7 +7,7 @@ export default function ArticleFooter({ article }) {
   if (article?.directory === "static-pages") return null
 
   const pdfLink = getResourcesLinksFromArticle(article)["pdf"];
-  if (article.directory === "static-pages") return null
+  if (article?.directory === "static-pages") return null
   return (
     <>
       <FallaciesList article={article} />

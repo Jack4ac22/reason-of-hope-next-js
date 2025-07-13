@@ -26,10 +26,11 @@ const DB_SUB = process.env.NOTION_SUBSCRIBERS_DATABASE_ID;
 const DB_CONT = process.env.NOTION_CONTACTS_DATABASE_ID;
 const DB_SPAM = process.env.NOTION_SPAM_FILTER_DATABASE_ID;
 
+const LAST_UPDATE_PROP = 'Last Update';
 
 
 // ────────────────────────────────────────────────────────────
-// 3. Tiny retry wrapper for Notion rate-limits (3 req/s)
+// 2. Tiny retry wrapper for Notion rate-limits (3 req/s)
 // ────────────────────────────────────────────────────────────
 async function retry(fn, attempts = 3) {
   try {
@@ -44,7 +45,7 @@ async function retry(fn, attempts = 3) {
 }
 
 // ────────────────────────────────────────────────────────────
-// 4. Spam-filter cache (5 min)
+// 3. Spam-filter cache (5 min)
 // ────────────────────────────────────────────────────────────
 let spamCache = { ts: 0, keywords: [], domains: [], emails: [] };
 
@@ -93,6 +94,26 @@ export async function isSpam({ email, message }) {
 }
 
 // ────────────────────────────────────────────────────────────
+// 4.  Duplicate check (≤5 min)
+// ────────────────────────────────────────────────────────────
+export async function hasRecentMessage(email) {
+  const fiveMinAgo = new Date(Date.now() - 5 * 60_000).toISOString();
+  const res = await retry(() =>
+    read.databases.query({
+      database_id: DB_CONT,
+      filter: {
+        and: [
+          { property: 'Email Address', email: { equals: email } },
+          { property: 'Date Received', date: { after: fiveMinAgo } }
+        ]
+      },
+      page_size: 1
+    })
+  );
+  return res.results.length > 0;
+}
+
+// ────────────────────────────────────────────────────────────
 // 5. Subscribers
 // ────────────────────────────────────────────────────────────
 function lastUpdatePatch(now) {
@@ -132,7 +153,7 @@ export async function subscribe({ email, phone = 'no phone', name = 'no name' })
         Phone: { phone_number: phone },
         'Subscription Status': { status: { name: 'Pending' } },
         'Join Date': { date: null },
-        ...lastUpdatePatch()
+        'Last Update': { date: { start: new Date().toISOString() } },
       }
     })
   );
@@ -167,7 +188,7 @@ export async function confirmSubscription(token) {
       properties: {
         'Subscription Status': { status: { name: 'Active' } },
         'Join Date': { date: { start: now } },
-        ...lastUpdatePatch()
+        'Last Update': { date: { start: new Date().toISOString() } },
       }
     })
   );
@@ -194,7 +215,7 @@ export async function unsubscribe(email) {
       properties: {
         'Subscription Status': { status: { name: 'Cancelled' } },
         CancellationDate: { date: { start: now } },
-        ...lastUpdatePatch()
+        'Last Update': { date: { start: new Date().toISOString() } },
       }
     })
   );
@@ -207,7 +228,6 @@ export async function unsubscribe(email) {
 // ────────────────────────────────────────────────────────────
 export async function logContact({ name, email, message, priority = 'Low' }) {
   const now = new Date().toISOString();
-
   const page = await retry(() =>
     write.pages.create({
       parent: { database_id: DB_CONT },
@@ -219,13 +239,65 @@ export async function logContact({ name, email, message, priority = 'Low' }) {
         Priority: { select: { name: priority } },
         Status: { status: { name: 'New' } },
         'Date Received': { date: { start: now } },
-        'Sent to Client': { checkbox: false },
+        'Sent to Client': { checkbox: true },
         'Sent to Company': { checkbox: false },
+        'Last Update': { date: { start: new Date().toISOString() } },
       }
     })
   );
-
   return { pageId: page.id };
+}
+
+/**  returns { confirmToken, cancelToken }  */
+export async function generateContactTokens(email, pageId) {
+  const base = { email, pageId };
+  return {
+    confirmToken: await makeJWT({ ...base, act: 'confirmMsg' }, '3d'),
+    cancelToken: await makeJWT({ ...base, act: 'cancelMsg' }, '3d')
+  };
+}
+
+/**
+ * Safely handle confirm / cancel link.
+ *   urlAction should be 'confirm' or 'cancel'.
+ *   Throws on mismatched action or if canceling an already-confirmed message.
+ */
+export async function confirmContactAction(token, urlAction) {
+  const { email, pageId, act } = await readJWT(token);
+
+  if ((act === 'confirmMsg' && urlAction !== 'confirm') ||
+    (act === 'cancelMsg' && urlAction !== 'cancel')) {
+    throw new Error('Action mismatch');
+  }
+
+  const page = await retry(() => read.pages.retrieve({ page_id: pageId }));
+  const update = props =>
+    retry(() => write.pages.update({ page_id: pageId, properties: props }));
+
+  if (urlAction === 'confirm') {
+    const already = page.properties['Sent to Company'].checkbox;
+    if (already) return { alreadyConfirmed: true };
+
+    await update({
+      'Sent to Company': { checkbox: true },
+      Status: { status: { name: 'Responded' } },
+      'Last Update': { date: { start: new Date().toISOString() } },
+    });
+    return { confirmed: true };
+  }
+
+  if (urlAction === 'cancel') {
+    const already = page.properties['Sent to Company'].checkbox;
+    if (already) throw new Error('Message already confirmed; cannot cancel.');
+
+    await update({
+      Status: { status: { name: 'Archived' } },
+      'Last Update': { date: { start: new Date().toISOString() } },
+    });
+    return { cancelled: true };
+  }
+
+  throw new Error('Unknown action');
 }
 
 export async function updateContactStatus(pageId, newStatus) {

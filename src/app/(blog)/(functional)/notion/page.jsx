@@ -1,20 +1,86 @@
-import { loadSpam, isSpam, subscribe, subscriberExists, confirmSubscription, unsubscribe, logContact, updateContactStatus } from "@/utils/blog/notion-service";
+import {
+  loadSpam,
+  isSpam,
+  hasRecentMessage,
+  subscribe,
+  subscriberExists,
+  confirmSubscription,
+  unsubscribe,
+  logContact,
+  generateContactTokens,
+  confirmContactAction,
+  updateContactStatus
+} from "@/utils/blog/notion-service";
 
+/**
+ * Smoke‑test page: runs every helper once and prints a JSON report.
+ * WARNING: calls create/update endpoints — generates real DB writes.
+ */
 export default async function Page() {
-  // const spam= await loadSpam();
-  // console.log(spam);
-  // const testSpam = await isSpam({ email: '1@1.com', message: 'asdasd' });
-  // console.log("testSpam", testSpam);
-  // const token = await subscribe({ email: '13@1.com' });
-  // console.log(token);
-  // const exists = await subscriberExists('1333@1.com');
-  // console.log(exists);
-  // const subId = await confirmSubscription("eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6IjEzQDEuY29tIiwiYWN0IjoiY29uZmlybSIsImV4cCI6MTc1MjUyNTA3NH0.YTqFUcxADy70--rqdTLgDm7V5Jj9Zx6DfxI6ZsPXYe8");
-  // console.log(subId);
-  // console.log(await unsubscribe('13@1.com'));
-  // const res = await logContact({ name: 'test', email: '13@1.com', title: 'test', message: 'test' });
-  // console.log(res);
+  /* ───── 1. Spam lists & quick spam check ───── */
+  const spamLists = await loadSpam();
+  const spamCheck = await isSpam({
+    email: "spammer123@fakeemail.com",
+    message: "make_money_fast – limited offer"
+  });
+
+  /* ───── 2. Duplicate guard (5‑minute window) ───── */
+  const duplicate = await hasRecentMessage("visitor@example.com");
+
+  /* ───── 3. Subscriber round‑trip ───── */
+  let subToken, subConfirm, subUnsub;
+  if (!(await subscriberExists("demo@example.com"))) {
+    ({ token: subToken } = await subscribe({ email: "demo@example.com" }));
+    subConfirm = await confirmSubscription(subToken);
+    subUnsub   = await unsubscribe("demo@example.com");
+  }
+
+  /* ───── 4. Contact flow ───── */
+  const { pageId } = await logContact({
+    name: "Visitor",
+    email: "visitor@example.com",
+    message: "Hello from the diagnostic page"
+  });
+
+  const { confirmToken, cancelToken } = await generateContactTokens(
+    "visitor@example.com",
+    pageId
+  );
+
+  const confirmRes = await confirmContactAction(confirmToken, "confirm");
+  let cancelError = null;
+  try {
+    await confirmContactAction(cancelToken, "cancel");
+  } catch (err) {
+    cancelError = err.message;
+  }
+
+  await updateContactStatus(pageId, "In Progress");
+
+  /* ───── Collate report ───── */
+  const report = {
+    spamListsLoaded: spamLists,
+    spamCheck,
+    duplicate,
+    subscription: {
+      tokenGenerated: !!subToken,
+      confirmResult: subConfirm ?? "skipped (already existed)",
+      unsubscribeResult: subUnsub ?? "skipped"
+    },
+    contact: {
+      pageId,
+      confirmRes,
+      cancelError
+    }
+  };
+
   return (
-    <div></div>
+    <main className="prose max-w-xl mx-auto p-8" dir="ltr">
+      <h1>Notion‑Service Smoke Test</h1>
+      <p className="text-sm text-gray-500">Each page load writes to your Notion workspace. Remove when done.</p>
+      <pre style={{ whiteSpace: "pre-wrap", wordBreak: "break-all" }}>
+        {JSON.stringify(report, null, 2)}
+      </pre>
+    </main>
   );
 }

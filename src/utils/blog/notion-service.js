@@ -142,9 +142,8 @@ export async function subscriberExists(email) {
 export async function subscribe({ email, phone = 'no phone', name = 'no name' }) {
   if (await subscriberExists(email)) throw new Error('Subscriber already exists');
 
-  const token = await makeJWT({ email, act: 'confirm' });
 
-  await retry(() =>
+  const page = await retry(() =>
     write.pages.create({
       parent: { database_id: DB_SUB },
       properties: {
@@ -157,6 +156,8 @@ export async function subscribe({ email, phone = 'no phone', name = 'no name' })
       }
     })
   );
+  const pageId = page.id;
+  const token = await makeJWT({ email, act: 'confirmSub', pageId });
 
   return { token };
 }
@@ -305,6 +306,39 @@ export async function updateContactStatus(pageId, newStatus) {
     write.pages.update({
       page_id: pageId,
       properties: { Status: { status: { name: newStatus } } }
+    })
+  );
+}
+
+// fetch minimal subscriber data by token
+export async function getSubscriberData(token) {
+  confirmSubscription(token);
+  const { email, pageId, act } = await readJWT(token);
+  if (act !== 'confirmSub') throw new Error('Invalid token');
+
+  const page = await retry(() => read.pages.retrieve({ page_id: pageId }));
+  return {
+    pageId,
+    email,
+    name: page.properties.Name.title[0]?.plain_text || '',
+    phone: page.properties.Phone.phone_number || ''
+  };
+}
+
+export async function updateSubscriberDetails(token, { name, phone }) {
+  const { pageId, act } = await readJWT(token);
+  if (act !== 'confirmSub') throw new Error('Invalid token');
+
+  await retry(() =>
+    write.pages.update({
+      page_id: pageId,
+      properties: {
+        Name: { title: [{ text: { content: name } }] },
+        Phone: phone
+          ? { phone_number: phone }
+          : { phone_number: null },
+        'Last Update': { date: { start: new Date().toISOString() } },
+      }
     })
   );
 }

@@ -1,0 +1,7 @@
+Hello!
+
+Thank you for requesting our newsletter.  Please confirm your e-mail address:
+
+  Confirm:  {{confirmLink}}
+
+If you did not request this, just ignore this message.

@@ -18,7 +18,7 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params, searchParams }, parent) {
 
   try {
-    const slug = params.slug
+    const slug = params?.slug
     const article = getAllArticlesData().filter(article => (article.slug === slug[1]) && (article.directory === slug[0]))[0]
     const metadata = articleMetadata(article)
     return metadata

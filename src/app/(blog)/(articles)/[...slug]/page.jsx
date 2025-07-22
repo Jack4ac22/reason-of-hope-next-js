@@ -19,7 +19,7 @@ export async function generateMetadata({ params, searchParams }, parent) {
 
   try {
     const slug = params?.slug
-    const article = getAllArticlesData().filter(article => (article.slug === slug[1]) && (article.directory === slug[0]))[0]
+    const article = getAllArticlesData().filter(article => (article?.slug === slug[1]) && (article.directory === slug[0]))[0]
     const metadata = articleMetadata(article)
     return metadata
   } catch (error) {
@@ -28,7 +28,7 @@ export async function generateMetadata({ params, searchParams }, parent) {
 }
 
 export default function Page({ params }) {
-  let article = getAllArticlesData().filter(article => (article.slug === params?.slug[1]) && (article.directory === params?.slug[0]))
+  let article = getAllArticlesData()?.filter(article => (article.slug === params?.slug[1]) && (article.directory === params?.slug[0]))
   if (article?.length === 0) {
     article = [getArticleFromParams(params)];
   }

@@ -17,18 +17,18 @@ import CardsListSkeleton from "@/components/blog-components/skeltons/card-list-s
  * @returns {JSX.Element} The card slider component.
  */
 export default function CardSlider({ articles, showNav = true }) {
-  const unique_key_prefix = articles.map((article) => article?.title?.slice(2, 3)).join("-");
+  const unique_key_prefix = articles?.map((article) => article?.title?.slice(2, 3)).join("-");
   const slicedArticles = articles?.length > 5 ? randomArticlesFromArray(articles, 5) : articles;
 
   function handleNextSlide() {
     if (articles?.length > 1) {
-      setCurrentIndex((currentIndex + 1) % slicedArticles.length);
+      setCurrentIndex((currentIndex + 1) % slicedArticles?.length);
     }
   }
 
   function handlePrevSlide() {
     if (articles?.length > 1) {
-      setCurrentIndex((currentIndex - 1 + slicedArticles.length) % slicedArticles.length);
+      setCurrentIndex((currentIndex - 1 + slicedArticles?.length) % slicedArticles?.length);
     }
   }
 
@@ -36,10 +36,10 @@ export default function CardSlider({ articles, showNav = true }) {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentIndex((currentIndex + 1) % slicedArticles.length);
+      setCurrentIndex((currentIndex + 1) % slicedArticles?.length);
     }, 20000);
     return () => clearInterval(interval);
-  }, [currentIndex, slicedArticles.length]);
+  }, [currentIndex, slicedArticles?.length]);
 
 
   return (

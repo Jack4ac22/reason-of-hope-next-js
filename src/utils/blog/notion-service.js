@@ -178,7 +178,7 @@ export async function confirmSubscription(token) {
     })
   );
 
-  if (res.results.length === 0) throw new Error('No pending subscriber');
+  if (res.results.length === 0) throw new Error(code="ERR_SUBSCRIBER_NOT_FOUND",'No pending subscriber');
 
   const pageId = res.results[0].id;
   const now = new Date().toISOString();
@@ -312,10 +312,8 @@ export async function updateContactStatus(pageId, newStatus) {
 
 // fetch minimal subscriber data by token
 export async function getSubscriberData(token) {
-  confirmSubscription(token);
   const { email, pageId, act } = await readJWT(token);
   if (act !== 'confirmSub') throw new Error('Invalid token');
-
   const page = await retry(() => read.pages.retrieve({ page_id: pageId }));
   return {
     pageId,

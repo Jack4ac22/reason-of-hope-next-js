@@ -35,7 +35,7 @@ export async function subscribeAction(prevState, formData) {
   const email = formData.get('email')?.toString().trim().toLowerCase();
 
   if (!email || !/^[\w.+-]+@\w+\.\w{2,}$/.test(email)) {
-    return { ok: false, error: 'Invalid e-mail address.' };
+    return { ok: false, error: 'البريد إلكتروني غير صالح' };
   }
 
   try {
@@ -62,12 +62,12 @@ export async function confirmSubscriptionAction(token) {
   // verify token & flip Pending→Active
   const { pageId } = await confirmSubscription(token);
 
-  // notify admin (optional)
-  await sendSubscribeAdminNotification(`Subscriber confirmed: ${pageId}`);
 
   // return data for profile-completion redirect
   const data = await getSubscriberData(token);
-  return data;           // { pageId, email, name, phone }
+  // notify admin (optional)
+  await sendSubscribeAdminNotification(data.email);
+  return data;
 }
 
 /*──────────────────────────────────────────────────────────────

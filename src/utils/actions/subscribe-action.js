@@ -51,6 +51,7 @@ export async function subscribeAction(prevState, formData) {
 
     return { ok: true };
   } catch (err) {
+    
     return { ok: false, error: err.message };
   }
 }

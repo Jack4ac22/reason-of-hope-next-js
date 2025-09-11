@@ -7,7 +7,6 @@
  * 100 % server-only — do NOT import in client components.
  */
 'use server';
-
 if (typeof window !== 'undefined') {
   throw new Error('notion-service.js must never run in the browser');
 }

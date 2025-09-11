@@ -16,7 +16,7 @@ export default function SubscriberDetailsForm({ token, initial, fun }) {
     <>
       {state?.response ? (
         <>
-          <SuccessfullyContacted />
+          {/* <SuccessfullyContacted /> */}
         </>
       ) : (
         <div

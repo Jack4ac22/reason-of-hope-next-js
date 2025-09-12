@@ -1,7 +1,7 @@
 import { FaXTwitter, FaFacebook, FaYoutube, FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa6";
-import ThemeSwitch from '@/components/blog-components/ui/dark-mode/dark-light-system';
+// import ThemeSwitch from '@/components/blog-components/ui/dark-mode/dark-light-system';
 import FooterLinks from '@/components/blog-components/ui/footer/footer-link';
-import SubscribeForm from "@/components/contact-us/subscribe-form";
+// import SubscribeForm from "@/components/contact-us/subscribe-form";
 import Link from 'next/link';
 export default function MainFooter() {
   const socialLinks = [
@@ -61,9 +61,9 @@ export default function MainFooter() {
                 ))}
                 {/* <ThemeSwitch /> */}
               </div>
-              <div className="w-1/2 h-full">
+              {/* <div className="w-1/2 h-full">
                 <SubscribeForm />
-              </div>
+              </div> */}
             </div>
             <div className="w-full md:w-6/12 px-4 print:hidden">
               <div className="flex flex-wrap items-top mb-6">

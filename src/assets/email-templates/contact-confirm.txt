@@ -1,0 +1,13 @@
+Dear friend,
+
+We received the message below.  We will forward it to our team only after you confirm.
+
+---
+{{messagePreview}}
+---
+
+  ✅ Confirm and send:  {{confirmLink}}
+  ❌ Cancel / delete:   {{cancelLink}}
+
+If you do nothing, the message will be discarded automatically.
+— Reason of Hope

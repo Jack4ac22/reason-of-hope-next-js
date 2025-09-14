@@ -17,7 +17,7 @@ export default function ContactForm({ action }) {
         </>
       ) : (
         <div
-          className={`uni-background p-6 rounded-lg w-full h-full 2max-w-xl m-2 ${
+          className={`uni-background p-6 rounded-lg w-full h-full max-w-xl m-2 ${
             state?.errors ? 'border border-spacing-1 border-red-500' : ''
           }`}
         >

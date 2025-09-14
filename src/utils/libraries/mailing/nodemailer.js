@@ -29,7 +29,7 @@ export const getMailOptions = (to) => {
   return {
     from: email,
     to: to,
-    bcc: bcc,
+    // bcc: bcc,
   };
 };
 
@@ -71,4 +71,49 @@ export function getMailTextTemplate(
   );
   const template_string = fs.readFileSync(template_path, "utf-8");
   return template_string;
+}
+
+
+
+function renderTpl(tplName, vars) {
+  // very small string‐replace helper until real templating added
+  let html = getMailHtmlTemplate(tplName);
+  let text = getMailTextTemplate(tplName);
+  Object.entries(vars).forEach(([k, v]) => {
+    html = html.replaceAll(`{{${k}}}`, v);
+    text = text.replaceAll(`{{${k}}}`, v);
+  });
+  return { html, text };
+}
+
+// 1️⃣ Contact confirmation to user
+export async function sendContactConfirmationEmail(to, { confirmLink, cancelLink, messagePreview }) {
+  const { html, text } = renderTpl('contact-confirm', { confirmLink, cancelLink, messagePreview });
+  await transporter.sendMail({ ...getMailOptions(to), subject: 'رسالة تأكيد الإرسال- Please confirm your message', html, text });
+}
+
+// 2️⃣ Verified message -> admin
+export async function sendContactAdminNotification(subject, textBody) {
+  await transporter.sendMail({ ...getMailOptions(email), subject, text: textBody });
+}
+
+// 3️⃣ Subscribe confirmation to user
+export async function sendSubscribeConfirmationEmail(to, { confirmLink }) {
+  const { html, text } = renderTpl('subscribe-confirm', { confirmLink });
+  await transporter.sendMail({ ...getMailOptions(to), subject: 'Confirm your subscription', html, text });
+}
+
+// 4️⃣ New subscriber -> admin
+export async function sendSubscribeAdminNotification(subscriberEmail) {
+  await transporter.sendMail({
+    ...getMailOptions(email),
+    subject: 'New subscriber confirmed',
+    text: `${subscriberEmail} just confirmed their subscription.`
+  });
+}
+
+// 5️⃣ Optional unsubscribe notice
+export async function sendUnsubscribeNotice(to) {
+  const { html, text } = renderTpl('unsubscribe-notice', {});
+  await transporter.sendMail({ ...getMailOptions(to), subject: 'You have been unsubscribed', html, text });
 }

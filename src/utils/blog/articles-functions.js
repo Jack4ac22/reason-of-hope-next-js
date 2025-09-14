@@ -144,7 +144,7 @@ export function getRelatedArticles(article, number = 5) {
   let relatedArticles = [];
 
   // Collect articles by categories
-  if (Array.isArray(article.categories)) {
+  if (Array.isArray(article?.categories)) {
     article.categories.forEach((category) => {
       const articlesByCategory = getArticlesByCategory(category);
       relatedArticles.push(...articlesByCategory);
@@ -152,7 +152,7 @@ export function getRelatedArticles(article, number = 5) {
   }
 
   // Collect articles by tags
-  if (Array.isArray(article.tags)) {
+  if (Array.isArray(article?.tags)) {
     article.tags.forEach((tag) => {
       const articlesByTag = getArticlesByTag(tag);
       relatedArticles.push(...articlesByTag);
@@ -168,13 +168,13 @@ export function getRelatedArticles(article, number = 5) {
 
   // Remove the current article from the list
   uniqueArticles = uniqueArticles.filter(
-    (relatedArticle) => relatedArticle.slug !== article.slug
+    (relatedArticle) => relatedArticle?.slug !== article?.slug
   );
 
   // Check if we have enough related articles
   if (uniqueArticles.length < 3) {
     let randomArticles = getAllArticlesData(true).filter(
-      (relatedArticle) => relatedArticle.slug !== article.slug
+      (relatedArticle) => relatedArticle?.slug !== article?.slug
     );
     randomArticles = shuffleArray(randomArticles);
     return randomArticles.slice(0, number);

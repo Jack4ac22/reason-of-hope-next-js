@@ -4,8 +4,8 @@ import { Spotify } from 'react-spotify-embed';
 import YouTube from "react-youtube";
 
 export default function MediaPlayersHeader({ article }) {
-  const spotify_link = article.spotify || filterByKeyValue(article?.audio, 'spotify');
-  const youtube_link = article.youtube || filterByKeyValue(article?.audio, 'youtube');
+  const spotify_link = article?.spotify || filterByKeyValue(article?.audio, 'spotify');
+  const youtube_link = article?.youtube || filterByKeyValue(article?.audio, 'youtube');
   const opts = {
     width: "100%",
     height: "150",

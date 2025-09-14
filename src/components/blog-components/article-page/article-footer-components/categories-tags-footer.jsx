@@ -1,7 +1,7 @@
 import Link from "next/link";
 export default function CatTagFooter({ article }) {
-  const categories = article.categories
-  const tags = article.tags
+  const categories = article?.categories
+  const tags = article?.tags
   return (
     <>
       <div className="px-4 print:hidden">

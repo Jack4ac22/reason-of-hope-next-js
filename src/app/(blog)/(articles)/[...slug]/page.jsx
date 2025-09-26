@@ -32,7 +32,7 @@ export default function Page({ params }) {
   if (article?.length === 0) {
     article = [getArticleFromParams(params)];
   }
-  if (article.length === 0) notFound()
+  if ((article.length === 0) || !article || !article[0]) { notFound() }
   return (
     <>
       <main className="flex justify-center uni-text-color">

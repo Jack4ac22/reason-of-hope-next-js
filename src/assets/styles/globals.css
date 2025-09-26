@@ -67,6 +67,15 @@ section > h1 {
   @apply break-words whitespace-normal overflow-hidden truncate;
 }
 
+p > blockquote,
+.article-body blockquote {
+  @apply border-l-4 border-mainBrand-600 dark:border-mainBrand-200 pl-4 ml-2 my-4 italic text-darkAccent-800 dark:text-darkAccent-100 bg-lightShade-200 dark:bg-darkAccent-800 rounded-md;
+}
+
+.article-body p > blockquote > p {
+  @apply mb-2;
+}
+
 .local-table {
   @apply my-2 p-2 table-auto w-full max-w-[80vw] border-2 rounded border-collapse;
 }
@@ -106,4 +115,6 @@ section > h1 {
   p {
     @apply text-wrap whitespace-pre-wrap;
   }
+
+  
 }

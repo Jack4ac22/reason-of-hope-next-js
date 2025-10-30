@@ -14,8 +14,8 @@ resources:
     link: "Grieving-james-white-arabic-e.pdf"
   - title: "epub"
     link: "Grieving-james-white-arabic-e.epub"
-  # - title: "googleBooks"
-  #   link: ""
+  - title: "googleBooks"
+    link: "https://books.google.de/books?id=c46TEQAAQBAJ&printsec=frontcover&hl=de&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false"
   - title: "appleBooks"
     link: "http://books.apple.com/us/book/id6754703074"
 audio:

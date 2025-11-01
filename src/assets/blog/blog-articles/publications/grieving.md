@@ -22,7 +22,7 @@ audio:
   - applePodcasts: ""
   - googlePodcasts: ""
   - hearthisAt: ""
-  - spotify: ""
+  - spotify: "https://open.spotify.com/episode/4z9sRm7TDsC1k1bV217B24?si=DRWI3AiNT7SYuEeTb3Xt4w"
   - anchorLink: ""
 externalLink: ""
 authors:

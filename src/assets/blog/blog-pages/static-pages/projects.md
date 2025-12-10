@@ -16,9 +16,9 @@ coverImage: "soon-page-cover-image.png"
 
 ## مشاريع الترجمة
 
-1. ترجمة كتاب **الثالوث المنسي** للدكتور حيمس وايت: يتعامل هذا الكتاب مع قضية الثالوث المقدس، ويقدم دراس ومنهجية دفاعية مبسطة لعقيدة الثالوث المقدس المسيحية. هذا الكتاب قيد الترجمة حالياً.
+1. ترجمة كتاب **الثالوث المنسي** للدكتور جيمس وايت: يتعامل هذا الكتاب مع قضية الثالوث المقدس، ويقدم دراس ومنهجية دفاعية مبسطة لعقيدة الثالوث المقدس المسيحية. هذا الكتاب قيد الترجمة حالياً.
 2. ترجمة كتاب **الكتاب المقدس وحده** للدكتور جيمس وايت. يقدم هذا الكتاب تعريفاً منهجياً لعقيدة كفاية الكتاب المقدس ومبدأ **سولا سكريبتورا** الذي يعتبر من المبادئ الإصلاحية الأساسية. هذا الكتاب قيد الترجمة حالياً.
-3. كتاب **الحزن: طريق عودتك إلى السلام** للدكتور جيمس وايت. يقدم هذا الكتاب تعزية ومشورة كتابية للمتألمين الذين يواجهون واقعاً جديداً إثر رحيل أحد أحبائهم. هذا الكتاب في طور التدقيق اللغوي والإملائي والتحرير.
+3. كتاب **الحزن: طريق عودتك إلى السلام** للدكتور جيمس وايت. يقدم هذا الكتاب تعزية ومشورة كتابية للمتألمين الذين يواجهون واقعاً جديداً إثر رحيل أحد أحبائهم. تم نشر الكتاب في ديسمبر ٢٠٢٥.
 
 ## مشاريع برمجية
 
@@ -36,7 +36,7 @@ We are continuously engaged in translating or preparing several biblical studies
 
 1. Translating **The Forgotten Trinity** by Dr. James White: This book addresses the doctrine of the Holy Trinity and offers a clear and accessible apologetic for the Christian belief in the Trinity. This project is currently in progress.
 2. Translating **Scripture Alone** by Dr. James White: This book gives a structured explanation of the sufficiency of Scripture and the foundational Reformation principle of **Sola Scriptura**. This project is currently in progress.
-3. **Grieving: Your Path Back to Peace** by Dr. James White: This book provides biblical comfort and pastoral counsel to those grieving the loss of a loved one. It is currently in the proofreading and editing stage.
+3. **Grieving: Your Path Back to Peace** by Dr. James White: This book provides biblical comfort and pastoral counsel to those grieving the loss of a loved one. The bool is published on December 2025.
 
 ## Software Projects
 
